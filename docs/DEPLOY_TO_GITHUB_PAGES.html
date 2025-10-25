@@ -357,10 +357,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </section>
 <section id="step-6-connect-local-to-github" class="level3">
 <h3 class="anchored" data-anchor-id="step-6-connect-local-to-github">Step 6: Connect Local to GitHub</h3>
-<p>Copy the commands from GitHub (they’ll look like this):</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/YOUR-USERNAME/bimtakeoff-website.git</span>
+<p>Copy and run these commands:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/robertkowalski1974/bimtakeoff-website.git</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Replace <code>YOUR-USERNAME</code></strong> with your actual GitHub username.</p>
 <hr>
 </section>
 <section id="step-7-enable-github-pages" class="level3">
@@ -382,8 +381,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section id="step-8-verify-your-website" class="level3">
 <h3 class="anchored" data-anchor-id="step-8-verify-your-website">Step 8: Verify Your Website</h3>
 <p>Your site will be available at:</p>
-<pre><code>https://YOUR-USERNAME.github.io/bimtakeoff-website/</code></pre>
-<p><strong>Replace <code>YOUR-USERNAME</code></strong> with your GitHub username.</p>
+<pre><code>https://robertkowalski1974.github.io/bimtakeoff-website/</code></pre>
+<p><strong>Bookmark this URL!</strong></p>
 <hr>
 </section>
 </section>
@@ -403,7 +402,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p><strong>CNAME Record:</strong></p>
 <pre><code>Type: CNAME
 Name: www
-Value: YOUR-USERNAME.github.io</code></pre>
+Value: robertkowalski1974.github.io</code></pre>
 <p><strong>A Records (for apex domain):</strong></p>
 <pre><code>Type: A
 Name: @
@@ -590,7 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/www\.bimtakeoff\.com");
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

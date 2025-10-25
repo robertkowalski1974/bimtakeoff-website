@@ -96,14 +96,12 @@ git commit -m "Initial BIM Takeoff website with GTM tracking"
 
 ### Step 6: Connect Local to GitHub
 
-Copy the commands from GitHub (they'll look like this):
+Copy and run these commands:
 
 ```bash
-git remote add origin https://github.com/YOUR-USERNAME/bimtakeoff-website.git
+git remote add origin https://github.com/robertkowalski1974/bimtakeoff-website.git
 git push -u origin main
 ```
-
-**Replace `YOUR-USERNAME`** with your actual GitHub username.
 
 ---
 
@@ -126,10 +124,10 @@ git push -u origin main
 Your site will be available at:
 
 ```
-https://YOUR-USERNAME.github.io/bimtakeoff-website/
+https://robertkowalski1974.github.io/bimtakeoff-website/
 ```
 
-**Replace `YOUR-USERNAME`** with your GitHub username.
+**Bookmark this URL!**
 
 ---
 
@@ -150,7 +148,7 @@ Add these DNS records:
 ```
 Type: CNAME
 Name: www
-Value: YOUR-USERNAME.github.io
+Value: robertkowalski1974.github.io
 ```
 
 **A Records (for apex domain):**

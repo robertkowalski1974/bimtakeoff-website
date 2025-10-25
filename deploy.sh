@@ -48,7 +48,7 @@ if [ $? -eq 0 ]; then
     echo "🎉 Deployment successful!"
     echo ""
     echo "Your website will be live in 2-3 minutes at:"
-    echo "https://YOUR-USERNAME.github.io/bimtakeoff-website/"
+    echo "https://robertkowalski1974.github.io/bimtakeoff-website/"
     echo ""
     echo "✅ Google Tag Manager (GTM-PLB9BH8W) is active"
 else
