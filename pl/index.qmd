@@ -441,7 +441,7 @@ Rozumiemy specyfikę różnych sektorów budownictwa:
 
 ::: {.trust-badges}
 ::: {.trust-badge}
-#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Certyfikacja RICS
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Wieloletnie Doświadczenie
 Międzynarodowe Standardy QS
 :::
 
@@ -546,7 +546,7 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 **P: Czy znają Państwo polskie standardy i normy kosztorysowe?**
 :::
 ::: {.faq-answer}
-O: Oczywiście. Łączymy międzynarodowe standardy RICS z pełną zgodnością KNR/KNNR. Nasze kosztorysy są przygotowane zgodnie z polskimi wymogami, wykorzystując zarówno międzynarodowe doświadczenie, jak i lokalną wiedzę rynkową.
+O: Oczywiście. Łączymy międzynarodowe standardy z pełną zgodnością z polskimi wymaganiami. Nasze kosztorysy są przygotowane zgodnie z polskimi wymogami, wykorzystując zarówno międzynarodowe doświadczenie, jak i lokalną wiedzę rynkową.
 :::
 :::
 
@@ -591,7 +591,7 @@ O: Tak. Nasze procesy są zgodne z nadchodzącymi wymogami BIM 2030. Wspieramy k
 **P: Czym różnią się Państwo od lokalnych firm kosztorysowych?**
 :::
 ::: {.faq-answer}
-O: Przynosimy 20 lat międzynarodowego doświadczenia z rynków, gdzie BIM 5D jest standardem. Łączymy zaawansowaną technologię BIM z certyfikacją RICS i pełną znajomością polskich standardów KNR/KNNR. Oferujemy 90% redukcję czasu kosztorysowania przy dokładności ±5%.
+O: Przynosimy 20 lat międzynarodowego doświadczenia z rynków, gdzie BIM 5D jest standardem. Łączymy zaawansowaną technologię BIM z pełną znajomością polskich standardów KNR/KNNR. Oferujemy 90% redukcję czasu kosztorysowania przy dokładności ±5%.
 :::
 :::
 :::
