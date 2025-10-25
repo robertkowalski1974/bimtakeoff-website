@@ -76,7 +76,7 @@ website:
         href: coming-soon.qmd
     right:
       - text: "PL"
-        href: coming-soon.qmd
+        href: pl/index.qmd
       - text: "EN"
         href: index.qmd
     

@@ -1,0 +1,132 @@
+project:
+  type: website
+  output-dir: ../docs/pl
+
+website:
+  title: "BIM Takeoff"
+  site-url: https://robertkowalski1974.github.io/bimtakeoff-website/pl
+  description: "Profesjonalne Kosztorysowanie BIM 5D | 20 Lat Międzynarodowego Doświadczenia"
+  
+  navbar:
+    background: "#2C2C2C"
+    foreground: "#FFFFFF"
+    logo: "../images/BIM TAKEOFF V2-2.jpg"
+    logo-alt: "Logo BIM Takeoff"
+    left:
+      - text: "Strona Główna"
+        href: index.qmd
+      - text: "Usługi"
+        menu:
+          - text: "Kosztorysowanie i Planowanie Budżetu"
+            href: coming-soon.qmd
+          - text: "Specjalistyczne Usługi Branżowe"
+            href: coming-soon.qmd
+          - text: "Zautomatyzowany Przedmiar Ilości"
+            href: coming-soon.qmd
+          - text: "Szybka Kontrola Kosztów"
+            href: coming-soon.qmd
+          - text: "Modelowanie Kosztów BREEAM/ESG"
+            href: coming-soon.qmd
+          - text: "Precyzja Infrastruktury MEP"
+            href: coming-soon.qmd
+          - text: "Analiza Wieloscenariuszowa"
+            href: coming-soon.qmd
+          - text: "Kompleksowe Raportowanie"
+            href: coming-soon.qmd
+          - text: "Pisanie Ofert i Zarządzanie Przetargami"
+            href: coming-soon.qmd
+          - text: "Tradycyjny Przedmiar Ilości"
+            href: coming-soon.qmd
+          - text: "Zarządzanie Danymi Budowlanymi"
+            href: coming-soon.qmd
+          - text: "Logistyka Budowlana"
+            href: coming-soon.qmd
+      - text: "Branże"
+        menu:
+          - text: "Magazyny i Logistyka"
+            href: coming-soon.qmd
+          - text: "Centra Danych"
+            href: coming-soon.qmd
+          - text: "Deweloperstwo Mieszkaniowe"
+            href: coming-soon.qmd
+          - text: "Remediacja"
+            href: coming-soon.qmd
+          - text: "Deweloperstwo Komercyjne"
+            href: coming-soon.qmd
+          - text: "Opieka Zdrowotna i Obiekty Medyczne"
+            href: coming-soon.qmd
+          - text: "Przemysł i Produkcja"
+            href: coming-soon.qmd
+          - text: "Infrastruktura i Roboty Inżynieryjne"
+            href: coming-soon.qmd
+      - text: "Portfolio"
+        href: coming-soon.qmd
+      - text: "Zasoby"
+        menu:
+          - text: "Przewodnik BIM 2030"
+            href: coming-soon.qmd
+          - text: "Kalkulator ROI"
+            href: coming-soon.qmd
+          - text: "Studia Przypadków"
+            href: coming-soon.qmd
+      - text: "O Nas"
+        href: coming-soon.qmd
+      - text: "Kontakt"
+        href: coming-soon.qmd
+    right:
+      - text: "PL"
+        href: index.qmd
+      - text: "EN"
+        href: ../index.qmd
+    
+  sidebar: false
+  
+  page-footer:
+    background: "#2C2C2C"
+    foreground: "#FFFFFF"
+    left: |
+      © 2025 BIM Takeoff. Wszelkie prawa zastrzeżone.<br>
+      Profesjonalne Usługi Kosztorysowania BIM 5D
+    center: |
+      **Szybkie Linki**<br>
+      [Polityka Prywatności](coming-soon.qmd) | [Warunki Usługi](coming-soon.qmd)
+    right: |
+      **Kontakt**<br>
+      [info@bimtakeoff.com](mailto:info@bimtakeoff.com)<br>
+      [+44 (0) 20 3239 9967](tel:+442032399967)
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - ../custom.scss
+    css: 
+      - ../css/styles.css
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+    code-fold: false
+    code-tools: false
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header:
+      text: |
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
+        <!-- End Google Tag Manager -->
+    include-after-body:
+      text: |
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
