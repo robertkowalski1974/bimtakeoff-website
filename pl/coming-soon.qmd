@@ -1,6 +1,60 @@
 ---
 title: "Wkrótce"
 page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+        (function() {
+            const translations = {
+                'Home': 'Strona Główna', 'Services': 'Usługi', 'Industries': 'Branże',
+                'Portfolio': 'Portfolio', 'Resources': 'Zasoby', 'About': 'O Nas', 'Contact': 'Kontakt',
+                'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+                'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+                'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+                'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+                'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+                'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+                'Multi-Scenario Analysis': 'Analiza Wariantowa',
+                'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+                'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+                'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+                'Construction Data Management': 'Zarządzanie Danymi BIM',
+                'Construction Logistics': 'Logistyka Budowlana',
+                'Warehouses & Logistics': 'Magazyny i Logistyka',
+                'Data Centers': 'Centra Danych',
+                'Residential Development': 'Deweloperstwo Mieszkaniowe',
+                'Remediation': 'Remediacja i Modernizacja',
+                'Commercial Development': 'Deweloperstwo Komercyjne',
+                'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+                'Industrial & Manufacturing': 'Przemysł i Produkcja',
+                'Infrastructure & Civil Works': 'Infrastruktura',
+                'BIM 2030 Guide': 'Przewodnik BIM 2030',
+                'ROI Calculator': 'Kalkulator Oszczędności',
+                'Case Studies': 'Studia Przypadków',
+                'All rights reserved': 'Wszelkie prawa zastrzeżone'
+            };
+            function translatePage() {
+                document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+                    const text = el.textContent.trim();
+                    if (translations[text]) el.textContent = translations[text];
+                });
+                const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+                phoneLinks.forEach(link => {
+                    link.href = 'tel:+48508209313';
+                    link.textContent = '+48 508 209 313';
+                });
+                document.documentElement.lang = 'pl';
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', translatePage);
+            } else {
+                translatePage();
+            }
+            setTimeout(translatePage, 100);
+        })();
+        </script>
 ---
 
 ::: {style="min-height: 70vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #2C2C2C 0%, #3a3a3a 100%);"}
@@ -8,12 +62,12 @@ page-layout: full
 
 <i class="bi bi-tools" style="font-size: 120px; color: #FF9900; margin-bottom: 32px; display: block;"></i>
 
-<h1 style="color: #FFFFFF; font-family: 'Inter', sans-serif; font-weight: 700;">Budujemy Coś Wspaniałego</h1>
+<h1 style="color: #FFFFFF; font-family: 'Inter', sans-serif; font-weight: 700;">Przygotowujemy Dla Państwa Szczegółowe Informacje</h1>
 
 ::: {style="color: #FFFFFF; font-size: 20px; line-height: 1.6; margin: 32px 0;"}
-Ta sekcja jest obecnie w budowie. Ciężko pracujemy, aby dostarczyć kompleksowe informacje i zasoby.
+Ta sekcja jest obecnie w przygotowaniu. Pracujemy nad dostarczeniem Państwu kompleksowych informacji i zasobów dotyczących naszych usług kosztorysowania BIM.
 
-**Wróć wkrótce** - regularnie dodajemy nowe treści, aby lepiej służyć Twoim potrzebom w zakresie BIM i kosztorysowania.
+**Zapraszamy wkrótce** – regularnie rozbudowujemy treści, aby lepiej służyć Państwa potrzebom w zakresie kosztorysowania i przedmiarów budowlanych.
 :::
 
 ::: {style="margin-top: 48px;"}
@@ -22,11 +76,11 @@ Ta sekcja jest obecnie w budowie. Ciężko pracujemy, aby dostarczyć kompleksow
 
 ::: {style="margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255, 153, 0, 0.3);"}
 ::: {style="color: #F0F0F0; font-size: 16px;"}
-**Potrzebujesz natychmiastowej pomocy?**
+**Pytania? Zapraszamy do Kontaktu**
 
 <p style="margin: 16px 0;">
 <a href="mailto:info@bimtakeoff.com" style="color: #FF9900; text-decoration: none;">info@bimtakeoff.com</a> | 
-<a href="tel:+442032399967" style="color: #FF9900; text-decoration: none;">+44 (0) 20 3239 9967</a>
+<a href="tel:+48508209313" style="color: #FF9900; text-decoration: none;">+48 508 209 313</a>
 </p>
 :::
 :::

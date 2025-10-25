@@ -1,6 +1,60 @@
 ---
-title: "BIM Takeoff | Profesjonalne Usługi Przedmiarowe i Kosztorysowe"
+title: "BIM Takeoff | Kosztorysowanie BIM 5D | Przedmiary i Obmiary"
 page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+        (function() {
+            const translations = {
+                'Home': 'Strona Główna', 'Services': 'Usługi', 'Industries': 'Branże',
+                'Portfolio': 'Portfolio', 'Resources': 'Zasoby', 'About': 'O Nas', 'Contact': 'Kontakt',
+                'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+                'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+                'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+                'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+                'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+                'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+                'Multi-Scenario Analysis': 'Analiza Wariantowa',
+                'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+                'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+                'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+                'Construction Data Management': 'Zarządzanie Danymi BIM',
+                'Construction Logistics': 'Logistyka Budowlana',
+                'Warehouses & Logistics': 'Magazyny i Logistyka',
+                'Data Centers': 'Centra Danych',
+                'Residential Development': 'Deweloperstwo Mieszkaniowe',
+                'Remediation': 'Remediacja i Modernizacja',
+                'Commercial Development': 'Deweloperstwo Komercyjne',
+                'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+                'Industrial & Manufacturing': 'Przemysł i Produkcja',
+                'Infrastructure & Civil Works': 'Infrastruktura',
+                'BIM 2030 Guide': 'Przewodnik BIM 2030',
+                'ROI Calculator': 'Kalkulator Oszczędności',
+                'Case Studies': 'Studia Przypadków',
+                'All rights reserved': 'Wszelkie prawa zastrzeżone'
+            };
+            function translatePage() {
+                document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+                    const text = el.textContent.trim();
+                    if (translations[text]) el.textContent = translations[text];
+                });
+                const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+                phoneLinks.forEach(link => {
+                    link.href = 'tel:+48508209313';
+                    link.textContent = '+48 508 209 313';
+                });
+                document.documentElement.lang = 'pl';
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', translatePage);
+            } else {
+                translatePage();
+            }
+            setTimeout(translatePage, 100);
+        })();
+        </script>
 ---
 
 ::: {.hero-section}
@@ -14,19 +68,19 @@ page-layout: full
 ::: {.hero-title}
 <br>
 
-### Ekspertiza w Przedmiarach i Kosztorysowaniu dla Doskonałości w Budownictwie
+### Kosztorysowanie BIM. Nowy wymiar dokładności.
 
 
-# Usługi BIM Takeoff
+# Profesjonalne Przedmiary i Kosztorysy
 :::
 
 ::: {.hero-subtitle}
-Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót konstrukcyjnych, ochrony przeciwpożarowej i fasad. Od szczegółowych przedmiarów po kompletne pakiety przetargowe - dostarczamy na całym świecie.
+20 lat doświadczenia na rynkach UK, EU i Australii. Ponad 2000 projektów w zakresie zabudowy wewnętrznej, struktur, ochrony przeciwpożarowej i fasad. Dostarczamy precyzyjne kosztorysy zgodne z aktualnymi przepisami i wymogami BIM 2030.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[SKONTAKTUJ SIĘ](coming-soon.qmd){.cta-primary}
-[ZOBACZ USŁUGI](coming-soon.qmd){.cta-secondary}
+[Zapraszamy do Kontaktu](coming-soon.qmd){.cta-primary}
+[Poznaj Nasze Usługi](coming-soon.qmd){.cta-secondary}
 :::
 :::
 :::
@@ -41,9 +95,9 @@ Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót ko
 <i class="bi bi-award" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
 
 ::: {style="flex: 1;"}
-**Doskonałość w Kosztorysowaniu**
+**Eksperci w Kosztorysowaniu z Międzynarodowym Doświadczeniem**
 
-2000+ Wycenionych Projektów | Wielka Brytania, Australia i Europa
+20 lat doświadczenia | 2000+ Projektów | Wielka Brytania, Australia i Europa
 :::
 :::
 
@@ -53,7 +107,7 @@ Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót ko
 ::: {style="flex: 1;"}
 **Specjalistyczna Wiedza Branżowa**
 
-Systemy Zabudowy Wewnętrznej | Ochrona Przeciwpożarowa | Fasady i Elewacje | Roboty Konstrukcyjne
+Systemy Suchej Zabudowy | Ochrona Przeciwpożarowa | Fasady | Roboty Konstrukcyjne
 :::
 :::
 
@@ -61,21 +115,21 @@ Systemy Zabudowy Wewnętrznej | Ochrona Przeciwpożarowa | Fasady i Elewacje | R
 <i class="bi bi-shield-check" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
 
 ::: {style="flex: 1;"}
-**Eksperci od Przepisów BSR/HRB**
+**Zgodność z Polskimi Standardami**
 
-Ustawa o Bezpieczeństwie Budynków | Budynki Wysokiego Ryzyka | Bezpieczeństwo Pożarowe
+Zgodność z ISO 19650  | 2000+ Projektów UK/EU/AU | Gotowość BIM 2030
 :::
 :::
 
 :::
 
-## Specjalistyczne Kosztorysowanie dla Złożonych Projektów Budowlanych
+## Kosztorysowanie BIM 5D – Międzynarodowe Standardy, Lokalna Wiedza
 
-Nie wszystkie usługi kosztorysowe są jednakowe. Specjalizujemy się w pakietach wysokiej wartości i wysokiej złożoności, gdzie dokładność ma największe znaczenie - systemy zabudowy wewnętrznej, roboty konstrukcyjne (FRP, stropy podwieszone, słupy, sprężanie), ochrona przeciwpożarowa i zgodność fasad.
+Łączymy międzynarodowe doświadczenie z pełną znajomością polskiego rynku budowlanego. Specjalizujemy się w pakietach wysokiej wartości i złożoności - systemy suchej zabudowy, struktury, ochrona przeciwpożarowa i elewacje.
 
-Dzięki ponad 2000 wycenionym projektom w Wielkiej Brytanii, Australii i Europie, zapewniamy precyzję i szybkość, której potrzebują wykonawcy, aby wygrywać rentowne zlecenia.
+Dzięki ponad 2000 zrealizowanym projektom w Wielkiej Brytanii, Australii i Europie, zapewniamy precyzję potrzebną do wygrywania rentownych zleceń. Stosujemy międzynarodowe standardy przy pełnej zgodności z polskimi wymogami.
 
-Od szczegółowych przedmiarów BIM po oceny kosztów zgodności BSR/HRB, nasza ekspertyza pomaga wyceniać z pewnością i unikać kosztownych niespodzianek.
+Oferujemy kosztorysy zgodne z wymogami BIM 2030, wspierając inwestorów i generalnych wykonawców w przygotowaniu do nowych przepisów.
 
 ::: {.image-section style="margin: 48px 0; text-align: center;"}
 ![Profesjonalna Technologia BIM - Zaawansowane modelowanie 3D i kosztorysowanie](../images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
@@ -96,7 +150,7 @@ Zrealizowanych Projektów
 12M+
 :::
 ::: {.stat-label}
-Metrów Kwadratowych Wycenionych
+m² Wycenionych
 :::
 :::
 
@@ -111,63 +165,63 @@ Lat Doświadczenia
 
 ::: {.stat}
 ::: {.stat-number}
-3-5
+90%
 :::
 ::: {.stat-label}
-Dni Realizacji
+Redukcja Czasu Kosztorysowania
 :::
 :::
 :::
 
-## Dlaczego My?
+## Dlaczego Warto z Nami Współpracować?
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Precyzja Oparta na Doświadczeniu
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Międzynarodowe Doświadczenie, Lokalna Specyfika
 
-**2000+ Projektów na Trzech Kontynentach**
+**20 Lat na Rynkach UK, EU i Australii + Znajomość Polskich Standardów**
 
-Dwie dekady praktycznego doświadczenia w kosztorysowaniu oznaczają, że rozumiemy, co jest ważne. Nasza ekspertyza obejmuje systemy zabudowy wewnętrznej, roboty konstrukcyjne (FRP, stropy podwieszone, słupy, sprężanie), ochronę przeciwpożarową i zgodność fasad - pakiety wysokiej wartości, gdzie dokładność jest kluczowa. Wychwytujemy szczegóły, które pomijają ogólne firmy kosztorysowe, zapewniając wiarygodne dane do pewnego podejmowania decyzji.
+Dwie dekady praktycznego doświadczenia w kosztorysowaniu na wymagających rynkach międzynarodowych. Nasza ekspertyza obejmuje zabudowę wewnętrzną, struktury, ochronę przeciwpożarową i fasady. Łączymy międzynarodowe standardy z pełną zgodnością z polskimi wymaganiami, zapewniając wiarygodne dane do podejmowania decyzji.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Realizacja Bez Kompromisów
+### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Oszczędność Czasu – 90% Szybciej
 
-**Dni, Nie Tygodnie**
+**3 Dni Zamiast 3 Tygodni**
 
-Nowoczesne budownictwo wymaga szybkiego działania, i my również tak działamy. Ekstrahujemy ilości z rysunków 2D, modeli 3D lub sfederowanych środowisk BIM, dostarczając sformatowane wyniki gotowe do Twojego oprogramowania kosztorysowego. Typowy czas realizacji: 2-7 dni, bez poświęcania dokładności gdy terminy przetargowe są napięte.
+Technologia BIM 5D pozwala skrócić czas kosztorysowania o 90% w porównaniu z tradycyjnymi metodami. Wyodrębniamy dane z modeli BIM (Revit, ArchiCAD, Tekla, IFC), dostarczając wyniki gotowe do Państwa oprogramowania kosztorysowego. Typowy czas realizacji: 3-5 dni, zachowując dokładność ±5%.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Inteligentne Budżetowanie Chroniące Marże
+### <i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Wartości Inwestycji
 
-**Rekomendacje Value Engineering**
+**Analiza Value Engineering**
 
-Dokładne kosztorysowanie zapobiega kosztownym przekroczeniom i marnowaniu materiałów. Nasza analiza value engineering identyfikuje oszczędności bez kompromitowania jakości lub zgodności. Czy przetargujesz konkurencyjnie czy planujesz inwestycje, nasze kosztorysy pomagają wyceniać rentownie i unikać finansowych niespodzianek.
+Precyzyjne kosztorysowanie zapobiega przekroczeniom budżetu i marnowaniu materiałów. Nasza analiza i opcje optymalizacji identyfikują oszczędności bez poświęcania jakości czy zgodności z normami lub wymaganiami. Pomagamy wyceniać realnie i unikać niespodzianek podczas realizacji.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokumentacja Gotowa do Audytu
+### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokumentacja Zgodna ze Standardami
 
-**Ustrukturyzowana dla Twojego Procesu**
+**Raporty Gotowe do Audytu i Kontroli**
 
-Otrzymujesz szczegółowe zestawienia ilości, materiałów i kosztów sformatowane dla Twojego konkretnego procesu. Nasze raporty są klarowne, śledzone i gotowe do integracji z Twoim workflow. Każdy przedmiar zawiera kontrole jakości dla dodatkowej pewności.
+Otrzymują Państwo szczegółowe zestawienia ilości, materiałów i kosztów sformatowane zgodnie z Państwa wymaganiami. Nasze raporty są przejrzyste, śledzone i gotowe do integracji z Państwa systemem. Każdy przedmiar zawiera kontrolę jakości  i walidację.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczna Wiedza Branżowa
+### <i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalizacja w Złożonych Pakietach
 
-**Nie Tylko Ogólne QS - Prawdziwa Ekspertyza**
+**Prawdziwa Ekspertyza Branżowa**
 
-Nasz zespół wnosi praktyczną wiedzę branżową w złożonych pakietach budowlanych. Specjalizujemy się w systemach zabudowy wewnętrznej, ochronie przeciwpożarowej, zgodności fasad oraz robotach konstrukcyjnych obejmujących FRP, stropy podwieszone, słupy i systemy sprężające. Jesteśmy na bieżąco z przepisami BSR/HRB po tragedii w Grenfell. Międzynarodowe standardy spotykają się z nowoczesną zdolnością BIM.
+Nasz zespół wnosi praktyczną wiedzę w złożonych pakietach budowlanych. Specjalizujemy się w systemach suchej zabudowy, ochronie przeciwpożarowej, elewacjach oraz robotach konstrukcyjnych. Międzynarodowe doświadczenie w połączeniu z nowoczesną technologią BIM i znajomością polskich przepisów.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zgodność z Ustawą o Bezpieczeństwie Budynków
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Przygotowanie na BIM 2030
 
-**Ekspertyza Post-Grenfell**
+**Zgodność z Nowymi Wymogami**
 
-Nowe przepisy wymagają rygorystycznego budżetowania zgodności. Specjalizujemy się w systemach bezpieczeństwa pożarowego, remediacji fasad i wymogach Regulatora Bezpieczeństwa Budynków. Dokładne planowanie dla Budynków Wysokiego Ryzyka pomaga unikać regulacyjnych niespodzianek kosztowych, które mogą przekroczyć budżety o 50-100%.
+Wspieramy przygotowanie do wymogów BIM 2030. Specjalizujemy się w systemach bezpieczeństwa pożarowego, renowacji elewacji i wymaganiami dotyczącymi bezpieczeństwa. Precyzyjne planowanie pomaga unikać niespodzianek podczas realizacji inwestycji.
 :::
 :::
 
@@ -176,130 +230,130 @@ Nowe przepisy wymagają rygorystycznego budżetowania zgodności. Specjalizujemy
 ::: {.feature-grid}
 ::: {.feature-card}
 ### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie i Planowanie Budżetu
-Dokładne wyceny, które wygrywają zlecenia i chronią marże. Od wstępnych kosztorysów po szczegółowe pakiety przedprzetargowe z analizą value engineering i oceną ryzyka.
+Precyzyjne wyceny zgodne z KNR/KNNR, które pomagają wygrywać przetargi. Od wstępnych kosztorysów po szczegółowe pakiety przetargowe z analizą optymalizacji wartości i oceną ryzyka.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczne Usługi Branżowe
-Głęboka ekspertyza w zabudowie wewnętrznej i przegrodach, systemach ochrony przeciwpożarowej, fasadach i elewacjach oraz robotach konstrukcyjnych (FRP, stropy podwieszone, słupy, sprężanie). Ponad 20 lat praktycznej wiedzy w pakietach wysokiej złożoności.
+Doświadczenie w systemach suchej zabudowy,  ochrony przeciwpożarowej - pasywnej i aktywnej, elewacjach oraz robotach konstrukcyjnych. Ponad 20 lat praktycznego doświaczenia w wycenie skomplikowanych projektów.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Zautomatyzowany Przedmiar Ilości
-Ingestion modeli IFC z Revit, ArchiCAD i Tekla. **90-95% szybciej** niż manualne przedmiary 2D z aktualizacjami w czasie rzeczywistym przy zmianach projektowych.
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automatyczny Przedmiar z Modeli BIM
+Przetwarzanie modeli IFC z Revit, ArchiCAD i Tekla. **90% szybciej** niż tradycyjne przedmiary 2D z aktualizacjami w czasie rzeczywistym przy zmianach projektowych. Dokładność ±5%.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Kontrola Kosztów
-Tygodniowe raporty dla budów 4-6 miesięcznych. System wczesnego ostrzegania przed przekroczeniami budżetu z rekomendacjami value engineering.
+### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Bieżąca Kontrola Kosztów
+Regularne raporty kosztowe dla inwestycji 4-6 miesięcznych. System wczesnego ostrzegania przed przekroczeniami budżetu z rekomendacjami optymalizacji wartości.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>Modelowanie Kosztów BREEAM/ESG
-Kosztorysowanie węglowe zintegrowane ze śledzeniem materiałów zrównoważonych i weryfikacją zgodności certyfikacyjnej.
+### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie BREEAM/ESG
+Kosztorysowanie śladu węglowego zintegrowane ze śledzeniem materiałów zrównoważonych i weryfikacją zgodności certyfikacyjnej. Wsparcie w osiąganiu celów środowiskowych.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Precyzja Infrastruktury MEP
-Specjalistyczne kosztorysowanie dla cross-dockingu, chłodni, HVAC, instalacji elektrycznych i systemów ochrony przeciwpożarowej.
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie Instalacji MEP
+Specjalistyczne kosztorysowanie dla obiektów logistycznych, chłodni, systemów HVAC, instalacji elektrycznych i ochrony przeciwpożarowej.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
-Porównuj alternatywy projektowe, materiały i metody budowy. Podejmuj świadome decyzje poparte dokładnymi danymi kosztowymi.
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wariantowa
+Porównanie alternatywnych rozwiązań projektowych, materiałów i metod budowy. Podejmowanie świadomych decyzji w oparciu o dokładne dane kosztowe.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowe Raportowanie
-Szczegółowe zestawienia kosztów, wizualne dashboardy i raporty gotowe do eksportu zintegrowane z Twoim workflow.
+Szczegółowe zestawienia kosztów, wizualne dashboardy i raporty gotowe do eksportu, zintegrowane z Państwa procesem pracy.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie Przetargami
-Profesjonalna dokumentacja przetargowa i zarządzanie składaniem ofert. Kompleksowa koordynacja ofert od strategii cenowej po finalne składanie, maksymalizując wskaźniki wygranych.
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Przygotowanie Ofert Przetargowych
+Profesjonalna dokumentacja przetargowa i wsparcie w zarządzaniu procesem składania ofert. Kompleksowa koordynacja od strategii cenowej po finalne złożenie oferty.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar Ilości
-Manualny przedmiar z rysunków 2D i specyfikacji. Szczegółowy pomiar i kwantyfikacja gdy modele BIM nie są dostępne, zachowując dokładność dla tradycyjnej realizacji projektów.
+### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar z Rysunków 2D
+Precyzyjny przedmiar z rysunków 2D i specyfikacji. Szczegółowy pomiar i kwantyfikacja gdy modele BIM nie są dostępne, zachowując dokładność dla tradycyjnej realizacji projektów.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Danymi Budowlanymi
-Centralna koordynacja danych projektowych i strukturyzacja danych BIM. Zarządzaj przepływami informacji, zapewniaj jakość danych i utrzymuj dokładność cyfrowych bliźniaków przez cały cykl życia projektu.
+### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Danymi BIM
+Centralna koordynacja danych projektowych i strukturyzacja informacji BIM. Zarządzanie przepływem informacji, zapewnianie jakości danych przez cały cykl życia projektu.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Logistyka Budowlana
-Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koordynacja łańcucha dostaw. Optymalizuj przepływy pracy, minimalizuj opóźnienia i zapewniaj efektywną alokację zasobów na placu budowy.
+Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koordynacja łańcucha dostaw. Optymalizacja przepływów pracy i efektywna alokacja zasobów.
 
 [Dowiedz się więcej →](coming-soon.qmd)
 :::
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Analityka Budowlana Oparta na Danych - Kosztorysowanie w czasie rzeczywistym i wglądy projektowe](../images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![Analityka Budowlana Oparta na Danych - Kosztorysowanie w czasie rzeczywistym](../images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange);">Przekształć Swój Proces Kosztorysowania</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange);">Nowoczesne Kosztorysowanie BIM 5D</h2>
 
-<p style="color: var(--bim-white); font-size: 16px;">Nowoczesne budownictwo wymaga precyzji i szybkości. Nasze usługi wspierane przez BIM dostarczają jedno i drugie, pomagając wygrywać więcej rentownych zleceń przy jednoczesnym zmniejszeniu ryzyka.</p>
+<p style="color: var(--bim-white); font-size: 16px;">Technologia BIM 5D zapewnia precyzję i szybkość potrzebną w nowoczesnym budownictwie. Nasze usługi pomagają wygrywać rentowne zlecenia przy jednoczesnym zmniejszeniu ryzyka przekroczeń budżetu.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px;"}
 ::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">90-95%</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Szybciej niż manualne przedmiary</p>
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">90%</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Redukcja czasu kosztorysowania</p>
 :::
 
 ::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±3%</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Dokładność kosztów finalnych</p>
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±5%</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Dokładność wyceny</p>
 :::
 
 ::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">24godz</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Aktualizacje zmian projektowych</p>
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">24h</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Aktualizacje przy zmianach</p>
 :::
 :::
 :::
 :::
 
-## Specjalistyczna Ekspertyza Branżowa
+## Ekspertyza Branżowa
 
-Rozumiemy unikalne wymagania różnych sektorów budownictwa:
+Rozumiemy specyfikę różnych sektorów budownictwa:
 
 ::: {.feature-grid}
 ::: {.feature-card}
 ### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Magazyny i Logistyka
 **Doświadczenie:** Centra dystrybucyjne, chłodnie, obiekty fulfillment  
-**Specjalizacja:** Szybka realizacja, obiekty cross-dockingowe, chłodnie
+**Specjalizacja:** Realizacja fast-track, obiekty cross-dockingowe, instalacje chłodnicze
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Magazynowe →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
@@ -308,68 +362,68 @@ Rozumiemy unikalne wymagania różnych sektorów budownictwa:
 **Doświadczenie:** Obiekty Tier III/IV  
 **Specjalizacja:** Krytyczne systemy MEP, redundancja zasilania, infrastruktura chłodzenia
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Data Center →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo Mieszkaniowe
-**Doświadczenie:** Wielorodzinne, projekty mieszane  
-**Specjalizacja:** Kosztorysowanie na poziomie jednostek, integracja prefabrykatów, efektywność energetyczna
+**Doświadczenie:** Budownictwo wielorodzinne, projekty mieszane  
+**Specjalizacja:** Kosztorysowanie na poziomie lokali, prefabrykacja, efektywność energetyczna
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Deweloperskie →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediacja
-**Doświadczenie:** Zgodność z Ustawą o Bezpieczeństwie Budynków, modernizacje fasad  
-**Specjalizacja:** Systemy bezpieczeństwa pożarowego, remediacja okładzin, wymogi BSR/HRB
+### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediacja i Modernizacja
+**Doświadczenie:** Zgodność z przepisami bezpieczeństwa, modernizacje elewacji  
+**Specjalizacja:** Systemy bezpieczeństwa pożarowego, remediacja okładzin, wymogi BIM 2030
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Remediacyjne →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo Komercyjne
 **Doświadczenie:** Biurowce, centra handlowe, kompleksy mieszane  
-**Specjalizacja:** Zabudowy najemców, realizacja etapowa, value engineering
+**Specjalizacja:** Aranżacje najemców, realizacja etapowa, optymalizacja wartości
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Komercyjne →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Opieka Zdrowotna i Obiekty Medyczne
-**Doświadczenie:** Szpitale, centra medyczne, obiekty chirurgiczne  
-**Specjalizacja:** Kompartmentacja przeciwpożarowa, systemy gazów medycznych, redundancja zasilania krytycznego
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Opieka Zdrowotna
+**Doświadczenie:** Szpitale, centra medyczne, obiekty specjalistyczne  
+**Specjalizacja:** Kompartmentacja przeciwpożarowa, systemy gazów medycznych, redundancja zasilania
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Healthcare →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Przemysł i Produkcja
-**Doświadczenie:** Zakłady produkcyjne, montażownie, centra przetwórcze  
-**Specjalizacja:** Ciężkie obciążenia konstrukcyjne, systemy wsparcia dźwigów, integracja MEP przemysłowego
+**Doświadczenie:** Zakłady produkcyjne, hale montażowe  
+**Specjalizacja:** Konstrukcje ciężkie, systemy dźwigowe, przemysłowe instalacje MEP
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Przemysłowe →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastruktura i Roboty Inżynieryjne
+### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastruktura
 **Doświadczenie:** Mosty, tunele, infrastruktura transportowa  
-**Specjalizacja:** Konstrukcje sprężane, fundamenty głębokie, systemy MEP inżynieryjne
+**Specjalizacja:** Konstrukcje sprężane, fundamenty głębokie, systemy inżynieryjne
 
-::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Poznaj Rozwiązania Infrastrukturalne →](coming-soon.qmd){.cta-primary}
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
@@ -387,25 +441,25 @@ Rozumiemy unikalne wymagania różnych sektorów budownictwa:
 
 ::: {.trust-badges}
 ::: {.trust-badge}
-#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Doświadczeni Kosztorysanci
-Profesjonaliści QS
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Certyfikacja RICS
+Międzynarodowe Standardy QS
 :::
 
 ::: {.trust-badge}
 #### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>ISO 19650
-Przepływy Pracy BIM Poziom 2
+BIM Poziom 2 Compliance
 :::
 
 ::: {.trust-badge}
 #### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>20 Lat Doświadczenia
-Rynki UK, EU i Australia
+UK, EU, Australia
 :::
 :::
 :::
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Zaawansowane Przepływy Pracy BIM - Współpraca w zarządzaniu projektami i kosztorysowanie](../images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![Zaawansowane Przepływy Pracy BIM - Współpraca w zarządzaniu projektami](../images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {.container}
@@ -414,60 +468,60 @@ Rynki UK, EU i Australia
 
 ::: {.process-steps}
 ::: {.process-step}
-#### Przesłanie Modelu + Kick-off
-Prześlij swój model BIM. Godzinne spotkanie kick-off, aby zrozumieć wymagania projektu, zakres i specyfikacje.
+#### 1. Przesłanie Modelu + Kick-off
+Przekazanie modelu BIM. Spotkanie inicjujące w celu zrozumienia wymagań projektu, zakresu i specyfikacji.
 :::
 
 ::: {.process-step}
-#### Zautomatyzowany Przedmiar + Przegląd
-Nasze oprogramowanie ekstrahuje ilości automatycznie. Zespół ekspertów QS sprawdza i waliduje wszystkie pomiary dla dokładności.
+#### 2. Automatyczny Przedmiar + Weryfikacja
+Oprogramowanie ekstrahuje ilości automatycznie. Zespół ekspertów sprawdza i waliduje wszystkie pomiary dla zapewnienia dokładności.
 :::
 
 ::: {.process-step}
-#### Analiza Kosztów
-Stosujemy aktualne stawki rynkowe, lokalne bazy cenowe i niestandardowe specyfikacje, aby stworzyć szczegółowe zestawienie kosztów.
+#### 3. Analiza Kosztów
+Stosujemy aktualne stawki rynkowe, lokalne bazy cenowe (KNR/KNNR) i specyfikacje projektowe do stworzenia szczegółowego zestawienia kosztów.
 :::
 
 ::: {.process-step}
-#### Dostarczenie Szczegółowego Raportu
-Kompleksowe zestawienie kosztów z wizualnymi dashboardami, porównaniami scenariuszy i formatami gotowymi do eksportu.
+#### 4. Dostarczenie Raportu
+Kompleksowe zestawienie kosztów z wizualnymi dashboardami, porównaniami wariantów i formatami gotowymi do eksportu.
 :::
 
 ::: {.process-step}
-#### Prezentacja + Q&A
-Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach value engineering.
+#### 5. Prezentacja + Pytania
+Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach optymalizacji wartości.
 :::
 :::
 
 ::: {.callout-box}
-#### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozpocznij od Projektu Pilotażowego
-**Oferta Ograniczona Czasowo:** Pierwszy projekt 50% taniej. Doświadcz precyzji i szybkości BIM 5D bez długoterminowego zobowiązania.
+#### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekt Pilotażowy
+**Oferta Wprowadzająca:** Pierwszy projekt z 50% rabatem. Przekonają się Państwo o precyzji i szybkości BIM 5D bez długoterminowych zobowiązań.
 
-[Zaplanuj Swój Projekt Pilotażowy →](coming-soon.qmd){.cta-primary}
+[Zaplanuj Projekt Pilotażowy →](coming-soon.qmd){.cta-primary}
 :::
 
 ::: {style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;"}
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;"}
 ::: {style="padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
-<h3 style="color: var(--bim-charcoal); margin-top: 0; margin-bottom: 16px;">Gotowy Zobaczyć Różnicę?</h3>
+<h3 style="color: var(--bim-charcoal); margin-top: 0; margin-bottom: 16px;">Zapraszamy do Współpracy</h3>
 
-<p style="color: var(--bim-charcoal); margin-bottom: 16px;">Doświadcz precyzji i szybkości nowoczesnego kosztorysowania BIM. Od szczegółowych przedmiarów po kompletne pakiety przetargowe, dostarczamy dokładność potrzebną do wygrywania rentownych zleceń.</p>
+<p style="color: var(--bim-charcoal); margin-bottom: 16px;">Przekonają się Państwo o precyzji i szybkości nowoczesnego kosztorysowania BIM. Od szczegółowych przedmiarów po kompletne pakiety przetargowe – dostarczamy dokładność potrzebną do wygrywania rentownych zleceń.</p>
 
-<p style="color: var(--bim-charcoal); font-weight: 600; margin-bottom: 8px;">Co otrzymujesz:</p>
+<p style="color: var(--bim-charcoal); font-weight: 600; margin-bottom: 8px;">Co otrzymają Państwo:</p>
 <ul style="color: var(--bim-charcoal); margin-bottom: 24px;">
 <li>Szczegółowe przedmiary ilościowe</li>
-<li>Profesjonalne kosztorysy</li>
-<li>Analiza value engineering</li>
+<li>Profesjonalne kosztorysy zgodne z KNR/KNNR</li>
+<li>Analiza optymalizacji wartości</li>
 <li>Raporty gotowe do audytu</li>
 </ul>
 
 ::: {style="margin-top: 24px;"}
-[Rozpocznij →](coming-soon.qmd){.cta-primary}
+[Zapraszamy do Kontaktu →](coming-soon.qmd){.cta-primary}
 :::
 :::
 
 ::: {style="background: var(--bim-charcoal); padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
-<p style="color: var(--bim-white); font-weight: 600; margin-bottom: 8px;">Zaufali nam wykonawcy z:</p>
+<p style="color: var(--bim-white); font-weight: 600; margin-bottom: 8px;">Zaufali nam deweloperzy i wykonawcy z:</p>
 
 ::: {style="margin-top: 24px; line-height: 2;"}
 <p style="color: var(--bim-white); margin: 0;">🇬🇧 Wielkiej Brytanii</p>
@@ -476,8 +530,8 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--bim-medium-gray);"}
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">2000+ dostarczonych projektów</p>
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">12M+ mkw. wycenionych</p>
+<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">2000+ zrealizowanych projektów</p>
+<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">12M+ m² wycenionych</p>
 <p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">20+ lat doświadczenia</p>
 :::
 :::
@@ -489,70 +543,70 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy pracujecie z międzynarodowymi bazami cenowymi i standardami?**
+**P: Czy znają Państwo polskie standardy i normy kosztorysowe?**
 :::
 ::: {.faq-answer}
-O: Tak, pracujemy z lokalnymi bazami cenowymi w całej Wielkiej Brytanii, UE i Australii. Dostosowujemy się do standardów Twojego rynku, w tym RICS NRM, BCIS i regionalnych danych kosztowych, aby zapewnić dokładne kosztorysy.
+O: Oczywiście. Łączymy międzynarodowe standardy RICS z pełną zgodnością KNR/KNNR. Nasze kosztorysy są przygotowane zgodnie z polskimi wymogami, wykorzystując zarówno międzynarodowe doświadczenie, jak i lokalną wiedzę rynkową.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jak radzicie sobie z szybkimi zmianami projektowymi?**
+**P: Jak szybko mogą Państwo zaktualizować kosztorys przy zmianach projektowych?**
 :::
 ::: {.faq-answer}
-O: Aktualizacje w czasie rzeczywistym. Gdy następują zmiany w Twoim modelu BIM, możemy zaktualizować koszty w ciągu 24 godzin.
+O: Technologia BIM 5D pozwala na aktualizacje w czasie rzeczywistym. Gdy następują zmiany w modelu BIM, możemy zaktualizować kosztorys w ciągu 24 godzin, zachowując pełną dokładność wyceny.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy oferujecie bieżącą kontrolę kosztów podczas budowy?**
+**P: Czy oferują Państwo bieżącą kontrolę kosztów podczas realizacji?**
 :::
 ::: {.faq-answer}
-O: Absolutnie. Zapewniamy tygodniowe lub miesięczne raporty kosztów, porównując rzeczywiste vs. szacunkowe koszty z systemem wczesnego ostrzegania przed przekroczeniami.
+O: Tak. Zapewniamy regularne raporty kosztowe (tygodniowe lub miesięczne), porównując rzeczywiste koszty z planowanymi. System wczesnego ostrzegania pozwala przewidzieć przekroczenia budżetu zanim staną się problemem.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jakie formaty plików akceptujecie?**
+**P: Jakie formaty plików BIM obsługują Państwo?**
 :::
 ::: {.faq-answer}
-O: IFC (Industry Foundation Classes) z Revit, ArchiCAD, Tekla. Obsługujemy również rysunki 2D, gdy modele BIM nie są dostępne.
+O: Pracujemy z formatem IFC (Industry Foundation Classes) z Revit, ArchiCAD i Tekla. Obsługujemy również tradycyjne rysunki 2D i specyfikacje, gdy modele BIM nie są dostępne.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy obsługujecie projekty poniżej 30 000 m²?**
+**P: Czy są Państwo przygotowani na wymogi BIM 2030?**
 :::
 ::: {.faq-answer}
-O: Tak, chociaż specjalizujemy się w większych projektach, przyjmujemy projekty wszystkich rozmiarów. Skontaktuj się z nami, aby omówić Twoje konkretne potrzeby.
+O: Tak. Nasze procesy są zgodne z nadchodzącymi wymogami BIM 2030. Wspieramy klientów w przygotowaniu do nowych przepisów, szczególnie w obszarze bezpieczeństwa pożarowego i elewacji.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Co wyróżnia Was od innych firm kosztorysowych?**
+**P: Czym różnią się Państwo od lokalnych firm kosztorysowych?**
 :::
 ::: {.faq-answer}
-O: Nasze międzynarodowe doświadczenie (20 lat UK/Australia), zaawansowana technologia BIM oraz specjalistyczna wiedza branżowa w złożonych pakietach, takich jak zabudowa wewnętrzna, roboty konstrukcyjne (FRP, stropy podwieszone, słupy, sprężanie), ochrona przeciwpożarowa i fasady. Łączymy globalne najlepsze praktyki z lokalną wiedzą rynkową i zgodnością regulacyjną.
+O: Przynosimy 20 lat międzynarodowego doświadczenia z rynków, gdzie BIM 5D jest standardem. Łączymy zaawansowaną technologię BIM z certyfikacją RICS i pełną znajomością polskich standardów KNR/KNNR. Oferujemy 90% redukcję czasu kosztorysowania przy dokładności ±5%.
 :::
 :::
 :::
 
-## Gotowy Doświadczyć Precyzyjnego Kosztorysowania?
+## Zapraszamy do Współpracy
 
 ::: {.callout-box .text-center}
-### Dołącz do 2000+ Projektów, Które Zaufały Naszej Ekspertyzie
+### Dołączą Państwo do 2000+ Projektów, Które Zaufały Naszej Ekspertyzie
 
-Zaplanuj bezpłatną 30-minutową konsultację lub rozpocznij od projektu pilotażowego z 50% zniżką
+Zapraszamy na bezpłatną 30-minutową konsultację lub do rozpoczęcia od projektu pilotażowego z 50% rabatem
 
-[Zaplanuj Konsultację](coming-soon.qmd){.cta-primary}
-[Oblicz Swoje Oszczędności](coming-soon.qmd){.cta-secondary}
+[Umów Konsultację](coming-soon.qmd){.cta-primary}
+[Sprawdź Potencjalne Oszczędności](coming-soon.qmd){.cta-secondary}
 
-**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
 :::
 
 :::

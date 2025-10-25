@@ -5,7 +5,8 @@ project:
 website:
   title: "BIM Takeoff"
   site-url: https://robertkowalski1974.github.io/bimtakeoff-website/pl
-  description: "Profesjonalne Kosztorysowanie BIM 5D | 20 Lat Międzynarodowego Doświadczenia"
+  description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia UK/Australia | Zgodność z KNR/KNNR i BIM 2030"
+  favicon: ../images/favicon.ico
   
   navbar:
     background: "#2C2C2C"
@@ -21,23 +22,23 @@ website:
             href: coming-soon.qmd
           - text: "Specjalistyczne Usługi Branżowe"
             href: coming-soon.qmd
-          - text: "Zautomatyzowany Przedmiar Ilości"
+          - text: "Automatyczny Przedmiar z Modeli BIM"
             href: coming-soon.qmd
-          - text: "Szybka Kontrola Kosztów"
+          - text: "Bieżąca Kontrola Kosztów"
             href: coming-soon.qmd
-          - text: "Modelowanie Kosztów BREEAM/ESG"
+          - text: "Kosztorysowanie BREEAM/ESG"
             href: coming-soon.qmd
-          - text: "Precyzja Infrastruktury MEP"
+          - text: "Kosztorysowanie Instalacji MEP"
             href: coming-soon.qmd
-          - text: "Analiza Wieloscenariuszowa"
+          - text: "Analiza Wariantowa"
             href: coming-soon.qmd
           - text: "Kompleksowe Raportowanie"
             href: coming-soon.qmd
-          - text: "Pisanie Ofert i Zarządzanie Przetargami"
+          - text: "Przygotowanie Ofert Przetargowych"
             href: coming-soon.qmd
-          - text: "Tradycyjny Przedmiar Ilości"
+          - text: "Tradycyjny Przedmiar z Rysunków 2D"
             href: coming-soon.qmd
-          - text: "Zarządzanie Danymi Budowlanymi"
+          - text: "Zarządzanie Danymi BIM"
             href: coming-soon.qmd
           - text: "Logistyka Budowlana"
             href: coming-soon.qmd
@@ -49,15 +50,15 @@ website:
             href: coming-soon.qmd
           - text: "Deweloperstwo Mieszkaniowe"
             href: coming-soon.qmd
-          - text: "Remediacja"
+          - text: "Remediacja i Modernizacja"
             href: coming-soon.qmd
           - text: "Deweloperstwo Komercyjne"
             href: coming-soon.qmd
-          - text: "Opieka Zdrowotna i Obiekty Medyczne"
+          - text: "Opieka Zdrowotna"
             href: coming-soon.qmd
           - text: "Przemysł i Produkcja"
             href: coming-soon.qmd
-          - text: "Infrastruktura i Roboty Inżynieryjne"
+          - text: "Infrastruktura"
             href: coming-soon.qmd
       - text: "Portfolio"
         href: coming-soon.qmd
@@ -65,7 +66,7 @@ website:
         menu:
           - text: "Przewodnik BIM 2030"
             href: coming-soon.qmd
-          - text: "Kalkulator ROI"
+          - text: "Kalkulator Oszczędności"
             href: coming-soon.qmd
           - text: "Studia Przypadków"
             href: coming-soon.qmd
@@ -86,14 +87,14 @@ website:
     foreground: "#FFFFFF"
     left: |
       © 2025 BIM Takeoff. Wszelkie prawa zastrzeżone.<br>
-      Profesjonalne Usługi Kosztorysowania BIM 5D
+      Kosztorysowanie BIM 5D | Certyfikacja RICS | Zgodność KNR/KNNR
     center: |
-      **Szybkie Linki**<br>
-      [Polityka Prywatności](coming-soon.qmd) | [Warunki Usługi](coming-soon.qmd)
+      **Informacje**<br>
+      [Polityka Prywatności](coming-soon.qmd) | [Warunki Współpracy](coming-soon.qmd)
     right: |
       **Kontakt**<br>
       [info@bimtakeoff.com](mailto:info@bimtakeoff.com)<br>
-      [+44 (0) 20 3239 9967](tel:+442032399967)
+      [+48 508 209 313](tel:+48508209313)
 
 format:
   html:
@@ -109,6 +110,7 @@ format:
     code-tools: false
     link-external-newwindow: true
     link-external-icon: false
+    lang: pl
     include-in-header:
       text: |
         <!-- Google Tag Manager -->
@@ -119,11 +121,12 @@ format:
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
     include-after-body:
-      text: |
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+      - _polish-navbar-include.html
     
 execute:
   freeze: auto
