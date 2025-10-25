@@ -1,0 +1,100 @@
+/*-- scss:defaults --*/
+
+// BIM Takeoff Brand Colors
+$bim-orange: #FF9900;
+$bim-orange-hover: #E68A00;
+$bim-charcoal: #2C2C2C;
+$bim-white: #FFFFFF;
+$bim-light-gray: #F0F0F0;
+$bim-medium-gray: #757575;
+$bim-dark-gray: #404040;
+
+// Typography - Inter for all web text (per Oct 2025 brand update)
+$font-family-sans-serif: 'Inter', 'Segoe UI', Arial, sans-serif;
+$font-family-monospace: 'Monaco', 'Courier New', 'Consolas', monospace;
+
+// Override Quarto defaults with brand colors
+$body-bg: $bim-white;
+$body-color: $bim-charcoal;
+$link-color: $bim-orange;
+$link-hover-color: $bim-orange-hover;
+
+// Headings
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700;
+$headings-color: $bim-charcoal;
+
+// Navbar
+$navbar-bg: $bim-charcoal;
+$navbar-fg: $bim-white;
+
+// Footer
+$footer-bg: $bim-charcoal;
+$footer-fg: $bim-white;
+
+/*-- scss:rules --*/
+
+// Ensure consistent Inter usage throughout
+body {
+  font-family: $font-family-sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+// Quarto-specific elements
+.quarto-title {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  color: $bim-charcoal;
+}
+
+.quarto-title-meta {
+  font-family: $font-family-sans-serif;
+  color: $bim-medium-gray;
+}
+
+// Links
+a {
+  color: $bim-orange;
+  text-decoration: none;
+  
+  &:hover {
+    color: $bim-orange-hover;
+    text-decoration: underline;
+  }
+}
+
+// Buttons
+.btn-primary {
+  background-color: $bim-orange;
+  border-color: $bim-orange;
+  color: $bim-white;
+  
+  &:hover {
+    background-color: $bim-orange-hover;
+    border-color: $bim-orange-hover;
+  }
+}
+
+// Code blocks
+code {
+  font-family: $font-family-monospace;
+  background-color: $bim-light-gray;
+  color: $bim-charcoal;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $bim-light-gray;
+  border-left: 3px solid $bim-orange;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $bim-orange;
+  padding-left: 1rem;
+  color: $bim-medium-gray;
+  font-style: italic;
+}

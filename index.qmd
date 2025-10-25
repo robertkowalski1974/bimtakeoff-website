@@ -1,0 +1,559 @@
+---
+title: "BIM Takeoff | Professional QS & Cost Estimation Services"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="images/header-background.jpg">
+    <source src="images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+<br>
+
+### Expert Quantity Surveying & Cost Estimation for Construction Excellence
+
+
+# BIM Takeoff Services
+:::
+
+::: {.hero-subtitle}
+Over 2,000 projects delivered across drylining, structural works, fire protection, and facade packages. From detailed takeoffs to complete tender packages - we deliver worldwide.
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[GET IN TOUCH](coming-soon.qmd){.cta-primary}
+[VIEW SERVICES](coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## About Us
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<i class="bi bi-award" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+
+::: {style="flex: 1;"}
+**Quantity Surveying Excellence**
+
+2,000+ Projects Estimated | UK, Australia & Europe
+:::
+:::
+
+::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<i class="bi bi-tools" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+
+::: {style="flex: 1;"}
+**Specialist Trade Knowledge**
+
+Drylining Systems | Fire Protection | Facades & Cladding | Structural Works
+:::
+:::
+
+::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<i class="bi bi-shield-check" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+
+::: {style="flex: 1;"}
+**BSR/HRB Compliance Experts**
+
+Building Safety Act | High Risk Buildings | Fire Safety
+:::
+:::
+
+:::
+
+## Specialist Quantity Surveying for Complex Construction
+
+Not all QS services are created equal. We specialize in high-value, 
+high-complexity packages where accuracy matters most - drylining systems, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facade compliance.
+
+With 2,000+ projects estimated across UK, Australia, and Europe, we deliver the precision and speed contractors need to win profitable work.
+
+From detailed BIM takeoffs to BSR/HRB compliance cost assessments, our expertise helps you price with confidence and avoid costly surprises.
+
+::: {.image-section style="margin: 48px 0; text-align: center;"}
+![Professional BIM Technology - Advanced 3D modeling and cost estimation](images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+:::
+
+::: {.stats-section}
+::: {.stat}
+::: {.stat-number}
+2000+
+:::
+::: {.stat-label}
+Projects Delivered
+:::
+:::
+
+::: {.stat}
+::: {.stat-number}
+12M+
+:::
+::: {.stat-label}
+Square Meters Estimated
+:::
+:::
+
+::: {.stat}
+::: {.stat-number}
+20+
+:::
+::: {.stat-label}
+Years Experience
+:::
+:::
+
+::: {.stat}
+::: {.stat-number}
+3-5
+:::
+::: {.stat-label}
+Days Turnaround
+:::
+:::
+:::
+
+## Why Us?
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Precision Built on Experience
+
+**2,000+ Projects Across Three Continents**
+
+Two decades of hands-on quantity surveying means we understand what matters. Our expertise spans drylining systems, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facade compliance - the high-value packages where accuracy is critical. We catch the details that generic QS firms miss, giving you reliable data for confident decision-making.
+:::
+
+::: {.feature-card}
+### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast Turnaround Without Compromise
+
+**Days, Not Weeks**
+
+Modern construction moves fast, and so do we. We extract quantities from 2D drawings, 3D models, or federated BIM environments, delivering formatted outputs ready for your estimating software. Typical turnaround: 2-7 days, without sacrificing accuracy when tender deadlines are tight.
+:::
+
+::: {.feature-card}
+### <i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Smart Budgeting That Protects Margins
+
+**Value Engineering Recommendations**
+
+Accurate estimation prevents costly overruns and material wastage. Our value engineering analysis identifies savings without compromising quality or compliance. Whether tendering competitively or planning developments, our estimates help you price profitably and avoid financial surprises.
+:::
+
+::: {.feature-card}
+### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Audit-Ready Deliverables
+
+**Structured for Your Workflow**
+
+Receive detailed breakdowns of quantities, materials, and costs formatted for your specific process. Our reports are clear, traceable, and ready to integrate into your workflow. Every takeoff includes quality assurance checks for added confidence.
+:::
+
+::: {.feature-card}
+### <i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;"></i>Specialist Trade Knowledge
+
+**Not Just General QS - True Expertise**
+
+Our team brings hands-on trade expertise in complex construction packages. We specialize in drylining systems, fire protection, facade compliance, and structural works including FRP, suspended slabs, columns, and post-tension systems. Staying current with BSR/HRB regulations post-Grenfell. International standards meets modern BIM capability.
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Building Safety Act Compliance
+
+**Post-Grenfell Expertise**
+
+New regulations demand rigorous compliance budgeting. We specialize in fire safety systems, facade remediation, and Building Safety Regulator requirements. Accurate planning for High Risk Buildings helps you avoid regulatory cost surprises that can exceed budgets by 50-100%.
+:::
+:::
+
+## Our Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Cost Estimation & Budget Planning
+Accurate pricing that wins work and protects margins. From preliminary estimates to detailed pre-tender packages with value engineering analysis and risk assessment.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade-Specific Specialist Services
+Deep expertise in drylining & partitions, fire protection systems, facades & cladding, and structural works (FRP, suspended slabs, columns, post-tension). 20+ years hands-on knowledge in high-complexity packages.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automated Quantity Takeoff
+IFC model ingestion from Revit, ArchiCAD, and Tekla. **90-95% faster** than manual 2D takeoffs with real-time updates on design changes.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Cost Control
+Weekly reports for 4-6 month builds. Early warning system for budget overruns with value engineering recommendations.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>BREEAM/ESG Cost Modeling
+Carbon costing integrated with sustainable materials tracking and certification compliance verification.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>MEP Infrastructure Precision
+Specialized costing for cross-docking, cold storage, HVAC, electrical, and fire suppression systems.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+Compare design alternatives, materials, and construction methods. Make informed decisions backed by accurate cost data.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Comprehensive Reporting
+Detailed cost breakdowns, visual dashboards, and export-ready reports integrated with your workflow.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing & Bid Management
+Professional tender documentation and submission management. Complete bid coordination from pricing strategy to final submission, maximizing win rates.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Traditional Quantity Takeoff
+Manual takeoff from 2D drawings and specifications. Detailed measurement and quantification when BIM models aren't available, maintaining accuracy for traditional project delivery.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Data Management
+Centralized project data coordination and BIM data structuring. Manage information flows, ensure data quality, and maintain digital twin accuracy throughout project lifecycle.
+
+[Learn more →](coming-soon.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Logistics
+Site logistics planning, material delivery scheduling, and supply chain coordination. Optimize workflows, minimize delays, and ensure efficient resource allocation on-site.
+
+[Learn more →](coming-soon.qmd)
+:::
+:::
+
+::: {.image-section style="margin: 64px 0; text-align: center;"}
+![Data-Driven Construction Analytics - Real-time cost estimation and project insights](images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+:::
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange);">Transform Your Estimation Process</h2>
+
+<p style="color: var(--bim-white); font-size: 16px;">Modern construction demands precision and speed. Our BIM-powered services deliver both, helping you win more profitable work while reducing risk.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px;"}
+::: {style="padding: 16px;"}
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">90-95%</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Faster than manual takeoffs</p>
+:::
+
+::: {style="padding: 16px;"}
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±3%</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Final cost accuracy</p>
+:::
+
+::: {style="padding: 16px;"}
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">24hrs</h3>
+<p style="color: var(--bim-white); font-weight: 600;">Design change updates</p>
+:::
+:::
+:::
+:::
+
+## Specialized Industry Expertise
+
+We understand the unique requirements of different construction sectors:
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Warehouses & Logistics
+**Experience:** Distribution centers, cold storage, fulfillment facilities  
+**Specialization:** Fast-track delivery, cross-docking facilities, cold storage
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Warehouse Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Centers
+**Experience:** Tier III/IV facilities  
+**Specialization:** Critical MEP systems, power redundancy, cooling infrastructure
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Data Center Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Residential Development
+**Experience:** Multi-family, mixed-use projects  
+**Specialization:** Unit-level costing, prefab integration, energy efficiency
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Development Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediation
+**Experience:** Building Safety Act compliance, facade upgrades  
+**Specialization:** Fire safety systems, cladding remediation, BSR/HRB requirements
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Remediation Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Commercial Development
+**Experience:** Office buildings, retail centers, mixed-use complexes  
+**Specialization:** Tenant fit-outs, phased delivery, value engineering
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Commercial Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Healthcare & Medical Facilities
+**Experience:** Hospitals, medical centers, surgical facilities  
+**Specialization:** Fire-rated compartmentation, medical gas systems, critical power redundancy
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Healthcare Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Industrial & Manufacturing
+**Experience:** Production facilities, assembly plants, processing centers  
+**Specialization:** Heavy structural loading, crane support systems, industrial MEP integration
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Industrial Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastructure & Civil Works
+**Experience:** Bridges, tunnels, transport infrastructure  
+**Specialization:** Post-tensioned structures, deep foundations, civil MEP systems
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Infrastructure Solutions →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card style="padding: 0 !important; margin: 0 !important; overflow: hidden; position: relative; min-height: 350px;"}
+<img src="images/construction-site.png" alt="Construction Excellence" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+:::
+:::
+:::
+
+:::
+
+::: {.trust-section}
+::: {.container}
+## Why International Developers Trust Us
+
+::: {.trust-badges}
+::: {.trust-badge}
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Experienced Quantity Surveyors
+Expert QS Professionals
+:::
+
+::: {.trust-badge}
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>ISO 19650
+BIM Level 2 Workflows
+:::
+
+::: {.trust-badge}
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>20 Years Experience
+UK, EU & Australia Markets
+:::
+:::
+:::
+:::
+
+::: {.image-section style="margin: 64px 0; text-align: center;"}
+![Advanced BIM Workflows - Collaborative project management and estimation](images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+:::
+
+::: {.container}
+
+## Our Process: From BIM Model to Cost Estimate in 3-5 Days
+
+::: {.process-steps}
+::: {.process-step}
+#### Model Upload + Kick-off
+Upload your BIM model. 1-hour kick-off call to understand project requirements, scope, and specifications.
+:::
+
+::: {.process-step}
+#### Automated Takeoff + Review
+Our software extracts quantities automatically. Expert QS team reviews and validates all measurements for accuracy.
+:::
+
+::: {.process-step}
+#### Cost Analysis
+Apply current market rates, local pricing databases, and custom specifications to create detailed cost breakdown.
+:::
+
+::: {.process-step}
+#### Detailed Report Delivery
+Comprehensive cost breakdown with visual dashboards, scenario comparisons, and export-ready formats.
+:::
+
+::: {.process-step}
+#### Presentation + Q&A
+Walk through the report together, answer questions, and discuss value engineering opportunities.
+:::
+:::
+
+::: {.callout-box}
+#### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Start with a Pilot Project
+**Limited Time Offer:** First project 50% off. Experience the precision and speed of BIM 5D without long-term commitment.
+
+[Schedule Your Pilot Project →](coming-soon.qmd){.cta-primary}
+:::
+
+::: {style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;"}
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;"}
+::: {style="padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
+<h3 style="color: var(--bim-charcoal); margin-top: 0; margin-bottom: 16px;">Ready to See the Difference?</h3>
+
+<p style="color: var(--bim-charcoal); margin-bottom: 16px;">Experience the precision and speed of modern BIM estimation. From detailed takeoffs to complete tender packages, we deliver the accuracy you need to win profitable work.</p>
+
+<p style="color: var(--bim-charcoal); font-weight: 600; margin-bottom: 8px;">What you get:</p>
+<ul style="color: var(--bim-charcoal); margin-bottom: 24px;">
+<li>Detailed quantity takeoffs</li>
+<li>Professional cost estimates</li>
+<li>Value engineering analysis</li>
+<li>Audit-ready reports</li>
+</ul>
+
+::: {style="margin-top: 24px;"}
+[Get Started →](coming-soon.qmd){.cta-primary}
+:::
+:::
+
+::: {style="background: var(--bim-charcoal); padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
+<p style="color: var(--bim-white); font-weight: 600; margin-bottom: 8px;">Trusted by contractors across:</p>
+
+::: {style="margin-top: 24px; line-height: 2;"}
+<p style="color: var(--bim-white); margin: 0;">🇬🇧 United Kingdom</p>
+<p style="color: var(--bim-white); margin: 0;">🇦🇺 Australia</p>
+<p style="color: var(--bim-white); margin: 0;">🇪🇺 European Union</p>
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--bim-medium-gray);"}
+<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">2,000+ projects delivered</p>
+<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">12M+ sqm estimated</p>
+<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">20+ years experience</p>
+:::
+:::
+:::
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you work with international pricing databases and standards?**
+:::
+::: {.faq-answer}
+A: Yes, we work with local pricing databases across UK, EU, and Australia. We adapt to your market's standards including RICS NRM, BCIS, and regional cost data to ensure accurate estimates.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle fast-track design changes?**
+:::
+::: {.faq-answer}
+A: Real-time updates. When changes occur in your BIM model, we can update costs within 24 hours.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you offer ongoing cost control during construction?**
+:::
+::: {.faq-answer}
+A: Absolutely. We provide weekly or monthly cost reports, comparing actual vs. estimated costs with early warning systems for overruns.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What file formats do you accept?**
+:::
+::: {.faq-answer}
+A: IFC (Industry Foundation Classes) from Revit, ArchiCAD, Tekla. We also handle 2D drawings when BIM models aren't available.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you handle projects under 30,000 m²?**
+:::
+::: {.faq-answer}
+A: Yes, while we specialize in larger projects, we accept projects of all sizes. Contact us to discuss your specific needs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What makes you different from other quantity surveying firms?**
+:::
+::: {.faq-answer}
+A: Our international experience (20 years UK/Australia), advanced BIM technology, and specialist trade expertise in complex packages like drylining, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facades. We combine global best practices with local market knowledge and regulatory compliance.
+:::
+:::
+:::
+
+## Ready to Experience Precision Cost Estimation?
+
+::: {.callout-box .text-center}
+### Join 2000+ Projects That Trusted Our Expertise
+
+Schedule a free 30-minute consultation or start with a 50% off pilot project
+
+[Schedule Consultation](coming-soon.qmd){.cta-primary}
+[Calculate Your Savings](coming-soon.qmd){.cta-secondary}
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+:::
+
+:::
