@@ -55,6 +55,17 @@
         'Terms of Service': 'Warunki Usługi'
     };
 
+    // Define Polish-only navbar items to inject
+    // These items will ONLY appear on Polish pages, not on English
+    const polishOnlyItems = [
+        {
+            parentMenu: 'Zasoby',  // Which menu to add to (after translation)
+            text: 'Przewodnik BIM 2030',
+            href: '/pl/coming-soon.html',
+            position: 'first'  // 'first', 'last', or index number (0-based)
+        }
+    ];
+
     // Define link translations (English path -> Polish path)
     // IMPORTANT: Use absolute paths starting with /pl/ to avoid relative path issues
     // This ensures links work correctly from any subdirectory
@@ -121,6 +132,68 @@
         });
     }
 
+    // Function to add Polish-only navbar items
+    function addPolishOnlyItems() {
+        polishOnlyItems.forEach(item => {
+            // Check if this item already exists to prevent duplicates
+            const existingPolishItems = document.querySelectorAll(`[data-polish-only="true"]`);
+            for (const existing of existingPolishItems) {
+                if (existing.textContent.trim() === item.text) {
+                    return; // Item already injected, skip
+                }
+            }
+            // Find the parent menu by its text (after translation)
+            const menuItems = document.querySelectorAll('.nav-item.dropdown');
+            let parentMenu = null;
+            
+            for (const menuItem of menuItems) {
+                const menuLink = menuItem.querySelector('.nav-link');
+                if (menuLink && menuLink.textContent.trim() === item.parentMenu) {
+                    parentMenu = menuItem;
+                    break;
+                }
+            }
+            
+            if (!parentMenu) {
+                console.warn(`Parent menu "${item.parentMenu}" not found for Polish-only item`);
+                return;
+            }
+            
+            // Find the dropdown menu container
+            const dropdownMenu = parentMenu.querySelector('.dropdown-menu');
+            if (!dropdownMenu) {
+                console.warn(`Dropdown menu not found in "${item.parentMenu}"`);
+                return;
+            }
+            
+            // Create the new menu item
+            const newItem = document.createElement('a');
+            newItem.className = 'dropdown-item';
+            newItem.href = item.href;
+            newItem.textContent = item.text;
+            newItem.setAttribute('data-polish-only', 'true'); // Mark as Polish-only
+            
+            // Insert at specified position
+            const existingItems = dropdownMenu.querySelectorAll('.dropdown-item');
+            
+            if (item.position === 'first') {
+                dropdownMenu.insertBefore(newItem, dropdownMenu.firstChild);
+            } else if (item.position === 'last') {
+                dropdownMenu.appendChild(newItem);
+            } else if (typeof item.position === 'number') {
+                const targetItem = existingItems[item.position];
+                if (targetItem) {
+                    dropdownMenu.insertBefore(newItem, targetItem);
+                } else {
+                    dropdownMenu.appendChild(newItem);
+                }
+            } else {
+                // Default to first
+                dropdownMenu.insertBefore(newItem, dropdownMenu.firstChild);
+            }
+        });
+    }
+
     // Function to translate navbar
     function translateNavbar() {
         // Replace phone number for Polish site
@@ -168,6 +241,9 @@
         
         // Set language attribute
         document.documentElement.lang = 'pl';
+        
+        // Add Polish-only items AFTER translation is complete
+        addPolishOnlyItems();
     }
 
     // Wait for DOM to be ready
