@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIM Takeoff - Coming Soon</title>
+<title>BIM Takeoff - Wkrótce</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/favicon.ico" rel="icon">
+<link href="./../images/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -54,30 +54,73 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
-<!-- End Google Tag Manager -->
+<script>
+(function() {
+    const translations = {
+        'Home': 'Strona Główna', 'Services': 'Usługi', 'Industries': 'Branże',
+        'Portfolio': 'Portfolio', 'Resources': 'Zasoby', 'About': 'O Nas', 'Contact': 'Kontakt',
+        'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+        'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+        'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+        'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+        'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+        'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+        'Multi-Scenario Analysis': 'Analiza Wariantowa',
+        'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+        'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+        'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+        'Construction Data Management': 'Zarządzanie Danymi BIM',
+        'Construction Logistics': 'Logistyka Budowlana',
+        'Warehouses & Logistics': 'Magazyny i Logistyka',
+        'Data Centers': 'Centra Danych',
+        'Residential Development': 'Deweloperstwo Mieszkaniowe',
+        'Remediation': 'Remediacja i Modernizacja',
+        'Commercial Development': 'Deweloperstwo Komercyjne',
+        'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+        'Industrial & Manufacturing': 'Przemysł i Produkcja',
+        'Infrastructure & Civil Works': 'Infrastruktura',
+        'BIM 2030 Guide': 'Przewodnik BIM 2030',
+        'ROI Calculator': 'Kalkulator Oszczędności',
+        'Case Studies': 'Studia Przypadków',
+        'All rights reserved': 'Wszelkie prawa zastrzeżone'
+    };
+    function translatePage() {
+        document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+            const text = el.textContent.trim();
+            if (translations[text]) el.textContent = translations[text];
+        });
+        const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+        phoneLinks.forEach(link => {
+            link.href = 'tel:+48508209313';
+            link.textContent = '+48 508 209 313';
+        });
+        document.documentElement.lang = 'pl';
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', translatePage);
+    } else {
+        translatePage();
+    }
+    setTimeout(translatePage, 100);
+})();
+</script>
 
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -88,113 +131,113 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
+    <img src="./../images/BIM TAKEOFF V2-2.jpg" alt="Logo BIM Takeoff" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">BIM Takeoff</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Szukaj"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Strona Główna</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Services</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-usługi" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Usługi</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-usługi">    
         <li>
-    <a class="dropdown-item" href="./services/cost-estimation-budget-planning.html">
- <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+    <a class="dropdown-item" href="./pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">
+ <span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+ <span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Automated Quantity Takeoff</span></a>
+ <span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Fast-Track Cost Control</span></a>
+ <span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+ <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">MEP Infrastructure Precision</span></a>
+ <span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Multi-Scenario Analysis</span></a>
+ <span class="dropdown-text">Analiza Wariantowa</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Comprehensive Reporting</span></a>
+ <span class="dropdown-text">Kompleksowe Raportowanie</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
+ <span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Traditional Quantity Takeoff</span></a>
+ <span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Construction Data Management</span></a>
+ <span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Construction Logistics</span></a>
+ <span class="dropdown-text">Logistyka Budowlana</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Industries</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-branże" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Branże</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-industries">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-branże">    
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+ <span class="dropdown-text">Magazyny i Logistyka</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Data Centers</span></a>
+ <span class="dropdown-text">Centra Danych</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Residential Development</span></a>
+ <span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Remediation</span></a>
+ <span class="dropdown-text">Remediacja i Modernizacja</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Commercial Development</span></a>
+ <span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
+ <span class="dropdown-text">Opieka Zdrowotna</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
+ <span class="dropdown-text">Przemysł i Produkcja</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
+ <span class="dropdown-text">Infrastruktura</span></a>
   </li>  
     </ul>
   </li>
@@ -203,27 +246,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zasoby" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Zasoby</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-zasoby">    
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">BIM 2030 Guide</span></a>
+ <span class="dropdown-text">Przewodnik BIM 2030</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">ROI Calculator</span></a>
+ <span class="dropdown-text">Kalkulator Oszczędności</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Case Studies</span></a>
+ <span class="dropdown-text">Studia Przypadków</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./kontakt.html"> 
+<span class="menu-text">Kontakt</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -252,7 +295,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Coming Soon</h1>
+<h1 class="title">Wkrótce</h1>
 </div>
 
 
@@ -273,20 +316,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div style="text-align: center; max-width: 800px; padding: 48px 32px;">
 <p><i class="bi bi-tools" style="font-size: 120px; color: #FF9900; margin-bottom: 32px; display: block;"></i></p>
 <h1 style="color: #FFFFFF; font-family: 'Inter', sans-serif; font-weight: 700;">
-We’re Building Something Great
+Przygotowujemy Dla Państwa Szczegółowe Informacje
 </h1>
 <div style="color: #FFFFFF; font-size: 20px; line-height: 1.6; margin: 32px 0;">
-<p>This section is currently under construction. We’re working hard to bring you comprehensive information and resources.</p>
-<p><strong>Check back soon</strong> - we’re adding new content regularly to better serve your BIM and quantity surveying needs.</p>
+<p>Ta sekcja jest obecnie w przygotowaniu. Pracujemy nad dostarczeniem Państwu kompleksowych informacji i zasobów dotyczących naszych usług kosztorysowania BIM.</p>
+<p><strong>Zapraszamy wkrótce</strong> – regularnie rozbudowujemy treści, aby lepiej służyć Państwa potrzebom w zakresie kosztorysowania i przedmiarów budowlanych.</p>
 </div>
 <div style="margin-top: 48px;">
-<p><a href="./index.html" class="cta-primary" style="font-size: 18px; padding: 16px 48px;"><i class="bi bi-house-door"></i> Return to Homepage</a></p>
+<p><a href="./index.html" class="cta-primary" style="font-size: 18px; padding: 16px 48px;"><i class="bi bi-house-door"></i> Powrót do Strony Głównej</a></p>
 </div>
 <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255, 153, 0, 0.3);">
 <div style="color: #F0F0F0; font-size: 16px;">
-<p><strong>Need immediate assistance?</strong></p>
+<p><strong>Pytania? Zapraszamy do Kontaktu</strong></p>
 <p style="margin: 16px 0;">
-<a href="mailto:info@bimtakeoff.com" style="color: #FF9900; text-decoration: none;">info@bimtakeoff.com</a> | <a href="tel:+442032399967" style="color: #FF9900; text-decoration: none;">+44 (0) 20 3239 9967</a>
+<a href="mailto:info@bimtakeoff.com" style="color: #FF9900; text-decoration: none;">info@bimtakeoff.com</a> | <a href="tel:+48508209313" style="color: #FF9900; text-decoration: none;">+48 508 209 313</a>
 </p>
 </div>
 </div>
@@ -350,12 +393,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Skopiowano!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Skopiowano!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -377,7 +420,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website\/pl");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -705,13 +748,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 BIM Takeoff. All rights reserved.<br> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2025 BIM Takeoff. Wszelkie prawa zastrzeżone.<br> Kosztorysowanie BIM 5D | Certyfikacja RICS | Zgodność KNR/KNNR</p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br> <a href="./coming-soon.html">Privacy Policy</a> | <a href="./coming-soon.html">Terms of Service</a></p>
+<p><strong>Informacje</strong><br> <a href="./coming-soon.html">Polityka Prywatności</a> | <a href="./coming-soon.html">Warunki Współpracy</a></p>
 </div>
     <div class="nav-footer-right">
-<p><strong>Contact</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Kontakt</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+48508209313">+48 508 209 313</a></p>
 </div>
   </div>
 </footer>
@@ -719,9 +762,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Scroll Effects & Animations -->
-<script src="./js/scroll-effects.js"></script>
-<!-- Polish Navbar Translation (activated only on /pl/ pages) -->
-<script src="./js/polish-navbar.js"></script>
+<script src="../js/scroll-effects.js"></script>
 
 
 
