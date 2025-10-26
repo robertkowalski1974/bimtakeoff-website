@@ -268,7 +268,7 @@ Wspieramy przygotowanie do wymogów BIM 2030. Specjalizujemy się w systemach be
 ### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie i Planowanie Budżetu
 Precyzyjne wyceny zgodne z KNR/KNNR, które pomagają wygrywać przetargi. Od wstępnych kosztorysów po szczegółowe pakiety przetargowe z analizą optymalizacji wartości i oceną ryzyka.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/kosztorysowanie-i-planowanie-budzetu.qmd)
 :::
 
 ::: {.feature-card}

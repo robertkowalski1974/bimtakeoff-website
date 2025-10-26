@@ -179,7 +179,7 @@ New regulations demand rigorous compliance budgeting. We specialize in fire safe
 ### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Cost Estimation & Budget Planning
 Accurate pricing that wins work and protects margins. From preliminary estimates to detailed pre-tender packages with value engineering analysis and risk assessment.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/cost-estimation-budget-planning.qmd)
 :::
 
 ::: {.feature-card}
@@ -277,7 +277,7 @@ Site logistics planning, material delivery scheduling, and supply chain coordina
 :::
 
 ::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±3%</h3>
+<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±5%</h3>
 <p style="color: var(--bim-white); font-weight: 600;">Final cost accuracy</p>
 :::
 
