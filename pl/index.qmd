@@ -132,7 +132,7 @@ Dzięki ponad 2000 zrealizowanym projektom w Wielkiej Brytanii, Australii i Euro
 Oferujemy kosztorysy zgodne z wymogami BIM 2030, wspierając inwestorów i generalnych wykonawców w przygotowaniu do nowych przepisów.
 
 ::: {.image-section style="margin: 48px 0; text-align: center;"}
-![Profesjonalna Technologia BIM - Zaawansowane modelowanie 3D i kosztorysowanie](../images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](../images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {.stats-section}
@@ -314,7 +314,7 @@ Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koord
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Analityka Budowlana Oparta na Danych - Kosztorysowanie w czasie rzeczywistym](../images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](../images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
@@ -459,7 +459,7 @@ UK, EU, Australia
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Zaawansowane Przepływy Pracy BIM - Współpraca w zarządzaniu projektami](../images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](../images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {.container}

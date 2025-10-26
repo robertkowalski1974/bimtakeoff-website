@@ -79,7 +79,7 @@ With 2,000+ projects estimated across UK, Australia, and Europe, we deliver the 
 From detailed BIM takeoffs to BSR/HRB compliance cost assessments, our expertise helps you price with confidence and avoid costly surprises.
 
 ::: {.image-section style="margin: 48px 0; text-align: center;"}
-![Professional BIM Technology - Advanced 3D modeling and cost estimation](images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](images/bim-technology.png){style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {.stats-section}
@@ -261,7 +261,7 @@ Site logistics planning, material delivery scheduling, and supply chain coordina
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Data-Driven Construction Analytics - Real-time cost estimation and project insights](images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
@@ -406,7 +406,7 @@ UK, EU & Australia Markets
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Advanced BIM Workflows - Collaborative project management and estimation](images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![](images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
 :::
 
 ::: {.container}

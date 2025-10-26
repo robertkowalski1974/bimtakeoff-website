@@ -125,6 +125,8 @@ format:
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W"
           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- End Google Tag Manager (noscript) -->
+          <!-- Scroll Effects & Animations -->
+          <script src="js/scroll-effects.js"></script>
     
 execute:
   freeze: auto
