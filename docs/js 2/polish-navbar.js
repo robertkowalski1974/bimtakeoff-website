@@ -63,7 +63,7 @@
         '../index.html': '/pl/index.html',
         './index.html': '/pl/index.html',
         '/index.html': '/pl/index.html',
-        '/': '/pl/',
+        // Note: '/' is NOT translated - it's used by language switcher
         
         // CONTACT - Use absolute paths
         '../contact.html': '/pl/kontakt.html',
@@ -91,9 +91,15 @@
 
     // Function to translate links
     function translateLinks() {
-        // Translate all links in navbar
+        // Translate all links in navbar EXCEPT language switchers
         const navLinks = document.querySelectorAll('.navbar a[href], .dropdown-item[href]');
         navLinks.forEach(link => {
+            // Skip language switcher links (PL/EN)
+            const linkText = link.textContent.trim();
+            if (linkText === 'PL' || linkText === 'EN') {
+                return; // Don't translate language switchers
+            }
+            
             let href = link.getAttribute('href');
             
             // Handle absolute URLs by extracting the pathname

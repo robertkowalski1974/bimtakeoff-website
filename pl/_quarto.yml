@@ -76,7 +76,7 @@ website:
       - text: "PL"
         href: /pl/
       - text: "EN"
-        href: ../index.html
+        href: /
     
   sidebar: false
   
