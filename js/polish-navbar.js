@@ -63,7 +63,9 @@
         '../index.html': '/pl/index.html',
         './index.html': '/pl/index.html',
         '/index.html': '/pl/index.html',
-        // Note: '/' is NOT translated - it's used by language switcher
+        'index.html': '/pl/index.html',
+        '/': '/pl/',  // This is for Strona Główna, not language switcher
+        // Note: Language switcher EN link uses '/' but is excluded by the linkText check
         
         // CONTACT - Use absolute paths
         '../contact.html': '/pl/kontakt.html',

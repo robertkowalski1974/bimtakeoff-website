@@ -64,8 +64,6 @@ website:
         href: coming-soon.qmd
       - text: "Resources"
         menu:
-          - text: "BIM 2030 Guide"
-            href: coming-soon.qmd
           - text: "ROI Calculator"
             href: coming-soon.qmd
           - text: "Case Studies"
