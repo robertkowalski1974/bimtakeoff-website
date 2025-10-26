@@ -118,32 +118,77 @@ format:
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
+        
         <!-- Polish Translation Script -->
         <script>
         (function() {
+            const translations = {
+                'Home': 'Strona Główna',
+                'Services': 'Usługi',
+                'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+                'Specialist Trade Services': 'Specjalistyczne Usługi Branżowe',
+                'Automated BIM Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+                'Ongoing Cost Control': 'Bieżąca Kontrola Kosztów',
+                'BREEAM/ESG Costing': 'Kosztorysowanie BREEAM/ESG',
+                'MEP Quantity Surveying': 'Kosztorysowanie Instalacji MEP',
+                'Options Analysis': 'Analiza Wariantowa',
+                'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+                'Tender Package Preparation': 'Przygotowanie Ofert Przetargowych',
+                'Traditional 2D Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+                'BIM Data Management': 'Zarządzanie Danymi BIM',
+                'Construction Logistics': 'Logistyka Budowlana',
+                'Industries': 'Branże',
+                'Warehouses & Logistics': 'Magazyny i Logistyka',
+                'Data Centers': 'Centra Danych',
+                'Residential Development': 'Deweloperstwo Mieszkaniowe',
+                'Remediation & Retrofit': 'Remediacja i Modernizacja',
+                'Commercial Development': 'Deweloperstwo Komercyjne',
+                'Healthcare': 'Opieka Zdrowotna',
+                'Industrial & Manufacturing': 'Przemysł i Produkcja',
+                'Infrastructure': 'Infrastruktura',
+                'Portfolio': 'Portfolio',
+                'Resources': 'Zasoby',
+                'BIM 2030 Guide': 'Przewodnik BIM 2030',
+                'Savings Calculator': 'Kalkulator Oszczędności',
+                'Case Studies': 'Studia Przypadków',
+                'Contact': 'Kontakt'
+            };
+            
             const linkTranslations = {
-                '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
-                '../coming-soon.html': 'coming-soon.html',
+                '/index.html': 'index.html',
+                'index.html': 'index.html',
                 '../index.html': 'index.html',
-                '../contact.html': 'kontakt.html'
+                '/contact.html': 'kontakt.html',
+                'contact.html': 'kontakt.html',
+                '../contact.html': 'kontakt.html',
+                '/services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                'services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '/coming-soon.html': 'coming-soon.html',
+                'coming-soon.html': 'coming-soon.html',
+                '../coming-soon.html': 'coming-soon.html'
             };
             
             function translateLinks() {
                 document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
-                    // Skip language switcher links (PL/EN)
-                    const linkText = link.textContent.trim();
-                    if (linkText === 'PL' || linkText === 'EN') {
-                        return;
+                    let href = link.getAttribute('href');
+                    if (href && href.includes('://')) {
+                        try {
+                            const url = new URL(href);
+                            href = url.pathname;
+                        } catch (e) {}
                     }
-                    
-                    const href = link.getAttribute('href');
                     if (linkTranslations[href]) {
                         link.setAttribute('href', linkTranslations[href]);
                     }
                 });
             }
             
-            function updatePage() {
+            function translatePage() {
+                document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+                    const text = el.textContent.trim();
+                    if (translations[text]) el.textContent = translations[text];
+                });
                 const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
                 phoneLinks.forEach(link => {
                     link.href = 'tel:+48508209313';
@@ -152,15 +197,15 @@ format:
                 translateLinks();
                 document.documentElement.lang = 'pl';
             }
-            
             if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', updatePage);
+                document.addEventListener('DOMContentLoaded', translatePage);
             } else {
-                updatePage();
+                translatePage();
             }
-            setTimeout(updatePage, 100);
+            setTimeout(translatePage, 100);
         })();
         </script>
+        
     include-after-body:
       - text: |
           <!-- Google Tag Manager (noscript) -->
