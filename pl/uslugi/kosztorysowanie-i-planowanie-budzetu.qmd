@@ -1,0 +1,425 @@
+---
+title: "Profesjonalne Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM | BIM Takeoff"
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+        (function() {
+            const translations = {
+                'Home': 'Strona Główna', 'Services': 'Usługi', 'Industries': 'Branże',
+                'Portfolio': 'Portfolio', 'Resources': 'Zasoby', 'About': 'O Nas', 'Contact': 'Kontakt',
+                'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+                'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+                'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+                'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+                'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+                'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+                'Multi-Scenario Analysis': 'Analiza Wariantowa',
+                'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+                'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+                'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+                'Construction Data Management': 'Zarządzanie Danymi BIM',
+                'Construction Logistics': 'Logistyka Budowlana',
+                'Warehouses & Logistics': 'Magazyny i Logistyka',
+                'Data Centers': 'Centra Danych',
+                'Residential Development': 'Deweloperstwo Mieszkaniowe',
+                'Remediation': 'Remediacja i Modernizacja',
+                'Commercial Development': 'Deweloperstwo Komercyjne',
+                'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+                'Industrial & Manufacturing': 'Przemysł i Produkcja',
+                'Infrastructure & Civil Works': 'Infrastruktura',
+                'BIM 2030 Guide': 'Przewodnik BIM 2030',
+                'ROI Calculator': 'Kalkulator Oszczędności',
+                'Case Studies': 'Studia Przypadków',
+                'All rights reserved': 'Wszelkie prawa zastrzeżone'
+            };
+            
+            const linkTranslations = {
+                '/services/cost-estimation-budget-planning.html': '../uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                'services/cost-estimation-budget-planning.html': '../uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '../../services/cost-estimation-budget-planning.html': 'kosztorysowanie-i-planowanie-budzetu.html',
+                '/coming-soon.html': '../coming-soon.html',
+                'coming-soon.html': '../coming-soon.html',
+                '../../coming-soon.html': '../coming-soon.html',
+                '/index.html': '../index.html',
+                '../../index.html': '../index.html',
+                '/': '../',
+                '/pl/': '../'
+            };
+            
+            function translateLinks() {
+                document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+                    let href = link.getAttribute('href');
+                    
+                    if (href && href.includes('://')) {
+                        try {
+                            const url = new URL(href);
+                            href = url.pathname;
+                        } catch (e) {}
+                    }
+                    
+                    if (linkTranslations[href]) {
+                        link.setAttribute('href', linkTranslations[href]);
+                    }
+                });
+            }
+            
+            function translatePage() {
+                document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+                    const text = el.textContent.trim();
+                    if (translations[text]) el.textContent = translations[text];
+                });
+                const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+                phoneLinks.forEach(link => {
+                    link.href = 'tel:+48508209313';
+                    link.textContent = '+48 508 209 313';
+                });
+                translateLinks();
+                document.documentElement.lang = 'pl';
+            }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', translatePage);
+            } else {
+                translatePage();
+            }
+            setTimeout(translatePage, 100);
+        })();
+        </script>
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Profesjonalne Kosztorysowanie i Planowanie Budżetu
+### 20 lat doświadczenia z UK i Australii - teraz w Polsce
+:::
+
+::: {.hero-subtitle}
+Zmień proces kosztorysowania z 6 tygodni na 3 dni.  
+Dokładność ±5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Umów Darmową Konsultację](../../coming-soon.qmd){.cta-primary}
+[Sprawdź Ofertę](../../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Koszt Przestarzałych Metod Kosztorysowania
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Problem
+
+Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 tygodni na szczegółowy kosztorys</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Margines błędu ±15-20%</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy manualne i pominięte pozycje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rozproszone dane w wielu arkuszach</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Rzeczywisty Wpływ
+
+> "Dla magazynu 50,000 mkw, przekroczenie kosztów o 15% oznacza **różnicę między projektem zyskownym a przynoszącym straty**.  
+> To może całkowicie zmienić opłacalność Twojego projektu."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie
+
+Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i czasu:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 dni** na kompletny kosztorys</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Dokładność **±5%**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automatyczne przedmiary z modelu BIM</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa wycena wpływu zmian projektowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zintegrowane dane w jednym inteligentnym systemie</p>
+:::
+:::
+
+:::
+
+## Nasz Sprawdzony 5-Etapowy Proces
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępna Konsultacja i Analiza Projektu
+
+**Czas trwania:** 1-2 dni
+
+**Co robimy:**
+
+- Przegląd dokumentacji projektowej
+- Zrozumienie wymagań i ograniczeń
+- Ocena złożoności projektu i ryzyk
+- Określenie zakresu i rezultatów
+
+**Twoja Inwestycja:** Darmowa konsultacja (30-60 min)
+:::
+
+::: {.process-step}
+#### Integracja Modelu BIM
+
+**Czas trwania:** 1-2 dni
+
+**Co robimy:**
+
+- Wczytanie plików IFC z Revit, ArchiCAD lub Tekla
+- Walidacja dokładności i kompletności modelu
+- Konfiguracja środowiska 5D BIM
+- Połączenie baz danych kosztowych
+
+**Rezultat:** Zwalidowany model 5D BIM
+:::
+
+::: {.process-step}
+#### Automatyczny Przedmiar
+
+**Czas trwania:** 1-2 dni
+
+**Co robimy:**
+
+- Automatyczna ekstrakcja ilości z modelu BIM
+- Weryfikacja krzyżowa z rysunkami 2D
+- Identyfikacja rozbieżności lub brakujących elementów
+- Generowanie szczegółowego przedmiaru robót
+
+**Rezultat:** Kompleksowy przedmiar z obmiarami
+:::
+
+::: {.process-step}
+#### Kosztorysowanie i Analiza
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Zastosowanie aktualnych stawek rynkowych
+- Uwzględnienie ryzyk specyficznych dla projektu
+- Analiza wielowariantowa kosztów
+- Rekomendacje optymalizacji wartości
+
+**Rezultat:** Szczegółowy kosztorys z rozbiciem
+:::
+
+::: {.process-step}
+#### Planowanie Budżetu i Raportowanie
+
+**Czas trwania:** 1 dzień
+
+**Co robimy:**
+
+- Opracowanie projekcji przepływów pieniężnych
+- Utworzenie alokacji budżetu wg faz
+- Przygotowanie kompleksowego raportu kosztowego
+- Prezentacja wyników i rekomendacji
+
+**Rezultat:** Streszczenie wykonawcze + szczegółowy raport
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Całkowity Czas:** 6-10 dni roboczych  
+**Całkowity Czas Projektu:** Zazwyczaj 2-3 tygodnie od początku do końca
+:::
+
+## 6 Kluczowych Korzyści Transformujących Twoje Projekty
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkość: 90-95% Szybciej
+
+**Tradycyjna metoda:** 6-8 tygodni  
+**Nasza metoda 5D BIM:** 3-10 dni  
+**Aktualizacje w czasie rzeczywistym** w ciągu godzin
+:::
+
+::: {.feature-card}
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokładność: ±5%
+
+**Tradycyjne marginesy:** ±15-20%  
+**Nasza dokładność:** ±5% lub lepsza  
+**Potwierdzone** 20-letnim doświadczeniem
+:::
+
+::: {.feature-card}
+### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowość: Nic Nie Pominięte
+
+Automatyczna ekstrakcja z BIM  
+Weryfikacja z rysunkami  
+Wszystkie branże uwzględnione
+:::
+
+::: {.feature-card}
+### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Przejrzystość: Pełna Alokacja Kosztów
+
+Interaktywny model kosztowy 3D  
+Szczegóły każdego elementu  
+Zobacz gdzie każda złotówka jest wydawana
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Elastyczność: Analiza Wielowariantowa
+
+Porównanie alternatyw projektowych  
+Testowanie różnych materiałów  
+Podejmowanie świadomych decyzji
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integracja: Łączy Wszystko
+
+Model 3D + koszty + harmonogram  
+Wpływ zmian projektowych w czasie rzeczywistym  
+Bieżące wsparcie
+:::
+:::
+
+
+
+
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Jakie informacje są potrzebne do przygotowania kosztorysu?**
+:::
+::: {.faq-answer}
+O: Idealnie model BIM (plik IFC). Jeśli niedostępny, pracujemy z rysunkami 2D + specyfikacjami (terminy mogą wydłużyć się o 2-3 dni).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak dokładne są Wasze kosztorysy?**
+:::
+::: {.faq-answer}
+O: Nasze kosztorysy 5D BIM osiągają dokładność ±5% vs ±15-20% tradycyjnych metod. Potwierdzone 20-letnim doświadczeniem i 2000+ projektami.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy pracujecie z projektami już w budowie?**
+:::
+::: {.faq-answer}
+O: Tak! Zapewniamy bieżącą kontrolę kosztów obejmującą cotygodniowe raporty, analizę zamówień dodatkowych i śledzenie budżetu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można zintegrować z naszym istniejącym oprogramowaniem?**
+:::
+::: {.faq-answer}
+O: Tak, eksportujemy do Excel, MS Project, Primavera P6 i większości platform zarządzania kosztami.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jakie wielkości projektów obsługujecie?**
+:::
+::: {.faq-answer}
+O: Obsługujemy projekty różnej skali - od małych adaptacji po duże centra logistyczne i kompleksy mieszkaniowe. Każdy projekt traktujemy indywidualnie.
+:::
+:::
+
+
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak wypadają Wasze honoraria w porównaniu z konkurencją?**
+:::
+::: {.faq-answer}
+O: Konkurencyjne z tradycyjnymi firmami, ale znacznie szybsza realizacja (dni vs tygodnie) i lepsza dokładność (±5% vs ±15%).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy przygotowujecie kosztorysy do przetargów?**
+:::
+::: {.faq-answer}
+O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Przedmiar → Kosztorys → Oferta → Negocjacje. Kompleksowe wsparcie na każdym etapie.
+:::
+:::
+:::
+
+## Gotowy na Transformację Kosztorysowania?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Pozwól Przestarzałym Metodom Opóźniać Projektu</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołącz do 2000+ udanych projektów, które wybrały precyzję zamiast zgadywania.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Darmowa 30-Min Konsultacja</h3>
+<p style="color: var(--bim-white); margin: 0;">Omówienie wymagań, wstępny harmonogram</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Sprawdź Naszą Ofertę</h3>
+<p style="color: var(--bim-white); margin: 0;">Szczegółowe informacje o naszych usługach i podejściu</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">2-min formularz, wycena w 24h</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Zaplanuj Darmową Konsultację](../../coming-soon.qmd){.cta-primary}
+[Pobierz Przewodnik BIM](../../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../../coming-soon.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Partnerzy Państwa Sukcesu</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bezproblemowy Zespół Ekspertów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Godziny Pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

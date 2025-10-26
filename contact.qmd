@@ -1,0 +1,181 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<!-- Contact Hero Section -->
+<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Get in Touch</h1>
+        <p class="lead mb-4" style="color: #E0E0E0; font-size: 1.25rem;">
+          Ready to transform your project with professional BIM 5D cost estimation? 
+          Let's discuss how we can help you achieve precise budget control and cost certainty.
+        </p>
+        <div class="trust-indicators" style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 30px; justify-content: center;">
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">20+</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Years Experience</div>
+          </div>
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">2000+</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Projects Delivered</div>
+          </div>
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">24h</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Response Time</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Information Section -->
+<section style="padding: 80px 20px; background: #FFFFFF;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="row g-4">
+      
+      <!-- Contact Cards -->
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Phone</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Speak directly with our cost estimation experts</p>
+          <a href="tel:+442032399967" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
+            +44 (0) 20 3239 9967
+          </a>
+          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
+            Monday - Friday: 9:00 - 18:00 GMT
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Email</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Send us your project details and requirements</p>
+          <a href="mailto:info@bimtakeoff.com" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none; word-break: break-all;">
+            info@bimtakeoff.com
+          </a>
+          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
+            We respond within 24 hours
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Global Reach</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Serving clients across international markets</p>
+          <div style="color: #2C2C2C; font-size: 1.1rem; line-height: 1.8;">
+            <div>🇬🇧 United Kingdom</div>
+            <div>🇵🇱 Poland</div>
+            <div>🇦🇺 Australia</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Why Contact Us Section -->
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold mb-3" style="color: #2C2C2C; font-size: 2.5rem;">Why Work With Us?</h2>
+      <p style="color: #666666; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+        Experience the difference of working with certified cost estimation professionals
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Great People with Can Do Attitude</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Professional quantity surveying standards</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">20+ Years Experience</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Proven track record in EU, UK & Australia</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Fast Response</h4>
+          <p style="color: #666666; font-size: 0.95rem;">24-hour response guarantee</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2.5rem;">Ready to Start Your Project?</h2>
+    <p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
+      Get in touch today for a free consultation and discover how BIM 5D cost estimation 
+      can transform your project delivery
+    </p>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="tel:+442032399967" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Call Us Now
+      </a>
+      <a href="mailto:info@bimtakeoff.com" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Send Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .trust-indicators {
+    gap: 20px !important;
+  }
+  
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  
+  .lead {
+    font-size: 1.1rem !important;
+  }
+}
+</style>
+```

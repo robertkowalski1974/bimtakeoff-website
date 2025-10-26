@@ -112,10 +112,10 @@ Years Experience
 
 ::: {.stat}
 ::: {.stat-number}
-3-5
+90%
 :::
 ::: {.stat-label}
-Days Turnaround
+Faster Delivery
 :::
 :::
 :::

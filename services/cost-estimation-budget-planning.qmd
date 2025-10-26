@@ -1,0 +1,332 @@
+---
+title: "Professional Cost Estimation & Budget Planning | 5D BIM Services | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Professional Cost Estimation & Budget Planning
+### 20 Years UK & Australian Excellence, Now in Poland
+:::
+
+::: {.hero-subtitle}
+Transform your cost estimation from 6 weeks to 3 days.  
+With ±5% accuracy guaranteed.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Quantity Surveyors with international standards</strong></p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5D BIM Technology</strong> - 90-95% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projects, 12M+ sqm delivered</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../coming-soon.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## The Cost of Outdated Estimation Methods
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### The Problem
+
+Traditional cost estimation is slow, inaccurate, and risky:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 weeks for detailed estimates</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> ±15-20% accuracy margins</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Manual errors and missed items</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No real-time updates for design changes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Fragmented data across multiple spreadsheets</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Real Impact
+
+> "For a large warehouse project, a 15% cost overrun can mean the difference between profit and loss, potentially jeopardizing project financing and stakeholder confidence."
+:::
+:::
+
+::: {style=""}
+### Our Solution
+
+Advanced 5D BIM Cost Estimation combines 3D modeling with cost and time data:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 days** for comprehensive estimates</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **±5% accuracy** guarantee</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automated quantity take-offs from BIM models</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-time cost impact of design changes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Integrated data in one intelligent system</p>
+:::
+:::
+
+:::
+
+## Our Proven 5-Step Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Consultation & Project Analysis
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Review project documentation
+- Understand your requirements and constraints
+- Assess project complexity and risks
+- Define scope and deliverables
+
+**Your Investment:** Free consultation (30-60 min)
+:::
+
+::: {.process-step}
+#### Link BIM Entities with Cost Base
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Ingest IFC and Revit files from various platforms
+- Validate model accuracy and completeness
+- Set up 5D BIM environment
+- Link BIM entities with cost databases
+
+**Deliverable:** Validated 5D BIM model
+:::
+
+::: {.process-step}
+#### Automated Quantity Take-off
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Extract quantities automatically from BIM model
+- Cross-check with 2D drawings
+- Identify any discrepancies or missing elements
+- Generate detailed Bill of Quantities (BOQ)
+
+**Deliverable:** Comprehensive BOQ with measurements
+:::
+
+::: {.process-step}
+#### Cost Estimation & Analysis
+
+**Duration:** 2-3 days
+
+**What We Do:**
+
+- Apply current market rates
+- Factor in project-specific risks
+- Run multi-scenario cost analysis
+- Provide value engineering recommendations
+
+**Deliverable:** Detailed cost estimate with breakdown
+:::
+
+::: {.process-step}
+#### Budget Planning & Reporting
+
+**Duration:** 1 day
+
+**What We Do:**
+
+- Develop cashflow projections
+- Create budget allocation by phase
+- Prepare comprehensive cost report
+- Present findings and recommendations
+
+**Deliverable:** Executive summary + detailed report
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Total Timeline:** 6-10 working days  
+**Total Project Duration:** Typically 2-3 weeks from start to finish
+:::
+
+## 6 Key Benefits That Transform Your Projects
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Speed: 90-95% Faster
+
+**Traditional method:** 6-8 weeks  
+**Our 5D BIM method:** 3-10 days  
+**Real-time updates** within hours
+:::
+
+::: {.feature-card}
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Accuracy: ±5% Guarantee
+
+**Traditional margins:** ±15-20%  
+**Our accuracy:** ±5% or better  
+**Backed by** 20 years experience
+:::
+
+::: {.feature-card}
+### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Comprehensive: Nothing Missed
+
+Automated extraction from BIM  
+Cross-referenced with drawings  
+All trades included
+:::
+
+::: {.feature-card}
+### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Transparent: Full Visibility
+
+Interactive 3D cost model  
+Drill-down to any element  
+See where every dollar goes
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Flexible: Multi-Scenario Analysis
+
+Compare design alternatives  
+Test different materials  
+Make informed decisions
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integrated: Connects Everything
+
+Links 3D model + costs + schedule  
+Real-time design change impact  
+Ongoing support
+:::
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What information do you need to provide an estimate?**
+:::
+::: {.faq-answer}
+A: Ideally, a BIM model (IFC or Revit file). If unavailable, we work with 2D drawings + specifications (timelines may extend 2-3 days).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How accurate are your estimates?**
+:::
+::: {.faq-answer}
+A: Our 5D BIM estimates achieve ±5% accuracy (when model is accurate and complete) vs ±15-20% traditional methods. Backed by 20 years experience and 2000+ projects.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you work with projects already in construction?**
+:::
+::: {.faq-answer}
+A: Yes! We provide ongoing cost control including weekly reports, change order analysis, and budget tracking.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you integrate with our existing software?**
+:::
+::: {.faq-answer}
+A: Yes, we export to Excel, MS Project, Primavera P6, and most cost management platforms.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What project sizes do you handle?**
+:::
+::: {.faq-answer}
+A: It depends on the industry. For warehouses and logistics centers, we handle projects from 5,000 sqm to 100,000+ sqm. For residential and commercial projects, our expertise ranges from small developments to large-scale mixed-use complexes. Each project type has different complexity factors beyond just size.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do your fees compare?**
+:::
+::: {.faq-answer}
+A: We provide bespoke quotes tailored to each project's specific requirements, complexity, and scope. Contact us for a customized proposal that meets your needs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you provide estimates for tendering?**
+:::
+::: {.faq-answer}
+A: Absolutely. We offer full tendering support including: quantity take-off, detailed cost estimation, bid document preparation, contractor negotiations, and handover support. Our comprehensive service covers the entire tendering lifecycle.
+:::
+:::
+:::
+
+## Ready to Transform Your Cost Estimation?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Don't Let Outdated Methods Delay Your Project</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Join 2000+ successful projects that chose precision over guesswork.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free 30-Min Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss requirements, get preliminary timeline</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">View Our Portfolio</h3>
+<p style="color: var(--bim-white); margin: 0;">Explore our 2000+ successful projects worldwide</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Project Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">2-minute form, quote within 24 hours</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Schedule Free Consultation](../coming-soon.qmd){.cta-primary}
+[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../coming-soon.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Experienced Surveyors</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Standards</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2000+ Projects Delivered</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

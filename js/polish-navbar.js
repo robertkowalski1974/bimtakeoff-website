@@ -7,7 +7,7 @@
         return; // Exit if not on Polish page
     }
 
-    // Define all translations
+    // Define all text translations
     const translations = {
         // Main navbar items
         'Home': 'Strona Główna',
@@ -55,12 +55,33 @@
         'Terms of Service': 'Warunki Usługi'
     };
 
+    // Define link translations (English path -> Polish path)
+    const linkTranslations = {
+        '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '../coming-soon.html': 'coming-soon.html',
+        '../index.html': 'index.html',
+        './coming-soon.html': 'coming-soon.html',
+        './index.html': 'index.html'
+    };
+
     // Function to translate text
     function translateText(element) {
         const text = element.textContent.trim();
         if (translations[text]) {
             element.textContent = translations[text];
         }
+    }
+
+    // Function to translate links
+    function translateLinks() {
+        // Translate all links in navbar
+        const navLinks = document.querySelectorAll('.navbar a[href], .dropdown-item[href]');
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (linkTranslations[href]) {
+                link.setAttribute('href', linkTranslations[href]);
+            }
+        });
     }
 
     // Function to translate navbar
@@ -71,6 +92,10 @@
             link.href = 'tel:+48508209313';
             link.textContent = '+48 508 209 313';
         });
+        
+        // Translate links FIRST before translating text
+        translateLinks();
+        
         // Translate menu items
         document.querySelectorAll('.menu-text').forEach(translateText);
         document.querySelectorAll('.dropdown-text').forEach(translateText);

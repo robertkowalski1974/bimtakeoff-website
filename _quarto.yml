@@ -19,7 +19,7 @@ website:
       - text: "Services"
         menu:
           - text: "Cost Estimation & Budget Planning"
-            href: coming-soon.qmd
+            href: services/cost-estimation-budget-planning.qmd
           - text: "Trade-Specific Specialist Services"
             href: coming-soon.qmd
           - text: "Automated Quantity Takeoff"
@@ -70,10 +70,8 @@ website:
             href: coming-soon.qmd
           - text: "Case Studies"
             href: coming-soon.qmd
-      - text: "About"
-        href: coming-soon.qmd
       - text: "Contact"
-        href: coming-soon.qmd
+        href: contact.qmd
     right:
       - text: "PL"
         href: /pl/
@@ -126,7 +124,7 @@ format:
           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- End Google Tag Manager (noscript) -->
           <!-- Scroll Effects & Animations -->
-          <script src="js/scroll-effects.js"></script>
+          <script src="/js/scroll-effects.js"></script>
     
 execute:
   freeze: auto

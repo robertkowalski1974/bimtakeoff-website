@@ -35,6 +35,39 @@ format:
                 'Case Studies': 'Studia Przypadków',
                 'All rights reserved': 'Wszelkie prawa zastrzeżone'
             };
+            
+            const linkTranslations = {
+                '/services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                'services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '/coming-soon.html': 'coming-soon.html',
+                'coming-soon.html': 'coming-soon.html',
+                '../coming-soon.html': 'coming-soon.html',
+                '/index.html': 'index.html',
+                '../index.html': 'index.html',
+                '/contact.html': 'kontakt.html',
+                'contact.html': 'kontakt.html',
+                '../contact.html': 'kontakt.html'
+            };
+            
+            function translateLinks() {
+                document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+                    let href = link.getAttribute('href');
+                    
+                    // Handle absolute URLs by extracting the path
+                    if (href && href.includes('://')) {
+                        try {
+                            const url = new URL(href);
+                            href = url.pathname;
+                        } catch (e) {}
+                    }
+                    
+                    if (linkTranslations[href]) {
+                        link.setAttribute('href', linkTranslations[href]);
+                    }
+                });
+            }
+            
             function translatePage() {
                 document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
                     const text = el.textContent.trim();
@@ -45,6 +78,7 @@ format:
                     link.href = 'tel:+48508209313';
                     link.textContent = '+48 508 209 313';
                 });
+                translateLinks();
                 document.documentElement.lang = 'pl';
             }
             if (document.readyState === 'loading') {
@@ -68,19 +102,19 @@ format:
 ::: {.hero-title}
 <br>
 
-### Kosztorysowanie BIM. Nowy wymiar dokładności.
+### Eksperci w Kosztorysowaniu i Przedmiarach
 
 
-# Profesjonalne Przedmiary i Kosztorysy
+# Usługi BIM Takeoff
 :::
 
 ::: {.hero-subtitle}
-20 lat doświadczenia na rynkach UK, EU i Australii. Ponad 2000 projektów w zakresie zabudowy wewnętrznej, struktur, ochrony przeciwpożarowej i fasad. Dostarczamy precyzyjne kosztorysy zgodne z aktualnymi przepisami i wymogami BIM 2030.
+Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót konstrukcyjnych, ochrony przeciwpożarowej i fasad. Od szczegółowych przedmiarów po kompletne pakiety przetargowe - dostarczamy na całym świecie.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zapraszamy do Kontaktu](coming-soon.qmd){.cta-primary}
-[Poznaj Nasze Usługi](coming-soon.qmd){.cta-secondary}
+[ZAPRASZAMY DO KONTAKTU](coming-soon.qmd){.cta-primary}
+[POZNAJ USŁUGI](coming-soon.qmd){.cta-secondary}
 :::
 :::
 :::

@@ -211,8 +211,8 @@ function initNavbarScroll() {
 // 8. LOADING ANIMATION
 // ============================================
 function initLoadAnimation() {
-    // Add loaded class after page loads
-    window.addEventListener('load', () => {
+    // Function to animate hero elements
+    const animateHero = () => {
         document.body.classList.add('loaded');
         
         // Animate hero elements
@@ -223,7 +223,16 @@ function initLoadAnimation() {
                 el.style.transform = 'translateY(0)';
             }, 100 * index);
         });
-    });
+    };
+    
+    // Check if page is already loaded (for Quarto preview mode)
+    if (document.readyState === 'complete') {
+        // Page already loaded, animate immediately
+        setTimeout(animateHero, 100);
+    } else {
+        // Add loaded class after page loads
+        window.addEventListener('load', animateHero);
+    }
 }
 
 // ============================================

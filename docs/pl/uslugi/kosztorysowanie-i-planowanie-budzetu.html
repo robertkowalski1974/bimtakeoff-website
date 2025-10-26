@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIM Takeoff - Wkrótce</title>
+<title>BIM Takeoff - Profesjonalne Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM | BIM Takeoff</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,6 +98,37 @@ ul.task-list li input[type="checkbox"] {
         'Case Studies': 'Studia Przypadków',
         'All rights reserved': 'Wszelkie prawa zastrzeżone'
     };
+
+    const linkTranslations = {
+        '/services/cost-estimation-budget-planning.html': '../uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        'services/cost-estimation-budget-planning.html': '../uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '../../services/cost-estimation-budget-planning.html': 'kosztorysowanie-i-planowanie-budzetu.html',
+        '/coming-soon.html': '../coming-soon.html',
+        'coming-soon.html': '../coming-soon.html',
+        '../../coming-soon.html': '../coming-soon.html',
+        '/index.html': '../index.html',
+        '../../index.html': '../index.html',
+        '/': '../',
+        '/pl/': '../'
+    };
+
+    function translateLinks() {
+        document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+            let href = link.getAttribute('href');
+
+            if (href && href.includes('://')) {
+                try {
+                    const url = new URL(href);
+                    href = url.pathname;
+                } catch (e) {}
+            }
+
+            if (linkTranslations[href]) {
+                link.setAttribute('href', linkTranslations[href]);
+            }
+        });
+    }
+
     function translatePage() {
         document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
             const text = el.textContent.trim();
@@ -108,6 +139,7 @@ ul.task-list li input[type="checkbox"] {
             link.href = 'tel:+48508209313';
             link.textContent = '+48 508 209 313';
         });
+        translateLinks();
         document.documentElement.lang = 'pl';
     }
     if (document.readyState === 'loading') {
@@ -120,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../../css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -130,10 +162,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">BIM Takeoff</span>
     </a>
   </div>
@@ -144,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -153,51 +185,51 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
         <li>
-    <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
+    <a class="dropdown-item" href="../../services/cost-estimation-budget-planning.html">
  <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Trade-Specific Specialist Services</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Automated Quantity Takeoff</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Fast-Track Cost Control</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">MEP Infrastructure Precision</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Multi-Scenario Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Comprehensive Reporting</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Traditional Quantity Takeoff</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Construction Data Management</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Construction Logistics</span></a>
   </li>  
     </ul>
@@ -208,41 +240,41 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-industries">    
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Warehouses &amp; Logistics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Data Centers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Residential Development</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Remediation</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Commercial Development</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../coming-soon.html"> 
+    <a class="nav-link" href="../../coming-soon.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -251,31 +283,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">BIM 2030 Guide</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">ROI Calculator</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../../coming-soon.html">
  <span class="dropdown-text">Case Studies</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../pl/"> 
+    <a class="nav-link" href="../../pl/"> 
 <span class="menu-text">PL</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../"> 
+    <a class="nav-link" href="../../"> 
 <span class="menu-text">EN</span></a>
   </li>  
 </ul>
@@ -295,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Wkrótce</h1>
+<h1 class="title">Profesjonalne Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM | BIM Takeoff</h1>
 </div>
 
 
@@ -312,28 +344,326 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="min-height: 70vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #2C2C2C 0%, #3a3a3a 100%);">
-<div style="text-align: center; max-width: 800px; padding: 48px 32px;">
-<p><i class="bi bi-tools" style="font-size: 120px; color: #FF9900; margin-bottom: 32px; display: block;"></i></p>
-<h1 style="color: #FFFFFF; font-family: 'Inter', sans-serif; font-weight: 700;">
-Przygotowujemy Dla Państwa Szczegółowe Informacje
-</h1>
-<div style="color: #FFFFFF; font-size: 20px; line-height: 1.6; margin: 32px 0;">
-<p>Ta sekcja jest obecnie w przygotowaniu. Pracujemy nad dostarczeniem Państwu kompleksowych informacji i zasobów dotyczących naszych usług kosztorysowania BIM.</p>
-<p><strong>Zapraszamy wkrótce</strong> – regularnie rozbudowujemy treści, aby lepiej służyć Państwa potrzebom w zakresie kosztorysowania i przedmiarów budowlanych.</p>
+<div class="hero-section">
+<div class="hero-video-bg">
+<p><video autoplay="" muted="" loop="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"> </video></p>
 </div>
-<div style="margin-top: 48px;">
-<p><a href="../pl/index.html" class="cta-primary" style="font-size: 18px; padding: 16px 48px;"><i class="bi bi-house-door"></i> Powrót do Strony Głównej</a></p>
+<div class="container">
+<section id="profesjonalne-kosztorysowanie-i-planowanie-budżetu" class="level1 hero-title">
+<h1>Profesjonalne Kosztorysowanie i Planowanie Budżetu</h1>
+<section id="lat-doświadczenia-z-uk-i-australii---teraz-w-polsce" class="level3">
+<h3 class="anchored" data-anchor-id="lat-doświadczenia-z-uk-i-australii---teraz-w-polsce">20 lat doświadczenia z UK i Australii - teraz w Polsce</h3>
+</section>
+</section>
+<div class="hero-subtitle">
+<p>Zmień proces kosztorysowania z 6 tygodni na 3 dni.<br>
+Dokładność ±5%.</p>
 </div>
-<div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255, 153, 0, 0.3);">
-<div style="color: #F0F0F0; font-size: 16px;">
-<p><strong>Pytania? Zapraszamy do Kontaktu</strong></p>
-<p style="margin: 16px 0;">
-<a href="mailto:info@bimtakeoff.com" style="color: #FF9900; text-decoration: none;">info@bimtakeoff.com</a> | <a href="tel:+48508209313" style="color: #FF9900; text-decoration: none;">+48 508 209 313</a>
+<div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych
+</p>
+</div>
+</div>
+<div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../../coming-soon.html" class="cta-primary">Umów Darmową Konsultację</a> <a href="../../coming-soon.html" class="cta-secondary">Sprawdź Ofertę</a></p>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="koszt-przestarzałych-metod-kosztorysowania" class="level2">
+<h2 class="anchored" data-anchor-id="koszt-przestarzałych-metod-kosztorysowania">Koszt Przestarzałych Metod Kosztorysowania</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
+<section id="problem" class="level3" style="">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 tygodni na szczegółowy kosztorys
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Margines błędu ±15-20%
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy manualne i pominięte pozycje
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rozproszone dane w wielu arkuszach
+</p>
+</div>
+<section id="rzeczywisty-wpływ" class="level4 callout-box" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
+<h4 class="anchored" data-anchor-id="rzeczywisty-wpływ">Rzeczywisty Wpływ</h4>
+<blockquote class="blockquote">
+<p>“Dla magazynu 50,000 mkw, przekroczenie kosztów o 15% oznacza <strong>różnicę między projektem zyskownym a przynoszącym straty</strong>.<br>
+To może całkowicie zmienić opłacalność Twojego projektu.”</p>
+</blockquote>
+</section>
+</section>
+<section id="nasze-rozwiązanie" class="level3" style="">
+<h3 class="anchored" data-anchor-id="nasze-rozwiązanie">Nasze Rozwiązanie</h3>
+<p>Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i czasu:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3 dni</strong> na kompletny kosztorys
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Dokładność <strong>±5%</strong>
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automatyczne przedmiary z modelu BIM
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa wycena wpływu zmian projektowych
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zintegrowane dane w jednym inteligentnym systemie
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="nasz-sprawdzony-5-etapowy-proces" class="level2">
+<h2 class="anchored" data-anchor-id="nasz-sprawdzony-5-etapowy-proces">Nasz Sprawdzony 5-Etapowy Proces</h2>
+<div class="process-steps">
+<section id="wstępna-konsultacja-i-analiza-projektu" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="wstępna-konsultacja-i-analiza-projektu">Wstępna Konsultacja i Analiza Projektu</h4>
+<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<p><strong>Co robimy:</strong></p>
+<ul>
+<li>Przegląd dokumentacji projektowej</li>
+<li>Zrozumienie wymagań i ograniczeń</li>
+<li>Ocena złożoności projektu i ryzyk</li>
+<li>Określenie zakresu i rezultatów</li>
+</ul>
+<p><strong>Twoja Inwestycja:</strong> Darmowa konsultacja (30-60 min)</p>
+</section>
+<section id="integracja-modelu-bim" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="integracja-modelu-bim">Integracja Modelu BIM</h4>
+<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<p><strong>Co robimy:</strong></p>
+<ul>
+<li>Wczytanie plików IFC z Revit, ArchiCAD lub Tekla</li>
+<li>Walidacja dokładności i kompletności modelu</li>
+<li>Konfiguracja środowiska 5D BIM</li>
+<li>Połączenie baz danych kosztowych</li>
+</ul>
+<p><strong>Rezultat:</strong> Zwalidowany model 5D BIM</p>
+</section>
+<section id="automatyczny-przedmiar" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="automatyczny-przedmiar">Automatyczny Przedmiar</h4>
+<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<p><strong>Co robimy:</strong></p>
+<ul>
+<li>Automatyczna ekstrakcja ilości z modelu BIM</li>
+<li>Weryfikacja krzyżowa z rysunkami 2D</li>
+<li>Identyfikacja rozbieżności lub brakujących elementów</li>
+<li>Generowanie szczegółowego przedmiaru robót</li>
+</ul>
+<p><strong>Rezultat:</strong> Kompleksowy przedmiar z obmiarami</p>
+</section>
+<section id="kosztorysowanie-i-analiza" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="kosztorysowanie-i-analiza">Kosztorysowanie i Analiza</h4>
+<p><strong>Czas trwania:</strong> 2-3 dni</p>
+<p><strong>Co robimy:</strong></p>
+<ul>
+<li>Zastosowanie aktualnych stawek rynkowych</li>
+<li>Uwzględnienie ryzyk specyficznych dla projektu</li>
+<li>Analiza wielowariantowa kosztów</li>
+<li>Rekomendacje optymalizacji wartości</li>
+</ul>
+<p><strong>Rezultat:</strong> Szczegółowy kosztorys z rozbiciem</p>
+</section>
+<section id="planowanie-budżetu-i-raportowanie" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="planowanie-budżetu-i-raportowanie">Planowanie Budżetu i Raportowanie</h4>
+<p><strong>Czas trwania:</strong> 1 dzień</p>
+<p><strong>Co robimy:</strong></p>
+<ul>
+<li>Opracowanie projekcji przepływów pieniężnych</li>
+<li>Utworzenie alokacji budżetu wg faz</li>
+<li>Przygotowanie kompleksowego raportu kosztowego</li>
+<li>Prezentacja wyników i rekomendacji</li>
+</ul>
+<p><strong>Rezultat:</strong> Streszczenie wykonawcze + szczegółowy raport</p>
+</section>
+</div>
+<div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
+<p><strong>Całkowity Czas:</strong> 6-10 dni roboczych<br>
+<strong>Całkowity Czas Projektu:</strong> Zazwyczaj 2-3 tygodnie od początku do końca</p>
+</div>
+</section>
+<section id="kluczowych-korzyści-transformujących-twoje-projekty" class="level2">
+<h2 class="anchored" data-anchor-id="kluczowych-korzyści-transformujących-twoje-projekty">6 Kluczowych Korzyści Transformujących Twoje Projekty</h2>
+<div class="feature-grid">
+<section id="szybkość-90-95-szybciej" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="szybkość-90-95-szybciej"><i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkość: 90-95% Szybciej</h3>
+<p><strong>Tradycyjna metoda:</strong> 6-8 tygodni<br>
+<strong>Nasza metoda 5D BIM:</strong> 3-10 dni<br>
+<strong>Aktualizacje w czasie rzeczywistym</strong> w ciągu godzin</p>
+</section>
+<section id="dokładność-5" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="dokładność-5"><i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokładność: ±5%</h3>
+<p><strong>Tradycyjne marginesy:</strong> ±15-20%<br>
+<strong>Nasza dokładność:</strong> ±5% lub lepsza<br>
+<strong>Potwierdzone</strong> 20-letnim doświadczeniem</p>
+</section>
+<section id="kompleksowość-nic-nie-pominięte" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="kompleksowość-nic-nie-pominięte"><i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowość: Nic Nie Pominięte</h3>
+<p>Automatyczna ekstrakcja z BIM<br>
+Weryfikacja z rysunkami<br>
+Wszystkie branże uwzględnione</p>
+</section>
+<section id="przejrzystość-pełna-alokacja-kosztów" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="przejrzystość-pełna-alokacja-kosztów"><i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Przejrzystość: Pełna Alokacja Kosztów</h3>
+<p>Interaktywny model kosztowy 3D<br>
+Szczegóły każdego elementu<br>
+Zobacz gdzie każda złotówka jest wydawana</p>
+</section>
+<section id="elastyczność-analiza-wielowariantowa" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="elastyczność-analiza-wielowariantowa"><i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Elastyczność: Analiza Wielowariantowa</h3>
+<p>Porównanie alternatyw projektowych<br>
+Testowanie różnych materiałów<br>
+Podejmowanie świadomych decyzji</p>
+</section>
+<section id="integracja-łączy-wszystko" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="integracja-łączy-wszystko"><i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integracja: Łączy Wszystko</h3>
+<p>Model 3D + koszty + harmonogram<br>
+Wpływ zmian projektowych w czasie rzeczywistym<br>
+Bieżące wsparcie</p>
+</section>
+</div>
+</section>
+<section id="najczęściej-zadawane-pytania" class="level2">
+<h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej Zadawane Pytania</h2>
+<div class="faq-section">
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jakie informacje są potrzebne do przygotowania kosztorysu?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Idealnie model BIM (plik IFC). Jeśli niedostępny, pracujemy z rysunkami 2D + specyfikacjami (terminy mogą wydłużyć się o 2-3 dni).</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jak dokładne są Wasze kosztorysy?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Nasze kosztorysy 5D BIM osiągają dokładność ±5% vs ±15-20% tradycyjnych metod. Potwierdzone 20-letnim doświadczeniem i 2000+ projektami.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy pracujecie z projektami już w budowie?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak! Zapewniamy bieżącą kontrolę kosztów obejmującą cotygodniowe raporty, analizę zamówień dodatkowych i śledzenie budżetu.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy można zintegrować z naszym istniejącym oprogramowaniem?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak, eksportujemy do Excel, MS Project, Primavera P6 i większości platform zarządzania kosztami.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jakie wielkości projektów obsługujecie?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Obsługujemy projekty różnej skali - od małych adaptacji po duże centra logistyczne i kompleksy mieszkaniowe. Każdy projekt traktujemy indywidualnie.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jak wypadają Wasze honoraria w porównaniu z konkurencją?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Konkurencyjne z tradycyjnymi firmami, ale znacznie szybsza realizacja (dni vs tygodnie) i lepsza dokładność (±5% vs ±15%).</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy przygotowujecie kosztorysy do przetargów?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Przedmiar → Kosztorys → Oferta → Negocjacje. Kompleksowe wsparcie na każdym etapie.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="gotowy-na-transformację-kosztorysowania" class="level2">
+<h2 class="anchored" data-anchor-id="gotowy-na-transformację-kosztorysowania">Gotowy na Transformację Kosztorysowania?</h2>
+<div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
+<div style="max-width: 800px; margin: 0 auto;">
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;" class="anchored">
+Nie Pozwól Przestarzałym Metodom Opóźniać Projektu
+</h2>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
+Dołącz do 2000+ udanych projektów, które wybrały precyzję zamiast zgadywania.
+</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Darmowa 30-Min Konsultacja
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Omówienie wymagań, wstępny harmonogram
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Sprawdź Naszą Ofertę
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Szczegółowe informacje o naszych usługach i podejściu
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Otrzymaj Wycenę
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+2-min formularz, wycena w 24h
+</p>
+</div>
+</div>
+<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../../coming-soon.html" class="cta-primary">Zaplanuj Darmową Konsultację</a> <a href="../../coming-soon.html" class="cta-secondary">Pobierz Przewodnik BIM</a> <a href="../../coming-soon.html" class="cta-secondary">Otrzymaj Wycenę</a></p>
+</div>
+<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Partnerzy Państwa Sukcesu</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bezproblemowy Zespół Ekspertów</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia</strong>
 </p>
 </div>
 </div>
 </div>
+<section id="potrzebujesz-pomocy-teraz" class="level3" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
+<h3 class="anchored" data-anchor-id="potrzebujesz-pomocy-teraz">Potrzebujesz Pomocy Teraz?</h3>
+<p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Godziny Pracy:</strong> Poniedziałek-Piątek, 9:00-17:00 CET</p>
+</section>
+</section>
 </div>
 
 
@@ -751,7 +1081,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>© 2025 BIM Takeoff. All rights reserved.<br> Professional BIM 5D Cost Estimation Services</p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br> <a href="../pl/coming-soon.html">Privacy Policy</a> | <a href="../pl/coming-soon.html">Terms of Service</a></p>
+<p><strong>Quick Links</strong><br> <a href="coming-soon.qmd">Privacy Policy</a> | <a href="coming-soon.qmd">Terms of Service</a></p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Contact</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
@@ -762,10 +1092,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Scroll Effects & Animations -->
-<script src="../js/scroll-effects.js"></script>
+<script src="../../js/scroll-effects.js"></script>
 
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

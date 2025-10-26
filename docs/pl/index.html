@@ -98,6 +98,39 @@ ul.task-list li input[type="checkbox"] {
         'Case Studies': 'Studia Przypadków',
         'All rights reserved': 'Wszelkie prawa zastrzeżone'
     };
+
+    const linkTranslations = {
+        '/services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        'services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '/coming-soon.html': 'coming-soon.html',
+        'coming-soon.html': 'coming-soon.html',
+        '../coming-soon.html': 'coming-soon.html',
+        '/index.html': 'index.html',
+        '../index.html': 'index.html',
+        '/contact.html': 'kontakt.html',
+        'contact.html': 'kontakt.html',
+        '../contact.html': 'kontakt.html'
+    };
+
+    function translateLinks() {
+        document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+            let href = link.getAttribute('href');
+
+            // Handle absolute URLs by extracting the path
+            if (href && href.includes('://')) {
+                try {
+                    const url = new URL(href);
+                    href = url.pathname;
+                } catch (e) {}
+            }
+
+            if (linkTranslations[href]) {
+                link.setAttribute('href', linkTranslations[href]);
+            }
+        });
+    }
+
     function translatePage() {
         document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
             const text = el.textContent.trim();
@@ -108,6 +141,7 @@ ul.task-list li input[type="checkbox"] {
             link.href = 'tel:+48508209313';
             link.textContent = '+48 508 209 313';
         });
+        translateLinks();
         document.documentElement.lang = 'pl';
     }
     if (document.readyState === 'loading') {
@@ -153,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
         <li>
-    <a class="dropdown-item" href="../coming-soon.html">
+    <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
  <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
   </li>  
         <li>
@@ -265,11 +299,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../coming-soon.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../coming-soon.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -323,18 +353,18 @@ ul.task-list li input[type="checkbox"] {
 <div class="container">
 <div class="hero-title">
 <p><br></p>
-<section id="kosztorysowanie-bim.-nowy-wymiar-dokładności." class="level3">
-<h3 class="anchored" data-anchor-id="kosztorysowanie-bim.-nowy-wymiar-dokładności.">Kosztorysowanie BIM. Nowy wymiar dokładności.</h3>
+<section id="eksperci-w-kosztorysowaniu-i-przedmiarach" class="level3">
+<h3 class="anchored" data-anchor-id="eksperci-w-kosztorysowaniu-i-przedmiarach">Eksperci w Kosztorysowaniu i Przedmiarach</h3>
 </section>
-<section id="profesjonalne-przedmiary-i-kosztorysy" class="level1">
-<h1>Profesjonalne Przedmiary i Kosztorysy</h1>
+<section id="usługi-bim-takeoff" class="level1">
+<h1>Usługi BIM Takeoff</h1>
 </section>
 </div>
 <div class="hero-subtitle">
-<p>20 lat doświadczenia na rynkach UK, EU i Australii. Ponad 2000 projektów w zakresie zabudowy wewnętrznej, struktur, ochrony przeciwpożarowej i fasad. Dostarczamy precyzyjne kosztorysy zgodne z aktualnymi przepisami i wymogami BIM 2030.</p>
+<p>Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót konstrukcyjnych, ochrony przeciwpożarowej i fasad. Od szczegółowych przedmiarów po kompletne pakiety przetargowe - dostarczamy na całym świecie.</p>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a href="../pl/coming-soon.html" class="cta-primary">Zapraszamy do Kontaktu</a> <a href="../pl/coming-soon.html" class="cta-secondary">Poznaj Nasze Usługi</a></p>
+<p><a href="../pl/coming-soon.html" class="cta-primary">ZAPRASZAMY DO KONTAKTU</a> <a href="../pl/coming-soon.html" class="cta-secondary">POZNAJ USŁUGI</a></p>
 </div>
 </div>
 </div>
@@ -1224,7 +1254,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Scroll Effects & Animations -->
-<script src="js/scroll-effects.js"></script>
+<script src="../js/scroll-effects.js"></script>
 
 
 

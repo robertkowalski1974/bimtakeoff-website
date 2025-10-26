@@ -5,7 +5,7 @@ project:
 website:
   title: "BIM Takeoff"
   site-url: https://robertkowalski1974.github.io/bimtakeoff-website/pl
-  description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia UK/Australia | Zgodność z KNR/KNNR i BIM 2030"
+  description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
   favicon: ../images/favicon.ico
   
   navbar:
@@ -19,7 +19,7 @@ website:
       - text: "Usługi"
         menu:
           - text: "Kosztorysowanie i Planowanie Budżetu"
-            href: coming-soon.qmd
+            href: /pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html
           - text: "Specjalistyczne Usługi Branżowe"
             href: coming-soon.qmd
           - text: "Automatyczny Przedmiar z Modeli BIM"
@@ -70,10 +70,8 @@ website:
             href: coming-soon.qmd
           - text: "Studia Przypadków"
             href: coming-soon.qmd
-      - text: "O Nas"
-        href: coming-soon.qmd
       - text: "Kontakt"
-        href: coming-soon.qmd
+        href: kontakt.qmd
     right:
       - text: "PL"
         href: /pl/
@@ -120,6 +118,43 @@ format:
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
+        <!-- Polish Translation Script -->
+        <script>
+        (function() {
+            const linkTranslations = {
+                '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+                '../coming-soon.html': 'coming-soon.html',
+                '../index.html': 'index.html',
+                '../contact.html': 'kontakt.html'
+            };
+            
+            function translateLinks() {
+                document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (linkTranslations[href]) {
+                        link.setAttribute('href', linkTranslations[href]);
+                    }
+                });
+            }
+            
+            function updatePage() {
+                const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+                phoneLinks.forEach(link => {
+                    link.href = 'tel:+48508209313';
+                    link.textContent = '+48 508 209 313';
+                });
+                translateLinks();
+                document.documentElement.lang = 'pl';
+            }
+            
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', updatePage);
+            } else {
+                updatePage();
+            }
+            setTimeout(updatePage, 100);
+        })();
+        </script>
     include-after-body:
       - text: |
           <!-- Google Tag Manager (noscript) -->
@@ -128,7 +163,6 @@ format:
           <!-- End Google Tag Manager (noscript) -->
           <!-- Scroll Effects & Animations -->
           <script src="../js/scroll-effects.js"></script>
-      - _polish-navbar-include.html
     
 execute:
   freeze: auto

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.549">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIM Takeoff</title>
+<title>BIM Takeoff -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,7 +30,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/favicon.ico" rel="icon">
+<link href="./../images/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -88,30 +54,108 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
-<!-- End Google Tag Manager -->
+<script>
+(function() {
+    const translations = {
+        'Home': 'Strona Główna', 'Services': 'Usługi', 'Industries': 'Branże',
+        'Portfolio': 'Portfolio', 'Resources': 'Zasoby', 'About': 'O Nas', 'Contact': 'Kontakt',
+        'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+        'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+        'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+        'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+        'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+        'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+        'Multi-Scenario Analysis': 'Analiza Wariantowa',
+        'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+        'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+        'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+        'Construction Data Management': 'Zarządzanie Danymi BIM',
+        'Construction Logistics': 'Logistyka Budowlana',
+        'Warehouses & Logistics': 'Magazyny i Logistyka',
+        'Data Centers': 'Centra Danych',
+        'Residential Development': 'Deweloperstwo Mieszkaniowe',
+        'Remediation': 'Remediacja i Modernizacja',
+        'Commercial Development': 'Deweloperstwo Komercyjne',
+        'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+        'Industrial & Manufacturing': 'Przemysł i Produkcja',
+        'Infrastructure & Civil Works': 'Infrastruktura',
+        'BIM 2030 Guide': 'Przewodnik BIM 2030',
+        'ROI Calculator': 'Kalkulator Oszczędności',
+        'Case Studies': 'Studia Przypadków',
+        'All rights reserved': 'Wszelkie prawa zastrzeżone'
+    };
+
+    const linkTranslations = {
+        '/services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        'services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '../services/cost-estimation-budget-planning.html': 'uslugi/kosztorysowanie-i-planowanie-budzetu.html',
+        '/coming-soon.html': 'coming-soon.html',
+        'coming-soon.html': 'coming-soon.html',
+        '../coming-soon.html': 'coming-soon.html',
+        '/index.html': 'index.html',
+        '../index.html': 'index.html',
+        '/contact.html': 'kontakt.html',
+        'contact.html': 'kontakt.html',
+        '../contact.html': 'kontakt.html',
+        '/': '../',
+        '/pl/': '../'
+    };
+
+    function translateLinks() {
+        document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+            let href = link.getAttribute('href');
+
+            if (href && href.includes('://')) {
+                try {
+                    const url = new URL(href);
+                    href = url.pathname;
+                } catch (e) {}
+            }
+
+            if (linkTranslations[href]) {
+                link.setAttribute('href', linkTranslations[href]);
+            }
+        });
+    }
+
+    function translatePage() {
+        document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item').forEach(el => {
+            const text = el.textContent.trim();
+            if (translations[text]) el.textContent = translations[text];
+        });
+        const phoneLinks = document.querySelectorAll('a[href="tel:+442032399967"]');
+        phoneLinks.forEach(link => {
+            link.href = 'tel:+48508209313';
+            link.textContent = '+48 508 209 313';
+        });
+        translateLinks();
+        document.documentElement.lang = 'pl';
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', translatePage);
+    } else {
+        translatePage();
+    }
+    setTimeout(translatePage, 100);
+})();
+</script>
 
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -122,113 +166,113 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
+    <img src="./../images/BIM TAKEOFF V2-2.jpg" alt="Logo BIM Takeoff" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">BIM Takeoff</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Szukaj"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Strona Główna</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Services</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-usługi" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Usługi</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-usługi">    
         <li>
-    <a class="dropdown-item" href="./services/cost-estimation-budget-planning.html">
- <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+    <a class="dropdown-item" href="./pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">
+ <span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+ <span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Automated Quantity Takeoff</span></a>
+ <span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Fast-Track Cost Control</span></a>
+ <span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+ <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">MEP Infrastructure Precision</span></a>
+ <span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Multi-Scenario Analysis</span></a>
+ <span class="dropdown-text">Analiza Wariantowa</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Comprehensive Reporting</span></a>
+ <span class="dropdown-text">Kompleksowe Raportowanie</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
+ <span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Traditional Quantity Takeoff</span></a>
+ <span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Construction Data Management</span></a>
+ <span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Construction Logistics</span></a>
+ <span class="dropdown-text">Logistyka Budowlana</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Industries</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-branże" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Branże</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-industries">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-branże">    
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+ <span class="dropdown-text">Magazyny i Logistyka</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Data Centers</span></a>
+ <span class="dropdown-text">Centra Danych</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Residential Development</span></a>
+ <span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Remediation</span></a>
+ <span class="dropdown-text">Remediacja i Modernizacja</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Commercial Development</span></a>
+ <span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
+ <span class="dropdown-text">Opieka Zdrowotna</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
+ <span class="dropdown-text">Przemysł i Produkcja</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
+ <span class="dropdown-text">Infrastruktura</span></a>
   </li>  
     </ul>
   </li>
@@ -237,27 +281,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zasoby" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Zasoby</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-zasoby">    
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">BIM 2030 Guide</span></a>
+ <span class="dropdown-text">Przewodnik BIM 2030</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">ROI Calculator</span></a>
+ <span class="dropdown-text">Kalkulator Oszczędności</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./coming-soon.html">
- <span class="dropdown-text">Case Studies</span></a>
+ <span class="dropdown-text">Studia Przypadków</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link active" href="./kontakt.html" aria-current="page"> 
+<span class="menu-text">Kontakt</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -287,151 +331,190 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<section id="quick-start---nowe-efekty-wizualne" class="level1">
-<h1>🚀 QUICK START - Nowe Efekty Wizualne</h1>
-<section id="co-zostało-dodane" class="level2">
-<h2 class="anchored" data-anchor-id="co-zostało-dodane">Co zostało dodane?</h2>
-<p>✨ <strong>10 nowoczesnych efektów wizualnych</strong> eliminujących problem “płaskiej” strony:</p>
-<ol type="1">
-<li>🎭 <strong>Scroll Reveal</strong> - elementy pojawiają się podczas scrollowania</li>
-<li>🌄 <strong>Parallax Hero</strong> - video tło z efektem głębi</li>
-<li>🔢 <strong>Animated Counters</strong> - liczniki licząc do wartości (2000+, 12M+)</li>
-<li>📊 <strong>Progress Bar</strong> - pomarańczowy pasek postępu na górze</li>
-<li>⚡ <strong>Smooth Scroll</strong> - płynne przejścia między sekcjami</li>
-<li>🃏 <strong>Card Hover</strong> - karty “unoszą się” przy najechaniu</li>
-<li>📱 <strong>Smart Navbar</strong> - dynamiczny cień przy scrollu</li>
-<li>🎬 <strong>Loading Animation</strong> - płynne pojawienie się hero</li>
-<li>⬆️ <strong>Scroll to Top</strong> - przycisk powrotu na górę</li>
-<li>🖼️ <strong>Lazy Loading</strong> - obrazy ładują się on-demand</li>
-</ol>
-<hr>
+<!-- Contact Hero Section -->
+<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Skontaktuj się z nami</h1>
+        <p class="lead mb-4" style="color: #E0E0E0; font-size: 1.25rem;">
+          Gotowy, aby przekształcić swój projekt dzięki profesjonalnemu kosztorysowaniu BIM 5D? 
+          Porozmawiajmy o tym, jak możemy pomóc Ci osiągnąć precyzyjną kontrolę budżetu i pewność kosztów.
+        </p>
+        <div class="trust-indicators" style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 30px; justify-content: center;">
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">20+</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Lat Doświadczenia</div>
+          </div>
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">2000+</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Zrealizowanych Projektów</div>
+          </div>
+          <div>
+            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">24h</div>
+            <div style="color: #B0B0B0; font-size: 0.9rem;">Czas Odpowiedzi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<section id="jak-uruchomić-3-kroki" class="level2">
-<h2 class="anchored" data-anchor-id="jak-uruchomić-3-kroki">🎯 Jak uruchomić (3 kroki)</h2>
-<section id="rebuild-strony" class="level3">
-<h3 class="anchored" data-anchor-id="rebuild-strony">1. Rebuild strony</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /Users/robertkowalski/Documents/bimtakeoff-website</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+<!-- Contact Information Section -->
+<section style="padding: 80px 20px; background: #FFFFFF;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="row g-4">
+      
+      <!-- Contact Cards -->
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;" class="anchored">Telefon</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Porozmawiaj bezpośrednio z naszymi specjalistami</p>
+          <a href="tel:+48508209313" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
+            +48 508 209 313
+          </a>
+          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
+            Poniedziałek - Piątek: 9:00 - 18:00
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;" class="anchored">E-mail</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Wyślij nam szczegóły projektu i wymagania</p>
+          <a href="mailto:info@bimtakeoff.com" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none; word-break: break-all;">
+            info@bimtakeoff.com
+          </a>
+          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
+            Odpowiadamy w ciągu 24 godzin
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;" class="anchored">Zasięg Międzynarodowy</h3>
+          <p style="color: #666666; margin-bottom: 20px;">Obsługujemy klientów na rynkach międzynarodowych</p>
+          <div style="color: #2C2C2C; font-size: 1.1rem; line-height: 1.8;">
+            <div>🇵🇱 Polska</div>
+            <div>🇬🇧 Wielka Brytania</div>
+            <div>🇦🇺 Australia</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
-<section id="preview-lokalnie" class="level3">
-<h3 class="anchored" data-anchor-id="preview-lokalnie">2. Preview lokalnie</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Otwórz przeglądarkę i scrolluj - wszystkie efekty działają! 🎉</p>
+
+<!-- Why Contact Us Section -->
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold mb-3 anchored" style="color: #2C2C2C; font-size: 2.5rem;">Dlaczego Warto Z Nami Współpracować?</h2>
+      <p style="color: #666666; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+        Doświadcz różnicy w pracy z certyfikowanymi specjalistami ds. kosztorysowania
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;" class="anchored">Międzynarodowe Doświadczenie</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Profesjonalne standardy quantity surveying</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;" class="anchored">20+ Lat Doświadczenia</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Udokumentowane osiągnięcia w UE, UK i Australii</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;" class="anchored">Zgodność z BIM 2030</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Zgodność z polskim mandatem BIM</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
+          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;" class="anchored">Szybka Odpowiedź</h4>
+          <p style="color: #666666; font-size: 0.95rem;">Gwarancja odpowiedzi w 24 godziny</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<section id="deploy-na-github-pages" class="level3">
-<h3 class="anchored" data-anchor-id="deploy-na-github-pages">3. Deploy na GitHub Pages</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add scroll effects"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Gotowe!</strong> GitHub Pages zaktualizuje się automatycznie w ~2-3 minuty.</p>
-<hr>
+
+<!-- CTA Section -->
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4 anchored" style="color: #FFFFFF; font-size: 2.5rem;">Gotowy Na Start Projektu?</h2>
+    <p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
+      Skontaktuj się z nami już dziś, aby otrzymać bezpłatną konsultację i dowiedzieć się, 
+      jak kosztorysowanie BIM 5D może przekształcić realizację Twojego projektu
+    </p>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="tel:+48508209313" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Zadzwoń Teraz
+      </a>
+      <a href="mailto:info@bimtakeoff.com" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Wyślij E-mail
+      </a>
+    </div>
+  </div>
 </section>
-</section>
-<section id="jak-sprawdzić-czy-działa" class="level2">
-<h2 class="anchored" data-anchor-id="jak-sprawdzić-czy-działa">🔍 Jak sprawdzić czy działa?</h2>
-<ol type="1">
-<li><p>Otwórz stronę w Chrome/Firefox</p></li>
-<li><p>Naciśnij <strong>F12</strong> → zakładka <strong>Console</strong></p></li>
-<li><p>Odśwież stronę (<strong>Ctrl+R</strong> / <strong>Cmd+R</strong>)</p></li>
-<li><p>Szukaj komunikatu:</p>
-<pre><code>🎨 Initializing BIM Takeoff scroll effects...
-✅ All scroll effects initialized</code></pre></li>
-<li><p>Jeśli widzisz te komunikaty → <strong>wszystko działa!</strong> ✅</p></li>
-</ol>
-<hr>
-</section>
-<section id="co-zobaczysz-na-stronie" class="level2">
-<h2 class="anchored" data-anchor-id="co-zobaczysz-na-stronie">🎨 Co zobaczysz na stronie?</h2>
-<section id="scroll-w-dół" class="level3">
-<h3 class="anchored" data-anchor-id="scroll-w-dół">Scroll w dół:</h3>
-<ul>
-<li>✨ Sekcje pojawiają się z fade-in + slide-up</li>
-<li>📊 Pomarańczowy pasek postępu rośnie na górze</li>
-<li>🔢 Liczby w statystykach liczą się od 0</li>
-<li>🌄 Hero tło porusza się wolniej (parallax)</li>
-</ul>
-</section>
-<section id="hover-na-kartach" class="level3">
-<h3 class="anchored" data-anchor-id="hover-na-kartach">Hover na kartach:</h3>
-<ul>
-<li>🃏 Karty podnoszą się</li>
-<li>💫 Ikony powiększają się i obracają</li>
-<li>🎯 Większy cień (depth effect)</li>
-</ul>
-</section>
-<section id="po-scrollowaniu-500px" class="level3">
-<h3 class="anchored" data-anchor-id="po-scrollowaniu-500px">Po scrollowaniu 500px:</h3>
-<ul>
-<li>⬆️ Pojawia się pomarańczowy przycisk “Scroll to Top”</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="co-zostało-zmienione" class="level2">
-<h2 class="anchored" data-anchor-id="co-zostało-zmienione">📁 Co zostało zmienione?</h2>
-<pre><code>📦 bimtakeoff-website/
- ┣ 📂 js/
- ┃ ┗ 📜 scroll-effects.js         ← NOWY! (300+ linii)
- ┣ 📂 css/
- ┃ ┗ 📜 styles.css                ← ZAKTUALIZOWANY (nowe animacje)
- ┣ 📜 _quarto.yml                 ← ZAKTUALIZOWANY (dodano &lt;script&gt;)
- ┣ 📂 pl/
- ┃ ┗ 📜 _quarto.yml               ← ZAKTUALIZOWANY (dodano &lt;script&gt;)
- ┗ 📜 EFEKTY_WIZUALNE_DOKUMENTACJA.md  ← Pełna dokumentacja</code></pre>
-<hr>
-</section>
-<section id="troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting">🐛 Troubleshooting</h2>
-<section id="nie-widzę-efektów" class="level3">
-<h3 class="anchored" data-anchor-id="nie-widzę-efektów">Nie widzę efektów?</h3>
-<p><strong>Rozwiązanie 1: Clear cache</strong> - Windows: <strong>Ctrl + Shift + R</strong> - Mac: <strong>Cmd + Shift + R</strong></p>
-<p><strong>Rozwiązanie 2: Force rebuild</strong></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--no-cache</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Rozwiązanie 3: Sprawdź ścieżki</strong> - Otwórz DevTools (F12) → Network tab - Odśwież stronę - Sprawdź czy <code>scroll-effects.js</code> się ładuje (status 200)</p>
-<hr>
-</section>
-</section>
-<section id="więcej-informacji" class="level2">
-<h2 class="anchored" data-anchor-id="więcej-informacji">🎓 Więcej informacji</h2>
-<p>Pełna dokumentacja wszystkich efektów znajduje się w:</p>
-<pre><code>EFEKTY_WIZUALNE_DOKUMENTACJA.md</code></pre>
-<p>Zawiera: - Szczegółowy opis każdego efektu - Jak dodawać własne animacje - Jak dostosować prędkość/timing - Zaawansowane rozszerzenia - Kompletny troubleshooting</p>
-<hr>
-</section>
-<section id="potrzebujesz-zmian" class="level2">
-<h2 class="anchored" data-anchor-id="potrzebujesz-zmian">📞 Potrzebujesz zmian?</h2>
-<p>Wszystkie efekty są łatwo konfigurowalne w: - <code>/js/scroll-effects.js</code> - JavaScript (timing, behaviors) - <code>/css/styles.css</code> - CSS (kolory, animacje, transitions)</p>
-<p><strong>Najczęstsze zmiany:</strong></p>
-<section id="zmiana-prędkości-animacji" class="level3">
-<h3 class="anchored" data-anchor-id="zmiana-prędkości-animacji">Zmiana prędkości animacji:</h3>
-<div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">// scroll-effects.js, linia ~40</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>el<span class="op">.</span><span class="at">style</span><span class="op">.</span><span class="at">transitionDelay</span> <span class="op">=</span> <span class="vs">`</span><span class="sc">${</span>index <span class="op">*</span> <span class="fl">0.05</span><span class="sc">}</span><span class="vs">s`</span><span class="op">;</span> <span class="co">// Zmień 0.05 na 0.1 dla wolniejszego efektu</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="zmiana-koloru-progress-bar" class="level3">
-<h3 class="anchored" data-anchor-id="zmiana-koloru-progress-bar">Zmiana koloru progress bar:</h3>
-<div class="sourceCode" id="cb9"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* styles.css, linia ~60 */</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">.scroll-progress</span> {</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background</span><span class="ch">:</span> <span class="fu">linear-gradient(</span><span class="dv">90</span><span class="dt">deg</span><span class="op">,</span> <span class="cn">#FF9900</span><span class="op">,</span> <span class="cn">#E68A00</span><span class="fu">)</span><span class="op">;</span> <span class="co">/* Zmień kolory */</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<hr>
-</section>
-</section>
-<section id="status" class="level2">
-<h2 class="anchored" data-anchor-id="status">✅ Status</h2>
-<ul>
-<li>✅ Kod gotowy</li>
-<li>✅ Dokumentacja gotowa</li>
-<li>⏳ Czeka na rebuild &amp; deploy</li>
-<li>⏳ Czeka na testing</li>
-</ul>
-<p><strong>Next steps:</strong> 1. Rebuild: <code>quarto render</code> 2. Test lokalnie: <code>quarto preview</code> 3. Deploy: <code>git push</code> 4. Sprawdź live site</p>
-<hr>
-<p>🎉 <strong>Gotowe do uruchomienia!</strong></p>
-<p>Masz pytania? Sprawdź pełną dokumentację w <code>EFEKTY_WIZUALNE_DOKUMENTACJA.md</code></p>
+
+<style>
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .trust-indicators {
+    gap: 20px !important;
+  }
+  
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  
+  .lead {
+    font-size: 1.1rem !important;
+  }
+}
+</style>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -488,12 +571,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Skopiowano!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Skopiowano!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -515,7 +598,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website\/pl");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -843,13 +926,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 BIM Takeoff. All rights reserved.<br> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2025 BIM Takeoff. Wszelkie prawa zastrzeżone.<br> Kosztorysowanie BIM 5D | Certyfikacja RICS | Zgodność KNR/KNNR</p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br> <a href="./coming-soon.html">Privacy Policy</a> | <a href="./coming-soon.html">Terms of Service</a></p>
+<p><strong>Informacje</strong><br> <a href="./coming-soon.html">Polityka Prywatności</a> | <a href="./coming-soon.html">Warunki Współpracy</a></p>
 </div>
     <div class="nav-footer-right">
-<p><strong>Contact</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Kontakt</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+48508209313">+48 508 209 313</a></p>
 </div>
   </div>
 </footer>
@@ -857,7 +940,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Scroll Effects & Animations -->
-<script src="./js/scroll-effects.js"></script>
+<script src="../js/scroll-effects.js"></script>
 
 
 
