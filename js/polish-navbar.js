@@ -88,6 +88,10 @@
         './services/cost-estimation-budget-planning.html': '/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html',
         '/services/cost-estimation-budget-planning.html': '/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html',
         
+        '../services/trade-specific-specialist-services.html': '/pl/uslugi/specjalistyczne-branzy-budowlane.html',
+        './services/trade-specific-specialist-services.html': '/pl/uslugi/specjalistyczne-branzy-budowlane.html',
+        '/services/trade-specific-specialist-services.html': '/pl/uslugi/specjalistyczne-branzy-budowlane.html',
+        
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',
