@@ -44,7 +44,9 @@ format:
                 'coming-soon.html': 'coming-soon.html',
                 '../coming-soon.html': 'coming-soon.html',
                 '/index.html': 'index.html',
+                'index.html': 'index.html',
                 '../index.html': 'index.html',
+                '/': 'index.html',
                 '/contact.html': 'kontakt.html',
                 'contact.html': 'kontakt.html',
                 '../contact.html': 'kontakt.html'

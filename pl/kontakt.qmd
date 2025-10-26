@@ -44,12 +44,13 @@ format:
                 'coming-soon.html': 'coming-soon.html',
                 '../coming-soon.html': 'coming-soon.html',
                 '/index.html': 'index.html',
+                'index.html': 'index.html',
                 '../index.html': 'index.html',
+                '/': 'index.html',
+                '/pl/': 'index.html',
                 '/contact.html': 'kontakt.html',
                 'contact.html': 'kontakt.html',
-                '../contact.html': 'kontakt.html',
-                '/': '../',
-                '/pl/': '../'
+                '../contact.html': 'kontakt.html'
             };
             
             function translateLinks() {
