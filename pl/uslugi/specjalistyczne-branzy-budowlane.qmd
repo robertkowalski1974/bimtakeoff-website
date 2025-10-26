@@ -231,7 +231,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 ::: {.process-timeline style="margin: 48px 0; padding: 40px; background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-radius: 12px;"}
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-1-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Etap 1: Definicja Zakresu Specjalistycznego
+#### Etap 1: Definicja Zakresu Specjalistycznego
 
 **Czas trwania:** 2-3 dni
 
@@ -247,7 +247,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-2-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Etap 2: Specjalistyczny Przedmiar Materiałowy
+#### Etap 2: Specjalistyczny Przedmiar Materiałowy
 
 **Czas trwania:** 2-4 dni
 
@@ -263,7 +263,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-3-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Etap 3: Analiza Robocizny
+#### Etap 3: Analiza Robocizny
 
 **Czas trwania:** 2-3 dni
 
@@ -279,7 +279,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-4-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Etap 4: Budżet Zgodności i Testów
+#### Etap 4: Budżet Zgodności i Testów
 
 **Czas trwania:** 1-2 dni
 
@@ -295,7 +295,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-5-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Etap 5: Ocena Ryzyka i Rezerwa
+#### Etap 5: Ocena Ryzyka i Rezerwa
 
 **Czas trwania:** 1 dzień
 

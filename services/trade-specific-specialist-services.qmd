@@ -233,7 +233,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 ::: {.process-timeline style="margin: 48px 0; padding: 40px; background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-radius: 12px;"}
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-1-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 1: Trade-Specific Scope Definition
+#### Step 1: Trade-Specific Scope Definition
 
 **Duration:** 2-3 days
 
@@ -249,7 +249,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-2-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 2: Specialist Material Takeoff
+#### Step 2: Specialist Material Takeoff
 
 **Duration:** 2-4 days
 
@@ -265,7 +265,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-3-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 3: Installation Labor Analysis
+#### Step 3: Installation Labor Analysis
 
 **Duration:** 2-3 days
 
@@ -281,7 +281,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-4-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 4: Compliance & Testing Budget
+#### Step 4: Compliance & Testing Budget
 
 **Duration:** 1-2 days
 
@@ -297,7 +297,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### <i class="bi bi-5-circle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 5: Risk Assessment & Contingency
+#### Step 5: Risk Assessment & Contingency
 
 **Duration:** 1 day
 
