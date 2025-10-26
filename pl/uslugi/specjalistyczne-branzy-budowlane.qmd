@@ -397,57 +397,6 @@ Każdy pakiet zawiera:
 
 :::
 
-## Rzeczywiste Przykłady Projektów
-
-::: {.case-studies style="margin: 48px 0;"}
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### Kompleks Biurowy Warszawa - Pakiet Suchej Zabudowy
-
-**Projekt:** 15 000 m² biuro klasy A  
-**Wyzwanie:** Złożone wymagania akustyczne, 90-minutowa klasa ogniowa  
-**Nasze Podejście:** 
-- Zidentyfikowaliśmy 3 różne typy ścian pominiętych przez ogólnego kosztorysanta
-- Obliczono rzeczywiste stawki robocizny włączając uszczelnienie ppoż. przy każdym przepuście
-- Uwzględniono koszty testów akustycznych (35 000 PLN przeoczone przez innych)
-
-**Rezultat:** Wygrany przetarg z dokładną wyceną, brak przekroczeń kosztów, dostawa na czas
-
-**Klient zaoszczędził:** 12% vs. ogólny kosztorys który pominął kluczowe wymagania
-:::
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### Centrum Dystrybucyjne - Systemy Ochrony Przeciwpożarowej
-
-**Projekt:** 45 000 m² hub logistyczny wymagający zgodności FM Global  
-**Wyzwanie:** Złożony projekt tryskaczowy, specjalistyczna ochrona regałów  
-**Nasze Podejście:**
-- Szczegółowy przedmiar włączając tryskacze w regałach często pomijane
-- Uwzględniono wymogi testowe FM Global (150 000 PLN)
-- Włączono koszty pompowni i zbiornika przeoczone przez konkurencję
-
-**Rezultat:** Dokładny budżet zapobiegł 25% przekroczeniu kosztów doświadczanemu przez podobne projekty
-
-**Kluczowe Odkrycie:** Testy i uruchomienie = 7% całego pakietu (branża często zakłada 2-3%)
-:::
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### Wieżowiec Mieszkalny - Prace Elewacyjne
-
-**Projekt:** 28-piętrowy wieżowiec, system ścian osłonowych jednostkowych  
-**Wyzwanie:** Wymagania obciążenia wiatrem, złożone interfejsy  
-**Nasze Podejście:**
-- Obliczono stawki montażu według piętra (wolniej na wysokości)
-- Uwzględniono koszty BMU i strategię dostępu do elewacji
-- Uwzględniono opóźnienia pogodowe na podstawie danych historycznych
-
-**Rezultat:** Kosztorys w granicach 3% kosztu końcowego, podczas gdy konkurenci byli 18-25% poniżej
-
-**Kluczowa Nauka:** Sprzęt dostępowy = 18% kosztu montażu na wysokości
-:::
-
-:::
-
 ## Najczęściej Zadawane Pytania
 
 ::: {.faq-section}

@@ -399,57 +399,6 @@ Every package includes:
 
 :::
 
-## Real Project Examples
-
-::: {.case-studies style="margin: 48px 0;"}
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### Warsaw Office Complex - Drylining Package
-
-**Project:** 15,000 sqm Grade A office fitout  
-**Challenge:** Complex acoustic requirements, 90-minute fire rating throughout  
-**Our Approach:** 
-- Identified 3 different wall types missed by general estimator
-- Calculated true labor rates including fire-stopping at every penetration
-- Included acoustic testing costs (€8,000 overlooked by others)
-
-**Result:** Won tender with accurate pricing, no cost overruns, delivered on time
-
-**Client Saved:** 12% vs. generic estimate that missed key requirements
-:::
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### Distribution Center - Fire Protection Systems
-
-**Project:** 45,000 sqm logistics hub requiring FM Global compliance  
-**Challenge:** Complex sprinkler design, specialized rack protection  
-**Our Approach:**
-- Detailed takeoff including in-rack sprinklers often missed
-- Factored FM Global testing requirements (€35,000)
-- Included pump house and tank costs overlooked by competitors
-
-**Result:** Accurate budget prevented 25% cost overrun experienced by similar projects
-
-**Critical Find:** Testing and commissioning = 7% of total package (industry often assumes 2-3%)
-:::
-
-::: {.case-study-card style="padding: 32px; margin-bottom: 24px; background: #f8f9fa; border-left: 4px solid var(--bim-orange);"}
-### High-Rise Residential - Facade Works
-
-**Project:** 28-story tower, unitized curtain wall system  
-**Challenge:** Wind loading requirements, complex interfaces  
-**Our Approach:**
-- Calculated installation rates by floor (slower at height)
-- Included BMU costs and facade access strategy
-- Factored weather delays based on historical data
-
-**Result:** Estimate within 3% of final cost, while competitors were 18-25% under
-
-**Key Learning:** Access equipment = 18% of installation cost at height
-:::
-
-:::
-
 ## Frequently Asked Questions
 
 ::: {.faq-section}
