@@ -117,6 +117,12 @@ ul.task-list li input[type="checkbox"] {
 
     function translateLinks() {
         document.querySelectorAll('.navbar a[href], .dropdown-item[href]').forEach(link => {
+            // Skip language switcher links (PL/EN)
+            const linkText = link.textContent.trim();
+            if (linkText === 'PL' || linkText === 'EN') {
+                return;
+            }
+
             let href = link.getAttribute('href');
 
             // Handle absolute URLs by extracting the path
