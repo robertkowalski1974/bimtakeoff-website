@@ -4,9 +4,15 @@ project:
 
 website:
   title: "BIM Takeoff"
-  site-url: https://robertkowalski1974.github.io/bimtakeoff-website/pl
+  site-url: "https://robertkowalski1974.github.io/bimtakeoff-website/pl"
   description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
   favicon: ../images/favicon.ico
+  
+  # Open Graph metadata for social sharing (Polish)
+  open-graph:
+    locale: pl_PL
+    site-name: "BIM Takeoff"
+    image: "../images/BIM TAKEOFF V2-2.jpg"
   
   navbar:
     background: "#2C2C2C"
@@ -108,6 +114,7 @@ format:
     code-tools: false
     link-external-newwindow: true
     link-external-icon: false
+    # Language declaration for Polish pages
     lang: pl
     include-in-header:
       text: |
@@ -119,6 +126,71 @@ format:
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
         
+        <!-- Twitter Card metadata (Polish) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@bimtakeoff">
+        <meta name="twitter:creator" content="@bimtakeoff">
+        <meta name="twitter:title" content="BIM Takeoff - Profesjonalne Kosztorysowanie BIM 5D">
+        <meta name="twitter:description" content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia">
+        
+        <!-- Organization Structured Data (Polish version) -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "BIM Takeoff",
+          "alternateName": "BIM Takeoff Polska",
+          "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych",
+          "url": "https://robertkowalski1974.github.io/bimtakeoff-website/pl",
+          "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "telephone": "+48-508-209-313",
+          "email": "info@bimtakeoff.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "PL"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "Polska"
+            },
+            {
+              "@type": "Country",
+              "name": "United Kingdom"
+            },
+            {
+              "@type": "Country",
+              "name": "Australia"
+            }
+          ],
+          "serviceType": [
+            "Kosztorysowanie BIM 5D",
+            "Przedmiar budowlany",
+            "Obmiar budowlany",
+            "Automatyczne przedmiarowanie",
+            "Usługi kosztorysowe"
+          ],
+          "priceRange": "$$",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "20"
+          },
+          "knowsLanguage": [
+            {
+              "@type": "Language",
+              "name": "Polski",
+              "alternateName": "pl"
+            },
+            {
+              "@type": "Language",
+              "name": "English",
+              "alternateName": "en"
+            }
+          ]
+        }
+        </script>
     include-after-body:
       - text: |
           <!-- Google Tag Manager (noscript) -->
