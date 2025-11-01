@@ -3,12 +3,23 @@ project:
   output-dir: docs
   resources:
     - CNAME
+  # Post-render scripts for SEO optimization
+  post-render:
+    - python3 scripts/add-hreflang.py
+    - python3 scripts/add-canonicals.py
+    - python3 scripts/clean-sitemap.py
 
 website:
   title: "BIM Takeoff"
-  site-url: https://robertkowalski1974.github.io/bimtakeoff-website
+  site-url: "https://robertkowalski1974.github.io/bimtakeoff-website"
   description: "Professional BIM 5D Cost Estimation | 20 Years International Experience"
   favicon: images/favicon.ico
+  
+  # Open Graph metadata for social sharing
+  open-graph:
+    locale: en_GB
+    site-name: "BIM Takeoff"
+    image: "images/BIM TAKEOFF V2-2.jpg"
   
   navbar:
     background: "#2C2C2C"
@@ -108,6 +119,8 @@ format:
     code-tools: false
     link-external-newwindow: true
     link-external-icon: false
+    # Language declaration for accessibility and SEO
+    lang: en-GB
     include-in-header:
       text: |
         <!-- Google Tag Manager -->
@@ -117,6 +130,59 @@ format:
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
+        
+        <!-- Twitter Card metadata -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@bimtakeoff">
+        <meta name="twitter:creator" content="@bimtakeoff">
+        <meta name="twitter:title" content="BIM Takeoff - Professional BIM 5D Cost Estimation">
+        <meta name="twitter:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+        
+        <!-- Organization Structured Data (Global) -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "BIM Takeoff",
+          "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
+          "url": "https://robertkowalski1974.github.io/bimtakeoff-website",
+          "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "telephone": "+44-20-3239-9967",
+          "email": "info@bimtakeoff.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "GB"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United Kingdom"
+            },
+            {
+              "@type": "Country",
+              "name": "Australia"
+            },
+            {
+              "@type": "Country",
+              "name": "Poland"
+            }
+          ],
+          "serviceType": [
+            "BIM 5D Cost Estimation",
+            "Quantity Surveying",
+            "Construction Cost Consulting",
+            "Automated Quantity Takeoff",
+            "BIM Coordination Services"
+          ],
+          "priceRange": "$$",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "20"
+          }
+        }
+        </script>
     include-after-body:
       - text: |
           <!-- Google Tag Manager (noscript) -->

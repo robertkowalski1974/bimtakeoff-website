@@ -493,76 +493,7 @@ O: Tak. Choć mamy siedzibę w Polsce, posiadamy szerokie doświadczenie ze stan
 
 :::
 
-## Pakiety Inwestycyjne
 
-::: {.pricing-table style="margin: 48px 0;"}
-
-::: {.pricing-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;"}
-
-::: {.pricing-card style="padding: 32px; background: white; border: 2px solid #e0e0e0; border-radius: 8px; text-align: center;"}
-### Pakiet Podstawowy
-**Dla Pojedynczych Branż**
-
-Od **10 000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ Jeden kosztorys branży specjalistycznej  
-✓ Szczegółowy przedmiar ze specyfikacjami  
-✓ Podział na robociznę i materiały  
-✓ Podstawowa ocena ryzyka  
-✓ 5 dni roboczych realizacji  
-:::
-
-[Rozpocznij](../../coming-soon.qmd){.cta-secondary style="width: 100%;"}
-:::
-
-::: {.pricing-card featured="true" style="padding: 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border: 2px solid var(--bim-orange); border-radius: 8px; text-align: center; color: white;"}
-### Pakiet Profesjonalny
-**Najpopularniejszy - Wiele Branż**
-
-Od **20 000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ 2-3 kosztorysy branż specjalistycznych  
-✓ Kompleksowy przedmiar z alternatywami  
-✓ Szczegółowa robocizna/sprzęt/materiały  
-✓ Pełny rejestr ryzyk i mitygacja  
-✓ Opcje optymalizacji wartości  
-✓ Harmonogram kosztów zgodności  
-✓ 10 dni roboczych realizacji  
-:::
-
-[Rozpocznij](../../coming-soon.qmd){.cta-primary style="width: 100%;"}
-:::
-
-::: {.pricing-card style="padding: 32px; background: white; border: 2px solid #e0e0e0; border-radius: 8px; text-align: center;"}
-### Pakiet Enterprise
-**Pełne Pokrycie Projektu**
-
-Od **35 000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ Wszystkie branże specjalistyczne  
-✓ Zintegrowany model kosztowy  
-✓ Przygotowanie dokumentów przetargowych  
-✓ Wsparcie oceny wykonawców  
-✓ Miesięczne aktualizacje kosztów  
-✓ Wizyty weryfikacyjne na budowie  
-✓ Dedykowany kierownik projektu  
-:::
-
-[Rozpocznij](../../coming-soon.qmd){.cta-secondary style="width: 100%;"}
-:::
-
-:::
-
-::: {style="text-align: center; margin-top: 32px; padding: 24px; background: #f8f9fa; border-radius: 8px;"}
-**Wszystkie pakiety zawierają:** Bezpłatna konsultacja wstępna | Rundy rewizji | Dokumentacja cyfrowa | 30-dniowe wsparcie
-
-**Tryb ekspresowy dostępny:** 30% dopłata za pilną realizację (5-7 dni roboczych)
-:::
-
-:::
 
 ## Gotowy na Nowy Wymiar Kosztorysowania?
 
@@ -609,7 +540,7 @@ Od **35 000 PLN**
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**Certyfikat RICS**  
+**Doświadczony Surveyor**  
 Quantity Surveyor
 :::
 
@@ -621,20 +552,14 @@ Doświadczenia
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**3 Kontynenty**  
-EU, UK, Australia
+**Obsługujemy cały świat**  
+Projekty Globalne
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i>  
 **±3-5%**  
 Dokładność
-:::
-
-::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-people-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**500+**  
-Zadowolonych Klientów
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}

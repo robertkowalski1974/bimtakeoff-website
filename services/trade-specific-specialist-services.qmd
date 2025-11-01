@@ -495,77 +495,6 @@ A: Yes. While based in Poland, we have extensive experience with EU, UK, and Aus
 
 :::
 
-## Investment Packages
-
-::: {.pricing-table style="margin: 48px 0;"}
-
-::: {.pricing-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;"}
-
-::: {.pricing-card style="padding: 32px; background: white; border: 2px solid #e0e0e0; border-radius: 8px; text-align: center;"}
-### Essential Package
-**For Single Trade Packages**
-
-Starting from **10,000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ One specialist trade estimate  
-✓ Detailed BOQ with specifications  
-✓ Labor and material breakdown  
-✓ Basic risk assessment  
-✓ 5 working days delivery  
-:::
-
-[Get Started](../coming-soon.qmd){.cta-secondary style="width: 100%;"}
-:::
-
-::: {.pricing-card featured="true" style="padding: 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border: 2px solid var(--bim-orange); border-radius: 8px; text-align: center; color: white;"}
-### Professional Package
-**Most Popular - Multiple Trades**
-
-Starting from **20,000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ 2-3 specialist trade estimates  
-✓ Comprehensive BOQ with alternates  
-✓ Detailed labor/equipment/material  
-✓ Full risk register & mitigation  
-✓ Value engineering options  
-✓ Compliance cost schedule  
-✓ 10 working days delivery  
-:::
-
-[Get Started](../coming-soon.qmd){.cta-primary style="width: 100%;"}
-:::
-
-::: {.pricing-card style="padding: 32px; background: white; border: 2px solid #e0e0e0; border-radius: 8px; text-align: center;"}
-### Enterprise Package
-**Complete Project Coverage**
-
-Starting from **35,000 PLN**
-
-::: {style="text-align: left; margin: 24px 0;"}
-✓ All specialist trades covered  
-✓ Integrated cost model  
-✓ Tender document preparation  
-✓ Contractor evaluation support  
-✓ Monthly cost updates  
-✓ On-site verification visits  
-✓ Dedicated project manager  
-:::
-
-[Get Started](../coming-soon.qmd){.cta-secondary style="width: 100%;"}
-:::
-
-:::
-
-::: {style="text-align: center; margin-top: 32px; padding: 24px; background: #f8f9fa; border-radius: 8px;"}
-**All packages include:** Free initial consultation | Revision rounds | Digital deliverables | 30-day support
-
-**Fast-track available:** 30% surcharge for urgent delivery (5-7 working days)
-:::
-
-:::
-
 ## Ready for Specialist-Level Accuracy?
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
@@ -611,7 +540,7 @@ Starting from **35,000 PLN**
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**RICS Certified**  
+**Experienced Surveyor**  
 Quantity Surveyor
 :::
 
@@ -623,20 +552,14 @@ Field Experience
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**3 Continents**  
-EU, UK, Australia
+**Serving Whole World**  
+Global Projects
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i>  
 **±3-5%**  
 Accuracy Rate
-:::
-
-::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-people-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
-**500+**  
-Happy Clients
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
