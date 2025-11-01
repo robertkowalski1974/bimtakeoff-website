@@ -216,7 +216,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
 - Stal konstrukcyjna: prefabrykacja 40%, montaż 35%, malowanie/ppoż. 25%
 - Stropy sprężone: 15-20% więcej materiału ale 30% szybsza budowa
-- Złożoność połączeń: proste = 200 PLN/połączenie, momentowe = 2000+ PLN
+- Złożoność połączeń: proste = 200 PLN/połączenie, skomplikowane = 2000+ PLN
 - Wynajem pompy do betonu: 6000-10000 PLN/dzień z operatorem
 - Wiązanie zbrojenia: średnio 8-12 godzin na tonę
 :::
