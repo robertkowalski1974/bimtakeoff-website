@@ -25,7 +25,7 @@ Over 2,000 projects delivered across drylining, structural works, fire protectio
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[GET IN TOUCH](coming-soon.qmd){.cta-primary}
+[GET IN TOUCH](contact.qmd){.cta-primary}
 [VIEW SERVICES](coming-soon.qmd){.cta-secondary}
 :::
 :::
@@ -444,7 +444,7 @@ Walk through the report together, answer questions, and discuss value engineerin
 #### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Start with a Pilot Project
 **Limited Time Offer:** First project 50% off. Experience the precision and speed of BIM 5D without long-term commitment.
 
-[Schedule Your Pilot Project →](coming-soon.qmd){.cta-primary}
+[Schedule Your Pilot Project →](contact.qmd){.cta-primary}
 :::
 
 ::: {style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;"}
@@ -463,7 +463,7 @@ Walk through the report together, answer questions, and discuss value engineerin
 </ul>
 
 ::: {style="margin-top: 24px;"}
-[Get Started →](coming-soon.qmd){.cta-primary}
+[Get Started →](contact.qmd){.cta-primary}
 :::
 :::
 

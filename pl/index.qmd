@@ -26,7 +26,7 @@ Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót ko
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[ZAPRASZAMY DO KONTAKTU](coming-soon.qmd){.cta-primary}
+[ZAPRASZAMY DO KONTAKTU](kontakt.qmd){.cta-primary}
 [POZNAJ USŁUGI](coming-soon.qmd){.cta-secondary}
 :::
 :::
@@ -444,7 +444,7 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 #### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekt Pilotażowy
 **Oferta Wprowadzająca:** Pierwszy projekt z 50% rabatem. Przekonają się Państwo o precyzji i szybkości BIM 5D bez długoterminowych zobowiązań.
 
-[Zaplanuj Projekt Pilotażowy →](coming-soon.qmd){.cta-primary}
+[Zaplanuj Projekt Pilotażowy →](kontakt.qmd){.cta-primary}
 :::
 
 ::: {style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;"}
@@ -463,7 +463,7 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 </ul>
 
 ::: {style="margin-top: 24px;"}
-[Zapraszamy do Kontaktu →](coming-soon.qmd){.cta-primary}
+[Zapraszamy do Kontaktu →](kontakt.qmd){.cta-primary}
 :::
 :::
 
