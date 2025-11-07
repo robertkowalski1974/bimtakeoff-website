@@ -26,7 +26,7 @@ Over 2,000 projects delivered across drylining, structural works, fire protectio
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
 [GET IN TOUCH](contact.qmd){.cta-primary}
-[VIEW SERVICES](coming-soon.qmd){.cta-secondary}
+[VIEW SERVICES](#our-services){.cta-secondary}
 :::
 :::
 :::

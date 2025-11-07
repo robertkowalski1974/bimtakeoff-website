@@ -368,7 +368,7 @@ Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej
 **P: Co jeśli mój projekt nie ma modelu BIM?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy mogą się wydłużyć o 1-2 dni, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych rezultatów i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.
+O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłuższe, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych rezultatów i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.
 :::
 :::
 

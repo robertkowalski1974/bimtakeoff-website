@@ -368,7 +368,7 @@ Transport hubs, utilities, public works, civil engineering projects
 **Q: What if my project doesn't have a BIM model?**
 :::
 ::: {.faq-answer}
-A: We can work with 2D drawings (DWG, PDF) but timelines may extend by 1-2 days as we'll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modeling services to convert your 2D drawings first.
+A: We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we'll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modeling services to convert your 2D drawings first.
 :::
 :::
 
