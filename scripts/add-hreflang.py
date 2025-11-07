@@ -113,6 +113,9 @@ def get_alternate_url(current_url: str, current_lang: str) -> str:
         
         # Services
         '/services/': '/pl/uslugi/',
+        '/services/cost-estimation-budget-planning/': '/pl/uslugi/kosztorysowanie-i-planowanie-budzetu/',
+        '/services/trade-specific-specialist-services/': '/pl/uslugi/specjalistyczne-branzy-budowlane/',
+        '/services/automated-quantity-takeoff/': '/pl/uslugi/automatyczny-przedmiar-obmiar/',
         '/services/quantity-surveying/': '/pl/uslugi/kosztorysowanie/',
         '/services/bim-coordination/': '/pl/uslugi/koordynacja-bim/',
         '/services/cost-estimation/': '/pl/uslugi/wycena-kosztow/',
