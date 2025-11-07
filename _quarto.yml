@@ -37,7 +37,7 @@ website:
           - text: "Trade-Specific Specialist Services"
             href: services/trade-specific-specialist-services.qmd
           - text: "Automated Quantity Takeoff"
-            href: coming-soon.qmd
+            href: services/automated-quantity-takeoff.qmd
           - text: "Fast-Track Cost Control"
             href: coming-soon.qmd
           - text: "BREEAM/ESG Cost Modeling"

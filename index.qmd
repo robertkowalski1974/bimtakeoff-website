@@ -186,14 +186,14 @@ Accurate pricing that wins work and protects margins. From preliminary estimates
 ### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade-Specific Specialist Services
 Deep expertise in drylining & partitions, fire protection systems, facades & cladding, and structural works (FRP, suspended slabs, columns, post-tension). 20+ years hands-on knowledge in high-complexity packages.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/trade-specific-specialist-services.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automated Quantity Takeoff
 IFC model ingestion from Revit, ArchiCAD, and Tekla. **90-95% faster** than manual 2D takeoffs with real-time updates on design changes.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/automated-quantity-takeoff.qmd)
 :::
 
 ::: {.feature-card}

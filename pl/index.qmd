@@ -186,7 +186,7 @@ Precyzyjne wyceny zgodne z KNR/KNNR, które pomagają wygrywać przetargi. Od ws
 ### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczne Usługi Branżowe
 Doświadczenie w systemach suchej zabudowy,  ochrony przeciwpożarowej - pasywnej i aktywnej, elewacjach oraz robotach konstrukcyjnych. Ponad 20 lat praktycznego doświaczenia w wycenie skomplikowanych projektów.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/specjalistyczne-branzy-budowlane.qmd)
 :::
 
 ::: {.feature-card}
