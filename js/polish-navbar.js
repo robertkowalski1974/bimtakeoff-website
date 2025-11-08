@@ -195,8 +195,8 @@
 
     // Function to translate links
     function translateLinks() {
-        // Translate all links in navbar EXCEPT language switchers
-        const navLinks = document.querySelectorAll('.navbar a[href], .dropdown-item[href]');
+        // Translate all links in navbar, dropdown menus, AND footer
+        const navLinks = document.querySelectorAll('.navbar a[href], .dropdown-item[href], .nav-footer a[href]');
         navLinks.forEach(link => {
             // Skip language switcher links (PL/EN)
             const linkText = link.textContent.trim();
