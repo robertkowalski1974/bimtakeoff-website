@@ -62,7 +62,7 @@ website:
           - text: "Data Centers"
             href: industries/data-centers.qmd
           - text: "Residential Development"
-            href: coming-soon.qmd
+            href: industries/residential-development.qmd
           - text: "Remediation"
             href: coming-soon.qmd
           - text: "Commercial Development"
