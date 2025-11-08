@@ -133,6 +133,43 @@
         './services/construction-logistics.html': '/pl/uslugi/logistyka-budowlana.html',
         '/services/construction-logistics.html': '/pl/uslugi/logistyka-budowlana.html',
         
+        // INDUSTRIES - Use absolute paths
+        '../industries/warehouses-logistics.html': '/pl/branze/magazyny-logistyka.html',
+        './industries/warehouses-logistics.html': '/pl/branze/magazyny-logistyka.html',
+        '/industries/warehouses-logistics.html': '/pl/branze/magazyny-logistyka.html',
+
+        '../industries/data-centers.html': '/pl/branze/centra-danych.html',
+        './industries/data-centers.html': '/pl/branze/centra-danych.html',
+        '/industries/data-centers.html': '/pl/branze/centra-danych.html',
+
+        '../industries/residential-development.html': '/pl/branze/deweloperstwo-mieszkaniowe.html',
+        './industries/residential-development.html': '/pl/branze/deweloperstwo-mieszkaniowe.html',
+        '/industries/residential-development.html': '/pl/branze/deweloperstwo-mieszkaniowe.html',
+
+        '../industries/remediation.html': '/pl/branze/remediacja.html',
+        './industries/remediation.html': '/pl/branze/remediacja.html',
+        '/industries/remediation.html': '/pl/branze/remediacja.html',
+
+        '../industries/commercial-development.html': '/pl/branze/deweloperstwo-komercyjne.html',
+        './industries/commercial-development.html': '/pl/branze/deweloperstwo-komercyjne.html',
+        '/industries/commercial-development.html': '/pl/branze/deweloperstwo-komercyjne.html',
+
+        '../industries/housing-associations.html': '/pl/branze/spoldzielnie-mieszkaniowe.html',
+        './industries/housing-associations.html': '/pl/branze/spoldzielnie-mieszkaniowe.html',
+        '/industries/housing-associations.html': '/pl/branze/spoldzielnie-mieszkaniowe.html',
+
+        '../industries/healthcare-medical.html': '/pl/branze/obiekty-medyczne.html',
+        './industries/healthcare-medical.html': '/pl/branze/obiekty-medyczne.html',
+        '/industries/healthcare-medical.html': '/pl/branze/obiekty-medyczne.html',
+
+        '../industries/industrial-manufacturing.html': '/pl/branze/przemysl-i-produkcja.html',
+        './industries/industrial-manufacturing.html': '/pl/branze/przemysl-i-produkcja.html',
+        '/industries/industrial-manufacturing.html': '/pl/branze/przemysl-i-produkcja.html',
+
+        '../industries/infrastructure-civil.html': '/pl/branze/infrastruktura-i-roboty-inzynieryjne.html',
+        './industries/infrastructure-civil.html': '/pl/branze/infrastruktura-i-roboty-inzynieryjne.html',
+        '/industries/infrastructure-civil.html': '/pl/branze/infrastruktura-i-roboty-inzynieryjne.html',
+
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',
