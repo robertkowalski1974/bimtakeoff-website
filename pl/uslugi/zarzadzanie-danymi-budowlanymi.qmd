@@ -30,8 +30,8 @@ Od przetargu przez przekazanie i dalej.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Konsultację](../../kontakt.qmd){.cta-primary}
-[Zobacz Rozwiązania CDE](../../coming-soon.qmd){.cta-secondary}
+[Poproś o Konsultację](../kontakt.qmd){.cta-primary}
+[Zobacz Rozwiązania CDE](../coming-soon.qmd){.cta-secondary}
 :::
 :::
 :::

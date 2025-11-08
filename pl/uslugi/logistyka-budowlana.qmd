@@ -30,8 +30,8 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Planowanie](../../kontakt.qmd){.cta-primary}
-[Zobacz Przykłady 4D](../../coming-soon.qmd){.cta-secondary}
+[Poproś o Planowanie](../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady 4D](../coming-soon.qmd){.cta-secondary}
 :::
 :::
 :::
@@ -503,9 +503,9 @@ O: Klienci zazwyczaj oszczędzają 5-15x kosztu planowania poprzez: uniknięte b
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Planowanie](../../kontakt.qmd){.cta-primary}
-[Zobacz Przykłady](../../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../../kontakt.qmd){.cta-secondary}
+[Poproś o Planowanie](../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
