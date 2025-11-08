@@ -136,6 +136,24 @@ format:
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
         
+        <!-- LinkedIn Insight Tag -->
+        <script type="text/javascript">
+        _linkedin_partner_id = "8743217";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+        </script>
+        <script type="text/javascript">
+        (function(l) {
+        if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+        window.lintrk.q=[]}
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);})(window.lintrk);
+        </script>
+        <!-- End LinkedIn Insight Tag -->
+        
         <!-- Twitter Card metadata -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@bimtakeoff">
@@ -194,6 +212,13 @@ format:
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W"
           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- End Google Tag Manager (noscript) -->
+          
+          <!-- LinkedIn Insight Tag (noscript) -->
+          <noscript>
+          <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=8743217&fmt=gif" />
+          </noscript>
+          <!-- End LinkedIn Insight Tag (noscript) -->
+          
           <!-- Scroll Effects & Animations -->
           <script src="/js/scroll-effects.js"></script>
           <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
