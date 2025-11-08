@@ -80,7 +80,7 @@ Specialized 5D BIM for multi-unit housing developments:
 #### Proven Results
 
 - **Extensive residential portfolio** across UK, EU, and Australia
-- **Multi-unit projects** from 10 to 200+ units handled efficiently
+- **Multi-unit projects** from 10 to 900+ units handled efficiently
 - **Average 7 days** from BIM model to detailed estimate
 - **±5% accuracy** on 95% of projects
 :::

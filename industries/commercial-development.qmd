@@ -1,0 +1,599 @@
+---
+title: "Commercial Development Cost Estimation | Office & Retail | BIM Takeoff"
+page-layout: full
+description: "Professional commercial development cost estimation. Office buildings, retail spaces, mixed-use developments. 3-10 day turnaround, ±5% accuracy. Specialists in Grade A offices and commercial fit-outs."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Commercial Development Cost Estimation
+### Precision Costing for Office Buildings, Retail & Mixed-Use Projects
+:::
+
+::: {.hero-subtitle}
+From 1,000 sqm fit-outs to 50,000+ sqm commercial towers.  
+Delivered in 3-10 days with ±5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Fast-Track Expertise</strong> - 90% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Grade A Office Experience</strong> - Premium specifications</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Track Record</strong> - UK, EU & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Commercial Development: The Investment Challenge
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Commercial developments face intense market pressures and investment scrutiny:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Yield pressure** - Every £100/sqm affects investment returns</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Pre-let requirements** - Tenants demand cost certainty</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **ESG expectations** - BREEAM, WELL, net-zero targets</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Specification creep** - Grade A standards rising constantly</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Timing constraints** - Development windows closing fast</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "A 5% cost overrun on a £30M office development represents £1.5M in lost profit and can render a project unviable. Traditional estimation taking 6-8 weeks delays funding decisions and tenant negotiations when market conditions demand speed."
+:::
+:::
+
+::: {style=""}
+### Our Commercial Solution
+
+Specialized 5D BIM for commercial office and retail developments:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-10 days** for complete estimate (vs 6-8 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Grade A expertise** - Premium office specifications</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ESG cost modeling** - BREEAM, WELL, net-zero options</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value engineering** - Optimize without compromising quality</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Fit-out planning** - Shell, CAT A, CAT B cost separation</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Extensive commercial portfolio** across UK, EU, and Australia
+- **Grade A office projects** to 50,000+ sqm delivered
+- **Average 7 days** from BIM model to detailed estimate
+- **±5% accuracy** on 95% of projects
+:::
+:::
+
+:::
+
+## Commercial-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation
+
+**3-10 Day Turnaround**
+
+Perfect for:
+- Investment appraisals
+- Pre-let negotiations
+- Development feasibility
+- Tender preparation
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Grade A Office Expertise
+
+**Premium Specifications**
+
+Detailed knowledge of:
+- Raised access floors
+- Suspended ceilings
+- VRV/VRF air conditioning
+- High-specification glazing
+
+[Learn More →](../services/trade-specific-specialist-services.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i>ESG Cost Modeling
+
+**Sustainability Standards**
+
+Expert costing for:
+- BREEAM Excellent/Outstanding
+- WELL Building Standard
+- Net-zero carbon targets
+- EPC A rating pathways
+
+[Learn More →](../services/breeam-esg-cost-modeling.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+
+**Compare Design Options**
+
+Analyze impact of:
+- Façade system alternatives
+- MEP strategy choices
+- Fit-out specification levels
+- Phasing options
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-scissors" style="color: var(--bim-orange); margin-right: 12px;"></i>Fit-Out Cost Breakdown
+
+**Shell to CAT B Analysis**
+
+Separate costs for:
+- Base build (shell & core)
+- CAT A (landlord fit-out)
+- CAT B (tenant fit-out)
+- MEP infrastructure
+
+[Learn More →](../services/cost-estimation-budget-planning.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing & Management
+
+**Competitive Tender Support**
+
+Full service including:
+- Quantity take-offs
+- Detailed pricing
+- Preliminaries breakdown
+- Tender coordination
+
+[Learn More →](../services/bid-writing-management.qmd)
+:::
+:::
+
+## Commercial Project Types
+
+::: {style="margin: 48px 0;"}
+### Understanding Commercial Development Complexity
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Small-to-Medium Office
+**Size:** 1,000-5,000 sqm  
+**Type:** Low-to-mid rise  
+**Complexity:** Medium  
+**Timeline:** 3-5 days  
+**Typical Cost:** £2,200-3,200/sqm
+
+**Characteristics:**
+- 3-6 storey construction
+- Standard office specification
+- Natural ventilation or FCUs
+- Surface or basement parking
+- Standard finishes
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Grade A Office Building
+**Size:** 5,000-20,000 sqm  
+**Type:** Mid-to-high rise  
+**Complexity:** High  
+**Timeline:** 6-8 days  
+**Typical Cost:** £2,800-4,200/sqm
+
+**Characteristics:**
+- RC frame, 6-15 storeys
+- Grade A specification
+- VRV/VRF air conditioning
+- Raised floors, suspended ceilings
+- Premium façade systems
+- Multi-level parking
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Mixed-Use Development
+**Size:** 10,000-50,000+ sqm  
+**Type:** Complex high-rise  
+**Complexity:** Very High  
+**Timeline:** 8-10 days  
+**Typical Cost:** £2,500-4,500/sqm
+
+**Characteristics:**
+- Multiple use types
+- Office, retail, residential
+- Complex interfaces
+- Shared services/cores
+- Extensive public realm
+- Phased delivery
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Commercial Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Grade A Office Breakdown (per sqm)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Structure & Envelope (40-45%)
+- Foundations & substructure: £280-420/sqm
+- RC frame & floors: £380-580/sqm
+- Façade & glazing: £350-550/sqm
+- Roofing: £80-140/sqm
+- **Subtotal:** £1,090-1,690/sqm
+:::
+
+::: {style=""}
+#### Internal Fit-Out (20-25%)
+- Raised access floors: £60-100/sqm
+- Suspended ceilings: £80-120/sqm
+- Internal partitions: £50-90/sqm
+- Finishes & decorations: £70-110/sqm
+- **Subtotal:** £260-420/sqm
+:::
+
+::: {style=""}
+#### MEP Services (25-30%)
+- VRV/VRF air conditioning: £200-320/sqm
+- Electrical & lighting: £120-180/sqm
+- IT & communications: £60-100/sqm
+- Plumbing & drainage: £50-80/sqm
+- Fire protection & alarms: £60-100/sqm
+- **Subtotal:** £490-780/sqm
+:::
+
+::: {style=""}
+#### Other Elements (10-15%)
+- Lifts & escalators: £80-150/sqm
+- External works: £100-180/sqm
+- Parking (allowance): £80-140/sqm
+- Preliminaries (10-12%): £280-420/sqm
+- Contingency (5-8%): £150-280/sqm
+- **Subtotal:** £690-1,170/sqm
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £2,530-4,060/sqm</h3>
+<p style="color: #FFFFFF; font-style: italic;">(Shell & core + CAT A fit-out, excluding land and fees)</p>
+
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Location and ground conditions</li>
+<li>Building height and floor-to-floor heights</li>
+<li>Specification level (Grade A vs Grade B)</li>
+<li>MEP system complexity and efficiency</li>
+<li>Façade design and thermal performance</li>
+<li>BREEAM/WELL/EPC rating targets</li>
+</ul>
+:::
+:::
+
+## Our Commercial Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Review & Setup
+
+**Day 1 (4-6 hours)**
+
+**What We Do:**
+- Review BIM model (IFC/Revit) or 2D drawings
+- Verify building dimensions and floor areas
+- Identify specification level requirements
+- Assess ESG/sustainability targets
+- Set up cost breakdown structure
+
+**Client Provides:**
+- Architectural & structural drawings/models
+- MEP design information
+- Specification documents
+- Landlord/tenant fit-out split
+- Any sustainability targets
+
+**Output:** Project plan and timeline confirmation
+:::
+
+::: {.process-step}
+#### Automated Quantity Extraction
+
+**Days 1-4**
+
+**What We Do:**
+- Extract all structural elements
+- Quantify façade and glazing
+- Measure internal fit-out areas
+- Calculate MEP requirements
+- Count sanitary fixtures, lifts, etc.
+
+**Technology:**
+- BIM 5D extraction tools
+- Floor area analysis
+- Cross-checking with specifications
+
+**Output:** Complete quantity take-off (BOQ)
+:::
+
+::: {.process-step}
+#### Cost Application & Analysis
+
+**Days 4-7**
+
+**What We Do:**
+- Apply current market rates
+- Factor in location adjustments
+- Calculate MEP systems costs
+- Include fit-out specifications
+- Add preliminaries (10-12%)
+- Apply contingency (5-8%)
+- Run alternative scenarios if requested
+
+**Database Sources:**
+- BCIS (UK) / Rawlinsons (Australia)
+- Live specialist quotes
+- Recent commercial benchmarks
+
+**Output:** Detailed cost estimate with breakdown
+:::
+
+::: {.process-step}
+#### Quality Review & Reporting
+
+**Days 7-9**
+
+**What We Do:**
+- Technical peer review
+- Check against market benchmarks
+- Verify yield implications
+- Prepare visual cost breakdown
+- Create executive summary
+- Schedule presentation/meeting
+
+**Deliverables:**
+- Executive summary (2-3 pages)
+- Cost breakdown by element
+- Shell vs fit-out separation
+- BOQ with quantities and rates
+- Cost per sqm analysis
+- Alternative scenarios (if requested)
+
+**Format:** PDF + Excel workbooks
+:::
+
+::: {.process-step}
+#### Presentation & Handover
+
+**Day 9-10**
+
+**What We Do:**
+- Present findings to development team
+- Explain key cost drivers
+- Review value engineering options
+- Discuss yield optimization
+- Answer questions
+- Provide ongoing support
+
+**Meeting Options:**
+- In-person (UK only)
+- Video conference (all locations)
+- Investment committee presentations
+
+**Support:** 30 days post-delivery included
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 7-10 working days from BIM model receipt to final report  
+**Express Service:** Available for urgent projects (4-5 days) at 25% premium
+:::
+
+## Why Choose BIM Takeoff for Commercial?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Deep Commercial Experience
+- **Grade A office expertise** across markets
+- **Major commercial projects** delivered
+- **3 markets** (UK, EU, Australia)
+- **Mixed-use** complexity handled
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Speed
+- **3-10 days** typical turnaround
+- **Same-day** updates for changes
+- **4-5 days** express service
+- **90% faster** than traditional
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Investment-Grade Accuracy
+- **±5% accuracy** guarantee
+- **Yield-focused** analysis
+- **Market benchmarking** included
+- **Defendable estimates** for investors
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Technology Advantage
+- **5D BIM** native workflows
+- **Automated** quantity extraction
+- **Real-time** cost updates
+- **Cloud-based** collaboration
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### ESG Expertise
+- **BREEAM** cost modeling
+- **WELL Standard** experience
+- **Net-zero** pathways
+- **EPC A** optimization
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### International Standards
+- **ISO 19650** BIM standards
+- **Professional** quantity surveying
+- **UK, EU, Australian** codes
+- **Multi-currency** reporting
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's the largest commercial project you've estimated?**
+:::
+::: {.faq-answer}
+A: We've worked on office buildings up to 50,000 sqm and mixed-use developments exceeding 100,000 sqm total area. Our 5D BIM workflow scales effectively for major commercial projects including multi-tower developments.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you separate shell & core from CAT A fit-out costs?**
+:::
+::: {.faq-answer}
+A: Absolutely. We routinely provide cost breakdowns showing base build (shell & core), landlord fit-out (CAT A), and tenant fit-out (CAT B) separately. This is essential for investment analysis and lease negotiations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you provide a feasibility estimate for investment decisions?**
+:::
+::: {.faq-answer}
+A: For early-stage feasibility estimates based on concept designs, we can provide cost ranges within 2-3 days using benchmarks and parametric estimating. This gives investors the confidence to proceed to detailed design.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if the tenant wants different specifications after your estimate?**
+:::
+::: {.faq-answer}
+A: Because we work with 5D BIM, we can quickly recalculate costs for specification changes within hours to a day. This is particularly valuable during pre-let negotiations when tenants request variations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include BREEAM/WELL certification costs?**
+:::
+::: {.faq-answer}
+A: Yes, we include both the construction cost premium for achieving target ratings (e.g., BREEAM Excellent) and the professional fees for assessment and certification. We can model different rating scenarios to help optimize investment returns.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you provide cost breakdowns by floor or phase?**
+:::
+::: {.faq-answer}
+A: Yes, we regularly prepare cost breakdowns by floor, wing, or construction phase. This is particularly useful for phased developments or buildings with varying specifications across different floors.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle complex MEP systems like VRV/VRF?**
+:::
+::: {.faq-answer}
+A: We have extensive experience costing advanced MEP systems including VRV/VRF air conditioning, displacement ventilation, and sophisticated BMS controls. Our estimates reflect the complexity of modern Grade A office specifications.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for commercial projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on project size, complexity, and timeline. As a rough guide:
+- Small office (1,000-5,000 sqm): £3,000-6,000
+- Medium office (5,000-15,000 sqm): £6,000-12,000
+- Large office (15,000-30,000 sqm): £12,000-20,000
+- Major/mixed-use (30,000+ sqm): £20,000-40,000
+
+Express service (4-5 days) carries a 25% premium. Contact us for a specific quote.
+:::
+:::
+:::
+
+## Ready to Fast-Track Your Commercial Development?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Waiting 6-8 Weeks for Cost Estimates</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the precision and speed your commercial project demands. Grade A office expertise across UK, EU & Australia.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your project with our commercial specialists</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Free 30-minute project review</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Grade A Office Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Projects to 50,000+ sqm</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-10 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy Guarantee</strong></p>
+:::
+:::
+:::
+
+:::

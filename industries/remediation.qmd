@@ -1,0 +1,733 @@
+---
+title: "Building Remediation Cost Estimation | Cladding & Fire Safety | BIM Takeoff"
+page-layout: full
+description: "Professional building remediation cost estimation. Cladding replacement, fire safety upgrades, structural repairs. 3-8 day turnaround, ±5% accuracy. Specialists in post-Grenfell compliance and Building Safety Act requirements."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Building Remediation Cost Estimation
+### Expert Costing for Cladding Replacement, Fire Safety & Structural Repairs
+:::
+
+::: {.hero-subtitle}
+From single-issue defects to comprehensive building upgrades.  
+Delivered in 3-8 days with ±5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Grenfell Expertise</strong> - Cladding & fire safety compliance</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act Knowledge</strong> - BSR/HRB requirements</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Building Remediation: The Compliance Imperative
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Building remediation projects face unique complexities and regulatory pressures:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Regulatory pressure** - Building Safety Act, BSR compliance deadlines</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost uncertainty** - Hidden defects discovered during works</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Occupied buildings** - Works around residents, minimal disruption</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Funding challenges** - Grant applications, leaseholder charges</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Complex interfaces** - Multiple trades, phasing requirements</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "A 10% cost overrun on a £5M cladding remediation project represents £500,000 in unexpected costs. With BSR deadlines looming and complex funding arrangements, accurate cost estimation is critical for project viability and leaseholder consultation."
+:::
+:::
+
+::: {style=""}
+### Our Remediation Solution
+
+Specialized 5D BIM for building remediation and compliance upgrades:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-8 days** for complete estimate (vs 6-8 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Compliance expertise** - Building Safety Act, BSR/HRB requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Phasing optimization** - Minimize disruption, maintain occupancy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Contingency planning** - Risk-based allowances for unknowns</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Funding support** - Documentation for grant applications</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Extensive remediation experience** across UK, EU, and Australia
+- **Complex compliance projects** delivered with precision
+- **Average 5 days** from survey data to detailed estimate
+- **±5% accuracy** on 95% of projects
+:::
+:::
+
+:::
+
+## Remediation-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation
+
+**3-8 Day Turnaround**
+
+Perfect for:
+- Cladding remediation budgets
+- Fire safety upgrade costs
+- BSR compliance estimates
+- Grant funding applications
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Costing
+
+**Building Safety Act**
+
+Expert knowledge of:
+- BSR/HRB requirements
+- Fire safety regulations
+- Structural assessment costs
+- External wall systems (EWS1)
+
+[Learn More →](../services/trade-specific-specialist-services.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;"></i>Phasing & Logistics
+
+**Occupied Building Works**
+
+Critical for:
+- Resident decanting plans
+- Access strategies
+- Material delivery coordination
+- Minimize disruption periods
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+
+**Compare Remediation Options**
+
+Analyze impact of:
+- Different cladding systems
+- Phasing alternatives
+- Temporary works requirements
+- Value engineering options
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Grant Application Support
+
+**Funding Documentation**
+
+Full service including:
+- Detailed cost breakdowns
+- Leaseholder consultation packs
+- BSF/ACM funding applications
+- Interim cost reports
+
+[Learn More →](../services/bid-writing-management.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Risk & Contingency
+
+**Unknown Defect Allowances**
+
+Expert assessment of:
+- Hidden defect probabilities
+- Contamination risks
+- Structural uncertainties
+- Interface complexities
+
+[Learn More →](../services/comprehensive-reporting.qmd)
+:::
+:::
+
+## Building Safety Regulator (BSR) Expertise
+
+::: {style="margin: 48px 0; padding: 40px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px; border-left: 6px solid var(--bim-orange);"}
+
+### Navigating the New Building Safety Regime
+
+The Building Safety Act 2022 introduced the **Building Safety Regulator (BSR)** under the Health and Safety Executive (HSE), fundamentally changing how Higher Risk Buildings (HRB) are designed, constructed, and maintained. We provide specialized cost estimation services aligned with BSR requirements.
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### Higher Risk Buildings (HRB) Definition
+**Buildings Requiring BSR Registration:**
+- 18 metres or more in height, OR
+- 7 storeys or more, AND
+- Contains at least 2 residential units
+
+**Our Cost Support:**
+- Registration compliance costs
+- Mandatory occurrence reporting systems
+- Resident engagement requirements
+- Safety case preparation budgets
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### Gateway Process Costing
+**Gateway 2 (Planning Stage):**
+- Fire statement preparation
+- Building Safety Act compliance review
+- BSR submission documentation
+
+**Gateway 3 (Pre-Construction):**
+- Detailed design compliance
+- Fire and structural strategies
+- Change control procedures
+- Principal Designer costs
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### Building Safety Case Support
+**Safety Case Development Costs:**
+- Risk assessments & evaluations
+- Building management structure
+- Safety management systems
+- Documentation & compliance records
+- Ongoing monitoring requirements
+- Mandatory occurrence reporting
+:::
+
+:::
+
+### BSR Submission Cost Estimation
+
+::: {style="margin: 32px 0;"}
+
+We provide detailed cost breakdowns for BSR-related activities:
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0;"}
+
+::: {style=""}
+**Registration & Compliance (Typical Costs):**
+- BSR registration application: £2,000-4,000
+- Building Safety Case preparation: £15,000-35,000
+- Resident engagement strategy: £5,000-12,000
+- Mandatory occurrence reporting system: £3,000-8,000
+- Annual compliance review: £8,000-15,000
+:::
+
+::: {style=""}
+**Professional Team Requirements:**
+- Principal Designer appointment
+- Principal Contractor obligations
+- Building Safety Manager (in occupation)
+- Accountable Person duties
+- Competence framework compliance
+- Change control management
+:::
+
+:::
+
+::: {style="padding: 24px; background: var(--bim-charcoal); border-radius: 8px; margin: 24px 0;"}
+<h4 style="color: var(--bim-white); margin-top: 0;">Key BSR Cost Drivers We Quantify:</h4>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;"}
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Enhanced documentation** requirements</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Digital information management** (ISO 19650)</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Competence verification** systems</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Gateway submission** preparations</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Golden thread** information requirements</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Resident engagement** obligations</p>
+:::
+:::
+
+:::
+
+### Remediation-Specific BSR Requirements
+
+For existing HRBs requiring remediation, BSR compliance adds specific cost implications:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 24px 0;"}
+
+::: {style="padding: 20px; background: white; border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+**Enhanced Surveys & Assessments**
+- Type 4 Fire Risk Assessment
+- Intrusive building investigations
+- Structural integrity reviews
+- External wall system (EWS1) assessments
+- Golden thread data creation
+:::
+
+::: {style="padding: 20px; background: white; border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+**Compliance Documentation**
+- Safety case updates during works
+- Change control procedures
+- Contractor competence verification
+- Mandatory occurrence reporting
+- Resident notification protocols
+:::
+
+::: {style="padding: 20px; background: white; border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+**Post-Remediation Requirements**
+- Updated building safety information
+- Revised safety case submission
+- As-built BIM models (ISO 19650)
+- Resident information updates
+- BSR notification of completion
+:::
+
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: linear-gradient(135deg, #fff3cd 0%, #fff8dc 100%); border-radius: 8px; border: 2px solid #ffc107;"}
+<h4 style="margin-top: 0; color: var(--bim-charcoal);"><i class="bi bi-info-circle-fill" style="color: #ffc107; margin-right: 8px;"></i> Important BSR Deadline Context</h4>
+<p style="margin: 0; color: var(--bim-charcoal);">All existing HRBs must be registered with BSR. Accountable Persons face significant penalties for non-compliance. Our cost estimates help building owners budget for mandatory compliance upgrades alongside remediation works.</p>
+:::
+
+:::
+
+## Common Remediation Project Types
+
+::: {style="margin: 48px 0;"}
+### Understanding Remediation Complexity
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Cladding Remediation
+**Building Height:** Typically 18m+  
+**Complexity:** High  
+**Timeline:** 5-8 days  
+**Typical Cost:** £3,000-8,000 per unit
+
+**Scope Includes:**
+- ACM/HPL cladding removal
+- Compliant system installation
+- Fire barriers & cavity barriers
+- External wall insulation (if required)
+- Balcony works & fire stopping
+- Scaffolding & protection
+- Building survey & testing
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Fire Safety Upgrades
+**Building Type:** Multi-occupancy  
+**Complexity:** Medium-High  
+**Timeline:** 4-6 days  
+**Typical Cost:** £1,500-4,000 per unit
+
+**Scope Includes:**
+- Compartmentation upgrades
+- Fire door replacements
+- Smoke ventilation (AOV)
+- Fire alarm systems
+- Emergency lighting
+- Sprinkler systems (if required)
+- Wayfinding & signage
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Structural Repairs
+**Building Age:** Variable  
+**Complexity:** High  
+**Timeline:** 5-7 days  
+**Typical Cost:** £2,000-6,000 per unit
+
+**Scope Includes:**
+- Concrete repairs (spalling)
+- Structural strengthening
+- Balcony reconstruction
+- Movement joint repairs
+- Waterproofing systems
+- Underpinning (if required)
+- Temporary propping
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Remediation Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Cladding Remediation Breakdown (per unit)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Cladding Works (40-45%)
+- Strip existing cladding: £800-1,200/unit
+- New compliant system: £1,500-2,800/unit
+- Fire barriers & cavity barriers: £400-700/unit
+- Insulation upgrades: £300-600/unit
+- **Subtotal:** £3,000-5,300/unit
+:::
+
+::: {style=""}
+#### Access & Protection (20-25%)
+- Scaffolding & edge protection: £800-1,400/unit
+- Temporary weather protection: £300-600/unit
+- Hoist/materials handling: £200-400/unit
+- Site establishment: £200-350/unit
+- **Subtotal:** £1,500-2,750/unit
+:::
+
+::: {style=""}
+#### Associated Works (15-20%)
+- Window/door interface works: £400-700/unit
+- Balcony remediation: £300-600/unit
+- Roof interface works: £200-400/unit
+- M&E modifications: £200-350/unit
+- **Subtotal:** £1,100-2,050/unit
+:::
+
+::: {style=""}
+#### Project Costs (15-20%)
+- Professional fees (12-15%): £700-1,200/unit
+- Surveys & testing: £200-400/unit
+- Resident liaison: £150-300/unit
+- Contingency (10-15%): £500-900/unit
+- **Subtotal:** £1,550-2,800/unit
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £7,150-12,900 per unit</h3>
+<p style="color: #FFFFFF; font-style: italic;">(For 50-100 unit buildings with ACM cladding)</p>
+
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Building height and façade area</li>
+<li>Extent of fire safety defects</li>
+<li>Access constraints and site conditions</li>
+<li>Occupied vs vacant possession</li>
+<li>Discovery of additional defects during works</li>
+</ul>
+:::
+:::
+
+## Our Remediation Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Assessment & Data Review
+
+**Day 1 (4-6 hours)**
+
+**What We Do:**
+- Review building survey reports
+- Examine intrusive investigation data
+- Study fire risk assessments (FRA)
+- Review EWS1 forms & recommendations
+- Identify compliance requirements
+
+**Client Provides:**
+- Building survey reports
+- Fire risk assessments
+- Structural reports (if available)
+- Existing drawings/as-builts
+- BSR/planning conditions
+
+**Output:** Project scope confirmation
+:::
+
+::: {.process-step}
+#### Scope Definition & Quantification
+
+**Days 1-3**
+
+**What We Do:**
+- Define remediation scope
+- Quantify cladding areas
+- Calculate fire barrier requirements
+- Assess structural repair extent
+- Identify interface works
+- Map resident impact zones
+
+**Technology:**
+- BIM 5D extraction (if BIM available)
+- 2D takeoff from surveys
+- Building elevation analysis
+
+**Output:** Complete quantity take-off (BOQ)
+:::
+
+::: {.process-step}
+#### Cost Application & Risk Analysis
+
+**Days 3-5**
+
+**What We Do:**
+- Apply current remediation rates
+- Factor in access difficulties
+- Calculate phasing costs
+- Assess contamination risks
+- Include occupied building premiums
+- Apply risk-based contingencies (15-25%)
+
+**Database Sources:**
+- BCIS remediation data
+- Live specialist quotes
+- Recent cladding projects
+
+**Output:** Detailed cost estimate with risk register
+:::
+
+::: {.process-step}
+#### Quality Review & Reporting
+
+**Days 5-7**
+
+**What We Do:**
+- Technical peer review
+- Check against benchmarks
+- Verify compliance scope
+- Prepare funding documentation
+- Create leaseholder summary
+- Schedule presentation
+
+**Deliverables:**
+- Executive summary (2-3 pages)
+- Cost breakdown by work package
+- BOQ with quantities and rates
+- Funding application pack
+- Risk register & contingencies
+
+**Format:** PDF + Excel workbooks
+:::
+
+::: {.process-step}
+#### Presentation & Consultation Support
+
+**Day 7-8**
+
+**What We Do:**
+- Present findings to stakeholders
+- Explain cost drivers and risks
+- Review phasing options
+- Discuss resident communication
+- Support leaseholder consultation
+- Provide ongoing advice
+
+**Meeting Options:**
+- In-person (UK only)
+- Video conference (all locations)
+- Leaseholder presentations
+
+**Support:** 30 days post-delivery included
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 5-8 working days from survey data receipt to final report  
+**Express Service:** Available for urgent BSR deadlines (3-4 days) at 25% premium
+:::
+
+## Why Choose BIM Takeoff for Remediation?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Post-Grenfell Expertise
+- **Cladding remediation** specialist knowledge
+- **Building Safety Act** compliance
+- **BSR/HRB requirements** understanding
+- **Fire safety** system upgrades
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Speed
+- **3-8 days** typical turnaround
+- **Same-day** updates for scope changes
+- **Express service** for urgent deadlines
+- **90% faster** than traditional methods
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Risk Management
+- **15-25% contingencies** for unknowns
+- **Risk register** with probabilities
+- **Scenario planning** for variations
+- **Hidden defect** allowances
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Funding Support
+- **Grant application** documentation
+- **Leaseholder consultation** packs
+- **BSF/ACM funding** expertise
+- **Cost breakdown** formats
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Occupied Building Focus
+- **Phasing strategies** developed
+- **Resident impact** minimization
+- **Access planning** optimization
+- **Decanting cost** estimation
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### International Experience
+- **UK, EU, Australia** markets
+- **Multiple building types** handled
+- **Compliance standards** knowledge
+- **Multi-currency** reporting
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate remediation costs without intrusive surveys?**
+:::
+::: {.faq-answer}
+A: We can provide indicative budgets based on visual surveys and typical defect patterns, but we strongly recommend intrusive investigation before finalizing estimates. We typically include 20-25% contingency for non-intrusive estimates vs 10-15% for fully surveyed buildings.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle unknown defects discovered during works?**
+:::
+::: {.faq-answer}
+A: Our estimates include risk-based contingencies (typically 15-25%) calculated from intrusive survey findings and industry benchmarks. We also provide a risk register identifying potential additional costs with probability assessments.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you support Building Safety Fund (BSF) applications?**
+:::
+::: {.faq-answer}
+A: Yes, we regularly prepare cost documentation for BSF and other grant applications. We provide the detailed breakdown formats required by funding bodies and can support the technical review process.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What about phasing to keep residents in occupation?**
+:::
+::: {.faq-answer}
+A: We specialize in occupied building remediation. Our estimates include phasing strategies, protection costs, temporary works, resident liaison, and the cost premium for working around occupants (typically 15-20% additional).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How accurate are remediation estimates given the unknowns?**
+:::
+::: {.faq-answer}
+A: With proper intrusive surveys, we achieve ±5-8% accuracy on remediation projects (vs our standard ±5% for new build). The additional variance accounts for unexpected defects. We provide clear contingency breakdowns for transparency.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate alternative cladding systems for comparison?**
+:::
+::: {.faq-answer}
+A: Absolutely. We regularly compare different compliant cladding systems (brick slip, render, metal panels, terracotta) with full cost implications including performance characteristics, maintenance, and longevity considerations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What about asbestos or other hazardous materials?**
+:::
+::: {.faq-answer}
+A: We include allowances for asbestos surveys and removal when building age suggests likely presence. We work with specialist asbestos surveyors to refine removal costs and include proper disposal, air monitoring, and notification costs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for remediation projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on building size, defect complexity, and urgency. As a rough guide:
+- Small building (20-50 units): £3,500-6,000
+- Medium building (50-100 units): £6,000-10,000
+- Large building (100-200 units): £10,000-16,000
+- Complex multi-block: £16,000-30,000
+
+Express service (3-4 days) carries a 25% premium. Contact us for a specific quote.
+:::
+:::
+:::
+
+## Ready to Fast-Track Your Remediation Project?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Don't Let BSR Deadlines Catch You Unprepared</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get accurate remediation costs for funding applications, leaseholder consultation, and project planning. Building Safety Act expertise you can trust.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your remediation needs</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> BSR Support</h3>
+<p style="color: var(--bim-white); margin: 0;">Free initial consultation</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Post-Grenfell Cladding Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Compliance</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-8 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Risk-Based Contingencies</strong></p>
+:::
+:::
+:::
+
+:::

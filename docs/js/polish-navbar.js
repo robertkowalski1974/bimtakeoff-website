@@ -38,6 +38,7 @@
         'Residential Development': 'Deweloperstwo Mieszkaniowe',
         'Remediation': 'Remediacja',
         'Commercial Development': 'Deweloperstwo Komercyjne',
+        'Housing Associations': 'Spółdzielnie i Wspólnoty Mieszkaniowe',
         'Healthcare & Medical Facilities': 'Opieka Zdrowotna i Obiekty Medyczne',
         'Industrial & Manufacturing': 'Przemysł i Produkcja',
         'Infrastructure & Civil Works': 'Infrastruktura i Roboty Inżynieryjne',

@@ -64,9 +64,11 @@ website:
           - text: "Residential Development"
             href: industries/residential-development.qmd
           - text: "Remediation"
-            href: coming-soon.qmd
+            href: industries/remediation.qmd
           - text: "Commercial Development"
-            href: coming-soon.qmd
+            href: industries/commercial-development.qmd
+          - text: "Housing Associations"
+            href: industries/housing-associations.qmd
           - text: "Healthcare & Medical Facilities"
             href: coming-soon.qmd
           - text: "Industrial & Manufacturing"
