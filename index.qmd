@@ -296,86 +296,92 @@ We understand the unique requirements of different construction sectors:
 ::: {.feature-grid}
 ::: {.feature-card}
 ### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Warehouses & Logistics
-**Experience:** Distribution centers, cold storage, fulfillment facilities  
+**Experience:** Distribution centers, cold storage, fulfillment facilities
 **Specialization:** Fast-track delivery, cross-docking facilities, cold storage
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Warehouse Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Warehouse Solutions →](industries/warehouses-logistics.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Centers
-**Experience:** Tier III/IV facilities  
+**Experience:** Tier III/IV facilities
 **Specialization:** Critical MEP systems, power redundancy, cooling infrastructure
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Data Center Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Data Center Solutions →](industries/data-centers.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Residential Development
-**Experience:** Multi-family, mixed-use projects  
+**Experience:** Multi-family, mixed-use projects
 **Specialization:** Unit-level costing, prefab integration, energy efficiency
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Development Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Development Solutions →](industries/residential-development.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediation
-**Experience:** Building Safety Act compliance, facade upgrades  
+**Experience:** Building Safety Act compliance, facade upgrades
 **Specialization:** Fire safety systems, cladding remediation, BSR/HRB requirements
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Remediation Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Remediation Solutions →](industries/remediation.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Commercial Development
-**Experience:** Office buildings, retail centers, mixed-use complexes  
+**Experience:** Office buildings, retail centers, mixed-use complexes
 **Specialization:** Tenant fit-outs, phased delivery, value engineering
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Commercial Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Commercial Solutions →](industries/commercial-development.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-home-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Housing Associations
+**Experience:** Social housing refurbishments, Decent Homes programmes
+**Specialization:** Grant funding support, value engineering, EPC compliance
+
+::: {style="margin-top: 16px; display: flex; gap: 16px;"}
+[Explore Housing Solutions →](industries/housing-associations.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Healthcare & Medical Facilities
-**Experience:** Hospitals, medical centers, surgical facilities  
+**Experience:** Hospitals, medical centers, surgical facilities
 **Specialization:** Fire-rated compartmentation, medical gas systems, critical power redundancy
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Healthcare Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Healthcare Solutions →](industries/healthcare-medical.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Industrial & Manufacturing
-**Experience:** Production facilities, assembly plants, processing centers  
+**Experience:** Production facilities, assembly plants, processing centers
 **Specialization:** Heavy structural loading, crane support systems, industrial MEP integration
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Industrial Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Industrial Solutions →](industries/industrial-manufacturing.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastructure & Civil Works
-**Experience:** Bridges, tunnels, transport infrastructure  
+**Experience:** Bridges, tunnels, transport infrastructure
 **Specialization:** Post-tensioned structures, deep foundations, civil MEP systems
 
 ::: {style="margin-top: 16px; display: flex; gap: 16px;"}
-[Explore Infrastructure Solutions →](coming-soon.qmd){.cta-primary}
+[Explore Infrastructure Solutions →](industries/infrastructure-civil.qmd){.cta-primary}
 :::
-:::
-
-::: {.feature-card style="padding: 0 !important; margin: 0 !important; overflow: hidden; position: relative; min-height: 350px;"}
-<img src="images/construction-site.png" alt="Construction Excellence" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
 :::
 :::
 :::

@@ -296,86 +296,92 @@ Rozumiemy specyfikę różnych sektorów budownictwa:
 ::: {.feature-grid}
 ::: {.feature-card}
 ### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Magazyny i Logistyka
-**Doświadczenie:** Centra dystrybucyjne, chłodnie, obiekty fulfillment  
+**Doświadczenie:** Centra dystrybucyjne, chłodnie, obiekty fulfillment
 **Specjalizacja:** Realizacja fast-track, obiekty cross-dockingowe, instalacje chłodnicze
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/magazyny-logistyka.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;"></i>Centra Danych
-**Doświadczenie:** Obiekty Tier III/IV  
+**Doświadczenie:** Obiekty Tier III/IV
 **Specjalizacja:** Krytyczne systemy MEP, redundancja zasilania, infrastruktura chłodzenia
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/centra-danych.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo Mieszkaniowe
-**Doświadczenie:** Budownictwo wielorodzinne, projekty mieszane  
+**Doświadczenie:** Budownictwo wielorodzinne, projekty mieszane
 **Specjalizacja:** Kosztorysowanie na poziomie lokali, prefabrykacja, efektywność energetyczna
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/deweloperstwo-mieszkaniowe.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediacja i Modernizacja
-**Doświadczenie:** Zgodność z przepisami bezpieczeństwa, modernizacje elewacji  
+**Doświadczenie:** Zgodność z przepisami bezpieczeństwa, modernizacje elewacji
 **Specjalizacja:** Systemy bezpieczeństwa pożarowego, remediacja okładzin, wymogi BIM 2030
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/remediacja.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo Komercyjne
-**Doświadczenie:** Biurowce, centra handlowe, kompleksy mieszane  
+**Doświadczenie:** Biurowce, centra handlowe, kompleksy mieszane
 **Specjalizacja:** Aranżacje najemców, realizacja etapowa, optymalizacja wartości
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/deweloperstwo-komercyjne.qmd){.cta-primary}
+:::
+:::
+
+::: {.feature-card}
+### <i class="bi bi-home-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Spółdzielnie Mieszkaniowe
+**Doświadczenie:** Termomodernizacje, programy remontowe
+**Specjalizacja:** Wsparcie w dotacjach, optymalizacja wartości, zgodność z wymogami energetycznymi
+
+::: {style="margin-top: 16px;"}
+[Poznaj Rozwiązania →](branze/spoldzielnie-mieszkaniowe.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Opieka Zdrowotna
-**Doświadczenie:** Szpitale, centra medyczne, obiekty specjalistyczne  
+**Doświadczenie:** Szpitale, centra medyczne, obiekty specjalistyczne
 **Specjalizacja:** Kompartmentacja przeciwpożarowa, systemy gazów medycznych, redundancja zasilania
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/obiekty-medyczne.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Przemysł i Produkcja
-**Doświadczenie:** Zakłady produkcyjne, hale montażowe  
+**Doświadczenie:** Zakłady produkcyjne, hale montażowe
 **Specjalizacja:** Konstrukcje ciężkie, systemy dźwigowe, przemysłowe instalacje MEP
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/przemysl-i-produkcja.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastruktura
-**Doświadczenie:** Mosty, tunele, infrastruktura transportowa  
+**Doświadczenie:** Mosty, tunele, infrastruktura transportowa
 **Specjalizacja:** Konstrukcje sprężane, fundamenty głębokie, systemy inżynieryjne
 
 ::: {style="margin-top: 16px;"}
-[Poznaj Rozwiązania →](coming-soon.qmd){.cta-primary}
+[Poznaj Rozwiązania →](branze/infrastruktura-i-roboty-inzynieryjne.qmd){.cta-primary}
 :::
-:::
-
-::: {.feature-card style="padding: 0 !important; margin: 0 !important; overflow: hidden; position: relative; min-height: 350px;"}
-<img src="../images/construction-site.png" alt="Doskonałość Budowlana" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
 :::
 :::
 :::
