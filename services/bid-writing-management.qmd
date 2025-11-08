@@ -1,0 +1,511 @@
+---
+title: "Bid Writing & Bid Management | Win More Tenders | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Professional Bid Writing & Tender Management
+### Win More Tenders with Compelling, Compliant Submissions
+:::
+
+::: {.hero-subtitle}
+Boost win rates by 40% with expert bid preparation.  
+From pricing strategy to technical narratives.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Tender Packages</strong> - Technical & commercial excellence</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Competitive Pricing</strong> - Balance margin with win probability</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rapid Turnaround</strong> - Meet tight submission deadlines</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Discuss Tender](../contact.qmd){.cta-primary}
+[View Win Portfolio](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Why Most Tenders Lose Before Evaluation
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Common Bid Failures
+
+Contractors lose winnable tenders through avoidable mistakes:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Non-compliant submissions (auto-rejected)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Generic responses copied from previous bids</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pricing errors and omissions</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Weak technical narratives</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Last-minute rush compromises quality</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No competitive positioning or differentiation</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Cost of Poor Bids
+
+> "40-60% of tenders are eliminated at compliance stage before evaluation even begins. Among those that qualify, weak technical narratives score 30-40% lower than professional submissions, often losing despite competitive pricing."
+:::
+:::
+
+::: {style=""}
+### Our Professional Bid Solution
+
+Strategic, compliant submissions that win:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **100% compliance** - pass all mandatory checks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Bespoke responses** - tailored to evaluation criteria</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Accurate pricing** - verified quantities & rates</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Compelling narratives** - demonstrate capability</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Early preparation** - quality over rush</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Competitive strategy** - position against rivals</p>
+:::
+:::
+
+:::
+
+## Our Comprehensive Bid Services
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### End-to-End Tender Support
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid/No-Bid Analysis
+
+**Pre-Tender Decision Support**
+
+- Project size and complexity fit
+- Client relationship and payment history
+- Competitive landscape assessment
+- Resource availability check
+- Expected margin vs risk
+- Strategic alignment evaluation
+
+**Output:** Go/No-Go recommendation with justification
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Pricing Strategy
+
+**Commercial Excellence**
+
+- Bill of Quantities preparation
+- Material and labor rate verification
+- Subcontractor quotation management
+- Preliminaries cost modeling
+- Risk allowance calculation
+- Margin optimization analysis
+
+**Output:** Complete pricing schedule with audit trail
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Technical Writing
+
+**Compelling Narratives**
+
+- Method statements and programmes
+- Health & safety plans
+- Quality assurance procedures
+- Environmental management
+- Case studies and CVs
+- Innovation and value engineering
+
+**Output:** Professional technical submission
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Management
+
+**Zero-Defect Submissions**
+
+- Mandatory requirement checklist
+- Document completeness verification
+- Format and structure compliance
+- Deadline and submission tracking
+- Quality assurance review
+- Final pre-submission check
+
+**Output:** Fully compliant tender package
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Programme Planning
+
+**Realistic Schedules**
+
+- Detailed construction programme
+- Critical path analysis
+- Resource loading and leveling
+- Milestone alignment with client needs
+- Risk and contingency allowances
+- Phasing and logistics planning
+
+**Output:** Professional MS Project/P6 programme
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Presentation Support
+
+**Interview Excellence**
+
+- Presentation deck preparation
+- Key message development
+- Anticipate evaluation questions
+- Mock interview rehearsals
+- Visual materials and graphics
+- Team briefing and coaching
+
+**Output:** Winning presentation and confident team
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Select individual services or engage us for complete tender management from tender notice to contract award.**
+:::
+
+:::
+:::
+
+## Our Proven 6-Step Bid Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Step 1: Rapid Opportunity Assessment
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Review tender documents and requirements
+- Conduct Bid/No-Bid analysis
+- Assess competitive positioning
+- Evaluate resource availability
+- Estimate bid costs and expected margin
+- Provide Go/No-Go recommendation
+
+**What You Receive:** Strategic recommendation with supporting analysis
+:::
+
+::: {.process-step}
+#### Step 2: Bid Planning & Team Mobilization
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Develop bid plan and responsibility matrix
+- Establish submission timeline and milestones
+- Assign writers and technical specialists
+- Schedule clarification meetings with client
+- Initiate subcontractor engagement
+- Create document templates and structure
+
+**What You Receive:** Comprehensive bid plan and team briefing
+:::
+
+::: {.process-step}
+#### Step 3: Technical Solution Development
+
+**Duration:** 5-10 days
+
+**What We Do:**
+
+- Design methodology and construction sequence
+- Develop health & safety strategies
+- Create quality and environmental plans
+- Prepare construction programme (MS Project/P6)
+- Identify value engineering opportunities
+- Draft technical narratives for each evaluation criteria
+
+**What You Receive:** Complete technical submission draft
+:::
+
+::: {.process-step}
+#### Step 4: Commercial Pricing
+
+**Duration:** 3-7 days (parallel with Step 3)
+
+**What We Do:**
+
+- Prepare detailed Bill of Quantities
+- Obtain and evaluate subcontractor quotes
+- Verify material and labor rates
+- Calculate preliminaries and site overheads
+- Assess and price risks
+- Optimize margin and competitiveness
+
+**What You Receive:** Detailed pricing schedule ready for review
+:::
+
+::: {.process-step}
+#### Step 5: Bid Review & Refinement
+
+**Duration:** 2-3 days
+
+**What We Do:**
+
+- Red Team review (independent assessment)
+- Compliance check against all requirements
+- Evaluate against likely competitor approaches
+- Refine pricing and technical narrative
+- Strengthen weak areas identified in review
+- Final quality assurance by senior team
+
+**What You Receive:** Enhanced bid ready for submission
+:::
+
+::: {.process-step}
+#### Step 6: Submission & Presentation
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Format and finalize all documents
+- Submit electronically or physically (as required)
+- Obtain submission confirmation
+- Prepare presentation materials (if required)
+- Conduct mock interview and team briefing
+- Support during client interview/presentation
+
+**What You Receive:** Submitted tender and presentation-ready team
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Total Duration:** 12-25 working days depending on tender complexity and return period
+:::
+
+## Tender Types We Support
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Main Contractor Tenders
+
+Design-build, traditional, management contracting, construction management, two-stage tenders
+:::
+
+::: {.feature-card}
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade Package Tenders
+
+Mechanical, electrical, plumbing, structural steelwork, facades, civil works, specialist trades
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Framework Applications
+
+Multi-year frameworks, call-off contracts, DPS (Dynamic Purchasing Systems), panel appointments
+:::
+
+::: {.feature-card}
+### <i class="bi bi-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Public Sector Procurement
+
+OJEU/Find a Tender, local authority tenders, NHS, MOD, universities, social housing
+:::
+
+::: {.feature-card}
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Tenders
+
+FIDIC contracts, World Bank procedures, development bank projects, international JVs
+:::
+
+::: {.feature-card}
+### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Private Sector Opportunities
+
+Blue-chip clients, developers, estate owners, PFI/PPP projects, negotiated contracts
+:::
+:::
+
+## What's Included in Our Bid Services
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Full Tender Management
+
+Comprehensive support from receipt to submission:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Bid/No-Bid Analysis** and strategic advice</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Detailed Bill of Quantities** with audit trail</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Complete Technical Submission** (all narratives)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Construction Programme** (MS Project/Primavera)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Compliance Documentation** (H&S, Quality, Environmental)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Red Team Review** and refinement</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Formatted Submission** ready for upload/delivery</p>
+:::
+:::
+
+::: {style=""}
+### Optional Enhancements
+
+Strengthen your tender with:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BIM Execution Plan** - ISO 19650 compliant</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **4D Planning Animation** - Visual programme</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Site Logistics Plans** - 2D/3D drawings</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value Engineering Proposals** - Cost savings identified</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Presentation Materials** - PowerPoint & graphics</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Interview Coaching** - Team preparation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Post-Tender Negotiation** - Support during clarifications</p>
+:::
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: How much lead time do you need to support a tender?**
+:::
+::: {.faq-answer}
+A: Ideally 3-4 weeks for a comprehensive tender. However, we routinely handle urgent opportunities with 10-14 days' notice. For extremely tight deadlines (7 days or less), we can provide targeted support on specific elements like pricing or compliance checking, though full-service support is challenging.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help us win competitive tenders where we're not the lowest price?**
+:::
+::: {.faq-answer}
+A: Absolutely! Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Our technical writing ensures you score maximum points on quality criteria. On a 60/40 tender, a contractor 5-8% above lowest price can still win by scoring 90%+ on quality vs competitors' 60-70%. We focus on demonstrating value, not just lowest cost.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do we need to share our full cost buildup with you?**
+:::
+::: {.faq-answer}
+A: Not necessarily. For pricing services, yes, we need full transparency to verify accuracy. For technical writing only, we can work with your summary pricing and net rates without seeing margin breakdowns. We sign NDAs as standard and treat all client information with absolute confidentiality.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your success rate on tenders you've supported?**
+:::
+::: {.faq-answer}
+A: Our clients average 35-45% win rates on competitive tenders we support (vs industry average of 15-25%). For negotiated or two-stage tenders where we're engaged early, success rates exceed 70%. Success depends on multiple factors including price competitiveness, client relationships, and competitive field.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help with framework applications and long-term appointments?**
+:::
+::: {.faq-answer}
+A: Yes! Framework bids require different approaches - demonstrating consistent capability, capacity, and delivery track record rather than project-specific solutions. We've successfully supported applications to major frameworks including local authority construction frameworks, NHS frameworks, Scape, Procure Partnerships, and Crown Commercial Service agreements.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you work with smaller contractors and SMEs?**
+:::
+::: {.faq-answer}
+A: Absolutely. Many small/medium contractors lack in-house bid teams but need professional submissions to compete. We scale our services to match your needs and budget. For SMEs bidding £500K-2M projects, we typically provide pricing support and technical writing. We're experienced at making smaller firms appear as professional as major contractors.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens if we win? Do you provide post-contract support?**
+:::
+::: {.faq-answer}
+A: Yes! Many clients engage us for post-contract services including detailed cost planning, value engineering implementation, change order pricing, progress payment applications, and final account negotiations. We can also provide ongoing BIM coordination and quantity surveying support throughout project delivery.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help identify suitable tender opportunities?**
+:::
+::: {.faq-answer}
+A: Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving your team hours of searching and allowing focus on high-probability opportunities.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How much do bid writing services cost?**
+:::
+::: {.faq-answer}
+A: Fees depend on tender complexity, value, and services required. As a guide: Bid/No-Bid analysis £500-1,500; Pricing/BOQ £2,000-8,000; Technical writing £3,000-10,000; Full tender management £8,000-25,000. Framework applications £10,000-30,000. We provide fixed-price quotes within 24 hours of reviewing tender documents.
+:::
+:::
+:::
+
+## Ready to Win Your Next Tender?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Don't Let Poor Bids Cost You Contracts</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Professional bid support pays for itself with a single win.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Discuss Opportunity</h3>
+<p style="color: var(--bim-white); margin: 0;">Share your tender for rapid assessment</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See Win Examples</h3>
+<p style="color: var(--bim-white); margin: 0;">Review successful submissions we've supported</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Fixed Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Receive pricing within 24 hours</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Discuss Tender](../contact.qmd){.cta-primary}
+[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../contact.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% Win Rate on Supported Tenders</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>100% Compliance Guaranteed</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Public & Private Sector Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

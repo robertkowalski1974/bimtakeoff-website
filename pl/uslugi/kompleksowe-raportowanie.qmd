@@ -1,0 +1,485 @@
+---
+title: "Kompleksowe Raportowanie i Panele | Business Intelligence | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kompleksowe Raportowanie i Interaktywne Panele
+### Przekształć Dane Budowlane w Strategiczne Informacje
+:::
+
+::: {.hero-subtitle}
+Widoczność w czasie rzeczywistym dla każdej metryki projektu.  
+Interaktywne panele PowerBI i Tableau do natychmiastowej analizy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interaktywne Panele</strong> - Implementacje PowerBI i Tableau</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane w Czasie Rzeczywistym</strong> - Metryki i KPI projektu na żywo</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Streszczenia dla Zarządu</strong> - Informacje bez przeciążenia danymi</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Demo](../kontakt.qmd){.cta-primary}
+[Zobacz Przykładowe Raporty](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Dlaczego Tradycyjne Raporty Zawodzą Interesariuszy
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Statyczne Raporty PDF
+
+Tradycyjne metody raportowania tworzą martwe punkty:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 80-stronicowe PDF-y, których nikt nie czyta</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dane nieaktualne w momencie dystrybucji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak możliwości szczegółowej analizy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Kluczowe informacje zagubione w tabelach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wymaga specjalistycznej wiedzy do interpretacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dni pracy na ręczne aktualizacje</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Koszt Złej Widoczności
+
+> "Dyrektorzy podejmują decyzje o wartości 10 mln PLN na podstawie 3-tygodniowych danych w 150-slajdowych prezentacjach PowerPoint. Zanim ryzyka stają się widoczne w tradycyjnych raportach, jest już za późno na efektywne kosztowo działania."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie: Interaktywne Panele
+
+Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Aktualizacje w czasie rzeczywistym** - automatyczne odświeżanie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Interaktywna analiza** - od podsumowania do szczegółów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wizualne informacje** - natychmiastowe wykrywanie trendów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka predykcyjna** - przewidywanie problemów przed eskalacją</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dostęp mobilny** - sprawdzanie statusu w dowolnym miejscu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Widoki rolowe** - odpowiednie dane dla każdego interesariusza</p>
+:::
+:::
+
+:::
+
+## Nasz Kompletny Zestaw Raportów
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### 5 Typów Raportów dla Każdego Interesariusza
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Panel Zarządczy
+
+**Dla:** Dyrektorów, Zarządu, Inwestorów
+
+**Kluczowe Metryki:**
+
+- Wskaźnik zdrowia projektu (status RAG)
+- Budżet vs. faktyczne koszty (analiza wariancji)
+- Wskaźnik wydajności harmonogramu
+- Prognoza przepływów pieniężnych
+- Podsumowanie ryzyka
+- Przegląd portfela (multi-projekt)
+
+**Częstotliwość:** Dziennie/Tygodniowo  
+**Platforma:** PowerBI, Tableau lub webowa
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-graph-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Panel Zarządzania Kosztami
+
+**Dla:** Kierowników Projektów, Kosztorysantów
+
+**Kluczowe Metryki:**
+
+- Podział kosztów według branży/elementu
+- Koszty zatwierdzone vs. prognozowane
+- Śledzenie zmian w zamówieniach
+- Możliwości optymalizacji wartości
+- Prognoza kosztów do zakończenia
+- Krzywe konsumpcji budżetu
+
+**Częstotliwość:** Dziennie/Na żywo  
+**Platforma:** PowerBI z integracją Excel
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-calendar3" style="color: var(--bim-orange); margin-right: 12px;"></i>Raport Postępu Programu
+
+**Dla:** Planistów, Generalnych Wykonawców
+
+**Kluczowe Metryki:**
+
+- Status ścieżki krytycznej
+- % osiągnięcia kamieni milowych
+- Obciążenie zasobami
+- Planowanie wyprzedzające (4-6 tygodni)
+- Analiza zużycia rezerwy czasowej
+- Śledzenie wpływu pogody
+
+**Częstotliwość:** Tygodniowo  
+**Platforma:** Połączenie z P6/MS Project
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Tracker Zamówień
+
+**Dla:** Działu Zakupów, Łańcucha Dostaw
+
+**Kluczowe Metryki:**
+
+- Status przyznanych pakietów
+- Analiza zwrotu przetargów
+- Czasy realizacji materiałów
+- Śledzenie zamówień vs. dostaw
+- Oceny wydajności dostawców
+- Monitorowanie eskalacji cen
+
+**Częstotliwość:** Tygodniowo/Na żądanie  
+**Platforma:** PowerBI z integracją ERP
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-exclamation-triangle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Rejestr Ryzyk i Problemów
+
+**Dla:** Kontroli Projektów, Menedżerów Ryzyka
+
+**Kluczowe Metryki:**
+
+- Mapa cieplna ekspozycji na ryzyko
+- Top 10 aktywnych ryzyk
+- Śledzenie rozwiązywania problemów
+- Zużycie rezerwy awaryjnej
+- Skuteczność działań łagodzących
+- Analiza trendów (poprawa/pogorszenie)
+
+**Częstotliwość:** Co dwa tygodnie  
+**Platforma:** Integracja z systemami projektowymi
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-bar-graph" style="color: var(--bim-orange); margin-right: 12px;"></i>Szczegółowe Raporty Techniczne
+
+**Dla:** Konsultantów Specjalistycznych, Audytorów
+
+**Produkty:**
+
+- Kompleksowy przedmiar z komentarzem
+- Raporty analizy wariancji
+- Studia porównawcze
+- Propozycje optymalizacji wartości
+- Dokumentacja zgodności
+- Dokumentacja ścieżki audytu
+
+**Format:** PDF, Excel, Word  
+**Częstotliwość:** Miesięcznie lub na żądanie
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Wszystkie panele są dostosowywane do Twoich specyficznych KPI, brandingu i wymagań raportowania.**
+:::
+
+:::
+:::
+
+## Nasz Sprawdzony 4-Etapowy Proces Wdrożenia
+
+::: {.process-steps}
+::: {.process-step}
+#### Etap 1: Warsztat Wymagań i Mapowanie Danych
+
+**Czas trwania:** 3-5 dni
+
+**Co robimy:**
+
+- Przeprowadzamy wywiady z interesariuszami, aby zrozumieć potrzeby
+- Identyfikujemy kluczowe metryki i KPI dla każdego typu raportu
+- Mapujemy istniejące źródła danych (ERP, CRM, oprogramowanie projektowe)
+- Definiujemy częstotliwości aktualizacji i poziomy dostępu użytkowników
+- Tworzymy makiety projektów paneli do zatwierdzenia
+
+**Co otrzymujesz:** Szczegółowy plan wdrożenia i szkice paneli
+:::
+
+::: {.process-step}
+#### Etap 2: Integracja Danych i Konfiguracja Pipeline
+
+**Czas trwania:** 5-10 dni
+
+**Co robimy:**
+
+- Łączymy się z Twoimi źródłami danych (API, bazy danych, Excel)
+- Budujemy zautomatyzowane pipeline'y odświeżania danych
+- Oczyszczamy i transformujemy dane dla spójności
+- Tworzymy pola obliczeniowe i logikę biznesową
+- Ustanawiamy reguły walidacji jakości danych
+- Testujemy dokładność danych względem systemów źródłowych
+
+**Co otrzymujesz:** Funkcjonalna infrastruktura danych z automatycznymi aktualizacjami
+:::
+
+::: {.process-step}
+#### Etap 3: Rozwój i Dostosowanie Paneli
+
+**Czas trwania:** 10-15 dni
+
+**Co robimy:**
+
+- Budujemy interaktywne wizualizacje w PowerBI/Tableau
+- Implementujemy funkcjonalność drill-down
+- Stosujemy kolory i styling Twojej marki
+- Tworzymy uprawnienia dostępu oparte na rolach
+- Rozwijamy responsywne układy mobilne
+- Dodajemy kontrole filtrowania i parametrów
+- Konfigurujemy alerty i powiadomienia
+
+**Co otrzymujesz:** W pełni funkcjonalne panele na wszystkich urządzeniach
+:::
+
+::: {.process-step}
+#### Etap 4: Szkolenie Użytkowników i Dokumentacja
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Szkolimy power userów (Kierowników Projektów, Analityków)
+- Prowadzimy sesje ogólne dla kadry zarządzającej
+- Dostarczamy tutoriale wideo i przewodniki użytkownika
+- Dokumentujemy źródła danych i obliczenia
+- Ustanawiamy procedury wsparcia
+- Planujemy sesje optymalizacyjne follow-up
+
+**Co otrzymujesz:** Przeszkolony zespół z kompleksową dokumentacją
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Całkowite Wdrożenie:** 20-35 dni roboczych | **Dostępne Wsparcie Ciągłe**
+:::
+
+## Platformy Technologiczne, Które Wspieramy
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Narzędzia Business Intelligence
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Microsoft PowerBI** - Najpopularniejszy, integracja Office 365</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tableau** - Zaawansowana analityka i wizualizacje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Google Data Studio** - Darmowa opcja chmurowa</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Qlik Sense** - Model danych asocjacyjnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe Panele Webowe** - Rozwiązania React/Angular na zamówienie</p>
+:::
+:::
+
+::: {style=""}
+### Źródła Danych, Które Integrujemy
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie Projektami:** MS Project, Primavera P6, Procore</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Systemy Kosztowe:** CostX, WinQS, Candy, Causeway</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Platformy BIM:** Revit, BIM 360, Navisworks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Systemy ERP:** SAP, Oracle, Microsoft Dynamics</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pliki Excel/CSV:** Dowolne źródło danych strukturalnych</p>
+:::
+:::
+
+:::
+
+## Co Jest Zawarte w Pakiecie Raportowania
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standardowe Produkty
+
+Każda implementacja raportowania obejmuje:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 Główne Panele** (Zarządczy, Kosztowy, Programowy)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne Odświeżanie Danych** (dziennie/tygodniowo/na żywo)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Responsywny Design Mobilny** (dostęp z tabletu i telefonu)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kontrola Dostępu Oparta na Rolach** (uprawnienia bezpieczeństwa)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sesje Szkoleniowe Użytkowników** (power userzy i kadra zarządzająca)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompleksowa Dokumentacja** (przewodniki techniczne i użytkownika)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 Miesiące Wsparcia** (rozwiązywanie problemów i udoskonalenia)</p>
+:::
+:::
+
+::: {style=""}
+### Opcjonalne Dodatki
+
+Ulepsz swoje raportowanie o:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dodatkowe Panele** - Zakupy, Jakość, Bezpieczeństwo</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka Predykcyjna** - Prognozy uczenia maszynowego</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne Alerty** - Email/SMS przy przekroczeniu progów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie Portfelem** - Agregacja wielu projektów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking Historyczny** - Porównanie z poprzednimi projektami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe Integracje** - Połączenia systemów własnościowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ciągłe Wsparcie i Rozwój** - Abonament miesięczny</p>
+:::
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy musimy kupić licencje PowerBI lub Tableau?**
+:::
+::: {.faq-answer}
+O: Tak, będziecie potrzebować licencji dla swoich użytkowników. PowerBI Pro kosztuje ~35 PLN/użytkownik/miesiąc, PowerBI Premium ~65 PLN/użytkownik/miesiąc. Tableau to ~250 PLN/użytkownik/miesiąc. Możemy doradzić najbardziej opłacalny model licencjonowania dla Waszej organizacji. Alternatywnie możemy zbudować panele webowe wykorzystując narzędzia open-source.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie połączyć się z naszym istniejącym oprogramowaniem do zarządzania projektami?**
+:::
+::: {.faq-answer}
+O: Tak! Integrowaliśmy się ze wszystkimi głównymi programami budowlanymi, w tym Procore, BIM 360, MS Project, Primavera P6 i różnymi systemami ERP. Jeśli Wasze oprogramowanie ma API lub może eksportować dane, możemy się połączyć. Nawet workflow oparte na Excel mogą być zautomatyzowane.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak długo trwa wdrożenie?**
+:::
+::: {.faq-answer}
+O: Podstawowe panele (2-3 raporty) zajmują 20-25 dni. Złożone wdrożenia z wieloma źródłami danych i zaawansowaną analityką mogą zająć 35-45 dni. Możemy dostarczyć MVP (minimum viable product) w 10 dni dla pilnych projektów, a następnie ulepszać iteracyjnie.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli nasze dane są bałaganiaste lub niespójne?**
+:::
+::: {.faq-answer}
+O: Jakość danych to często największe wyzwanie! Nasz proces wdrożenia obejmuje czyszczenie danych, standaryzację i reguły walidacji. Będziemy pracować z Waszym zespołem nad ustanowieniem procesów zarządzania danymi. W większości przypadków możemy obsłużyć 80% czyszczenia automatycznie, a pozostałe 20% wymaga ulepszeń procesowych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możemy sami dostosowywać panele po wdrożeniu?**
+:::
+::: {.faq-answer}
+O: Absolutnie! Zapewniamy pełne szkolenie i dokumentację, aby Wasi power userzy mogli modyfikować raporty, dodawać nowe wizualizacje i dostosowywać filtry. Budujemy panele z myślą o przyszłej personalizacji. Większość klientów staje się samodzielna w ciągu 2-3 miesięcy, chociaż jesteśmy dostępni dla złożonych zmian lub nowego rozwoju paneli.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co się dzieje, gdy źródła danych się zmienią lub dodamy nowe projekty?**
+:::
+::: {.faq-answer}
+O: Panele są zaprojektowane do automatycznego skalowania. Dodawanie nowych projektów zazwyczaj nie wymaga żadnych zmian - dane po prostu płyną przez istniejące pipeline'y. Jeśli zmienicie systemy ERP lub dodacie nowe źródła danych, możemy zaktualizować połączenia za niewielką opłatą. Zalecamy kwartalne przeglądy, aby upewnić się, że panele pozostają zgodne z Waszymi potrzebami.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak zapewniacie bezpieczeństwo danych i kontrolę dostępu?**
+:::
+::: {.faq-answer}
+O: Implementujemy zabezpieczenia oparte na rolach dopasowane do Waszej hierarchii organizacyjnej. Dyrektorzy widzą dane na poziomie portfela, Kierownicy Projektów widzą swoje projekty, a interesariusze widzą tylko odpowiednie sekcje. Wszystkie połączenia używają szyfrowanych kanałów i przestrzegamy standardów bezpieczeństwa danych ISO 27001. Dane pozostają w Waszym środowisku - nigdy nie przechowujemy danych klientów w naszych systemach.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie migrować nasze istniejące raporty Excel do paneli?**
+:::
+::: {.faq-answer}
+O: Tak! To jedno z naszych najczęstszych zapytań. Przeanalizujemy Wasze istniejące raporty Excel, zidentyfikujemy kluczowe metryki i odtworzymy je jako interaktywne panele z automatycznymi aktualizacjami. Zaoszczędzicie 10-20 godzin tygodniowo aktualnie spędzanych na ręcznych aktualizacjach Excel, zyskując znacznie lepsze informacje.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy zapewniacie ciągłe wsparcie po wdrożeniu?**
+:::
+::: {.faq-answer}
+O: Tak. Wszystkie wdrożenia obejmują 3 miesiące wsparcia. Po tym oferujemy miesięczne pakiety wsparcia abonamentowego (2,000-8,000 PLN/miesiąc) na rozwiązywanie problemów, ulepszenia, rozwój nowych paneli i szkolenie użytkowników. Wielu klientów angażuje nas również kwartalnie w celu optymalizacji paneli i rozwoju nowych funkcji.
+:::
+:::
+:::
+
+## Gotowi na Inteligencję Projektową w Czasie Rzeczywistym?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Zarządzać Projektami z Danymi z Ubiegłego Tygodnia</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołącz do organizacji podejmujących szybsze, lepiej uzasadnione decyzje dzięki panelom na żywo.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Demo</h3>
+<p style="color: var(--bim-white); margin: 0;">Zobacz przykładowe panele w akcji</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Szablony</h3>
+<p style="color: var(--bim-white); margin: 0;">Przeglądaj gotowe projekty paneli</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Otrzymaj kosztorys wdrożenia</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Demo](../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci PowerBI i Tableau</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Automatyczna Integracja Danych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Responsywne Panele Mobilne</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Budowlanego</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+
+**Godziny pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

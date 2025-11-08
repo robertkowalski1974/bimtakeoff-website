@@ -1,0 +1,485 @@
+---
+title: "Comprehensive Reporting & Dashboards | Business Intelligence | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Comprehensive Reporting & Interactive Dashboards
+### Transform Construction Data Into Strategic Insights
+:::
+
+::: {.hero-subtitle}
+Real-time visibility across every project metric.  
+Interactive PowerBI and Tableau dashboards for instant analysis.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interactive Dashboards</strong> - PowerBI & Tableau implementations</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Real-Time Data</strong> - Live project metrics and KPIs</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Executive Summaries</strong> - Insights without data overload</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Request Demo](../contact.qmd){.cta-primary}
+[View Sample Reports](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Why Traditional Reports Fail Stakeholders
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Static PDF Reports
+
+Traditional reporting methods create blind spots:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 80-page PDFs nobody reads</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Data outdated by the time it's distributed</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No ability to drill down into details</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Key insights buried in tables</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Requires specialist knowledge to interpret</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Takes days to produce manual updates</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Cost of Poor Visibility
+
+> "Directors make £2M decisions based on 3-week-old data in 150-slide PowerPoint decks. By the time risks are visible in traditional reports, it's too late to intervene cost-effectively."
+:::
+:::
+
+::: {style=""}
+### Our Interactive Dashboard Solution
+
+Live, visual intelligence accessible to all stakeholders:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Real-time updates** automatically refreshed</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Interactive drill-down** from summary to detail</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Visual insights** - spot trends instantly</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Predictive analytics** - see issues before they escalate</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Mobile access** - check status anywhere</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Role-based views** - right data for each stakeholder</p>
+:::
+:::
+
+:::
+
+## Our Complete Reporting Suite
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### 5 Report Types for Every Stakeholder Need
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Executive Dashboard
+
+**For:** Directors, Board, Investors
+
+**Key Metrics:**
+
+- Project health score (RAG status)
+- Budget vs actual (variance analysis)
+- Schedule performance index
+- Cash flow forecast
+- Risk exposure summary
+- Portfolio overview (multi-project)
+
+**Update Frequency:** Daily/Weekly  
+**Platform:** PowerBI, Tableau, or web-based
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-graph-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Cost Management Dashboard
+
+**For:** Project Managers, Quantity Surveyors
+
+**Key Metrics:**
+
+- Cost breakdown by trade/element
+- Committed vs forecast costs
+- Change order tracking
+- Value engineering opportunities
+- Cost-to-complete forecast
+- Budget consumption curves
+
+**Update Frequency:** Daily/Real-time  
+**Platform:** PowerBI with Excel integration
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-calendar3" style="color: var(--bim-orange); margin-right: 12px;"></i>Programme Progress Report
+
+**For:** Planners, Main Contractors
+
+**Key Metrics:**
+
+- Critical path status
+- Milestone achievement %
+- Resource loading
+- Look-ahead planning (4-6 weeks)
+- Float consumption analysis
+- Weather impact tracking
+
+**Update Frequency:** Weekly  
+**Platform:** Linked to P6/MS Project
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Procurement Tracker
+
+**For:** Procurement, Supply Chain
+
+**Key Metrics:**
+
+- Package award status
+- Tender return analysis
+- Material lead times
+- Order vs delivery tracking
+- Supplier performance scores
+- Price escalation monitoring
+
+**Update Frequency:** Weekly/On-demand  
+**Platform:** PowerBI with ERP integration
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-exclamation-triangle-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Risk & Issues Register
+
+**For:** Project Controls, Risk Managers
+
+**Key Metrics:**
+
+- Risk exposure heatmap
+- Top 10 active risks
+- Issue resolution tracking
+- Contingency consumption
+- Mitigation effectiveness
+- Trend analysis (improving/worsening)
+
+**Update Frequency:** Fortnightly  
+**Platform:** Integrated with project systems
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-bar-graph" style="color: var(--bim-orange); margin-right: 12px;"></i>Detailed Technical Reports
+
+**For:** Specialist consultants, Auditors
+
+**Deliverables:**
+
+- Comprehensive BOQ with commentary
+- Variance analysis reports
+- Benchmarking studies
+- Value engineering proposals
+- Compliance documentation
+- Audit trail documentation
+
+**Format:** PDF, Excel, Word  
+**Frequency:** Monthly or on-demand
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**All dashboards are customizable to your specific KPIs, branding, and reporting requirements.**
+:::
+
+:::
+:::
+
+## Our Proven 4-Step Implementation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Step 1: Requirements Workshop & Data Mapping
+
+**Duration:** 3-5 days
+
+**What We Do:**
+
+- Conduct stakeholder interviews to understand needs
+- Identify key metrics and KPIs for each report type
+- Map existing data sources (ERP, CRM, project software)
+- Define update frequencies and user access levels
+- Create mockup dashboard designs for approval
+
+**What You Receive:** Detailed implementation plan and dashboard wireframes
+:::
+
+::: {.process-step}
+#### Step 2: Data Integration & Pipeline Setup
+
+**Duration:** 5-10 days
+
+**What We Do:**
+
+- Connect to your data sources (APIs, databases, Excel)
+- Build automated data refresh pipelines
+- Clean and transform data for consistency
+- Create calculated fields and business logic
+- Establish data quality validation rules
+- Test data accuracy against source systems
+
+**What You Receive:** Functioning data infrastructure with automated updates
+:::
+
+::: {.process-step}
+#### Step 3: Dashboard Development & Customization
+
+**Duration:** 10-15 days
+
+**What We Do:**
+
+- Build interactive visualizations in PowerBI/Tableau
+- Implement drill-down functionality
+- Apply your brand colors and styling
+- Create role-based access permissions
+- Develop mobile-responsive layouts
+- Add filtering and parameter controls
+- Configure alerts and notifications
+
+**What You Receive:** Fully functional dashboards across all devices
+:::
+
+::: {.process-step}
+#### Step 4: User Training & Documentation
+
+**Duration:** 2-3 days
+
+**What We Do:**
+
+- Train power users (Project Managers, Analysts)
+- Conduct general user sessions for executives
+- Provide video tutorials and user guides
+- Document data sources and calculations
+- Establish support procedures
+- Schedule follow-up optimization sessions
+
+**What You Receive:** Trained team with comprehensive documentation
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Total Implementation:** 20-35 working days | **Ongoing Support Available**
+:::
+
+## Technology Platforms We Support
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Business Intelligence Tools
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Microsoft PowerBI** - Most popular, Office 365 integration</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tableau** - Advanced analytics and visualizations</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Google Data Studio** - Free, cloud-based option</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Qlik Sense** - Associative data model</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Custom Web Dashboards** - Bespoke React/Angular solutions</p>
+:::
+:::
+
+::: {style=""}
+### Data Sources We Integrate
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Project Management:** MS Project, Primavera P6, Procore</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cost Systems:** CostX, WinQS, Candy, Causeway</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BIM Platforms:** Revit, BIM 360, Navisworks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ERP Systems:** SAP, Oracle, Microsoft Dynamics</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Excel/CSV Files:** Any structured data source</p>
+:::
+:::
+
+:::
+
+## What's Included in Your Reporting Package
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standard Deliverables
+
+Every reporting implementation includes:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 Core Dashboards** (Executive, Cost, Programme)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automated Data Refresh** (daily/weekly/real-time)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Mobile-Responsive Design** (tablet & phone access)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Role-Based Access Control** (security permissions)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **User Training Sessions** (power users & executives)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Comprehensive Documentation** (technical & user guides)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 Months Support** (troubleshooting & refinements)</p>
+:::
+:::
+
+::: {style=""}
+### Optional Add-ons
+
+Enhance your reporting with:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Additional Dashboards** - Procurement, Quality, Safety</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Predictive Analytics** - Machine learning forecasts</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automated Alerts** - Email/SMS for threshold breaches</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Portfolio Management** - Multi-project aggregation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Historical Benchmarking** - Compare to past projects</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Custom Integrations** - Proprietary system connections</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ongoing Support & Development** - Monthly retainer</p>
+:::
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do we need to buy PowerBI or Tableau licenses?**
+:::
+::: {.faq-answer}
+A: Yes, you'll need licenses for your users. PowerBI Pro costs ~£8/user/month, PowerBI Premium ~£16/user/month. Tableau is ~£60/user/month. We can advise on the most cost-effective licensing model for your organization. Alternatively, we can build web-based dashboards using open-source tools.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you connect to our existing project management software?**
+:::
+::: {.faq-answer}
+A: Yes! We've integrated with all major construction software including Procore, BIM 360, MS Project, Primavera P6, and various ERP systems. If your software has an API or can export data, we can connect it. Even Excel-based workflows can be automated.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How long does implementation take?**
+:::
+::: {.faq-answer}
+A: Basic dashboards (2-3 reports) take 20-25 days. Complex implementations with multiple data sources and advanced analytics may take 35-45 days. We can deliver an MVP (minimum viable product) in 10 days for urgent projects, then enhance iteratively.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if our data is messy or inconsistent?**
+:::
+::: {.faq-answer}
+A: Data quality is often the biggest challenge! Our implementation process includes data cleansing, standardization, and validation rules. We'll work with your team to establish data governance processes. In most cases, we can handle 80% of cleanup automatically, with the remaining 20% requiring process improvements.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can we customize the dashboards ourselves after implementation?**
+:::
+::: {.faq-answer}
+A: Absolutely! We provide full training and documentation so your power users can modify reports, add new visualizations, and adjust filters. We build dashboards with future customization in mind. Most clients become self-sufficient within 2-3 months, though we're available for complex changes or new dashboard development.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens if data sources change or we add new projects?**
+:::
+::: {.faq-answer}
+A: Dashboards are designed to scale automatically. Adding new projects typically requires no changes - data simply flows through existing pipelines. If you change ERP systems or add new data sources, we can update connections for a small fee. We recommend quarterly reviews to ensure dashboards remain aligned with your needs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you ensure data security and access control?**
+:::
+::: {.faq-answer}
+A: We implement role-based security matching your organizational hierarchy. Directors see portfolio-level data, Project Managers see their projects, and stakeholders see only relevant sections. All connections use encrypted channels, and we follow ISO 27001 data security standards. Data remains in your environment - we never store client data on our systems.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you migrate our existing Excel reports to dashboards?**
+:::
+::: {.faq-answer}
+A: Yes! This is one of our most common requests. We'll analyze your existing Excel reports, identify key metrics, and recreate them as interactive dashboards with automated updates. You'll save 10-20 hours per week currently spent on manual Excel updates while gaining much better insights.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you provide ongoing support after implementation?**
+:::
+::: {.faq-answer}
+A: Yes. All implementations include 3 months of support. After that, we offer monthly retainer support packages (£500-2,000/month) for troubleshooting, enhancements, new dashboard development, and user training. Many clients also engage us quarterly for dashboard optimization and new feature development.
+:::
+:::
+:::
+
+## Ready for Real-Time Project Intelligence?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Managing Projects with Last Week's Data</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Join organizations making faster, better-informed decisions with live dashboards.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Request Demo</h3>
+<p style="color: var(--bim-white); margin: 0;">See sample dashboards in action</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">View Templates</h3>
+<p style="color: var(--bim-white); margin: 0;">Browse ready-made dashboard designs</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Receive implementation estimate</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Request Demo](../contact.qmd){.cta-primary}
+[View Samples](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../contact.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>PowerBI & Tableau Experts</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Automated Data Integration</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Mobile-Responsive Dashboards</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years Construction Experience</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

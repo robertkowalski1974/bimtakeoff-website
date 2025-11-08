@@ -1,0 +1,534 @@
+---
+title: "Precyzyjne Kosztorysowanie Instalacji MEP | Sanitarne Elektryczne Wentylacyjne | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Precyzyjne Kosztorysowanie Instalacji MEP
+### Złożone Systemy Kosztorysowane z Chirurgiczną Precyzją
+:::
+
+::: {.hero-subtitle}
+Szczegółowe przedmiary MEP z skoordynowanych modeli BIM.  
+Obmiary bez kolizji z dokładnością ±3%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pełna Koordynacja M&E</strong> - Mechanika, Elektryka, Sanitarne, Przeciwpożarowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zintegrowana Detekcja Kolizji</strong> - Pre-walidowane ilości</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjaliści Systemów Złożonych</strong> - Centra danych, przemysł, ochrona zdrowia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Umów Ocenę MEP](../kontakt.qmd){.cta-primary}
+[Zobacz Projekty MEP](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Wyzwanie Kosztów MEP
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Tradycyjne Kosztorysowanie MEP Zawodzi
+
+Instalacje mechaniczne, elektryczne i sanitarne stanowią 30-50% kosztów projektu, ale często są źle kosztorysowane:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wycena ryczałtowa (PLN/mkw, PLN/kW)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niekompletne przedmiary pomijają rurociągi</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Kolizje wykrywane podczas instalacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Koszty koordynacji niedoszacowane</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Testy i rozruch pominięte</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Złożoność integracji niewyceniona</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ukryte Koszty
+
+> "W projekcie centrum danych MEP to 60% całkowitego kosztu. 10% błąd kosztorysowania MEP oznacza 6% przekroczenie projektu - potencjalnie 24 mln PLN w projekcie 400 mln PLN. Precyzja ma znaczenie."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Oparte na BIM
+
+Skoordynowana ekstrakcja modelu 3D z pełną integracją systemów:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ilości bez kolizji** ze skoordynowanych modeli</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Każdy komponent zliczony** - złączki, mocowania, akcesoria</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Walidacja system po systemie** przez specjalistów MEP</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Koszty koordynacji i testów uwzględnione</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Wyceniona integracja sterowań i BMS</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Uwzględnione gwarancje wydajności</p>
+:::
+:::
+
+:::
+
+## Systemy MEP, Które Kosztorysujemy
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-snow" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy HVAC
+
+**Ogrzewanie, Chłodzenie i Wentylacja**
+
+- Agregaty chłodnicze i kotły
+- Centrale wentylacyjne
+- Kanały (wszystkie rozmiary)
+- Systemy VAV i VRF
+- Pompy ciepła
+- Rurociągi i izolacja
+- Sterowanie i BMS
+
+**Złożoność:** Wysokościowce, czyste pomieszczenia, laboratoria
+:::
+
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Instalacje Elektryczne
+
+**Zasilanie i Dystrybucja**
+
+- Rozdzielnice WN/NN
+- Transformatory i UPS
+- Generatory i ATS
+- Rozdzielnice
+- Prowadzenie kabli
+- Oświetlenie i sterowanie
+- Systemy awaryjne
+
+**Specjalności:** Centra danych (Tier III/IV), obciążenia przemysłowe
+:::
+
+::: {.feature-card}
+### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Instalacje Sanitarne
+
+**Woda i Ścieki**
+
+- Systemy ciepłej/zimnej wody
+- Hydrofornie
+- Kanalizacja nadziemna/podziemna
+- Zbieranie wody deszczowej
+- Recykling wody szarej
+- Przepompownie
+- Uzdatnianie wody
+
+**Zastosowania:** Wysokościowce, woda procesowa przemysłowa
+:::
+
+::: {.feature-card}
+### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Ochrona Przeciwpożarowa
+
+**Systemy Bezpieczeństwa Życia**
+
+- Systemy tryskaczowe
+- Alarmy i detekcja pożaru
+- Kontrola/wyciąg dymu
+- Hydranty wewnętrzne
+- Gaszenie gazowe FM200
+- Oświetlenie awaryjne
+- Systemy dźwiękowe
+
+**Normy:** PN-EN 12845, normy krajowe
+:::
+
+::: {.feature-card}
+### <i class="bi bi-hdd-network-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Dane i Komunikacja
+
+**Infrastruktura IT**
+
+- Okablowanie strukturalne
+- Sieci światłowodowe
+- Chłodzenie serwerowni
+- UPS i dystrybucja energii
+- Zarządzanie kablami
+- CCTV i kontrola dostępu
+- Systemy AV
+
+**Ekspertyza:** Centra danych hipersk alowe, misja krytyczna
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Sterowanie Budynkiem
+
+**Integracja i Automatyka**
+
+- Systemy BMS/SCADA
+- Sterowniki DDC
+- Pomiary i monitoring
+- Protokoły integracji
+- Dashboardy i analityka
+- Konserwacja predykcyjna
+- Czujniki IoT
+
+**Platformy:** Wszyscy główni dostawcy BMS
+:::
+:::
+
+## Nasz Proces Kosztorysowania MEP
+
+::: {.process-steps}
+::: {.process-step}
+#### Przegląd Koordynacji Modelu
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Przegląd modeli BIM MEP (Revit MEP, AutoCAD MEP)
+- Uruchomienie detekcji kolizji (Navisworks, Solibri)
+- Walidacja kompletności systemu
+- Sprawdzenie zgodności ze specyfikacją
+- Weryfikacja harmonogramów wyposażenia
+- Ocena LOD (Poziomu Szczegółowości)
+
+**Rezultat:** Raport jakości modelu z rejestrem kolizji
+:::
+
+::: {.process-step}
+#### Ekstrakcja System po Systemie
+
+**Czas trwania:** 4-6 dni
+
+**Co robimy:**
+
+- Ekstrakcja ilości na system
+- Uwzględnienie wszystkich złączek i akcesoriów
+- Uwzględnienie tras koordynacyjnych
+- Obliczenie nakładów pracy
+- Uwzględnienie testów i rozruchu
+- Wycena integracji sterowań
+- Dodanie testów wydajności
+
+**Rezultat:** Szczegółowy przedmiar robót MEP
+:::
+
+::: {.process-step}
+#### Kosztorysowanie Specjalistycznych Podsystemów
+
+**Czas trwania:** 3-4 dni
+
+**Co robimy:**
+
+- Wycena skomplikowanego wyposażenia (agregaty, UPS, generatory)
+- Kosztorysowanie instalacji specjalistycznych (czyste pomieszczenia, laboratoria)
+- Uwzględnienie testów fabrycznych/świadków
+- Obliczenie wymagań dźwigowych/sprzętowych
+- Wycena usług tymczasowych
+- Uwzględnienie części zamiennych i szkoleń
+
+**Rezultat:** Harmonogramy kosztów podsystemów
+:::
+
+::: {.process-step}
+#### Kosztorysowanie Integracji i Koordynacji
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Programowanie integracji BMS
+- Koordynacja wielodyscyplinowa
+- Sekwencje testów i rozruchu
+- Weryfikacja wydajności
+- Dokumentacja przekazania
+- Produkcja podręcznika O&M
+
+**Rezultat:** Zestawienie kosztów integracji
+:::
+
+::: {.process-step}
+#### Ocena Ryzyk i Rezerw
+
+**Czas trwania:** 1-2 dni
+
+**Co robimy:**
+
+- Identyfikacja ryzyk specyficznych dla MEP
+- Ocena etapu rozwoju projektu
+- Wycena rezerw koordynacyjnych
+- Modelowanie terminów dostaw wyposażenia
+- Ocena złożoności instalacji
+- Rekomendacje mitygacji ryzyka
+
+**Rezultat:** Rejestr ryzyk MEP z rekomendacją rezerw
+:::
+
+::: {.process-step}
+#### Końcowe Raportowanie Kosztów
+
+**Czas trwania:** 2 dni
+
+**Co robimy:**
+
+- Konsolidacja wszystkich kosztów MEP
+- Utworzenie zestawienia system po systemie
+- Przygotowanie elementarnego planu kosztów
+- Porównanie z benchmarkami
+- Prezentacja wyników i rekomendacji
+- Dostarczenie opcji optymalizacji wartości
+
+**Rezultat:** Kompleksowy raport kosztów MEP
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Całkowity Czas:** 14-20 dni roboczych  
+**Całkowity Czas Projektu:** 3-4 tygodnie na kompletny plan kosztów MEP
+:::
+
+## Specjalistyczne Zastosowania MEP
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Złożone Środowiska, w Których Jesteśmy Ekspertami
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--bim-orange);"}
+#### Centra Danych
+
+**Infrastruktura Krytyczna dla Misji**
+
+- Zgodność Tier III/IV
+- Nadmiarowość N+1, 2N
+- Obudowy gorących/zimnych korytarzy
+- Gęstość mocy 15-25 kW/szafa
+- Chłodzenie precyzyjne
+- Dobór generatorów i UPS
+- Systemy zarządzania kablami
+
+**Proporcja MEP:** 60-70% kosztów projektu
+:::
+
+::: {style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--bim-orange);"}
+#### Placówki Ochrony Zdrowia
+
+**Środowiska Opieki Krytycznej**
+
+- Wentylacja wg norm medycznych
+- Systemy gazów medycznych
+- Środki kontroli infekcji
+- Wentylacja sal operacyjnych
+- Systemy zasilania krytycznego
+- Integracja przyzywu pielęgniarek
+- Obiekty dekontaminacji
+
+**Proporcja MEP:** 45-55% kosztów projektu
+:::
+
+::: {style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--bim-orange);"}
+#### Przemysł Wytwórczy
+
+**Proces i Produkcja**
+
+- Systemy sprężonego powietrza
+- Chłodzenie/ogrzewanie procesowe
+- Odprowadzanie pyłu/oparów
+- Elektryka wysokich obciążeń (3-fazowa)
+- Oczyszczanie ścieków
+- Wytwarzanie pary
+- Zgodność ATEX
+
+**Proporcja MEP:** 40-50% kosztów projektu
+:::
+
+::: {style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--bim-orange);"}
+#### Laboratoria
+
+**Obiekty Badawcze**
+
+- Systemy okapów digestorium
+- Gazy procesowe
+- Specjalistyczna wentylacja
+- Kontrola zanieczyszczeń
+- Obiekty myjące
+- Systemy awaryjne
+- Monitoring środowiskowy
+
+**Proporcja MEP:** 50-60% kosztów projektu
+:::
+
+:::
+
+:::
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaki LOD (Poziom Szczegółowości) potrzebujecie do dokładnego kosztorysowania MEP?**
+:::
+::: {.faq-answer}
+O: LOD 300 minimum dla dokładności ±5%, LOD 350-400 dla dokładności ±3%. Przy LOD 300 pracujemy ze schematycznym trasowaniem i harmonogramami wyposażenia. LOD 350+ zapewnia szczegóły poziomu wytwarzania, w tym wszystkie złączki, wsporniki i akcesoria. Jeśli model jest LOD 200, możemy uzupełnić specyfikacjami i rysunkami schematycznymi, ale dokładność spada do ±10%.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak obsługujecie koszty koordynacji MEP?**
+:::
+::: {.faq-answer}
+O: Uwzględniamy koordynację w naszych szacunkach zarówno jako czas (spotkania koordynacyjne, rozwiązywanie kolizji), jak i materiał (koszty przekierowań, dodatkowe złączki). W złożonych projektach koordynacja może dodać 3-5% do kosztów MEP. Modelujemy również ryzyko rozwoju projektu - ile projektu jest jeszcze do sfinalizowania i jaki ma to wpływ na pewność wyceny.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie kosztorysować MEP dla projektów z nieskoordynowanymi modelami?**
+:::
+::: {.faq-answer}
+O: Tak, ale dodajemy rezerwę koordynacyjną (5-10%), aby uwzględnić kolizje, które zostaną wykryte i rozwiązane podczas budowy. Możemy również uruchomić detekcję kolizji w ramach naszej usługi i dostarczyć oszacowanie kosztów rozwiązania kolizji, pomagając zrozumieć ryzyko koordynacyjne w kategoriach pieniężnych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy uwzględniacie testy i rozruch w szacunkach?**
+:::
+::: {.faq-answer}
+O: Absolutnie. T&C to często 3-8% kosztów instalacji MEP i często pomijane. Uwzględniamy: przed-rozruch, testy funkcjonalne, weryfikację wydajności, testy integracji, testy świadków, rozruch sezonowy i monitorowanie wad przez 12 miesięcy. Każdy system ma specyficzne wymagania testowe, które odpowiednio wyceniamy.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak wyceniacie integrację BMS/sterowań?**
+:::
+::: {.faq-answer}
+O: Koszty BMS obejmują: sprzęt (sterowniki, czujniki, siłowniki), licencje na oprogramowanie, programowanie, grafiki/dashboardy, integrację z systemami specjalistycznymi, szkolenia i dokumentację. Zazwyczaj 5-15% kosztów MEP w zależności od poziomu inteligencji budynku. Wyceniamy według wytycznych BSRIA dla poziomów specyfikacji BMS.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie porównać nasze koszty MEP z normami branżowymi?**
+:::
+::: {.faq-answer}
+O: Tak, porównujemy z naszą bazą danych 2000+ projektów. Dostarczamy porównania PLN/mkw według typu budynku, proporcji MEP całkowitych kosztów projektu i stawek jednostkowych system po systemie. To pomaga określić, czy specyfikacja jest zawyżona/zaniżona w porównaniu z normami rynkowymi dla podobnych budynków.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: A co z MEP dla remontów/budynków istniejących?**
+:::
+::: {.faq-answer}
+O: MEP remontowe jest bardziej złożone z powodu: badań istniejących instalacji, ryzyka azbestu/zanieczyszczenia, pracy w zajętych budynkach, etapowania/usług tymczasowych, wiązania z istniejącymi systemami i niewiadomych za ścianami/sufitami. Zazwyczaj dodajemy 15-25% rezerwy dla pracy MEP w istniejącym budynku i zalecamy badania inwazyjne w celu zmniejszenia niepewności.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak obsługujecie wycenę wyposażenia o długim czasie realizacji?**
+:::
+::: {.faq-answer}
+O: Dla głównego wyposażenia (agregaty, generatory, rozdzielnice, UPS) uzyskujemy wyceny budżetowe od producentów/dostawców i uwzględniamy terminy dostaw w naszej ocenie. Oznaczamy elementy na ścieżce krytycznej i zalecamy wczesne zamówienia. Modelujemy również ryzyko walutowe dla importowanego wyposażenia i scenariusze inflacji dla pozycji o długim czasie realizacji.
+:::
+:::
+:::
+
+## Dlaczego Wybrać BIM Takeoff do Kosztorysowania MEP?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Zespół Specjalistów MEP
+
+**Inżynierowie i Konsultanci Kosztowi**
+
+Nasz zespół obejmuje wykwalifikowanych inżynierów M&E, którzy rozumieją projektowanie systemów, a nie tylko dane kosztowe. Mówimy tym samym językiem co Twoi konsultanci MEP i możemy walidować założenia projektowe, identyfikować brakujące systemy i oznaczać nadmiar/niedomiar specyfikacji. Ta wiedza inżynierska zapewnia, że nasze szacunki odzwierciedlają rzeczywistą złożoność instalacji.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-boxes" style="color: var(--bim-orange);"></i> Doświadczenie w Systemach Złożonych
+
+**Od Centrów Danych Do Sal Operacyjnych**
+
+Kosztorysowaliśmy MEP dla najbardziej wymagających zastosowań: centra danych Tier IV z nadmiarowością 2N+1, sale operacyjne szpitalne, czyste pomieszczenia farmaceutyczne ISO Klasa 5 i obiekty przemysłowe z wyposażeniem stref zagrożonych. Jeśli jest technicznie złożone, szacowaliśmy to.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-cpu-fill" style="color: var(--bim-orange);"></i> Podejście BIM-Native
+
+**Ekstrakcja Skoordynowanego Modelu**
+
+Pracujemy bezpośrednio ze sfederowanymi modelami MEP, uruchamiając detekcję kolizji przed ekstrakcją ilości. Oznacza to, że nasze ilości są wolne od kolizji i gotowe do instalacji. Dostarczamy również raporty koordynacyjne identyfikujące problemy projektowe, które mogą wpłynąć na koszty - dając widoczność przed pojawieniem się problemów na placu budowy.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);"></i> Sprawdzona Dokładność
+
+**±3% na Złożonym MEP**
+
+Nasze szacunki MEP osiągają dokładność ±3-5% przy pracy ze skoordynowanymi modelami LOD 350+. To znacznie lepsze niż standardowa branżowa ±10-15% dla pracy MEP. Ta precyzja pochodzi z kompletnej ekstrakcji systemów, wkładu specjalistycznego inżynieryjnego i kompleksowych narzutów na testy, rozruch i integrację.
+:::
+
+:::
+
+## Gotowy Na Precyzyjne Kosztorysowanie MEP?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Pozwól, Aby Niepewność MEP Wykoleliła Projekt</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Uzyskaj wolne od kolizji, system-walidowane ilości MEP od specjalistów, którzy rozumieją inżynierię.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Darmowa Ocena MEP</h3>
+<p style="color: var(--bim-white); margin: 0;">Przegląd modelu i omówienie podejścia do kosztorysowania</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Przykładowe Zestawienie MEP</h3>
+<p style="color: var(--bim-white); margin: 0;">Zobacz analizę kosztów system po systemie</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Niestandardową Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Wycena specyficzna dla projektu w 24 godziny</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Umów Ocenę](../kontakt.qmd){.cta-primary}
+[Zobacz Przykład MEP](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Wykwalifikowani Inżynierowie M&E</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3% Dokładność Na Skoordynowanych Modelach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Detekcja Kolizji Wliczona</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Ze Złożonymi Systemami</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+
+**Godziny Pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

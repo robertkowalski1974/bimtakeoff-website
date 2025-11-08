@@ -1,0 +1,49 @@
+---
+title: "Kompleksowe Raportowanie i Panele | Business Intelligence | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kompleksowe Raportowanie i Interaktywne Panele
+### Przekształć Dane Budowlane w Strategiczne Informacje
+:::
+
+::: {.hero-subtitle}
+Widoczność w czasie rzeczywistym dla każdej metryki projektu.  
+Interaktywne panele PowerBI i Tableau do natychmiastowej analizy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interaktywne Panele</strong> - Implementacje PowerBI i Tableau</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane w Czasie Rzeczywistym</strong> - Metryki i KPI projektu na żywo</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Streszczenia dla Zarządu</strong> - Informacje bez przeciążenia danymi</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Demo](../../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady](../../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+
+**Godziny pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

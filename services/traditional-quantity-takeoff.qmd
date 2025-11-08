@@ -1,0 +1,494 @@
+---
+title: "Traditional Quantity Takeoff | Manual Measurement Services | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Traditional Quantity Takeoff from 2D Drawings
+### Professional Measurement When BIM Isn't Available
+:::
+
+::: {.hero-subtitle}
+Hand-measured quantities with 20 years' experience.  
+PDF, DWG, or paper drawings - we measure them all.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2D Drawing Measurement</strong> - PDF, DWG, or paper formats</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>±5-8% Accuracy</strong> - Expert quantity surveyors</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 Working Days</strong> - Faster than typical QS firms</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Quote](../contact.qmd){.cta-primary}
+[Submit Drawings](../contact.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## When Traditional Measurement Is The Right Choice
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Not Every Project Has BIM
+
+Many valuable projects still rely on 2D drawings:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Refurbishment and renovation projects</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Smaller residential and commercial developments</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Infrastructure and civil engineering projects</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Historic building works and conservation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Early-stage concept designs (RIBA Stage 2)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projects where BIM modeling is uneconomical</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #e8f4ff 0%, #d4e9ff 100%); border-left: 4px solid var(--bim-orange);"}
+#### When Manual Beats Automated
+
+> "For projects under £500K or early-stage concepts, creating a BIM model just for quantity extraction is often uneconomical. Traditional measurement by experienced QS delivers accurate results faster and cheaper."
+:::
+:::
+
+::: {style=""}
+### Our Traditional Takeoff Expertise
+
+20 years of hands-on measurement across every building type:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Experienced Quantity Surveyors** - 20+ years professional experience</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **±5-8% accuracy** - consistent measurement standards</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Digital or scale measurement** - PDF or CAD drawings</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **International standards** - NRM, SMM7, POMI, local codes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-15 day turnaround** - faster than local firms</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Complete audit trail** - showing all calculations</p>
+:::
+:::
+
+:::
+
+## Our Traditional Measurement Methods
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Professional Tools for Accurate Measurement
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-pdf" style="color: var(--bim-orange); margin-right: 12px;"></i>PDF On-Screen Takeoff
+
+**For:** Digital PDF drawings with scale/dimensions
+
+**Process:**
+
+- Import PDFs into specialist software (Bluebeam, CostX)
+- Calibrate scale or use embedded dimensions
+- Digitally measure lengths, areas, and counts
+- Automatic calculation of quantities
+- Color-coded markup for verification
+- Export to Excel Bill of Quantities
+
+**Accuracy:** ±5-7% | **Fastest Method**
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-bounding-box" style="color: var(--bim-orange); margin-right: 12px;"></i>CAD/DWG Measurement
+
+**For:** AutoCAD, ArchiCAD, Vectorworks files
+
+**Process:**
+
+- Open native CAD files
+- Use CAD query tools for precise dimensions
+- Extract object properties and counts
+- Create detailed measurement schedules
+- Layer-by-layer quantity extraction
+- Cross-check with specifications
+
+**Accuracy:** ±4-6% | **Most Accurate for 2D**
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Scale Rule Measurement
+
+**For:** Paper drawings or unscaled PDFs
+
+**Process:**
+
+- Verify drawing scale bars
+- Use digital or physical scale rulers
+- Manual measurement and recording
+- Dimensional takeoff sheets
+- Arithmetic verification
+- Conservative allowances for uncertainty
+
+**Accuracy:** ±8-12% | **Lower cost option**
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Specification Analysis
+
+**For:** Incomplete drawings + full specifications
+
+**Process:**
+
+- Cross-reference specifications with drawings
+- Apply standard assumptions (wall/floor types)
+- Calculate based on industry norms
+- Document all assumptions clearly
+- Risk-weighted allowances
+- Client review of assumptions
+
+**Accuracy:** ±10-15% | **For early-stage estimates**
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**We select the appropriate method based on your drawing quality, required accuracy, and budget.**
+:::
+
+:::
+:::
+
+## Our Proven 5-Step Traditional Measurement Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Step 1: Drawing Review & Planning
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Review all drawings for completeness
+- Identify missing information or ambiguities
+- Prepare clarification questions for design team
+- Select appropriate measurement methodology
+- Create measurement task plan
+- Establish timescale for delivery
+
+**What You Receive:** Drawing review report with clarifications needed
+:::
+
+::: {.process-step}
+#### Step 2: Preliminary Measurements
+
+**Duration:** 3-7 days (varies by size)
+
+**What We Do:**
+
+- Measure all elements systematically
+- Work trade-by-trade or element-by-element
+- Record measurements in dimensional sheets
+- Apply standard measurement rules (NRM, SMM7)
+- Note all assumptions made
+- Flag areas requiring clarification
+
+**What You Receive:** Preliminary quantity schedules for review
+:::
+
+::: {.process-step}
+#### Step 3: Calculation & Verification
+
+**Duration:** 2-3 days
+
+**What We Do:**
+
+- Calculate quantities from dimensions
+- Apply waste factors and laps
+- Cross-check totals against gross measurements
+- Verify arithmetic calculations
+- Compare to typical project benchmarks
+- Independent checker review
+
+**What You Receive:** Calculated Bill of Quantities with verification
+:::
+
+::: {.process-step}
+#### Step 4: Documentation & Commentary
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Format BOQ to client requirements
+- Prepare measurement commentary
+- Document all assumptions and exclusions
+- Create marked-up drawings showing what was measured
+- Prepare assumption log
+- Include risk and opportunity register
+
+**What You Receive:** Complete BOQ package with supporting documentation
+:::
+
+::: {.process-step}
+#### Step 5: Client Review & Adjustments
+
+**Duration:** 1-2 days
+
+**What We Do:**
+
+- Present BOQ to client with walkthrough
+- Explain significant assumptions
+- Address client queries and concerns
+- Make agreed adjustments
+- Provide final formatted delivery
+- Offer post-delivery support period
+
+**What You Receive:** Final signed-off Bill of Quantities ready for use
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Total Timeline:** 7-15 working days for typical projects (£500K-£5M value)
+:::
+
+## Drawing Formats We Work With
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Digital Formats (Preferred)
+
+Higher accuracy and faster turnaround:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **PDF** - With embedded scale or dimensions (ideal)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **DWG/DXF** - AutoCAD native files (most accurate)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **DGN** - MicroStation drawings</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Scanned PDFs** - From paper originals (if legible)</p>
+:::
+
+**Best For:** Projects £250K+ where precision matters
+:::
+
+::: {style=""}
+### Physical Formats
+
+We can also work from:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Paper Drawings** - Sent by courier/post</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Reproductions** - Heliographic prints, plotted copies</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Archive Drawings** - Historic plans (we can digitize)</p>
+:::
+
+**Note:** Physical drawings require scanning and have lower accuracy (±10-12%)
+:::
+
+:::
+
+## Measurement Standards We Follow
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Standards
+
+RICS New Rules of Measurement (NRM1, NRM2, NRM3), Standard Method of Measurement (SMM7), CESMM4 (civil works)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-globe-asia-australia" style="color: var(--bim-orange); margin-right: 12px;"></i>Australian Standards
+
+Australian Institute of Quantity Surveyors (AIQS) Practice Manual, AS 4000 contract standards
+:::
+
+::: {.feature-card}
+### <i class="bi bi-flag" style="color: var(--bim-orange); margin-right: 12px;"></i>Polish Standards
+
+KNR 2-02 (roboty budowlane), przedmiar robót, kosztorysowanie inwestorskie (optional)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>International
+
+POMI (Principles of Measurement International), FIDIC measurement principles, local standards as required
+:::
+:::
+
+## What's Included in Your Traditional Takeoff
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standard Deliverables
+
+Every traditional measurement includes:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Detailed Bill of Quantities** (Excel format)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dimensional Worksheets** (showing all calculations)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Marked-Up Drawings** (PDF with measurement areas highlighted)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Measurement Commentary** (explaining methodology)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Assumption Log** (documenting decisions made)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Risk & Opportunity Register** (items needing clarification)</p>
+:::
+:::
+
+::: {style=""}
+### Optional Add-ons
+
+Enhance your takeoff with:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cost Estimation** - Apply rates to quantities</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Elemental Cost Plan** - RIBA/OGC format</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking** - Compare to similar projects</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value Engineering** - Cost reduction opportunities</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Design Review** - Constructability feedback</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tender Documentation** - Prepare for bidding</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **On-site Verification** - Physical measurement visits</p>
+:::
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: How accurate is traditional measurement compared to BIM takeoff?**
+:::
+::: {.faq-answer}
+A: Traditional measurement by experienced QS typically achieves ±5-8% accuracy vs ±3-5% for BIM takeoff. The difference is acceptable for most projects under £5M. For larger, more complex projects where precision is critical, BIM takeoff is recommended. However, traditional measurement remains more cost-effective for smaller jobs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if our drawings are incomplete or at early design stage?**
+:::
+::: {.faq-answer}
+A: We work with concept and sketch designs regularly. We'll make reasonable assumptions based on similar projects, document everything clearly, and provide ranges (e.g., ±15-20%) rather than false precision. We can also highlight information needed to improve accuracy as design develops.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you measure from site photos or survey data?**
+:::
+::: {.faq-answer}
+A: For renovation/refurbishment projects, yes! We can prepare BOQs from measured surveys, photographic surveys, or site visit notes. This is common for projects where as-built drawings don't exist. Accuracy depends on survey quality but typically achieves ±10-12%, which is acceptable for renovation budgeting.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you only measure buildings, or also civil works?**
+:::
+::: {.faq-answer}
+A: We measure both! Our team includes specialists in roads, drainage, earthworks, retaining structures, and utilities. We follow CESMM4 for civil engineering projects. Common projects include road construction, car parks, external works packages, and infrastructure projects.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your minimum project size for traditional measurement?**
+:::
+::: {.faq-answer}
+A: We work on projects from £50K upwards. For very small projects (£50K-150K), we offer streamlined takeoffs with ±10-15% accuracy at reduced rates. For projects £150K+, we provide full detailed measurement with ±5-8% accuracy. No job is too small if you need professional measurement.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you measure specific trades or packages only?**
+:::
+::: {.faq-answer}
+A: Absolutely! Many clients need measurement for one trade only - perhaps structural steelwork, facades, MEP, or groundworks. We provide specialist trade measurement services. Common requests include steelwork (weight calculations from sections), blockwork (net area calculations), and MEP (linear meter of pipework/cables).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What format should we send drawings in?**
+:::
+::: {.faq-answer}
+A: PDF with embedded scale is ideal. Second choice is native CAD files (DWG, DGN). We can work with scanned PDFs or photographs of paper drawings if necessary, though this reduces accuracy. Send drawings via email (<50MB), file sharing (Dropbox, WeTransfer), or physical post for large format originals.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you provide remeasurement after design changes?**
+:::
+::: {.faq-answer}
+A: Yes, and at discounted rates! If we've already measured your project, remeasurement for design changes is typically 40-60% of original cost (depending on extent of changes). We maintain your original measurement files making updates efficient. Clients often engage us for multiple design iterations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens if your measurements are disputed later?**
+:::
+::: {.faq-answer}
+A: We provide complete audit trail - dimensional sheets showing every calculation. Disputes are rare because methodology is transparent. If quantities are questioned during tender or construction, we provide technical support at no charge for the first 2 hours. Professional indemnity insurance covers any errors (though claims are extremely rare given our QA processes).
+:::
+:::
+:::
+
+## Ready for Professional Traditional Measurement?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">BIM Not Available? No Problem.</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Let experienced Quantity Surveyors deliver the accuracy you need from 2D drawings.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Submit Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Email or upload drawings for review</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Samples</h3>
+<p style="color: var(--bim-white); margin: 0;">See examples of our BOQs</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Receive Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Fixed price within 24 hours</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Submit Drawings](../contact.qmd){.cta-primary}
+[View Samples](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../contact.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5-8% Measurement Accuracy</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Experienced Professional Surveyors</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>5-15 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

@@ -41,21 +41,21 @@ website:
           - text: "Fast-Track Cost Control"
             href: services/fast-track-cost-control.qmd
           - text: "BREEAM/ESG Cost Modeling"
-            href: coming-soon.qmd
+            href: services/breeam-esg-cost-modeling.qmd
           - text: "MEP Infrastructure Precision"
-            href: coming-soon.qmd
+            href: services/mep-infrastructure-precision.qmd
           - text: "Multi-Scenario Analysis"
-            href: coming-soon.qmd
+            href: services/multi-scenario-analysis.qmd
           - text: "Comprehensive Reporting"
-            href: coming-soon.qmd
+            href: services/comprehensive-reporting.qmd
           - text: "Bid Writing & Bid Management"
-            href: coming-soon.qmd
+            href: services/bid-writing-management.qmd
           - text: "Traditional Quantity Takeoff"
-            href: coming-soon.qmd
+            href: services/traditional-quantity-takeoff.qmd
           - text: "Construction Data Management"
-            href: coming-soon.qmd
+            href: services/construction-data-management.qmd
           - text: "Construction Logistics"
-            href: coming-soon.qmd
+            href: services/construction-logistics.qmd
       - text: "Industries"
         menu:
           - text: "Warehouses & Logistics"

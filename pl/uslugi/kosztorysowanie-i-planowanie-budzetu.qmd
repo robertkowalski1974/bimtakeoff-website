@@ -31,8 +31,8 @@ Dokładność ±5%.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Darmową Konsultację](../../coming-soon.qmd){.cta-primary}
-[Sprawdź Ofertę](../../coming-soon.qmd){.cta-secondary}
+[Umów Darmową Konsultację](../kontakt.qmd){.cta-primary}
+[Sprawdź Ofertę](../coming-soon.qmd){.cta-secondary}
 :::
 :::
 :::
@@ -315,9 +315,9 @@ O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Prz
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Darmową Konsultację](../coming-soon.qmd){.cta-primary}
+[Zaplanuj Darmową Konsultację](../kontakt.qmd){.cta-primary}
 [Pobierz Przewodnik BIM](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}

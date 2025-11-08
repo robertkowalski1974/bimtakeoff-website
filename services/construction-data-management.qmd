@@ -1,0 +1,535 @@
+---
+title: "Construction Data Management | ISO 19650 | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Construction Data Management & ISO 19650 Compliance
+### Transform Information Chaos Into Strategic Asset
+:::
+
+::: {.hero-subtitle}
+ISO 19650 compliant information management.  
+From tender through handover and beyond.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 Compliance</strong> - UK BIM Framework adherence</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Setup & Management</strong> - Structured data environments</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Full lifecycle information management</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Request Consultation](../contact.qmd){.cta-primary}
+[View CDE Solutions](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Why Data Management Matters More Than Ever
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### The Cost of Information Failure
+
+Poor data management creates expensive problems:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 5-15% project time wasted finding information</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rework from using wrong document versions</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Compliance failures (Building Safety Act, Golden Thread)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Incomplete handover information</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> O&M manuals missing critical data</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Legal exposure from poor records</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Regulatory Imperative
+
+> "The Building Safety Act 2022 and Golden Thread requirements make structured information management a legal necessity for high-risk buildings. Poor data management is no longer just inefficient - it's illegal."
+:::
+:::
+
+::: {style=""}
+### Our Information Management Solution
+
+ISO 19650 compliant, lifecycle-focused data management:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650 compliance** - UK BIM Framework adherence</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Structured CDE** - Everyone finds information instantly</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Version control** - No more wrong-drawing mistakes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Golden Thread ready** - Building Safety Act compliance</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Digital handover** - Complete, structured O&M data</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Audit trail** - Full lifecycle documentation</p>
+:::
+:::
+
+:::
+
+## Our Comprehensive Data Management Services
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### End-to-End Information Management
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>BIM Strategy & EIR
+
+**Information Requirements**
+
+- Employer's Information Requirements (EIR)
+- BIM Execution Plan (BEP) preparation
+- Information delivery schedules
+- Level of Information Need definitions
+- Data drop specifications
+- Task Team mobilization plans
+
+**Deliverable:** ISO 19650-compliant documentation suite
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>CDE Implementation
+
+**Common Data Environment**
+
+- Platform selection (BIM 360, Asite, 4Projects)
+- Folder structure and naming conventions
+- Workflow configuration
+- Permission and access control
+- Integration with existing systems
+- User training and onboarding
+
+**Deliverable:** Fully operational CDE with trained users
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Coordination
+
+**Information Management**
+
+- Model coordination (clash detection)
+- Drawing register maintenance
+- Version control management
+- Design development tracking
+- RFI and query management
+- Change order documentation
+
+**Deliverable:** Coordinated, clash-free information
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Quality Assurance
+
+**Information Validation**
+
+- Model quality checks (LOD verification)
+- Data completeness validation
+- Naming convention compliance
+- Metadata verification
+- Clash detection and resolution
+- Information container reviews
+
+**Deliverable:** Quality-assured information containers
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Digital Handover
+
+**Asset Information Model**
+
+- As-built model validation
+- O&M manual compilation
+- Asset register creation
+- COBie data delivery
+- CAFM system population
+- Warranty and certification collection
+
+**Deliverable:** Complete digital Asset Information Model (AIM)
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread
+
+**Building Safety Act Compliance**
+
+- HRB (High-Risk Building) information
+- Safety case documentation
+- Change control procedures
+- Resident engagement information
+- Building control submission documentation
+- Gateway submission support
+
+**Deliverable:** Compliant Golden Thread of information
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Scalable services: Select individual elements or comprehensive lifecycle information management.**
+:::
+
+:::
+:::
+
+## Our Proven 6-Step Data Management Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Step 1: Information Requirements Definition
+
+**Duration:** 1-2 weeks
+
+**What We Do:**
+
+- Review project scope and client objectives
+- Define Employer's Information Requirements (EIR)
+- Establish Level of Information Need
+- Create information delivery schedule
+- Define data drop requirements
+- Prepare appointment documents
+
+**What You Receive:** Comprehensive EIR and information protocols
+:::
+
+::: {.process-step}
+#### Step 2: BIM Execution Planning
+
+**Duration:** 2-3 weeks
+
+**What We Do:**
+
+- Mobilize Task Team responses to EIR
+- Develop pre-appointment BEP
+- Coordinate Task Information Delivery Plans (TIDP)
+- Establish information production methods
+- Define quality assurance procedures
+- Finalize post-appointment BEP
+
+**What You Receive:** Agreed BIM Execution Plan (BEP)
+:::
+
+::: {.process-step}
+#### Step 3: CDE Setup & Configuration
+
+**Duration:** 2-4 weeks
+
+**What We Do:**
+
+- Select and procure CDE platform
+- Configure folder structures and workflows
+- Implement naming conventions
+- Set up access permissions and security
+- Integrate with project systems
+- Conduct user training sessions
+
+**What You Receive:** Operational Common Data Environment
+:::
+
+::: {.process-step}
+#### Step 4: Ongoing Information Management
+
+**Duration:** Throughout project lifecycle
+
+**What We Do:**
+
+- Maintain document registers and logs
+- Coordinate information exchanges
+- Conduct quality checks on submissions
+- Manage model coordination and clash detection
+- Support data drop preparations
+- Facilitate information reviews
+
+**What You Receive:** Continuous information management support
+:::
+
+::: {.process-step}
+#### Step 5: Digital Handover Preparation
+
+**Duration:** 6-12 weeks before practical completion
+
+**What We Do:**
+
+- Compile as-built information
+- Validate model accuracy (vs as-built)
+- Prepare O&M manuals and documentation
+- Create asset registers and COBie data
+- Collect warranties and certificates
+- Prepare Asset Information Model (AIM)
+
+**What You Receive:** Complete digital handover package
+:::
+
+::: {.process-step}
+#### Step 6: Post-Occupancy Support
+
+**Duration:** Ongoing (optional)
+
+**What We Do:**
+
+- Transition AIM to facilities management
+- Provide CAFM system support
+- Update information for changes
+- Maintain Golden Thread documentation
+- Support building safety compliance
+- Enable asset lifecycle management
+
+**What You Receive:** Sustained information value through operations
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Project Lifecycle:** Tender → Design → Construction → Handover → Operations
+:::
+
+## ISO 19650 & UK BIM Framework Compliance
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standards We Implement
+
+Full compliance with UK and international standards:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-1** - Concepts and principles</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-2** - Delivery phase</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-3** - Operational phase</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-5** - Security-minded approach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BS EN 17412-1** - Level of Information Need</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **UK BIM Framework** - v3 guidance</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Building Safety Act 2022** - Golden Thread</p>
+:::
+:::
+
+::: {style=""}
+### Data Exchange Formats
+
+We work with all major industry formats:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **IFC** - Open BIM standard (IFC2x3, IFC4)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BCF** - BIM Collaboration Format (issue tracking)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **COBie** - Construction Operations Building information exchange</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Native Formats** - Revit, ArchiCAD, Tekla, Navisworks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **PDF/A** - Long-term archival formats</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Excel/CSV** - Data schedules and registers</p>
+:::
+:::
+
+:::
+
+## CDE Platforms We Support
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Autodesk Platforms
+
+BIM 360, Autodesk Construction Cloud (ACC), Collaboration for Revit
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Market Leaders
+
+Asite, 4Projects, Viewpoint, Causeway, BIW Technologies
+:::
+
+::: {.feature-card}
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Solutions
+
+Trimble Connect, Bentley ProjectWise, Oracle Aconex, Procore
+:::
+
+::: {.feature-card}
+### <i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Open-Source Options
+
+SharePoint with custom workflows, Alfresco, self-hosted solutions
+:::
+:::
+
+## What's Included in Our Data Management Services
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Core Deliverables
+
+Every data management engagement includes:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Information Requirements** (EIR, BEP, TIDP)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **CDE Configuration** (structure, workflows, permissions)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Naming Conventions** (BS 1192, Uniclass 2015)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Quality Assurance** (model checks, data validation)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **User Training** (team onboarding and support)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Documentation** (procedures, standards, templates)</p>
+:::
+:::
+
+::: {style=""}
+### Optional Enhancements
+
+Extend your information management:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dedicated Information Manager** - Full-time resource</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Model Coordination Services** - Weekly clash detection</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Golden Thread Compliance** - Building Safety Act support</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **CAFM Integration** - Link to FM systems (Maximo, Archibus)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Data Migration** - Legacy system transfers</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Audit Services** - ISO 19650 compliance audits</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Post-Occupancy Support** - Ongoing FM data management</p>
+:::
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do we really need ISO 19650 compliance for our project?**
+:::
+::: {.faq-answer}
+A: For UK public sector projects, yes - it's mandatory. For private projects, it's highly recommended and increasingly expected by clients. Benefits include: reduced information risk, better handover quality, legal protection, and improved project outcomes. For high-risk buildings (HRBs), compliance is legally required under the Building Safety Act 2022.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's the difference between a CDE and just using SharePoint or Dropbox?**
+:::
+::: {.faq-answer}
+A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customization. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: When should we start information management on a project?**
+:::
+::: {.faq-answer}
+A: Ideally at tender stage or project inception. Early engagement allows us to shape the EIR, establish proper foundations, and train teams before problems arise. Mid-project rescue is possible but more challenging and expensive. Golden rule: start information management before design teams start producing information.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help with Building Safety Act compliance and Golden Thread?**
+:::
+::: {.faq-answer}
+A: Yes! We specialize in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support. We've worked on multiple Gateway 2 and Gateway 3 submissions.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if our design team already has a CDE? Do we still need your help?**
+:::
+::: {.faq-answer}
+A: We can still add value through: EIR development, information coordination across Task Teams, quality assurance, model federation, clash detection, handover preparation, and ensuring ISO 19650 compliance. Many projects have multiple CDEs (designer, contractor, client) requiring coordination - we manage these interfaces.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How much does information management cost?**
+:::
+::: {.faq-answer}
+A: Depends on project size and service scope. Setup (EIR, BEP, CDE config) for a £10M project: £15K-25K. Part-time Information Manager support: £3K-5K/month. Full-time dedicated resource: £6K-10K/month. Golden Thread services: £20K-50K depending on building complexity. Investment typically saves 2-5x through reduced rework and better project outcomes.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you take over information management mid-project if things aren't working?**
+:::
+::: {.faq-answer}
+A: Yes, we do project rescues regularly. We'll assess current situation, identify gaps, implement remedial actions, establish proper processes, and bring project back to compliant state. Most mid-project issues stem from poor initial setup or inadequate resources. Timeline for rescue: 4-8 weeks depending on mess level.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens to the data after project handover?**
+:::
+::: {.faq-answer}
+A: We prepare complete Asset Information Model (AIM) containing all as-built information, O&M manuals, warranties, and asset data. This transitions to the client's facilities management system (CAFM) or is maintained in a dedicated operational CDE. We can provide ongoing support for FM data updates, ensuring the Golden Thread continues through building operations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you provide training for our internal team?**
+:::
+::: {.faq-answer}
+A: Yes! Training is essential for successful adoption. We provide: CDE user training (basic and advanced), Information Manager workshops, ISO 19650 awareness sessions, BEP development training, and custom sessions for specific roles (designers, contractors, FM teams). Training can be on-site or virtual, with materials and ongoing support included.
+:::
+:::
+:::
+
+## Ready for Professional Information Management?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Transform Data Chaos Into Strategic Advantage</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">ISO 19650 compliant information management from experts who understand construction.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Request Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your information needs</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See CDE Examples</h3>
+<p style="color: var(--bim-white); margin: 0;">Review implementation case studies</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Scoped proposal within 3 days</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Request Consultation](../contact.qmd){.cta-primary}
+[View Examples](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../contact.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Certified Specialists</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Compliant</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>CDE Platform Agnostic</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

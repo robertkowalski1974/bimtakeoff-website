@@ -550,7 +550,7 @@ O: Przynosimy 20 lat międzynarodowego doświadczenia z rynków, gdzie BIM 5D je
 
 Zapraszamy na bezpłatną 30-minutową konsultację lub do rozpoczęcia od projektu pilotażowego z 50% rabatem
 
-[Umów Konsultację](coming-soon.qmd){.cta-primary}
+[Umów Konsultację](kontakt.qmd){.cta-primary}
 [Sprawdź Potencjalne Oszczędności](coming-soon.qmd){.cta-secondary}
 
 **Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)

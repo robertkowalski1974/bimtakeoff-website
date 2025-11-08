@@ -1,0 +1,528 @@
+---
+title: "Logistyka Budowlana i Planowanie Placu | Symulacja 4D | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Logistyka Budowlana i Koordynacja Placu
+### Optymalizuj Operacje Budowy Przed Rozpoczęciem Prac
+:::
+
+::: {.hero-subtitle}
+Planowanie 4D i wizualna symulacja logistyki.  
+Eliminuj konflikty zanim będą kosztować czas i pieniądze.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Logistyki Placu</strong> - Wizualizacja 2D/3D/4D</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Żurawi</strong> - Analiza zasięgu i wykrywanie kolizji</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Sekwencji</strong> - Maksymalna wydajność, minimalne opóźnienia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Planowanie](../../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady 4D](../../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Dlaczego Logistyka Placu Budowy Oddziela Zwycięzców od Przegranych
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Reaktywne Zarządzanie Placem
+
+Większość placów budów planuje logistykę "w biegu":
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty żurawi wykryte w trakcie podnoszenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dostawy materiałów blokują dostęp do placu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niewystarczające miejsce składowania powoduje opóźnienia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty w kolejności prac różnych brygad</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wielokrotne projektowanie tymczasowych zabezpieczeń</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki dla klienta dotyczące wpływu budowy</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Mnożnik Kosztów Logistyki
+
+> "W przypadku projektu miejskiego o wartości 80 mln PLN, słaba logistyka dodaje 8-15% do czasu realizacji. Każdy stracony tydzień kosztuje 120-320 tys. PLN kosztów pośrednich. Właściwe planowanie zwraca się wielokrotnie poprzez uniknięte opóźnienia i zoptymalizowane operacje."
+:::
+:::
+
+::: {style=""}
+### Nasze Proaktywne Rozwiązanie Logistyczne
+
+Wirtualne planowanie budowy przed mobilizacją:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konflikty żurawi** rozwiązane w 3D przed wynajmem</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogramy dostaw** skoordynowane z dostępnością miejsca</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zoptymalizowane układy** maksymalizują wydajność</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Symulacja 4D** wizualizuje konflikty sekwencji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Jednolity projekt zabezpieczeń** używany przez cały czas</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wizualizacja dla klienta** buduje zaufanie i redukuje niespodzianki</p>
+:::
+:::
+
+:::
+
+## Nasze Kompleksowe Usługi Logistyczne
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Wirtualne Planowanie Budowy
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-map" style="color: var(--bim-orange); margin-right: 12px;"></i>Plany Logistyki Placu
+
+**Układy 2D/3D**
+
+- Lokalizacja zabezpieczeń tymczasowych
+- Zaplecze socjalne i biura budowy
+- Magazyny i miejsca składowania materiałów
+- Lokalizacja sprzętu i maszyn
+- Trasy pieszych i pojazdów
+- Ogrodzenia i punkty dostępu
+
+**Rezultaty:** Rysunki CAD i modele 3D
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Żurawi i Dźwigów
+
+**Analiza Zasięgu**
+
+- Wybór typu żurawia i jego pozycjonowanie
+- Mapowanie stref podnoszenia
+- Kontrola zasięgu i przestrzeni powietrznej
+- Koordynacja wielu żurawi
+- Pozycjonowanie żurawi mobilnych
+- Wydajność i lokalizacja dźwigów
+
+**Rezultaty:** Diagramy zasięgu i symulacje 3D
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-film" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie 4D
+
+**Symulacja Czasowa**
+
+- Powiązanie modelu 3D z harmonogramem budowy
+- Wizualizacja sekwencji budowy w czasie
+- Identyfikacja konfliktów przestrzennych
+- Optymalizacja ruchu zasobów
+- Generowanie animacji dla interesariuszy
+- Wsparcie warsztatów planistycznych
+
+**Rezultaty:** Animacje 4D i filmy przeglądowe
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Dostawami
+
+**Harmonogramowanie Just-In-Time**
+
+- Harmonogramy dostaw materiałów
+- Planowanie centrów konsolidacji
+- Koordynacja produkcji poza placem
+- Wymagania dostępowe dostawców
+- Logistyka rozładunku i obsługi
+- Zarządzanie zezwoleniami na załadunek
+
+**Rezultaty:** Szczegółowe harmonogramy dostaw
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Zabezpieczenia Tymczasowe
+
+**Koordynacja Projektowania**
+
+- Strategie rusztowań i dostępu
+- Tymczasowe podpory i podpórki
+- Zabezpieczenia i ogrodzenia
+- Drogi budowlane i utwardzenia
+- Energia i media
+- Zaplecze socjalne i zagospodarowanie placu
+
+**Rezultaty:** Harmonogramy i rysunki zabezpieczeń tymczasowych
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Sekwencji
+
+**Analiza Wydajności**
+
+- Sekwencje instalacji branżowych
+- Optymalizacja ścieżki krytycznej
+- Planowanie frontów roboczych
+- Analiza i ochrona rezerw czasowych
+- Możliwości prac równoległych
+- Planowanie realizacji kamieni milowych
+
+**Rezultaty:** Zoptymalizowany harmonogram budowy
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Zintegrowane podejście: Wszystkie usługi logistyczne działają razem dla kompleksowego planowania placu.**
+:::
+
+:::
+:::
+
+## Nasz Sprawdzony 5-Etapowy Proces Planowania Logistyki
+
+::: {.process-steps}
+::: {.process-step}
+#### Etap 1: Analiza Placu i Ograniczeń
+
+**Czas trwania:** 3-5 dni
+
+**Co robimy:**
+
+- Wizyta na placu i pomiary (topografia, dostęp, granice)
+- Przegląd ograniczeń placu (sąsiedzi, drogi, media)
+- Identyfikacja wymogów pozwoleń i zatwierdzeń
+- Ocena istniejących konstrukcji i przeszkód
+- Zrozumienie ograniczeń operacyjnych klienta
+- Przegląd harmonogramu i kluczowych kamieni milowych
+
+**Co otrzymujesz:** Raport ograniczeń placu z możliwościami/ryzykami
+:::
+
+::: {.process-step}
+#### Etap 2: Koncepcyjne Planowanie Logistyki
+
+**Czas trwania:** 5-10 dni
+
+**Co robimy:**
+
+- Opracowanie opcji układu placu (2-3 alternatywy)
+- Wstępne pozycjonowanie żurawi/dźwigów
+- Identyfikacja wymogów zabezpieczeń tymczasowych
+- Planowanie głównych dostaw i tras dostępu
+- Ocena potrzeb socjalnych i zaplecza
+- Prezentacja opcji z zaletami/wadami
+
+**Co otrzymujesz:** Koncepcyjne plany logistyki do przeglądu
+:::
+
+::: {.process-step}
+#### Etap 3: Szczegółowe Projektowanie i Modelowanie 3D
+
+**Czas trwania:** 10-15 dni
+
+**Co robimy:**
+
+- Rozwinięcie wybranej opcji w szczegółowy projekt
+- Utworzenie modelu 3D placu z zabezpieczeniami tymczasowymi
+- Wykonanie analizy zasięgu żurawia i przestrzeni powietrznej
+- Projektowanie tras dostaw i łuków skrętu
+- Koordynacja z podwykonawcami i dostawcami
+- Sprawdzenie zgodności z przepisami
+
+**Co otrzymujesz:** Szczegółowe plany logistyki 2D/3D
+:::
+
+::: {.process-step}
+#### Etap 4: Symulacja 4D i Optymalizacja
+
+**Czas trwania:** 5-10 dni
+
+**Co robimy:**
+
+- Powiązanie modelu placu z harmonogramem budowy
+- Utworzenie symulacji sekwencji budowy 4D
+- Identyfikacja konfliktów przestrzennych i czasowych
+- Optymalizacja fazowania i frontów roboczych
+- Generowanie animacji do komunikacji z interesariuszami
+- Udoskonalenie harmonogramu na podstawie analiz 4D
+
+**Co otrzymujesz:** Animacje 4D i zoptymalizowany harmonogram
+:::
+
+::: {.process-step}
+#### Etap 5: Wsparcie Wdrożenia
+
+**Czas trwania:** Ciągłe (w razie potrzeby)
+
+**Co robimy:**
+
+- Przygotowanie rysunków konfiguracji placu dla wykonawcy
+- Wsparcie spotkań planistycznych przed budową
+- Pomoc w zgłoszeniach zabezpieczeń tymczasowych
+- Aktualizacja planów dla zmian projektowych lub harmonogramowych
+- Wsparcie na placu podczas mobilizacji
+- Miesięczne przeglądy i optymalizacja logistyki
+
+**Co otrzymujesz:** Ciągłe wsparcie planistyczne
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Całkowity Czas Planowania:** 20-40 dni roboczych | **Wsparcie Wdrożenia:** Przez cały okres budowy
+:::
+
+## Typy Projektów, Które Planujemy
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Wysokościowe
+
+Żurawie wieżowe, wielokrotne dźwigi, logistyka pionowa, małe powierzchnie, ograniczenia miejskie
+:::
+
+::: {.feature-card}
+### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Złożone Remonty
+
+Budynki użytkowane, dostęp etapowy, zabezpieczenia, koordynacja z użytkownikami, ograniczona przestrzeń
+:::
+
+::: {.feature-card}
+### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Prace Ziemne Na Dużą Skalę
+
+Sekwencjonowanie robót ziemnych, drogi transportowe, wywóz ziemi, wiertnice palowe, odwodnienie
+:::
+
+::: {.feature-card}
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Operacyjne
+
+Szpitale, centra danych, lotniska - praca wokół czynnych operacji
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne
+
+Drogi, mosty, media - interfejs publiczny, zarządzanie ruchem, fazowanie
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building-add" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Modułowe
+
+Logistyka fabryczna, planowanie transportu, dostawa just-in-time, sekwencjonowanie montażu
+:::
+:::
+
+## Oprogramowanie i Technologie, Których Używamy
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Narzędzia Planistyczne i Symulacyjne
+
+Profesjonalne oprogramowanie do planowania logistyki:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Navisworks** - Symulacja 4D i wykrywanie kolizji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Synchro PRO** - Zaawansowane planowanie 4D/5D budowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Primavera P6** - Harmonogramowanie budowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **AutoCAD/Revit** - Modelowanie placu 2D/3D</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **SketchUp** - Szybka wizualizacja 3D</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **GEOPAK** - Inżynieria lądowa i roboty ziemne</p>
+:::
+:::
+
+::: {style=""}
+### Wyspecjalizowane Analizy
+
+Narzędzia specyficzne dla żurawi i logistyki:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cranimax** - Oprogramowanie do planowania żurawi wieżowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3D Lift Plan** - Planowanie żurawi mobilnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **AutoTURN** - Analiza łuków skrętu pojazdów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Narzędzia producentów** - Konfiguracja żurawi Liebherr, Potain</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **GPS/Geodezja** - Topografia placu i stan faktyczny</p>
+:::
+:::
+
+:::
+
+## Co Jest Zawarte w Naszym Planowaniu Logistyki
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standardowe Rezultaty
+
+Każde zlecenie planowania logistyki obejmuje:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Placu 2D** (format AutoCAD)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modele Placu 3D** (Revit lub SketchUp)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Zasięgu Żurawia** (strefy podnoszenia i promienie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Fazowania** (pokazują ewolucję w czasie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogramy Logistyki** (dostawy, zabezpieczenia tymczasowe)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja Wspierająca** (raporty i analizy)</p>
+:::
+:::
+
+::: {style=""}
+### Opcjonalne Rozszerzenia
+
+Wzmocnij swoje planowanie logistyki:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Animacje 4D** - Symulacja budowy w czasie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Spacery VR** - Immersyjna wizualizacja placu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Zarządzania Ruchem** - Zatwierdzenia drogowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ocena Oddziaływania Środowiskowego** - Modelowanie hałasu, pyłu, wibracji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wsparcie Na Placu** - Tygodniowa koordynacja logistyki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie Lean Construction** - Integracja z systemem Last Planner</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Miesięczne Aktualizacje** - Replanning dla rzeczywistego postępu</p>
+:::
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Kiedy powinniśmy zlecić planowanie logistyki w projekcie?**
+:::
+::: {.faq-answer}
+O: Idealnie na etapie RIBA 3 (Koordynacja Przestrzenna) lub wcześniej dla złożonych placów. Pozwala to, aby ograniczenia logistyczne wpływały na decyzje projektowe. Najpóźniej: 8-12 tygodni przed mobilizacją na placu. Projekty miejskie z pozwoleniami na żurawie wymagają wcześniejszego zaangażowania (16-20 tygodni przed startem) dla zatwierdzeń administracyjnych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie pomóc nam wygrać przetargi poprzez lepsze rozwiązania logistyczne niż konkurencja?**
+:::
+::: {.faq-answer}
+O: Absolutnie! Wysokiej jakości planowanie logistyki w ofertach przetargowych демонструuje компетencję i zmniejsza ryzyko projektu dla klientów. Pomogliśmy wykonawcom wygrać wiele projektów prezentując lepsze planowanie placu, strategie fazowania i animacje 4D, których konkurencja nie mogła dorównać. Typowa inwestycja: 32-60 tys. PLN, często marża między wygraną a przegraną kontraktów o wartości 40M+ PLN.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy zajmujecie się projektowaniem zabezpieczeń tymczasowych czy tylko koordynacją?**
+:::
+::: {.faq-answer}
+O: Koordynujemy wymagania zabezpieczeń tymczasowych i przygotowujemy harmonogramy, ale szczegółowe projektowanie konstrukcyjne (rusztowania, deskowanie, podpórki) musi być wykonane przez certyfikowane firmy projektowe. Pracujemy blisko z TWC (Koordynator Zabezpieczeń Tymczasowych) i TWS (Nadzorca Zabezpieczeń Tymczasowych) dla zapewnienia zintegrowanego planowania. W razie potrzeby możemy polecić specjalistyczne firmy projektowe.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie zoptymalizować nasz istniejący układ placu dla poprawy wydajności?**
+:::
+::: {.faq-answer}
+O: Tak! Optymalizacja w trakcie projektu jest powszechna. Analizujemy obecne układy, identyfikujemy wąskie gardła i nieefektywności, oraz proponujemy ulepszenia. Typowe oszczędności: 10-20% poprawy wydajności poprzez lepsze rozmieszczenie materiałów, zoptymalizowane trasy i zmniejszone podwójne przeładunki. Najbardziej korzystne przy wdrożeniu w naturalnych punktach przerwowych (np. wykończenie struktury, przejścia faz).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli nie mamy jeszcze modelu BIM?**
+:::
+::: {.faq-answer}
+O: Możemy pracować z rysunków 2D tworząc modele 3D placu do planowania logistyki. Dla projektów we wczesnej fazie, nawet szkice projektowe wystarczają do koncepcyjnej logistyki. Im wcześniej jesteśmy zaangażowani, tym większą wartość dodajemy - ale możemy dostarczyć użyteczne planowanie na każdym etapie, nawet z ograniczonymi informacjami projektowymi.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak dokładne są wasze analizy zasięgu żurawia?**
+:::
+::: {.faq-answer}
+O: Bardzo dokładne przy bazowaniu na specyfikacjach producenta. Używamy rzeczywistych danych żurawi od Liebherr, Potain, Wolff, itp. Analiza obejmuje obniżenie charakterystyk dla prędkości wiatru, wykresy obciążeń i konfiguracje wysięgników. Identyfikujemy 100% luk zasięgu i konfliktów przestrzeni powietrznej w 3D przed wyborem żurawia. Typowy rezultat: optymalne pozycjonowanie żurawia oszczędzające 200-800 tys. PLN vs "zgadnięte" umieszczenie.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie tworzyć animacje 4D do prezentacji dla klientów?**
+:::
+::: {.faq-answer}
+O: Tak! Animacje 4D są doskonałymi narzędziami komunikacji z interesariuszami. Tworzymy profesjonalne animacje pokazujące sekwencje budowy, fazowanie i operacje logistyczne w czasie. Są nieocenione dla: zaufania klienta, zatwierdzeń planistycznych, zaangażowania sąsiadów i wewnętrznej koordynacji zespołu. Typowy koszt: 20-60 tys. PLN za 2-5 minutową profesjonalną animację w zależności od złożoności.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy zapewniacie wsparcie na placu podczas budowy?**
+:::
+::: {.faq-answer}
+O: Tak, oferujemy tygodniowe lub miesięczne wizyty na placu dla wsparcia koordynacji logistyki. Usługi obejmują: przegląd rzeczywistych vs planowanych układów, aktualizację planów dla zmian projektowych, optymalizację fazowania według postępu, koordynację głównych podniesień i dostaw, oraz uczestnictwo w spotkaniach planistycznych. Typowy koszt: 6-12 tys. PLN za wizytę lub abonament miesięczny 16-32 tys. PLN.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaki jest typowy ROI planowania logistyki?**
+:::
+::: {.faq-answer}
+O: Klienci zazwyczaj oszczędzają 5-15x kosztu planowania poprzez: uniknięte błędy wynajmu żurawia (200-800 tys. PLN), zoptymalizowany harmonogram (2-6 tygodni oszczędności = 240-720 tys. PLN kosztów pośrednich), zmniejszone przeróbki i uszkodzenia materiałów (80-400 tys. PLN), oraz zapobieżone opóźnienia regulacyjne (bezcenne). W projekcie 80M PLN, inwestycja 100 tys. PLN w planowanie logistyki typowo zwraca 800 tys.-2M PLN w oszczędnościach i mitygacji ryzyka.
+:::
+:::
+:::
+
+## Gotowi Zoptymalizować Operacje Na Placu?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Zostawiaj Sukcesu Placu Przypadkowi</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Profesjonalne planowanie logistyki identyfikuje konflikty zanim staną się opóźnieniami i kosztami.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Planowanie</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów wyzwania swojego placu</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Przykłady 4D</h3>
+<p style="color: var(--bim-white); margin: 0;">Zobacz animacje planistyczne</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Wycena w ciągu 48 godzin</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Planowanie](../../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady](../../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../../kontakt.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Planowania 3D/4D</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Planowania Żurawi</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie Miejskie</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+
+**Godziny pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

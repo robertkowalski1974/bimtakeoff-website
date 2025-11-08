@@ -100,6 +100,38 @@
         './services/fast-track-cost-control.html': '/pl/uslugi/szybka-kontrola-kosztow.html',
         '/services/fast-track-cost-control.html': '/pl/uslugi/szybka-kontrola-kosztow.html',
         
+        '../services/breeam-esg-cost-modeling.html': '/pl/uslugi/kosztorysowanie-breeam-esg.html',
+        './services/breeam-esg-cost-modeling.html': '/pl/uslugi/kosztorysowanie-breeam-esg.html',
+        '/services/breeam-esg-cost-modeling.html': '/pl/uslugi/kosztorysowanie-breeam-esg.html',
+        
+        '../services/mep-infrastructure-precision.html': '/pl/uslugi/precyzyjne-kosztorysowanie-mep.html',
+        './services/mep-infrastructure-precision.html': '/pl/uslugi/precyzyjne-kosztorysowanie-mep.html',
+        '/services/mep-infrastructure-precision.html': '/pl/uslugi/precyzyjne-kosztorysowanie-mep.html',
+        
+        '../services/multi-scenario-analysis.html': '/pl/uslugi/analiza-wieloscenariuszowa.html',
+        './services/multi-scenario-analysis.html': '/pl/uslugi/analiza-wieloscenariuszowa.html',
+        '/services/multi-scenario-analysis.html': '/pl/uslugi/analiza-wieloscenariuszowa.html',
+        
+        '../services/comprehensive-reporting.html': '/pl/uslugi/kompleksowe-raportowanie.html',
+        './services/comprehensive-reporting.html': '/pl/uslugi/kompleksowe-raportowanie.html',
+        '/services/comprehensive-reporting.html': '/pl/uslugi/kompleksowe-raportowanie.html',
+        
+        '../services/bid-writing-management.html': '/pl/uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html',
+        './services/bid-writing-management.html': '/pl/uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html',
+        '/services/bid-writing-management.html': '/pl/uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html',
+        
+        '../services/traditional-quantity-takeoff.html': '/pl/uslugi/tradycyjny-przedmiar-ilosci.html',
+        './services/traditional-quantity-takeoff.html': '/pl/uslugi/tradycyjny-przedmiar-ilosci.html',
+        '/services/traditional-quantity-takeoff.html': '/pl/uslugi/tradycyjny-przedmiar-ilosci.html',
+        
+        '../services/construction-data-management.html': '/pl/uslugi/zarzadzanie-danymi-budowlanymi.html',
+        './services/construction-data-management.html': '/pl/uslugi/zarzadzanie-danymi-budowlanymi.html',
+        '/services/construction-data-management.html': '/pl/uslugi/zarzadzanie-danymi-budowlanymi.html',
+        
+        '../services/construction-logistics.html': '/pl/uslugi/logistyka-budowlana.html',
+        './services/construction-logistics.html': '/pl/uslugi/logistyka-budowlana.html',
+        '/services/construction-logistics.html': '/pl/uslugi/logistyka-budowlana.html',
+        
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',

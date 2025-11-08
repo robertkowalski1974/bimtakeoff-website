@@ -1,0 +1,455 @@
+---
+title: "Analiza Wieloscenariuszowa | Inżynieria Wartości | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Analiza Wieloscenariuszowa i Optymalizacja
+### Podejmuj Pewne Decyzje z Porównaniami Opartymi na Danych
+:::
+
+::: {.hero-subtitle}
+Porównaj 5-10 alternatyw projektowych równolegle.  
+Zidentyfikuj optymalną wartość bez kompromisu w jakości.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Porównania Równoległe</strong> - Oceń wiele opcji jednocześnie</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Matryca Koszt-Wydajność</strong> - Równowaga budżetu z funkcjonalnością</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Oszczędności 10-20%</strong> - Bez poświęcania jakości</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Analizę](../kontakt.qmd){.cta-primary}
+[Zobacz Studia Przypadków](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Dlaczego Projekty Jednowariontowe Kosztują Więcej
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Tradycyjne Podejście Projektowe
+
+Większość projektów eksploruje tylko jedną ścieżkę rozwiązania:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pierwsze rozwiązanie projektanta staje się ostateczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak porównania kosztów i korzyści alternatyw</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Inżynieria wartości dopiero po przekroczeniu budżetu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Późne zmiany są kosztowne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Utracone możliwości optymalizacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Interesariusze pozbawieni danych do podejmowania decyzji</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Koszt Ograniczonych Opcji
+
+> "Projekt za 60 mln PLN bez analizy scenariuszy zwykle przekracza budżet o 15-25% w porównaniu do zoptymalizowanych alternatyw. Najlepsze rozwiązanie rzadko jest pierwszym, które przychodzi na myśl."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Wieloscenariuszowe
+
+Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 scenariuszy** ocenianych równolegle</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kwantyfikowane porównania** kosztów, czasu, wydajności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja we wczesnej fazie** przed projektem szczegółowym</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Decyzje oparte na danych** z jasnymi kompromisami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **10-20% oszczędności** zidentyfikowane proaktywnie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konsensus interesariuszy** poprzez przejrzystą analizę</p>
+:::
+:::
+
+:::
+
+## Nasz Wielowymiarowy System Analizy
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Oceniamy Każdy Scenariusz wg 7 Kluczowych Wskaźników
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-currency-exchange" style="color: var(--bim-orange); margin-right: 8px;"></i>Koszt Inwestycyjny
+
+- Początkowy koszt budowy
+- Zakup materiałów
+- Robocizna i sprzęt
+- Koszty ogólne i rezerwy
+:::
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-clock-history" style="color: var(--bim-orange); margin-right: 8px;"></i>Wpływ na Harmonogram
+
+- Czas trwania budowy
+- Wpływ na ścieżkę krytyczną
+- Efektywność sekwencji prac
+- Wrażliwość na warunki pogodowe
+:::
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Koszty Cyklu Życia
+
+- 30-letnie koszty eksploatacji
+- Wymagania konserwacyjne
+- Zużycie energii
+- Cykle wymian
+:::
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Wydajność Techniczna
+
+- Efektywność konstrukcyjna
+- Efektywność energetyczna
+- Właściwości akustyczne/cieplne
+- Trwałość i odporność
+:::
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 8px;"></i>Ocena Ryzyka
+
+- Złożoność wykonawcza
+- Dostępność materiałów
+- Wymagania kwalifikacyjne
+- Ekspozycja na zmienność rynku
+:::
+
+::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Zrównoważony Rozwój
+
+- Węgiel wbudowany
+- Węgiel operacyjny
+- Wpływ na certyfikację BREEAM
+- Potencjał gospodarki obiegu zamkniętego
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Rezultat:** Kompleksowa matryca decyzyjna pozwalająca interesariuszom wybrać optymalne rozwiązanie w oparciu o ważone priorytety.
+:::
+
+:::
+:::
+
+## Nasz Sprawdzony 5-Etapowy Proces Analizy
+
+::: {.process-steps}
+::: {.process-step}
+#### Etap 1: Warsztat Definiowania Scenariuszy
+
+**Czas trwania:** 4-8 godzin
+
+**Co robimy:**
+
+- Prowadzimy warsztat z zespołem projektowym i interesariuszami
+- Identyfikujemy kluczowe punkty decyzyjne i zmienne
+- Definiujemy 5-10 realistycznych scenariuszy alternatywnych
+- Ustalamy kryteria oceny i wagi
+- Określamy scenariusz bazowy do porównania
+
+**Co otrzymujesz:** Raport definicji scenariuszy z ramami oceny
+:::
+
+::: {.process-step}
+#### Etap 2: Szybkie Modelowanie Kosztów
+
+**Czas trwania:** 3-5 dni
+
+**Co robimy:**
+
+- Wyodrębniamy ilości z modeli BIM lub rysunków
+- Opracowujemy kosztorysy dla każdego scenariusza
+- Uwzględniamy alternatywne materiały i specyfikacje
+- Obliczamy koszty ogólne i rezerwy ryzyka
+- Uwzględniamy warunki rynkowe i drogi zamówień
+
+**Co otrzymujesz:** Szczegółowa matryca porównawcza kosztów dla wszystkich scenariuszy
+:::
+
+::: {.process-step}
+#### Etap 3: Analiza Cyklu Życia i Wydajności
+
+**Czas trwania:** 2-4 dni
+
+**Co robimy:**
+
+- Modelowanie kosztów cyklu życia na 30 lat
+- Symulacja efektywności energetycznej
+- Obliczanie śladu węglowego
+- Prognozowanie kosztów konserwacji
+- Ocena wartości przez cały cykl życia
+
+**Co otrzymujesz:** Kompleksowy raport analizy cyklu życia
+:::
+
+::: {.process-step}
+#### Etap 4: Ocena Ryzyka i Wpływu na Harmonogram
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Analiza sekwencji budowy
+- Ocena ryzyka łańcucha dostaw
+- Ocena dostępności siły roboczej
+- Wpływ pogody i sezonowości
+- Wrażliwość na zmienność rynku
+
+**Co otrzymujesz:** Skorygowane o ryzyko zakresy harmonogramu i kosztów
+:::
+
+::: {.process-step}
+#### Etap 5: Matryca Decyzyjna i Rekomendacje
+
+**Czas trwania:** 2-3 dni
+
+**Co robimy:**
+
+- Kompilujemy wszystkie dane w wizualną matrycę decyzyjną
+- Stosujemy wagi interesariuszy do kryteriów
+- Identyfikujemy rozwiązania optymalne Pareto
+- Przedstawiamy jasne rekomendacje z uzasadnieniem
+- Przygotowujemy prezentację dla decydentów
+
+**Co otrzymujesz:** Streszczenie wykonawcze, szczegółowy raport i materiały prezentacyjne
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Całkowity czas:** 10-20 dni roboczych od rozpoczęcia do ostatecznych rekomendacji
+:::
+
+## Typowe Scenariusze, Które Analizujemy
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Systemy Konstrukcyjne
+
+- Rama żelbetowa vs stalowa vs sprężona
+- Prefabrykaty vs beton monolityczny
+- Kompozytowe vs tradycyjne rozwiązania stalowe
+- Alternatywy fundamentowe (pale, płyty, fundamenty)
+- Systemy stropów (płyta płaska, żeberowe, sprężone)
+
+### Elewacje
+
+- Opcje systemu elewacji (ściana osłonowa, okładzina, tynk)
+- Specyfikacje przeszkleń (U-value, kontrola solarna)
+- Strategie izolacji (wewnętrzna, zewnętrzna, warstwowa)
+- Alternatywy konstrukcji dachu
+- Strategie szczelności powietrznej
+:::
+
+::: {style=""}
+### Instalacje MEP
+
+- Opcje HVAC (VRF, centrala, agregaty fancoil)
+- Źródła energii (gaz, elektryczność, pompy ciepła, OZE)
+- Strategie oświetlenia (specyfikacje LED, sterowanie)
+- Poziomy złożoności BMS
+- Integracja odnawialnych źródeł energii
+
+### Wykończenia i Materiały
+
+- Wykończenia podłóg (polerowany beton, płytki, wykładzina)
+- Wykończenia ścian (płyty g-k, tynk, systemy malarskie)
+- Systemy sufitowe (podwieszane, odsłonięte, akustyczne)
+- Specyfikacje drzwi i okien
+- Opcje zagospodarowania terenu zewnętrznego
+:::
+
+:::
+
+## Co Zawiera Nasza Analiza
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Podstawowe Elementy
+
+Każda analiza wieloscenariuszowa zawiera:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Matryca Porównawcza Kosztów** (wszystkie scenariusze)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Cyklu Życia** (horyzont 30 lat)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ocena Wpływu na Harmonogram**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Raporty Oceny Ryzyka**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Panel Matrycy Decyzyjnej**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Streszczenie Wykonawcze i Rekomendacje**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Materiały Prezentacyjne** dla interesariuszy</p>
+:::
+:::
+
+::: {style=""}
+### Opcjonalne Rozszerzenia
+
+Wzmocnij swoją analizę dzięki:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie Wpływu Węglowego** - Szczegółowy CO2 wbudowany/operacyjny</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Punktów BREEAM** - Wpływ na certyfikację</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Symulacja Energetyczna** - Szczegółowe modelowanie termiczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Wrażliwości** - Testowanie założeń i zmiennych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja Rynkowa** - Walidacja kosztów z dostawcami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Warsztat Interesariuszy** - Facylitowana sesja decyzyjna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Iteracje Dodatkowe** - Dodatkowe testowanie scenariuszy</p>
+:::
+:::
+
+:::
+
+## Często Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Kiedy w procesie projektowania powinniśmy przeprowadzić analizę wieloscenariuszową?**
+:::
+::: {.faq-answer}
+O: Im wcześniej, tym lepiej! Idealnie podczas fazy koncepcyjnej (RIBA Stage 2), gdy projekt jest jeszcze elastyczny, a zmiany są tanie. Możemy również dostarczyć wartość na etapie koordynacji przestrzennej (RIBA Stage 3), choć opcje stają się bardziej ograniczone. Po etapie 4 analiza jest zazwyczaj ograniczona do inżynierii wartości specyficznych elementów.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Ile scenariuszy powinniśmy ocenić?**
+:::
+::: {.faq-answer}
+O: Zazwyczaj rekomendujemy 5-7 scenariuszy dla większości projektów. Zapewnia to wystarczającą szerokość bez przytłaczania decydentów. Dla złożonych projektów z wieloma zmiennymi możemy ocenić 10-12 scenariuszy. Dla prostych decyzji (np. wybór pojedynczego materiału) 3-4 scenariusze mogą wystarczyć.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli nie mamy modeli BIM dla każdego scenariusza?**
+:::
+::: {.faq-answer}
+O: Możemy pracować ze szkicami koncepcyjnymi, schematami jednoliniowymi lub opisami pisemnymi dla analizy wczesnego etapu. Dla analizy o wyższej dokładności zalecamy proste modele BIM dla każdego głównego scenariusza (LOD 200-300 jest wystarczający). Możemy również pomóc w szybkim modelowaniu koncepcyjnym, jeśli to konieczne.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak dokładne są porównania kosztów?**
+:::
+::: {.faq-answer}
+O: Na etapie koncepcyjnym (RIBA 2) oczekuj dokładności ±15-20% - wystarczającej do porównania scenariuszy. Na etapie koordynacji przestrzennej (RIBA 3) osiągamy ±10-15%. Kluczowe jest to, że wszystkie scenariusze używają spójnej metodologii, więc porównania względne pozostają ważne, nawet jeśli koszty bezwzględne mają margines.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie pomóc nam osiągnąć konkretne cele oszczędnościowe?**
+:::
+::: {.faq-answer}
+O: Tak! Jeśli macie cel (np. "zmniejszenie kosztów inwestycyjnych o 15%"), zaprojektujemy scenariusze specjalnie w celu osiągnięcia tego celu, minimalizując jednocześnie wpływ na wydajność. Zidentyfikujemy wiele ścieżek do celu, pozwalając wybrać najlepszy kompromis między kosztem, czasem i jakością.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy uwzględniacie zrównoważony rozwój w swojej analizie?**
+:::
+::: {.faq-answer}
+O: Absolutnie. Każdy scenariusz standardowo zawiera obliczenie węgla wbudowanego i ocenę energii operacyjnej. Możemy również uwzględnić szczegółową analizę punktów BREEAM, potencjał gospodarki obiegu zamkniętego, pochodzenie materiałów i modelowanie węgla w całym cyklu życia, jeśli zrównoważony rozwój jest kluczowym priorytetem.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co się dzieje po wybraniu optymalnego scenariusza?**
+:::
+::: {.faq-answer}
+O: Dostarczamy szczegółową mapę drogową wdrożenia, w tym notatki specyfikacyjne, strategie zakupowe i środki mitygacji ryzyka dla wybranego scenariusza. Wielu klientów następnie zleca nam szczegółowe szacowanie kosztów, dopracowanie inżynierii wartości lub bieżącą kontrolę kosztów w miarę rozwoju projektu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie analizować scenariusze pozabudowlane, takie jak drogi zamówień?**
+:::
+::: {.faq-answer}
+O: Tak! Często analizujemy opcje strategii zamówień (tradycyjne, projekt-budowa, zarządzanie kontraktowe, umowy NEC vs JCT), strategie etapowania, rozwiązania robót tymczasowych i alternatywy logistyczne. Te same ramy wielokryterialne stosują się do każdej znaczącej decyzji projektowej.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak radzicie sobie z czynnikami subiektywnymi, takimi jak estetyka lub preferencje interesariuszy?**
+:::
+::: {.faq-answer}
+O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespół. Możecie przypisać wyższe wagi czynnikom, takim jak jakość projektu, zgodność z marką lub doświadczenie użytkownika. Zapewnia to, że analiza respektuje zarówno metryki obiektywne (koszt, czas), jak i priorytety subiektywne (estetyka, preferencje interesariuszy).
+:::
+:::
+:::
+
+## Gotowi do Optymalizacji Projektu?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Zamykaj Się na Pierwszy Pomysł Projektowy</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Najlepsze rozwiązanie rzadko jest oczywiste na pierwszy rzut oka. Pozwól, aby dane kierowały Twoimi decyzjami.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Analizę</h3>
+<p style="color: var(--bim-white); margin: 0;">Zacznij od bezpłatnej konsultacji</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Studia Przypadków</h3>
+<p style="color: var(--bim-white); margin: 0;">Przejrzyj przykłady optymalizacji</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Szybką Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Otrzymaj ofertę w ciągu 24 godzin</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Analizę](../kontakt.qmd){.cta-primary}
+[Zobacz Studia Przypadków](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>5-10 Scenariuszy Ocenianych Równolegle</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-Wskaźnikowy System Oceny</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>10-20% Zidentyfikowanych Oszczędności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Potrzebujesz Pomocy Teraz?
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+
+**Godziny pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+:::
+
+:::

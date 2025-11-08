@@ -101,7 +101,7 @@ Tradycyjne miesięczne raporty są zbyt wolne. Zapewniamy:
 - Dostęp do panelu w czasie rzeczywistym
 - Natychmiastowe alerty dla progów budżetowych
 
-**Rezultat:** Działaj na problemy tygodnie przed ich wykryciem tradycyjnym raportowaniem.
+**Rezultat:** Reaguj na problemy tygodnie przed ich wykryciem tradycyjnym raportowaniem.
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -118,7 +118,7 @@ Wiedz dokładnie gdzie trafiają Twoje pieniądze:
 - Prognozowanie przepływów pieniężnych
 - Zestawienia według branż
 
-**Rezultat:** Pełna widoczność umożliwia świadome podejmowanie decyzji na każdym etapie.
+**Rezultat:** Pełna transparentność umożliwia świadome podejmowanie decyzji na każdym etapie.
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -571,9 +571,9 @@ Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem bud
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Ocenę](../../pl/kontakt.qmd){.cta-primary}
-[Zobacz Demo](../../pl/coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../../pl/kontakt.qmd){.cta-secondary}
+[Zaplanuj Ocenę](../kontakt.qmd){.cta-primary}
+[Zobacz Demo](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
