@@ -193,70 +193,70 @@ Doświadczenie w systemach suchej zabudowy,  ochrony przeciwpożarowej - pasywne
 ### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automatyczny Przedmiar z Modeli BIM
 Przetwarzanie modeli IFC z Revit, ArchiCAD i Tekla. **90% szybciej** niż tradycyjne przedmiary 2D z aktualizacjami w czasie rzeczywistym przy zmianach projektowych. Dokładność ±5%.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Bieżąca Kontrola Kosztów
 Regularne raporty kosztowe dla inwestycji 4-6 miesięcznych. System wczesnego ostrzegania przed przekroczeniami budżetu z rekomendacjami optymalizacji wartości.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/szybka-kontrola-kosztow.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie BREEAM/ESG
 Kosztorysowanie śladu węglowego zintegrowane ze śledzeniem materiałów zrównoważonych i weryfikacją zgodności certyfikacyjnej. Wsparcie w osiąganiu celów środowiskowych.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/kosztorysowanie-breeam-esg.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie Instalacji MEP
 Specjalistyczne kosztorysowanie dla obiektów logistycznych, chłodni, systemów HVAC, instalacji elektrycznych i ochrony przeciwpożarowej.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/precyzyjne-kosztorysowanie-mep.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wariantowa
 Porównanie alternatywnych rozwiązań projektowych, materiałów i metod budowy. Podejmowanie świadomych decyzji w oparciu o dokładne dane kosztowe.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/analiza-wieloscenariuszowa.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowe Raportowanie
 Szczegółowe zestawienia kosztów, wizualne dashboardy i raporty gotowe do eksportu, zintegrowane z Państwa procesem pracy.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/kompleksowe-raportowanie.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Przygotowanie Ofert Przetargowych
 Profesjonalna dokumentacja przetargowa i wsparcie w zarządzaniu procesem składania ofert. Kompleksowa koordynacja od strategii cenowej po finalne złożenie oferty.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar z Rysunków 2D
 Precyzyjny przedmiar z rysunków 2D i specyfikacji. Szczegółowy pomiar i kwantyfikacja gdy modele BIM nie są dostępne, zachowując dokładność dla tradycyjnej realizacji projektów.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/tradycyjny-przedmiar-ilosci.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Danymi BIM
 Centralna koordynacja danych projektowych i strukturyzacja informacji BIM. Zarządzanie przepływem informacji, zapewnianie jakości danych przez cały cykl życia projektu.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/zarzadzanie-danymi-budowlanymi.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Logistyka Budowlana
 Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koordynacja łańcucha dostaw. Optymalizacja przepływów pracy i efektywna alokacja zasobów.
 
-[Dowiedz się więcej →](coming-soon.qmd)
+[Dowiedz się więcej →](uslugi/logistyka-budowlana.qmd)
 :::
 :::
 

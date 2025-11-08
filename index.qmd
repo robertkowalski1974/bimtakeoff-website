@@ -200,63 +200,63 @@ IFC model ingestion from Revit, ArchiCAD, and Tekla. **90-95% faster** than manu
 ### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Cost Control
 Weekly reports for 4-6 month builds. Early warning system for budget overruns with value engineering recommendations.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/fast-track-cost-control.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>BREEAM/ESG Cost Modeling
 Carbon costing integrated with sustainable materials tracking and certification compliance verification.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/breeam-esg-cost-modeling.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>MEP Infrastructure Precision
 Specialized costing for cross-docking, cold storage, HVAC, electrical, and fire suppression systems.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/mep-infrastructure-precision.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
 Compare design alternatives, materials, and construction methods. Make informed decisions backed by accurate cost data.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/multi-scenario-analysis.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Comprehensive Reporting
 Detailed cost breakdowns, visual dashboards, and export-ready reports integrated with your workflow.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/comprehensive-reporting.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing & Bid Management
 Professional tender documentation and submission management. Complete bid coordination from pricing strategy to final submission, maximizing win rates.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/bid-writing-management.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Traditional Quantity Takeoff
 Manual takeoff from 2D drawings and specifications. Detailed measurement and quantification when BIM models aren't available, maintaining accuracy for traditional project delivery.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/traditional-quantity-takeoff.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Data Management
 Centralized project data coordination and BIM data structuring. Manage information flows, ensure data quality, and maintain digital twin accuracy throughout project lifecycle.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/construction-data-management.qmd)
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Logistics
 Site logistics planning, material delivery scheduling, and supply chain coordination. Optimize workflows, minimize delays, and ensure efficient resource allocation on-site.
 
-[Learn more →](coming-soon.qmd)
+[Learn more →](services/construction-logistics.qmd)
 :::
 :::
 
