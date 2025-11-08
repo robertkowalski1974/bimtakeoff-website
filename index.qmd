@@ -345,7 +345,7 @@ We understand the unique requirements of different construction sectors:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-home-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Housing Associations
+### <i class="bi bi-house-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Housing Associations
 **Experience:** Social housing refurbishments, Decent Homes programmes
 **Specialization:** Grant funding support, value engineering, EPC compliance
 

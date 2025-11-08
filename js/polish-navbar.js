@@ -170,6 +170,15 @@
         './industries/infrastructure-civil.html': '/pl/branze/infrastruktura-i-roboty-inzynieryjne.html',
         '/industries/infrastructure-civil.html': '/pl/branze/infrastruktura-i-roboty-inzynieryjne.html',
 
+        // PRIVACY & TERMS - Use absolute paths
+        '../privacy-policy.html': '/pl/polityka-prywatnosci.html',
+        './privacy-policy.html': '/pl/polityka-prywatnosci.html',
+        '/privacy-policy.html': '/pl/polityka-prywatnosci.html',
+
+        '../terms-of-service.html': '/pl/regulamin.html',
+        './terms-of-service.html': '/pl/regulamin.html',
+        '/terms-of-service.html': '/pl/regulamin.html',
+
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',

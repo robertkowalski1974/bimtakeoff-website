@@ -1,0 +1,315 @@
+---
+title: "Regulamin Świadczenia Usług"
+page-layout: full
+description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi kosztorysowania budowlanego"
+---
+
+```{=html}
+<!-- Hero Section -->
+<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Regulamin Świadczenia Usług</h1>
+    <p class="lead" style="color: #E0E0E0; font-size: 1.25rem;">
+      Profesjonalne Usługi Kosztorysowania Budowlanego
+    </p>
+    <p style="color: #B0B0B0; font-size: 0.9rem;">
+      Ostatnia aktualizacja: 8 listopada 2024
+    </p>
+  </div>
+</section>
+
+<!-- Content Section -->
+<section style="padding: 80px 20px; background: #FFFFFF;">
+  <div class="container" style="max-width: 900px; margin: 0 auto;">
+    
+    <div class="legal-content" style="color: #2C2C2C; line-height: 1.8;">
+      
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">1. Postanowienia Ogólne</h2>
+      <p>
+        Niniejszy Regulamin Świadczenia Usług („Regulamin") stanowi prawnie wiążącą umowę pomiędzy Państwem a
+        <strong>Robert Kowalski</strong> (działającego jako <strong>BIM Takeoff</strong>, „my", „nas" lub „nasze")
+        dotyczącą dostępu do naszej strony internetowej, usług oraz profesjonalnych usług kosztorysowania budowlanego.
+      </p>
+      <p>
+        Korzystając z naszej strony internetowej pod adresem <a href="https://bimtakeoff.com" style="color: #FF9900; text-decoration: none;">bimtakeoff.com</a> 
+        lub zlecając nam świadczenie usług, potwierdzają Państwo, że przeczytali, zrozumieli i zgadzają się przestrzegać niniejszego Regulaminu.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">2. Dane Firmy</h2>
+      <div style="background: #F8F9FA; padding: 30px; border-left: 4px solid #FF9900; border-radius: 8px; margin: 20px 0;">
+        <p style="margin-bottom: 10px;"><strong>Nazwa prawna:</strong> Robert Kowalski</p>
+        <p style="margin-bottom: 10px;"><strong>Działająca jako:</strong> BIM Takeoff</p>
+        <p style="margin-bottom: 10px;"><strong>Email kontaktowy:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon kontaktowy:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 0;"><strong>Rynki działania:</strong> Wielka Brytania, Polska, Australia oraz rynki międzynarodowe</p>
+      </div>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">3. Zakres Świadczonych Usług</h2>
+      <p>Świadczymy profesjonalne usługi kosztorysowania budowlanego i przedmiarowania, w tym:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Kosztorysowanie BIM 5D i automatyczny przedmiar</li>
+        <li style="margin-bottom: 10px;">Tradycyjne kosztorysowanie i planowanie kosztów</li>
+        <li style="margin-bottom: 10px;">Kosztorysowanie instalacji MEP (mechaniczne, elektryczne, sanitarne)</li>
+        <li style="margin-bottom: 10px;">Specjalistyczne kosztorysowanie branżowe (zabudowy g-k, ochrona p.poż, elewacje, roboty konstrukcyjne)</li>
+        <li style="margin-bottom: 10px;">Zarządzanie danymi budowlanymi i raportowanie</li>
+        <li style="margin-bottom: 10px;">Wsparcie w przygotowaniu ofert i zarządzaniu przetargami</li>
+        <li style="margin-bottom: 10px;">Analiza wieloscenariuszowa kosztów</li>
+        <li style="margin-bottom: 10px;">Szybka kontrola kosztów i planowanie budżetu</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">4. Warunki Zlecania Usług i Umowy</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.1 Wycena Projektów</h3>
+      <p>
+        Wszystkie wyceny projektów są przygotowywane na podstawie informacji dostarczonych przez klienta w momencie zapytania. 
+        Wyceny są ważne przez 30 dni, chyba że określono inaczej, i podlegają weryfikacji po otrzymaniu kompletnej dokumentacji projektowej.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.2 Umowy Serwisowe</h3>
+      <p>
+        Dla każdego projektu zostanie ustalona indywidualna umowa serwisowa, określająca:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Zakres usług i rezultaty</li>
+        <li style="margin-bottom: 10px;">Harmonogram projektu i kamienie milowe</li>
+        <li style="margin-bottom: 10px;">Strukturę opłat i warunki płatności</li>
+        <li style="margin-bottom: 10px;">Zasady przetwarzania danych i poufności</li>
+        <li style="margin-bottom: 10px;">Prawa własności intelektualnej</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.3 Obowiązki Klienta</h3>
+      <p>Klient jest odpowiedzialny za:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Dostarczenie dokładnej i kompletnej dokumentacji projektowej</li>
+        <li style="margin-bottom: 10px;">Terminowe odpowiedzi na prośby o informacje</li>
+        <li style="margin-bottom: 10px;">Jasną komunikację wymagań projektowych i zmian</li>
+        <li style="margin-bottom: 10px;">Płatność opłat zgodnie z uzgodnionymi warunkami</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">5. Prawa Własności Intelektualnej</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.1 Nasza Własność</h3>
+      <p>
+        Wszystkie metodologie, procesy, szablony, oprogramowanie i zastrzeżone techniki kosztorysowania używane przez 
+        BIM Takeoff pozostają naszą wyłączną własnością intelektualną.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.2 Materiały Klienta</h3>
+      <p>
+        Klient zachowuje wszystkie prawa do oryginalnej dokumentacji projektowej, rysunków i specyfikacji. 
+        Wykorzystujemy materiały klienta wyłącznie w celu świadczenia uzgodnionych usług.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.3 Rezultaty</h3>
+      <p>
+        Po pełnej zapłacie klient otrzymuje licencję na wykorzystanie rezultatów (kosztorysów, przedmiarów, raportów) 
+        dla konkretnego projektu. Licencja nie obejmuje prawa do modyfikowania naszych metodologii ani powielania 
+        naszych szablonów dla innych projektów.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">6. Standardy Profesjonalne i Dokładność</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">6.1 Standardy Jakości</h3>
+      <p>
+        Świadczymy usługi zgodnie z uznanymi standardami profesjonalnymi, w tym:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Standardy profesjonalne RICS (Royal Institution of Chartered Surveyors)</li>
+        <li style="margin-bottom: 10px;">Standardy zarządzania informacją BIM ISO 19650</li>
+        <li style="margin-bottom: 10px;">Lokalne wymagania regulacyjne dla kosztorysowania budowlanego</li>
+        <li style="margin-bottom: 10px;">Najlepsze praktyki branżowe w kosztorysowaniu</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">6.2 Dokładność Kosztorysów</h3>
+      <p>
+        Chociaż dążymy do maksymalnej dokładności (zazwyczaj odchylenie ±3-5% przy kompletnej dokumentacji), 
+        kosztorysy są profesjonalnymi opiniami opartymi na dostępnych informacjach w momencie ich przygotowania. 
+        Rzeczywiste koszty budowy mogą się różnić z powodu:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Wahań cen rynkowych</li>
+        <li style="margin-bottom: 10px;">Zmian w zakresie projektu lub specyfikacjach</li>
+        <li style="margin-bottom: 10px;">Warunków budowy i nieprzewidzianych okoliczności</li>
+        <li style="margin-bottom: 10px;">Metod zakupu i wykonania przez wykonawcę</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">7. Poufność i Ochrona Danych</h2>
+      <p>
+        Zachowujemy ścisłą poufność dotyczącą wszystkich projektów i informacji klienta. 
+        Nasze praktyki ochrony danych są szczegółowo opisane w osobnej 
+        <a href="/pl/polityka-prywatnosci" style="color: #FF9900; text-decoration: none;">Polityce Prywatności</a>, 
+        która jest zgodna z RODO (UE), brytyjskim RODO oraz obowiązującym australijskim prawem o ochronie prywatności.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">8. Warunki Płatności</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">8.1 Struktura Opłat</h3>
+      <p>
+        Opłaty są uzgadniane na piśmie przed rozpoczęciem projektu i mogą być zorganizowane jako:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Stałe opłaty projektowe</li>
+        <li style="margin-bottom: 10px;">Stawki godzinowe dla konkretnych usług</li>
+        <li style="margin-bottom: 10px;">Umowy abonamentowe dla bieżącego wsparcia</li>
+        <li style="margin-bottom: 10px;">Usługi white-label lub partnerskie</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">8.2 Harmonogram Płatności</h3>
+      <p>
+        O ile nie ustalono inaczej, warunki płatności są zazwyczaj następujące:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">50% zaliczki przy rozpoczęciu projektu</li>
+        <li style="margin-bottom: 10px;">50% salda po zakończeniu projektu</li>
+        <li style="margin-bottom: 10px;">Płatności etapowe dla większych projektów</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">8.3 Opóźnienia w Płatnościach</h3>
+      <p>
+        Opóźnione płatności mogą wiązać się z naliczeniem odsetek zgodnie z obowiązującym prawem. 
+        Zastrzegamy sobie prawo do zawieszenia usług dla kont zaległych powyżej 30 dni.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">9. Ograniczenie Odpowiedzialności</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">9.1 Odpowiedzialność za Usługi</h3>
+      <p>
+        Nasza odpowiedzialność za jakiekolwiek roszczenie wynikające z naszych usług jest ograniczona do opłat 
+        zapłaconych za konkretną usługę powodującą roszczenie, chyba że uzgodniono inaczej na piśmie lub wymaga tego prawo.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">9.2 Szkody Pośrednie</h3>
+      <p>
+        Nie ponosimy odpowiedzialności za szkody pośrednie, następcze lub specjalne, w tym utratę zysków, 
+        przerwanie działalności gospodarczej lub utratę możliwości, z wyjątkiem przypadków zakazanych przez prawo.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">9.3 Poleganie przez Osoby Trzecie</h3>
+      <p>
+        Nasze rezultaty są przygotowywane wyłącznie dla zlecającego klienta i nie mogą być wykorzystywane przez 
+        osoby trzecie bez naszej wyraźnej pisemnej zgody.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">10. Rozwiązanie Umowy</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.1 Rozwiązanie przez Klienta</h3>
+      <p>
+        Klient może rozwiązać umowę z 14-dniowym pisemnym wypowiedzeniem. Opłaty za pracę wykonaną do dnia 
+        rozwiązania pozostają wymagalne.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.2 Rozwiązanie przez BIM Takeoff</h3>
+      <p>
+        Możemy rozwiązać umowę ze skutkiem natychmiastowym, jeśli:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Zobowiązania płatnicze nie są realizowane</li>
+        <li style="margin-bottom: 10px;">Klient narusza istotne warunki umowy</li>
+        <li style="margin-bottom: 10px;">Świadczenie usług staje się nielegalne lub niepraktyczne</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">11. Prawo Właściwe i Jurysdykcja</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">11.1 Projekty w Polsce</h3>
+      <p>
+        Usługi świadczone dla klientów z Polski podlegają polskiemu prawu, z jurysdykcją w polskich sądach, 
+        i są zgodne z RODO (polską implementacją GDPR).
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">11.2 Projekty w Wielkiej Brytanii</h3>
+      <p>
+        Usługi świadczone dla klientów z Wielkiej Brytanii podlegają prawu angielskiemu i walijskiemu, 
+        z jurysdykcją w sądach angielskich.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">11.3 Projekty w Australii</h3>
+      <p>
+        Usługi świadczone dla klientów australijskich podlegają prawu australijskiemu w odpowiednim stanie 
+        lub terytorium, z jurysdykcją w sądach tej lokalizacji.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">12. Rozwiązywanie Sporów</h2>
+      <p>
+        Zachęcamy do rozwiązywania sporów poprzez negocjacje w dobrej wierze. Jeśli negocjacje zawiodą, 
+        strony zgadzają się na próbę mediacji przed wszczęciem postępowania sądowego. Koszty mediacji będą 
+        dzielone równo, chyba że uzgodniono inaczej.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">13. Siła Wyższa</h2>
+      <p>
+        Żadna ze stron nie ponosi odpowiedzialności za niewykonanie zobowiązań z powodu okoliczności pozostających 
+        poza rozsądną kontrolą, w tym m.in. klęsk żywiołowych, wojny, terroryzmu, pandemii, działań rządowych 
+        lub awarii mediów.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">14. Zmiany w Regulaminie</h2>
+      <p>
+        Zastrzegamy sobie prawo do modyfikacji niniejszego Regulaminu w dowolnym momencie. Istotne zmiany będą 
+        komunikowane aktywnym klientom za pośrednictwem poczty elektronicznej. Kontynuowane korzystanie z usług 
+        po wprowadzeniu zmian oznacza akceptację zrewidowanego Regulaminu.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">15. Informacje Kontaktowe</h2>
+      <p>
+        W przypadku pytań dotyczących niniejszego Regulaminu Świadczenia Usług, prosimy o kontakt:
+      </p>
+      <div style="background: #F8F9FA; padding: 30px; border-left: 4px solid #FF9900; border-radius: 8px; margin: 20px 0;">
+        <p style="margin-bottom: 10px;"><strong>Email:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 0;"><strong>Czas odpowiedzi:</strong> W ciągu 24 godzin w dni robocze</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section style="padding: 60px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2rem;">Mają Państwo Pytania?</h2>
+    <p style="color: #E0E0E0; font-size: 1.1rem; margin-bottom: 30px;">
+      Nasz zespół jest gotowy wyjaśnić wszelkie aspekty naszego Regulaminu Świadczenia Usług
+    </p>
+    <a href="/pl/kontakt" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+      Skontaktuj Się
+    </a>
+  </div>
+</section>
+
+<style>
+.legal-content h2 {
+  border-bottom: 2px solid #FF9900;
+  padding-bottom: 10px;
+}
+
+.legal-content a {
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.legal-content a:hover {
+  color: #CC7A00;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .legal-content {
+    font-size: 0.95rem;
+  }
+  
+  .legal-content h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .legal-content h3 {
+    font-size: 1.2rem !important;
+  }
+}
+</style>
+```
