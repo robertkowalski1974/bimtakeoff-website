@@ -39,7 +39,7 @@ website:
           - text: "Automated Quantity Takeoff"
             href: services/automated-quantity-takeoff.qmd
           - text: "Fast-Track Cost Control"
-            href: coming-soon.qmd
+            href: services/fast-track-cost-control.qmd
           - text: "BREEAM/ESG Cost Modeling"
             href: coming-soon.qmd
           - text: "MEP Infrastructure Precision"

@@ -22,7 +22,7 @@
         'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
         'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
         'Automated Quantity Takeoff': 'Zautomatyzowany Obmiar',
-        'Fast-Track Cost Control': 'Szybka Kontrola Kosztów',
+        'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
         'BREEAM/ESG Cost Modeling': 'Modelowanie Kosztów BREEAM/ESG',
         'MEP Infrastructure Precision': 'Precyzja Infrastruktury MEP',
         'Multi-Scenario Analysis': 'Analiza Wieloscenariuszowa',
@@ -95,6 +95,10 @@
          '../services/automated-quantity-takeoff.html': '/pl/uslugi/automatyczny-przedmiar-obmiar.html',
         './services/automated-quantity-takeoff.html': '/pl/uslugi/automatyczny-przedmiar-obmiar.html',
         '/services/automated-quantity-takeoff.html': '/pl/uslugi/automatyczny-przedmiar-obmiar.html',
+        
+        '../services/fast-track-cost-control.html': '/pl/uslugi/szybka-kontrola-kosztow.html',
+        './services/fast-track-cost-control.html': '/pl/uslugi/szybka-kontrola-kosztow.html',
+        '/services/fast-track-cost-control.html': '/pl/uslugi/szybka-kontrola-kosztow.html',
         
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',

@@ -1,0 +1,596 @@
+---
+title: "Fast-Track Cost Control | Real-Time Construction Monitoring | BIM Takeoff"
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Fast-Track Cost Control & Real-Time Monitoring
+### Stop Cost Overruns Before They Happen
+:::
+
+::: {.hero-subtitle}
+Weekly cost updates in 24 hours.  
+Early warning system catches budget risks 4-6 weeks ahead.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Real-Time Cost Tracking</strong> - Know where you stand every week</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>24-Hour Variation Analysis</strong> - Rapid response to change orders</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Predictive Forecasting</strong> - Early warning of budget risks</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Schedule Demo](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## The Hidden Cost of Poor Cost Control
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Traditional Cost Reporting Fails
+
+Monthly cost reports delivered 2-3 weeks after month-end are too slow for modern construction:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 weeks lag between issue and awareness</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No early warning system for overruns</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Change orders pile up without analysis</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Limited visibility into cost trends</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Reactive rather than proactive management</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Surprises at project completion</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The True Cost
+
+> "On a £20M project, discovering a £500K overrun 6 weeks into it means limited options to recover. Early detection would have provided time for value engineering, phased approaches, or informed decision-making to keep the project on track."
+:::
+:::
+
+::: {style=""}
+### Our Fast-Track Solution
+
+Real-time cost intelligence powered by 5D BIM and experienced oversight:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weekly updates** delivered within 24 hours</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **4-6 week early warning** system</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Same-day variation analysis** for changes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-time budget vs actual tracking</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Proactive cost optimization strategies</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> No surprises at project completion</p>
+:::
+:::
+
+:::
+
+## What Makes Our Cost Control Fast-Track?
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Three Pillars of Rapid Cost Intelligence
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>1. Speed
+
+**Weekly Reporting Cycle**
+
+Traditional monthly reports are too slow. We provide:
+
+- Weekly cost updates (24-hour turnaround)
+- Same-day variation analysis
+- 24-48 hour change order impact assessment
+- Real-time dashboard access
+- Instant alerts for budget thresholds
+
+**Result:** Act on issues weeks before traditional reporting would identify them.
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>2. Visibility
+
+**Complete Cost Transparency**
+
+Know exactly where your money is going:
+
+- Budget vs actual by cost code
+- Committed vs forecast costs
+- Change order impact tracking
+- Cost trend analysis
+- Cashflow forecasting
+- Trade-specific breakdowns
+
+**Result:** Full visibility enables informed decision-making at every stage.
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 12px;"></i>3. Prediction
+
+**Early Warning System**
+
+Identify problems before they become critical:
+
+- Trend-based forecasting
+- Risk flagging (Red/Amber/Green)
+- Completion cost projections
+- Contingency burn rate analysis
+- Schedule impact on costs
+- Mitigation strategy recommendations
+
+**Result:** Proactive management prevents cost overruns rather than reacting to them.
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**The Fast-Track Advantage:** Combine all three pillars to maintain control from day one of construction through to final account.
+:::
+
+:::
+:::
+
+## Our Comprehensive Cost Control Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Setup & Baseline (Week 1)
+
+**Duration:** 3-5 days
+
+**What We Do:**
+
+- Review contract documents and baseline budget
+- Set up cost coding structure (aligned with your system)
+- Import baseline quantities and rates
+- Configure 5D BIM model with cost data
+- Establish reporting formats and schedules
+- Set budget thresholds and alert triggers
+- Train your team on reporting requirements
+
+**Deliverable:** Cost control system ready for project start
+:::
+
+::: {.process-step}
+#### Weekly Cost Monitoring
+
+**Ongoing Throughout Project**
+
+**What We Do:**
+
+- Collect progress data from site
+- Update quantities based on works completed
+- Record actual costs from invoices/timesheets
+- Track change orders and variations
+- Calculate earned value vs actual spend
+- Identify cost variances and trends
+- Generate weekly cost report
+
+**Deliverable:** Weekly cost report (delivered within 24 hours of data submission)
+:::
+
+::: {.process-step}
+#### Rapid Variation Analysis
+
+**On-Demand (24-48 hour turnaround)**
+
+**What We Do:**
+
+- Receive change request or RFI
+- Extract quantities from updated BIM model
+- Apply current market rates
+- Calculate full cost impact (direct + indirect)
+- Assess schedule implications
+- Compare alternatives if applicable
+- Prepare variation order pricing
+
+**Deliverable:** Detailed variation analysis with recommendations
+:::
+
+::: {.process-step}
+#### Monthly Forecasting & Reporting
+
+**End of Each Month**
+
+**What We Do:**
+
+- Comprehensive cost position analysis
+- Update forecast final cost
+- Assess contingency utilization
+- Review commitments and accruals
+- Cashflow projection (next 3 months)
+- Risk register review
+- Executive summary with key issues
+
+**Deliverable:** Executive monthly report with forecast to completion
+:::
+
+::: {.process-step}
+#### Proactive Cost Management
+
+**Continuous Throughout Project**
+
+**What We Do:**
+
+- Monitor cost trends and early warning signals
+- Identify value engineering opportunities
+- Suggest alternative materials/methods
+- Track schedule impacts on costs
+- Recommend mitigation strategies
+- Support procurement decisions
+- Facilitate cost-related decision-making
+
+**Deliverable:** Strategic cost advice and recommendations
+:::
+
+::: {.process-step}
+#### Final Account & Closeout
+
+**Project Completion**
+
+**What We Do:**
+
+- Reconcile all actual vs budget
+- Finalize change order accounts
+- Verify contractor final claims
+- Resolve outstanding variations
+- Prepare final cost report
+- Document lessons learned
+- Archive project cost data
+
+**Deliverable:** Final account reconciliation and project closeout report
+:::
+:::
+
+## What's Included in Your Weekly Report?
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Core Reporting Elements
+
+Every weekly report includes:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Budget vs Actual Summary** - Current position at a glance</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cost Code Breakdown** - Detailed trade-by-trade analysis</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Change Order Log** - All variations tracked and valued</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Forecast to Completion** - Projected final costs</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Risk Register** - Red/Amber/Green flagged items</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Trend Analysis** - Week-on-week comparisons</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Action Items** - Recommended next steps</p>
+:::
+:::
+
+::: {style=""}
+### Advanced Analytics
+
+Additional insights available:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Earned Value Analysis** - Efficiency metrics (CPI, SPI)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cashflow Projections** - 8-12 week look-ahead</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Contingency Tracking** - Burn rate and remaining buffer</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value Engineering Opportunities** - Cost optimization suggestions</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Productivity Metrics** - Labour efficiency tracking</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking Data** - Compare to similar projects</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Custom Dashboards** - Tailored to stakeholder needs</p>
+:::
+:::
+
+:::
+
+## Real-Time Dashboard Access
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Live Cost Intelligence at Your Fingertips
+
+Beyond weekly reports, access your project's cost data anytime through our secure online dashboard.
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-speedometer2" style="color: var(--bim-orange);"></i> Interactive Charts
+
+Real-time visualization of:
+- Budget vs actual spend curves
+- Cost breakdown by trade
+- Change order impact trends
+- Forecast trajectories
+- All filterable by date range, cost code, or phase
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-bell-fill" style="color: var(--bim-orange);"></i> Smart Alerts
+
+Automatic notifications for:
+- Budget threshold breaches
+- Unusual cost patterns
+- Pending variation approvals
+- Forecast changes >2%
+- Delivered via email/SMS
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange);"></i> Export & Integration
+
+Seamless data access:
+- One-click Excel export
+- PDF report generation
+- API integration available
+- Compatible with major cost management platforms
+- Historical data archive
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-graph-up" style="color: var(--bim-orange);"></i> Business Intelligence Dashboards
+
+Comprehensive BI solutions:
+- **Custom PowerBI dashboards** tailored to your KPIs
+- **Tableau integration** for advanced analytics
+- **Executive dashboards** for C-suite reporting
+- **Multi-project portfolio views** across your organization
+- **Automated data refresh** from project sources
+- **Mobile-optimized** for on-the-go access
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
+#### <i class="bi bi-people-fill" style="color: var(--bim-orange);"></i> Multi-User Access
+
+Role-based permissions:
+- Executive view (high-level summary)
+- Project manager (detailed data)
+- Quantity surveyor (full access)
+- Contractor (limited view)
+- Secure, cloud-based access 24/7
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;"}
+**Demo Available:** See the dashboard in action with sample project data during your consultation.
+:::
+
+:::
+:::
+
+## Service Tiers: Choose Your Level of Control
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer" style="color: var(--bim-orange); margin-right: 12px;"></i>Essential
+
+**For smaller projects or limited budgets**
+
+- Bi-weekly cost reports
+- Monthly forecast updates
+- Change order analysis (48-72h)
+- Email support
+- Basic dashboard access
+
+**Best For:** Projects <£5M, stable scope
+:::
+
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Professional
+
+**Our most popular package**
+
+- Weekly cost reports (24h turnaround)
+- Monthly forecasting & risk analysis
+- Rapid variation analysis (24-48h)
+- Proactive cost management advice
+- Full dashboard with alerts
+- Phone & email support
+
+**Best For:** Projects £5M-£50M, active construction
+:::
+
+::: {.feature-card}
+### <i class="bi bi-rocket-takeoff-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Premium
+
+**Maximum control for complex projects**
+
+- Real-time cost tracking (daily updates)
+- Weekly detailed reporting
+- Same-day variation analysis
+- Dedicated cost manager
+- **Custom BI dashboards (PowerBI/Tableau)**
+- Advanced analytics & benchmarking
+- On-site visits (monthly)
+- Priority support (4-hour response)
+
+**Best For:** Projects >£50M, fast-track programs
+:::
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you get our project set up?**
+:::
+::: {.faq-answer}
+A: Setup takes 3-5 days. We need your baseline budget, cost coding structure, and access to contract documents. If you have a 5D BIM model, we can import that directly. Without BIM, setup may take 5-7 days. Our fastest deployment was 48 hours for an urgent project.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What information do you need from us each week?**
+:::
+::: {.faq-answer}
+A: We need progress data (quantities installed), actual costs (invoices/timesheets), and any change orders or variations. Most clients provide this via a simple Excel template we supply. Data submission typically takes your team 2-3 hours per week. We can also integrate directly with your project management software.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you work with projects already in progress?**
+:::
+::: {.faq-answer}
+A: Absolutely! We specialize in taking over cost control mid-project. We'll reconcile all historical data, verify the baseline, and have you up and running within one week. This is particularly valuable when existing cost control has fallen behind or when changing project circumstances require more rigorous oversight.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle contractor payment applications?**
+:::
+::: {.faq-answer}
+A: We review and verify contractor payment applications against actual progress. Our service includes cross-checking claimed quantities, verifying rates, ensuring proper valuations, and providing certified recommendations for payment. This protects you from overpayment and ensures you only pay for work properly executed.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens if we identify a potential cost overrun?**
+:::
+::: {.faq-answer}
+A: We immediately flag the issue in our report with Red status, quantify the potential impact, identify the root cause, and provide recommended mitigation strategies. This might include value engineering alternatives, scope adjustments, phased approaches, or enhanced procurement strategies. Our goal is to provide actionable solutions, not just report problems.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you integrate with our existing cost management software?**
+:::
+::: {.faq-answer}
+A: Yes, we can integrate with most major platforms including Procore, BIM 360, Oracle Primavera, MS Project, and various accounting systems. We export data in formats compatible with your systems. If direct API integration is needed, we can arrange that for Premium tier clients.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What size projects do you typically work with?**
+:::
+::: {.faq-answer}
+A: We handle projects from £2M to £200M+. Smaller projects typically use our Essential tier with bi-weekly reporting. Mid-sized projects (£5M-£50M) work best with Professional tier weekly reporting. Large complex projects benefit from our Premium tier with dedicated management and real-time tracking.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help with value engineering during construction?**
+:::
+::: {.faq-answer}
+A: Yes! Our ongoing cost monitoring identifies opportunities for value engineering as the project progresses. We can quickly analyze alternative materials, methods, or sequencing that could reduce costs without compromising quality. This is included in Professional and Premium tiers.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you charge for your services?**
+:::
+::: {.faq-answer}
+A: Pricing varies by service tier and project size. Essential tier starts from £2,500/month, Professional from £5,000/month, and Premium from £10,000/month. We also offer fixed-fee arrangements for the entire construction period with discounts for longer engagements (12+ months). Contact us for a custom quote based on your project specifics.
+:::
+:::
+:::
+
+## Why Choose BIM Takeoff for Cost Control?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-award-fill" style="color: var(--bim-orange);"></i> Experience
+
+**20 Years Across 3 Continents**
+
+We've managed cost control on 2000+ projects spanning UK, European, and Australian markets. We understand different contractual frameworks, regulatory requirements, and construction practices. Our international experience means we bring best practices from global construction leaders to every project.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-clock-history" style="color: var(--bim-orange);"></i> Proven Speed
+
+**24-Hour Turnaround Guaranteed**
+
+While others take weeks, we deliver weekly reports within 24 hours of receiving data. Our variation analyses are completed in 24-48 hours, not weeks. This speed comes from optimized processes, 5D BIM integration, and experienced team who know what matters.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> Accuracy
+
+**Independent & Objective**
+
+As independent cost consultants, we have no incentive to over or understate costs. We provide objective analysis serving your interests only. Our track record shows forecast accuracy within ±2-3% at project completion, enabling confident decision-making throughout construction.
+:::
+
+::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Technology
+
+**5D BIM Integration**
+
+We don't just report numbers - we link costs to the 3D model and construction schedule. This provides unprecedented visibility: see exactly which elements are costing more than planned, understand schedule impacts on costs, and make data-driven decisions with complete context.
+:::
+
+:::
+
+## Ready to Take Control of Your Project Costs?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Don't Wait for Monthly Reports to Tell You What Went Wrong</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Get weekly visibility and stay ahead of cost issues before they become problems.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Project Assessment</h3>
+<p style="color: var(--bim-white); margin: 0;">30-minute consultation on your cost control needs</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Live Dashboard Demo</h3>
+<p style="color: var(--bim-white); margin: 0;">See real-time cost control in action</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Custom Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Tailored pricing for your project within 24 hours</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Schedule Assessment](../contact.qmd){.cta-primary}
+[View Demo](../coming-soon.qmd){.cta-secondary}
+[Get Quote](../contact.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>24-Hour Report Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Early Warning System</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Real-Time Dashboard Access</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
+### Need Help Now?
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**Office Hours:** Monday-Friday, 9:00-17:00 CET
+:::
+
+:::

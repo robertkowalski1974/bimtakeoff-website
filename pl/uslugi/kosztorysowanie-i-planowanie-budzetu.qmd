@@ -315,9 +315,9 @@ O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Prz
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Darmową Konsultację](../../coming-soon.qmd){.cta-primary}
-[Pobierz Przewodnik BIM](../../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../../coming-soon.qmd){.cta-secondary}
+[Zaplanuj Darmową Konsultację](../coming-soon.qmd){.cta-primary}
+[Pobierz Przewodnik BIM](../coming-soon.qmd){.cta-secondary}
+[Otrzymaj Wycenę](../coming-soon.qmd){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
