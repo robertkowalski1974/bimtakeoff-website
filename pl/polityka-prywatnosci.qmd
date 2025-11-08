@@ -1,0 +1,393 @@
+---
+title: "Polityka Prywatności"
+page-layout: full
+description: "Polityka Prywatności BIM Takeoff - Zgodność z RODO i ochrona danych"
+---
+
+```{=html}
+<!-- Hero Section -->
+<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Polityka Prywatności</h1>
+    <p class="lead" style="color: #E0E0E0; font-size: 1.25rem;">
+      Ochrona Danych i Prawa do Prywatności
+    </p>
+    <p style="color: #B0B0B0; font-size: 0.9rem;">
+      Ostatnia aktualizacja: 8 listopada 2024
+    </p>
+    <div style="margin-top: 30px;">
+      <span style="background: #FF9900; color: #FFFFFF; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">
+        Zgodność z RODO
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- Content Section -->
+<section style="padding: 80px 20px; background: #FFFFFF;">
+  <div class="container" style="max-width: 900px; margin: 0 auto;">
+    
+    <div class="legal-content" style="color: #2C2C2C; line-height: 1.8;">
+      
+      <div style="background: #FFF3E0; border-left: 4px solid #FF9900; padding: 25px; border-radius: 8px; margin-bottom: 40px;">
+        <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-bottom: 15px; font-weight: 600;">Państwa Prywatność Ma Znaczenie</h3>
+        <p style="margin-bottom: 0;">
+          W BIM Takeoff jesteśmy zobowiązani do ochrony Państwa danych osobowych i poszanowania praw do prywatności. 
+          Niniejsza polityka wyjaśnia, w jaki sposób zbieramy, wykorzystujemy i chronimy Państwa informacje zgodnie z RODO.
+        </p>
+      </div>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">1. Administrator Danych</h2>
+      <div style="background: #F8F9FA; padding: 30px; border-left: 4px solid #FF9900; border-radius: 8px; margin: 20px 0;">
+        <p style="margin-bottom: 10px;"><strong>Administrator Danych:</strong> Robert Kowalski (działający jako BIM Takeoff)</p>
+        <p style="margin-bottom: 10px;"><strong>Email kontaktowy:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon kontaktowy:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 0;"><strong>Inspektor Ochrony Danych:</strong> Dostępny na żądanie dla klientów z UE/Wielkiej Brytanii/Polski</p>
+      </div>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">2. Zbierane Informacje</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">2.1 Informacje Podawane Bezpośrednio</h3>
+      <p>Gdy korzystają Państwo z naszych usług lub kontaktują się z nami, możemy zbierać:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>Dane Kontaktowe:</strong> Imię i nazwisko, adres email, numer telefonu, nazwa firmy, stanowisko</li>
+        <li style="margin-bottom: 10px;"><strong>Informacje Projektowe:</strong> Szczegóły projektu, specyfikacje, rysunki, dokumentacja techniczna</li>
+        <li style="margin-bottom: 10px;"><strong>Informacje Biznesowe:</strong> Dane rejestracyjne firmy, adres do faktury, numery NIP/VAT</li>
+        <li style="margin-bottom: 10px;"><strong>Zapisy Komunikacji:</strong> Emaile, rozmowy telefoniczne, notatki ze spotkań, zlecenia usług</li>
+        <li style="margin-bottom: 10px;"><strong>Informacje Płatnicze:</strong> Dane rozliczeniowe (przetwarzane bezpiecznie przez zewnętrznych procesorów płatności)</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">2.2 Informacje Zbierane Automatycznie</h3>
+      <p>Gdy odwiedzają Państwo naszą stronę internetową, możemy automatycznie zbierać:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>Dane Techniczne:</strong> Adres IP, typ przeglądarki, informacje o urządzeniu, system operacyjny</li>
+        <li style="margin-bottom: 10px;"><strong>Dane Użytkowania:</strong> Odwiedzone strony, czas spędzony na stronie, wzorce nawigacji, źródła odesłań</li>
+        <li style="margin-bottom: 10px;"><strong>Pliki Cookie:</strong> Pliki cookie sesji, preferencji, analityczne (patrz Polityka Cookies poniżej)</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">2.3 Informacje od Stron Trzecich</h3>
+      <p>Możemy otrzymywać informacje o Państwu od:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Profesjonalnych rekomendacji i partnerów biznesowych</li>
+        <li style="margin-bottom: 10px;">Publicznych katalogów biznesowych i sieci profesjonalnych</li>
+        <li style="margin-bottom: 10px;">Agencji referencyjnych kredytowych (dla klientów komercyjnych)</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">3. Podstawa Prawna Przetwarzania (RODO)</h2>
+      <p>Przetwarzamy Państwa dane osobowe na następujących podstawach prawnych:</p>
+      
+      <div style="background: #F8F9FA; padding: 25px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 15px; font-weight: 600;">Wykonanie Umowy</h4>
+        <p style="margin-bottom: 0;">
+          Przetwarzanie niezbędne do wypełnienia naszych zobowiązań umownych w zakresie świadczenia usług 
+          kosztorysowania i przedmiarowania.
+        </p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 25px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 15px; font-weight: 600;">Prawnie Uzasadniony Interes</h4>
+        <p style="margin-bottom: 0;">
+          Przetwarzanie w celach rozwoju biznesu, poprawy usług, zapobiegania oszustwom i marketingu 
+          dla istniejących klientów (jeśli jest to dozwolone przez prawo).
+        </p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 25px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 15px; font-weight: 600;">Zgoda</h4>
+        <p style="margin-bottom: 0;">
+          Dla komunikacji marketingowej do potencjalnych klientów i niektórych plików cookie (jeśli wymaga tego prawo). 
+          Mogą Państwo wycofać zgodę w dowolnym momencie.
+        </p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 25px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 15px; font-weight: 600;">Obowiązki Prawne</h4>
+        <p style="margin-bottom: 0;">
+          Przetwarzanie wymagane w celu spełnienia wymogów podatkowych, księgowych i regulacyjnych.
+        </p>
+      </div>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">4. Sposób Wykorzystania Informacji</h2>
+      <p>Wykorzystujemy Państwa dane osobowe w następujących celach:</p>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.1 Świadczenie Usług</h3>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Świadczenie usług kosztorysowania i przedmiarowania</li>
+        <li style="margin-bottom: 10px;">Komunikacja i współpraca projektowa</li>
+        <li style="margin-bottom: 10px;">Dostarczanie raportów, kosztorysów i dokumentacji</li>
+        <li style="margin-bottom: 10px;">Obsługa klienta i pomoc techniczna</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.2 Operacje Biznesowe</h3>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Generowanie faktur i przetwarzanie płatności</li>
+        <li style="margin-bottom: 10px;">Zarządzanie kontami i prowadzenie dokumentacji</li>
+        <li style="margin-bottom: 10px;">Zapewnienie jakości i poprawa usług</li>
+        <li style="margin-bottom: 10px;">Zgodność z wymogami prawnymi i regulacyjnymi</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">4.3 Marketing i Komunikacja</h3>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Wysyłanie aktualizacji usług do istniejących klientów</li>
+        <li style="margin-bottom: 10px;">Komunikacja marketingowa (za zgodą, jeśli jest wymagana)</li>
+        <li style="margin-bottom: 10px;">Spostrzeżenia branżowe i aktualizacje techniczne</li>
+        <li style="margin-bottom: 10px;">Zaproszenia na wydarzenia i możliwości networkingu</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">5. Udostępnianie i Ujawnianie Danych</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.1 Dostawcy Usług</h3>
+      <p>Możemy udostępniać Państwa dane zaufanym dostawcom usług, którzy nas wspierają:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Usługi przechowywania w chmurze i przetwarzania (z odpowiednimi środkami bezpieczeństwa)</li>
+        <li style="margin-bottom: 10px;">Platformy email i komunikacji</li>
+        <li style="margin-bottom: 10px;">Procesory płatności (którzy bezpiecznie przetwarzają płatności)</li>
+        <li style="margin-bottom: 10px;">Profesjonalni doradcy (księgowi, prawnicy)</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.2 Wymogi Prawne</h3>
+      <p>Możemy ujawniać Państwa informacje, gdy wymaga tego prawo lub aby:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Wypełnić obowiązki prawne lub postanowienia sądowe</li>
+        <li style="margin-bottom: 10px;">Chronić nasze prawa, mienie lub bezpieczeństwo</li>
+        <li style="margin-bottom: 10px;">Zapobiegać oszustwom lub nielegalnym działaniom</li>
+        <li style="margin-bottom: 10px;">Odpowiadać na zapytania regulacyjne</li>
+      </ul>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.3 Przejęcia Biznesowe</h3>
+      <p>
+        W przypadku fuzji, przejęcia lub sprzedaży aktywów, Państwa informacje mogą zostać przekazane 
+        podmiotowi przejmującemu, z zastrzeżeniem niniejszej polityki prywatności.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">5.4 Brak Marketingu przez Strony Trzecie</h3>
+      <p>
+        <strong>Nigdy nie sprzedajemy, nie wynajmujemy ani nie udostępniamy Państwa danych osobowych stronom trzecim 
+        w ich celach marketingowych.</strong>
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">6. Międzynarodowe Transfery Danych</h2>
+      <p>
+        Ponieważ działamy w wielu jurysdykcjach (Wielka Brytania, Polska, Australia), Państwa dane mogą być 
+        przekazywane międzynarodowo. Zapewniamy odpowiednie zabezpieczenia:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>UE/Polska do Państw Trzecich:</strong> Standardowe Klauzule Umowne zatwierdzone przez Komisję UE</li>
+        <li style="margin-bottom: 10px;"><strong>Decyzje o Adekwatności:</strong> Transfery do krajów z odpowiednią ochroną danych (np. Wielka Brytania-UE)</li>
+        <li style="margin-bottom: 10px;"><strong>Środki Bezpieczeństwa:</strong> Szyfrowanie i bezpieczne protokoły transmisji danych</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">7. Przechowywanie Danych</h2>
+      <p>Przechowujemy Państwa dane osobowe tak długo, jak jest to niezbędne do:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>Aktywni Klienci:</strong> Okres trwania relacji biznesowej plus 7 lat (dla celów prawnych i podatkowych)</li>
+        <li style="margin-bottom: 10px;"><strong>Potencjalni Klienci:</strong> 2 lata od ostatniego kontaktu (chyba że zrezygnują Państwo z komunikacji)</li>
+        <li style="margin-bottom: 10px;"><strong>Dokumentacja Projektowa:</strong> Minimum 7 lat dla celów odpowiedzialności zawodowej</li>
+        <li style="margin-bottom: 10px;"><strong>Listy Marketingowe:</strong> Do momentu rezygnacji lub żądania usunięcia</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">8. Prawa Użytkownika na Podstawie RODO</h2>
+      <p>Mają Państwo następujące prawa dotyczące swoich danych osobowych:</p>
+      
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-check-circle" style="color: #FF9900;"></i> Prawo Dostępu
+        </h4>
+        <p style="margin-bottom: 0;">Żądanie kopii posiadanych przez nas danych osobowych</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-pencil" style="color: #FF9900;"></i> Prawo do Sprostowania
+        </h4>
+        <p style="margin-bottom: 0;">Poprawianie nieprawidłowych lub niekompletnych danych</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-trash" style="color: #FF9900;"></i> Prawo do Usunięcia ("Prawo do Bycia Zapomnianym")
+        </h4>
+        <p style="margin-bottom: 0;">Żądanie usunięcia danych (z zastrzeżeniem obowiązków prawnych)</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-pause-circle" style="color: #FF9900;"></i> Prawo do Ograniczenia
+        </h4>
+        <p style="margin-bottom: 0;">Ograniczenie sposobu wykorzystania danych w określonych okolicznościach</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-download" style="color: #FF9900;"></i> Prawo do Przenoszenia Danych
+        </h4>
+        <p style="margin-bottom: 0;">Otrzymanie danych w ustrukturyzowanym, powszechnie używanym formacie</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-x-circle" style="color: #FF9900;"></i> Prawo do Sprzeciwu
+        </h4>
+        <p style="margin-bottom: 0;">Sprzeciw wobec przetwarzania opartego na uzasadnionym interesie lub w celach marketingowych</p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
+          <i class="bi bi-arrow-counterclockwise" style="color: #FF9900;"></i> Prawo do Wycofania Zgody
+        </h4>
+        <p style="margin-bottom: 0;">Wycofanie zgody na przetwarzanie w dowolnym momencie</p>
+      </div>
+
+      <div style="background: #FFF3E0; border-left: 4px solid #FF9900; padding: 25px; border-radius: 8px; margin: 30px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 15px; font-weight: 600;">Jak Skorzystać z Praw</h4>
+        <p>
+          Aby skorzystać z któregokolwiek z tych praw, prosimy o kontakt pod adresem 
+          <a href="mailto:info@bimtakeoff.com" style="color: #FF9900; font-weight: 600;">info@bimtakeoff.com</a>
+        </p>
+        <p style="margin-bottom: 0;">
+          Odpowiemy na Państwa żądanie w ciągu <strong>jednego miesiąca</strong> (lub dwóch miesięcy w przypadku skomplikowanych żądań).
+        </p>
+      </div>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">9. Bezpieczeństwo Danych</h2>
+      <p>Wdrażamy solidne środki bezpieczeństwa w celu ochrony Państwa danych:</p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>Szyfrowanie:</strong> Szyfrowanie TLS/SSL do transmisji danych</li>
+        <li style="margin-bottom: 10px;"><strong>Kontrola Dostępu:</strong> Dostęp oparty na rolach z silnym uwierzytelnianiem</li>
+        <li style="margin-bottom: 10px;"><strong>Bezpieczne Przechowywanie:</strong> Zaszyfrowane przechowywanie w chmurze u renomowanych dostawców</li>
+        <li style="margin-bottom: 10px;"><strong>Regularne Audyty:</strong> Oceny bezpieczeństwa i testy podatności</li>
+        <li style="margin-bottom: 10px;"><strong>Szkolenie Personelu:</strong> Regularne szkolenia z ochrony danych dla wszystkich pracowników</li>
+        <li style="margin-bottom: 10px;"><strong>Reagowanie na Incydenty:</strong> Udokumentowane procedury zgłaszania naruszeń</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">10. Polityka Cookies</h2>
+      
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.1 Czym Są Pliki Cookie?</h3>
+      <p>
+        Pliki cookie to małe pliki tekstowe przechowywane na Państwa urządzeniu podczas odwiedzania naszej strony internetowej. 
+        Pomagają nam zapewnić lepsze doświadczenie użytkownika i analizować wydajność strony.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.2 Rodzaje Używanych Plików Cookie</h3>
+      
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 15px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1rem; margin-bottom: 10px; font-weight: 600;">Niezbędne Pliki Cookie (Zawsze Aktywne)</h4>
+        <p style="margin-bottom: 0;">
+          Wymagane do funkcjonalności, bezpieczeństwa i nawigacji strony. Nie można ich wyłączyć.
+        </p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 15px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1rem; margin-bottom: 10px; font-weight: 600;">Pliki Cookie Analityczne (Za Zgodą)</h4>
+        <p style="margin-bottom: 0;">
+          Pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony (np. Google Analytics z anonimizacją IP).
+        </p>
+      </div>
+
+      <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 15px 0;">
+        <h4 style="color: #2C2C2C; font-size: 1rem; margin-bottom: 10px; font-weight: 600;">Pliki Cookie Funkcjonalne (Za Zgodą)</h4>
+        <p style="margin-bottom: 0;">
+          Zapamiętują Państwa preferencje i ustawienia dla spersonalizowanego doświadczenia.
+        </p>
+      </div>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.3 Zarządzanie Plikami Cookie</h3>
+      <p>
+        Mogą Państwo kontrolować pliki cookie poprzez ustawienia przeglądarki. Należy pamiętać, że wyłączenie plików cookie 
+        może wpłynąć na funkcjonalność strony. Więcej informacji na stronie 
+        <a href="https://www.aboutcookies.org" style="color: #FF9900;" target="_blank" rel="noopener">www.aboutcookies.org</a>.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">11. Prywatność Dzieci</h2>
+      <p>
+        Nasze usługi nie są skierowane do osób poniżej 18 roku życia. Nie zbieramy świadomie danych osobowych od dzieci. 
+        Jeśli uważają Państwo, że nieumyślnie zebraliśmy takie informacje, prosimy o natychmiastowy kontakt.
+      </p>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">12. Zmiany w Polityce Prywatności</h2>
+      <p>
+        Możemy okresowo aktualizować niniejszą Politykę Prywatności, aby odzwierciedlić zmiany w naszych praktykach 
+        lub wymogach prawnych. Istotne zmiany będą komunikowane poprzez:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">Powiadomienie email do aktywnych klientów</li>
+        <li style="margin-bottom: 10px;">Widoczne ogłoszenie na naszej stronie internetowej</li>
+        <li style="margin-bottom: 10px;">Zaktualizowaną datę "Ostatnia aktualizacja" u góry niniejszej polityki</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">13. Skargi i Organ Nadzorczy</h2>
+      <p>
+        Jeśli mają Państwo obawy dotyczące tego, jak obsługujemy Państwa dane osobowe, prosimy najpierw skontaktować się z nami. 
+        Mają Państwo również prawo złożyć skargę do lokalnego organu ochrony danych:
+      </p>
+      <ul style="margin-left: 20px; margin-top: 15px;">
+        <li style="margin-bottom: 10px;"><strong>Polska:</strong> Urząd Ochrony Danych Osobowych (UODO) - <a href="https://uodo.gov.pl" style="color: #FF9900;" target="_blank">uodo.gov.pl</a></li>
+        <li style="margin-bottom: 10px;"><strong>Wielka Brytania:</strong> Information Commissioner's Office (ICO) - <a href="https://ico.org.uk" style="color: #FF9900;" target="_blank">ico.org.uk</a></li>
+        <li style="margin-bottom: 10px;"><strong>UE:</strong> Państwa krajowy organ ochrony danych</li>
+      </ul>
+
+      <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">14. Kontakt</h2>
+      <p>
+        W przypadku pytań, wątpliwości lub żądań dotyczących niniejszej Polityki Prywatności lub Państwa danych osobowych:
+      </p>
+      <div style="background: #F8F9FA; padding: 30px; border-left: 4px solid #FF9900; border-radius: 8px; margin: 20px 0;">
+        <p style="margin-bottom: 10px;"><strong>Zapytania dotyczące Ochrony Danych:</strong></p>
+        <p style="margin-bottom: 10px;"><strong>Email:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 0;"><strong>Czas odpowiedzi:</strong> W ciągu 24 godzin w dni robocze</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section style="padding: 60px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2rem;">Pytania o Państwa Dane?</h2>
+    <p style="color: #E0E0E0; font-size: 1.1rem; margin-bottom: 30px;">
+      Jesteśmy zaangażowani w transparentność. Skontaktuj się z nami, aby omówić swoje prawa do prywatności
+    </p>
+    <a href="/pl/kontakt" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+      Skontaktuj Się
+    </a>
+  </div>
+</section>
+
+<style>
+.legal-content h2 {
+  border-bottom: 2px solid #FF9900;
+  padding-bottom: 10px;
+}
+
+.legal-content a {
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.legal-content a:hover {
+  color: #CC7A00;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .legal-content {
+    font-size: 0.95rem;
+  }
+  
+  .legal-content h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  .legal-content h3 {
+    font-size: 1.2rem !important;
+  }
+}
+</style>
+```

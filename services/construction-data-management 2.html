@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BIM Takeoff - Construction Data Management | ISO 19650 | BIM Takeoff</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Twitter Card metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@bimtakeoff">
+<meta name="twitter:creator" content="@bimtakeoff">
+<meta name="twitter:title" content="BIM Takeoff - Construction Data Management | ISO 19650 | BIM Takeoff">
+<meta name="twitter:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+
+<!-- Organization Structured Data (Global) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BIM Takeoff",
+  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
+  "url": "https://robertkowalski1974.github.io/bimtakeoff-website",
+  "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "telephone": "+44-20-3239-9967",
+  "email": "info@bimtakeoff.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "GB"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    {
+      "@type": "Country",
+      "name": "Poland"
+    }
+  ],
+  "serviceType": [
+    "BIM 5D Cost Estimation",
+    "Quantity Surveying",
+    "Construction Cost Consulting",
+    "Automated Quantity Takeoff",
+    "BIM Coordination Services"
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "20"
+  }
+}
+</script>
+
+
+<link rel="stylesheet" href="../css/styles.css">
+<meta property="og:title" content="BIM Takeoff - Construction Data Management | ISO 19650 | BIM Takeoff">
+<meta property="og:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+<meta property="og:image" content="https://robertkowalski1974.github.io/bimtakeoff-website/services/images/BIM TAKEOFF V2-2.jpg">
+<meta property="og:site_name" content="BIM Takeoff">
+<meta property="og:locale" content="en_GB">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">BIM Takeoff</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Services</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+        <li>
+    <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
+ <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
+ <span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+ <span class="dropdown-text">Automated Quantity Takeoff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/fast-track-cost-control.html">
+ <span class="dropdown-text">Fast-Track Cost Control</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+ <span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
+ <span class="dropdown-text">MEP Infrastructure Precision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/multi-scenario-analysis.html">
+ <span class="dropdown-text">Multi-Scenario Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/comprehensive-reporting.html">
+ <span class="dropdown-text">Comprehensive Reporting</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/bid-writing-management.html">
+ <span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+ <span class="dropdown-text">Traditional Quantity Takeoff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/construction-data-management.html">
+ <span class="dropdown-text">Construction Data Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../services/construction-logistics.html">
+ <span class="dropdown-text">Construction Logistics</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Industries</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-industries">    
+        <li>
+    <a class="dropdown-item" href="../industries/warehouses-logistics.html">
+ <span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/data-centers.html">
+ <span class="dropdown-text">Data Centers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/residential-development.html">
+ <span class="dropdown-text">Residential Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/remediation.html">
+ <span class="dropdown-text">Remediation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/commercial-development.html">
+ <span class="dropdown-text">Commercial Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/housing-associations.html">
+ <span class="dropdown-text">Housing Associations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/healthcare-medical.html">
+ <span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/industrial-manufacturing.html">
+ <span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../industries/infrastructure-civil.html">
+ <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../coming-soon.html"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../coming-soon.html">
+ <span class="dropdown-text">ROI Calculator</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../coming-soon.html">
+ <span class="dropdown-text">Case Studies</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../pl/"> 
+<span class="menu-text">PL</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Construction Data Management | ISO 19650 | BIM Takeoff</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="hero-section">
+<div class="hero-video-bg">
+<p><video autoplay="" muted="" loop="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="container">
+<section id="construction-data-management-iso-19650-compliance" class="level1 hero-title">
+<h1>Construction Data Management &amp; ISO 19650 Compliance</h1>
+<section id="transform-information-chaos-into-strategic-asset" class="level3">
+<h3 class="anchored" data-anchor-id="transform-information-chaos-into-strategic-asset">Transform Information Chaos Into Strategic Asset</h3>
+</section>
+</section>
+<div class="hero-subtitle">
+<p>ISO 19650 compliant information management.<br>
+From tender through handover and beyond.</p>
+</div>
+<div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 Compliance</strong> - UK BIM Framework adherence
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Setup &amp; Management</strong> - Structured data environments
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Full lifecycle information management
+</p>
+</div>
+</div>
+<div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../contact.html" class="cta-primary">Request Consultation</a> <a href="../coming-soon.html" class="cta-secondary">View CDE Solutions</a></p>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="why-data-management-matters-more-than-ever" class="level2">
+<h2 class="anchored" data-anchor-id="why-data-management-matters-more-than-ever">Why Data Management Matters More Than Ever</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
+<section id="the-cost-of-information-failure" class="level3" style="">
+<h3 class="anchored" data-anchor-id="the-cost-of-information-failure">The Cost of Information Failure</h3>
+<p>Poor data management creates expensive problems:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 5-15% project time wasted finding information
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rework from using wrong document versions
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Compliance failures (Building Safety Act, Golden Thread)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Incomplete handover information
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> O&amp;M manuals missing critical data
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Legal exposure from poor records
+</p>
+</div>
+<section id="regulatory-imperative" class="level4 callout-box" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
+<h4 class="anchored" data-anchor-id="regulatory-imperative">Regulatory Imperative</h4>
+<blockquote class="blockquote">
+<p>“The Building Safety Act 2022 and Golden Thread requirements make structured information management a legal necessity for high-risk buildings. Poor data management is no longer just inefficient - it’s illegal.”</p>
+</blockquote>
+</section>
+</section>
+<section id="our-information-management-solution" class="level3" style="">
+<h3 class="anchored" data-anchor-id="our-information-management-solution">Our Information Management Solution</h3>
+<p>ISO 19650 compliant, lifecycle-focused data management:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 compliance</strong> - UK BIM Framework adherence
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Structured CDE</strong> - Everyone finds information instantly
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Version control</strong> - No more wrong-drawing mistakes
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread ready</strong> - Building Safety Act compliance
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Digital handover</strong> - Complete, structured O&amp;M data
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit trail</strong> - Full lifecycle documentation
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="our-comprehensive-data-management-services" class="level2">
+<h2 class="anchored" data-anchor-id="our-comprehensive-data-management-services">Our Comprehensive Data Management Services</h2>
+<section id="end-to-end-information-management" class="level3" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
+<h3 class="anchored" data-anchor-id="end-to-end-information-management">End-to-End Information Management</h3>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
+<section id="bim-strategy-eir" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="bim-strategy-eir"><i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>BIM Strategy &amp; EIR</h4>
+<p><strong>Information Requirements</strong></p>
+<ul>
+<li>Employer’s Information Requirements (EIR)</li>
+<li>BIM Execution Plan (BEP) preparation</li>
+<li>Information delivery schedules</li>
+<li>Level of Information Need definitions</li>
+<li>Data drop specifications</li>
+<li>Task Team mobilization plans</li>
+</ul>
+<p><strong>Deliverable:</strong> ISO 19650-compliant documentation suite</p>
+</section>
+<section id="cde-implementation" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="cde-implementation"><i class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>CDE Implementation</h4>
+<p><strong>Common Data Environment</strong></p>
+<ul>
+<li>Platform selection (BIM 360, Asite, 4Projects)</li>
+<li>Folder structure and naming conventions</li>
+<li>Workflow configuration</li>
+<li>Permission and access control</li>
+<li>Integration with existing systems</li>
+<li>User training and onboarding</li>
+</ul>
+<p><strong>Deliverable:</strong> Fully operational CDE with trained users</p>
+</section>
+<section id="data-coordination" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="data-coordination"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Coordination</h4>
+<p><strong>Information Management</strong></p>
+<ul>
+<li>Model coordination (clash detection)</li>
+<li>Drawing register maintenance</li>
+<li>Version control management</li>
+<li>Design development tracking</li>
+<li>RFI and query management</li>
+<li>Change order documentation</li>
+</ul>
+<p><strong>Deliverable:</strong> Coordinated, clash-free information</p>
+</section>
+<section id="quality-assurance" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="quality-assurance"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Quality Assurance</h4>
+<p><strong>Information Validation</strong></p>
+<ul>
+<li>Model quality checks (LOD verification)</li>
+<li>Data completeness validation</li>
+<li>Naming convention compliance</li>
+<li>Metadata verification</li>
+<li>Clash detection and resolution</li>
+<li>Information container reviews</li>
+</ul>
+<p><strong>Deliverable:</strong> Quality-assured information containers</p>
+</section>
+<section id="digital-handover" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="digital-handover"><i class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Digital Handover</h4>
+<p><strong>Asset Information Model</strong></p>
+<ul>
+<li>As-built model validation</li>
+<li>O&amp;M manual compilation</li>
+<li>Asset register creation</li>
+<li>COBie data delivery</li>
+<li>CAFM system population</li>
+<li>Warranty and certification collection</li>
+</ul>
+<p><strong>Deliverable:</strong> Complete digital Asset Information Model (AIM)</p>
+</section>
+<section id="golden-thread" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="golden-thread"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread</h4>
+<p><strong>Building Safety Act Compliance</strong></p>
+<ul>
+<li>HRB (High-Risk Building) information</li>
+<li>Safety case documentation</li>
+<li>Change control procedures</li>
+<li>Resident engagement information</li>
+<li>Building control submission documentation</li>
+<li>Gateway submission support</li>
+</ul>
+<p><strong>Deliverable:</strong> Compliant Golden Thread of information</p>
+</section>
+</div>
+<div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
+<p><strong>Scalable services: Select individual elements or comprehensive lifecycle information management.</strong></p>
+</div>
+</section>
+</section>
+</div>
+<section id="our-proven-6-step-data-management-process" class="level2">
+<h2 class="anchored" data-anchor-id="our-proven-6-step-data-management-process">Our Proven 6-Step Data Management Process</h2>
+<div class="process-steps">
+<section id="step-1-information-requirements-definition" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-1-information-requirements-definition">Step 1: Information Requirements Definition</h4>
+<p><strong>Duration:</strong> 1-2 weeks</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Review project scope and client objectives</li>
+<li>Define Employer’s Information Requirements (EIR)</li>
+<li>Establish Level of Information Need</li>
+<li>Create information delivery schedule</li>
+<li>Define data drop requirements</li>
+<li>Prepare appointment documents</li>
+</ul>
+<p><strong>What You Receive:</strong> Comprehensive EIR and information protocols</p>
+</section>
+<section id="step-2-bim-execution-planning" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-2-bim-execution-planning">Step 2: BIM Execution Planning</h4>
+<p><strong>Duration:</strong> 2-3 weeks</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Mobilize Task Team responses to EIR</li>
+<li>Develop pre-appointment BEP</li>
+<li>Coordinate Task Information Delivery Plans (TIDP)</li>
+<li>Establish information production methods</li>
+<li>Define quality assurance procedures</li>
+<li>Finalize post-appointment BEP</li>
+</ul>
+<p><strong>What You Receive:</strong> Agreed BIM Execution Plan (BEP)</p>
+</section>
+<section id="step-3-cde-setup-configuration" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-3-cde-setup-configuration">Step 3: CDE Setup &amp; Configuration</h4>
+<p><strong>Duration:</strong> 2-4 weeks</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Select and procure CDE platform</li>
+<li>Configure folder structures and workflows</li>
+<li>Implement naming conventions</li>
+<li>Set up access permissions and security</li>
+<li>Integrate with project systems</li>
+<li>Conduct user training sessions</li>
+</ul>
+<p><strong>What You Receive:</strong> Operational Common Data Environment</p>
+</section>
+<section id="step-4-ongoing-information-management" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-4-ongoing-information-management">Step 4: Ongoing Information Management</h4>
+<p><strong>Duration:</strong> Throughout project lifecycle</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Maintain document registers and logs</li>
+<li>Coordinate information exchanges</li>
+<li>Conduct quality checks on submissions</li>
+<li>Manage model coordination and clash detection</li>
+<li>Support data drop preparations</li>
+<li>Facilitate information reviews</li>
+</ul>
+<p><strong>What You Receive:</strong> Continuous information management support</p>
+</section>
+<section id="step-5-digital-handover-preparation" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-5-digital-handover-preparation">Step 5: Digital Handover Preparation</h4>
+<p><strong>Duration:</strong> 6-12 weeks before practical completion</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Compile as-built information</li>
+<li>Validate model accuracy (vs as-built)</li>
+<li>Prepare O&amp;M manuals and documentation</li>
+<li>Create asset registers and COBie data</li>
+<li>Collect warranties and certificates</li>
+<li>Prepare Asset Information Model (AIM)</li>
+</ul>
+<p><strong>What You Receive:</strong> Complete digital handover package</p>
+</section>
+<section id="step-6-post-occupancy-support" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="step-6-post-occupancy-support">Step 6: Post-Occupancy Support</h4>
+<p><strong>Duration:</strong> Ongoing (optional)</p>
+<p><strong>What We Do:</strong></p>
+<ul>
+<li>Transition AIM to facilities management</li>
+<li>Provide CAFM system support</li>
+<li>Update information for changes</li>
+<li>Maintain Golden Thread documentation</li>
+<li>Support building safety compliance</li>
+<li>Enable asset lifecycle management</li>
+</ul>
+<p><strong>What You Receive:</strong> Sustained information value through operations</p>
+</section>
+</div>
+<div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
+<p><strong>Project Lifecycle:</strong> Tender → Design → Construction → Handover → Operations</p>
+</div>
+</section>
+<section id="iso-19650-uk-bim-framework-compliance" class="level2">
+<h2 class="anchored" data-anchor-id="iso-19650-uk-bim-framework-compliance">ISO 19650 &amp; UK BIM Framework Compliance</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;">
+<section id="standards-we-implement" class="level3" style="">
+<h3 class="anchored" data-anchor-id="standards-we-implement">Standards We Implement</h3>
+<p>Full compliance with UK and international standards:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-1</strong> - Concepts and principles
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-2</strong> - Delivery phase
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-3</strong> - Operational phase
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-5</strong> - Security-minded approach
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BS EN 17412-1</strong> - Level of Information Need
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>UK BIM Framework</strong> - v3 guidance
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act 2022</strong> - Golden Thread
+</p>
+</div>
+</section>
+<section id="data-exchange-formats" class="level3" style="">
+<h3 class="anchored" data-anchor-id="data-exchange-formats">Data Exchange Formats</h3>
+<p>We work with all major industry formats:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>IFC</strong> - Open BIM standard (IFC2x3, IFC4)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BCF</strong> - BIM Collaboration Format (issue tracking)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>COBie</strong> - Construction Operations Building information exchange
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Native Formats</strong> - Revit, ArchiCAD, Tekla, Navisworks
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF/A</strong> - Long-term archival formats
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Excel/CSV</strong> - Data schedules and registers
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="cde-platforms-we-support" class="level2">
+<h2 class="anchored" data-anchor-id="cde-platforms-we-support">CDE Platforms We Support</h2>
+<div class="feature-grid">
+<section id="autodesk-platforms" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="autodesk-platforms"><i class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Autodesk Platforms</h3>
+<p>BIM 360, Autodesk Construction Cloud (ACC), Collaboration for Revit</p>
+</section>
+<section id="uk-market-leaders" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="uk-market-leaders"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Market Leaders</h3>
+<p>Asite, 4Projects, Viewpoint, Causeway, BIW Technologies</p>
+</section>
+<section id="international-solutions" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="international-solutions"><i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Solutions</h3>
+<p>Trimble Connect, Bentley ProjectWise, Oracle Aconex, Procore</p>
+</section>
+<section id="open-source-options" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="open-source-options"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Open-Source Options</h3>
+<p>SharePoint with custom workflows, Alfresco, self-hosted solutions</p>
+</section>
+</div>
+</section>
+<section id="whats-included-in-our-data-management-services" class="level2">
+<h2 class="anchored" data-anchor-id="whats-included-in-our-data-management-services">What’s Included in Our Data Management Services</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;">
+<section id="core-deliverables" class="level3" style="">
+<h3 class="anchored" data-anchor-id="core-deliverables">Core Deliverables</h3>
+<p>Every data management engagement includes:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Information Requirements</strong> (EIR, BEP, TIDP)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Configuration</strong> (structure, workflows, permissions)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Naming Conventions</strong> (BS 1192, Uniclass 2015)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Quality Assurance</strong> (model checks, data validation)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>User Training</strong> (team onboarding and support)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Documentation</strong> (procedures, standards, templates)
+</p>
+</div>
+</section>
+<section id="optional-enhancements" class="level3" style="">
+<h3 class="anchored" data-anchor-id="optional-enhancements">Optional Enhancements</h3>
+<p>Extend your information management:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dedicated Information Manager</strong> - Full-time resource
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Model Coordination Services</strong> - Weekly clash detection
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread Compliance</strong> - Building Safety Act support
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CAFM Integration</strong> - Link to FM systems (Maximo, Archibus)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Data Migration</strong> - Legacy system transfers
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit Services</strong> - ISO 19650 compliance audits
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Occupancy Support</strong> - Ongoing FM data management
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="frequently-asked-questions" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
+<div class="faq-section">
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: Do we really need ISO 19650 compliance for our project?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: For UK public sector projects, yes - it’s mandatory. For private projects, it’s highly recommended and increasingly expected by clients. Benefits include: reduced information risk, better handover quality, legal protection, and improved project outcomes. For high-risk buildings (HRBs), compliance is legally required under the Building Safety Act 2022.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: What’s the difference between a CDE and just using SharePoint or Dropbox?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customization. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: When should we start information management on a project?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: Ideally at tender stage or project inception. Early engagement allows us to shape the EIR, establish proper foundations, and train teams before problems arise. Mid-project rescue is possible but more challenging and expensive. Golden rule: start information management before design teams start producing information.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: Can you help with Building Safety Act compliance and Golden Thread?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: Yes! We specialize in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support. We’ve worked on multiple Gateway 2 and Gateway 3 submissions.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: What if our design team already has a CDE? Do we still need your help?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: We can still add value through: EIR development, information coordination across Task Teams, quality assurance, model federation, clash detection, handover preparation, and ensuring ISO 19650 compliance. Many projects have multiple CDEs (designer, contractor, client) requiring coordination - we manage these interfaces.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: How much does information management cost?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: Depends on project size and service scope. Setup (EIR, BEP, CDE config) for a £10M project: £15K-25K. Part-time Information Manager support: £3K-5K/month. Full-time dedicated resource: £6K-10K/month. Golden Thread services: £20K-50K depending on building complexity. Investment typically saves 2-5x through reduced rework and better project outcomes.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: Can you take over information management mid-project if things aren’t working?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: Yes, we do project rescues regularly. We’ll assess current situation, identify gaps, implement remedial actions, establish proper processes, and bring project back to compliant state. Most mid-project issues stem from poor initial setup or inadequate resources. Timeline for rescue: 4-8 weeks depending on mess level.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: What happens to the data after project handover?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: We prepare complete Asset Information Model (AIM) containing all as-built information, O&amp;M manuals, warranties, and asset data. This transitions to the client’s facilities management system (CAFM) or is maintained in a dedicated operational CDE. We can provide ongoing support for FM data updates, ensuring the Golden Thread continues through building operations.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>Q: Do you provide training for our internal team?</strong></p>
+</div>
+<div class="faq-answer">
+<p>A: Yes! Training is essential for successful adoption. We provide: CDE user training (basic and advanced), Information Manager workshops, ISO 19650 awareness sessions, BEP development training, and custom sessions for specific roles (designers, contractors, FM teams). Training can be on-site or virtual, with materials and ongoing support included.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ready-for-professional-information-management" class="level2">
+<h2 class="anchored" data-anchor-id="ready-for-professional-information-management">Ready for Professional Information Management?</h2>
+<div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
+<div style="max-width: 800px; margin: 0 auto;">
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;" class="anchored">
+Transform Data Chaos Into Strategic Advantage
+</h2>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
+ISO 19650 compliant information management from experts who understand construction.
+</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Request Consultation
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Discuss your information needs
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+See CDE Examples
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Review implementation case studies
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Get Quote
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Scoped proposal within 3 days
+</p>
+</div>
+</div>
+<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../contact.html" class="cta-primary">Request Consultation</a> <a href="../coming-soon.html" class="cta-secondary">View Examples</a> <a href="../contact.html" class="cta-secondary">Get Quote</a></p>
+</div>
+<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Certified Specialists</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Compliant</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>CDE Platform Agnostic</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
+</p>
+</div>
+</div>
+</div>
+<section id="need-help-now" class="level3" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
+<h3 class="anchored" data-anchor-id="need-help-now">Need Help Now?</h3>
+<p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Office Hours:</strong> Monday-Friday, 9:00-17:00 CET</p>
+</section>
+<p>:::</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 BIM Takeoff. All rights reserved.<br> Professional BIM 5D Cost Estimation Services</p>
+</div>   
+    <div class="nav-footer-center">
+<p><strong>Quick Links</strong><br> <a href="privacy-policy.qmd">Privacy Policy</a> | <a href="terms-of-service.qmd">Terms of Service</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><strong>Contact</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+</div>
+  </div>
+</footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Scroll Effects & Animations -->
+<script src="../js/scroll-effects.js"></script>
+<!-- Polish Navbar Translation (activated only on /pl/ pages) -->
+<script src="../js/polish-navbar.js"></script>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

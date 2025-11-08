@@ -1,0 +1,633 @@
+---
+title: "Industrial & Manufacturing Cost Estimation | Factory & Plant BIM 5D | BIM Takeoff"
+page-layout: full
+description: "Professional industrial facility cost estimation. Manufacturing plants, production facilities, processing centers. Heavy MEP, structural loads, process integration. 5-10 day turnaround with ±3-5% accuracy."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Industrial & Manufacturing Facilities
+### Precision Costing for Production Infrastructure
+:::
+
+::: {.hero-subtitle}
+From Light Assembly to Heavy Manufacturing & Processing Plants.  
+Delivered in 5-10 days with ±3-5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Industrial Expertise</strong> - Heavy loads, process integration, service demands</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Manufacturing Focus</strong> - Production flow, material handling, utilities</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience</strong> - UK, EU & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Industrial Facilities: Complex Production Infrastructure
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Industrial construction faces unique structural and operational demands:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Heavy structural loads** - Machinery, cranes, storage systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Process integration** - Production flow & material handling</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Heavy MEP demands** - Power, compressed air, process utilities</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Environmental controls** - Temperature, humidity, clean rooms</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Operational constraints** - Phasing around production schedules</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "Industrial facilities require 30-40% higher structural capacity than commercial buildings, with MEP systems accounting for 35-45% of total costs. Traditional estimation often underestimates process integration complexity, foundation requirements, and service infrastructure demands, leading to significant budget overruns."
+:::
+:::
+
+::: {style=""}
+### Our Industrial Solution
+
+Specialized 5D BIM for manufacturing and production infrastructure:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Heavy load analysis** - Structural capacity for machinery</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Process utilities** - Compressed air, process water, waste systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Material handling** - Crane systems, conveyors, loading bays</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Production flow** - Layout optimization & operational efficiency</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Comprehensive industrial experience** across UK, EU, Australia
+- **Major manufacturing projects** successfully delivered
+- **Average 7 days** from BIM model to detailed estimate
+- **±3-5% accuracy** on complex industrial systems
+:::
+:::
+
+:::
+
+## Industrial-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Heavy Structure Design
+
+**High-Load Capacity Analysis**
+
+Expertise in:
+- Heavy machinery foundations
+- Overhead crane support structures
+- Mezzanine & storage platforms
+- Reinforced floor slabs (300+ kg/sqm)
+- Vibration isolation systems
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-plugin" style="color: var(--bim-orange); margin-right: 12px;"></i>Process Utilities
+
+**Production Support Systems**
+
+Complete costing for:
+- Compressed air systems
+- Process water & treatment
+- Waste & drainage systems
+- Chemical storage & handling
+- Emergency shutdown systems
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Heavy Power Infrastructure
+
+**High-Demand Electrical Systems**
+
+Analysis of:
+- High-voltage distribution
+- Motor control centers
+- Transformer substations
+- Backup generators
+- Power factor correction
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-arrows-move" style="color: var(--bim-orange); margin-right: 12px;"></i>Material Handling
+
+**Production Flow Systems**
+
+Detailed costing for:
+- Overhead crane systems
+- Conveyor installations
+- Automated guided vehicles (AGV)
+- Loading dock facilities
+- Storage & retrieval systems
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-thermometer-snow" style="color: var(--bim-orange); margin-right: 12px;"></i>Environmental Control
+
+**Process Climate Management**
+
+Specialized systems including:
+- Industrial HVAC & ventilation
+- Clean room installations
+- Temperature & humidity control
+- Dust & fume extraction
+- Hazardous area ventilation
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-hammer" style="color: var(--bim-orange); margin-right: 12px;"></i>Production Integration
+
+**Operational Continuity Planning**
+
+Strategic analysis of:
+- Phased construction delivery
+- Production downtime minimization
+- Temporary services provision
+- Commissioning schedules
+- Equipment installation sequences
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+:::
+
+## Industrial Project Types
+
+::: {style="margin: 48px 0;"}
+### Understanding Manufacturing Facility Complexity
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Light Manufacturing
+**Size:** 2,000-5,000 sqm  
+**Type:** Assembly & light production  
+**Complexity:** Medium  
+**Timeline:** 5-6 days  
+**Typical Cost:** £1,200-1,800/sqm
+
+**Characteristics:**
+- Standard industrial portal frames
+- Moderate floor loading (300-500 kg/sqm)
+- Basic 3-phase power
+- Standard HVAC & lighting
+- Loading docks & yard space
+- Office & amenity areas
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Heavy Manufacturing
+**Size:** 5,000-20,000 sqm  
+**Type:** Metal working & fabrication  
+**Complexity:** High  
+**Timeline:** 7-9 days  
+**Typical Cost:** £1,800-2,800/sqm
+
+**Characteristics:**
+- Reinforced structures
+- High floor loads (500-1,000+ kg/sqm)
+- Overhead crane systems (5-50 tonne)
+- Heavy power distribution
+- Compressed air & process utilities
+- Environmental controls
+- Waste treatment systems
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Process & Pharmaceutical
+**Size:** 5,000-30,000+ sqm  
+**Type:** Food, pharma, chemical processing  
+**Complexity:** Very High  
+**Timeline:** 9-10 days  
+**Typical Cost:** £2,500-4,500/sqm
+
+**Characteristics:**
+- Clean room environments
+- Controlled temperature/humidity
+- Process piping & vessels
+- Automated material handling
+- Quality control labs
+- Strict regulatory compliance
+- Extensive MEP integration
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Industrial Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Heavy Manufacturing Breakdown (per sqm)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Structure & Envelope (35-40%)
+- Heavy-duty foundations: £180-280/sqm
+- Steel portal frame/columns: £280-420/sqm
+- Reinforced floor slabs: £220-350/sqm
+- Industrial cladding/roofing: £180-280/sqm
+- Crane runway beams: £120-200/sqm
+- **Subtotal:** £980-1,530/sqm
+:::
+
+::: {style=""}
+#### MEP Services (35-40%)
+- Heavy electrical distribution: £280-420/sqm
+- Compressed air systems: £120-180/sqm
+- Process water & drainage: £100-160/sqm
+- Industrial HVAC/extraction: £180-280/sqm
+- Fire protection systems: £80-140/sqm
+- **Subtotal:** £760-1,180/sqm
+:::
+
+::: {style=""}
+#### Material Handling (10-15%)
+- Overhead crane systems: £180-300/sqm
+- Conveyor installations: £80-140/sqm
+- Loading dock equipment: £40-80/sqm
+- Storage systems: £60-100/sqm
+- **Subtotal:** £360-620/sqm
+:::
+
+::: {style=""}
+#### Other Elements (15-20%)
+- Office & amenity areas: £140-220/sqm
+- External works & yard: £100-160/sqm
+- Environmental controls: £80-140/sqm
+- Preliminaries (10-12%): £220-340/sqm
+- Contingency (5-8%): £120-200/sqm
+- **Subtotal:** £660-1,060/sqm
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £2,760-4,390/sqm</h3>
+<p style="color: #FFFFFF; font-style: italic;">(Heavy manufacturing standard, excluding land, fees, and production equipment)</p>
+
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Production process requirements</li>
+<li>Floor loading & crane capacity</li>
+<li>Power density & distribution</li>
+<li>Environmental control complexity</li>
+<li>Material handling systems</li>
+<li>Regulatory compliance level</li>
+</ul>
+:::
+:::
+
+## Our Industrial Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Review & Process Analysis
+
+**Day 1-2 (6-8 hours)**
+
+**What We Do:**
+- Review BIM model (IFC/Revit) or 2D drawings
+- Analyze production process requirements
+- Assess structural loading demands
+- Identify material handling systems
+- Review utility & service requirements
+
+**Client Provides:**
+- Architectural & structural layouts
+- Production flow diagrams
+- Machinery load schedules
+- MEP service requirements
+- Site infrastructure details
+
+**Output:** Project plan with process integration review
+:::
+
+::: {.process-step}
+#### Structural System Quantification
+
+**Days 2-4**
+
+**What We Do:**
+- Quantify heavy-duty foundations
+- Calculate steel frame requirements
+- Measure reinforced floor slabs
+- Count crane support structures
+- Assess loading dock facilities
+
+**Technology:**
+- BIM 5D structural extraction
+- Load capacity verification
+- Foundation design analysis
+- Material optimization
+
+**Output:** Complete structural BOQ
+:::
+
+::: {.process-step}
+#### MEP & Utilities Analysis
+
+**Days 3-6**
+
+**What We Do:**
+- Quantify electrical distribution
+- Calculate process utilities (air, water)
+- Measure industrial HVAC systems
+- Count extraction & ventilation
+- Assess fire protection requirements
+
+**Coverage:**
+- Production floor services
+- Support area utilities
+- External infrastructure
+- Emergency systems
+- Environmental controls
+
+**Output:** MEP systems quantity take-off
+:::
+
+::: {.process-step}
+#### Material Handling & Equipment
+
+**Days 4-7**
+
+**What We Do:**
+- Cost overhead crane systems
+- Calculate conveyor installations
+- Quantify storage systems
+- Assess loading equipment
+- Measure access platforms
+
+**Integration:**
+- Production flow optimization
+- Equipment installation sequences
+- Structural interface coordination
+- Service connection planning
+
+**Output:** Material handling cost analysis
+:::
+
+::: {.process-step}
+#### Cost Application & Modeling
+
+**Days 6-8**
+
+**What We Do:**
+- Apply industrial-specific rates
+- Factor in heavy load premiums
+- Calculate process integration costs
+- Include commissioning requirements
+- Model alternative scenarios
+- Add contingency (8-12%)
+
+**Database Sources:**
+- Industrial construction benchmarks
+- Heavy equipment specialists
+- Process engineering contractors
+- Recent manufacturing projects
+
+**Output:** Detailed cost estimate by system
+:::
+
+::: {.process-step}
+#### Quality Review & Presentation
+
+**Days 8-10**
+
+**What We Do:**
+- Structural engineering peer review
+- Process integration verification
+- Load capacity confirmation
+- Benchmark comparison
+- Risk assessment
+
+**Deliverables:**
+- Executive summary (3-5 pages)
+- Cost breakdown by zone/system
+- Structural & MEP BOQ
+- Material handling schedule
+- Alternative scenarios
+- Risk register
+
+**Format:** PDF + Excel workbooks
+
+**Support:** 60 days post-delivery included
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 7-10 working days from BIM model receipt to final report  
+**Express Service:** Available for urgent projects (5-7 days) at 25% premium
+:::
+
+## Why Choose BIM Takeoff for Industrial Projects?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Industrial Expertise
+- **Comprehensive experience** in manufacturing facilities
+- **Heavy industry projects** delivered successfully
+- **Process integration** understanding
+- **3 markets** (UK, EU, Australia)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Structural Focus
+- **Heavy load** analysis expertise
+- **Crane systems** cost modeling
+- **Foundation design** optimization
+- **Material handling** integration
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Accuracy
+- **±3-5% accuracy** on industrial systems
+- **Process-integrated** cost modeling
+- **Load-verified** structural estimates
+- **Risk-adjusted** contingencies
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Rapid Delivery
+- **7-10 days** typical turnaround
+- **5-7 days** express service
+- **Same-day** change analysis
+- **85% faster** than traditional
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Technology Advantage
+- **5D BIM** workflows
+- **Automated** quantity extraction
+- **Real-time** cost updates
+- **Process flow** modeling
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Quality Assurance
+- **Structural peer review** included
+- **Process integration** verification
+- **Benchmark comparison** validation
+- **60-day support** period
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What makes industrial estimation different from commercial construction?**
+:::
+::: {.faq-answer}
+A: Industrial facilities require 30-40% higher structural capacity due to machinery loads, overhead cranes (up to 50+ tonnes), and heavy floor loading (500-1,000+ kg/sqm). MEP systems are more complex with process utilities (compressed air, process water, waste treatment) and power demands 3-5x higher than commercial buildings. Traditional estimation often underestimates these specialized requirements.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate facilities with overhead crane systems?**
+:::
+::: {.faq-answer}
+A: Yes, we have extensive experience costing overhead crane installations from 5-tonne jib cranes to 50+ tonne bridge cranes. Our estimates include crane runway beams, support structures, electrical distribution, controls, and installation complexity. We verify structural capacity requirements with the crane specifications.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle heavy floor loading requirements?**
+:::
+::: {.faq-answer}
+A: We systematically analyze floor loading zones and design appropriate foundation and slab systems. For loads exceeding 500 kg/sqm, we calculate reinforcement requirements, thicker slabs, and enhanced foundation systems. Our structural cost modeling accounts for machinery vibration isolation where required.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you cost process utility systems like compressed air?**
+:::
+::: {.faq-answer}
+A: Absolutely. We quantify all process utilities including compressed air generation & distribution, process water systems, waste treatment, chemical storage, and specialized drainage. Our estimates reflect industrial-grade specifications and the complexity of integrating utilities with production equipment.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include production equipment in estimates?**
+:::
+::: {.faq-answer}
+A: We focus on building fabric, structural systems, MEP infrastructure, and material handling equipment (cranes, conveyors). Production machinery is typically excluded but we include all building modifications required for equipment installation (foundations, services connections, access platforms). We clarify scope boundaries at project start.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you model phased construction to minimize production downtime?**
+:::
+::: {.faq-answer}
+A: Yes, we regularly prepare phased delivery estimates that minimize operational disruption. We can model construction sequences, temporary services, partial facility operation, and the cost impact of working around active production areas. This is critical for facility expansions and modernization projects.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you assess the cost of adding crane capacity?**
+:::
+::: {.faq-answer}
+A: For facility upgrades like adding crane systems or increasing capacity, we can typically provide costs within 3-4 days. This includes structural modifications, crane equipment, electrical distribution, and installation complexity. Our 5D BIM workflow allows rapid assessment of modification impacts.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for industrial projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on facility type, size, and complexity. As a guide:
+- Light manufacturing (2,000-5,000 sqm): £8,000-15,000
+- Heavy manufacturing (5,000-15,000 sqm): £15,000-28,000
+- Large industrial (15,000-30,000 sqm): £28,000-45,000
+- Process/pharmaceutical (any size): Premium pricing due to complexity
+
+Express service carries a 25% premium. Contact us for a specific quote.
+:::
+:::
+:::
+
+## Ready to Estimate Your Industrial Project?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Underestimating Heavy Industry Complexity</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the structural and process integration expertise your manufacturing project demands. Proven heavy industry experience across UK, EU & Australia.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your production requirements with our specialists</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Free 30-minute industrial project review</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Heavy Load Structural Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Process Integration Specialists</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-10 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3-5% Accuracy on Industrial Systems</strong></p>
+:::
+:::
+:::
+
+:::

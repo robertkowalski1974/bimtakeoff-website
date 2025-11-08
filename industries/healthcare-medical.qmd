@@ -1,0 +1,631 @@
+---
+title: "Healthcare & Medical Facilities Cost Estimation | Hospital BIM 5D | BIM Takeoff"
+page-layout: full
+description: "Professional healthcare facility cost estimation. Hospitals, clinics, surgical centers, aged care. Complex MEP systems, infection control standards. 5-10 day turnaround with ±3-5% accuracy."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Healthcare & Medical Facilities
+### Precision Costing for Life-Critical Infrastructure
+:::
+
+::: {.hero-subtitle}
+From Community Clinics to Major Hospitals & Surgical Centers.  
+Delivered in 5-10 days with ±3-5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Healthcare Expertise</strong> - Complex MEP & infection control systems</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Clinical Standards</strong> - HTM compliance & specialized equipment</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience</strong> - UK, EU & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Healthcare Facilities: Life-Critical Complexity
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Healthcare construction faces unique regulatory and operational demands:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Infection control** - Stringent HVAC & material specifications</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Medical gas systems** - Complex piping & safety requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **HTM compliance** - Technical memoranda standards (UK)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Operational continuity** - 24/7 service requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost pressure** - Budget constraints vs quality care</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "Healthcare facilities cost 40-60% more than comparable commercial buildings due to specialized MEP systems, infection control requirements, and regulatory compliance. Traditional estimation often underestimates clinical engineering complexity, risking budget overruns that delay patient care delivery."
+:::
+:::
+
+::: {style=""}
+### Our Healthcare Solution
+
+Specialized 5D BIM for medical and healthcare infrastructure:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **HTM compliance** - UK Health Technical Memoranda standards</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Medical gas expertise** - Complex piping & equipment systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Infection control** - HVAC filtration & pressure requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Clinical equipment** - Specialized installations & connections</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Comprehensive healthcare experience** across UK, EU, Australia
+- **Major hospital projects** successfully delivered
+- **Average 7 days** from BIM model to detailed estimate
+- **±3-5% accuracy** on complex medical systems
+:::
+:::
+
+:::
+
+## Healthcare-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-heart-pulse" style="color: var(--bim-orange); margin-right: 12px;"></i>Medical MEP Systems
+
+**Clinical Engineering Focus**
+
+Detailed analysis of:
+- Medical gas systems (O2, N2O, vacuum)
+- HVAC with HEPA filtration
+- Pressure cascades & isolation
+- Nurse call & BMS integration
+- Emergency power & UPS
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>HTM Compliance
+
+**UK Health Technical Memoranda**
+
+Expert knowledge of:
+- HTM 03-01 (Ventilation)
+- HTM 02-01 (Medical gas)
+- HTM 08-03 (Fire safety)
+- HTM 07-02 (EnCO2de)
+- HTM 06 (Electrical services)
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-wind" style="color: var(--bim-orange); margin-right: 12px;"></i>Infection Control
+
+**HVAC & Material Standards**
+
+Specialized costing for:
+- Operating theater ventilation
+- Isolation room requirements
+- Clean room classifications
+- Antimicrobial surfaces
+- Seamless flooring systems
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Clinical Equipment
+
+**Specialized Installations**
+
+Cost analysis including:
+- Imaging equipment foundations
+- Surgical lighting & pendants
+- Sterilization equipment
+- Laboratory fit-out
+- Diagnostic equipment prep
+
+[Learn More →](../services/trade-specific-specialist-services.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Operational Planning
+
+**24/7 Facility Requirements**
+
+Planning for:
+- Phased construction delivery
+- Operational impact analysis
+- Decant space requirements
+- Service continuity planning
+- Commissioning schedules
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Delivery
+
+**Urgent Healthcare Projects**
+
+Rapid estimation for:
+- Emergency department expansions
+- COVID-19 response facilities
+- Urgent care centers
+- Modular healthcare units
+- Temporary clinical spaces
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+:::
+
+## Healthcare Project Types
+
+::: {style="margin: 48px 0;"}
+### Understanding Healthcare Facility Complexity
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Community Clinic
+**Size:** 500-2,000 sqm  
+**Type:** Primary care  
+**Complexity:** Medium  
+**Timeline:** 5-6 days  
+**Typical Cost:** £2,800-3,800/sqm
+
+**Characteristics:**
+- GP consultation rooms
+- Basic diagnostic facilities
+- Limited medical gas systems
+- Standard HVAC requirements
+- Reception & waiting areas
+- Pharmacy & treatment rooms
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Day Surgery Center
+**Size:** 2,000-5,000 sqm  
+**Type:** Outpatient surgical  
+**Complexity:** High  
+**Timeline:** 7-8 days  
+**Typical Cost:** £3,500-5,000/sqm
+
+**Characteristics:**
+- 2-6 operating theaters
+- Recovery & pre-op areas
+- Medical gas systems (full)
+- HVAC with HEPA filtration
+- Sterilization department
+- Imaging & diagnostics
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Acute Care Hospital
+**Size:** 10,000-50,000+ sqm  
+**Type:** Full-service hospital  
+**Complexity:** Very High  
+**Timeline:** 9-10 days  
+**Typical Cost:** £4,000-6,500/sqm
+
+**Characteristics:**
+- Multiple operating theaters
+- ICU & HDU departments
+- Emergency department
+- Complex MEP systems
+- Medical imaging suites
+- Laboratory facilities
+- Inpatient wards
+- Central sterilization
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Healthcare Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Acute Hospital Breakdown (per sqm)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### MEP Services (40-50%)
+- HVAC with HEPA & controls: £600-900/sqm
+- Medical gas systems: £400-650/sqm
+- Electrical & backup power: £350-550/sqm
+- Fire protection & alarms: £180-280/sqm
+- BMS & nurse call systems: £220-350/sqm
+- **Subtotal:** £1,750-2,730/sqm
+:::
+
+::: {style=""}
+#### Structure & Envelope (25-30%)
+- Foundations & substructure: £320-480/sqm
+- RC frame & floors: £450-650/sqm
+- External walls & cladding: £300-450/sqm
+- Roofing & waterproofing: £120-180/sqm
+- **Subtotal:** £1,190-1,760/sqm
+:::
+
+::: {style=""}
+#### Internal Fit-Out (15-20%)
+- Clinical finishes & flooring: £280-420/sqm
+- Internal partitions: £180-280/sqm
+- Doors & ironmongery: £150-220/sqm
+- Suspended ceilings: £120-180/sqm
+- Joinery & fixtures: £200-320/sqm
+- **Subtotal:** £930-1,420/sqm
+:::
+
+::: {style=""}
+#### Other Elements (15-20%)
+- Lifts & patient hoists: £150-250/sqm
+- External works: £180-280/sqm
+- Clinical equipment prep: £220-350/sqm
+- Preliminaries (12-15%): £600-900/sqm
+- Contingency (8-10%): £380-580/sqm
+- **Subtotal:** £1,530-2,360/sqm
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £5,400-8,270/sqm</h3>
+<p style="color: #FFFFFF; font-style: italic;">(Acute hospital standard, excluding land, fees, and medical equipment)</p>
+
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Facility type (clinic vs. acute hospital)</li>
+<li>Operating theater count & complexity</li>
+<li>Medical gas system requirements</li>
+<li>HVAC complexity & filtration</li>
+<li>HTM compliance level required</li>
+<li>Clinical equipment integration</li>
+</ul>
+:::
+:::
+
+## Our Healthcare Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Review & Compliance Check
+
+**Day 1-2 (6-8 hours)**
+
+**What We Do:**
+- Review BIM model (IFC/Revit) or 2D drawings
+- Verify clinical department requirements
+- Assess HTM compliance needs
+- Identify medical gas system scope
+- Review infection control specifications
+
+**Client Provides:**
+- Architectural & clinical layouts
+- MEP designs & schematics
+- HTM compliance requirements
+- Medical equipment schedules
+- Room data sheets
+
+**Output:** Project plan with compliance matrix
+:::
+
+::: {.process-step}
+#### Clinical MEP Analysis
+
+**Days 2-5**
+
+**What We Do:**
+- Extract all medical gas systems
+- Quantify HVAC with filtration
+- Calculate electrical & backup power
+- Measure nurse call & BMS infrastructure
+- Verify pressure cascade requirements
+
+**Technology:**
+- BIM 5D MEP extraction
+- Clinical engineering database
+- HTM compliance checking
+- System interdependency analysis
+
+**Output:** Complete MEP quantity take-off
+:::
+
+::: {.process-step}
+#### Clinical Spaces Quantification
+
+**Days 3-6**
+
+**What We Do:**
+- Quantify operating theaters
+- Calculate clinical finishes
+- Measure specialized equipment areas
+- Count fixtures & fittings
+- Assess imaging suite requirements
+
+**Coverage:**
+- Clinical departments
+- Support spaces
+- Back-of-house facilities
+- Patient circulation areas
+- Staff & administrative zones
+
+**Output:** Clinical spaces BOQ
+:::
+
+::: {.process-step}
+#### Cost Application & Analysis
+
+**Days 6-8**
+
+**What We Do:**
+- Apply healthcare-specific rates
+- Factor in HTM compliance premiums
+- Calculate medical gas costs
+- Include infection control measures
+- Add commissioning requirements
+- Apply contingency (8-12%)
+
+**Database Sources:**
+- Healthcare benchmarks (UK/AU)
+- Medical equipment specialists
+- Clinical engineering contractors
+- Recent hospital projects
+
+**Output:** Detailed cost estimate by department
+:::
+
+::: {.process-step}
+#### Quality Review & Reporting
+
+**Days 8-9**
+
+**What We Do:**
+- Clinical engineering peer review
+- HTM compliance verification
+- Medical gas system check
+- Benchmark comparison
+- Risk assessment
+
+**Deliverables:**
+- Executive summary (3-5 pages)
+- Cost breakdown by department
+- Clinical systems BOQ
+- HTM compliance report
+- Equipment integration schedule
+- Risk register
+
+**Format:** PDF + Excel workbooks
+:::
+
+::: {.process-step}
+#### Presentation & Handover
+
+**Days 9-10**
+
+**What We Do:**
+- Present findings to project team
+- Explain clinical cost drivers
+- Review compliance requirements
+- Discuss value engineering
+- Answer technical questions
+- Provide ongoing support
+
+**Meeting Options:**
+- In-person (UK only)
+- Video conference (all locations)
+- Healthcare stakeholder presentations
+
+**Support:** 60 days post-delivery included
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 7-10 working days from BIM model receipt to final report  
+**Express Service:** Available for urgent projects (5-6 days) at 25% premium
+:::
+
+## Why Choose BIM Takeoff for Healthcare?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Healthcare Expertise
+- **Comprehensive experience** in medical facilities
+- **Hospital projects** delivered successfully
+- **HTM compliance** knowledge
+- **3 markets** (UK, EU, Australia)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Clinical Systems Focus
+- **Medical gas** expertise
+- **Infection control** standards
+- **Complex HVAC** with filtration
+- **24/7 operations** understanding
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Accuracy
+- **±3-5% accuracy** on MEP systems
+- **HTM compliance** verified
+- **Clinical engineering** reviewed
+- **Risk-adjusted** estimates
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Rapid Delivery
+- **7-10 days** typical turnaround
+- **5-6 days** express service
+- **Same-day** change analysis
+- **85% faster** than traditional
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Technology Advantage
+- **5D BIM** workflows
+- **Automated** quantity extraction
+- **Real-time** cost updates
+- **Cloud-based** collaboration
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### International Standards
+- **ISO 19650** BIM standards
+- **HTM compliance** (UK)
+- **AS/NZS standards** (Australia)
+- **Multi-currency** reporting
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What makes healthcare estimation different from commercial buildings?**
+:::
+::: {.faq-answer}
+A: Healthcare facilities cost 40-60% more than commercial buildings due to complex MEP systems (medical gases, specialized HVAC), infection control requirements, 24/7 operational demands, and stringent regulatory compliance (HTM standards). Traditional estimation often underestimates clinical engineering complexity.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate projects with HTM compliance requirements?**
+:::
+::: {.faq-answer}
+A: Yes, we have extensive experience with UK Health Technical Memoranda (HTM) standards including HTM 03-01 (ventilation), HTM 02-01 (medical gas), and HTM 08-03 (fire safety). We verify compliance and include all necessary specifications in our estimates.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle medical gas system estimation?**
+:::
+::: {.faq-answer}
+A: We systematically quantify all medical gas systems (oxygen, nitrous oxide, medical air, vacuum, AGSS) including piping, outlets, alarm panels, and manifolds. Our estimates reflect the complexity of installation, testing, and HTM 02-01 compliance requirements.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate operating theater construction costs?**
+:::
+::: {.faq-answer}
+A: Absolutely. We have detailed knowledge of operating theater requirements including specialized HVAC (laminar flow, HEPA filtration), medical gas systems, surgical lighting, pendants, medical-grade finishes, and pressure cascade systems. We can cost different theater classifications and complexity levels.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include clinical equipment in your estimates?**
+:::
+::: {.faq-answer}
+A: We typically focus on building fabric and MEP systems, but can include allowances for clinical equipment integration (foundations, services connections, power requirements). Major medical equipment (MRI, CT scanners) is usually excluded but we clarify scope boundaries at project start.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you cost phased hospital construction?**
+:::
+::: {.faq-answer}
+A: Yes, we regularly prepare estimates for phased delivery to maintain operational continuity. We can model decant requirements, temporary services, phasing logistics, and the cost impact of working within an operational healthcare environment.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you assess infection control upgrade costs?**
+:::
+::: {.faq-answer}
+A: For infection control upgrades (HVAC modifications, pressure cascade systems, antimicrobial surfaces), we can typically provide costs within 3-5 days. This is particularly relevant for isolation ward conversions or pandemic response facilities.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for healthcare projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on facility type, size, and complexity. As a guide:
+- Community clinic (500-2,000 sqm): £6,000-12,000
+- Day surgery center (2,000-5,000 sqm): £12,000-20,000
+- Small hospital (5,000-15,000 sqm): £20,000-35,000
+- Acute hospital (15,000+ sqm): £35,000-60,000+
+
+Express service carries a 25% premium. Contact us for a specific quote.
+:::
+:::
+:::
+
+## Ready to Estimate Your Healthcare Project?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Risking Budget Overruns on Life-Critical Infrastructure</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the clinical engineering precision your healthcare project demands. Proven HTM compliance expertise across UK, EU & Australia.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your clinical requirements with our specialists</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Free 30-minute clinical project review</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>HTM Compliance Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Medical Gas Systems Specialists</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-10 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3-5% Accuracy on Clinical Systems</strong></p>
+:::
+:::
+:::
+
+:::
