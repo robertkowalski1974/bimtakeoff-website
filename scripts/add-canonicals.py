@@ -33,7 +33,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-SITE_DIR = Path("_site")
+SITE_DIR = Path("docs")
 BASE_URL = "https://robertkowalski1974.github.io/bimtakeoff-website"
 
 

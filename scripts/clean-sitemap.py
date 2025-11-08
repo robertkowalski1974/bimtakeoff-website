@@ -34,8 +34,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-SITEMAP_PATH = Path("_site/sitemap.xml")
-BACKUP_PATH = Path("_site/sitemap.xml.backup")
+SITEMAP_PATH = Path("docs/sitemap.xml")
+BACKUP_PATH = Path("docs/sitemap.xml.backup")
 
 
 def backup_sitemap():

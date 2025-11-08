@@ -34,7 +34,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-SITE_DIR = Path("_site")  # Quarto builds to _site by default
+SITE_DIR = Path("docs")  # Quarto builds to docs directory for GitHub Pages
 BASE_URL = "https://robertkowalski1974.github.io/bimtakeoff-website"
 
 # Language configuration
