@@ -298,16 +298,18 @@ Capacity planning for:
 
 :::
 
-::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;"}
-### Total Typical Range: £7,300-11,300/sqm
-*(Tier III standard, excluding land, fees, and IT equipment)*
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £7,300-11,300/sqm</h3>
+<p style="color: #FFFFFF; font-style: italic;">(Tier III standard, excluding land, fees, and IT equipment)</p>
 
-**NOTE:** Actual costs vary significantly based on:
-- Tier classification (I-IV)
-- Power density (kW per rack)
-- Redundancy requirements
-- Location and infrastructure
-- Security and compliance levels
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Tier classification (I-IV)</li>
+<li>Power density (kW per rack)</li>
+<li>Redundancy requirements</li>
+<li>Location and infrastructure</li>
+<li>Security and compliance levels</li>
+</ul>
 :::
 :::
 
