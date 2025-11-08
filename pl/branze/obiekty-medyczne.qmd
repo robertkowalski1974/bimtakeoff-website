@@ -1,0 +1,569 @@
+---
+title: "Kosztorysowanie Obiektów Medycznych i Szpitali | BIM 5D | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie obiektów zdrowotnych. Szpitale, przychodnie, centra chirurgiczne, opieka nad osobami starszymi. Złożone systemy MEP, normy kontroli zakażeń. Realizacja 5-10 dni z dokładnością ±3-5%."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Opieka Zdrowotna i Obiekty Medyczne
+### Precyzyjne Kosztorysowanie Infrastruktury Krytycznej dla Zdrowia
+:::
+
+::: {.hero-subtitle}
+Od Przychodni Lokalnych po Duże Szpitale i Centra Chirurgiczne.  
+Realizacja w 5-10 dni z dokładnością ±3-5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza Medyczna</strong> - Złożone systemy MEP i kontrola zakażeń</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Standardy Kliniczne</strong> - Zgodność z normami i wyspecjalizowany sprzęt</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Obiekty Medyczne: Złożoność Krytyczna dla Życia
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Budownictwo medyczne napotyka unikatowe wymagania regulacyjne i operacyjne:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Kontrola zakażeń** - Rygorystyczne specyfikacje HVAC i materiałów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Systemy gazów medycznych** - Złożone wymagania instalacyjne i bezpieczeństwa</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Zgodność z normami** - Standardy techniczne i regulacje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ciągłość operacyjna** - Wymagania serwisowe 24/7</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Presja kosztowa** - Ograniczenia budżetowe vs jakość opieki</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ryzyko
+
+> "Obiekty medyczne kosztują 40-60% więcej niż porównywalne budynki komercyjne ze względu na wyspecjalizowane systemy MEP, wymagania kontroli zakażeń i zgodność regulacyjną. Tradycyjne szacowanie często nie docenia złożoności inżynierii klinicznej, ryzykując przekroczenia budżetu, które opóźniają świadczenie opieki pacjentom."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Medyczne
+
+Specjalistyczne BIM 5D dla infrastruktury medycznej i zdrowotnej:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 dni** na kompletny kosztorys (vs 8-12 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność z normami** - Standardy techniczne UK i EU</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ekspertyza gazów medycznych** - Złożone systemy instalacyjne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kontrola zakażeń** - Wymagania filtracji HVAC i ciśnienia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sprzęt kliniczny** - Specjalistyczne instalacje i połączenia</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Potwierdzone Rezultaty
+
+- **Kompleksowe doświadczenie medyczne** w UK, UE, Australii
+- **Projekty szpitalne** pomyślnie zrealizowane
+- **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
+- **Dokładność ±3-5%** dla złożonych systemów medycznych
+:::
+:::
+
+:::
+
+## Usługi Dedykowane Obiektom Medycznym
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-heart-pulse" style="color: var(--bim-orange); margin-right: 12px;"></i>Medyczne Systemy MEP
+
+**Focus na Inżynierię Kliniczną**
+
+Szczegółowa analiza:
+- Systemy gazów medycznych (O2, N2O, próżnia)
+- HVAC z filtracją HEPA
+- Kaskady ciśnień i izolacja
+- Integracja wywołań pielęgniarskich i BMS
+- Zasilanie awaryjne i UPS
+
+[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zgodność z Normami
+
+**Standardy Techniczne**
+
+Ekspercka wiedza o:
+- Normach wentylacji medycznej
+- Systemach gazów medycznych
+- Bezpieczeństwie pożarowym
+- Efektywności energetycznej
+- Instalacjach elektrycznych
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-wind" style="color: var(--bim-orange); margin-right: 12px;"></i>Kontrola Zakażeń
+
+**Standardy HVAC i Materiałów**
+
+Specjalistyczne kosztorysowanie:
+- Wentylacja sal operacyjnych
+- Wymagania pomieszczeń izolacyjnych
+- Klasyfikacje pomieszczeń czystych
+- Powierzchnie antymikrobiologiczne
+- Systemy posadzek bezszwowych
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Sprzęt Kliniczny
+
+**Specjalistyczne Instalacje**
+
+Analiza kosztów obejmująca:
+- Fundamenty sprzętu obrazowego
+- Oświetlenie i wisaki chirurgiczne
+- Sprzęt sterylizacyjny
+- Wyposażenie laboratoriów
+- Przygotowanie sprzętu diagnostycznego
+
+[Dowiedz się więcej →](../uslugi/specjalistyczne-branzy-budowlane.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Operacyjne
+
+**Wymagania Obiektu 24/7**
+
+Planowanie:
+- Etapowej realizacji budowy
+- Analizy wpływu operacyjnego
+- Wymagań przestrzeni tymczasowej
+- Planowania ciągłości usług
+- Harmonogramów uruchomienia
+
+[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Realizacja Ekspresowa
+
+**Pilne Projekty Medyczne**
+
+Szybkie szacowanie dla:
+- Rozbudowy izb przyjęć
+- Obiektów odpowiedzi COVID-19
+- Centrów pilnej opieki
+- Modułowych jednostek medycznych
+- Tymczasowych przestrzeni klinicznych
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+:::
+
+## Typy Projektów Medycznych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Złożoności Obiektów Medycznych
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Przychodnia Lokalna
+**Powierzchnia:** 500-2,000 m²  
+**Typ:** Podstawowa opieka zdrowotna  
+**Złożoność:** Średnia  
+**Czas realizacji:** 5-6 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Gabinety lekarskie
+- Podstawowa diagnostyka
+- Ograniczone systemy gazów medycznych
+- Standardowe wymagania HVAC
+- Recepcja i poczekalnie
+- Apteka i gabinety zabiegowe
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Centrum Chirurgii Dziennej
+**Powierzchnia:** 2,000-5,000 m²  
+**Typ:** Chirurgia ambulatoryjna  
+**Złożoność:** Wysoka  
+**Czas realizacji:** 7-8 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- 2-6 sal operacyjnych
+- Sale wybudzenia i przygotowania
+- Systemy gazów medycznych (pełne)
+- HVAC z filtracją HEPA
+- Dział sterylizacji
+- Diagnostyka obrazowa
+
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Szpital Opieki Ostrej
+**Powierzchnia:** 10,000-50,000+ m²  
+**Type:** Szpital pełnoprofilowy  
+**Złożoność:** Bardzo wysoka  
+**Czas realizacji:** 9-10 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Wielokrotne sale operacyjne
+- Oddziały intensywnej opieki
+- Oddział ratunkowy
+- Złożone systemy MEP
+- Pracownie diagnostyki obrazowej
+- Laboratoria
+- Oddziały szpitalne
+- Centralna sterylizacja
+:::
+
+:::
+:::
+
+## Nasz Proces Kosztorysowania Obiektów Medycznych
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępny Przegląd i Sprawdzenie Zgodności
+
+**Dzień 1-2 (6-8 godzin)**
+
+**Co robimy:**
+- Przegląd modelu BIM (IFC/Revit) lub rysunków 2D
+- Weryfikacja wymagań działów klinicznych
+- Ocena potrzeb zgodności z normami
+- Identyfikacja zakresu systemu gazów medycznych
+- Przegląd specyfikacji kontroli zakażeń
+
+**Klient dostarcza:**
+- Układy architektoniczne i kliniczne
+- Projekty MEP i schematy
+- Wymagania zgodności
+- Harmonogramy sprzętu medycznego
+- Arkusze danych pomieszczeń
+
+**Rezultat:** Plan projektu z macierzą zgodności
+:::
+
+::: {.process-step}
+#### Analiza Klinicznych Systemów MEP
+
+**Dni 2-5**
+
+**Co robimy:**
+- Ekstrakcja wszystkich systemów gazów medycznych
+- Obliczenie HVAC z filtracją
+- Kalkulacja zasilania elektrycznego i awaryjnego
+- Pomiar infrastruktury wywołań pielęgniarskich i BMS
+- Weryfikacja wymagań kaskady ciśnień
+
+**Technologia:**
+- Ekstrakcja MEP BIM 5D
+- Baza danych inżynierii klinicznej
+- Sprawdzanie zgodności
+- Analiza współzależności systemów
+
+**Rezultat:** Kompletny obmiar ilościowy MEP
+:::
+
+::: {.process-step}
+#### Kwantyfikacja Przestrzeni Klinicznych
+
+**Dni 3-6**
+
+**Co robimy:**
+- Obliczenie sal operacyjnych
+- Kalkulacja wykończeń klinicznych
+- Pomiar obszarów specjalistycznego sprzętu
+- Liczenie osprzętu i wyposażenia
+- Ocena wymagań pracowni obrazowych
+
+**Zakres:**
+- Działy kliniczne
+- Przestrzenie wsparcia
+- Zaplecze techniczne
+- Obszary cyrkulacji pacjentów
+- Strefy personelu i administracyjne
+
+**Rezultat:** Przedmiar przestrzeni klinicznych
+:::
+
+::: {.process-step}
+#### Zastosowanie Kosztów i Analiza
+
+**Dni 6-8**
+
+**Co robimy:**
+- Zastosowanie stawek specyficznych dla służby zdrowia
+- Uwzględnienie premii za zgodność z normami
+- Kalkulacja kosztów gazów medycznych
+- Uwzględnienie środków kontroli zakażeń
+- Dodanie wymagań uruchomienia
+- Zastosowanie rezerwy (8-12%)
+
+**Źródła baz danych:**
+- Benchmarki medyczne (UK/AU)
+- Specjaliści sprzętu medycznego
+- Wykonawcy inżynierii klinicznej
+- Ostatnie projekty szpitalne
+
+**Rezultat:** Szczegółowy kosztorys według działów
+:::
+
+::: {.process-step}
+#### Przegląd Jakości i Raportowanie
+
+**Dni 8-9**
+
+**Co robimy:**
+- Przegląd peer review inżynierii klinicznej
+- Weryfikacja zgodności
+- Sprawdzenie systemu gazów medycznych
+- Porównanie z benchmarkami
+- Ocena ryzyka
+
+**Materiały do dostarczenia:**
+- Streszczenie wykonawcze (3-5 stron)
+- Rozbicie kosztów według działów
+- Przedmiar systemów klinicznych
+- Raport zgodności
+- Harmonogram integracji sprzętu
+- Rejestr ryzyka
+
+**Format:** PDF + skoroszyty Excel
+:::
+
+::: {.process-step}
+#### Prezentacja i Przekazanie
+
+**Dni 9-10**
+
+**Co robimy:**
+- Prezentacja ustaleń zespołowi projektowemu
+- Wyjaśnienie czynników kosztowych klinicznych
+- Przegląd wymagań zgodności
+- Omówienie value engineering
+- Odpowiedzi na pytania techniczne
+- Zapewnienie bieżącego wsparcia
+
+**Opcje spotkań:**
+- Osobiście (tylko UK)
+- Wideokonferencja (wszystkie lokalizacje)
+- Prezentacje dla interesariuszy medycznych
+
+**Wsparcie:** 60 dni po dostarczeniu wliczone
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Usługa ekspresowa:** Dostępna dla pilnych projektów (5-6 dni) z 25% premium
+:::
+
+## Dlaczego Wybrać BIM Takeoff do Projektów Medycznych?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza Medyczna
+- **Kompleksowe doświadczenie** w obiektach medycznych
+- **Projekty szpitalne** pomyślnie zrealizowane
+- **Znajomość norm** technicznych
+- **3 rynki** (UK, UE, Australia)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Focus na Systemach Klinicznych
+- **Ekspertyza gazów medycznych**
+- **Standardy kontroli zakażeń**
+- **Złożone HVAC** z filtracją
+- **Zrozumienie operacji 24/7**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Potwierdzona Dokładność
+- **Dokładność ±3-5%** dla systemów MEP
+- **Zweryfikowana zgodność** z normami
+- **Przegląd inżynierii klinicznej**
+- **Kosztorysy skorygowane o ryzyko**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Szybka Realizacja
+- **7-10 dni** typowa realizacja
+- **5-6 dni** usługa ekspresowa
+- **W tym samym dniu** analiza zmian
+- **85% szybciej** niż tradycyjnie
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Przewaga Technologiczna
+- **BIM 5D** workflow
+- **Automatyczna** ekstrakcja ilości
+- **W czasie rzeczywistym** aktualizacje kosztów
+- **Współpraca w chmurze**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Standardy Międzynarodowe
+- Standardy BIM **ISO 19650**
+- **Zgodność z normami** (UK/EU)
+- **Standardy AS/NZS** (Australia)
+- Raportowanie **wielowalutowe**
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Co sprawia, że kosztorysowanie medyczne różni się od budynków komercyjnych?**
+:::
+::: {.faq-answer}
+O: Obiekty medyczne kosztują 40-60% więcej niż budynki komercyjne ze względu na złożone systemy MEP (gazy medyczne, specjalistyczne HVAC), wymagania kontroli zakażeń, wymogi operacyjne 24/7 oraz rygorystyczną zgodność regulacyjną. Tradycyjne szacowanie często nie docenia złożoności inżynierii klinicznej.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można oszacować projekty z wymaganiami zgodności z normami technicznymi?**
+:::
+::: {.faq-answer}
+O: Tak, mamy obszerne doświadczenie z normami technicznymi UK i EU, w tym standardami wentylacji, gazów medycznych i bezpieczeństwa pożarowego. Weryfikujemy zgodność i uwzględniamy wszystkie niezbędne specyfikacje w naszych kosztorysach.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak obsługujecie szacowanie systemów gazów medycznych?**
+:::
+::: {.faq-answer}
+O: Systematycznie obliczamy wszystkie systemy gazów medycznych (tlen, podtlenek azotu, powietrze medyczne, próżnia) w tym instalacje, punkty odbioru, panele alarmowe i rozdzielacze. Nasze kosztorysy odzwierciedlają złożoność instalacji, testowania i wymagań zgodności.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można oszacować koszty budowy sal operacyjnych?**
+:::
+::: {.faq-answer}
+O: Absolutnie. Mamy szczegółową wiedzę o wymaganiach sal operacyjnych, w tym specjalistyczne HVAC (przepływ laminarny, filtracja HEPA), systemy gazów medycznych, oświetlenie chirurgiczne, wisaki, wykończenia klasy medycznej i systemy kaskady ciśnień. Możemy kosztorysować różne klasyfikacje i poziomy złożoności sal.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy uwzględniacie sprzęt kliniczny w swoich kosztorysach?**
+:::
+::: {.faq-answer}
+O: Zazwyczaj koncentrujemy się na strukturze budynku i systemach MEP, ale możemy uwzględnić rezerwy na integrację sprzętu klinicznego (fundamenty, połączenia serwisowe, wymagania zasilania). Główny sprzęt medyczny (MRI, skanery CT) jest zwykle wyłączony, ale wyjaśniamy granice zakresu na początku projektu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można kosztorysować etapową budowę szpitala?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie przygotowujemy kosztorysy dla realizacji etapowej w celu utrzymania ciągłości operacyjnej. Możemy modelować wymagania tymczasowe, tymczasowe serwisy, logistykę fazowania i wpływ kosztowy pracy w operacyjnym środowisku medycznym.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak szybko można ocenić koszty modernizacji kontroli zakażeń?**
+:::
+::: {.faq-answer}
+O: Dla modernizacji kontroli zakażeń (modyfikacje HVAC, systemy kaskady ciśnień, powierzchnie antymikrobiologiczne) zazwyczaj możemy dostarczyć koszty w ciągu 3-5 dni. Jest to szczególnie istotne dla konwersji oddziałów izolacyjnych lub obiektów odpowiedzi pandemicznej.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest Pana struktura opłat za projekty medyczne?**
+:::
+::: {.faq-answer}
+O: Każdy projekt medyczny wyceniamy indywidualnie w zależności od typu obiektu, wielkości i złożoności. Cena zależy od wielu czynników, w tym:
+- Wielkości i typu obiektu (przychodnia, centrum chirurgiczne, szpital)
+- Złożoności systemów MEP i gazów medycznych
+- Wymagań zgodności z normami
+- Terminu realizacji (standardowy lub ekspresowy)
+- Zakresu dodatkowych analiz
+
+Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu medycznego.
+:::
+:::
+:::
+
+## Gotowy na Kosztorysowanie Projektu Medycznego?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Ryzykować Przekroczenia Budżetu w Infrastrukturze Krytycznej dla Życia</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzję inżynierii klinicznej, której wymaga Twój projekt medyczny. Potwierdzona ekspertyza zgodności w UK, UE i Australii.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swoje wymagania kliniczne z naszymi specjalistami</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu klinicznego</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Usługi](../uslugi/automatyczny-obmiar-ilosci.qmd){.cta-secondary}
+[Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ekspertyza Zgodności z Normami</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Systemów Gazów Medycznych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 7-10 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±3-5% dla Systemów Klinicznych</strong></p>
+:::
+:::
+:::
+
+:::

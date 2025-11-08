@@ -1,0 +1,535 @@
+---
+title: "Kosztorysowanie Deweloperstwa Mieszkaniowego | Budynki Wielorodzinne | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie deweloperstwa mieszkaniowego. Od domów szeregowych po wysokościowe apartamenty. Realizacja 3-10 dni, dokładność ±5%. Specjaliści w zakresie zabudowy wielorodzinnej i projektów mieszanych."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kosztorysowanie Deweloperstwa Mieszkaniowego
+### Precyzyjne Planowanie Budynków Wielorodzinnych i Apartamentów
+:::
+
+::: {.hero-subtitle}
+Od szeregowców z 10 mieszkaniami do osiedli z wiloma blokami i 800+ apartamentów.  
+Realizacja w 3-10 dni z dokładnością ±5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Powtarzalnych Lokali</strong> - Automatyzacja standardowych układów</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie:</strong> Udokumentowane wyniki w UK, UE i Australii</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Deweloperstwo Mieszkaniowe: Wyzwanie Złożoności
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Nowoczesne projekty mieszkaniowe napotykają wielorakie presje przy ciasnych marżach:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ograniczenia planistyczne** - Limity wysokości, gęstości, parkingu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożone przepisy** - Prawo budowlane, ochrona ppoż., dostępność</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ciasne marże** - Zysk wymaga precyzji kosztorysowania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Wiele typów lokali** - Warianty 1, 2, 3-pokojowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Iteracje projektowe** - Równowaga między value engineering a jakością</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ryzyko
+
+> "5% przekroczenie kosztów w budynku 100-lokalowym reprezentuje znaczne straty w zysku. Tradycyjne metody kosztorysowania trwające 6-8 tygodni opóźniają podejmowanie decyzji, gdy warunki rynkowe i zatwierdzenia planistyczne wymagają szybkości."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Mieszkaniowe
+
+Specjalistyczne BIM 5D dla zabudowy wielorodzinnej:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-10 dni** na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Biblioteki typów lokali** - Automatyzacja powtarzalnych układów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ekspertyza zgodności** - Prawo budowlane, standardy ppoż.</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value engineering** - Optymalizacja kosztów bez kompromisów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Potwierdzone Rezultaty
+
+- **Rozległe portfolio mieszkaniowe** w UK, UE i Australii
+- **Projekty wielolokalne** od 10 do 900+ lokali sprawnie obsłużone
+- **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
+- **Dokładność ±5%** w 95% projektów
+:::
+:::
+
+:::
+
+## Usługi Dedykowane Deweloperstwa Mieszkaniowego
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
+
+**Realizacja 3-10 Dni**
+
+Idealne do:
+- Studiów wykonalności
+- Budżetów wniosków planistycznych
+- Przetargów projektuj i buduj
+- Studiów value engineering
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Typów Lokali
+
+**Automatyczna Ekstrakcja**
+
+Obsługa wielu:
+- Apartamentów typu studio
+- Lokali 1, 2, 3-pokojowych
+- Penthouse'ów i duplex'ów
+- Części wspólnych i udogodnień
+
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zgodność i Przepisy
+
+**Standardy Budowlane**
+
+Ekspercka wiedza:
+- Wymagania ochrony ppoż.
+- Charakterystyka energetyczna
+- Standardy dostępności
+- Akustyka i izolacja dźwiękowa
+
+[Dowiedz się więcej →](../uslugi/specjalistyczne-branzy-budowlane.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
+
+**Porównanie Opcji Projektowych**
+
+Analiza wpływu:
+- Wyboru materiałów elewacji
+- Alternatywnych systemów MEP
+- Opcji fundamentowania
+- Poziomów specyfikacji wykończeń
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie
+
+**Wsparcie Przetargów**
+
+Pełna obsługa:
+- Obmiary ilościowe
+- Szczegółowa wycena
+- Rozbicie kosztów przygotowawczych
+- Kompletacja dokumentacji przetargowej
+
+[Dowiedz się więcej →](../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar
+
+**Wsparcie Rysunków 2D**
+
+Gdy BIM niedostępny:
+- Kosztorysy projektów legacy
+- Wczesne budżety koncepcyjne
+- Wykonalność etapu planowania
+- Ćwiczenia benchmarkingowe
+
+[Dowiedz się więcej →](../uslugi/tradycyjny-przedmiar-ilosci.qmd)
+:::
+:::
+
+## Czynniki Złożoności Projektów Mieszkaniowych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Skali Twojego Projektu
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Małe Osiedle
+**Lokale:** 10-30 mieszkań  
+**Typ:** Szeregowce/niska zabudowa  
+**Złożoność:** Niska-Średnia  
+**Czas realizacji:** 3-5 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Budynek 2-3 kondygnacje
+- Standardowe metody konstrukcyjne
+- Ograniczone części wspólne
+- Parking naziemny
+- Podstawowe udogodnienia
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Średnie Osiedle
+**Lokale:** 30-80 apartamentów  
+**Typ:** Bloki 4-8 kondygnacji  
+**Złożoność:** Średnia-Wysoka  
+**Czas realizacji:** 5-8 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Konstrukcja żelbetowa lub murowana
+- Wymagany dostęp windowy
+- Wspólne przestrzenie rekreacyjne
+- Parking podziemny/podium
+- Podwyższone specyfikacje
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Duże Osiedle
+**Lokale:** 80-200+ apartamentów  
+**Typ:** Wieże wysokościowe  
+**Złożoność:** Wysoka  
+**Czas realizacji:** 8-10 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Konstrukcja żelbetowa
+- Wiele trzonów/baterii wind
+- Rozległe udogodnienia
+- Parking wielopoziomowy
+- Specyfikacje premium
+:::
+
+:::
+:::
+
+## Nasz Proces Kosztorysowania Mieszkaniowego
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępny Przegląd i Konfiguracja
+
+**Dzień 1 (4-6 godzin)**
+
+**Co robimy:**
+- Przegląd modelu BIM (IFC/Revit) lub rysunków 2D
+- Identyfikacja typów lokali i wariantów
+- Weryfikacja wymagań zgodności planistycznej
+- Ocena części wspólnych i udogodnień
+- Konfiguracja bibliotek typów lokali
+
+**Klient dostarcza:**
+- Rysunki/modele architektoniczne
+- Dokumenty specyfikacji
+- Pozwolenia/wymagania planistyczne
+- Informacje o działce
+- Szczególne wymagania przetargowe
+
+**Rezultat:** Plan projektu i potwierdzenie harmonogramu
+:::
+
+::: {.process-step}
+#### Automatyczna Ekstrakcja Ilości
+
+**Dni 1-3**
+
+**Co robimy:**
+- Ekstrakcja wszystkich elementów konstrukcyjnych
+- Obliczenie ilości każdego typu lokalu
+- Kalkulacja części wspólnych osobno
+- Pomiar robót zewnętrznych
+- Liczba osprzętu i armatury MEP
+
+**Technologia:**
+- Narzędzia ekstrakcji BIM 5D
+- Automatyzacja powtarzalnych lokali
+- Weryfikacja krzyżowa z dokumentami 2D
+
+**Rezultat:** Kompletny obmiar ilościowy (przedmiar)
+:::
+
+::: {.process-step}
+#### Zastosowanie Kosztów i Analiza
+
+**Dni 3-6**
+
+**Co robimy:**
+- Zastosowanie aktualnych stawek rynkowych
+- Uwzględnienie lokalizacji projektu
+- Kalkulacja kosztów specyficznych dla lokali
+- Dodanie kosztów przygotowawczych (10-12%)
+- Zastosowanie odpowiedniej rezerwy (5-8%)
+- Uruchomienie scenariuszy alternatywnych na żądanie
+
+**Źródła baz danych:**
+- BCIS (UK) / Rawlinsons (Australia) / Sekocenbud (PL)
+- Aktualne oferty dostawców
+- Ostatnie benchmarki projektowe
+
+**Rezultat:** Szczegółowy kosztorys z rozbiciem
+:::
+
+::: {.process-step}
+#### Przegląd Jakości i Raportowanie
+
+**Dni 6-8**
+
+**Co robimy:**
+- Techniczny przegląd peer review
+- Sprawdzenie względem benchmarków
+- Weryfikacja kalkulacji
+- Przygotowanie wizualnego rozbicia kosztów
+- Utworzenie streszczenia wykonawczego
+- Zaplanowanie prezentacji/spotkania
+
+**Materiały do dostarczenia:**
+- Streszczenie wykonawcze (2-3 strony)
+- Rozbicie kosztów według typu lokalu
+- Przedmiar z ilościami i stawkami
+- Analiza kosztów na m²
+- Scenariusze alternatywne (na żądanie)
+
+**Format:** PDF + skoroszyty Excel
+:::
+
+::: {.process-step}
+#### Prezentacja i Przekazanie
+
+**Dzień 8-10**
+
+**Co robimy:**
+- Prezentacja ustaleń zespołowi deweloperskiego
+- Wyjaśnienie kluczowych czynników kosztowych
+- Przegląd opcji value engineering
+- Omówienie ryzyk lub założeń
+- Odpowiedzi na pytania
+- Zapewnienie bieżącego wsparcia
+
+**Opcje spotkań:**
+- Osobiście (tylko UK)
+- Wideokonferencja (wszystkie lokalizacje)
+- Pisemne Q&A przez email
+
+**Wsparcie:** 30 dni po dostarczeniu wliczone
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Usługa ekspresowa:** Dostępna dla pilnych projektów (4-5 dni) z 25% premium
+:::
+
+## Dlaczego Wybrać BIM Takeoff do Projektów Mieszkaniowych?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Głębokie Doświadczenie Branżowe
+- **Rozległe portfolio mieszkaniowe** dostarczone
+- **Wiele projektów wielkoskalowych** na kontynentach
+- **3 rynki** (UK, UE, Australia)
+- **Wszystkie typy budynków** (szeregowce do wysokościowców)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Potwierdzona Szybkość
+- **3-10 dni** typowa realizacja
+- **W ciągu dnia** aktualizacje zmian projektowych
+- **4-5 dni** usługa ekspresowa dostępna
+- **90% szybciej** niż tradycyjne metody
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Wyjątkowa Dokładność
+- **Gwarancja ±5%** dokładności
+- **95% sukces** na rozliczeniu końcowym
+- **Kompleksowo** - nic nie pominięte
+- **Zweryfikowane** przez profesjonalistów
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Przewaga Technologiczna
+- **BIM 5D** natywne workflow
+- **Automatyczna** ekstrakcja ilości
+- **Czasu rzeczywistego** aktualizacje kosztów
+- **Oparta na chmurze** współpraca
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza Zgodności
+- Zgodność z **prawem budowlanym**
+- Standardy **ochrony ppoż.**
+- Wymagania **dostępności**
+- Wytyczne **planistyczne**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Standardy Międzynarodowe
+- Standardy BIM **ISO 19650**
+- **Profesjonalne** miernictwo budowlane
+- Przepisy **UK, UE, Australia**
+- Raportowanie **wielowalutowe**
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaki jest największy projekt mieszkaniowy, który Pan wycenił?**
+:::
+::: {.faq-answer}
+O: Pracowaliśmy nad projektami od 10-lokalowych szeregowców do 200+ apartamentowych wież, w tym projektami mieszanymi z elementami handlowymi i komercyjnymi. Nasz workflow BIM 5D skutecznie skaluje się dla każdej wielkości projektu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy obsługujecie projekty wielofunkcyjne z elementami handlowymi/komercyjnymi?**
+:::
+::: {.faq-answer}
+O: Absolutnie. Regularnie kosztorysujemy projekty mieszane łączące funkcje mieszkalne, handlowe, biurowe i parkingowe. Zapewniamy osobne rozbicie kosztów dla każdej kategorii użytkowania i obsługujemy złożoność interfejsów między różnymi funkcjami.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak szybko możecie dostarczyć kosztorys wykonalności dla wniosków planistycznych?**
+:::
+::: {.faq-answer}
+O: Dla kosztorysów wykonalności na etapie planowania opartych na rysunkach koncepcyjnych możemy zazwyczaj dostarczyć zakres kosztów w ciągu 2-3 dni. Wykorzystuje to benchmarki i kosztorysowanie parametryczne odpowiednie dla podejmowania decyzji na wczesnym etapie.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli deweloper zechce zmienić mix lokali po Pana kosztorysie?**
+:::
+::: {.faq-answer}
+O: Ponieważ pracujemy z BIM 5D i bibliotekami typów lokali, możemy szybko przeliczyć koszty dla różnych miksów lokali w ciągu godzin. Obejmuje to dostosowanie równowagi między apartamentami 1, 2 i 3-pokojowymi.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy uwzględniacie wymogi mieszkań społecznych w kosztorysach?**
+:::
+::: {.faq-answer}
+O: Tak, możemy dostarczyć osobne rozbicie kosztów dla lokali rynkowych i społecznych, uwzględniając różnice specyfikacji i ewentualne implikacje dofinansowania. Rozumiemy wymagania i pomagamy optymalizować mix mieszkań społecznych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można podać rozbicie kosztów według etapu budowy?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie przygotowujemy rozbicie kosztów według etapu budowy, bloku budynku lub fazy realizacji. Jest to szczególnie przydatne dla osiedli etapowanych, gdzie różne bloki są budowane w różnym czasie lub dla wymagań finansowania fazowego.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak obsługujecie różne warunki gruntowe na działce?**
+:::
+::: {.faq-answer}
+O: Opieramy się na raportach badań gruntowych klienta do oceny wymagań fundamentowych. Dla działek o różnych warunkach strefujemy osiedle i stosujemy odpowiednie rozwiązania fundamentowe (pale, płyta, ławy) w oparciu o rekomendacje geotechniczne dla każdej strefy.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest Pana struktura opłat za projekty mieszkaniowe?**
+:::
+::: {.faq-answer}
+O: Każdy projekt mieszkaniowy wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od:
+- Liczby lokali i ich różnorodności typologicznej
+- Wysokości budynku i systemu konstrukcyjnego
+- Poziomu specyfikacji i wykończeń
+- Wymagań parkingowych (naziemny vs podziemny)
+- Zakresu udogodnień i części wspólnych
+- Terminu realizacji (standardowy lub ekspresowy)
+- Zakresu dodatkowych analiz (wieloscenariuszowe, value engineering)
+
+Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu. Zazwyczaj odpowiadamy w ciągu 24 godzin ze szczegółową propozycją.
+:::
+:::
+:::
+
+## Gotowy na Przyspieszenie Swojego Projektu Mieszkaniowego?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Czekać 6-8 Tygodni na Kosztorysy</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzję i szybkość, których wymaga Twój projekt mieszkaniowy. Udokumentowane doświadczenie w UK, UE i Australii.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami mieszkaniowymi</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
+[Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rozległe Portfolio Mieszkaniowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Projekty od 10 do 200+ Lokali</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-10 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+:::
+:::
+:::
+
+:::

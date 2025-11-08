@@ -1,0 +1,522 @@
+---
+title: "Kosztorysowanie Magazynów i Centrów Logistycznych | BIM 5D | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie magazynów i obiektów logistycznych. Projekty 50 000+ m², realizacja 3-7 dni, dokładność ±5%. Specjaliści w budynkach prefabrykowanych i elementach powtarzalnych."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kosztorysowanie Magazynów i Centrów Logistycznych
+### Precyzyjne Rozwiązania dla Magazynów Wysokiego Składowania i Centrów Dystrybucji
+:::
+
+::: {.hero-subtitle}
+Od 5 000 m² do 100 000+ m² powierzchni.  
+Realizacja w 3-7 dni z dokładnością ±5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szybka Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Elementów Powtarzalnych</strong> - Słupy, belki, elewacje</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie:</strong> Udokumentowana praktyka w UK, UE i Australii</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Realizacje](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Magazyny i Logistyka: Wyzwania Branży
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Nowoczesne magazyny to projekty o krytycznych terminach realizacji i wysokich wymaganiach:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Napięte terminy** - Klienci potrzebują obiektów operacyjnych jak najszybciej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Duża skala** - 50 000+ m² z tysiącami elementów powtarzalnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Presja kosztowa** - Konkurencyjne marże budowlane</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożona logistyka** - Krytyczny timing dostaw materiałów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Zmiany projektowe** - Wymagania najemców w ostatniej chwili</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ryzyko
+
+> "Dwutygodniowe opóźnienie w centrum dystrybucji o powierzchni 100 000 m² może kosztować ponad 2 miliony PLN w utraconej opłacie czynszowej i przedłużonych kosztach przygotowania. Tradycyjne metody kosztorysowania trwające 6-8 tygodni są niekompatybilne z nowoczesnymi harmonogramami logistycznymi."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie dla Magazynów
+
+Specjalistyczne usługi BIM 5D dla obiektów logistycznych i dystrybucyjnych:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-7 dni** na kompletne kosztorysowanie (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Biblioteka elementów powtarzalnych** - Automatyzacja słupów, belek, elewacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Doświadczenie w budynkach prefabrykowanych** - Systemy Butler, Kirby, Astron</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie logistyki** - Harmonogramy składowania i dostaw materiałów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Udokumentowane Wyniki
+
+- **Bogate doświadczenie w magazynach** w UK, UE i Australii
+- **Projekty wielkoskalowe** realizowane efektywnie z technologią BIM 5D
+- **Średnio 5 dni** od modelu BIM do szczegółowego kosztorysu
+- **Dokładność ±5%** w 95% projektów
+:::
+:::
+
+:::
+
+## Usługi Dedykowane dla Magazynów
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
+
+**Realizacja 3-7 Dni**
+
+Idealne dla:
+- Przetargów typu Design & Build
+- Deweloperstwa spekulacyjnego
+- Negocjacji przedumów najmu
+- Analiz wartości inżynierskiej
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Elementów Powtarzalnych
+
+**Automatyczna Ekstrakcja**
+
+Obsługuje tysiące:
+- Słupów i belek stalowych
+- Płatwi i ram dachowych
+- Paneli elewacyjnych
+- Doków załadunkowych i bram
+
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Logistyka Budowlana
+
+**Planowanie Dostaw Materiałów**
+
+Kluczowe dla:
+- Sekwencji paneli elewacyjnych
+- Harmonogramów montażu stali
+- Planowania betonowania
+- Koordynacji dostępu do placu budowy
+
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
+
+**Porównanie Opcji Projektowych**
+
+Analiza wpływu:
+- Wariantów wysokości (10m vs 12m vs 15m)
+- Wyboru materiałów elewacyjnych
+- Typów fundamentów
+- Poziomu wykończenia dla najemcy
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie Przetargami
+
+**Kompleksowe Wsparcie Przetargowe**
+
+Pełna obsługa:
+- Przedmiary ilości
+- Szczegółowa wycena
+- Rozpisanie kosztów przygotowania
+- Kompletacja dokumentacji przetargowej
+
+[Dowiedz się więcej →](../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar
+
+**Wsparcie Rysunków 2D**
+
+Gdy BIM niedostępny:
+- Kosztorysy projektów archiwalnych
+- Budżety na etapie planowania
+- Szybkie studia wykonalności
+- Analizy porównawcze
+
+[Dowiedz się więcej →](../uslugi/tradycyjny-przedmiar-ilosci.qmd)
+:::
+:::
+
+## Złożoność Projektów Magazynowych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Skali Twojego Projektu
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Standardowy Magazyn Jednoprzestrzenny
+**Powierzchnia:** 5 000 - 20 000 m²  
+**Wysokość:** 10-12m w świetle  
+**Złożoność:** Niska-Średnia  
+**Termin:** 3-4 dni  
+
+**Charakterystyka:**
+- Jeden najemca
+- Standardowa konstrukcja stalowa
+- Podstawowa elewacja i pokrycie dachowe
+- 5-10 doków załadunkowych
+- Minimalna część biurowa
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Wielomodułowe Centrum Dystrybucji
+**Powierzchnia:** 20 000 - 50 000 m²  
+**Wysokość:** 12-15m w świetle  
+**Złożoność:** Średnia-Wysoka  
+**Termin:** 5-6 dni  
+
+**Charakterystyka:**
+- 2-4 przestrzenie najemców
+- Zautomatyzowane systemy regałowe
+- Wzmocniona ochrona przeciwpożarowa
+- 15-25 doków załadunkowych
+- Antresole biurowe
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Wielkoskalowe Centrum Fulfillment
+**Powierzchnia:** 50 000 - 100 000+ m²  
+**Wysokość:** 15m+ w świetle  
+**Złożoność:** Wysoka  
+**Termin:** 6-7 dni  
+
+**Charakterystyka:**
+- Jeden mega-najemca
+- Infrastruktura automatyzacji
+- Złożone instalacje MEP
+- 50+ doków załadunkowych
+- Rozbudowane zaplecze biurowo-socjalne
+:::
+
+:::
+:::
+
+## Nasz Proces Kosztorysowania Magazynów
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępny Przegląd i Konfiguracja
+
+**Dzień 1 (4-6 godzin)**
+
+**Co robimy:**
+- Analiza modelu BIM (IFC/Revit) lub rysunków 2D
+- Weryfikacja siatki konstrukcyjnej i rozpiętości
+- Potwierdzenie wymagań wysokości w świetle
+- Identyfikacja wymagań specyficznych dla najemcy
+- Konfiguracja bibliotek elementów powtarzalnych
+
+**Klient dostarcza:**
+- Rysunki/modele architektoniczno-konstrukcyjne
+- Dokumentację specyfikacji
+- Informacje o terenie
+- Ewentualne wymagania wykończeniowe najemcy
+
+**Wynik:** Plan projektu i potwierdzenie harmonogramu
+:::
+
+::: {.process-step}
+#### Automatyczna Ekstrakcja Ilości
+
+**Dni 1-2**
+
+**Co robimy:**
+- Automatyczna ekstrakcja wszystkich elementów konstrukcyjnych
+- Obmiar systemów elewacyjnych i dachowych
+- Obliczenie objętości fundamentów
+- Zliczenie doków załadunkowych i bram
+- Pomiar powierzchni podłóg i długości ścian
+
+**Technologia:**
+- Narzędzia ekstrakcji BIM 5D
+- Automatyzacja elementów powtarzalnych
+- Weryfikacja krzyżowa z dokumentacją 2D
+
+**Wynik:** Kompletny przedmiar ilości (BOQ)
+:::
+
+::: {.process-step}
+#### Zastosowanie Kosztów i Analiza
+
+**Dni 2-4**
+
+**Co robimy:**
+- Zastosowanie aktualnych stawek rynkowych
+- Uwzględnienie lokalizacji projektu
+- Włączenie aspektów logistycznych
+- Obliczenie kosztów przygotowania (12-15%)
+- Dodanie odpowiedniego zabezpieczenia (5-10%)
+- Przeprowadzenie alternatywnych scenariuszy na żądanie
+
+**Źródła danych:**
+- BCIS (UK) / Rawlinsons (Australia)
+- Aktualne oferty dostawców
+- Benchmarki ostatnich projektów
+
+**Wynik:** Szczegółowy kosztorys z rozpisaniem
+:::
+
+::: {.process-step}
+#### Przegląd Jakości i Raportowanie
+
+**Dni 4-5**
+
+**Co robimy:**
+- Techniczny przegląd peer review
+- Porównanie z benchmarkami
+- Weryfikacja obliczeń
+- Przygotowanie wizualnego rozpisania kosztów
+- Stworzenie streszczenia zarządzającego
+- Ustalenie terminu prezentacji/spotkania
+
+**Dokumenty:**
+- Streszczenie zarządzające (2-3 strony)
+- Szczegółowe rozpisanie kosztów według elementów
+- BOQ z ilościami i stawkami
+- Analiza kosztu za m²
+- Scenariusze alternatywne (na żądanie)
+
+**Format:** PDF + skoroszyty Excel
+:::
+
+::: {.process-step}
+#### Prezentacja i Przekazanie
+
+**Dzień 5-7**
+
+**Co robimy:**
+- Prezentacja wyników zespołowi projektowemu
+- Omówienie kluczowych czynników kosztowych
+- Przegląd opcji wartości inżynierskiej
+- Dyskusja ryzyk i założeń
+- Odpowiedzi na pytania
+- Zapewnienie bieżącego wsparcia
+
+**Opcje spotkań:**
+- Osobiście (tylko UK)
+- Wideokonferencja (wszystkie lokalizacje)
+- Pisemne pytania i odpowiedzi przez email
+
+**Wsparcie:** 30 dni po dostawie w cenie
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typowy Całkowity Czas Trwania:** 5-7 dni roboczych od otrzymania modelu BIM do finalnego raportu  
+**Serwis Ekspresowy:** Dostępny dla pilnych projektów (3-4 dni) z premią 25%
+:::
+
+## Dlaczego Warto Wybrać BIM Takeoff dla Magazynów?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Głębokie Doświadczenie Branżowe
+- **Bogate portfolio magazynowe** zrealizowanych projektów
+- **Liczne projekty wielkoskalowe** na trzech kontynentach
+- **3 rynki** (UK, UE, Australia)
+- **Wszystkie systemy budowlane** (Butler, Kirby, Astron, etc.)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Sprawdzona Szybkość
+- **3-7 dni** typowy czas realizacji
+- **Tego samego dnia** aktualizacje zmian projektowych
+- **3-4 dni** dostępny serwis ekspresowy
+- **90% szybciej** niż tradycyjne metody
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Wyjątkowa Dokładność
+- **Gwarancja dokładności ±5%**
+- **95% wskaźnik sukcesu** przy rozliczeniu końcowym
+- **Kompleksowość** - nic nie zostaje pominięte
+- **Weryfikowane** przez profesjonalistów RICS
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Przewaga Technologiczna
+- **Natywne workflow BIM 5D**
+- **Automatyczna** ekstrakcja ilości
+- **W czasie rzeczywistym** aktualizacje kosztów
+- **Współpraca w chmurze**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza Logistyczna
+- **Planowanie składowania** materiałów
+- **Optymalizacja sekwencji** dostaw
+- **Koordynacja dostępu** do terenu
+- **Harmonogramowanie just-in-time**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Międzynarodowe Standardy
+- **Standardy BIM ISO 19650**
+- **Wycena ilości RICS**
+- **Normy UK, UE, australijskie**
+- **Raportowanie wielowalutowe**
+:::
+
+:::
+
+## Często Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaki był największy projekt magazynowy, który Państwo kosztorysowali?**
+:::
+::: {.faq-answer}
+O: Pracowaliśmy nad centrami dystrybucji o powierzchni do 150 000 m² dla jednego najemcy oraz wielomodułowymi parkami o łącznej powierzchni 300 000+ m². Żaden projekt nie jest dla nas za duży dzięki workflow BIM 5D.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy potraficie obsługiwać prefabrykowane systemy budowlane (Butler, Kirby, etc.)?**
+:::
+::: {.faq-answer}
+O: Oczywiście. Mamy bogate doświadczenie ze wszystkimi głównymi prefabrykowanymi systemami budowlanymi, w tym Butler, Kirby, Astron, Rubb i Frisomat. Nasze bazy kosztowe zawierają standardowe konfiguracje dla tych systemów.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak szybko możecie dostarczyć wstępny kosztorys budżetowy dla celów planistycznych?**
+:::
+::: {.faq-answer}
+O: Dla wstępnego kosztorysu budżetowego opartego na rysunkach koncepcyjnych zazwyczaj możemy dostarczyć przedział kosztowy w ciągu 1-2 dni. Wykorzystuje to benchmarki i szacowanie parametryczne zamiast szczegółowych przedmiarów.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli klient zmieni wymaganie wysokości w świetle po Państwa kosztorysie?**
+:::
+::: {.faq-answer}
+O: Ponieważ pracujemy z BIM 5D, możemy szybko przeliczyć wpływ kosztowy zmian wysokości, zazwyczaj w ciągu kilku godzin. Obejmuje to implikacje konstrukcyjne, dostosowania elewacyjne i modyfikacje MEP.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy włączacie zautomatyzowane systemy transportu materiałów do swoich kosztorysów?**
+:::
+::: {.faq-answer}
+O: Możemy uwzględnić rezerwę na zautomatyzowane systemy składowania i pobierania (ASRS), systemy przenośników i sortowania. Dla złożonej automatyzacji zazwyczaj współpracujemy ze specjalistycznymi dostawcami, aby uzyskać dokładne budżety.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie dostarczyć rozpisanie kosztów według stref dla etapowej konstrukcji?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie przygotowujemy rozpisanie kosztów według fazy konstrukcji lub strefy najemcy. Jest to szczególnie przydatne dla deweloperstwa spekulacyjnego, gdzie różne jednostki mogą być budowane lub wykończone w różnym czasie.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak radzicie sobie z warunkami specyficznymi dla terenu, takimi jak słabe podłoże?**
+:::
+::: {.faq-answer}
+O: Polegamy na raportach z badań gruntowych dostarczonych przez klienta do oceny wymagań fundamentowych. W przypadku słabego podłoża uwzględniamy odpowiednie rozwiązania fundamentowe (palowanie, ulepszenie gruntu, etc.) w oparciu o zalecenia geotechniczne.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest Państwa struktura opłat dla projektów magazynowych?**
+:::
+::: {.faq-answer}
+O: Opłaty różnią się w zależności od wielkości projektu, złożoności i harmonogramu. Prosimy o kontakt w celu otrzymania szczegółowej wyceny dla Państwa projektu.
+:::
+:::
+:::
+
+## Gotowi Przyspieszyć Swój Projekt Magazynowy?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Czekać 6-8 Tygodni na Kosztorysy</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzję i szybkość, których wymaga Twój projekt magazynowy. Udokumentowana ekspertyza w UK, UE i Australii.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Umów Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami magazynowymi</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin ze szczegółową propozycją</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
+[Zapytaj o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bogate Portfolio Magazynowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zrealizowane Projekty Wielkoskalowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-7 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+:::
+:::
+:::
+
+:::

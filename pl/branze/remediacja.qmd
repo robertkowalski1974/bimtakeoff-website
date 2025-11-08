@@ -1,0 +1,585 @@
+---
+title: "Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie remediacji budynków. Wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%. Specjaliści od przepon ogniowych i remediacji elewacji."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kosztorysowanie Remediacji Budynków
+### Eksperci w Kosztorysowaniu Wymiany Elewacji, Ogniochrony i Napraw Konstrukcyjnych
+:::
+
+::: {.hero-subtitle}
+Od pojedynczych usterek po kompleksowe modernizacje budynków.  
+Wycena gotowa w 3-8 dni z dokładnością ±5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjaliści od przepon ogniowych</strong> - kompleksowa ogniochrona budynków</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Eksperci remediacji elewacji</strong> - systemy ETICS, wentylowane, ceramiczne</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie międzynarodowe:</strong> Wielka Brytania, UE i Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Nasze Realizacje](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Remediacja Budynków: Konieczność Przestrzegania Przepisów
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Projekty remediacyjne wiążą się z unikalnymi wyzwaniami technicznymi i regulacyjnymi:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Presja regulacyjna** - zgodność z przepisami ppoż., normami PN-EN</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Niepewność kosztowa** - ukryte usterki wykrywane podczas prac</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Budynki zamieszkałe** - prace wokół mieszkańców, minimalizacja uciążliwości</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Wyzwania finansowe** - dotacje termomodernizacyjne, rozliczenia z mieszkańcami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Skomplikowane styki** - wiele branż, wymagania fazowania prac</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ryzyko
+
+> "Nieprawidłowe oszacowanie kosztów remediacji spółdzielni mieszkaniowej może doprowadzić do konieczności powtórnego postępowania przetargowego, opóźnień i utraty zaufania mieszkańców. Precyzyjna wycena to fundament sukcesu projektu."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie dla Remediacji
+
+Specjalistyczne kosztorysowanie BIM 5D dla remediacji i modernizacji budynków:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-8 dni** na kompletną wycenę (zamiast 6-8 tygodni tradycyjnych metod)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wiedza specjalistyczna** - przepony ogniowe, uszczelnienia, systemy EI</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja fazowania** - minimalizacja zakłóceń, utrzymanie zamieszkania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie rezerw** - zabezpieczenia kosztowe na niewiadome</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wsparcie dotacji** - dokumentacja do NFOŚiGW, WFOŚiGW</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Potwierdzone Rezultaty
+
+- **Bogate doświadczenie remediacyjne** w UK, UE i Australii
+- **Skomplikowane projekty zgodności** realizowane precyzyjnie
+- **Średnio 5 dni** od danych inwentaryzacyjnych do szczegółowej wyceny
+- **Dokładność ±5%** w 95% projektów
+:::
+:::
+
+:::
+
+## Usługi Specjalistyczne dla Remediacji
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Wycena
+
+**Realizacja w 3-8 Dni**
+
+Idealne dla:
+- Budżetów remediacji elewacji
+- Kosztów modernizacji ppoż.
+- Szacunków termomodernizacji
+- Wniosków o dofinansowanie
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Wycena Zgodności
+
+**Przepisy Przeciwpożarowe**
+
+Ekspertyza w zakresie:
+- Przepon ogniowych EI 60-240
+- Systemów oddymiania
+- Uszczelnień przejść instalacyjnych
+- Drzwi i wrót przeciwpożarowych
+
+[Dowiedz się więcej →](../uslugi/uslugi-specjalistyczne-branzowe.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;"></i>Fazowanie i Logistyka
+
+**Prace w Budynkach Zamieszkałych**
+
+Kluczowe dla:
+- Planów przesiedleń lokatorów
+- Strategii dostępu
+- Koordynacji dostaw materiałów
+- Minimalizacji okresów uciążliwości
+
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wielowariantowa
+
+**Porównanie Opcji Remediacji**
+
+Analiza wpływu:
+- Różnych systemów elewacyjnych
+- Wariantów fazowania
+- Wymagań robót tymczasowych
+- Opcji inżynierii wartości
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Wsparcie Wniosków
+
+**Dokumentacja dla Dotacji**
+
+Kompleksowa obsługa:
+- Szczegółowe zestawienia kosztów
+- Pakiety konsultacyjne dla mieszkańców
+- Wnioski NFOŚiGW/WFOŚiGW
+- Raporty kosztowe interim
+
+[Dowiedz się więcej →](../uslugi/zarzadzanie-przetargami.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Ryzyko i Rezerwy
+
+**Zabezpieczenia na Niewiadome**
+
+Ekspercka ocena:
+- Prawdopodobieństwa ukrytych usterek
+- Ryzyk zanieczyszczeń
+- Niepewności konstrukcyjnych
+- Skomplikowanych styków
+
+[Dowiedz się więcej →](../uslugi/kompleksowa-raportowanie.qmd)
+:::
+:::
+
+## Typowe Rodzaje Projektów Remediacyjnych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Złożoności Remediacji
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Remediacja Elewacji
+**Typ Budynku:** Różnorodne  
+**Złożoność:** Wysoka  
+**Czas realizacji:** 5-8 dni  
+
+**Zakres Obejmuje:**
+- Demontaż starej elewacji
+- Montaż nowego systemu zgodnego z normami
+- Naprawa ścian konstrukcyjnych
+- Izolacja termiczna
+- Roboty balkonowe i wykończeniowe
+- Rusztowania i zabezpieczenia
+- Badania i odbiory
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Modernizacja Bezpieczeństwa Pożarowego
+**Typ Budynku:** Wielorodzinne  
+**Złożoność:** Średnia-Wysoka  
+**Czas realizacji:** 4-6 dni  
+
+**Zakres Obejmuje:**
+- Modernizacja strefowania pożarowego
+- Wymiana drzwi przeciwpożarowych
+- Wentylacja i oddymianie (RWA)
+- Systemy sygnalizacji pożaru
+- Oświetlenie awaryjne
+- Instalacje tryskaczowe (opcjonalnie)
+- Oznakowanie drög ewakuacyjnych
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Naprawy Konstrukcyjne
+**Wiek Budynku:** Różny  
+**Złożoność:** Wysoka  
+**Czas realizacji:** 5-7 dni  
+
+**Zakres Obejmuje:**
+- Naprawy betonu (odprysków)
+- Wzmocnienia konstrukcyjne
+- Przebudowa balkonów
+- Naprawa dylatacji
+- Systemy hydroizolacyjne
+- Podpinki (jeśli wymagane)
+- Podpory tymczasowe
+:::
+
+:::
+:::
+
+## Kluczowe Czynniki Kosztowe w Projektach Remediacyjnych
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typowa Struktura Kosztów Remediacji Elewacji
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Prace Elewacyjne (40-45%)
+- Demontaż istniejącej elewacji
+- Montaż nowego systemu zgodnego
+- Przepony i bariery ogniowe
+- Modernizacja izolacji
+:::
+
+::: {style=""}
+#### Dostęp i Zabezpieczenia (20-25%)
+- Rusztowania i zabezpieczenie krawędzi
+- Tymczasowa ochrona przed warunkami atmosferycznymi
+- Dźwigi/obsługa materiałów
+- Zagospodarowanie placu budowy
+:::
+
+::: {style=""}
+#### Prace Towarzyszące (15-20%)
+- Roboty przy oknach/drzwiach
+- Remediacja balkonów
+- Roboty przy połączeniu z dachem
+- Modyfikacje instalacji MEP
+:::
+
+::: {style=""}
+#### Koszty Projektowe (15-20%)
+- Honoraria profesjonalne (12-15%)
+- Badania i testy
+- Kontakt z mieszkańcami
+- Rezerwa (10-15%)
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Wszystkie koszty wyceniane indywidualnie</h3>
+<p style="color: #FFFFFF; font-style: italic;">Kompleksowa analiza specyfiki każdego projektu</p>
+
+<p style="color: #FFFFFF;"><strong>UWAGA:</strong> Rzeczywiste koszty znacząco się różnią w zależności od:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Wysokości budynku i powierzchni elewacji</li>
+<li>Zakresu usterek bezpieczeństwa pożarowego</li>
+<li>Ograniczeń dostępu i warunków placu</li>
+<li>Budynek zamieszkały vs. opuszczony</li>
+<li>Wykrycia dodatkowych usterek podczas prac</li>
+</ul>
+:::
+:::
+
+## Nasz Proces Szacowania Kosztów Remediacji
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępna Ocena i Przegląd Danych
+
+**Dzień 1 (4-6 godzin)**
+
+**Co Robimy:**
+- Przegląd raportów inwentaryzacyjnych budynku
+- Analiza danych z badań inwazyjnych
+- Analiza ocen ryzyka pożarowego
+- Przegląd opinii technicznych i ekspertyz
+- Identyfikacja wymagań zgodności
+
+**Klient Dostarcza:**
+- Raporty inwentaryzacji budynku
+- Oceny ryzyka pożarowego
+- Raporty konstrukcyjne (jeśli dostępne)
+- Istniejące rysunki/dokumentacja
+- Warunki decyzji/pozwoleń
+
+**Wynik:** Potwierdzenie zakresu projektu
+:::
+
+::: {.process-step}
+#### Definicja Zakresu i Przedmiar
+
+**Dni 1-3**
+
+**Co Robimy:**
+- Definiujemy zakres remediacji
+- Przedmiar powierzchni elewacji
+- Obliczamy wymagania przepon ogniowych
+- Oceniamy zakres napraw konstrukcyjnych
+- Identyfikujemy prace styków
+- Mapujemy strefy oddziaływania na mieszkańców
+
+**Technologia:**
+- Ekstrakcja BIM 5D (jeśli dostępny BIM)
+- Przedmiar 2D z inwentaryzacji
+- Analiza elewacji budynku
+
+**Wynik:** Kompletny przedmiar (STWiOR)
+:::
+
+::: {.process-step}
+#### Aplikacja Kosztów i Analiza Ryzyka
+
+**Dni 3-5**
+
+**Co Robimy:**
+- Aplikujemy bieżące stawki remediacyjne
+- Uwzględniamy trudności dostępu
+- Obliczamy koszty fazowania
+- Oceniamy ryzyko zanieczyszczeń
+- Uwzględniamy narzuty dla budynków zamieszkałych
+- Stosujemy rezerwy oparte na ryzyku (15-25%)
+
+**Źródła Baz Danych:**
+- Dane rynkowe polskie
+- Aktualne oferty specjalistów
+- Ostatnie projekty remediacyjne
+
+**Wynik:** Szczegółowa wycena kosztów z rejestrem ryzyk
+:::
+
+::: {.process-step}
+#### Przegląd Jakości i Raportowanie
+
+**Dni 5-7**
+
+**Co Robimy:**
+- Techniczny przegląd peer review
+- Sprawdzenie względem benchmarków
+- Weryfikacja zakresu zgodności
+- Przygotowanie dokumentacji dotacyjnej
+- Utworzenie podsumowania dla mieszkańców
+- Harmonogram prezentacji
+
+**Dostawy:**
+- Streszczenie wykonawcze (2-3 strony)
+- Podział kosztów według pakietów robót
+- STWiOR z ilościami i stawkami
+- Pakiet wniosku o dofinansowanie
+- Rejestr ryzyk i rezerwy
+
+**Format:** PDF + skoroszyty Excel
+:::
+
+::: {.process-step}
+#### Prezentacja i Wsparcie Konsultacyjne
+
+**Dzień 7-8**
+
+**Co Robimy:**
+- Prezentujemy ustalenia interesariuszom
+- Wyjaśniamy czynniki kosztowe i ryzyka
+- Przeglądamy opcje fazowania
+- Omawiamy komunikację z mieszkańcami
+- Wspieramy konsultacje mieszkańców
+- Zapewniamy bieżące doradztwo
+
+**Opcje Spotkań:**
+- Osobiście (tylko Polska)
+- Wideokonferencja (wszystkie lokalizacje)
+- Prezentacje dla mieszkańców
+
+**Wsparcie:** 30 dni po dostawie włączone
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typowy Całkowity Czas Trwania:** 5-8 dni roboczych od otrzymania danych inwentaryzacyjnych do raportu końcowego  
+**Usługa Ekspresowa:** Dostępna dla pilnych terminów (3-4 dni) z premią 25%
+:::
+
+## Dlaczego Wybrać BIM Takeoff do Remediacji?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Wiedza Specjalistyczna
+- Specjaliści od **przepon ogniowych** i uszczelnień
+- Eksperci **remediacji elewacji**
+- Znajomość **przepisów polskich** i norm PN-EN
+- Systemy **ogniochronne** i materiały
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Sprawdzona Szybkość
+- **3-8 dni** typowa realizacja
+- **Aktualizacje tego samego dnia** dla zmian zakresu
+- **Usługa ekspresowa** dla pilnych terminów
+- **O 90% szybciej** niż tradycyjne metody
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Zarządzanie Ryzykiem
+- **15-25% rezerwy** na niewiadome
+- **Rejestr ryzyk** z prawdopodobieństwami
+- **Planowanie scenariuszy** dla wariantów
+- Zabezpieczenia na **ukryte usterki**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Wsparcie Finansowania
+- Dokumentacja **wniosków o dotacje**
+- Pakiety **konsultacyjne mieszkańców**
+- Ekspertyza **NFOŚiGW/WFOŚiGW**
+- Formaty **zestawień kosztów**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Budynki Zamieszkałe
+- Opracowane **strategie fazowania**
+- **Minimalizacja uciążliwości** dla mieszkańców
+- Optymalizacja **planowania dostępu**
+- Szacowanie **kosztów przesiedleń**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Doświadczenie Międzynarodowe
+- Rynki **UK, UE, Australia**
+- Obsłużono **wiele typów budynków**
+- Znajomość **standardów zgodności**
+- Raportowanie **wielowalutowe**
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można oszacować koszty remediacji bez badań inwazyjnych?**
+:::
+::: {.faq-answer}
+O: Możemy dostarczyć orientacyjne budżety na podstawie przeglądów wizualnych i typowych wzorców usterek, ale zdecydowanie zalecamy badania inwazyjne przed finalizacją szacunków. Typowo uwzględniamy rezerwę 20-25% dla szacunków bez badań inwazyjnych vs. 10-15% dla w pełni zinwentaryzowanych budynków.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak postępujecie z nieznanymi usterkami wykrywanymi podczas prac?**
+:::
+::: {.faq-answer}
+O: Nasze szacunki uwzględniają rezerwy oparte na ryzyku (typowo 15-25%) obliczone z ustaleń badań inwazyjnych i benchmarków branżowych. Dostarczamy również rejestr ryzyk identyfikujący potencjalne dodatkowe koszty z ocenami prawdopodobieństwa.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie wspierać wnioski o dofinansowanie termomodernizacyjne?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie przygotowujemy dokumentację kosztową dla wniosków NFOŚiGW, WFOŚiGW i innych programów dotacyjnych. Dostarczamy szczegółowe formaty zestawień wymagane przez organy dofinansowujące i możemy wspierać proces przeglądu technicznego.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: A co z fazowaniem, aby mieszkańcy mogli pozostać w budynku?**
+:::
+::: {.faq-answer}
+O: Specjalizujemy się w remediacji budynków zamieszkałych. Nasze szacunki uwzględniają strategie fazowania, koszty zabezpieczeń, roboty tymczasowe, kontakt z mieszkańcami oraz premię kosztową za pracę wokół mieszkańców (typowo 15-20% dodatkowych kosztów).
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak dokładne są szacunki remediacyjne ze względu na niewiadome?**
+:::
+::: {.faq-answer}
+O: Przy odpowiednich badaniach inwazyjnych osiągamy dokładność ±5-8% w projektach remediacyjnych (vs. nasz standard ±5% dla nowej budowy). Dodatkowa wariancja uwzględnia nieoczekiwane usterki. Dostarczamy przejrzyste zestawienia rezerw dla przejrzystości.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie oszacować alternatywne systemy elewacyjne do porównania?**
+:::
+::: {.faq-answer}
+O: Absolutnie. Regularnie porównujemy różne zgodne systemy elewacyjne (okładziny ceglane, tynk, panele metalowe, terakota) z pełnymi implikacjami kosztowymi, w tym rozważaniami dotyczącymi wydajności, konserwacji i trwałości.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: A co z azbestem lub innymi materiałami niebezpiecznymi?**
+:::
+::: {.faq-answer}
+O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynku sugeruje prawdopodobną obecność. Współpracujemy ze specjalistycznymi geodetami azbestu w celu doprecyzowania kosztów usunięcia i uwzględniamy właściwą utylizację, monitoring powietrza i koszty powiadomienia.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest wasza struktura opłat za projekty remediacyjne?**
+:::
+::: {.faq-answer}
+O: Opłaty zależą od wielkości budynku, złożoności usterek i pilności. Wszystkie wyceny indywidualne - skontaktuj się z nami, aby otrzymać konkretną ofertę dla Twojego projektu.
+
+Usługa ekspresowa (3-4 dni) wiąże się z premią 25%.
+:::
+:::
+:::
+
+## Gotowy do Przyspieszenia Swojego Projektu Remediacyjnego?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Daj Się Zaskoczyć Ukrytym Kosztom Remediacji</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzyjne koszty remediacji dla termomodernizacji, konsultacji mieszkańców i planowania projektu. Ekspertyza w przeponach ogniowych i remediacji elewacji, której możesz zaufać.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swoje potrzeby remediacyjne</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 123 456 789</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin z propozycją</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Bezpłatna Konsultacja</h3>
+<p style="color: var(--bim-white); margin: 0;">Wstępna konsultacja bez zobowiązań</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Nasze Portfolio](../coming-soon.qmd){.cta-secondary}
+[Zapytaj o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści od Przepon Ogniowych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Remediacji Elewacji</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja w 3-8 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rezerwy Oparte na Ryzyku</strong></p>
+:::
+:::
+:::
+
+:::

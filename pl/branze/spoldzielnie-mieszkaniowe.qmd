@@ -1,0 +1,337 @@
+---
+title: "Kompleksowa Obsługa Przetargowa dla Spółdzielni Mieszkaniowych | BIM Takeoff"
+page-layout: full
+description: "Kompletny doradca przetargowy dla spółdzielni mieszkaniowych. Od wyceny przez przetarg do rozliczenia końcowego. Szacowane oszczędności 20-30%. 2000+ projektów doświadczenia UK/Australia."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kompleksowa Obsługa Przetargowa dla Spółdzielni Mieszkaniowych
+### Od Wyceny → przez Przetarg → do Rozliczenia Końcowego
+:::
+
+::: {.hero-subtitle}
+**Szacowane oszczędności 20-30% i zero problemów prawnych**  
+Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 900px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2000+ Projektów Doświadczenia</strong> - UK & Australia Standards</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ochrona Zarządu</strong> - Professional backing i odpowiedzialność zawodowa</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szacowane Oszczędności</strong> - 20-30% vs typowe polskie przetargi</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Analiza Przetargu](../kontakt.qmd){.cta-primary style="font-size: 18px; padding: 16px 32px;"}
+[Umów Konsultację →](../kontakt.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Problem Polskich Przetargów: Dlaczego 70% Upada lub Przekracza Budżet
+
+::: {style="margin: 48px 0; padding: 32px; background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545; border-radius: 8px;"}
+<h3 style="color: #dc3545; margin-bottom: 24px;"><i class="bi bi-exclamation-triangle-fill"></i> Fakty o Przetargach Spółdzielni w Polsce</h3>
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px;"}
+
+::: {style=""}
+**Statystyki (2024):**
+- **82% spółdzielni** nie ma profesjonalnego wsparcia przetargowego
+- **70% przetargów** kończy się unieważnieniem lub przekroczeniem budżetu o 30-50%
+- **Zarządy ponoszą pełną odpowiedzialność osobistą** (włącznie z karami do 20 mln EUR)
+- **Przekroczenia budżetów o 30-50%** to NORMA, nie wyjątek
+:::
+
+::: {style=""}
+**Typowe Błędy:**
+- ❌ Niejasny zakres prac → wykonawca zgłasza +30% roszczeń
+- ❌ Brak szczegółowego przedmiaru → oferty "jabłka vs gruszki"
+- ❌ Słaba umowa → wykonawca robi co chce, nie co ma
+- ❌ Tylko kryterium cena → wygrywa najgorszy wykonawca
+:::
+
+:::
+
+<p style="margin-top: 24px; font-size: 18px; color: #dc3545; font-weight: 600;">REZULTAT: Budżet przekroczony o 50-100%, niekończące się "niespodzianki", spory i opóźnienia, zarząd odpowiada przed członkami</p>
+:::
+
+## Nasze Rozwiązanie: Kompleksowe Doradztwo Przetargowe i Projektowe
+
+::: {style="margin: 48px 0; padding: 32px; background: linear-gradient(135deg, var(--bim-orange) 0%, #ff7700 100%); border-radius: 8px; color: white;"}
+<h3 style="color: white; text-align: center; margin-bottom: 32px; font-size: 28px;">Kompletny Doradca Przetargowy</h3>
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; text-align: center;"}
+::: {style=""}
+<i class="bi bi-1-circle-fill" style="font-size: 48px; color: white;"></i>
+<p style="font-size: 18px; font-weight: 600; margin-top: 12px;">WYCENA</p>
+<p style="font-size: 14px;">Realistyczny kosztorys oparty na 2000+ projektach</p>
+:::
+
+::: {style=""}
+<i class="bi bi-2-circle-fill" style="font-size: 48px; color: white;"></i>
+<p style="font-size: 18px; font-weight: 600; margin-top: 12px;">PRZETARG</p>
+<p style="font-size: 14px;">Szczelna dokumentacja zgodna z prawem</p>
+:::
+
+::: {style=""}
+<i class="bi bi-3-circle-fill" style="font-size: 48px; color: white;"></i>
+<p style="font-size: 18px; font-weight: 600; margin-top: 12px;">NADZÓR</p>
+<p style="font-size: 14px;">Kontrola kosztów przez całą realizację</p>
+:::
+
+::: {style=""}
+<i class="bi bi-4-circle-fill" style="font-size: 48px; color: white;"></i>
+<p style="font-size: 18px; font-weight: 600; margin-top: 12px;">ROZLICZENIE</p>
+<p style="font-size: 14px;">Weryfikacja i obrona przed roszczeniami</p>
+:::
+:::
+
+<p style="text-align: center; font-size: 20px; margin-top: 32px; font-weight: 600;">Nie jestem wykonawcą. Jestem PO WASZEJ STRONIE.</p>
+:::
+
+## Trzy Pakiety Usług - Wybierz Odpowiedni dla Siebie
+
+::: {.feature-grid}
+::: {.feature-card style="border-top: 4px solid #dc3545;"}
+### <i class="bi bi-lightning-fill" style="color: #dc3545; margin-right: 12px;"></i>PAKIET 1: "RATOWANIE PRZETARGU"
+
+**Dla spółdzielni z unieważnionymi przetargami**
+
+**Co otrzymujecie:**
+- ✅ Analiza w 48h - co poszło źle
+- ✅ Przepisanie dokumentacji w 5 dni
+- ✅ Ponowne ogłoszenie z gwarancją sukcesu
+
+**Czas:** 7-10 dni  
+**Cena:** Wycenimy indywidualnie po analizie
+
+<p style="margin-top: 16px; padding: 12px; background: #fff3cd; border-radius: 4px; font-weight: 600;">💡 Szybka interwencja: "Naprawimy wasz przetarg w tydzień"</p>
+
+[Bezpłatna Analiza →](../kontakt.qmd){.cta-primary}
+:::
+
+::: {.feature-card style="border-top: 4px solid var(--bim-orange);"}
+### <i class="bi bi-star-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>PAKIET 2: "KOMPLEKSOWA OBSŁUGA"
+
+**Dla dużych projektów termomodernizacji**
+
+**4 Fazy Obsługi:**
+
+**FAZA 1: PRZYGOTOWANIE (2-3 tyg)**
+- Inwentaryzacja i określenie zakresu
+- Wycena realistyczna (z 2000+ projektów)
+- Strategia przetargowa
+
+**FAZA 2: DOKUMENTACJA (2-3 tyg)**
+- SIWZ/SWZ zgodny z prawem
+- STWiOR (specyfikacja techniczna)
+- Szczegółowy przedmiar robót
+- Wzór umowy chroniący spółdzielnię
+
+**FAZA 3: PROCES (2-3 tyg)**
+- Odpowiedzi na pytania
+- Analiza ofert (także bezpieczeństwo pożarowe)
+- Negocjacje i rekomendacja
+
+**FAZA 4: NADZÓR (ongoing)**
+- Miesięczne raporty kosztowe
+- Weryfikacja płatności
+- Obrona przed roszczeniami
+- Rozliczenie końcowe
+
+**Cena:** Wycenimy indywidualnie na podstawie zakresu projektu
+
+[Umów Prezentację →](../kontakt.qmd){.cta-primary}
+:::
+
+::: {.feature-card style="border-top: 4px solid #28a745;"}
+### <i class="bi bi-infinity" style="color: #28a745; margin-right: 12px;"></i>PAKIET 3: "STAŁA OBSŁUGA"
+
+**Dla spółdzielni z ciągłymi projektami**
+
+**Usługi miesięczne:**
+- ✅ Wszystkie małe przetargi
+- ✅ Opiniowanie ofert i umów
+- ✅ Kontrola kosztów bieżących
+- ✅ Doradztwo na żądanie
+- ✅ Weryfikacja zgodności bezpieczeństwa pożarowego
+
+**Kontrakt:** Minimum 12 miesięcy  
+**Korzyść:** Stały dostęp do eksperta bez kosztów rekrutacji  
+**Cena:** Wycenimy indywidualnie w zależności od zakresu
+
+<p style="margin-top: 16px; padding: 12px; background: #d4edda; border-radius: 4px; font-weight: 600;">💰 Stała obsługa: Spokój zarządu przez cały rok</p>
+
+[Sprawdź Szczegóły →](../kontakt.qmd){.cta-primary}
+:::
+:::
+
+## Nasze Unikalne Atuty
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### 2000+ Projektów Doświadczenia
+- **Wycenione projekty międzynarodowe** - znamy rynkowe ceny
+- **UK & Australia standardy** - najlepsze praktyki
+- **Specjalizacja branżowa** - zabudowy, fasady, ochrona pożarowa
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Kompleksowa Obsługa
+- **Od wyceny do rozliczenia** - pełna kontrola projektu
+- **Dokumentacja przetargowa** - zgodna z prawem zamówień publicznych
+- **Nadzór kosztorysowy** - przez całą realizację
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Niezależność
+- **Nie jesteśmy wykonawcą** - brak konfliktu interesów
+- **Po stronie zamawiającego** - chronimy Wasze budżety
+- **Transparentne rozliczenia** - zrozumiałe dla zarządów
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza Techniczna
+- **Termomodernizacja** - budynki wielorodzinne
+- **Bezpieczeństwo pożarowe** - systemy ochrony
+- **Zamówienia publiczne** - znajomość procedur
+:::
+
+:::
+
+## Specjalizacja: Bezpieczeństwo Pożarowe & Termomodernizacja
+
+::: {style="margin: 48px 0;"}
+<h3 style="text-align: center; color: var(--bim-charcoal); margin-bottom: 32px;">Pakiet 4: Analiza i Przetarg Systemów Przeciwpożarowych</h3>
+
+::: {style="padding: 32px; background: linear-gradient(135deg, #ffe8e8 0%, #ffcccc 100%); border-radius: 8px; border-left: 4px solid #dc3545;"}
+<p style="font-size: 20px; font-weight: 600; color: #dc3545; margin-bottom: 24px;">Eksperci w kosztorysowaniu i bezpieczeństwie przeciwpożarowym</p>
+
+**Zakres:**
+- ✅ Kompleksowa analiza bezpieczeństwa pożarowego
+- ✅ Kosztorys systemów przeciwpożarowych
+- ✅ Przetarg na modernizację
+- ✅ Nadzór nad wykonaniem
+- ✅ Odbiór i certyfikacja
+
+**Dlaczego my?** 2000+ projektów, w tym setki z ochroną przeciwpożarową  
+**Cena:** Wycenimy indywidualnie w zależności od zakresu
+
+<p style="margin-top: 24px; padding: 16px; background: white; border-radius: 4px; font-weight: 600;">🔥 Zgodność z BS9999, BS9991 i polskimi przepisami</p>
+:::
+:::
+
+## Bezpłatna Analiza Przetargu - Sprawdź Co Możecie Poprawić
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); margin-bottom: 24px; font-size: 32px;">Wyślij Swój Ostatni Przetarg - Pokażemy Błędy i Możliwości Oszczędności</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">W 48h otrzymacie szczegółowy raport:<br>Co można poprawić + Jak to naprawić + Szacowane oszczędności</p>
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 32px 0;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 48px; margin-bottom: 8px;">48h</h3>
+<p style="color: var(--bim-white); margin: 0;">Otrzymasz raport</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 48px; margin-bottom: 8px;"><i class="bi bi-gift-fill"></i></h3>
+<p style="color: var(--bim-white); margin: 0;">Całkowicie bezpłatnie</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 48px; margin-bottom: 8px;">20+</h3>
+<p style="color: var(--bim-white); margin: 0;">Punktów kontrolnych</p>
+:::
+:::
+
+::: {style="margin-top: 48px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Wyślij Przetarg do Analizy](../kontakt.qmd){.cta-primary style="font-size: 20px; padding: 18px 36px;"}
+[Umów Rozmowę: +48 508 209 313](tel:+48508209313){.cta-secondary}
+:::
+
+<p style="color: var(--bim-white); margin-top: 32px; font-size: 16px; opacity: 0.9;">✉️ info@bimtakeoff.com | 📞 +48 508 209 313</p>
+:::
+:::
+
+## FAQ - Najczęściej Zadawane Pytania
+
+::: {style="margin: 48px 0;"}
+
+::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Jak wyceniacie swoje usługi?</h4>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">Wyceniamy indywidualnie w zależności od zakresu projektu, jego złożoności i wymaganego poziomu wsparcia. Lokalni kosztorysanci robią TYLKO kosztorys. My oferujemy kompleksową obsługę przez cały projekt - od wyceny, przez dokumentację przetargową, analizę ofert, nadzór, aż po rozliczenie końcowe. Szacowane oszczędności wynoszą 20-30%.</p>
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Dlaczego nie możemy użyć lokalnego kosztorysanta?</h4>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">**Możecie.** Ale dostaniecie tylko kosztorys. My oferujemy: wycenę + dokumentację przetargową + analizę ofert + nadzór + rozliczenie. Plus 2000+ projektów doświadczenia z UK/Australia = znamy najlepsze praktyki, których polska branża często nie stosuje.</p>
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Co jeśli przetarg się nie uda?</h4>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">W pakiecie "Ratowanie Przetargu" oferujemy gwarancję zwrotu połowy opłaty jeśli nie otrzymacie lepszych ofert. W przypadku pakietu "Kompleksowa Obsługa" nie oferujemy takiej gwarancji, ale w 20 lat kariery nie mieliśmy nieudanego przetargu.</p>
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Czy obsługujecie małe spółdzielnie?</h4>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">**Tak.** Pakiet "Stała Obsługa" jest idealny dla małych i średnich spółdzielni. Dostajecie stały dostęp do eksperta bez kosztów rekrutacji kosztorysanta na pełen etat.</p>
+:::
+
+::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+<h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Czy jesteście wykonawcą?</h4>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">**NIE.** To jest kluczowe - jesteśmy niezależnym quantity surveyor. Nie mamy konfliktu interesów. Jesteśmy PO WASZEJ STRONIE. Nasza praca to pilnować żeby wykonawca zrobił co ma, w uzgodnionej cenie, bez roszczeń i ukrytych kosztów.</p>
+:::
+
+:::
+
+## Gotowi Rozpocząć Projekt?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Kompleksowe Wsparcie dla Spółdzielni Mieszkaniowych</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Od przygotowania przetargu po rozliczenie końcowe. Doświadczenie w projektach wielomilionowych PLN.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Umów Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów Twój projekt termomodernizacji</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Bezpłatna wstępna wycena projektu</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Bezpłatna Konsultacja</h3>
+<p style="color: var(--bim-white); margin: 0;">Przegląd dokumentacji projektowej</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zapytaj o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+:::
+:::
+
+:::
