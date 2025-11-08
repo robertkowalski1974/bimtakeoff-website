@@ -58,9 +58,9 @@ website:
       - text: "Industries"
         menu:
           - text: "Warehouses & Logistics"
-            href: coming-soon.qmd
+            href: industries/warehouses-logistics.qmd
           - text: "Data Centers"
-            href: coming-soon.qmd
+            href: industries/data-centers.qmd
           - text: "Residential Development"
             href: coming-soon.qmd
           - text: "Remediation"

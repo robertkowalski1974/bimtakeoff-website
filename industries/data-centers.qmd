@@ -1,0 +1,642 @@
+---
+title: "Data Center Cost Estimation | Mission-Critical BIM 5D Services | BIM Takeoff"
+page-layout: full
+description: "Professional data center cost estimation for Tier I-IV facilities. Specialists in MEP complexity, power density, cooling systems. 5-10 day turnaround with ±3-5% accuracy."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Data Center Cost Estimation
+### Mission-Critical Infrastructure Precision
+:::
+
+::: {.hero-subtitle}
+From Edge Computing to Hyperscale Facilities.  
+Delivered in 5-10 days with ±3-5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>MEP Expertise</strong> - Complex cooling, power & redundancy systems</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Tier I-IV Specifications</strong> - All uptime requirement levels</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience:</strong> UK, EU & Australian standards</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Data Centers: Zero-Tolerance Infrastructure
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Data centers are the most demanding construction projects with no room for error:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Uptime criticality** - 99.99%+ availability requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **MEP dominance** - 60-70% of total project cost</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Power density** - 5-30+ kW per rack requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Redundancy complexity** - N+1, 2N, 2N+1 configurations</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost intensity** - £4,000-15,000/sqm depending on tier</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "A single hour of downtime costs hyperscale operators $300,000+. Traditional estimation methods miss critical redundancy requirements and MEP interdependencies, leading to scope gaps that threaten project viability."
+:::
+:::
+
+::: {style=""}
+### Our Data Center Solution
+
+Specialized 5D BIM for mission-critical infrastructure:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **MEP-focused** - Detailed electrical, mechanical, plumbing analysis</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Redundancy verification** - N+1, 2N system checking</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tier standard compliance** - I, II, III, IV specifications</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Power/cooling modeling** - Capacity and load calculations</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Comprehensive experience** across edge, colocation & hyperscale
+- **All tier levels** delivered with precision
+- **Average 7 days** from BIM model to detailed estimate
+- **±3-5% accuracy** on mission-critical systems
+:::
+:::
+
+:::
+
+## Data Center-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>MEP Systems Costing
+
+**Electrical & Mechanical Focus**
+
+Detailed analysis of:
+- UPS systems & generators
+- PDU and busway distribution
+- CRAC/CRAH cooling units
+- Chilled water systems
+- Fire suppression (FM-200, Novec)
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Redundancy Verification
+
+**N+1, 2N, 2N+1 Compliance**
+
+Ensuring proper:
+- Power path redundancy
+- Cooling system backup
+- Network pathway diversity
+- Maintenance bypass capability
+- Concurrent maintainability
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Tier Level Analysis
+
+**I, II, III, IV Standards**
+
+Compliance checking for:
+- Uptime requirements
+- Component redundancy
+- Fault tolerance
+- Maintenance protocols
+- Security specifications
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-thermometer-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Cooling System Design
+
+**Thermal Management**
+
+Cost analysis of:
+- Row-based cooling
+- Hot/cold aisle containment
+- Free cooling options
+- Economizer systems
+- Liquid cooling infrastructure
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Security & Access
+
+**Physical Security Systems**
+
+Comprehensive costing:
+- Biometric access control
+- CCTV/surveillance systems
+- Man-trap vestibules
+- Perimeter security
+- Card access systems
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Power Density Planning
+
+**kW per Rack Analysis**
+
+Capacity planning for:
+- 5-10 kW (standard density)
+- 10-20 kW (high density)
+- 20-30+ kW (hyperscale)
+- Future expansion capacity
+- Power usage effectiveness (PUE)
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+:::
+
+## Data Center Tier Complexity
+
+::: {style="margin: 48px 0;"}
+### Understanding Tier Classifications
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier I - Basic Capacity
+**Uptime:** 99.671% (28.8 hrs/yr downtime)  
+**Redundancy:** N  
+**Timeline:** 5-6 days  
+**Typical Cost:** £4,000-6,000/sqm
+
+**Characteristics:**
+- Single power & cooling path
+- Non-redundant components
+- Planned maintenance requires shutdown
+- Basic infrastructure
+- Suitable for small offices/edge sites
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier II - Redundant Components
+**Uptime:** 99.741% (22.0 hrs/yr downtime)  
+**Redundancy:** N+1 components  
+**Timeline:** 6-7 days  
+**Typical Cost:** £5,000-8,000/sqm
+
+**Characteristics:**
+- Single power & cooling path
+- Redundant components (N+1)
+- Some maintenance without shutdown
+- Improved infrastructure
+- Suitable for SME operations
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier III - Concurrently Maintainable
+**Uptime:** 99.982% (1.6 hrs/yr downtime)  
+**Redundancy:** N+1 systems  
+**Timeline:** 7-9 days  
+**Typical Cost:** £7,000-11,000/sqm
+
+**Characteristics:**
+- Multiple power & cooling paths
+- One path active, one passive
+- Maintenance without impact
+- 2N redundancy on critical systems
+- Enterprise/colocation standard
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier IV - Fault Tolerant
+**Uptime:** 99.995% (0.4 hrs/yr downtime)  
+**Redundancy:** 2N+1  
+**Timeline:** 9-10 days  
+**Typical Cost:** £10,000-15,000+/sqm
+
+**Characteristics:**
+- Multiple active power & cooling paths
+- Fault tolerant infrastructure
+- No single point of failure
+- Compartmentalized systems
+- Hyperscale/mission-critical
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Data Center Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Cost Breakdown (Tier III, per sqm)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Electrical Systems (35-40%)
+- UPS systems: £800-1,200/sqm
+- Generators & ATS: £600-900/sqm
+- PDU/busway distribution: £500-800/sqm
+- Lighting & small power: £200-300/sqm
+- **Subtotal:** £2,100-3,200/sqm
+:::
+
+::: {style=""}
+#### Mechanical Systems (25-30%)
+- CRAC/CRAH units: £700-1,000/sqm
+- Chilled water plant: £500-800/sqm
+- Hot/cold aisle containment: £200-350/sqm
+- Air handling & ducting: £300-500/sqm
+- **Subtotal:** £1,700-2,650/sqm
+:::
+
+::: {style=""}
+#### Building Fabric (15-20%)
+- Raised floor systems: £200-350/sqm
+- Structural envelope: £600-900/sqm
+- Security & access control: £150-250/sqm
+- Fire protection: £200-300/sqm
+- **Subtotal:** £1,150-1,800/sqm
+:::
+
+::: {style=""}
+#### Other Elements (15-20%)
+- IT infrastructure: £400-600/sqm
+- BMS & monitoring: £250-400/sqm
+- External works: £200-350/sqm
+- Preliminaries (15%): £900-1,400/sqm
+- Contingency (8-10%): £600-900/sqm
+- **Subtotal:** £2,350-3,650/sqm
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;"}
+### Total Typical Range: £7,300-11,300/sqm
+*(Tier III standard, excluding land, fees, and IT equipment)*
+
+**NOTE:** Actual costs vary significantly based on:
+- Tier classification (I-IV)
+- Power density (kW per rack)
+- Redundancy requirements
+- Location and infrastructure
+- Security and compliance levels
+:::
+:::
+
+## Our Data Center Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Review & Requirements
+
+**Day 1-2 (6-8 hours)**
+
+**What We Do:**
+- Review BIM model (IFC/Revit) and MEP coordination
+- Verify tier classification requirements
+- Analyze power density and cooling needs
+- Identify redundancy configurations
+- Assess security and access requirements
+
+**Client Provides:**
+- Architectural, structural & MEP models
+- Tier specification documents
+- Power density requirements
+- Site infrastructure details
+- Security protocols
+
+**Output:** Project plan with tier verification
+:::
+
+::: {.process-step}
+#### MEP Systems Analysis
+
+**Days 2-4**
+
+**What We Do:**
+- Extract all electrical systems (UPS, generators, PDU)
+- Quantify mechanical systems (CRAC, chillers)
+- Calculate cable/conduit requirements
+- Verify redundancy configurations
+- Check compliance with tier standards
+
+**Technology:**
+- BIM 5D MEP extraction
+- Load calculation verification
+- Clash detection review
+- N+1/2N system validation
+
+**Output:** Complete MEP quantity take-off
+:::
+
+::: {.process-step}
+#### Building Systems Quantification
+
+**Days 3-5**
+
+**What We Do:**
+- Quantify raised floor systems
+- Calculate structural requirements
+- Measure fire suppression systems
+- Count security/access components
+- Assess cable management infrastructure
+
+**Coverage:**
+- White space & grey space
+- Support areas & offices
+- Loading dock & deliveries
+- Emergency systems
+
+**Output:** Building fabric BOQ
+:::
+
+::: {.process-step}
+#### Cost Application & Modeling
+
+**Days 5-7**
+
+**What We Do:**
+- Apply specialist MEP rates
+- Factor in tier-specific requirements
+- Calculate redundancy premiums
+- Include installation complexity
+- Model alternative scenarios
+- Add contingency (8-12% typical)
+
+**Database Sources:**
+- Specialist data center benchmarks
+- MEP contractor quotes
+- Equipment manufacturer pricing
+- Recent project comparisons
+
+**Output:** Detailed cost estimate with tier breakdown
+:::
+
+::: {.process-step}
+#### Quality Review & Verification
+
+**Days 7-9**
+
+**What We Do:**
+- Technical peer review
+- Tier standard compliance check
+- Redundancy verification
+- PUE calculation review
+- Benchmark comparison
+- Risk assessment
+
+**Deliverables:**
+- Executive summary (3-5 pages)
+- Cost breakdown by system
+- MEP-focused BOQ
+- Tier compliance report
+- Alternative scenarios
+- Risk register
+
+**Format:** PDF + Excel workbooks
+:::
+
+::: {.process-step}
+#### Presentation & Support
+
+**Days 9-10**
+
+**What We Do:**
+- Present findings to technical team
+- Explain critical MEP cost drivers
+- Review tier compliance
+- Discuss value engineering options
+- Answer technical questions
+- Provide ongoing support
+
+**Meeting Options:**
+- In-person (UK only)
+- Video conference (all locations)
+- Technical workshop format
+
+**Support:** 60 days post-delivery for Tier III/IV
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 7-10 working days from BIM model receipt to final report  
+**Express Service:** Available for urgent projects (5-6 days) at 30% premium
+:::
+
+## Why Choose BIM Takeoff for Data Centers?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Mission-Critical Expertise
+- **Comprehensive experience** in data center delivery
+- **All tier levels** (I through IV)
+- **Edge to hyperscale** facilities
+- **International standards** (UK, EU, Australia)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### MEP Focus
+- **60-70% MEP accuracy** critical for data centers
+- **Redundancy verification** N+1, 2N, 2N+1
+- **Power/cooling expertise** detailed calculations
+- **System integration** comprehensive coordination
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Accuracy
+- **±3-5% accuracy** on complex MEP
+- **Comprehensive scope** - nothing missed
+- **Tier compliance** verified estimates
+- **Independent verification** available
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange;"}
+### Advanced Technology
+- **5D BIM** native MEP workflows
+- **Automated extraction** of complex systems
+- **Real-time updates** for design changes
+- **Clash detection** integration
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Rapid Turnaround
+- **7-10 days** typical delivery
+- **5-6 days** express service
+- **Same-day** change impact analysis
+- **85% faster** than traditional methods
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Quality Assurance
+- **Technical peer review** on all estimates
+- **Tier standard verification** compliance check
+- **Benchmark comparison** validation
+- **60-day support** Tier III/IV projects
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What makes data center estimation different from other building types?**
+:::
+::: {.faq-answer}
+A: Data centers are 60-70% MEP systems (vs 20-30% for typical buildings), with complex redundancy requirements, mission-critical reliability standards, and power densities 10-50x higher than office buildings. Traditional estimation methods often miss critical MEP interdependencies and redundancy specifications.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you estimate data centers at different tier levels?**
+:::
+::: {.faq-answer}
+A: Yes, we have extensive experience with all tier classifications (I through IV). We verify compliance with tier standards and can model cost differences between tier levels to support decision-making. Tier III and IV projects typically require 9-10 days due to their complexity.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle N+1 and 2N redundancy requirements?**
+:::
+::: {.faq-answer}
+A: We systematically verify redundancy configurations for all critical systems (power, cooling, network paths). Our 5D BIM workflow identifies each redundant component and ensures proper load distribution, maintenance bypass capability, and concurrent maintainability where required.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What power density ranges can you accommodate?**
+:::
+::: {.faq-answer}
+A: We handle the full spectrum from standard density (5-10 kW per rack) through high density (10-20 kW) to hyperscale (20-30+ kW). Our analysis includes electrical infrastructure sizing, cooling capacity requirements, and future expansion provisions for each density scenario.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include IT equipment in your estimates?**
+:::
+::: {.faq-answer}
+A: We focus on the building infrastructure and MEP systems. IT equipment (servers, storage, networking gear) is typically excluded but we can include allowances based on client specifications. We always clarify the scope boundary at project inception.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you assess the cost impact of design changes?**
+:::
+::: {.faq-answer}
+A: Because we work with 5D BIM, most design changes can be re-costed within 4-8 hours. This includes changes to power density, cooling strategy, redundancy level, or tier classification. Complex changes affecting multiple systems may require 1-2 days.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you help with PUE (Power Usage Effectiveness) calculations?**
+:::
+::: {.faq-answer}
+A: Yes, we can model expected PUE based on the proposed cooling strategy, climate zone, and equipment efficiency. We can also compare alternative cooling approaches (air-cooled vs water-cooled, free cooling, etc.) and their cost/efficiency tradeoffs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for data center projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on tier level, size, and complexity. As a guide:
+- Tier I/II (500-2,000 sqm): £8,000-15,000
+- Tier III (2,000-5,000 sqm): £15,000-30,000
+- Tier III (5,000-10,000+ sqm): £30,000-50,000
+- Tier IV (any size): Premium pricing due to complexity
+
+Express service carries a 30% premium. Contact us for a specific quote.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you support edge computing facilities and modular data centers?**
+:::
+::: {.faq-answer}
+A: Yes, we work with edge facilities, containerized solutions, and modular data centers. Our approach scales from single-rack edge nodes to multi-MW modular deployments. We understand the unique cost dynamics of prefabricated and rapidly deployed solutions.
+:::
+:::
+:::
+
+## Ready to Estimate Your Mission-Critical Project?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Risking Cost Overruns on Critical Infrastructure</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the MEP-focused precision your data center project demands. Proven expertise across all tier levels in UK, EU & Australia.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your tier requirements with our specialists</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Free 30-minute technical review</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>All Tier Levels (I-IV)</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>MEP-Focused Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-10 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3-5% Accuracy on MEP Systems</strong></p>
+:::
+:::
+:::
+
+:::

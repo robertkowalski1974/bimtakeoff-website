@@ -1,0 +1,588 @@
+---
+title: "Warehouse & Logistics Cost Estimation | BIM 5D Services | BIM Takeoff"
+page-layout: full
+description: "Professional warehouse and logistics facility cost estimation. 50,000+ sqm projects, 3-7 day turnaround, ±5% accuracy. Specialists in pre-engineered buildings and repetitive elements."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Warehouse & Logistics Cost Estimation
+### Precision Engineering for High-Bay Storage & Distribution Centers
+:::
+
+::: {.hero-subtitle}
+From 5,000 sqm to 100,000+ sqm facilities.  
+Delivered in 3-7 days with ±5% accuracy.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Fast-Track Expertise</strong> - 90% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Repetitive Element Optimization</strong> - Columns, beams, cladding</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Warehouse & Logistics: The High-Stakes Reality
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Industry Challenges
+
+Modern warehouses are time-critical, high-volume projects with zero margin for error:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Tight deadlines** - Clients need facilities operational ASAP</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Large scale** - 50,000+ sqm with thousands of repetitive elements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost pressure** - £500-1,500/sqm margins are thin</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Complex logistics** - Material delivery timing is critical</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Design changes** - Last-minute tenant requirements</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### The Risk
+
+> "A 2-week delay on a 100,000 sqm distribution center costs £500,000+ in lost rental income and extended prelims. Traditional estimation methods taking 6-8 weeks are incompatible with modern logistics timelines."
+:::
+:::
+
+::: {style=""}
+### Our Warehouse Solution
+
+Specialized 5D BIM for logistics and distribution facilities:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-7 days** for complete estimate (vs 6-8 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Repetitive element library** - Columns, beams, cladding automated</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pre-engineered building expertise** - Butler, Kirby, Astron systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Logistics planning** - Material staging and delivery schedules</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Change management** - Real-time cost impact in hours</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Proven Results
+
+- **Extensive warehouse experience** across UK, EU, and Australia
+- **Large-scale projects** handled efficiently with BIM 5D technology
+- **Average 5 days** from BIM model to detailed estimate
+- **±5% accuracy** on 95% of projects
+:::
+:::
+
+:::
+
+## Warehouse-Specific Services
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation
+
+**3-7 Day Turnaround**
+
+Perfect for:
+- Design & Build tenders
+- Speculative development
+- Pre-lease negotiations
+- Value engineering studies
+
+[Learn More →](../services/fast-track-cost-control.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Repetitive Element Optimization
+
+**Automated Extraction**
+
+Handles thousands of:
+- Steel columns & beams
+- Roof purlins & rails
+- Wall cladding panels
+- Dock levelers & doors
+
+[Learn More →](../services/automated-quantity-takeoff.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Logistics
+
+**Material Delivery Planning**
+
+Critical for:
+- Cladding panel sequences
+- Steel erection schedules
+- Concrete pour planning
+- Site access coordination
+
+[Learn More →](../services/construction-logistics.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+
+**Compare Design Options**
+
+Analyze impact of:
+- Height variations (10m vs 12m vs 15m)
+- Cladding material choices
+- Foundation types
+- Tenant fit-out levels
+
+[Learn More →](../services/multi-scenario-analysis.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing & Management
+
+**Competitive Tender Support**
+
+Full service including:
+- Quantity take-offs
+- Detailed pricing
+- Preliminaries breakdown
+- Tender document assembly
+
+[Learn More →](../services/bid-writing-management.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Traditional Takeoff
+
+**2D Drawing Support**
+
+When BIM unavailable:
+- Legacy project estimates
+- Planning stage budgets
+- Rapid feasibility studies
+- Benchmarking exercises
+
+[Learn More →](../services/traditional-quantity-takeoff.qmd)
+:::
+:::
+
+## Warehouse Project Complexity Factors
+
+::: {style="margin: 48px 0;"}
+### Understanding Your Project Scale
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Standard Single-Unit Warehouse
+**Size:** 5,000 - 20,000 sqm  
+**Height:** 10-12m clear  
+**Complexity:** Low-Medium  
+**Timeline:** 3-4 days  
+**Typical Cost:** £600-900/sqm
+
+**Characteristics:**
+- Single tenant
+- Standard steel frame
+- Basic cladding & roofing
+- 5-10 loading docks
+- Minimal office space
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Multi-Unit Distribution Center
+**Size:** 20,000 - 50,000 sqm  
+**Height:** 12-15m clear  
+**Complexity:** Medium-High  
+**Timeline:** 5-6 days  
+**Typical Cost:** £700-1,100/sqm
+
+**Characteristics:**
+- 2-4 tenant spaces
+- Automated racking systems
+- Enhanced fire protection
+- 15-25 loading docks
+- Mezzanine office areas
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Large-Scale Fulfillment Hub
+**Size:** 50,000 - 100,000+ sqm  
+**Height:** 15m+ clear  
+**Complexity:** High  
+**Timeline:** 6-7 days  
+**Typical Cost:** £800-1,500/sqm
+
+**Characteristics:**
+- Single mega-tenant
+- Automation infrastructure
+- Complex MEP systems
+- 50+ loading docks
+- Extensive office/amenity space
+:::
+
+:::
+:::
+
+## Key Cost Drivers in Warehouse Projects
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+### Typical Cost Breakdown (per sqm)
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
+
+::: {style=""}
+#### Structural Elements (40-45%)
+- Steel frame: £180-250/sqm
+- Concrete floor slab: £80-120/sqm
+- Foundations: £60-100/sqm
+- **Subtotal:** £320-470/sqm
+:::
+
+::: {style=""}
+#### Envelope (20-25%)
+- Wall cladding: £60-90/sqm
+- Roof covering: £50-80/sqm
+- Loading dock equipment: £30-50/sqm
+- **Subtotal:** £140-220/sqm
+:::
+
+::: {style=""}
+#### MEP Services (15-20%)
+- Electrical distribution: £40-60/sqm
+- Lighting: £25-40/sqm
+- Heating/ventilation: £30-50/sqm
+- Fire protection: £20-35/sqm
+- **Subtotal:** £115-185/sqm
+:::
+
+::: {style=""}
+#### Other Elements (15-20%)
+- External works: £50-80/sqm
+- Preliminaries (12-15%): £85-150/sqm
+- Contingency (5-10%): £40-80/sqm
+- **Subtotal:** £175-310/sqm
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £750-1,185/sqm</h3>
+<p style="color: #FFFFFF; font-style: italic;">(Excluding land, fees, and client fit-out)</p>
+
+<p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
+<ul style="color: #FFFFFF; text-align: left; display: inline-block;">
+<li>Location and ground conditions</li>
+<li>Height and clear span requirements</li>
+<li>Automation and racking systems</li>
+<li>Fire protection standards</li>
+<li>Tenant specification level</li>
+</ul>
+:::
+:::
+
+## Our Warehouse Estimation Process
+
+::: {.process-steps}
+::: {.process-step}
+#### Initial Review & Setup
+
+**Day 1 (4-6 hours)**
+
+**What We Do:**
+- Review BIM model (IFC/Revit) or 2D drawings
+- Verify structural grid and bay sizes
+- Confirm clear height requirements
+- Identify tenant-specific requirements
+- Set up repetitive element libraries
+
+**Client Provides:**
+- Architectural & structural drawings/models
+- Specification documents
+- Site information
+- Any tenant fit-out requirements
+
+**Output:** Project plan and timeline confirmation
+:::
+
+::: {.process-step}
+#### Automated Quantity Extraction
+
+**Days 1-2**
+
+**What We Do:**
+- Extract all structural elements automatically
+- Quantify cladding and roofing systems
+- Calculate foundation volumes
+- Count loading docks and doors
+- Measure floor areas and wall lengths
+
+**Technology:**
+- BIM 5D extraction tools
+- Repetitive element automation
+- Cross-checking with 2D documents
+
+**Output:** Complete quantity take-off (BOQ)
+:::
+
+::: {.process-step}
+#### Cost Application & Analysis
+
+**Days 2-4**
+
+**What We Do:**
+- Apply current market rates
+- Factor in project location
+- Include logistics considerations
+- Calculate preliminaries (12-15%)
+- Add appropriate contingency (5-10%)
+- Run alternative scenarios if requested
+
+**Database Sources:**
+- BCIS (UK) / Rawlinsons (Australia)
+- Live supplier quotes
+- Recent project benchmarks
+
+**Output:** Detailed cost estimate with breakdown
+:::
+
+::: {.process-step}
+#### Quality Review & Reporting
+
+**Days 4-5**
+
+**What We Do:**
+- Technical peer review
+- Check against benchmarks
+- Verify calculations
+- Prepare visual cost breakdown
+- Create executive summary
+- Schedule presentation/meeting
+
+**Deliverables:**
+- Executive summary (2-3 pages)
+- Detailed cost breakdown by element
+- BOQ with quantities and rates
+- Cost per sqm analysis
+- Alternative scenarios (if requested)
+
+**Format:** PDF + Excel workbooks
+:::
+
+::: {.process-step}
+#### Presentation & Handover
+
+**Day 5-7**
+
+**What We Do:**
+- Present findings to project team
+- Explain key cost drivers
+- Review any value engineering options
+- Discuss any risks or assumptions
+- Answer questions
+- Provide ongoing support
+
+**Meeting Options:**
+- In-person (UK only)
+- Video conference (all locations)
+- Written Q&A via email
+
+**Support:** 30 days post-delivery included
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typical Total Duration:** 5-7 working days from BIM model receipt to final report  
+**Express Service:** Available for urgent projects (3-4 days) at 25% premium
+:::
+
+## Why Choose BIM Takeoff for Warehouses?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Deep Industry Experience
+- **Extensive warehouse portfolio** delivered
+- **Multiple large-scale projects** across continents
+- **3 markets** (UK, EU, Australia)
+- **All building systems** (Butler, Kirby, Astron, etc.)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Proven Speed
+- **3-7 days** typical turnaround
+- **Same-day** updates for design changes
+- **3-4 days** express service available
+- **90% faster** than traditional methods
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Exceptional Accuracy
+- **±5% accuracy** guarantee
+- **95% success rate** on final account
+- **Comprehensive** - nothing missed
+- **Verified** by RICS professionals
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Technology Advantage
+- **5D BIM** native workflows
+- **Automated** quantity extraction
+- **Real-time** cost updates
+- **Cloud-based** collaboration
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Logistics Expertise
+- **Material staging** planning
+- **Delivery sequencing** optimization
+- **Site access** coordination
+- **Just-in-time** scheduling
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### International Standards
+- **ISO 19650** BIM standards
+- **RICS** quantity surveying
+- **UK, EU, Australian** codes
+- **Multi-currency** reporting
+:::
+
+:::
+
+## Frequently Asked Questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's the largest warehouse project you've estimated?**
+:::
+::: {.faq-answer}
+A: We've worked on distribution centers up to 150,000 sqm single-tenant facilities and multi-unit parks totaling 300,000+ sqm. No project is too large for our 5D BIM workflow.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you handle pre-engineered building systems (Butler, Kirby, etc.)?**
+:::
+::: {.faq-answer}
+A: Absolutely. We have extensive experience with all major pre-engineered building systems including Butler, Kirby, Astron, Rubb, and Frisomat. Our cost databases include standard configurations for these systems.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How quickly can you provide a budget estimate for planning purposes?**
+:::
+::: {.faq-answer}
+A: For a planning-stage budget estimate based on concept drawings, we can typically provide a cost range within 1-2 days. This uses benchmarks and parametric estimating rather than detailed take-offs.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if the client changes the clear height requirement after your estimate?**
+:::
+::: {.faq-answer}
+A: Because we work with 5D BIM, we can quickly re-calculate the cost impact of height changes, typically within a few hours. This includes structural implications, cladding adjustments, and MEP modifications.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include automated material handling systems in your estimates?**
+:::
+::: {.faq-answer}
+A: We can include allowances for automated storage and retrieval systems (ASRS), conveyor systems, and sortation equipment. For complex automation, we typically work with specialist suppliers to get accurate budgets.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you provide cost breakdowns by zone for phased construction?**
+:::
+::: {.faq-answer}
+A: Yes, we regularly prepare cost breakdowns by construction phase or tenant zone. This is particularly useful for speculative development where different units may be built or fitted out at different times.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How do you handle site-specific conditions like poor ground?**
+:::
+::: {.faq-answer}
+A: We rely on the client's ground investigation reports to assess foundation requirements. For poor ground conditions, we include appropriate foundation solutions (piling, ground improvement, etc.) based on the geotechnical recommendations.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What's your fee structure for warehouse projects?**
+:::
+::: {.faq-answer}
+A: Fees vary based on project size, complexity, and timeline. As a rough guide:
+- Small warehouse (5,000-10,000 sqm): £3,000-5,000
+- Medium warehouse (10,000-30,000 sqm): £5,000-8,000
+- Large warehouse (30,000-50,000 sqm): £8,000-12,000
+- Mega facility (50,000+ sqm): £12,000-20,000
+
+Express service (3-4 days) carries a 25% premium. Contact us for a specific quote.
+:::
+:::
+:::
+
+## Ready to Fast-Track Your Warehouse Project?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Waiting 6-8 Weeks for Cost Estimates</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the precision and speed your warehouse project demands. Proven expertise across UK, EU & Australia.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<p style="color: var(--bim-white); margin: 0;">Discuss your project with our warehouse specialists</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<p style="color: var(--bim-white); margin: 0;">Free 30-minute project review</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Get Free Consultation](../contact.qmd){.cta-primary}
+[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Extensive Warehouse Portfolio</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Large-Scale Projects Delivered</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-7 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy Guarantee</strong></p>
+:::
+:::
+:::
+
+:::
