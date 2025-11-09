@@ -38,6 +38,492 @@ Od przetargu przez przekazanie i dalej.
 
 ::: {.container}
 
+## Dlaczego Zarządzanie Danymi Ma Teraz Większe Znaczenie Niż Kiedykolwiek
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Koszty Niepowodzeń Informacyjnych
+
+Słabe zarządzanie danymi tworzy kosztowne problemy:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 5-15% czasu projektu marnowanego na szukanie informacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Przeróbki z powodu użycia niewłaściwych wersji dokumentów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niepowodzenia w zakresie zgodności z przepisami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niekompletne informacje przy przekazaniu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Instrukcje eksploatacji i konserwacji z brakującymi danymi</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Narażenie prawne z powodu złych zapisów</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Wymóg Regulacyjny
+
+> "W Polsce, choć nie ma jeszcze tak rygorystycznych przepisów jak Building Safety Act 2022 w UK, ustrukturyzowane zarządzanie informacją staje się standardem w dużych projektach deweloperskich i inwestycjach publicznych. Profesjonalne zarządzanie danymi to już nie tylko efektywność - to wymóg rynkowy."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Zarządzania Informacją
+
+Zarządzanie danymi zgodne z ISO 19650, skupione na całym cyklu życia:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność z ISO 19650** - Przestrzeganie UK BIM Framework</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ustrukturyzowane CDE** - Wszyscy natychmiast znajdują informacje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kontrola wersji** - Koniec z błędami niewłaściwych rysunków</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Gotowość Golden Thread** - Zgodność z najwyższymi standardami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cyfrowe przekazanie** - Kompletne, ustrukturyzowane dane eksploatacyjne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ścieżka audytu** - Pełna dokumentacja cyklu życia</p>
+:::
+:::
+
+:::
+
+## Nasze Kompleksowe Usługi Zarządzania Danymi
+
+::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
+
+### Kompleksowe Zarządzanie Informacją
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia BIM i EIR
+
+**Wymagania Informacyjne**
+
+- Wymagania Informacyjne Zamawiającego (EIR)
+- Przygotowanie Planu Realizacji BIM (BEP)
+- Harmonogramy dostarczania informacji
+- Definicje Poziomu Potrzeby Informacyjnej
+- Specyfikacje przesyłania danych
+- Plany mobilizacji zespołów zadaniowych
+
+**Rezultat:** Pakiet dokumentacji zgodny z ISO 19650
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>Wdrożenie CDE
+
+**Wspólne Środowisko Danych**
+
+- Wybór platformy (BIM 360, Asite, 4Projects)
+- Struktura folderów i konwencje nazewnictwa
+- Konfiguracja przepływów pracy
+- Uprawnienia i kontrola dostępu
+- Integracja z istniejącymi systemami
+- Szkolenie użytkowników i wdrożenie
+
+**Rezultat:** W pełni operacyjne CDE z przeszkolonymi użytkownikami
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Koordynacja Danych
+
+**Zarządzanie Informacją**
+
+- Koordynacja modeli (wykrywanie kolizji)
+- Prowadzenie rejestru rysunków
+- Zarządzanie kontrolą wersji
+- Śledzenie rozwoju projektu
+- Zarządzanie RFI i zapytaniami
+- Dokumentacja zamówień zmian
+
+**Rezultat:** Skoordynowane informacje bez kolizji
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zapewnienie Jakości
+
+**Walidacja Informacji**
+
+- Kontrole jakości modelu (weryfikacja LOD)
+- Walidacja kompletności danych
+- Zgodność z konwencjami nazewnictwa
+- Weryfikacja metadanych
+- Wykrywanie i rozwiązywanie kolizji
+- Przeglądy kontenerów informacji
+
+**Rezultat:** Kontenery informacji z zapewnieniem jakości
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Cyfrowe Przekazanie
+
+**Model Informacji o Zasobach**
+
+- Walidacja modelu as-built
+- Kompilacja instrukcji eksploatacji i konserwacji
+- Utworzenie rejestru zasobów
+- Dostarczanie danych COBie
+- Uzupełnianie systemu CAFM
+- Zbieranie gwarancji i certyfikatów
+
+**Rezultat:** Kompletny cyfrowy Model Informacji o Zasobach (AIM)
+:::
+
+::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
+#### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread
+
+**Zgodność z Najwyższymi Standardami**
+
+- Informacje o budynkach wysokiego ryzyka
+- Dokumentacja case study bezpieczeństwa
+- Procedury kontroli zmian
+- Informacje dla mieszkańców
+- Dokumentacja dla nadzoru budowlanego
+- Wsparcie w przygotowaniu zgłoszeń
+
+**Rezultat:** Zgodna Golden Thread informacji
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+**Skalowalne usługi: Wybierz pojedyncze elementy lub kompleksowe zarządzanie informacją w cyklu życia.**
+:::
+
+:::
+:::
+
+## Nasz Sprawdzony 6-Etapowy Proces Zarządzania Danymi
+
+::: {.process-steps}
+::: {.process-step}
+#### Etap 1: Definiowanie Wymagań Informacyjnych
+
+**Czas trwania:** 1-2 tygodnie
+
+**Co robimy:**
+
+- Przegląd zakresu projektu i celów klienta
+- Definiowanie Wymagań Informacyjnych Zamawiającego (EIR)
+- Ustalanie Poziomu Potrzeby Informacyjnej
+- Tworzenie harmonogramu dostarczania informacji
+- Definiowanie wymagań dot. przesyłania danych
+- Przygotowanie dokumentów zlecenia
+
+**Co otrzymujesz:** Kompleksowy EIR i protokoły informacyjne
+:::
+
+::: {.process-step}
+#### Etap 2: Planowanie Realizacji BIM
+
+**Czas trwania:** 2-3 tygodnie
+
+**Co robimy:**
+
+- Mobilizacja odpowiedzi Zespołu Zadaniowego na EIR
+- Opracowanie wstępnego BEP
+- Koordynacja Planów Dostarczania Informacji Zadaniowych (TIDP)
+- Ustalenie metod produkcji informacji
+- Definiowanie procedur zapewnienia jakości
+- Finalizacja ostatecznego BEP
+
+**Co otrzymujesz:** Uzgodniony Plan Realizacji BIM (BEP)
+:::
+
+::: {.process-step}
+#### Etap 3: Konfiguracja i Uruchomienie CDE
+
+**Czas trwania:** 2-4 tygodnie
+
+**Co robimy:**
+
+- Wybór i zakup platformy CDE
+- Konfiguracja struktur folderów i przepływów pracy
+- Wdrożenie konwencji nazewnictwa
+- Ustawienie uprawnień dostępu i zabezpieczeń
+- Integracja z systemami projektowymi
+- Przeprowadzenie sesji szkoleniowych
+
+**Co otrzymujesz:** Operacyjne Wspólne Środowisko Danych
+:::
+
+::: {.process-step}
+#### Etap 4: Bieżące Zarządzanie Informacją
+
+**Czas trwania:** Przez cały cykl życia projektu
+
+**Co robimy:**
+
+- Prowadzenie rejestrów i dzienników dokumentów
+- Koordynacja wymiany informacji
+- Przeprowadzanie kontroli jakości zgłoszeń
+- Zarządzanie koordynacją modeli i wykrywaniem kolizji
+- Wsparcie w przygotowaniu przesyłania danych
+- Ułatwianie przeglądów informacji
+
+**Co otrzymujesz:** Ciągłe wsparcie w zarządzaniu informacją
+:::
+
+::: {.process-step}
+#### Etap 5: Przygotowanie Cyfrowego Przekazania
+
+**Czas trwania:** 6-12 tygodni przed oddaniem do użytku
+
+**Co robimy:**
+
+- Kompilacja informacji as-built
+- Walidacja dokładności modelu (vs as-built)
+- Przygotowanie instrukcji eksploatacji i konserwacji
+- Utworzenie rejestrów zasobów i danych COBie
+- Zbieranie gwarancji i certyfikatów
+- Przygotowanie Modelu Informacji o Zasobach (AIM)
+
+**Co otrzymujesz:** Kompletny pakiet cyfrowego przekazania
+:::
+
+::: {.process-step}
+#### Etap 6: Wsparcie Po Oddaniu
+
+**Czas trwania:** Bieżące (opcjonalnie)
+
+**Co robimy:**
+
+- Przekazanie AIM do zarządzania obiektami
+- Wsparcie systemu CAFM
+- Aktualizacja informacji o zmianach
+- Utrzymanie dokumentacji Golden Thread
+- Wsparcie zgodności z bezpieczeństwem budynku
+- Umożliwienie zarządzania cyklem życia zasobów
+
+**Co otrzymujesz:** Utrzymanie wartości informacji podczas eksploatacji
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Cykl Życia Projektu:** Przetarg → Projektowanie → Budowa → Przekazanie → Eksploatacja
+:::
+
+## Zgodność z ISO 19650 i UK BIM Framework
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Standardy, Które Wdrażamy
+
+Pełna zgodność z normami brytyjskimi i międzynarodowymi:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-1** - Koncepcje i zasady</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-2** - Faza realizacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-3** - Faza operacyjna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **ISO 19650-5** - Podejście zorientowane na bezpieczeństwo</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BS EN 17412-1** - Poziom Potrzeby Informacyjnej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **UK BIM Framework** - Wytyczne v3</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Building Safety Act 2022** - Golden Thread</p>
+:::
+:::
+
+::: {style=""}
+### Formaty Wymiany Danych
+
+Pracujemy ze wszystkimi głównymi formatami branżowymi:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **IFC** - Otwarty standard BIM (IFC2x3, IFC4)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **BCF** - Format Współpracy BIM (śledzenie problemów)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **COBie** - Wymiana informacji o operacjach budowlanych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Formaty natywne** - Revit, ArchiCAD, Tekla, Navisworks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **PDF/A** - Formaty archiwizacji długoterminowej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Excel/CSV** - Harmonogramy danych i rejestry</p>
+:::
+:::
+
+:::
+
+## Platformy CDE, Które Obsługujemy
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Platformy Autodesk
+
+BIM 360, Autodesk Construction Cloud (ACC), Collaboration for Revit
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Liderzy Rynku UK
+
+Asite, 4Projects, Viewpoint, Causeway, BIW Technologies
+:::
+
+::: {.feature-card}
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozwiązania Międzynarodowe
+
+Trimble Connect, Bentley ProjectWise, Oracle Aconex, Procore
+:::
+
+::: {.feature-card}
+### <i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Opcje Open-Source
+
+SharePoint z niestandardowymi przepływami pracy, Alfresco, rozwiązania self-hosted
+:::
+:::
+
+## Co Jest Zawarte w Naszych Usługach Zarządzania Danymi
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
+
+::: {style=""}
+### Podstawowe Rezultaty
+
+Każde zlecenie zarządzania danymi obejmuje:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wymagania Informacyjne** (EIR, BEP, TIDP)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konfiguracja CDE** (struktura, przepływy pracy, uprawnienia)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konwencje Nazewnictwa** (BS 1192, Uniclass 2015)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zapewnienie Jakości** (kontrole modeli, walidacja danych)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szkolenie Użytkowników** (wdrożenie i wsparcie zespołu)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja** (procedury, standardy, szablony)</p>
+:::
+:::
+
+::: {style=""}
+### Opcjonalne Rozszerzenia
+
+Rozszerz swoje zarządzanie informacją:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dedykowany Menedżer Informacji** - Zasób pełnoetatowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Usługi Koordynacji Modeli** - Tygodniowe wykrywanie kolizji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność Golden Thread** - Wsparcie według najwyższych standardów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Integracja CAFM** - Połączenie z systemami FM (Maximo, Archibus)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Migracja Danych** - Transfery z systemów starszej generacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Usługi Audytowe** - Audyty zgodności z ISO 19650</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wsparcie Po Oddaniu** - Bieżące zarządzanie danymi FM</p>
+:::
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy naprawdę potrzebujemy zgodności z ISO 19650 dla naszego projektu?**
+:::
+::: {.faq-answer}
+O: W Polsce nie ma jeszcze obowiązku stosowania ISO 19650 tak jak w brytyjskim sektorze publicznym, ale standard ten staje się wymagany w coraz większej liczbie projektów deweloperskich i inwestycji publicznych. Korzyści obejmują: zmniejszone ryzyko informacyjne, lepszą jakość przekazania, ochronę prawną i lepsze wyniki projektu. Dla dużych inwestycji zgodność z ISO 19650 to już wymóg rynkowy.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest różnica między CDE a zwykłym korzystaniem z SharePoint lub Dropbox?**
+:::
+::: {.faq-answer}
+O: Właściwe CDE obejmuje: ustrukturyzowane przepływy pracy (WIP → Współdzielone → Opublikowane → Zarchiwizowane), kontrolę wersji, ścieżki audytu, zarządzanie uprawnieniami, narzędzia współpracy i integrację z oprogramowaniem projektowym. SharePoint można skonfigurować jako CDE, ale wymaga znacznej personalizacji. Ogólne udostępnianie plików (Dropbox, Google Drive) brakuje kontroli potrzebnych do zgodnego zarządzania informacją.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Kiedy powinniśmy rozpocząć zarządzanie informacją w projekcie?**
+:::
+::: {.faq-answer}
+O: Najlepiej na etapie przetargu lub rozpoczęcia projektu. Wczesne zaangażowanie pozwala nam kształtować EIR, ustanowić właściwe podstawy i przeszkolić zespoły przed pojawieniem się problemów. Ratowanie projektu w połowie jest możliwe, ale trudniejsze i droższe. Złota zasada: rozpocznij zarządzanie informacją zanim zespoły projektowe zaczną produkować informacje.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie pomóc w zgodności z najwyższymi standardami i Golden Thread?**
+:::
+::: {.faq-answer}
+O: Tak! Specjalizujemy się we wdrażaniu Golden Thread dla budynków wysokiego ryzyka. Obejmuje to: dokumentację case study bezpieczeństwa, procedury kontroli zmian, prowadzenie dokumentacji cyfrowej, informacje dla mieszkańców i wsparcie w przygotowaniu zgłoszeń. Pracowaliśmy nad wieloma zgłoszeniami według najwyższych standardów międzynarodowych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli nasz zespół projektowy już ma CDE? Czy nadal potrzebujemy Waszej pomocy?**
+:::
+::: {.faq-answer}
+O: Nadal możemy dodać wartość poprzez: opracowanie EIR, koordynację informacji w zespołach zadaniowych, zapewnienie jakości, federację modeli, wykrywanie kolizji, przygotowanie przekazania i zapewnienie zgodności z ISO 19650. Wiele projektów ma wiele CDE (projektant, wykonawca, klient) wymagających koordynacji - my zarządzamy tymi interfejsami.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Ile kosztuje zarządzanie informacją?**
+:::
+::: {.faq-answer}
+O: Zależy od wielkości projektu i zakresu usług. Konfiguracja (EIR, BEP, konfiguracja CDE) dla projektu o wartości 40M PLN: 60K-100K PLN. Wsparcie Menedżera Informacji w niepełnym wymiarze: 12K-20K PLN/miesiąc. Dedykowany zasób pełnoetatowy: 24K-40K PLN/miesiąc. Usługi Golden Thread: 80K-200K PLN w zależności od złożoności budynku. Inwestycja zazwyczaj oszczędza 2-5x dzięki zmniejszeniu przeróbek i lepszym wynikom projektu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy możecie przejąć zarządzanie informacją w połowie projektu, jeśli sprawy nie idą dobrze?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie ratujemy projekty. Ocenimy aktualną sytuację, zidentyfikujemy luki, wdrożymy działania naprawcze, ustanowimy właściwe procesy i przywrócimy projekt do stanu zgodności. Większość problemów w połowie projektu wynika ze słabej początkowej konfiguracji lub niewystarczających zasobów. Czas na ratowanie: 4-8 tygodni w zależności od poziomu zaniedbania.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co dzieje się z danymi po przekazaniu projektu?**
+:::
+::: {.faq-answer}
+O: Przygotowujemy kompletny Model Informacji o Zasobach (AIM) zawierający wszystkie informacje as-built, instrukcje eksploatacji i konserwacji, gwarancje i dane zasobów. Jest to przekazywane do systemu zarządzania obiektami klienta (CAFM) lub utrzymywane w dedykowanym operacyjnym CDE. Możemy zapewnić bieżące wsparcie dla aktualizacji danych FM, zapewniając kontynuację Golden Thread podczas eksploatacji budynku.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy zapewniacie szkolenie dla naszego wewnętrznego zespołu?**
+:::
+::: {.faq-answer}
+O: Tak! Szkolenie jest niezbędne dla pomyślnego wdrożenia. Zapewniamy: szkolenie użytkowników CDE (podstawowe i zaawansowane), warsztaty dla Menedżerów Informacji, sesje informacyjne o ISO 19650, szkolenie z opracowywania BEP i niestandardowe sesje dla konkretnych ról (projektanci, wykonawcy, zespoły FM). Szkolenie może odbywać się na miejscu lub wirtualnie, z materiałami i bieżącym wsparciem w pakiecie.
+:::
+:::
+:::
+
+## Gotowy na Profesjonalne Zarządzanie Informacją?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przekształć Chaos Danych w Strategiczną Przewagę</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Zarządzanie informacją zgodne z ISO 19650 od ekspertów rozumiejących budownictwo.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Konsultację</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swoje potrzeby informacyjne</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Przykłady CDE</h3>
+<p style="color: var(--bim-white); margin: 0;">Przejrzyj studia przypadków wdrożeń</p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Uzyskaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Propozycja w zakresie w 3 dni</p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Poproś o Konsultację](../kontakt.qmd){.cta-primary}
+[Zobacz Przykłady](../coming-soon.qmd){.cta-secondary}
+[Uzyskaj Wycenę](../kontakt.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Certyfikowani Specjaliści ISO 19650</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zgodność z Najwyższymi Standardami</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Niezależność Platformy CDE</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+:::
+:::
+:::
+
 ::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
 ### Potrzebujesz Pomocy Teraz?
 
