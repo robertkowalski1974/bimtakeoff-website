@@ -1,0 +1,144 @@
+% BIM Takeoff PDF Template
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+$if(fontfamily)$
+\usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
+$endif$
+
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+% BIM Takeoff Brand Colors
+\usepackage{xcolor}
+\definecolor{bimorange}{HTML}{FF9900}
+\definecolor{bimorangehover}{HTML}{E68A00}
+\definecolor{bimcharcoal}{HTML}{2C2C2C}
+\definecolor{bimlightgray}{HTML}{F0F0F0}
+\definecolor{bimmediumgray}{HTML}{757575}
+
+\usepackage{fontspec}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+
+% Font Setup - Inter for headings, Lora for body
+\setmainfont{Lora}[
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic
+]
+
+\setsansfont{Inter}[
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic
+]
+
+\setmonofont{Monaco}
+
+% Line spacing
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+
+% Section Formatting - Charcoal color
+\titleformat{\section}
+  {\sffamily\huge\bfseries\color{bimcharcoal}}
+  {\thesection}{1em}{}
+
+% Subsection with Orange Underline (3pt) - Brand guideline
+\titleformat{\subsection}
+  {\sffamily\Large\bfseries\color{bimcharcoal}}
+  {\thesubsection}{1em}{}
+  [\vspace{-0.5em}{\color{bimorange}\titlerule[3pt]}]
+
+% Subsubsection in Orange
+\titleformat{\subsubsection}
+  {\sffamily\large\bfseries\color{bimorange}}
+  {\thesubsubsection}{1em}{}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{bimmediumgray}$if(shorttitle)$$shorttitle$$else$$title$$endif$}
+\fancyhead[R]{\sffamily\small\color{bimmediumgray}BIM Takeoff}
+\fancyfoot[C]{\sffamily\small\color{bimmediumgray}\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{bimorange}\leaders\hrule height \headrulewidth\hfill}}
+
+% Callout Box Style
+\newtcolorbox{biminfobox}{
+  colback=bimlightgray,
+  colframe=bimorange,
+  boxrule=0pt,
+  leftrule=4pt,
+  arc=2pt,
+  boxsep=5pt,
+  left=10pt,
+  right=10pt,
+  top=10pt,
+  bottom=10pt
+}
+
+% Lists with orange bullets
+\setlist[itemize,1]{label=\textcolor{bimorange}{$\bullet$}}
+\setlist[itemize,2]{label=\textcolor{bimorange}{$\circ$}}
+
+% Hyperlink styling
+\hypersetup{
+  colorlinks=true,
+  linkcolor=bimorange,
+  urlcolor=bimorange,
+  citecolor=bimcharcoal,
+  pdfauthor={$author-meta$},
+  pdftitle={$title-meta$},
+  pdfsubject={$subject$},
+  pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$}
+}
+
+$if(title)$
+\title{\sffamily\Huge\bfseries\color{bimcharcoal}$title$$if(subtitle)$\\\vspace{0.5em}\Large\color{bimorange}$subtitle$$endif$}
+$endif$
+
+$if(author)$
+\author{\sffamily\large$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+
+$if(date)$
+\date{\sffamily$date$}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$if(logo)$
+\begin{center}
+\includegraphics[width=0.3\textwidth]{$logo$}
+\end{center}
+$endif$
+\thispagestyle{empty}
+\newpage
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}

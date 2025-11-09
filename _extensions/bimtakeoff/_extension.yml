@@ -1,0 +1,113 @@
+title: BIM Takeoff PDF Format
+author: BIM Takeoff
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    pdf:
+      template: template.tex
+      documentclass: article
+      papersize: a4
+      geometry:
+        - top=2.5cm
+        - bottom=2.5cm
+        - left=2.5cm
+        - right=2.5cm
+      fontsize: 11pt
+      linestretch: 1.6
+      toc: false
+      toc-depth: 2
+      number-sections: false
+      colorlinks: true
+      linkcolor: bimorange
+      urlcolor: bimorange
+      keep-tex: false
+      pdf-engine: xelatex
+      include-in-header:
+        text: |
+          \usepackage{xcolor}
+          \definecolor{bimorange}{HTML}{FF9900}
+          \definecolor{bimorangehover}{HTML}{E68A00}
+          \definecolor{bimcharcoal}{HTML}{2C2C2C}
+          \definecolor{bimlightgray}{HTML}{F0F0F0}
+          \definecolor{bimmediumgray}{HTML}{757575}
+          
+          \usepackage{fontspec}
+          \usepackage{sectsty}
+          \usepackage{titlesec}
+          \usepackage{fancyhdr}
+          \usepackage{graphicx}
+          \usepackage{enumitem}
+          \usepackage[most]{tcolorbox}
+          
+          % Font Setup - Inter for headings, Lora for body
+          \setmainfont{Lora}[
+            Path=/System/Library/Fonts/Supplemental/,
+            Extension=.ttf,
+            UprightFont=*-Regular,
+            BoldFont=*-Bold,
+            ItalicFont=*-Italic,
+            BoldItalicFont=*-BoldItalic
+          ]
+          
+          \setsansfont{Inter}[
+            Path=/System/Library/Fonts/Supplemental/,
+            Extension=.ttc,
+            UprightFont=*,
+            BoldFont=*,
+            BoldFeatures={FakeBold=2}
+          ]
+          
+          \setmonofont{Monaco}
+          
+          % Section Formatting
+          \titleformat{\section}
+            {\sffamily\huge\bfseries\color{bimcharcoal}}
+            {\thesection}{1em}{}
+          
+          % Subsection with Orange Underline (3pt)
+          \titleformat{\subsection}
+            {\sffamily\Large\bfseries\color{bimcharcoal}}
+            {\thesubsection}{1em}{}
+            [\vspace{-0.5em}{\color{bimorange}\titlerule[3pt]}]
+          
+          % Subsubsection
+          \titleformat{\subsubsection}
+            {\sffamily\large\bfseries\color{bimorange}}
+            {\thesubsubsection}{1em}{}
+          
+          % Header and Footer
+          \pagestyle{fancy}
+          \fancyhf{}
+          \fancyhead[L]{\sffamily\small\color{bimmediumgray}\leftmark}
+          \fancyhead[R]{\sffamily\small\color{bimmediumgray}BIM Takeoff}
+          \fancyfoot[C]{\sffamily\small\color{bimmediumgray}\thepage}
+          \renewcommand{\headrulewidth}{0.5pt}
+          \renewcommand{\footrulewidth}{0pt}
+          \renewcommand{\headrule}{\hbox to\headwidth{\color{bimorange}\leaders\hrule height \headrulewidth\hfill}}
+          
+          % Callout Box Style
+          \newtcolorbox{biminfobox}{
+            colback=bimlightgray,
+            colframe=bimorange,
+            boxrule=0pt,
+            leftrule=4pt,
+            arc=2pt,
+            boxsep=5pt,
+            left=10pt,
+            right=10pt,
+            top=10pt,
+            bottom=10pt
+          }
+          
+          % Lists with orange bullets
+          \setlist[itemize,1]{label=\textcolor{bimorange}{$\bullet$}}
+          \setlist[itemize,2]{label=\textcolor{bimorange}{$\circ$}}
+          
+          % Hyperlink styling
+          \hypersetup{
+            colorlinks=true,
+            linkcolor=bimorange,
+            urlcolor=bimorange,
+            citecolor=bimcharcoal
+          }

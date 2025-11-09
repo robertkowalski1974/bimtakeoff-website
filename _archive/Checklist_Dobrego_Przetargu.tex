@@ -1,0 +1,226 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+\usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
+
+% BIM Takeoff Brand Colors
+\definecolor{BIMOrange}{HTML}{FF9900}
+\definecolor{BIMCharcoal}{HTML}{2C2C2C}
+\definecolor{BIMLightGray}{HTML}{F0F0F0}
+\definecolor{BIMMediumGray}{HTML}{757575}
+
+% Set Inter font for all text (use DejaVu Sans as fallback if Inter not available)
+\IfFontExistsTF{Inter}{
+  \setmainfont{Inter}[
+    BoldFont={Inter Bold},
+    ItalicFont={Inter Italic}
+  ]
+}{
+  \setmainfont{DejaVu Sans}
+}
+
+% Custom title formatting
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{BIMCharcoal}}
+  {\thesection}{1em}{}
+  [\titlerule]
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{BIMOrange}}
+  {\thesubsection}{1em}{}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\color{BIMOrange}\textbf{BIM Takeoff}}
+\fancyhead[R]{\color{BIMMediumGray}Checklist Dobrego Przetargu}
+\fancyfoot[C]{\color{BIMMediumGray}\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{BIMOrange}\leaders\hrule height \headrulewidth\hfill}}
+
+% Hyperref setup
+\hypersetup{
+  colorlinks=true,
+  linkcolor=BIMOrange,
+  urlcolor=BIMOrange,
+  pdfauthor={BIM Takeoff},
+  pdftitle={Checklist Dobrego Przetargu}
+}
+
+% Custom box for checklist items
+\newtcolorbox{checklistbox}[1][]{
+  colback=BIMLightGray,
+  colframe=BIMOrange,
+  fonttitle=\bfseries,
+  boxrule=0mm,
+  leftrule=4mm,
+  arc=2mm,
+  left=5mm,
+  right=5mm,
+  top=3mm,
+  bottom=3mm,
+  #1
+}
+
+% Warning box
+\newtcolorbox{warningbox}{
+  colback=BIMOrange!10,
+  colframe=BIMOrange,
+  fonttitle=\bfseries,
+  title={⚠\ UWAGA},
+  boxrule=2mm,
+  arc=3mm,
+  left=5mm,
+  right=5mm,
+  top=3mm,
+  bottom=3mm
+}
+
+% CTA box
+\newtcolorbox{ctabox}{
+  colback=BIMCharcoal,
+  colframe=BIMOrange,
+  colupper=white,
+  fonttitle=\bfseries\color{white},
+  boxrule=2mm,
+  arc=3mm,
+  left=5mm,
+  right=5mm,
+  top=5mm,
+  bottom=5mm
+}
+
+\begin{document}
+
+\begin{center}
+\textcolor{BIMOrange}{\Huge\textbf{UK \& Australian Excellence}}\\[2mm]
+\textcolor{BIMOrange}{\Huge\textbf{in Construction Estimation}}\\[5mm]
+\textcolor{BIMCharcoal}{\LARGE\textbf{CHECKLIST DOBREGO PRZETARGU}}\\[2mm]
+\textcolor{BIMMediumGray}{\large 10 kluczowych punktów kontrolnych dla sukcesu Twojej inwestycji}
+\end{center}
+
+\vspace{5mm}
+
+\section*{10 Kluczowych Punktów Kontrolnych}
+
+\vspace{3mm}
+
+\begin{checklistbox}
+\textbf{✓\ 1. Kompletność dokumentacji technicznej}\\[2mm]
+Czy dokumentacja zawiera wszystkie branże, detale i specyfikacje?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 2. Aktualność kosztorysów i przedmiarów}\\[2mm]
+Czy wyceny oparte są na danych z ostatnich 6 miesięcy?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 3. Precyzyjność STWiOR}\\[2mm]
+Czy specyfikacja techniczna nie pozostawia miejsca na interpretację?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 4. Szczegółowy BOQ (Bill of Quantities)}\\[2mm]
+Czy przedmiar pozwala na porównanie ofert 'jabłko do jabłka'?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 5. Zabezpieczenie prawne zamawiającego}\\[2mm]
+Czy umowa chroni przed dodatkowymi roszczeniami wykonawcy?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 6. Kryteria oceny multi-criteria}\\[2mm]
+Czy ocena nie opiera się tylko na najniższej cenie?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 7. Harmonogram realistyczny z buforem}\\[2mm]
+Czy terminy uwzględniają sezonowość i potencjalne opóźnienia?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 8. Weryfikacja wykonawców (due diligence)}\\[2mm]
+Czy sprawdzono referencje, kondycję finansową i zasoby?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 9. Compliance z przepisami (PZP/BSR)}\\[2mm]
+Czy dokumentacja spełnia wymogi Prawa Zamówień Publicznych?
+\end{checklistbox}
+
+\vspace{2mm}
+
+\begin{checklistbox}
+\textbf{✓\ 10. Plan zarządzania ryzykiem}\\[2mm]
+Czy zidentyfikowano ryzyka i przygotowano mitygacje?
+\end{checklistbox}
+
+\vspace{5mm}
+
+\begin{warningbox}
+\textbf{Brak choćby jednego punktu może kosztować 30-50\% więcej!}\\[2mm]
+Profesjonalny przetarg to oszczędność \textbf{3-7 mln PLN} na projekcie 20 mln PLN.\\[2mm]
+\textit{Nie ryzykuj -- skorzystaj z międzynarodowego doświadczenia.}
+\end{warningbox}
+
+\vspace{5mm}
+
+\section*{Nasze Gwarancje}
+
+\begin{center}
+\begin{tabular}{ll}
+\textcolor{BIMOrange}{✓} & \textbf{1,500+ projektów wycenionych} (UK/Australia/Polska) \\[2mm]
+\textcolor{BIMOrange}{✓} & \textbf{Specjalizacja:} termomodernizacje i fire safety \\[2mm]
+\textcolor{BIMOrange}{✓} & \textbf{Gwarancja 30\% oszczędności} lub zwrot opłaty \\[2mm]
+\textcolor{BIMOrange}{✓} & \textbf{Darmowy audit} Twojego przetargu w 48h \\
+\end{tabular}
+\end{center}
+
+\vspace{5mm}
+
+\begin{ctabox}
+\begin{center}
+\LARGE\textbf{POTRZEBUJESZ PROFESJONALNEGO WSPARCIA?}\\[5mm]
+\Large\textbf{ZAMÓW DARMOWY AUDIT TERAZ!}\\[5mm]
+\large
+☎\ \textbf{TEL:} +48 123 456 789\\[2mm]
+✉\ \textbf{EMAIL:} contact@bimtakeoff.com\\[2mm]
+🌐\ \textbf{WEB:} www.bimtakeoff.com/pl
+\end{center}
+\end{ctabox}
+
+\vspace{5mm}
+
+\begin{center}
+\small\textcolor{BIMMediumGray}{%
+\textcopyright\ 2025 BIM Takeoff | Kompleksowa obsługa: Wycena \textrightarrow\ Przetarg \textrightarrow\ Nadzór \textrightarrow\ Rozliczenie}
+\end{center}
+
+\end{document}

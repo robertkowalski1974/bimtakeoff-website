@@ -470,7 +470,7 @@ O: Dostarczamy kompletny ślad audytu - arkusze wymiarowe pokazujące każde obl
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
 [Prześlij Rysunki](../kontakt.qmd){.cta-primary}
-[Zobacz Przykłady](../wkrotce.qmd){.cta-secondary}
+[Zobacz Przykłady](../coming-soon.qmd){.cta-secondary}
 [Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
 :::
 

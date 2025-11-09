@@ -1,0 +1,37 @@
+---
+title: "Test Document"
+author: "BIM Takeoff"
+date: "November 9, 2025"
+format: bimtakeoff-pdf
+---
+
+# Test Heading
+
+This is a test document to verify the PDF format works correctly.
+
+## Section with Orange Underline
+
+This H2 heading should have an orange underline per brand guidelines.
+
+### Subheading in Orange
+
+This H3 should be in orange color.
+
+## Test List
+
+- Item 1 with orange bullet
+- Item 2 with orange bullet
+- Item 3 with orange bullet
+
+## Test Callout
+
+::: {.biminfobox}
+**Test Callout Box**
+
+This should have a light gray background with orange left border.
+:::
+
+## Contact
+
+Email: info@bimtakeoff.com  
+Web: www.bimtakeoff.com

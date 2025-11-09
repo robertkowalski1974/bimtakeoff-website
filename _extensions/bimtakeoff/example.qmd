@@ -1,0 +1,115 @@
+---
+title: "BIM Takeoff PDF Format Example"
+subtitle: "Demonstrating Brand-Compliant PDF Output"
+author: "BIM Takeoff"
+date: "November 9, 2025"
+format: bimtakeoff-pdf
+---
+
+# Introduction
+
+This document demonstrates the **BIM Takeoff PDF format** - a custom Quarto extension that automatically applies our brand guidelines to PDF outputs.
+
+## Key Features
+
+The format includes the following brand-compliant features:
+
+- **Typography**: Inter for headings, Lora for body text
+- **Colors**: Orange (#FF9900) and Charcoal (#2C2C2C) throughout
+- **Section Styling**: H2 headings with 3pt orange underlines
+- **Professional Layout**: A4 paper with proper margins
+
+## Typography Examples
+
+### Heading Styles
+
+This section (H2) has an orange underline as per brand guidelines.
+
+#### Subheading in Orange
+
+This H3 heading is displayed in orange to provide visual hierarchy.
+
+### Body Text
+
+Body text uses Lora font at 11pt with 1.6 line spacing for optimal readability in print documents. This follows our brand guideline of using **Inter for web** and **Lora for print**.
+
+*Italic text* and **bold text** are both supported and maintain brand compliance.
+
+## Lists with Orange Bullets
+
+The format automatically styles lists with orange bullet points:
+
+- First feature: Fast delivery (3-10 days)
+- Second feature: High accuracy (±3-5%)
+- Third feature: Professional output
+  - Nested item with orange circle
+  - Maintains brand consistency
+
+Numbered lists also work perfectly:
+
+1. Initial consultation
+2. Data analysis
+3. Cost estimation
+4. Report delivery
+
+## Callout Box Example
+
+::: {.biminfobox}
+**Important Information**
+
+This is a callout box with BIM Takeoff styling - light gray background with a 4pt orange left border, matching our feature cards on the website.
+
+Use this for highlighting key points, warnings, or important notes.
+:::
+
+## Links and References
+
+All hyperlinks are styled in orange for consistency: [Visit BIM Takeoff](https://bimtakeoff.com)
+
+Email links work too: [info@bimtakeoff.com](mailto:info@bimtakeoff.com)
+
+## Code and Technical Content
+
+Technical content uses Monaco monospace font:
+
+```python
+# Example quantity takeoff calculation
+total_area = length * width
+unit_cost = 150.00
+total_cost = total_area * unit_cost
+print(f"Total Cost: ${total_cost:,.2f}")
+```
+
+Inline code also works: `variable_name = "BIM Takeoff"`
+
+## Table Example
+
+| Service | Turnaround | Accuracy |
+|---------|-----------|----------|
+| Cost Estimation | 3-5 days | ±3-5% |
+| Quantity Takeoff | 5-7 days | ±2-3% |
+| Tender Review | 2-3 days | ±5% |
+
+## Professional Elements
+
+### Statistics Section
+
+- **2000+** Projects Completed
+- **20+** Years Experience  
+- **±3-5%** Accuracy Rate
+- **3-10 Days** Average Turnaround
+
+### Contact Information
+
+**BIM Takeoff**  
+Professional BIM 5D Cost Estimation
+
+- Email: info@bimtakeoff.com
+- Phone: +44 (0) 20 3239 9967
+- Web: www.bimtakeoff.com
+
+## Conclusion
+
+This format ensures every PDF document maintains BIM Takeoff's professional brand identity while remaining easy to create - just write markdown and let the format handle the styling.
+
+For more information, see the README.md in the `_extensions/bimtakeoff-pdf/` folder.
