@@ -13,19 +13,19 @@ page-layout: full
 ::: {.container}
 ::: {.hero-title}
 # Bieżąca Kontrola Kosztów i Monitorowanie w Czasie Rzeczywistym
-### Zapobiegaj Przekroczeniom Budżetu Zanim Się Wydarzą
+### Zapobiegaj przekroczeniom budżetu, zanim do nich dojdzie
 :::
 
 ::: {.hero-subtitle}
-Cotygodniowe raporty kosztowe w 24 godziny.  
+Cotygodniowe raporty kosztowe w 24 godziny.
 System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie Kosztów w Czasie Rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>24-Godzinna Analiza Zmian</strong> - Szybka reakcja na zamówienia dodatkowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozowanie Predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie kosztów w czasie rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w ciągu 24 godzin</strong> - Szybka reakcja na zamówienia dodatkowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozowanie predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych</p>
 :::
 :::
 
@@ -45,12 +45,12 @@ System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 ::: {style=""}
 ### Tradycyjne Raportowanie Zawodzi
 
-Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po końcu miesiąca są zbyt wolne dla nowoczesnej budowy:
+Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po zakończeniu miesiąca to za wolno jak na współczesne budownictwo:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Opóźnienie 4-6 tygodni między problemem a jego wykryciem</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak systemu wczesnego ostrzegania przed przekroczeniami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zamówienia dodatkowe gromadzą się bez analizy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zamówienia dodatkowe gromadzą się bez bieżącej analizy</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Ograniczona widoczność trendów kosztowych</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Reaktywne, a nie proaktywne zarządzanie</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki po zakończeniu projektu</p>
@@ -59,7 +59,7 @@ Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po końcu miesiąca są zb
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Prawdziwy Koszt
 
-> "W projekcie za 80 mln PLN, odkrycie przekroczenia o 2 mln PLN po 6 tygodniach oznacza ograniczone opcje naprawy. Wczesne wykrycie dałoby czas na optymalizację wartości, podejście etapowe lub świadome podejmowanie decyzji, aby utrzymać projekt na właściwym torze."
+> "W projekcie wartym 80 mln PLN wykrycie przekroczenia o 2 mln PLN po 6 tygodniach oznacza ograniczone opcje naprawy. Wczesne wykrycie dałoby czas na wprowadzenie optymalizacji wartości, podejście etapowe lub świadome podejmowanie decyzji, aby utrzymać projekt w budżecie."
 :::
 :::
 
@@ -71,7 +71,7 @@ Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym na
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cotygodniowe aktualizacje** dostarczane w ciągu 24 godzin</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> System **wczesnego ostrzegania** 4-6 tygodni</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tego samego dnia analiza zmian**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza zmian w dniu zgłoszenia**</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Proaktywne strategie optymalizacji kosztów</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Brak niespodzianek po zakończeniu projektu</p>
@@ -93,15 +93,15 @@ Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym na
 
 **Cotygodniowy Cykl Raportowania**
 
-Tradycyjne miesięczne raporty są zbyt wolne. Zapewniamy:
+Tradycyjne miesięczne raporty to za mało. Zapewniamy:
 
 - Cotygodniowe aktualizacje kosztowe (24-godzinny czas realizacji)
-- Analiza zmian tego samego dnia
+- Analiza zmian w dniu zgłoszenia
 - Ocena wpływu zamówienia dodatkowego w 24-48 godzin
 - Dostęp do panelu w czasie rzeczywistym
 - Natychmiastowe alerty dla progów budżetowych
 
-**Rezultat:** Reaguj na problemy tygodnie przed ich wykryciem tradycyjnym raportowaniem.
+**Rezultat:** Reaguj na problemy kilka tygodni wcześniej niż przy tradycyjnym raportowaniu.
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -109,7 +109,7 @@ Tradycyjne miesięczne raporty są zbyt wolne. Zapewniamy:
 
 **Pełna Przejrzystość Kosztów**
 
-Wiedz dokładnie gdzie trafiają Twoje pieniądze:
+Kontroluj dokładnie, na co wydawane są środki:
 
 - Budżet vs rzeczywiste według kodu kosztowego
 - Koszty zobowiązane vs prognozowane
@@ -126,7 +126,7 @@ Wiedz dokładnie gdzie trafiają Twoje pieniądze:
 
 **System Wczesnego Ostrzegania**
 
-Zidentyfikuj problemy zanim staną się krytyczne:
+Wykryj problemy, zanim staną się krytyczne:
 
 - Prognozowanie oparte na trendach
 - Flagowanie ryzyka (Czerwony/Bursztynowy/Zielony)
@@ -155,7 +155,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Czas trwania:** 3-5 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Przegląd dokumentów kontraktowych i budżetu bazowego
 - Konfiguracja struktury kodowania kosztów (zgodna z Twoim systemem)
@@ -173,7 +173,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Bieżące przez cały projekt**
 
-**Co robimy:**
+**Nasze działania:**
 
 - Zbieranie danych o postępie z placu budowy
 - Aktualizacja ilości na podstawie wykonanych robót
@@ -191,7 +191,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Na żądanie (24-48 godzinny czas realizacji)**
 
-**Co robimy:**
+**Nasze działania:**
 
 - Otrzymanie żądania zmiany lub RFI
 - Ekstrakcja ilości z zaktualizowanego modelu BIM
@@ -209,7 +209,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Koniec każdego miesiąca**
 
-**Co robimy:**
+**Nasze działania:**
 
 - Kompleksowa analiza pozycji kosztowej
 - Aktualizacja prognozy kosztu końcowego
@@ -227,7 +227,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Ciągłe przez cały projekt**
 
-**Co robimy:**
+**Nasze działania:**
 
 - Monitorowanie trendów kosztowych i sygnałów wczesnego ostrzegania
 - Identyfikacja możliwości optymalizacji wartości
@@ -245,7 +245,7 @@ Zidentyfikuj problemy zanim staną się krytyczne:
 
 **Zakończenie projektu**
 
-**Co robimy:**
+**Nasze działania:**
 
 - Uzgodnienie wszystkich rzeczywistych vs budżet
 - Finalizacja rozliczeń zamówień dodatkowych
@@ -301,7 +301,7 @@ Dodatkowe spostrzeżenia dostępne:
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### Na Żywo Inteligencja Kosztowa Na Wyciągnięcie Ręki
+### Aktualne dane kosztowe zawsze pod ręką
 
 Oprócz cotygodniowych raportów, dostęp do danych kosztowych projektu w dowolnym momencie przez nasz bezpieczny panel online.
 
@@ -315,7 +315,7 @@ Wizualizacja w czasie rzeczywistym:
 - Zestawienie kosztów według branż
 - Trendy wpływu zamówień dodatkowych
 - Trajektorie prognoz
-- Wszystko filtrowalne według zakresu dat, kodu kosztowego lub fazy
+- Wszystko można filtrować według zakresu dat, kodu kosztowego lub fazy
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
@@ -326,7 +326,7 @@ Automatyczne powiadomienia o:
 - Nietypowych wzorcach kosztowych
 - Oczekujących zatwierdzeniach zmian
 - Zmiany prognozy >2%
-- Dostarczane przez email/SMS
+- Wysyłane na e-mail/SMS
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
@@ -382,11 +382,11 @@ Uprawnienia oparte na rolach:
 
 - Raporty kosztowe co dwa tygodnie
 - Miesięczne aktualizacje prognoz
-- Analiza zamówień dodatkowych (48-72h)
+- Analiza zamówień dodatkowych (czas realizacji: 48-72 godz.)
 - Wsparcie e-mail
 - Podstawowy dostęp do panelu
 
-**Najlepsze dla:** Projekty <20 mln PLN, stabilny zakres
+**Najlepsze dla:** projekty <20 mln PLN, stabilny zakres
 :::
 
 ::: {.feature-card}
@@ -394,14 +394,14 @@ Uprawnienia oparte na rolach:
 
 **Nasz najpopularniejszy pakiet**
 
-- Cotygodniowe raporty kosztowe (24h realizacji)
+- Cotygodniowe raporty kosztowe (czas realizacji: 24 godz.)
 - Miesięczne prognozowanie i analiza ryzyka
-- Szybka analiza zmian (24-48h)
+- Szybka analiza zmian (czas realizacji: 24-48 godz.)
 - Proaktywne doradztwo w zakresie zarządzania kosztami
 - Pełny panel z alertami
 - Wsparcie telefoniczne i e-mail
 
-**Najlepsze dla:** Projekty 20-200 mln PLN, aktywna budowa
+**Najlepsze dla:** projekty 20-200 mln PLN, aktywna budowa
 :::
 
 ::: {.feature-card}
@@ -416,9 +416,9 @@ Uprawnienia oparte na rolach:
 - **Niestandardowe panele BI (PowerBI/Tableau)**
 - Zaawansowana analityka i benchmarking
 - Wizyty na miejscu (miesięczne)
-- Priorytetowe wsparcie (4-godzinna odpowiedź)
+- Priorytetowe wsparcie (odpowiedź w ciągu 4 godz.)
 
-**Najlepsze dla:** Projekty >200 mln PLN, programy przyspieszone
+**Najlepsze dla:** projekty >200 mln PLN, programy przyspieszone
 :::
 :::
 
@@ -439,7 +439,7 @@ O: Konfiguracja zajmuje 3-5 dni. Potrzebujemy budżetu bazowego, struktury kodow
 **P: Jakich informacji potrzebujecie od nas co tydzień?**
 :::
 ::: {.faq-answer}
-O: Potrzebujemy danych o postępie (ilości zainstalowane), rzeczywiste koszty (faktury/karty czasu pracy) oraz wszelkie zamówienia dodatkowe lub zmiany. Większość klientów dostarcza to prostym szablonem Excel, który dostarczamy. Przesyłanie danych zazwyczaj zajmuje zespołowi 2-3 godziny tygodniowo. Możemy także zintegrować się bezpośrednio z oprogramowaniem do zarządzania projektami.
+O: Potrzebujemy danych o postępie (ilości zainstalowane), rzeczywiste koszty (faktury/karty czasu pracy) oraz wszelkie zamówienia dodatkowe lub zmiany. Większość klientów dostarcza to prostym szablonem Excel, który dostarczamy. Przesłanie danych zajmuje zespołowi zazwyczaj 2-3 godziny tygodniowo. Możemy także zintegrować się bezpośrednio z oprogramowaniem do zarządzania projektami.
 :::
 :::
 
@@ -448,7 +448,7 @@ O: Potrzebujemy danych o postępie (ilości zainstalowane), rzeczywiste koszty (
 **P: Czy możecie pracować z projektami już w trakcie realizacji?**
 :::
 ::: {.faq-answer}
-O: Absolutnie! Specjalizujemy się w przejmowaniu kontroli kosztów w trakcie projektu. Uzgodnimy wszystkie dane historyczne, zweryfikujemy linię bazową i będziecie gotowi do pracy w ciągu tygodnia. Jest to szczególnie wartościowe, gdy istniejąca kontrola kosztów jest opóźniona lub gdy zmieniające się okoliczności projektu wymagają bardziej rygorystycznego nadzoru.
+O: Tak, oczywiście! Specjalizujemy się w przejmowaniu kontroli kosztów w trakcie projektu. Uzgodnimy wszystkie dane historyczne, zweryfikujemy linię bazową i będziecie gotowi do pracy w ciągu tygodnia. Jest to szczególnie wartościowe, gdy istniejąca kontrola kosztów jest opóźniona lub gdy zmieniające się okoliczności projektu wymagają bardziej rygorystycznego nadzoru.
 :::
 :::
 
@@ -457,7 +457,7 @@ O: Absolutnie! Specjalizujemy się w przejmowaniu kontroli kosztów w trakcie pr
 **P: Jak obsługujecie wnioski o płatność wykonawcy?**
 :::
 ::: {.faq-answer}
-O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie właściwych wycen i dostarczanie certyfikowanych rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.
+O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i dostarczanie certyfikowanych rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.
 :::
 :::
 
@@ -475,7 +475,7 @@ O: Natychmiast oznaczamy problem statusem Czerwonym w naszym raporcie, kwantyfik
 **P: Czy integrujecie się z naszym istniejącym oprogramowaniem do zarządzania kosztami?**
 :::
 ::: {.faq-answer}
-O: Tak, możemy zintegrować się z większością głównych platform, w tym Procore, BIM 360, Oracle Primavera, MS Project i różnymi systemami księgowymi. Eksportujemy dane w formatach kompatybilnych z Twoimi systemami. Jeśli potrzebna jest bezpośrednia integracja API, możemy to zorganizować dla klientów pakietu Premium.
+O: Tak, możemy zintegrować się z większością głównych platform, w tym Procore, BIM 360, Oracle Primavera, MS Project i różnymi systemami księgowymi. Eksportujemy dane w formatach kompatybilnych z Twoimi systemami. Jeśli potrzebna jest integracja przez API, możemy to zorganizować dla klientów pakietu Premium.
 :::
 :::
 
@@ -493,7 +493,7 @@ O: Obsługujemy projekty od 8 mln PLN do 800 mln PLN+. Mniejsze projekty zazwycz
 **P: Czy możecie pomóc z optymalizacją wartości podczas budowy?**
 :::
 ::: {.faq-answer}
-O: Tak! Nasze bieżące monitorowanie kosztów identyfikuje możliwości optymalizacji wartości w miarę postępu projektu. Możemy szybko analizować alternatywne materiały, metody lub kolejność, które mogą obniżyć koszty bez narażania jakości. Jest to zawarte w pakietach Profesjonalnym i Premium.
+O: Tak, oczywiście! Nasze bieżące monitorowanie kosztów identyfikuje możliwości optymalizacji wartości w miarę postępu projektu. Możemy szybko analizować alternatywne materiały, metody wykonania lub kolejność, które mogą obniżyć koszty bez narażania jakości. Jest to zawarte w pakietach Profesjonalnym i Premium.
 :::
 :::
 
@@ -524,7 +524,7 @@ Zarządzaliśmy kontrolą kosztów na 2000+ projektach obejmujących rynki UK, e
 
 **24-Godzinny Czas Realizacji Gwarantowany**
 
-Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24 godzin od otrzymania danych. Nasze analizy zmian są realizowane w 24-48 godzin, a nie tygodni. Ta szybkość pochodzi z zoptymalizowanych procesów, integracji 5D BIM i doświadczonego zespołu, który wie, co się liczy.
+Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24 godzin od otrzymania danych. Nasze analizy zmian są realizowane w 24-48 godzin, a nie tygodni. Ta szybkość wynika z zoptymalizowanych procesów, integracji 5D BIM i doświadczonego zespołu, który wie, co się liczy.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -532,7 +532,7 @@ Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24
 
 **Niezależni i Obiektywni**
 
-Jako niezależni konsultanci kosztowi nie mamy motywacji do zawyżania lub zaniżania kosztów. Zapewniamy obiektywną analizę służącą tylko Waszym interesom. Nasz dorobek pokazuje dokładność prognoz w granicach ±2-3% po zakończeniu projektu, umożliwiając pewne podejmowanie decyzji przez całą budowę.
+Jako niezależni konsultanci kosztowi nie mamy motywacji do zawyżania lub zaniżania kosztów. Zapewniamy obiektywną analizę w waszym interesie. Nasz dorobek pokazuje dokładność prognoz w granicach ±2-3% po zakończeniu projektu, umożliwiając pewne podejmowanie decyzji przez całą budowę.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -549,7 +549,7 @@ Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem bud
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Czekaj Na Miesięczne Raporty, Aby Powiedzieć Ci Co Poszło Nie Tak</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie czekaj na miesięczne raporty, które pokażą ci, co poszło nie tak</h2>
 
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Uzyskaj cotygodniową widoczność i wyprzedź problemy kosztowe zanim staną się problemami.</p>
 
@@ -560,7 +560,7 @@ Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem bud
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Demo Panelu Na Żywo</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Demo panelu w czasie rzeczywistym</h3>
 <p style="color: var(--bim-white); margin: 0;">Zobacz kontrolę kosztów w czasie rzeczywistym w akcji</p>
 :::
 
