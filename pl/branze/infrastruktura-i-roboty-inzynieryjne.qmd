@@ -19,7 +19,7 @@ description: "Profesjonalne kosztorysowanie infrastruktury. Drogi, mosty, tunele
 
 ::: {.hero-subtitle}
 Od Dróg i Mostów po Główne Media i Roboty Ziemne.  
-Realizacja w 7-12 dni z dokładnością ±5-8%.
+Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -77,9 +77,9 @@ Specjalistyczne BIM 5D dla projektów inżynierii lądowej i infrastruktury:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Potwierdzone Rezultaty
+#### Nasze doświadczenie
 
-- **Kompleksowe doświadczenie infrastrukturalne** w UK, UE, Australii
+- **Szerokie doświadczenie infrastrukturalne** w UK, UE, Australii
 - **Duże projekty lądowe** pomyślnie zrealizowane
 - **Średnio 9 dni** od modelu BIM do szczegółowego kosztorysu
 - **Dokładność ±5-8%** uwzględniająca niepewność robót lądowych
@@ -103,7 +103,7 @@ Szczegółowa analiza:
 - Oświetlenia ulicznego i oznakowania
 - Zarządzania ruchem
 
-[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
@@ -118,7 +118,7 @@ Kompletne kosztorysowanie:
 - Ścian oporowych i skrzydełek
 - Przepustów i przejść podziemnych
 
-[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
@@ -163,7 +163,7 @@ Kompleksowe kosztorysowanie:
 - SuDS (zrównoważony drenaż)
 - Przepompowni
 
-[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
 :::
 
 ::: {.feature-card}
@@ -178,7 +178,7 @@ Planowanie i kosztorysowanie:
 - Tras objazdowych
 - Premii za prace nocne/weekendowe
 
-[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
 :::
 :::
 
@@ -379,13 +379,13 @@ Planowanie i kosztorysowanie:
 
 **Format:** PDF + skoroszyty Excel
 
-**Wsparcie:** 90 dni po dostarczeniu wliczone
+**Wsparcie:** 90 dni wsparcia po wdrożeniu wliczone w cenę
 :::
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Typowy całkowity czas trwania:** 9-12 dni roboczych od otrzymania projektu do raportu końcowego  
-**Usługa ekspresowa:** Ograniczona dostępność dla pilnych projektów (7-8 dni) z 30% premium
+**Standardowy czas realizacji:** 9-12 dni roboczych od otrzymania projektu do raportu końcowego  
+**Tryb ekspresowy:** Ograniczona dostępność dla pilnych projektów (7-8 dni) z 30% premium
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Infrastruktury?
@@ -419,7 +419,7 @@ Planowanie i kosztorysowanie:
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Szybka Realizacja
 - **9-12 dni** typowa realizacja
-- **7-8 dni** ekspresowa (ograniczona)
+- **7-8 dni** tryb ekspresowy (ograniczony)
 - **2-3 dni** analiza zmian
 - **70% szybciej** niż tradycyjnie
 :::
@@ -521,7 +521,7 @@ O: Każdy projekt infrastrukturalny wyceniamy indywidualnie w zależności od ty
 - Złożoności zarządzania ruchem
 - Terminu realizacji (standardowy lub ekspresowy)
 
-Usługa ekspresowa z 30% premium, gdzie dostępna. Skontaktuj się z nami, aby otrzymać szczegółową wycenę.
+Tryb ekspresowy z 30% premium, gdzie dostępny. Skontaktuj się z nami, aby otrzymać szczegółową wycenę.
 :::
 :::
 :::
@@ -550,13 +550,13 @@ Usługa ekspresowa z 30% premium, gdzie dostępna. Skontaktuj się z nami, aby o
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu infrastrukturalnego</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
 [Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/automatyczny-obmiar-ilosci.qmd){.cta-secondary}
+[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
 [Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
 :::
 

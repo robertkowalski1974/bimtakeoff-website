@@ -19,13 +19,13 @@ description: "Profesjonalne kosztorysowanie obiektów przemysłowych. Zakłady p
 
 ::: {.hero-subtitle}
 Od Lekkiej Montażowni po Przemysł Ciężki i Zakłady Przetwórcze.  
-Realizacja w 5-10 dni z dokładnością ±3-5%.
+Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza Przemysłowa</strong> - Duże obciążenia, integracja procesów, wymagania serwisowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Focus na Produkcję</strong> - Przepływ produkcji, obsługa materiałów, media</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjalizacja w produkcji</strong> - Przepływ produkcji, obsługa materiałów, media</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
 :::
 :::
@@ -77,9 +77,9 @@ Specjalistyczne BIM 5D dla infrastruktury produkcyjnej i przemysłowej:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Potwierdzone Rezultaty
+#### Nasze doświadczenie
 
-- **Kompleksowe doświadczenie przemysłowe** w UK, UE, Australii
+- **Szerokie doświadczenie przemysłowe** w UK, UE, Australii
 - **Projekty produkcyjne** pomyślnie zrealizowane
 - **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
 - **Dokładność ±3-5%** dla złożonych systemów przemysłowych
@@ -103,7 +103,7 @@ Ekspertyza w:
 - Wzmocnionych płytach podłogowych (300+ kg/m²)
 - Systemach izolacji wibracji
 
-[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
@@ -118,7 +118,7 @@ Kompletne kosztorysowanie:
 - Magazynowania i obsługi chemikaliów
 - Systemów awaryjnego wyłączania
 
-[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
@@ -148,7 +148,7 @@ Szczegółowe kosztorysowanie:
 - Obiektów doków załadunkowych
 - Systemów magazynowania i odbioru
 
-[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
 :::
 
 ::: {.feature-card}
@@ -178,7 +178,7 @@ Strategiczna analiza:
 - Harmonogramów uruchomienia
 - Sekwencji instalacji sprzętu
 
-[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
 :::
 :::
 
@@ -378,13 +378,13 @@ Strategiczna analiza:
 
 **Format:** PDF + skoroszyty Excel
 
-**Wsparcie:** 60 dni po dostarczeniu wliczone
+**Wsparcie:** 60 dni wsparcia po wdrożeniu wliczone w cenę
 :::
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
-**Usługa ekspresowa:** Dostępna dla pilnych projektów (5-7 dni) z 25% premium
+**Standardowy czas realizacji:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Tryb ekspresowy:** Dostępny dla pilnych projektów (5-7 dni) z 25% premium
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Projektów Przemysłowych?
@@ -400,7 +400,7 @@ Strategiczna analiza:
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Focus Konstrukcyjny
+### Specjalizacja konstrukcyjna
 - **Ekspertyza analizy** dużych obciążeń
 - **Modelowanie kosztów** systemów dźwigowych
 - **Optymalizacja projektowania** fundamentów
@@ -418,7 +418,7 @@ Strategiczna analiza:
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Szybka Realizacja
 - **7-10 dni** typowa realizacja
-- **5-7 dni** usługa ekspresowa
+- **5-7 dni** tryb ekspresowy
 - **W tym samym dniu** analiza zmian
 - **85% szybciej** niż tradycyjnie
 :::
@@ -519,7 +519,7 @@ O: Każdy projekt przemysłowy wyceniamy indywidualnie w zależności od typu ob
 - Wymagań obsługi materiałów i dźwigów
 - Terminu realizacji (standardowy lub ekspresowy)
 
-Usługa ekspresowa z 25% premium. Skontaktuj się z nami, aby otrzymać szczegółową wycenę.
+Tryb ekspresowy z 25% premium. Skontaktuj się z nami, aby otrzymać szczegółową wycenę.
 :::
 :::
 :::
@@ -548,13 +548,13 @@ Usługa ekspresowa z 25% premium. Skontaktuj się z nami, aby otrzymać szczegó
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu przemysłowego</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
 [Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/automatyczny-obmiar-ilosci.qmd){.cta-secondary}
+[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
 [Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
 :::
 

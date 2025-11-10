@@ -24,8 +24,8 @@ Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
 
 ::: {style="margin: 32px 0 24px 0; max-width: 900px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2000+ Projektów Doświadczenia</strong> - UK & Australia Standards</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ochrona Zarządu</strong> - Professional backing i odpowiedzialność zawodowa</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ponad 2000 zrealizowanych projektów</strong> - Standardy brytyjskie i australijskie</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ochrona Zarządu</strong> - Wsparcie profesjonalne i odpowiedzialność zawodowa</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szacowane Oszczędności</strong> - 20-30% vs typowe polskie przetargi</p>
 :::
 :::
@@ -55,7 +55,7 @@ Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
 :::
 
 ::: {style=""}
-**Typowe Błędy:**
+**Najczęstsze błędy:**
 - ❌ Niejasny zakres prac → wykonawca zgłasza +30% roszczeń
 - ❌ Brak szczegółowego przedmiaru → oferty "jabłka vs gruszki"
 - ❌ Słaba umowa → wykonawca robi co chce, nie co ma
@@ -98,7 +98,7 @@ Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
 :::
 :::
 
-<p style="text-align: center; font-size: 20px; margin-top: 32px; font-weight: 600;">Nie jestem wykonawcą. Jestem PO WASZEJ STRONIE.</p>
+<p style="text-align: center; font-size: 20px; margin-top: 32px; font-weight: 600;">Nie jesteśmy wykonawcą. Jesteśmy PO WASZEJ STRONIE.</p>
 :::
 
 ## Trzy Pakiety Usług - Wybierz Odpowiedni dla Siebie
@@ -185,7 +185,7 @@ Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### 2000+ Projektów Doświadczenia
 - **Wycenione projekty międzynarodowe** - znamy rynkowe ceny
-- **UK & Australia standardy** - najlepsze praktyki
+- **Standardy brytyjskie i australijskie** - najlepsze praktyki
 - **Specjalizacja branżowa** - zabudowy, fasady, ochrona pożarowa
 :::
 
@@ -294,7 +294,7 @@ Przeprowadzimy Wasz przetarg tak, by zarząd spał spokojnie
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; margin: 16px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <h4 style="color: var(--bim-charcoal);"><i class="bi bi-question-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Czy jesteście wykonawcą?</h4>
-<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">**NIE.** To jest kluczowe - jesteśmy niezależnym quantity surveyor. Nie mamy konfliktu interesów. Jesteśmy PO WASZEJ STRONIE. Nasza praca to pilnować żeby wykonawca zrobił co ma, w uzgodnionej cenie, bez roszczeń i ukrytych kosztów.</p>
+<p style="margin: 12px 0 0 32px; color: var(--bim-charcoal);">**NIE.** To jest kluczowe - jesteśmy niezależnym ekspertem ds. kosztorysowania i nadzoru. Nie mamy konfliktu interesów. Jesteśmy PO WASZEJ STRONIE. Nasza praca to pilnować żeby wykonawca zrobił co ma, w uzgodnionej cenie, bez roszczeń i ukrytych kosztów.</p>
 :::
 
 :::

@@ -130,7 +130,7 @@ Expert knowledge of:
 - Accessibility standards
 - Acoustics & sound insulation
 
-[Learn More →](../services/compliance-services.qmd)
+[Learn More →](../services/trade-specific-specialist-services.qmd)
 :::
 
 ::: {.feature-card}

@@ -19,12 +19,12 @@ description: "Profesjonalne kosztorysowanie centrów danych Tier I-IV. Specjali�
 
 ::: {.hero-subtitle}
 Od Edge Computing po Obiekty Hyperscale.  
-Realizacja w 5-10 dni z dokładnością ±3-5%.
+Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza MEP</strong> - Złożone systemy chłodzenia, zasilania i redundancji</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjalizacja w instalacjach MEP</strong> - Złożone systemy chłodzenia, zasilania i redundancji</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specyfikacje Tier I-IV</strong> - Wszystkie poziomy wymagań dostępności</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie Międzynarodowe:</strong> Standardy UK, UE i Australii</p>
 :::
@@ -64,7 +64,7 @@ Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 dni** na kompletne kosztorysowanie (vs 8-12 tygodni tradycyjnie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Fokus na MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Specjalizacja w instalacjach MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja redundancji** - Sprawdzanie systemów N+1, 2N</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność ze standardami Tier** - Specyfikacje I, II, III, IV</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie zasilania/chłodzenia** - Obliczenia mocy i obciążenia</p>
@@ -79,7 +79,7 @@ Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
 ::: {.feature-card}
 ### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie Systemów MEP
 
-**Fokus na Instalacje Elektryczne i Mechaniczne**
+**Specjalizacja w instalacjach elektrycznych i mechanicznych**
 
 Szczegółowa analiza:
 - Systemy UPS i agregaty
@@ -238,19 +238,19 @@ Planowanie pojemności:
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Ekspertyza Krytycznej Misji
-- **Kompleksowe doświadczenie** w dostarczaniu centrów danych
+### Doświadczenie w projektach krytycznych
+- **Szerokie doświadczenie** w realizacji centrów danych
 - **Wszystkie poziomy Tier** (I do IV)
-- **Od Edge do hyperscale** obiekty
+- **Od Edge do hyperscale** - wszystkie skale projektów
 - **Standardy międzynarodowe** (UK, UE, Australia)
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Fokus na MEP
-- **Dokładność MEP 60-70%** krytyczna dla centrów danych
+### Specjalizacja w instalacjach MEP
+- **Instalacje MEP stanowią 60-70% kosztów** - nasza specjalizacja gwarantuje precyzję
 - **Weryfikacja redundancji** N+1, 2N, 2N+1
-- **Ekspertyza zasilania/chłodzenia** szczegółowe obliczenia
-- **Integracja systemów** kompleksowa koordynacja
+- **Specjalizacja w zasilaniu i chłodzeniu** - szczegółowe obliczenia
+- **Integracja systemów** - kompleksowa koordynacja
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -271,18 +271,18 @@ Planowanie pojemności:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Szybka Realizacja
-- **7-10 dni** typowa dostawa
-- **5-6 dni** serwis ekspresowy
-- **Tego samego dnia** analiza wpływu zmian
+- **7-10 dni** - standardowy czas realizacji
+- **5-6 dni** - tryb ekspresowy dostępny
+- **Tego samego dnia** - analiza wpływu zmian
 - **85% szybciej** niż tradycyjne metody
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Zapewnienie Jakości
-- **Techniczny przegląd peer review** wszystkich kosztorysów
-- **Weryfikacja standardu Tier** sprawdzanie zgodności
-- **Porównanie benchmarkowe** walidacja
-- **60-dni wsparcia** projekty Tier III/IV
+- **Weryfikacja techniczna** wszystkich kosztorysów
+- **Sprawdzanie zgodności ze standardem Tier**
+- **Walidacja przez porównanie benchmarkowe**
+- **60 dni wsparcia po wdrożeniu** dla projektów Tier III/IV
 :::
 
 :::
@@ -291,7 +291,7 @@ Planowanie pojemności:
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 900px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Uzyskaj Precyzję Fokusowaną na MEP</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Uzyskaj Precyzję w Wycenie Instalacji MEP</h2>
 
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Profesjonalne kosztorysowanie centrów danych na wszystkich poziomach Tier w UK, UE i Australii.</p>
 

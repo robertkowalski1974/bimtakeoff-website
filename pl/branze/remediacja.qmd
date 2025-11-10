@@ -19,7 +19,7 @@ description: "Profesjonalne kosztorysowanie remediacji budynków. Wymiana elewac
 
 ::: {.hero-subtitle}
 Od pojedynczych usterek po kompleksowe modernizacje budynków.  
-Wycena gotowa w 3-8 dni z dokładnością ±5%.
+Gotowe w ciągu 3-8 dni z dokładnością ±5%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -77,9 +77,9 @@ Specjalistyczne kosztorysowanie BIM 5D dla remediacji i modernizacji budynków:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Potwierdzone Rezultaty
+#### Nasze doświadczenie
 
-- **Bogate doświadczenie remediacyjne** w UK, UE i Australii
+- **Szerokie doświadczenie remediacyjne** w UK, UE i Australii
 - **Skomplikowane projekty zgodności** realizowane precyzyjnie
 - **Średnio 5 dni** od danych inwentaryzacyjnych do szczegółowej wyceny
 - **Dokładność ±5%** w 95% projektów
@@ -94,7 +94,7 @@ Specjalistyczne kosztorysowanie BIM 5D dla remediacji i modernizacji budynków:
 ::: {.feature-card}
 ### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Wycena
 
-**Realizacja w 3-8 Dni**
+**Gotowe w ciągu 3-8 dni**
 
 Idealne dla:
 - Budżetów remediacji elewacji
@@ -116,7 +116,7 @@ Ekspertyza w zakresie:
 - Uszczelnień przejść instalacyjnych
 - Drzwi i wrót przeciwpożarowych
 
-[Dowiedz się więcej →](../uslugi/uslugi-specjalistyczne-branzowe.qmd)
+[Dowiedz się więcej →](../uslugi/specjalistyczne-branzy-budowlane.qmd)
 :::
 
 ::: {.feature-card}
@@ -158,7 +158,7 @@ Kompleksowa obsługa:
 - Wnioski NFOŚiGW/WFOŚiGW
 - Raporty kosztowe interim
 
-[Dowiedz się więcej →](../uslugi/zarzadzanie-przetargami.qmd)
+[Dowiedz się więcej →](../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
 :::
 
 ::: {.feature-card}
@@ -172,7 +172,7 @@ Ekspercka ocena:
 - Niepewności konstrukcyjnych
 - Skomplikowanych styków
 
-[Dowiedz się więcej →](../uslugi/kompleksowa-raportowanie.qmd)
+[Dowiedz się więcej →](../uslugi/kompleksowe-raportowanie.qmd)
 :::
 :::
 
@@ -395,16 +395,16 @@ Ekspercka ocena:
 
 **Opcje Spotkań:**
 - Osobiście (tylko Polska)
-- Wideokonferencja (wszystkie lokalizacje)
+- Online (wszystkie lokalizacje)
 - Prezentacje dla mieszkańców
 
-**Wsparcie:** 30 dni po dostawie włączone
+**Wsparcie:** 30 dni wsparcia po wdrożeniu wliczone w cenę
 :::
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Typowy Całkowity Czas Trwania:** 5-8 dni roboczych od otrzymania danych inwentaryzacyjnych do raportu końcowego  
-**Usługa Ekspresowa:** Dostępna dla pilnych terminów (3-4 dni) z premią 25%
+**Standardowy czas realizacji:** 5-8 dni roboczych od otrzymania danych inwentaryzacyjnych do raportu końcowego  
+**Tryb ekspresowy:** Dostępny dla pilnych terminów (3-4 dni) z premią 25%
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Remediacji?
@@ -534,7 +534,7 @@ O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynk
 ::: {.faq-answer}
 O: Opłaty zależą od wielkości budynku, złożoności usterek i pilności. Wszystkie wyceny indywidualne - skontaktuj się z nami, aby otrzymać konkretną ofertę dla Twojego projektu.
 
-Usługa ekspresowa (3-4 dni) wiąże się z premią 25%.
+Tryb ekspresowy (3-4 dni) wiąże się z premią 25%.
 :::
 :::
 :::

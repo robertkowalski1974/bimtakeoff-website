@@ -30,7 +30,7 @@ System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Demo](../../pl/kontakt.qmd){.cta-primary}
+[Zaplanuj Demo](../kontakt.qmd){.cta-primary}
 [Zobacz Studia Przypadków](../../pl/coming-soon.qmd){.cta-secondary}
 :::
 :::

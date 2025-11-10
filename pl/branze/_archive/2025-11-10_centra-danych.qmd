@@ -1,0 +1,326 @@
+---
+title: "Kosztorysowanie Centrów Danych | BIM 5D | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożoności MEP, gęstości mocy, systemach chłodzenia. Realizacja 5-10 dni, dokładność ±3-5%."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kosztorysowanie Centrów Danych
+### Precyzja Infrastruktury Krytycznej
+:::
+
+::: {.hero-subtitle}
+Od Edge Computing po Obiekty Hyperscale.  
+Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza MEP</strong> - Złożone systemy chłodzenia, zasilania i redundancji</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specyfikacje Tier I-IV</strong> - Wszystkie poziomy wymagań dostępności</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie Międzynarodowe:</strong> Standardy UK, UE i Australii</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Centra Danych: Infrastruktura o Zerowej Tolerancji Błędu
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Centra danych to najbardziej wymagające projekty budowlane bez marginesu na błąd:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Krytyczna dostępność** - Wymagania 99.99%+ uptime</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Dominacja MEP** - 60-70% całkowitego kosztu projektu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Gęstość mocy** - Wymagania 5-30+ kW na szafę</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożoność redundancji** - Konfiguracje N+1, 2N, 2N+1</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Intensywność kosztowa** - Wysokie koszty zależnie od poziomu Tier</p>
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie dla Centrów Danych
+
+Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 dni** na kompletne kosztorysowanie (vs 8-12 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Fokus na MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja redundancji** - Sprawdzanie systemów N+1, 2N</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność ze standardami Tier** - Specyfikacje I, II, III, IV</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie zasilania/chłodzenia** - Obliczenia mocy i obciążenia</p>
+:::
+:::
+
+:::
+
+## Usługi Dedykowane dla Centrów Danych
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie Systemów MEP
+
+**Fokus na Instalacje Elektryczne i Mechaniczne**
+
+Szczegółowa analiza:
+- Systemy UPS i agregaty
+- Dystrybucja PDU i szyny zasilające
+- Jednostki chłodzące CRAC/CRAH
+- Systemy wody lodowej
+- Systemy gaśnicze (FM-200, Novec)
+
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Weryfikacja Redundancji
+
+**Zgodność N+1, 2N, 2N+1**
+
+Zapewnienie prawidłowej:
+- Redundancji ścieżek zasilania
+- Systemów zapasowego chłodzenia
+- Różnorodności ścieżek sieciowych
+- Możliwości bypasu konserwacyjnego
+- Konserwacji równoczesnej
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Poziomu Tier
+
+**Standardy I, II, III, IV**
+
+Sprawdzanie zgodności:
+- Wymagań dostępności
+- Redundancji komponentów
+- Tolerancji usterek
+- Protokołów konserwacji
+- Specyfikacji bezpieczeństwa
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-thermometer-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Projektowanie Systemów Chłodzenia
+
+**Zarządzanie Termiczne**
+
+Analiza kosztowa:
+- Chłodzenia w układzie rzędowym
+- Separacji korytarzy ciepło/zimno
+- Opcji free cooling
+- Systemów ekonomizera
+- Infrastruktury chłodzenia cieczowego
+
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Bezpieczeństwo i Dostęp
+
+**Systemy Bezpieczeństwa Fizycznego**
+
+Kompleksowe kosztorysowanie:
+- Kontroli dostępu biometrycznej
+- Systemów CCTV/monitoringu
+- Śluz bezpieczeństwa
+- Zabezpieczeń obwodowych
+- Systemów kart dostępu
+
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Gęstości Mocy
+
+**Analiza kW na Szafę**
+
+Planowanie pojemności:
+- 5-10 kW (standardowa gęstość)
+- 10-20 kW (wysoka gęstość)
+- 20-30+ kW (hyperscale)
+- Rezerwa na przyszłą rozbudowę
+- Efektywność wykorzystania mocy (PUE)
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+:::
+
+## Klasyfikacja Tier Centrów Danych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Klasyfikacji Tier
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier I - Podstawowa Pojemność
+**Dostępność:** 99.671% (28.8 godz./rok przestoju)  
+**Redundancja:** N  
+**Termin:** 5-6 dni  
+
+**Charakterystyka:**
+- Pojedyncza ścieżka zasilania i chłodzenia
+- Komponenty nieredundantne
+- Planowana konserwacja wymaga wyłączenia
+- Podstawowa infrastruktura
+- Dla małych biur/lokalizacji brzegowych
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier II - Komponenty Redundantne
+**Dostępność:** 99.741% (22.0 godz./rok przestoju)  
+**Redundancja:** N+1 komponenty  
+**Termin:** 6-7 dni  
+
+**Charakterystyka:**
+- Pojedyncza ścieżka zasilania i chłodzenia
+- Komponenty redundantne (N+1)
+- Część konserwacji bez wyłączenia
+- Ulepszona infrastruktura
+- Dla operacji MSP
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier III - Konserwacja Równoczesna
+**Dostępność:** 99.982% (1.6 godz./rok przestoju)  
+**Redundancja:** N+1 systemy  
+**Termin:** 7-9 dni  
+
+**Charakterystyka:**
+- Wielokrotne ścieżki zasilania i chłodzenia
+- Jedna ścieżka aktywna, jedna pasywna
+- Konserwacja bez wpływu
+- Redundancja 2N na systemach krytycznych
+- Standard dla przedsiębiorstw/kolokacji
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Tier IV - Odporność na Usterki
+**Dostępność:** 99.995% (0.4 godz./rok przestoju)  
+**Redundancja:** 2N+1  
+**Termin:** 9-10 dni  
+
+**Charakterystyka:**
+- Wielokrotne aktywne ścieżki zasilania i chłodzenia
+- Infrastruktura odporna na usterki
+- Brak pojedynczego punktu awarii
+- Systemy podzielone na kompartmenty
+- Hyperscale/krytyczna misja
+:::
+
+:::
+:::
+
+## Dlaczego Wybrać BIM Takeoff dla Centrów Danych?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza Krytycznej Misji
+- **Kompleksowe doświadczenie** w dostarczaniu centrów danych
+- **Wszystkie poziomy Tier** (I do IV)
+- **Od Edge do hyperscale** obiekty
+- **Standardy międzynarodowe** (UK, UE, Australia)
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Fokus na MEP
+- **Dokładność MEP 60-70%** krytyczna dla centrów danych
+- **Weryfikacja redundancji** N+1, 2N, 2N+1
+- **Ekspertyza zasilania/chłodzenia** szczegółowe obliczenia
+- **Integracja systemów** kompleksowa koordynacja
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Sprawdzona Dokładność
+- **Dokładność ±3-5%** na złożonych MEP
+- **Kompleksowy zakres** - nic nie zostaje pominięte
+- **Zgodność z Tier** zweryfikowane kosztorysy
+- **Niezależna weryfikacja** dostępna
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Zaawansowana Technologia
+- **Natywne workflow BIM 5D** MEP
+- **Automatyczna ekstrakcja** złożonych systemów
+- **Aktualizacje w czasie rzeczywistym** dla zmian projektowych
+- **Integracja wykrywania kolizji**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Szybka Realizacja
+- **7-10 dni** typowa dostawa
+- **5-6 dni** serwis ekspresowy
+- **Tego samego dnia** analiza wpływu zmian
+- **85% szybciej** niż tradycyjne metody
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Zapewnienie Jakości
+- **Techniczny przegląd peer review** wszystkich kosztorysów
+- **Weryfikacja standardu Tier** sprawdzanie zgodności
+- **Porównanie benchmarkowe** walidacja
+- **60-dni wsparcia** projekty Tier III/IV
+:::
+
+:::
+
+## Gotowi Skosztorysować Swój Projekt Krytycznej Infrastruktury?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Uzyskaj Precyzję Fokusowaną na MEP</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Profesjonalne kosztorysowanie centrów danych na wszystkich poziomach Tier w UK, UE i Australii.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Umów Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów wymagania Tier z naszymi specjalistami</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Bezpłatna Konsultacja</h3>
+<p style="color: var(--bim-white); margin: 0;">30-minutowy przegląd techniczny</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
+[Zapytaj o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+:::
+:::
+
+:::

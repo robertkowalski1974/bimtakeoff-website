@@ -19,7 +19,7 @@ description: "Profesjonalne kosztorysowanie obiektów zdrowotnych. Szpitale, prz
 
 ::: {.hero-subtitle}
 Od Przychodni Lokalnych po Duże Szpitale i Centra Chirurgiczne.  
-Realizacja w 5-10 dni z dokładnością ±3-5%.
+Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -77,9 +77,9 @@ Specjalistyczne BIM 5D dla infrastruktury medycznej i zdrowotnej:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Potwierdzone Rezultaty
+#### Nasze doświadczenie
 
-- **Kompleksowe doświadczenie medyczne** w UK, UE, Australii
+- **Szerokie doświadczenie medyczne** w UK, UE, Australii
 - **Projekty szpitalne** pomyślnie zrealizowane
 - **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
 - **Dokładność ±3-5%** dla złożonych systemów medycznych
@@ -94,7 +94,7 @@ Specjalistyczne BIM 5D dla infrastruktury medycznej i zdrowotnej:
 ::: {.feature-card}
 ### <i class="bi bi-heart-pulse" style="color: var(--bim-orange); margin-right: 12px;"></i>Medyczne Systemy MEP
 
-**Focus na Inżynierię Kliniczną**
+**Specjalizacja w inżynierii klinicznej**
 
 Szczegółowa analiza:
 - Systemy gazów medycznych (O2, N2O, próżnia)
@@ -103,7 +103,7 @@ Szczegółowa analiza:
 - Integracja wywołań pielęgniarskich i BMS
 - Zasilanie awaryjne i UPS
 
-[Dowiedz się więcej →](../uslugi/automatyczny-obmiar-ilosci.qmd)
+[Dowiedz się więcej →](../uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
@@ -163,7 +163,7 @@ Planowanie:
 - Planowania ciągłości usług
 - Harmonogramów uruchomienia
 
-[Dowiedz się więcej →](../uslugi/logistyka-budowy.qmd)
+[Dowiedz się więcej →](../uslugi/logistyka-budowlana.qmd)
 :::
 
 ::: {.feature-card}
@@ -374,16 +374,16 @@ Szybkie szacowanie dla:
 
 **Opcje spotkań:**
 - Osobiście (tylko UK)
-- Wideokonferencja (wszystkie lokalizacje)
+- Online (wszystkie lokalizacje)
 - Prezentacje dla interesariuszy medycznych
 
-**Wsparcie:** 60 dni po dostarczeniu wliczone
+**Wsparcie:** 60 dni wsparcia po wdrożeniu wliczone w cenę
 :::
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
-**Usługa ekspresowa:** Dostępna dla pilnych projektów (5-6 dni) z 25% premium
+**Standardowy czas realizacji:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Tryb ekspresowy:** Dostępny dla pilnych projektów (5-6 dni) z 25% premium
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Projektów Medycznych?
@@ -399,7 +399,7 @@ Szybkie szacowanie dla:
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Focus na Systemach Klinicznych
+### Specjalizacja w systemach klinicznych
 - **Ekspertyza gazów medycznych**
 - **Standardy kontroli zakażeń**
 - **Złożone HVAC** z filtracją
@@ -547,13 +547,13 @@ Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu klinicznego</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
 [Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/automatyczny-obmiar-ilosci.qmd){.cta-secondary}
+[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
 [Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
 :::
 

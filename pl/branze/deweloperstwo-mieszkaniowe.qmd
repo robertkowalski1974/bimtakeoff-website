@@ -19,7 +19,7 @@ description: "Profesjonalne kosztorysowanie deweloperstwa mieszkaniowego. Od dom
 
 ::: {.hero-subtitle}
 Od szeregowców z 10 mieszkaniami do osiedli z wiloma blokami i 800+ apartamentów.  
-Realizacja w 3-10 dni z dokładnością ±5%.
+Gotowe w ciągu 3-10 dni z dokładnością ±5%.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -77,10 +77,10 @@ Specjalistyczne BIM 5D dla zabudowy wielorodzinnej:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Potwierdzone Rezultaty
+#### Nasze doświadczenie
 
-- **Rozległe portfolio mieszkaniowe** w UK, UE i Australii
-- **Projekty wielolokalne** od 10 do 900+ lokali sprawnie obsłużone
+- **Szerokie portfolio projektów mieszkaniowych** w UK, UE i Australii
+- **Projekty wielolokalne** od 10 do 900+ lokali - zrealizowaliśmy je sprawnie
 - **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
 - **Dokładność ±5%** w 95% projektów
 :::
@@ -94,7 +94,7 @@ Specjalistyczne BIM 5D dla zabudowy wielorodzinnej:
 ::: {.feature-card}
 ### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
 
-**Realizacja 3-10 Dni**
+**Gotowe w ciągu 3-10 dni**
 
 Idealne do:
 - Studiów wykonalności
@@ -285,12 +285,12 @@ Gdy BIM niedostępny:
 **Dni 3-6**
 
 **Co robimy:**
-- Zastosowanie aktualnych stawek rynkowych
+- Wycena według aktualnych stawek rynkowych
 - Uwzględnienie lokalizacji projektu
 - Kalkulacja kosztów specyficznych dla lokali
 - Dodanie kosztów przygotowawczych (10-12%)
 - Zastosowanie odpowiedniej rezerwy (5-8%)
-- Uruchomienie scenariuszy alternatywnych na żądanie
+- Przygotowanie scenariuszy alternatywnych na żądanie
 
 **Źródła baz danych:**
 - BCIS (UK) / Rawlinsons (Australia) / Sekocenbud (PL)
@@ -306,7 +306,7 @@ Gdy BIM niedostępny:
 **Dni 6-8**
 
 **Co robimy:**
-- Techniczny przegląd peer review
+- Weryfikacja techniczna
 - Sprawdzenie względem benchmarków
 - Weryfikacja kalkulacji
 - Przygotowanie wizualnego rozbicia kosztów
@@ -337,17 +337,17 @@ Gdy BIM niedostępny:
 - Zapewnienie bieżącego wsparcia
 
 **Opcje spotkań:**
-- Osobiście (tylko UK)
-- Wideokonferencja (wszystkie lokalizacje)
+- Osobiście (tylko Wielka Brytania)
+- Online (wszystkie lokalizacje)
 - Pisemne Q&A przez email
 
-**Wsparcie:** 30 dni po dostarczeniu wliczone
+**Wsparcie:** 30 dni wsparcia po wdrożeniu wliczone w cenę
 :::
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
-**Usługa ekspresowa:** Dostępna dla pilnych projektów (4-5 dni) z 25% premium
+**Standardowy czas realizacji:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Tryb ekspresowy:** Dostępny dla pilnych projektów (4-5 dni) z 25% premium
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Projektów Mieszkaniowych?
@@ -355,8 +355,8 @@ Gdy BIM niedostępny:
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Głębokie Doświadczenie Branżowe
-- **Rozległe portfolio mieszkaniowe** dostarczone
+### Wieloletnie doświadczenie branżowe
+- **Szerokie portfolio projektów mieszkaniowych** - zrealizowane
 - **Wiele projektów wielkoskalowych** na kontynentach
 - **3 rynki** (UK, UE, Australia)
 - **Wszystkie typy budynków** (szeregowce do wysokościowców)
@@ -383,7 +383,7 @@ Gdy BIM niedostępny:
 - **BIM 5D** natywne workflow
 - **Automatyczna** ekstrakcja ilości
 - **Czasu rzeczywistego** aktualizacje kosztów
-- **Oparta na chmurze** współpraca
+- **W chmurze** - współpraca online
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -409,7 +409,7 @@ Gdy BIM niedostępny:
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jaki jest największy projekt mieszkaniowy, który Pan wycenił?**
+**P: Jaki był wasz największy projekt mieszkaniowy?**
 :::
 ::: {.faq-answer}
 O: Pracowaliśmy nad projektami od 10-lokalowych szeregowców do 200+ apartamentowych wież, w tym projektami mieszanymi z elementami handlowymi i komercyjnymi. Nasz workflow BIM 5D skutecznie skaluje się dla każdej wielkości projektu.
@@ -418,7 +418,7 @@ O: Pracowaliśmy nad projektami od 10-lokalowych szeregowców do 200+ apartament
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy obsługujecie projekty wielofunkcyjne z elementami handlowymi/komercyjnymi?**
+**P: Czy wyceniacie projekty wielofunkcyjne z elementami handlowymi/komercyjnymi?**
 :::
 ::: {.faq-answer}
 O: Absolutnie. Regularnie kosztorysujemy projekty mieszane łączące funkcje mieszkalne, handlowe, biurowe i parkingowe. Zapewniamy osobne rozbicie kosztów dla każdej kategorii użytkowania i obsługujemy złożoność interfejsów między różnymi funkcjami.
@@ -472,7 +472,7 @@ O: Opieramy się na raportach badań gruntowych klienta do oceny wymagań fundam
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jaka jest Pana struktura opłat za projekty mieszkaniowe?**
+**P: Jaka jest wasza struktura opłat za projekty mieszkaniowe?**
 :::
 ::: {.faq-answer}
 O: Każdy projekt mieszkaniowy wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od:
@@ -513,7 +513,7 @@ Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
 :::
 

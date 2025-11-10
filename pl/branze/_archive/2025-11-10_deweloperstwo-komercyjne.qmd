@@ -1,0 +1,537 @@
+---
+title: "Kosztorysowanie Deweloperstwa Komercyjnego | Biura & Handel | BIM Takeoff"
+page-layout: full
+description: "Profesjonalne kosztorysowanie deweloperstwa komercyjnego. Budynki biurowe, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%. Specjaliści w zakresie biur klasy A i adaptacji komercyjnych."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kosztorysowanie Deweloperstwa Komercyjnego
+### Precyzyjne Kosztorysowanie Biur, Handlu i Projektów Wielofunkcyjnych
+:::
+
+::: {.hero-subtitle}
+Od adaptacji 1 000 m² do wież komercyjnych 50 000+ m².  
+Realizacja w 3-10 dni z dokładnością ±5%.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie w Biurach Klasy A</strong> - Specyfikacje premium</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Case Studies](../coming-soon.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+## Deweloperstwo Komercyjne: Wyzwania Inwestycyjne
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
+
+::: {style=""}
+### Wyzwania Branżowe
+
+Projekty komercyjne napotykają intensywną presję rynkową i rygorystyczną kontrolę inwestycji:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Presja na rentowność** - Każde 100 PLN/m² wpływa na zwrot z inwestycji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Wymagania najemców** - Najemcy wymagają pewności kosztów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Oczekiwania ESG** - BREEAM, WELL, cele net-zero</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Wzrost standardów** - Normy klasy A stale rosną</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ograniczenia czasowe** - Okna deweloperskie szybko się zamykają</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
+#### Ryzyko
+
+> "5% przekroczenie kosztów w projekcie biurowym o wartości 120 mln PLN oznacza 6 mln PLN straty zysku i może sprawić, że projekt stanie się nieopłacalny. Tradycyjne kosztorysowanie trwające 6-8 tygodni opóźnia decyzje finansowe i negocjacje z najemcami, gdy warunki rynkowe wymagają szybkości."
+:::
+:::
+
+::: {style=""}
+### Nasze Rozwiązanie Komercyjne
+
+Specjalistyczne BIM 5D dla projektów biurowych i handlowych:
+
+::: {style="margin: 24px 0;"}
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-10 dni** na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ekspertyza klasy A** - Specyfikacje biur premium</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie kosztów ESG** - BREEAM, WELL, opcje net-zero</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value engineering** - Optymalizacja bez kompromisów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie adaptacji** - Podział kosztów: surowy stan, CAT A, CAT B</p>
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
+#### Potwierdzone Rezultaty
+
+- **Bogate portfolio komercyjne** w UK, UE i Australii
+- **Projekty biur klasy A** do 50 000+ m² zrealizowane
+- **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
+- **Dokładność ±5%** w 95% projektów
+:::
+:::
+
+:::
+
+## Usługi Dedykowane Deweloperstwa Komercyjnego
+
+::: {.feature-grid}
+::: {.feature-card}
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
+
+**Realizacja 3-10 Dni**
+
+Idealne do:
+- Ocen inwestycyjnych
+- Negocjacji najmu
+- Analiz wykonalności
+- Przygotowania przetargów
+
+[Dowiedz się więcej →](../uslugi/szybka-kontrola-kosztow.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Ekspertyza Biur Klasy A
+
+**Specyfikacje Premium**
+
+Szczegółowa wiedza:
+- Podłogi systemowe
+- Sufity podwieszone
+- Klimatyzacja VRV/VRF
+- Przeszklenia wysokiej jakości
+
+[Dowiedz się więcej →](../uslugi/specjalistyczne-branzy-budowlane.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i>Modelowanie Kosztów ESG
+
+**Standardy Zrównoważoności**
+
+Eksperckie kosztorysowanie:
+- BREEAM Excellent/Outstanding
+- WELL Building Standard
+- Cele net-zero carbon
+- Ścieżki do certyfikatu energetycznego A
+
+[Dowiedz się więcej →](../uslugi/kosztorysowanie-breeam-esg.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
+
+**Porównanie Opcji Projektowych**
+
+Analiza wpływu:
+- Alternatywne systemy elewacji
+- Wybór strategii MEP
+- Poziomy specyfikacji adaptacji
+- Opcje fazowania
+
+[Dowiedz się więcej →](../uslugi/analiza-wieloscenariuszowa.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-scissors" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozbicie Kosztów Adaptacji
+
+**Analiza od Surowego Stanu do CAT B**
+
+Osobne koszty dla:
+- Budynek w stanie surowym
+- CAT A (wykończenie wynajmującego)
+- CAT B (wykończenie najemcy)
+- Infrastruktura MEP
+
+[Dowiedz się więcej →](../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd)
+:::
+
+::: {.feature-card}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie
+
+**Wsparcie Przetargów**
+
+Pełna obsługa:
+- Obmiary ilościowe
+- Szczegółowa wycena
+- Rozbicie kosztów przygotowawczych
+- Koordynacja przetargowa
+
+[Dowiedz się więcej →](../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
+:::
+:::
+
+## Typy Projektów Komercyjnych
+
+::: {style="margin: 48px 0;"}
+### Zrozumienie Złożoności Deweloperstwa Komercyjnego
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Małe-Średnie Biuro
+**Powierzchnia:** 1 000-5 000 m²  
+**Typ:** Niski do średniej wysokości  
+**Złożoność:** Średnia  
+**Czas realizacji:** 3-5 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Budynek 3-6 kondygnacji
+- Standardowa specyfikacja biurowa
+- Wentylacja naturalna lub fancoile
+- Parking naziemny lub podziemny
+- Standardowe wykończenia
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Budynek Biurowy Klasy A
+**Powierzchnia:** 5 000-20 000 m²  
+**Typ:** Średnia do wysokiej zabudowy  
+**Złożoność:** Wysoka  
+**Czas realizacji:** 6-8 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Konstrukcja żelbetowa, 6-15 kondygnacji
+- Specyfikacja klasy A
+- Klimatyzacja VRV/VRF
+- Podłogi systemowe, sufity podwieszone
+- Systemy elewacyjne premium
+- Parking wielopoziomowy
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
+#### Projekt Wielofunkcyjny
+**Powierzchnia:** 10 000-50 000+ m²  
+**Typ:** Złożony wysokościowiec  
+**Złożoność:** Bardzo wysoka  
+**Czas realizacji:** 8-10 dni  
+**Wycena:** Indywidualna wycena projektu
+
+**Charakterystyka:**
+- Wiele funkcji użytkowych
+- Biura, handel, mieszkania
+- Złożone interfejsy
+- Wspólne instalacje/traki
+- Rozbudowana przestrzeń publiczna
+- Realizacja etapowa
+:::
+
+:::
+:::
+
+## Nasz Proces Kosztorysowania Komercyjnego
+
+::: {.process-steps}
+::: {.process-step}
+#### Wstępny Przegląd i Konfiguracja
+
+**Dzień 1 (4-6 godzin)**
+
+**Co robimy:**
+- Przegląd modelu BIM (IFC/Revit) lub rysunków 2D
+- Weryfikacja wymiarów budynku i powierzchni kondygnacji
+- Identyfikacja wymagań specyfikacyjnych
+- Ocena celów ESG/zrównoważonego rozwoju
+- Konfiguracja struktury podziału kosztów
+
+**Klient dostarcza:**
+- Rysunki/modele architektoniczne i konstrukcyjne
+- Informacje o projektach MEP
+- Dokumenty specyfikacji
+- Podział wykończeń wynajmujący/najemca
+- Ewentualne cele zrównoważoności
+
+**Rezultat:** Plan projektu i potwierdzenie harmonogramu
+:::
+
+::: {.process-step}
+#### Automatyczna Ekstrakcja Ilości
+
+**Dni 1-4**
+
+**Co robimy:**
+- Ekstrakcja wszystkich elementów konstrukcyjnych
+- Obliczenie ilości elewacji i przeszkleń
+- Pomiar powierzchni wykończeń wewnętrznych
+- Kalkulacja wymagań MEP
+- Liczba armatury sanitarnej, wind itp.
+
+**Technologia:**
+- Narzędzia ekstrakcji BIM 5D
+- Analiza powierzchni kondygnacji
+- Weryfikacja krzyżowa ze specyfikacjami
+
+**Rezultat:** Kompletny obmiar ilościowy (przedmiar)
+:::
+
+::: {.process-step}
+#### Zastosowanie Kosztów i Analiza
+
+**Dni 4-7**
+
+**Co robimy:**
+- Zastosowanie aktualnych stawek rynkowych
+- Uwzględnienie korekt lokalizacyjnych
+- Kalkulacja kosztów systemów MEP
+- Uwzględnienie specyfikacji wykończeń
+- Dodanie kosztów przygotowawczych (10-12%)
+- Zastosowanie rezerwy (5-8%)
+- Uruchomienie scenariuszy alternatywnych na żądanie
+
+**Źródła baz danych:**
+- BCIS (UK) / Rawlinsons (Australia) / Sekocenbud (PL)
+- Aktualne oferty specjalistyczne
+- Ostatnie benchmarki komercyjne
+
+**Rezultat:** Szczegółowy kosztorys z rozbiciem
+:::
+
+::: {.process-step}
+#### Przegląd Jakości i Raportowanie
+
+**Dni 7-9**
+
+**Co robimy:**
+- Techniczny przegląd peer review
+- Sprawdzenie względem benchmarków rynkowych
+- Weryfikacja implikacji dla rentowności
+- Przygotowanie wizualnego rozbicia kosztów
+- Utworzenie streszczenia wykonawczego
+- Zaplanowanie prezentacji/spotkania
+
+**Materiały do dostarczenia:**
+- Streszczenie wykonawcze (2-3 strony)
+- Rozbicie kosztów według elementów
+- Podział stan surowy vs wykończenie
+- Przedmiar z ilościami i stawkami
+- Analiza kosztów na m²
+- Scenariusze alternatywne (na żądanie)
+
+**Format:** PDF + skoroszyty Excel
+:::
+
+::: {.process-step}
+#### Prezentacja i Przekazanie
+
+**Dzień 9-10**
+
+**Co robimy:**
+- Prezentacja ustaleń zespołowi deweloperskiego
+- Wyjaśnienie kluczowych czynników kosztowych
+- Przegląd opcji value engineering
+- Omówienie optymalizacji rentowności
+- Odpowiedzi na pytania
+- Zapewnienie bieżącego wsparcia
+
+**Opcje spotkań:**
+- Osobiście (tylko UK)
+- Wideokonferencja (wszystkie lokalizacje)
+- Prezentacje dla komitetów inwestycyjnych
+
+**Wsparcie:** 30 dni po dostarczeniu wliczone
+:::
+:::
+
+::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
+**Typowy całkowity czas trwania:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Usługa ekspresowa:** Dostępna dla pilnych projektów (4-5 dni) z 25% premium
+:::
+
+## Dlaczego Wybrać BIM Takeoff do Projektów Komercyjnych?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Głębokie Doświadczenie Komercyjne
+- **Ekspertyza w biurach klasy A** w różnych rynkach
+- **Duże projekty komercyjne** zrealizowane
+- **3 rynki** (UK, UE, Australia)
+- **Złożoność wielofunkcyjna** obsługiwana
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Potwierdzona Szybkość
+- **3-10 dni** typowa realizacja
+- **W ciągu dnia** aktualizacje zmian
+- **4-5 dni** usługa ekspresowa
+- **90% szybciej** niż tradycyjnie
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Dokładność Klasy Inwestycyjnej
+- **Gwarancja ±5%** dokładności
+- Analiza **zorientowana na rentowność**
+- **Benchmarking rynkowy** wliczony
+- **Kosztorysy obronne** dla inwestorów
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Przewaga Technologiczna
+- **BIM 5D** natywne workflow
+- **Automatyczna** ekstrakcja ilości
+- **Czasu rzeczywistego** aktualizacje kosztów
+- **Oparta na chmurze** współpraca
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Ekspertyza ESG
+- Modelowanie kosztów **BREEAM**
+- Doświadczenie **WELL Standard**
+- Ścieżki **net-zero**
+- Optymalizacja **świadectwa energetycznego A**
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
+### Standardy Międzynarodowe
+- Standardy BIM **ISO 19650**
+- **Profesjonalne** miernictwo budowlane
+- Przepisy **UK, UE, Australia**
+- Raportowanie **wielowalutowe**
+:::
+
+:::
+
+## Najczęściej Zadawane Pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaki jest największy projekt komercyjny, który Pan wycenił?**
+:::
+::: {.faq-answer}
+O: Pracowaliśmy nad budynkami biurowymi do 50 000 m² i projektami wielofunkcyjnymi przekraczającymi 100 000 m² całkowitej powierzchni. Nasz workflow BIM 5D skutecznie skaluje się dla dużych projektów komercyjnych, w tym wielowieżowych.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można rozdzielić koszty stanu surowego od wykończenia CAT A?**
+:::
+::: {.faq-answer}
+O: Absolutnie. Regularnie dostarczamy rozbiciu kosztów pokazujące budynek w stanie surowym, wykończenie wynajmującego (CAT A) i wykończenie najemcy (CAT B) osobno. Jest to niezbędne dla analizy inwestycyjnej i negocjacji umów najmu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak szybko może Pan dostarczyć wstępny kosztorys dla decyzji inwestycyjnych?**
+:::
+::: {.faq-answer}
+O: Dla wczesnych kosztorysów wykonalności opartych na projektach koncepcyjnych możemy dostarczyć zakresy kosztów w ciągu 2-3 dni, używając benchmarków i kosztorysowania parametrycznego. Daje to inwestorom pewność do przejścia do szczegółowego projektu.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co jeśli najemca zechce innej specyfikacji po Pana kosztorysie?**
+:::
+::: {.faq-answer}
+O: Ponieważ pracujemy z BIM 5D, możemy szybko przeliczyć koszty dla zmian specyfikacji w ciągu godzin do jednego dnia. Jest to szczególnie cenne podczas negocjacji najmu, gdy najemcy żądają wariantów.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy uwzględniacie koszty certyfikacji BREEAM/WELL?**
+:::
+::: {.faq-answer}
+O: Tak, uwzględniamy zarówno premię budowlaną za osiągnięcie docelowych certyfikatów (np. BREEAM Excellent), jak i opłaty profesjonalne za ocenę i certyfikację. Możemy modelować różne scenariusze certyfikacji, aby pomóc zoptymalizować zwroty z inwestycji.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy można podać rozbicie kosztów według kondygnacji lub etapu?**
+:::
+::: {.faq-answer}
+O: Tak, regularnie przygotowujemy rozbicie kosztów według kondygnacji, skrzydła lub etapu budowy. Jest to szczególnie przydatne dla projektów fazowanych lub budynków o różnych specyfikacjach na różnych kondygnacjach.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak obsługujecie złożone systemy MEP jak VRV/VRF?**
+:::
+::: {.faq-answer}
+O: Mamy rozległe doświadczenie w kosztorysowaniu zaawansowanych systemów MEP, w tym klimatyzacji VRV/VRF, wentylacji wyporowej i zaawansowanych systemów BMS. Nasze kosztorysy odzwierciedlają złożoność nowoczesnych specyfikacji biur klasy A.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jaka jest Pana struktura opłat za projekty komercyjne?**
+:::
+::: {.faq-answer}
+O: Każdy projekt komercyjny wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od:
+- Powierzchni budynku i liczby kondygnacji
+- Poziomu złożoności technicznej (klasa A, B, projekty wielofunkcyjne)
+- Wymaganego poziomu szczegółowości kosztorysu
+- Terminu realizacji (standardowy lub ekspresowy)
+- Zakresu dodatkowych analiz (ESG, wieloscenariuszowe, value engineering)
+
+Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu. Zazwyczaj odpowiadamy w ciągu 24 godzin ze szczegółową propozycją.
+:::
+:::
+:::
+
+## Gotowy na Przyspieszenie Swojego Projektu Komercyjnego?
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Czekać 6-8 Tygodni na Kosztorysy</h2>
+
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzję i szybkość, których wymaga Twój projekt komercyjny. Ekspertyza biur klasy A w UK, UE i Australii.</p>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami komercyjnymi</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
+:::
+
+::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+:::
+:::
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
+[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
+[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
+[Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+:::
+
+::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ekspertyza Biur Klasy A</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Projekty do 50 000+ m²</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-10 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+:::
+:::
+:::
+
+:::
