@@ -23,9 +23,9 @@ Od strategii cenowej po narrację techniczną.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kompletne Pakiety Przetargowe</strong> - Doskonałość techniczna i komercyjna</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konkurencyjne Ceny</strong> - Równowaga między marżą a prawdopodobieństwem wygranej</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szybka Realizacja</strong> - Dotrzymanie napiętych terminów składania ofert</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kompletne pakiety przetargowe</strong> - Doskonałość techniczna i komercyjna</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konkurencyjne ceny</strong> - Równowaga między marżą a prawdopodobieństwem wygranej</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szybka realizacja</strong> - Dotrzymanie napiętych terminów składania ofert</p>
 :::
 :::
 
@@ -45,7 +45,7 @@ Od strategii cenowej po narrację techniczną.
 ::: {style=""}
 ### Typowe Błędy w Ofertach
 
-Wykonawcy przegrywają wygrane przetargi przez błędy, którym można zapobiec:
+Wykonawcy tracą szansę na wygranie przetargów przez błędy, którym można zapobiec:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niezgodne oferty (automatycznie odrzucone)</p>
@@ -59,7 +59,7 @@ Wykonawcy przegrywają wygrane przetargi przez błędy, którym można zapobiec:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Koszt Słabych Ofert
 
-> "40-60% przetargów jest eliminowanych na etapie zgodności przed rozpoczęciem oceny. Spośród zakwalifikowanych, słabe narracje techniczne osiągają wyniki o 30-40% niższe niż profesjonalne oferty, często przegrywając mimo konkurencyjnych cen."
+> "40-60% ofert zostaje odrzuconych już na etapie weryfikacji formalnej, jeszcze przed właściwą oceną. Spośród zakwalifikowanych, słabe narracje techniczne osiągają wyniki o 30-40% niższe niż profesjonalne oferty, często przegrywając mimo konkurencyjnych cen."
 :::
 :::
 
@@ -89,7 +89,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Startować/Nie Startować
+#### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Opłacalności Udziału
 
 **Wsparcie Decyzji Przedprzetargowej**
 
@@ -100,22 +100,22 @@ Strategiczne, zgodne oferty, które wygrywają:
 - Oczekiwana marża vs ryzyko
 - Ocena zgodności strategicznej
 
-**Rezultat:** Rekomendacja Start/Nie Start z uzasadnieniem
+**Rezultat:** Rekomendacja czy przystąpić do przetargu z uzasadnieniem
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
 #### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia Cenowa
 
-**Doskonałość Komercyjna**
+**Kompleksowa Wycena**
 
-- Przygotowanie Przedmiaru Robót
+- Przygotowanie Przedmiaru Robót (Bill of Quantities)
 - Weryfikacja stawek materiałowych i robocizny
 - Zarządzanie ofertami podwykonawców
 - Modelowanie kosztów robót przygotowawczych
 - Kalkulacja rezerwy na ryzyko
 - Analiza optymalizacji marży
 
-**Rezultat:** Kompletny harmonogram cenowy z ścieżką audytu
+**Rezultat:** Kompletne zestawienie kosztów z ścieżką audytu
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -136,7 +136,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
 #### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Zgodnością
 
-**Oferty Bezbłędne**
+**Zapewnienie Zgodności**
 
 - Lista kontrolna wymagań obowiązkowych
 - Weryfikacja kompletności dokumentów
@@ -166,7 +166,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
 #### <i class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Wsparcie Prezentacji
 
-**Doskonałość w Wywiadach**
+**Profesjonalna Prezentacja**
 
 - Przygotowanie prezentacji
 - Opracowanie kluczowych przekazów
@@ -198,17 +198,17 @@ Strategiczne, zgodne oferty, które wygrywają:
 **Co robimy:**
 
 - Przegląd dokumentów i wymagań przetargowych
-- Przeprowadzenie analizy Startować/Nie Startować
+- Przeprowadzenie analizy opłacalności udziału w przetargu
 - Ocena pozycjonowania konkurencyjnego
 - Ocena dostępności zasobów
 - Szacowanie kosztów oferty i oczekiwanej marży
-- Przedstawienie rekomendacji Start/Nie Start
+- Przedstawienie rekomendacji czy przystąpić do przetargu
 
 **Co otrzymujesz:** Rekomendację strategiczną z analizą wspierającą
 :::
 
 ::: {.process-step}
-#### Etap 2: Planowanie Oferty i Mobilizacja Zespołu
+#### Etap 2: Planowanie Oferty i Zebranie Zespołu
 
 **Czas trwania:** 1-2 dni
 
@@ -217,7 +217,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 - Opracowanie planu oferty i macierzy odpowiedzialności
 - Ustalenie harmonogramu i kamieni milowych składania
 - Przydzielenie pisarzy i specjalistów technicznych
-- Zaplanowanie spotkań wyjaśniających z klientem
+- Zaplanowanie spotkań z zamawiającym w celu wyjaśnienia wątpliwości
 - Rozpoczęcie angażowania podwykonawców
 - Utworzenie szablonów i struktury dokumentów
 
@@ -265,9 +265,9 @@ Strategiczne, zgodne oferty, które wygrywają:
 
 **Co robimy:**
 
-- Przegląd Red Team (niezależna ocena)
+- Niezależny audyt oferty przez zespół kontrolny
 - Kontrola zgodności z wszystkimi wymaganiami
-- Ocena w stosunku do prawdopodobnych podejść konkurencji
+- Ocena w kontekście prawdopodobnej strategii konkurencji
 - Dopracowanie wyceny i narracji technicznej
 - Wzmocnienie słabych obszarów zidentyfikowanych w przeglądzie
 - Ostateczne zapewnienie jakości przez zespół senior
@@ -347,13 +347,13 @@ Klienci z największych firm, deweloperzy, właściciele nieruchomości, projekt
 Kompleksowe wsparcie od otrzymania do złożenia:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Startować/Nie Startować** i doradztwo strategiczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowy Przedmiar Robót** ze ścieżką audytu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompletne Opracowanie Techniczne** (wszystkie narracje)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogram Budowy** (MS Project/Primavera)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja Zgodności** (BHP, Jakość, Środowisko)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Przegląd Red Team** i dopracowanie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sformatowana Oferta** gotowa do przesłania/dostarczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza opłacalności udziału** i doradztwo strategiczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowy przedmiar robót** ze ścieżką audytu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompletne opracowanie techniczne** (wszystkie narracje)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogram budowy** (MS Project/Primavera)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja zgodności** (BHP, Jakość, Środowisko)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niezależny audyt oferty** i dopracowanie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sformatowana oferta** gotowa do przesłania/dostarczenia</p>
 :::
 :::
 
@@ -380,10 +380,10 @@ Wzmocnij swoją ofertę poprzez:
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Ile czasu wyprzedzenia potrzebujesz do wsparcia przetargu?**
+**P: Z jakim wyprzedzeniem należy się zgłosić, aby uzyskać wsparcie w przetargu?**
 :::
 ::: {.faq-answer}
-O: Idealnie 3-4 tygodnie na kompleksowy przetarg. Jednak rutynowo obsługujemy pilne możliwości z 10-14 dniowym wyprzedzeniem. Przy wyjątkowo napiętych terminach (7 dni lub mniej), możemy zapewnić ukierunkowane wsparcie w konkretnych elementach, jak wycena czy kontrola zgodności, chociaż pełna obsługa jest wyzwaniem.
+O: Idealnie 3-4 tygodnie na kompleksowy przetarg. Jednak rutynowo obsługujemy pilne możliwości z 2-tygodniowym wyprzedzeniem. Przy wyjątkowo napiętych terminach (7 dni lub mniej), możemy zapewnić ukierunkowane wsparcie w konkretnych elementach, jak wycena czy kontrola zgodności, chociaż pełna obsługa jest wyzwaniem.
 :::
 :::
 
@@ -392,7 +392,7 @@ O: Idealnie 3-4 tygodnie na kompleksowy przetarg. Jednak rutynowo obsługujemy p
 **P: Czy możecie pomóc nam wygrać konkurencyjne przetargi, gdzie nie jesteśmy najtańsi?**
 :::
 ::: {.faq-answer}
-O: Absolutnie! Większość nowoczesnych przetargów używa podziału jakość/cena (np. 60/40 lub 70/30). Nasze pisanie techniczne zapewnia maksimum punktów w kryteriach jakościowych. W przetargu 60/40, wykonawca o 5-8% droższy od najniższej ceny wciąż może wygrać, zdobywając 90%+ punktów za jakość vs 60-70% konkurentów. Koncentrujemy się na wykazaniu wartości, nie tylko najniższego kosztu.
+O: Tak, oczywiście! Większość nowoczesnych przetargów używa podziału jakość/cena (np. 60/40 lub 70/30). Nasze pisanie techniczne zapewnia maksimum punktów w kryteriach jakościowych. W przetargu 60/40, oferent z ceną o 5-8% wyższą od najtańszej oferty nadal może wygrać, zdobywając 90%+ punktów za jakość vs 60-70% konkurentów. Koncentrujemy się na wykazaniu wartości, nie tylko najniższego kosztu.
 :::
 :::
 
@@ -428,7 +428,7 @@ O: Tak! Oferty ramowe wymagają innych podejść - wykazania spójnych możliwo�
 **P: Czy pracujecie z mniejszymi wykonawcami i MŚP?**
 :::
 ::: {.faq-answer}
-O: Absolutnie. Wielu małych/średnich wykonawców nie ma wewnętrznych zespołów ofertowych, ale potrzebuje profesjonalnych ofert do konkurowania. Dostosowujemy nasze usługi do Waszych potrzeb i budżetu. Dla MŚP oferujących projekty 2-8M PLN, zazwyczaj zapewniamy wsparcie wyceny i pisanie techniczne. Mamy doświadczenie w ukazywaniu mniejszych firm jako równie profesjonalnych jak główni wykonawcy.
+O: Tak, oczywiście. Wielu małych/średnich wykonawców nie ma wewnętrznych zespołów ofertowych, ale potrzebuje profesjonalnych ofert do konkurowania. Dostosowujemy nasze usługi do Waszych potrzeb i budżetu. Dla MŚP oferujących projekty 2-8M PLN, zazwyczaj zapewniamy wsparcie wyceny i pisanie techniczne. Mamy doświadczenie w ukazywaniu mniejszych firm jako równie profesjonalnych jak główni wykonawcy.
 :::
 :::
 
@@ -446,7 +446,7 @@ O: Tak! Wielu klientów angażuje nas do usług poprozetargowych, w tym szczegó
 **P: Czy możecie pomóc zidentyfikować odpowiednie możliwości przetargowe?**
 :::
 ::: {.faq-answer}
-O: Tak. Oferujemy usługi monitorowania przetargów, gdzie monitorujemy platformy ogłoszeń kontraktowych (Find a Tender, Contracts Finder, portale sektorowe) w poszukiwaniu możliwości dopasowanych do Waszych możliwości. Dostarczamy tygodniowe podsumowania z rekomendacjami startować/nie startować, oszczędzając Waszemu zespołowi godzin wyszukiwania i pozwalając skupić się na możliwościach o wysokim prawdopodobieństwie.
+O: Tak. Oferujemy usługi monitorowania przetargów, gdzie monitorujemy platformy ogłoszeń kontraktowych (Find a Tender, Contracts Finder, portale sektorowe) w poszukiwaniu możliwości dopasowanych do Waszych możliwości. Dostarczamy tygodniowe podsumowania z rekomendacjami dotyczącymi udziału w przetargu, oszczędzając Waszemu zespołowi godzin wyszukiwania i pozwalając skupić się na możliwościach o wysokim prawdopodobieństwie.
 :::
 :::
 
@@ -470,17 +470,17 @@ O: Opłaty zależą od złożoności przetargu, wartości i wymaganych usług. J
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Omów Możliwość</h3>
-<p style="color: var(--bim-white); margin: 0;">Podziel się swoim przetargiem do szybkiej oceny</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Omów swój przetarg</h3>
+<p style="color: var(--bim-white); margin: 0;">Podziel się szczegółami dla szybkiej oceny</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Przykłady Wygranych</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz nasze realizacje</h3>
 <p style="color: var(--bim-white); margin: 0;">Przejrzyj udane oferty, które wspieraliśmy</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę Stałą</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę</h3>
 <p style="color: var(--bim-white); margin: 0;">Otrzymaj cenę w ciągu 24 godzin</p>
 :::
 :::
@@ -492,10 +492,10 @@ O: Opłaty zależą od złożoności przetargu, wartości i wymaganych usług. J
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% Wskaźnik Wygranych w Wspieranych Przetargach</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>100% Gwarancja Zgodności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie Sektora Publicznego i Prywatnego</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% wskaźnik wygranych w wspieranych przetargach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>100% gwarancja zgodności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie w sektorze publicznym i prywatnym</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
 :::
 :::
 :::
