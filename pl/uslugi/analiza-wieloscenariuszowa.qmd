@@ -13,7 +13,7 @@ page-layout: full
 ::: {.container}
 ::: {.hero-title}
 # Analiza Wieloscenariuszowa i Optymalizacja
-### Podejmuj Pewne Decyzje z Porównaniami Opartymi na Danych
+### Podejmuj świadome decyzje w oparciu o dane
 :::
 
 ::: {.hero-subtitle}
@@ -23,9 +23,9 @@ Zidentyfikuj optymalną wartość bez kompromisu w jakości.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Porównania Równoległe</strong> - Oceń wiele opcji jednocześnie</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Matryca Koszt-Wydajność</strong> - Równowaga budżetu z funkcjonalnością</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Oszczędności 10-20%</strong> - Bez poświęcania jakości</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Porównania równoległe</strong> – oceń wiele opcji jednocześnie</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Matryca koszt-wydajność</strong> – równowaga między budżetem a funkcjonalnością</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Oszczędności 10-20%</strong> bez poświęcania jakości</p>
 :::
 :::
 
@@ -45,12 +45,12 @@ Zidentyfikuj optymalną wartość bez kompromisu w jakości.
 ::: {style=""}
 ### Tradycyjne Podejście Projektowe
 
-Większość projektów eksploruje tylko jedną ścieżkę rozwiązania:
+Większość projektów bada tylko jedno rozwiązanie:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pierwsze rozwiązanie projektanta staje się ostateczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak porównania kosztów i korzyści alternatyw</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Inżynieria wartości dopiero po przekroczeniu budżetu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak porównania kosztów i korzyści dla alternatywnych rozwiązań</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Optymalizacja wartości dopiero po przekroczeniu budżetu</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Późne zmiany są kosztowne</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Utracone możliwości optymalizacji</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Interesariusze pozbawieni danych do podejmowania decyzji</p>
@@ -59,20 +59,20 @@ Większość projektów eksploruje tylko jedną ścieżkę rozwiązania:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Koszt Ograniczonych Opcji
 
-> "Projekt za 60 mln PLN bez analizy scenariuszy zwykle przekracza budżet o 15-25% w porównaniu do zoptymalizowanych alternatyw. Najlepsze rozwiązanie rzadko jest pierwszym, które przychodzi na myśl."
+> "Projekty warte 60 mln PLN bez analizy scenariuszy zwykle przekraczają budżet o 15-25% w porównaniu do zoptymalizowanych wariantów. Najlepsze rozwiązanie rzadko jest pierwszym, które przychodzi do głowy."
 :::
 :::
 
 ::: {style=""}
 ### Nasze Rozwiązanie Wieloscenariuszowe
 
-Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
+Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 scenariuszy** ocenianych równolegle</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kwantyfikowane porównania** kosztów, czasu, wydajności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wymierne porównania** kosztów, czasu i wydajności</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja we wczesnej fazie** przed projektem szczegółowym</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Decyzje oparte na danych** z jasnymi kompromisami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Decyzje oparte na danych** z przejrzystymi kompromisami</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **10-20% oszczędności** zidentyfikowane proaktywnie</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konsensus interesariuszy** poprzez przejrzystą analizę</p>
 :::
@@ -84,7 +84,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### Oceniamy Każdy Scenariusz wg 7 Kluczowych Wskaźników
+### Oceniamy każdy scenariusz według 7 kluczowych wskaźników
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;"}
 
@@ -136,8 +136,8 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
 #### <i class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Zrównoważony Rozwój
 
-- Węgiel wbudowany
-- Węgiel operacyjny
+- Emisja wbudowana
+- Emisja operacyjna
 - Wpływ na certyfikację BREEAM
 - Potencjał gospodarki obiegu zamkniętego
 :::
@@ -145,7 +145,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-**Rezultat:** Kompleksowa matryca decyzyjna pozwalająca interesariuszom wybrać optymalne rozwiązanie w oparciu o ważone priorytety.
+**Rezultat:** kompleksowa matryca decyzyjna pozwalająca interesariuszom wybrać optymalne rozwiązanie w oparciu o priorytetowe kryteria.
 :::
 
 :::
@@ -159,7 +159,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 **Czas trwania:** 4-8 godzin
 
-**Co robimy:**
+**Nasze działania:**
 
 - Prowadzimy warsztat z zespołem projektowym i interesariuszami
 - Identyfikujemy kluczowe punkty decyzyjne i zmienne
@@ -167,7 +167,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 - Ustalamy kryteria oceny i wagi
 - Określamy scenariusz bazowy do porównania
 
-**Co otrzymujesz:** Raport definicji scenariuszy z ramami oceny
+**Rezultat:** raport definicji scenariuszy z ramami oceny
 :::
 
 ::: {.process-step}
@@ -175,15 +175,15 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 **Czas trwania:** 3-5 dni
 
-**Co robimy:**
+**Nasze działania:**
 
-- Wyodrębniamy ilości z modeli BIM lub rysunków
+- Odczytujemy ilości z modeli BIM lub rysunków
 - Opracowujemy kosztorysy dla każdego scenariusza
 - Uwzględniamy alternatywne materiały i specyfikacje
 - Obliczamy koszty ogólne i rezerwy ryzyka
-- Uwzględniamy warunki rynkowe i drogi zamówień
+- Uwzględniamy warunki rynkowe i strategie zamówień
 
-**Co otrzymujesz:** Szczegółowa matryca porównawcza kosztów dla wszystkich scenariuszy
+**Rezultat:** szczegółowa matryca porównawcza kosztów dla wszystkich scenariuszy
 :::
 
 ::: {.process-step}
@@ -191,7 +191,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 **Czas trwania:** 2-4 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Modelowanie kosztów cyklu życia na 30 lat
 - Symulacja efektywności energetycznej
@@ -199,7 +199,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 - Prognozowanie kosztów konserwacji
 - Ocena wartości przez cały cykl życia
 
-**Co otrzymujesz:** Kompleksowy raport analizy cyklu życia
+**Rezultat:** kompleksowy raport analizy cyklu życia
 :::
 
 ::: {.process-step}
@@ -207,7 +207,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 **Czas trwania:** 2-3 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Analiza sekwencji budowy
 - Ocena ryzyka łańcucha dostaw
@@ -215,7 +215,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 - Wpływ pogody i sezonowości
 - Wrażliwość na zmienność rynku
 
-**Co otrzymujesz:** Skorygowane o ryzyko zakresy harmonogramu i kosztów
+**Rezultat:** skorygowane o ryzyko zakresy harmonogramu i kosztów
 :::
 
 ::: {.process-step}
@@ -223,7 +223,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 
 **Czas trwania:** 2-3 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Kompilujemy wszystkie dane w wizualną matrycę decyzyjną
 - Stosujemy wagi interesariuszy do kryteriów
@@ -231,7 +231,7 @@ Systematyczna ocena alternatyw projektowych ze skwantyfikowanym wpływem:
 - Przedstawiamy jasne rekomendacje z uzasadnieniem
 - Przygotowujemy prezentację dla decydentów
 
-**Co otrzymujesz:** Streszczenie wykonawcze, szczegółowy raport i materiały prezentacyjne
+**Rezultat:** streszczenie wykonawcze, szczegółowy raport i materiały prezentacyjne
 :::
 :::
 
@@ -327,7 +327,7 @@ Wzmocnij swoją analizę dzięki:
 **P: Kiedy w procesie projektowania powinniśmy przeprowadzić analizę wieloscenariuszową?**
 :::
 ::: {.faq-answer}
-O: Im wcześniej, tym lepiej! Idealnie podczas fazy koncepcyjnej (RIBA Stage 2), gdy projekt jest jeszcze elastyczny, a zmiany są tanie. Możemy również dostarczyć wartość na etapie koordynacji przestrzennej (RIBA Stage 3), choć opcje stają się bardziej ograniczone. Po etapie 4 analiza jest zazwyczaj ograniczona do inżynierii wartości specyficznych elementów.
+O: Im wcześniej, tym lepiej! Idealnie podczas fazy koncepcyjnej (RIBA Stage 2), gdy projekt jest jeszcze elastyczny, a zmiany są tanie. Możemy również dostarczyć wartość na etapie koordynacji przestrzennej (RIBA Stage 3), choć opcje stają się bardziej ograniczone. Po etapie 4 analiza jest zazwyczaj ograniczona do optymalizacji wartości wybranych elementów.
 :::
 :::
 
@@ -345,7 +345,7 @@ O: Zazwyczaj rekomendujemy 5-7 scenariuszy dla większości projektów. Zapewnia
 **P: Co jeśli nie mamy modeli BIM dla każdego scenariusza?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować ze szkicami koncepcyjnymi, schematami jednoliniowymi lub opisami pisemnymi dla analizy wczesnego etapu. Dla analizy o wyższej dokładności zalecamy proste modele BIM dla każdego głównego scenariusza (LOD 200-300 jest wystarczający). Możemy również pomóc w szybkim modelowaniu koncepcyjnym, jeśli to konieczne.
+O: Możemy pracować ze szkicami koncepcyjnymi, schematami jednoliniowymi lub opisami pisemnymi dla analizy wczesnego etapu. Dla analizy o wyższej dokładności zalecamy proste modele BIM dla każdego głównego scenariusza (LOD 200-300 wystarczy). Możemy również pomóc w szybkim modelowaniu koncepcyjnym, jeśli to konieczne.
 :::
 :::
 
@@ -363,7 +363,7 @@ O: Na etapie koncepcyjnym (RIBA 2) oczekuj dokładności ±15-20% - wystarczają
 **P: Czy możecie pomóc nam osiągnąć konkretne cele oszczędnościowe?**
 :::
 ::: {.faq-answer}
-O: Tak! Jeśli macie cel (np. "zmniejszenie kosztów inwestycyjnych o 15%"), zaprojektujemy scenariusze specjalnie w celu osiągnięcia tego celu, minimalizując jednocześnie wpływ na wydajność. Zidentyfikujemy wiele ścieżek do celu, pozwalając wybrać najlepszy kompromis między kosztem, czasem i jakością.
+O: Tak! Jeśli macie konkretny cel (np. "zmniejszenie kosztów inwestycyjnych o 15%"), zaprojektujemy scenariusze specjalnie w celu osiągnięcia tego celu, minimalizując jednocześnie wpływ na wydajność. Zidentyfikujemy wiele ścieżek do celu, pozwalając wybrać najlepszy kompromis między kosztem, czasem i jakością.
 :::
 :::
 
@@ -372,7 +372,7 @@ O: Tak! Jeśli macie cel (np. "zmniejszenie kosztów inwestycyjnych o 15%"), zap
 **P: Czy uwzględniacie zrównoważony rozwój w swojej analizie?**
 :::
 ::: {.faq-answer}
-O: Absolutnie. Każdy scenariusz standardowo zawiera obliczenie węgla wbudowanego i ocenę energii operacyjnej. Możemy również uwzględnić szczegółową analizę punktów BREEAM, potencjał gospodarki obiegu zamkniętego, pochodzenie materiałów i modelowanie węgla w całym cyklu życia, jeśli zrównoważony rozwój jest kluczowym priorytetem.
+O: Tak, oczywiście. Każdy scenariusz standardowo zawiera obliczenie emisji wbudowanej i ocenę energii operacyjnej. Możemy również uwzględnić szczegółową analizę punktów BREEAM, potencjał gospodarki obiegu zamkniętego, pochodzenie materiałów i modelowanie emisji w całym cyklu życia, jeśli zrównoważony rozwój jest kluczowym priorytetem.
 :::
 :::
 
@@ -381,16 +381,16 @@ O: Absolutnie. Każdy scenariusz standardowo zawiera obliczenie węgla wbudowane
 **P: Co się dzieje po wybraniu optymalnego scenariusza?**
 :::
 ::: {.faq-answer}
-O: Dostarczamy szczegółową mapę drogową wdrożenia, w tym notatki specyfikacyjne, strategie zakupowe i środki mitygacji ryzyka dla wybranego scenariusza. Wielu klientów następnie zleca nam szczegółowe szacowanie kosztów, dopracowanie inżynierii wartości lub bieżącą kontrolę kosztów w miarę rozwoju projektu.
+O: Dostarczamy szczegółowy plan wdrożenia, w tym notatki specyfikacyjne, strategie zakupowe i środki mitygacji ryzyka dla wybranego scenariusza. Wielu klientów następnie zleca nam szczegółowe szacowanie kosztów, dalszą optymalizację wartości lub bieżącą kontrolę kosztów w miarę rozwoju projektu.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy możecie analizować scenariusze pozabudowlane, takie jak drogi zamówień?**
+**P: Czy możecie analizować warianty strategii zamówień?**
 :::
 ::: {.faq-answer}
-O: Tak! Często analizujemy opcje strategii zamówień (tradycyjne, projekt-budowa, zarządzanie kontraktowe, umowy NEC vs JCT), strategie etapowania, rozwiązania robót tymczasowych i alternatywy logistyczne. Te same ramy wielokryterialne stosują się do każdej znaczącej decyzji projektowej.
+O: Tak, oczywiście. Często analizujemy warianty strategii zamówień (tradycyjne, projekt-budowa, zarządzanie kontraktowe, umowy NEC vs JCT), strategie etapowania, rozwiązania robót tymczasowych i alternatywy logistyczne. Te same ramy wielokryterialne stosują się do każdej znaczącej decyzji projektowej.
 :::
 :::
 
@@ -399,7 +399,7 @@ O: Tak! Często analizujemy opcje strategii zamówień (tradycyjne, projekt-budo
 **P: Jak radzicie sobie z czynnikami subiektywnymi, takimi jak estetyka lub preferencje interesariuszy?**
 :::
 ::: {.faq-answer}
-O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespół. Możecie przypisać wyższe wagi czynnikom, takim jak jakość projektu, zgodność z marką lub doświadczenie użytkownika. Zapewnia to, że analiza respektuje zarówno metryki obiektywne (koszt, czas), jak i priorytety subiektywne (estetyka, preferencje interesariuszy).
+O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespół. Możecie przypisać wyższą wagę czynnikom takim jak jakość projektu, zgodność z marką lub doświadczenie użytkownika. Zapewnia to, że analiza respektuje zarówno metryki obiektywne (koszt, czas), jak i priorytety subiektywne (estetyka, preferencje interesariuszy).
 :::
 :::
 :::
@@ -408,7 +408,7 @@ O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespó�
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Zamykaj Się na Pierwszy Pomysł Projektowy</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie zgaduj – porównaj i wybierz z pewnością</h2>
 
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Najlepsze rozwiązanie rzadko jest oczywiste na pierwszy rzut oka. Pozwól, aby dane kierowały Twoimi decyzjami.</p>
 

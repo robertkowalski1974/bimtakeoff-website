@@ -23,9 +23,9 @@ Interaktywne panele PowerBI i Tableau do natychmiastowej analizy.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interaktywne Panele</strong> - Implementacje PowerBI i Tableau</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane w Czasie Rzeczywistym</strong> - Metryki i KPI projektu na żywo</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Streszczenia dla Zarządu</strong> - Informacje bez przeciążenia danymi</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interaktywne panele</strong> – implementacje PowerBI i Tableau</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane w czasie rzeczywistym</strong> – metryki i KPI projektu na żywo</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Streszczenia dla zarządu</strong> – informacje bez przeciążenia danymi</p>
 :::
 :::
 
@@ -69,12 +69,12 @@ Tradycyjne metody raportowania tworzą martwe punkty:
 Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Aktualizacje w czasie rzeczywistym** - automatyczne odświeżanie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Interaktywna analiza** - od podsumowania do szczegółów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wizualne informacje** - natychmiastowe wykrywanie trendów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka predykcyjna** - przewidywanie problemów przed eskalacją</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dostęp mobilny** - sprawdzanie statusu w dowolnym miejscu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Widoki rolowe** - odpowiednie dane dla każdego interesariusza</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Aktualizacje w czasie rzeczywistym** – automatyczne odświeżanie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Interaktywna analiza** – przechodzenie od podsumowania do szczegółów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wizualne informacje** – natychmiastowe wykrywanie trendów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka predykcyjna** – przewidywanie problemów przed eskalacją</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dostęp mobilny** – sprawdzanie statusu w dowolnym miejscu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Widoki rolowe** – odpowiednie dane dla każdego interesariusza</p>
 :::
 :::
 
@@ -213,7 +213,7 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 
 **Czas trwania:** 3-5 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Przeprowadzamy wywiady z interesariuszami, aby zrozumieć potrzeby
 - Identyfikujemy kluczowe metryki i KPI dla każdego typu raportu
@@ -221,7 +221,7 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 - Definiujemy częstotliwości aktualizacji i poziomy dostępu użytkowników
 - Tworzymy makiety projektów paneli do zatwierdzenia
 
-**Co otrzymujesz:** Szczegółowy plan wdrożenia i szkice paneli
+**Rezultat:** szczegółowy plan wdrożenia i szkice paneli
 :::
 
 ::: {.process-step}
@@ -229,16 +229,16 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 
 **Czas trwania:** 5-10 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Łączymy się z Twoimi źródłami danych (API, bazy danych, Excel)
-- Budujemy zautomatyzowane pipeline'y odświeżania danych
+- Budujemy zautomatyzowane potoki odświeżania danych
 - Oczyszczamy i transformujemy dane dla spójności
 - Tworzymy pola obliczeniowe i logikę biznesową
 - Ustanawiamy reguły walidacji jakości danych
 - Testujemy dokładność danych względem systemów źródłowych
 
-**Co otrzymujesz:** Funkcjonalna infrastruktura danych z automatycznymi aktualizacjami
+**Rezultat:** funkcjonalna infrastruktura danych z automatycznymi aktualizacjami
 :::
 
 ::: {.process-step}
@@ -246,17 +246,17 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 
 **Czas trwania:** 10-15 dni
 
-**Co robimy:**
+**Nasze działania:**
 
 - Budujemy interaktywne wizualizacje w PowerBI/Tableau
-- Implementujemy funkcjonalność drill-down
+- Implementujemy funkcjonalność przechodzenia do szczegółów
 - Stosujemy kolory i styling Twojej marki
 - Tworzymy uprawnienia dostępu oparte na rolach
 - Rozwijamy responsywne układy mobilne
 - Dodajemy kontrole filtrowania i parametrów
 - Konfigurujemy alerty i powiadomienia
 
-**Co otrzymujesz:** W pełni funkcjonalne panele na wszystkich urządzeniach
+**Rezultat:** w pełni funkcjonalne panele na wszystkich urządzeniach
 :::
 
 ::: {.process-step}
@@ -264,16 +264,16 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 
 **Czas trwania:** 2-3 dni
 
-**Co robimy:**
+**Nasze działania:**
 
-- Szkolimy power userów (Kierowników Projektów, Analityków)
+- Szkolimy zaawansowanych użytkowników (Kierowników Projektów, Analityków)
 - Prowadzimy sesje ogólne dla kadry zarządzającej
 - Dostarczamy tutoriale wideo i przewodniki użytkownika
 - Dokumentujemy źródła danych i obliczenia
 - Ustanawiamy procedury wsparcia
-- Planujemy sesje optymalizacyjne follow-up
+- Planujemy dalsze sesje optymalizacyjne
 
-**Co otrzymujesz:** Przeszkolony zespół z kompleksową dokumentacją
+**Rezultat:** przeszkolony zespół z kompleksową dokumentacją
 :::
 :::
 
@@ -289,11 +289,11 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 ### Narzędzia Business Intelligence
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Microsoft PowerBI** - Najpopularniejszy, integracja Office 365</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tableau** - Zaawansowana analityka i wizualizacje</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Google Data Studio** - Darmowa opcja chmurowa</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Qlik Sense** - Model danych asocjacyjnych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe Panele Webowe** - Rozwiązania React/Angular na zamówienie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Microsoft PowerBI** – najpopularniejszy, integracja Office 365</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Tableau** – zaawansowana analityka i wizualizacje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Google Data Studio** – darmowa opcja chmurowa</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Qlik Sense** – model danych asocjacyjnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe panele webowe** – rozwiązania React/Angular na zamówienie</p>
 :::
 :::
 
@@ -321,13 +321,13 @@ Inteligencja na żywo, dostępna dla wszystkich interesariuszy:
 Każda implementacja raportowania obejmuje:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 Główne Panele** (Zarządczy, Kosztowy, Programowy)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne Odświeżanie Danych** (dziennie/tygodniowo/na żywo)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Responsywny Design Mobilny** (dostęp z tabletu i telefonu)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kontrola Dostępu Oparta na Rolach** (uprawnienia bezpieczeństwa)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sesje Szkoleniowe Użytkowników** (power userzy i kadra zarządzająca)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompleksowa Dokumentacja** (przewodniki techniczne i użytkownika)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 Miesiące Wsparcia** (rozwiązywanie problemów i udoskonalenia)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 główne panele** (zarządczy, kosztowy, programowy)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne odświeżanie danych** (dziennie/tygodniowo/na żywo)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Responsywny design mobilny** (dostęp z tabletu i telefonu)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kontrola dostępu oparta na rolach** (uprawnienia bezpieczeństwa)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sesje szkoleniowe użytkowników** (zaawansowani użytkownicy i kadra zarządzająca)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompleksowa dokumentacja** (przewodniki techniczne i użytkownika)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 miesiące wsparcia** (rozwiązywanie problemów i udoskonalenia)</p>
 :::
 :::
 
@@ -337,13 +337,13 @@ Każda implementacja raportowania obejmuje:
 Ulepsz swoje raportowanie o:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dodatkowe Panele** - Zakupy, Jakość, Bezpieczeństwo</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka Predykcyjna** - Prognozy uczenia maszynowego</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne Alerty** - Email/SMS przy przekroczeniu progów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie Portfelem** - Agregacja wielu projektów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking Historyczny** - Porównanie z poprzednimi projektami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe Integracje** - Połączenia systemów własnościowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ciągłe Wsparcie i Rozwój** - Abonament miesięczny</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dodatkowe panele** – zakupy, jakość, bezpieczeństwo</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analityka predykcyjna** – prognozy uczenia maszynowego</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Automatyczne alerty** – email/SMS przy przekroczeniu progów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie portfelem** – agregacja wielu projektów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking historyczny** – porównanie z poprzednimi projektami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe integracje** – połączenia systemów własnościowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ciągłe wsparcie i rozwój** – abonament miesięczny</p>
 :::
 :::
 
@@ -393,7 +393,7 @@ O: Jakość danych to często największe wyzwanie! Nasz proces wdrożenia obejm
 **P: Czy możemy sami dostosowywać panele po wdrożeniu?**
 :::
 ::: {.faq-answer}
-O: Absolutnie! Zapewniamy pełne szkolenie i dokumentację, aby Wasi power userzy mogli modyfikować raporty, dodawać nowe wizualizacje i dostosowywać filtry. Budujemy panele z myślą o przyszłej personalizacji. Większość klientów staje się samodzielna w ciągu 2-3 miesięcy, chociaż jesteśmy dostępni dla złożonych zmian lub nowego rozwoju paneli.
+O: Tak, oczywiście! Zapewniamy pełne szkolenie i dokumentację, aby Wasi zaawansowani użytkownicy mogli modyfikować raporty, dodawać nowe wizualizacje i dostosowywać filtry. Budujemy panele z myślą o przyszłej personalizacji. Większość klientów staje się samodzielna w ciągu 2-3 miesięcy, chociaż jesteśmy dostępni dla złożonych zmian lub nowego rozwoju paneli.
 :::
 :::
 
@@ -402,7 +402,7 @@ O: Absolutnie! Zapewniamy pełne szkolenie i dokumentację, aby Wasi power userz
 **P: Co się dzieje, gdy źródła danych się zmienią lub dodamy nowe projekty?**
 :::
 ::: {.faq-answer}
-O: Panele są zaprojektowane do automatycznego skalowania. Dodawanie nowych projektów zazwyczaj nie wymaga żadnych zmian - dane po prostu płyną przez istniejące pipeline'y. Jeśli zmienicie systemy ERP lub dodacie nowe źródła danych, możemy zaktualizować połączenia za niewielką opłatą. Zalecamy kwartalne przeglądy, aby upewnić się, że panele pozostają zgodne z Waszymi potrzebami.
+O: Panele są zaprojektowane do automatycznego skalowania. Dodawanie nowych projektów zazwyczaj nie wymaga żadnych zmian – dane po prostu płyną przez istniejące potoki danych. Jeśli zmienicie systemy ERP lub dodacie nowe źródła danych, możemy zaktualizować połączenia za niewielką opłatą. Zalecamy kwartalne przeglądy, aby upewnić się, że panele pozostają zgodne z Waszymi potrzebami.
 :::
 :::
 
@@ -438,7 +438,7 @@ O: Tak. Wszystkie wdrożenia obejmują 3 miesiące wsparcia. Po tym oferujemy mi
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Zarządzać Projektami z Danymi z Ubiegłego Tygodnia</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań zarządzać projektami na podstawie nieaktualnych danych</h2>
 
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołącz do organizacji podejmujących szybsze, lepiej uzasadnione decyzje dzięki panelom na żywo.</p>
 
