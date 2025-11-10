@@ -13,19 +13,19 @@ page-layout: full
 ::: {.container}
 ::: {.hero-title}
 # Automatyczny Przedmiar i Obmiar z Potrójnym Systemem Walidacji
-### Precyzyjne Obmiary w 10x Krótszym Czasie
+### Precyzyjne obmiary w 10× krótszym czasie
 :::
 
 ::: {.hero-subtitle}
-O 95% szybciej niż tradycyjne przedmiary.  
+O 95% szybciej niż tradycyjne przedmiary.
 Potrójnie weryfikowane dla pełnej dokładności.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekstrakcja AI</strong> - Automatyczne pomiary z modeli BIM</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Potrójny System Walidacji</strong> - AI + Ekspert + Weryfikacja Krzyżowa</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>99,5% Dokładności</strong> - Potwierdzone 20-letnim doświadczeniem</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Automatyczne odczytywanie przez AI</strong> - Automatyczne pomiary z modeli BIM</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Potrójny system walidacji (Triple Validation System)</strong> - AI + Ekspert + Weryfikacja krzyżowa</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokładność 99,5%</strong> - Potwierdzone 20-letnim doświadczeniem</p>
 :::
 :::
 
@@ -48,18 +48,18 @@ Potrójnie weryfikowane dla pełnej dokładności.
 Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 tygodni dla złożonych projektów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 tygodni na złożone projekty</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy ludzkie w pomiarach (5-15%)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pominięte ilości i elementy</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespójne standardy pomiarowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zmiany wymagają całkowitego przeliczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Każda zmiana wymaga przeliczenia wszystkiego od nowa</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Trudne do zweryfikowania i audytu</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Koszt Błędów
 
-> "Przy projekcie za 40 mln PLN, nawet 5% błąd w ilościach może skutkować 2 mln PLN nieoczekiwanych kosztów lub roszczeń wykonawców. Manualne przedmiary nie są w stanie zapewnić precyzji wymaganej przez nowoczesne budownictwo."
+> "W projekcie wartym 40 mln PLN nawet 5% błąd w ilościach może skutkować 2 mln PLN nieoczekiwanych kosztów lub roszczeń wykonawców. Ręczne przedmiary nie zapewniają precyzji wymaganej przez nowoczesne budownictwo."
 :::
 :::
 
@@ -69,11 +69,11 @@ Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:
 Zaawansowana ekstrakcja AI z wielopoziomową walidacją:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 dni** na kompletny przedmiar</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 dni** na pełny przedmiar</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **99,5% dokładności** z potrójną walidacją</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Pełne rozpoznanie elementów (bez pominiętych pozycji)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Kompletne rozpoznanie wszystkich elementów (bez pominiętych pozycji)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zgodność z ISO 19650 i KNR</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowe aktualizacje przy zmianach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa aktualizacja po każdej zmianie</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Pełna ścieżka audytowa i dokumentacja</p>
 :::
 :::
@@ -91,53 +91,53 @@ Projekty budowlane nie mogą sobie pozwolić na błędy pomiarowe. Nasz autorski
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 1: Ekstrakcja AI
+#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 1: Automatyczne odczytywanie przez AI
 
-**Automatyczna Analiza BIM**
+**Automatyczna analiza BIM**
 
 Nasze algorytmy AI automatycznie wyodrębniają ilości z modelu BIM:
 
-- Rozpoznawanie wzorców elementów
+- Rozpoznawanie wzorców i typów elementów
 - Automatyczne obliczenia pomiarowe
-- Wykrywanie kolizji i rozwiązywanie
+- Wykrywanie i rozwiązywanie kolizji
 - Usuwanie duplikatów
 - Kontrola wersji
 
-**Dokładność:** 98%  
+**Dokładność:** 98%
 **Czas trwania:** 1-2 godziny
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 2: Przegląd Eksperta
+#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 2: Przegląd eksperta
 
-**Weryfikacja Kosztorysanta**
+**Weryfikacja przez kosztorysanta**
 
 Doświadczeni kosztorysanci ręcznie sprawdzają wyniki AI:
 
-- Weryfikacja krzyżowa z rysunkami 2D
+- Weryfikacja krzyżowa na podstawie rysunków 2D
 - Walidacja metodologii pomiarowej
 - Identyfikacja brakujących elementów
-- Zastosowanie wiedzy budowlanej
+- Wykorzystanie wiedzy i doświadczenia budowlanego
 - Weryfikacja przeliczników jednostek
 
-**Dokładność:** 99,2%  
+**Dokładność:** 99,2%
 **Czas trwania:** 4-8 godzin
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 3: Weryfikacja Krzyżowa
+#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 3: Weryfikacja krzyżowa
 
-**Niezależna Weryfikacja**
+**Niezależna weryfikacja**
 
 Końcowa walidacja względem wielu źródeł:
 
 - Porównanie z danymi historycznymi
-- Benchmark względem standardów branżowych
+- Porównanie ze standardami branżowymi
 - Weryfikacja ze specyfikacjami
 - Kontrola zależności materiałowych
-- Końcowe zatwierdzenie QA
+- Końcowe zatwierdzenie przez kontrolę jakości (QA)
 
-**Końcowa Dokładność:** 99,5%+  
+**Końcowa dokładność:** 99,5%+
 **Czas trwania:** 2-4 godziny
 :::
 
@@ -158,7 +158,7 @@ Końcowa walidacja względem wielu źródeł:
 
 **Czas trwania:** 4-6 godzin
 
-**Co Robimy:**
+**Nasze działania:**
 
 - Otrzymujemy model BIM (IFC, Revit, ArchiCAD, Tekla)
 - Walidujemy kompletność i integralność modelu
@@ -166,57 +166,57 @@ Końcowa walidacja względem wielu źródeł:
 - Identyfikujemy luki w danych lub niespójności
 - Konfigurujemy parametry pomiarowe
 
-**Co Państwo Otrzymują:** Raport walidacji modelu z oznaczonymi problemami
+**Rezultat:** Raport walidacji modelu z oznaczonymi problemami
 :::
 
 ::: {.process-step}
-#### Etap 2: Automatyczna Ekstrakcja (Walidacja Poziom 1)
+#### Etap 2: Automatyczne odczytywanie (Walidacja Poziom 1)
 
 **Czas trwania:** 1-2 godziny (automatyczny)
 
-**Co Robimy:**
+**Nasze działania:**
 
-- Ekstrakcja ilości z modelu BIM za pomocą AI
+- Automatyczne odczytanie ilości z modelu BIM przez AI
 - Automatyczne obliczenia pomiarowe
 - Klasyfikacja i grupowanie elementów
 - Wykrywanie kolizji i usuwanie duplikatów
-- Generowanie wstępnego Przedmiaru Robót
+- Wygenerowanie wstępnego przedmiaru robót
 
-**Co Państwo Otrzymują:** Wstępny przedmiar z automatycznymi pomiarami
+**Rezultat:** Wstępny przedmiar z automatycznymi pomiarami
 :::
 
 ::: {.process-step}
-#### Etap 3: Przegląd Ekspercki (Walidacja Poziom 2)
+#### Etap 3: Przegląd ekspercki (Walidacja Poziom 2)
 
 **Czas trwania:** 4-8 godzin
 
-**Co Robimy:**
+**Nasze działania:**
 
 - Ręczna weryfikacja przez kosztorysanta
-- Kontrola krzyżowa z rysunkami 2D
-- Zastosowanie standardów branży budowlanej
+- Weryfikacja krzyżowa na podstawie rysunków 2D
+- Zastosowanie standardów branżowych
 - Identyfikacja i dodanie brakujących elementów
 - Walidacja metodologii pomiarowych
 - Zastosowanie wymagań specyficznych dla projektu
 
-**Co Państwo Otrzymują:** Przedmiar zweryfikowany przez eksperta z notatkami QA
+**Rezultat:** Przedmiar zweryfikowany przez eksperta z notatkami kontroli jakości
 :::
 
 ::: {.process-step}
-#### Etap 4: Weryfikacja Krzyżowa i Końcowe QA (Walidacja Poziom 3)
+#### Etap 4: Weryfikacja krzyżowa i końcowa kontrola jakości (Walidacja Poziom 3)
 
 **Czas trwania:** 2-4 godziny
 
-**Co Robimy:**
+**Nasze działania:**
 
-- Porównanie z historycznymi danymi projektów
-- Benchmark względem standardów branżowych
+- Porównanie z danymi historycznymi z podobnych projektów
+- Porównanie ze standardami branżowymi
 - Końcowa weryfikacja dokumentacji specyfikacji
 - Zatwierdzenie przez starszego kosztorysanta
 - Generowanie kompleksowej dokumentacji
 - Przygotowanie ścieżki audytowej i komentarzy
 
-**Co Państwo Otrzymują:** Końcowy zwalidowany przedmiar z pełną dokumentacją i ścieżką audytową
+**Rezultat:** Końcowy zwalidowany przedmiar z pełną dokumentacją i ścieżką audytową
 :::
 :::
 
@@ -368,7 +368,7 @@ Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej
 **P: Co jeśli mój projekt nie ma modelu BIM?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłuższe, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych rezultatów i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.
+O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłuższe, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych wyników i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.
 :::
 :::
 
@@ -377,7 +377,7 @@ O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłu
 **P: Jak dokładny jest Państwa potrójny system walidacji?**
 :::
 ::: {.faq-answer}
-O: Nasz potrójny system walidacji osiąga dokładność 99,5%+ gdy źródłowy model BIM jest kompletny i dokładny. Każda ilość jest niezależnie weryfikowana trzy razy (ekstrakcja AI, przegląd ekspercki, weryfikacja krzyżowa), zapewniając najwyższy poziom precyzji w branży. Zapewniamy pełne ścieżki audytowe dla wszystkich pomiarów.
+O: Nasz potrójny system walidacji osiąga dokładność 99,5%+ gdy źródłowy model BIM jest kompletny i dokładny. Każda wielkość jest weryfikowana niezależnie na trzech poziomach (automatyczne odczytanie AI, weryfikacja przez eksperta, końcowa weryfikacja krzyżowa), zapewniając najwyższy poziom precyzji w branży. Zapewniamy pełne ścieżki audytowe dla wszystkich pomiarów.
 :::
 :::
 
@@ -386,7 +386,7 @@ O: Nasz potrójny system walidacji osiąga dokładność 99,5%+ gdy źródłowy 
 **P: Co się dzieje, gdy projekt zmienia się podczas realizacji?**
 :::
 ::: {.faq-answer}
-O: To jest piękno przedmiarów opartych na BIM! Możemy szybko zaktualizować ilości na podstawie zmienionego modelu - zazwyczaj w ciągu 4-8 godzin zamiast tygodni dla ręcznego ponownego pomiaru. Oferujemy bieżące usługi aktualizacji w obniżonych stawkach dla aktywnych projektów.
+O: To właśnie zaleta przedmiarów opartych na BIM! Możemy szybko zaktualizować ilości na podstawie zmienionego modelu - zazwyczaj w ciągu 4-8 godzin zamiast tygodni potrzebnych na ponowny ręczny pomiar. Oferujemy bieżące usługi aktualizacji w obniżonych stawkach dla aktywnych projektów.
 :::
 :::
 
@@ -404,7 +404,7 @@ O: Tak, przestrzegamy RICS New Rules of Measurement (NRM), standardów ISO 19650
 **P: Czy potraficie obsłużyć duże, złożone projekty?**
 :::
 ::: {.faq-answer}
-O: Absolutnie. Pomyślnie zrealizowaliśmy przedmiary dla projektów od małych remontów do inwestycji o powierzchni 100 000+ m². Nasz system AI faktycznie działa lepiej przy większych projektach, gdzie manualne przedmiary byłyby zbyt czasochłonne. Złożone projekty mogą wymagać 3-4 dni zamiast 2-3.
+O: Tak, oczywiście. Pomyślnie zrealizowaliśmy przedmiary dla projektów od małych remontów do inwestycji o powierzchni 100 000+ m². Nasz system AI sprawdza się najlepiej przy dużych projektach, gdzie manualne przedmiary byłyby zbyt czasochłonne. Złożone projekty mogą wymagać 3-4 dni zamiast 2-3.
 :::
 :::
 
@@ -413,7 +413,7 @@ O: Absolutnie. Pomyślnie zrealizowaliśmy przedmiary dla projektów od małych 
 **P: Jaki poziom szczegółowości (LOD) jest potrzebny w modelu BIM?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować z LOD 300 i wyższym dla większości projektów. LOD 350-400 jest idealny dla szczegółowych przedmiarów branżowych. Jeśli model jest na poziomie LOD 200, nadal możemy wyodrębnić przydatne ilości, ale może być konieczne uzupełnienie rysunkami 2D dla dokładnych pomiarów.
+O: Możemy pracować z LOD 300 i wyższym dla większości projektów. LOD 350-400 to poziom idealny dla szczegółowych przedmiarów branżowych. Jeśli model jest na poziomie LOD 200, nadal możemy wyodrębnić przydatne ilości, ale może być konieczne uzupełnienie rysunkami 2D dla dokładnych pomiarów.
 :::
 :::
 
@@ -422,7 +422,7 @@ O: Możemy pracować z LOD 300 i wyższym dla większości projektów. LOD 350-4
 **P: Czy zapewniacie przedmiary dla konkretnych branż lub dyscyplin?**
 :::
 ::: {.faq-answer}
-O: Tak! Możemy wyodrębnić ilości dla każdej branży: konstrukcyjnej (beton, stal, mur), architektonicznej (wykończenia, drzwi, okna), instalacyjnej (mechanika, elektryka, hydraulika, ochrona przeciwpożarowa), robót ziemnych i systemów specjalistycznych. Dostosowujemy format przedmiaru do Państwa wymagań branżowych.
+O: Tak! Możemy wyodrębnić ilości dla każdej branży budowlanej: konstrukcja (beton, stal, mur), architektura (wykończenia, drzwi, okna), instalacje (mechanika, elektryka, hydraulika, ochrona przeciwpożarowa), roboty ziemne i systemy specjalistyczne. Dostosowujemy format przedmiaru do waszych wymagań branżowych.
 :::
 :::
 
@@ -440,7 +440,7 @@ O: Właśnie dlatego stosujemy potrójną walidację. Nasz Poziom 1 AI identyfik
 **P: Jaka jest Państwa struktura cenowa?**
 :::
 ::: {.faq-answer}
-O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. Każdy projekt wyceniamy idywidualnie. Skontaktuj się z nami ze szczegółami projektu, aby otrzymać dokładną wycenę w ciągu 24 godzin.
+O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. Każdy projekt wyceniamy indywidualnie. Skontaktuj się z nami ze szczegółami projektu, aby otrzymać dokładną wycenę w ciągu 24 godzin.
 :::
 :::
 :::
@@ -451,22 +451,22 @@ O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. 
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestańcie Tracić Tygodnie na Manualne Pomiary</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołączcie do 2000+ projektów, które wybrały szybkość i precyzję zamiast tradycyjnych metod.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołączcie do ponad 2000 projektów, które wybrały szybkość i precyzję zamiast tradycyjnych metod.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna Próbka</h3>
-<p style="color: var(--bim-white); margin: 0;">Prześlij model, otrzymaj bezpłatnie przykładową sekcję</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna próbka</h3>
+<p style="color: var(--bim-white); margin: 0;">Prześlij model, otrzymaj bezpłatnie próbkę</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Nasze Portfolio</h3>
-<p style="color: var(--bim-white); margin: 0;">Przejrzyj 2000+ pomyślnie zmierzonych projektów</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz nasze portfolio</h3>
+<p style="color: var(--bim-white); margin: 0;">Przejrzyj ponad 2000 pomyślnie zmierzonych projektów</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Prześlij szczegóły modelu, otrzymaj wycenę w 2 godziny</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Prześlij szczegóły projektu, otrzymaj wycenę w ciągu 2 godzin</p>
 :::
 :::
 
