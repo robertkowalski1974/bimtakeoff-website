@@ -2,7 +2,7 @@
 title: "BIM Adoption at Tender Stages: Why Contractors Resist and What Poland Can Learn from the UK | BIM Takeoff"
 description: "Deep analysis of BIM adoption barriers during tendering, comparing UK success (73% adoption) with Poland's challenges (8.9% contractor adoption). Comprehensive policy recommendations for Poland's 2030 mandate."
 page-layout: full
-date: "2024-10-05"
+date: "2025-10-05"
 author: "BIM Takeoff"
 categories: [BIM, Construction Technology, Poland, UK, Tender Management]
 image: "../../images/bim-adoption-cover.png"
@@ -23,11 +23,6 @@ image: "../../images/bim-adoption-cover.png"
 
 ::: {.hero-subtitle}
 Understanding the 64.1 percentage point gap between UK and Polish contractors
-:::
-
-::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Contact Us](../../contact.qmd){.cta-primary}
-[View Our Services](../../services/cost-estimation-budget-planning.qmd){.cta-secondary}
 :::
 :::
 :::

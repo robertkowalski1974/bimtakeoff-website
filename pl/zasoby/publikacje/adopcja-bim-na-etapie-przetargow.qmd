@@ -2,7 +2,7 @@
 title: "Adopcja BIM na etapie przetargów: Dlaczego wykonawcy stawiają opór i czego Polska może nauczyć się od Wielkiej Brytanii | BIM Takeoff"
 description: "Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu Wielkiej Brytanii (73% adopcji) z wyzwaniami Polski (8,9% adopcji wśród wykonawców). Kompleksowe rekomendacje polityczne dla mandatu Polski 2030."
 page-layout: full
-date: "2024-10-05"
+date: "2025-10-05"
 author: "BIM Takeoff"
 categories: [BIM, Technologia Budowlana, Polska, Wielka Brytania, Zarządzanie Przetargami]
 image: "../../../images/bim-adoption-cover.png"
@@ -24,11 +24,6 @@ lang: pl
 
 ::: {.hero-subtitle}
 Zrozumienie 64,1 punktu procentowego luki między wykonawcami brytyjskimi i polskimi
-:::
-
-::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Skontaktuj się z nami](../../../pl/kontakt.html){.cta-primary}
-[Zobacz nasze usługi](../../../pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
 :::
 :::
 :::

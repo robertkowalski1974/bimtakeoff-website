@@ -36,6 +36,40 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/ai-qs-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI & Automatyzacja</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przyszłość Pracy</span>
+:::
+
+### Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 16 listopada 2025 | ⏱️ 15 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Analiza wpływu AI na zawód kosztorysanta oparta na danych. Badania pokazują, że AI przekształci, ale nie zastąpi profesji - ale wykonawcy stoją przed pytaniem o 2,1 mln PLN dotyczącym automatyzacji.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+- 2,1 mln PLN rocznych wydatków na analizę przetargową zagrożonych automatyzacją
+- 70% firm budowlanych ma problem ze znalezieniem pracowników z kompetencjami AI
+- 44% czasu pracy kosztorysantów może być uwolnione na zadania wyższego rzędu
+- Sześć krytycznych barier spowalniających adopcję AI w budownictwie
+:::
+
+[Przeczytaj cały artykuł](ai-czy-zastapi-kosztorysantow.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../../images/bim-adoption-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
@@ -49,7 +83,7 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 ### Adopcja BIM na etapie przetargów: Dlaczego wykonawcy stawiają opór i czego Polska może nauczyć się od Wielkiej Brytanii
 
 ::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
-📅 5 października 2024 | ⏱️ 20 min czytania
+📅 5 października 2025 | ⏱️ 20 min czytania
 :::
 
 ::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}

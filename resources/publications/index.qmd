@@ -35,6 +35,40 @@ Our research and analysis help industry professionals navigate the digital trans
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../images/ai-qs-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI & Automation</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Quantity Surveying</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Future of Work</span>
+:::
+
+### Will AI Replace Quantity Surveyors? The Reality Behind Construction's Digital Revolution
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+November 16, 2025 | 15 min read
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Data-driven analysis of AI's impact on quantity surveying. Research shows AI will transform, not replace, the profession - but contractors face a £495,680 question about automation versus human expertise.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Key Insights:**
+- £495,680 annual spend on tender analysis at risk of automation
+- 70% of construction firms struggle to find AI-skilled employees
+- 44% of QS work hours could be freed for higher-value tasks
+- Six critical barriers slowing AI adoption in construction
+:::
+
+[Read Full Article](ai-replace-quantity-surveyors.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../images/bim-adoption-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
@@ -48,7 +82,7 @@ Our research and analysis help industry professionals navigate the digital trans
 ### BIM Adoption at Tender Stages: Why Contractors Resist and What Poland Can Learn from the UK
 
 ::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
-📅 October 5, 2024 | ⏱️ 20 min read
+October 5, 2025 | 20 min read
 :::
 
 ::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
@@ -121,6 +155,7 @@ Our publications address the most critical challenges facing the construction in
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0;"}
 - **BIM Adoption & Implementation**
+- **AI & Automation in Construction**
 - **Tender Management**
 - **Cost Estimation Technology**
 - **Regulatory Compliance**
@@ -128,6 +163,7 @@ Our publications address the most critical challenges facing the construction in
 - **Market Analysis**
 - **Policy Recommendations**
 - **ROI & Business Cases**
+- **Future of Work in QS**
 :::
 :::
 
