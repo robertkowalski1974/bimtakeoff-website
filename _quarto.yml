@@ -83,6 +83,8 @@ website:
             href: coming-soon.qmd
           - text: "Case Studies"
             href: coming-soon.qmd
+          - text: "Publications"
+            href: resources/publications/index.qmd
       - text: "Contact"
         href: contact.qmd
     right:

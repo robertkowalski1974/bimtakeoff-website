@@ -1,0 +1,160 @@
+---
+title: "Publikacje | Ekspertyzy na temat BIM i technologii budowlanych | BIM Takeoff"
+description: "Eksperckie analizy i przywództwo myślowe w zakresie adopcji BIM, technologii budowlanych i transformacji branży z 20-letniego międzynarodowego doświadczenia BIM Takeoff."
+page-layout: full
+lang: pl
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
+    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Publikacje
+### Eksperckie analizy BIM i technologii budowlanych
+:::
+
+::: {.hero-subtitle}
+Badania oparte na 20-letnim doświadczeniu na rynkach brytyjskim, australijskim i polskim
+:::
+:::
+:::
+
+::: {.container}
+
+::: {style="margin: 48px 0; text-align: center;"}
+## Najnowsze publikacje
+
+Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową transformację budownictwa.
+:::
+
+::: {.publications-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 32px; margin: 48px 0;"}
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/bim-adoption-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Adopcja BIM</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Rynek Polski</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Porównanie UK</span>
+:::
+
+### Adopcja BIM na etapie przetargów: Dlaczego wykonawcy stawiają opór i czego Polska może nauczyć się od Wielkiej Brytanii
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 5 października 2024 | ⏱️ 20 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu Wielkiej Brytanii (73% adopcji) z wyzwaniami Polski (8,9% adopcji wśród wykonawców). Kompleksowe zbadanie barier ekonomicznych, technicznych, organizacyjnych i prawnych, z praktycznymi rekomendacjami politycznymi dla mandatu Polski 2030.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+- Luka 64,1 punktu procentowego w adopcji między wykonawcami brytyjskimi i polskimi
+- 128 400-705 000 USD rocznych nieodzyskanych kosztów BIM dla aktywnych oferentów
+- Tylko 33% projektów w UK udostępnia BIM na etapie przetargu pomimo mandatu
+- Sześć priorytetowych obszarów działania dla transformacji Polski
+:::
+
+[Przeczytaj cały artykuł](adopcja-bim-na-etapie-przetargow.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+:::
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Bądź na bieżąco z technologiami budowlanymi</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Subskrybuj, aby otrzymywać nasze najnowsze badania, analizy branżowe i praktyczne przewodniki wdrożeniowe.</p>
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Skontaktuj się z nami](../../../pl/kontakt.html){.cta-primary}
+[Zobacz nasze usługi](../../../pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analizy oparte na badaniach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rynki brytyjski, australijski i polski</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0;"}
+## O naszych publikacjach
+
+Publikacje BIM Takeoff czerpią z 20-letniego międzynarodowego doświadczenia w świadczeniu usług kosztorysowania BIM 5D na rynkach brytyjskim, australijskim i polskim. Nasze badania łączą:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;"}
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);"></i> Analiza rynku
+
+Rzeczywiste dane z 2000+ projektów na wielu rynkach, śledzenie trendów adopcji, barier i czynników sukcesu.
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-globe" style="color: var(--bim-orange);"></i> Perspektywa międzynarodowa
+
+Analiza porównawcza rynków budowlanych w UK, Australii i Polsce z lekcjami wyniesionymi z każdego z nich.
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-tools" style="color: var(--bim-orange);"></i> Praktyczne wdrożenie
+
+Praktyczne rekomendacje oparte na doświadczeniu praktycznym, a nie tylko analizie teoretycznej.
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+## Tematy, które poruszamy
+
+Nasze publikacje odnoszą się do najbardziej krytycznych wyzwań stojących przed branżą budowlaną:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0;"}
+- **Adopcja i wdrażanie BIM**
+- **Zarządzanie przetargami**
+- **Technologie kosztorysowania**
+- **Zgodność regulacyjna**
+- **Transformacja cyfrowa**
+- **Analiza rynku**
+- **Rekomendacje polityczne**
+- **ROI i analiza biznesowa**
+:::
+:::
+
+::: {style="margin: 48px 0; text-align: center;"}
+### Masz pytanie badawcze?
+
+Zapraszamy do współpracy przy badaniach i analizach branżowych.
+
+[Skontaktuj się z nami](../../../pl/kontakt.html){.cta-secondary style="display: inline-block;"}
+:::
+
+:::
+
+<style>
+.publication-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.publications-grid {
+  margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+  .publications-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

@@ -47,6 +47,7 @@
         'BIM 2030 Guide': 'Przewodnik BIM 2030',
         'ROI Calculator': 'Kalkulator ROI',
         'Case Studies': 'Studia Przypadków',
+        'Publications': 'Publikacje',
         
         // Footer
         'All rights reserved': 'Wszelkie prawa zastrzeżone',
@@ -182,7 +183,21 @@
         // COMING SOON - Use absolute paths
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',
-        '/coming-soon.html': '/pl/coming-soon.html'
+        '/coming-soon.html': '/pl/coming-soon.html',
+        
+        // PUBLICATIONS - Use absolute paths
+        'resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash variant
+        '../resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash with ../
+        './resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash with ./
+        '/resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash with /
+        'resources/publications/index.html': '/pl/zasoby/publikacje/index.html',  // Relative without prefix
+        '../resources/publications/index.html': '/pl/zasoby/publikacje/index.html',
+        './resources/publications/index.html': '/pl/zasoby/publikacje/index.html',
+        '/resources/publications/index.html': '/pl/zasoby/publikacje/index.html',
+        'resources/publications/bim-adoption-tender-stages.html': '/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html',  // Relative without prefix
+        '../resources/publications/bim-adoption-tender-stages.html': '/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html',
+        './resources/publications/bim-adoption-tender-stages.html': '/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html',
+        '/resources/publications/bim-adoption-tender-stages.html': '/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html'
     };
 
     // Function to translate text

@@ -1,0 +1,159 @@
+---
+title: "Publications | Expert Insights on BIM & Construction Technology | BIM Takeoff"
+description: "Expert analysis and thought leadership on BIM adoption, construction technology, and industry transformation from BIM Takeoff's 20 years of international experience."
+page-layout: full
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Publications
+### Expert Insights on BIM & Construction Technology
+:::
+
+::: {.hero-subtitle}
+Research-based analysis from 20 years of UK, Australian, and Polish market experience
+:::
+:::
+:::
+
+::: {.container}
+
+::: {style="margin: 48px 0; text-align: center;"}
+## Latest Publications
+
+Our research and analysis help industry professionals navigate the digital transformation of construction.
+:::
+
+::: {.publications-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 32px; margin: 48px 0;"}
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../images/bim-adoption-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">BIM Adoption</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Poland Market</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">UK Comparison</span>
+:::
+
+### BIM Adoption at Tender Stages: Why Contractors Resist and What Poland Can Learn from the UK
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 October 5, 2024 | ⏱️ 20 min read
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Deep analysis of BIM adoption barriers during tendering, comparing UK success (73% adoption) with Poland's challenges (8.9% contractor adoption). Comprehensive examination of economic, technical, organizational, and legal barriers, with actionable policy recommendations for Poland's 2030 mandate.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Key Insights:**
+- 64.1 percentage point adoption gap between UK and Polish contractors
+- $128,400-705,000 annual unrecovered BIM costs for active bidders
+- Only 33% of UK projects share BIM at tender stage despite mandate
+- Six priority action areas for Poland's transformation
+:::
+
+[Read Full Article](bim-adoption-tender-stages.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+:::
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stay Informed on Construction Technology</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Subscribe to receive our latest research, industry insights, and practical implementation guides.</p>
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Contact Us](../../contact.qmd){.cta-primary}
+[View Our Services](../../services/cost-estimation-budget-planning.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Research-Based Analysis</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>UK, Australian & Polish Markets</strong></p>
+:::
+:::
+:::
+
+::: {style="margin: 48px 0;"}
+## About Our Publications
+
+BIM Takeoff's publications draw on 20 years of international experience delivering BIM 5D cost estimation services across UK, Australian, and Polish markets. Our research combines:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;"}
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);"></i> Market Analysis
+
+Real data from 2000+ projects across multiple markets, tracking adoption trends, barriers, and success factors.
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-globe" style="color: var(--bim-orange);"></i> International Perspective
+
+Comparative analysis of UK, Australian, and Polish construction markets with lessons learned from each.
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-tools" style="color: var(--bim-orange);"></i> Practical Implementation
+
+Actionable recommendations based on hands-on experience, not just theoretical analysis.
+:::
+:::
+:::
+
+::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
+## Topics We Cover
+
+Our publications address the most critical challenges facing the construction industry:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0;"}
+- **BIM Adoption & Implementation**
+- **Tender Management**
+- **Cost Estimation Technology**
+- **Regulatory Compliance**
+- **Digital Transformation**
+- **Market Analysis**
+- **Policy Recommendations**
+- **ROI & Business Cases**
+:::
+:::
+
+::: {style="margin: 48px 0; text-align: center;"}
+### Have a Research Question?
+
+We welcome collaboration on industry research and analysis.
+
+[Contact Us](../../contact.qmd){.cta-secondary style="display: inline-block;"}
+:::
+
+:::
+
+<style>
+.publication-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.publications-grid {
+  margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+  .publications-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
