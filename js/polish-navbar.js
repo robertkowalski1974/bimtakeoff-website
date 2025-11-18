@@ -63,7 +63,7 @@
         {
             parentMenu: 'Zasoby',  // Which menu to add to (after translation)
             text: 'Przewodnik BIM 2030',
-            href: '/pl/coming-soon.html',
+            href: '/pl/zasoby/przewodnik-bim-2030.html',
             position: 'first'  // 'first', 'last', or index number (0-based)
         }
     ];
