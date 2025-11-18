@@ -260,7 +260,7 @@ Rozmowa o AI w kosztorysowaniu dopiero się rozpoczyna, a perspektywa każdego p
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
 [Skontaktuj się](../../kontakt.qmd){.cta-primary}
-[Nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetowe.qmd){.cta-secondary}
+[Nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}

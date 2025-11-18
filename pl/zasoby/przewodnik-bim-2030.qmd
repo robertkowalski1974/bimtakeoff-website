@@ -855,10 +855,7 @@ Zaawansowane usługi kosztowe i harmonogramowanie 4D
 
 **2000+ projektów** na rynkach UK i Australii • **Zgodność z ISO 19650** • **Znajomość polskich standardów KNR/KNNR** • **Praktyczne wdrożenie**, nie tylko teoria
 
-::: {style="margin-top: 32px; text-align: center;"}
-[UMÓW KONSULTACJĘ](../kontakt.qmd){.cta-primary}
-[POBIERZ CHECKLIST](coming-soon.qmd){.cta-secondary}
-:::
+
 :::
 
 ```{=html}
@@ -928,17 +925,15 @@ Ten przewodnik został przygotowany na podstawie najnowszych dostępnych informa
 ### Przydatne Linki
 
 - [Ministerstwo Rozwoju i Technologii - BIM](https://www.gov.pl/web/rozwoj-technologia)
-- [buildingSMART Polska](https://www.buildingsmart.pl/)
 - [BIM Standard PL](https://www.plbim.org/)
 - [Polski Komitet Normalizacyjny - ISO 19650](https://www.pkn.pl/)
-- [BIM Klaster](https://www.bimklaster.pl/)
 
 ### Dokumenty do Pobrania
 
-- Mapa drogowa cyfryzacji procesu budowlanego (Ministerstwo Rozwoju, 2020)
-- Szablony EIR i BEP (BIM Standard PL)
-- Leksykon BIM (BIM Standard PL)
-- Przewodnik ISO 19650 (buildingSMART International)
+- [Mapa drogowa cyfryzacji procesu budowlanego](https://www.gov.pl/web/rozwoj-technologia/mapa-drogowa-dla-wdrozenia-metodyki-bim-w-zamowieniach-publicznych) (Ministerstwo Rozwoju, 2020)
+- [Szablony EIR i BEP](https://www.gov.pl/web/rozwoj-technologia/cyfryzacja-procesu-budowlanego---szablony-dokumentow-bim) (BIM Standard PL)
+- [Leksykon BIM](https://www.gov.pl/web/rozwoj-technologia/cyfryzacja-procesu-budowlanego---szablony-dokumentow-bim) (BIM Standard PL)
+- [Przewodnik ISO 19650](https://www.iso.org/standard/68078.html) (ISO.org) | [UK BIM Framework](https://ukbimframework.org/) | [BSI ISO 19650](https://www.bsigroup.com/en-GB/iso-19650-bim/)
 
 :::
 
