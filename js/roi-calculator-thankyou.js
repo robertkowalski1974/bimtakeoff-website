@@ -3,22 +3,17 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   console.log('🎉 Thank you page DOMContentLoaded fired');
-  
-  const resultCard = document.getElementById('result-card');
-  const errorCard = document.getElementById('error-card');
+
+  // Get elements - updated to match actual HTML IDs
+  const loadingState = document.getElementById('loading-state');
+  const successState = document.getElementById('success-state');
+  const errorState = document.getElementById('error-state');
   const manualDownloadBtn = document.getElementById('manual-download-btn');
-  const savingsDisplay = document.getElementById('display-savings');
-  const roiDisplay = document.getElementById('display-roi');
-  const valueDisplay = document.getElementById('display-value');
-  const currencyElements = document.querySelectorAll('.currency');
-  
-  if (errorCard) {
-    errorCard.style.display = 'none';
-  }
-  
+  const savingsSummary = document.getElementById('savings-summary');
+
   // Debug localStorage
   console.log('💾 LocalStorage data:', localStorage.getItem('bimtakeoff_calculator_data'));
-  
+
   // Add manual download button listener
   if (manualDownloadBtn) {
     manualDownloadBtn.addEventListener('click', () => {
@@ -26,19 +21,19 @@ document.addEventListener('DOMContentLoaded', function() {
       generatePDFReport();
     });
   }
-  
+
   // Load calculator data from localStorage
   function loadCalculatorData() {
     console.log('📊 Loading calculator data...');
     try {
       const stored = localStorage.getItem('bimtakeoff_calculator_data');
       console.log('💾 Raw stored data:', stored);
-      
+
       if (!stored) {
         console.warn('⚠️ No calculator data in localStorage');
         return null;
       }
-      
+
       const data = JSON.parse(stored);
       console.log('✅ Parsed calculator data:', data);
       return data;
@@ -47,24 +42,55 @@ document.addEventListener('DOMContentLoaded', function() {
       return null;
     }
   }
-  
+
   // Load and display data
   const calculatorData = loadCalculatorData();
   console.log('📊 Calculator data after loading:', calculatorData);
-  
+
   if (calculatorData) {
-    // Display the calculated values
-    if (savingsDisplay) savingsDisplay.textContent = Math.round(calculatorData.savings).toLocaleString();
-    if (roiDisplay) roiDisplay.textContent = Math.round(calculatorData.roi) + '%';
-    if (valueDisplay) valueDisplay.textContent = calculatorData.projectValue.toLocaleString();
-    
-    // Update currency displays
-    currencyElements.forEach(el => {
-      el.textContent = calculatorData.currency || 'PLN';
-    });
-    
-    if (resultCard) resultCard.style.display = 'block';
-    
+    // Populate the savings summary
+    if (savingsSummary) {
+      const currency = calculatorData.currency || 'PLN';
+      const isPolish = window.location.pathname.includes('/pl/');
+
+      savingsSummary.innerHTML = `
+        <h2 style="color: var(--bim-orange); font-size: 1.8rem; margin: 0 0 16px 0;">
+          ${isPolish ? 'Twoje Oszczędności' : 'Your Savings'}
+        </h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+          <div style="text-align: center;">
+            <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+              ${isPolish ? 'Wartość Projektu' : 'Project Value'}
+            </p>
+            <p style="color: var(--bim-charcoal); font-size: 1.5rem; font-weight: 700; margin: 0;">
+              ${Math.round(calculatorData.projectValue).toLocaleString(isPolish ? 'pl-PL' : 'en-US')} ${currency}
+            </p>
+          </div>
+          <div style="text-align: center;">
+            <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+              ${isPolish ? 'Oszczędności' : 'Savings'}
+            </p>
+            <p style="color: var(--bim-green); font-size: 1.5rem; font-weight: 700; margin: 0;">
+              ${Math.round(calculatorData.savings).toLocaleString(isPolish ? 'pl-PL' : 'en-US')} ${currency}
+            </p>
+          </div>
+        </div>
+        <div style="text-align: center; background: var(--bim-light-gray); padding: 16px; border-radius: 8px;">
+          <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+            ${isPolish ? 'Zwrot z Inwestycji' : 'Return on Investment'}
+          </p>
+          <p style="color: var(--bim-orange); font-size: 2rem; font-weight: 700; margin: 0;">
+            ${Math.round(calculatorData.roi)}%
+          </p>
+        </div>
+      `;
+    }
+
+    // Hide loading, show success
+    if (loadingState) loadingState.style.display = 'none';
+    if (successState) successState.style.display = 'block';
+    if (errorState) errorState.style.display = 'none';
+
     // Auto-generate PDF after a delay
     setTimeout(() => {
       console.log('⏰ Auto-generating PDF after 1.5 second delay...');
@@ -72,9 +98,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 1500);
   } else {
     // Show error if no data
-    if (errorCard) errorCard.style.display = 'block';
-    if (resultCard) resultCard.style.display = 'none';
     console.error('❌ No calculator data available to display');
+    if (loadingState) loadingState.style.display = 'none';
+    if (successState) successState.style.display = 'none';
+    if (errorState) errorState.style.display = 'block';
   }
 });
 
