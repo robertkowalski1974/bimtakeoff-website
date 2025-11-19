@@ -4,11 +4,11 @@ subtitle: "Profesjonalna Wycena Kosztorysowa"
 format:
   html:
     theme: none
-    css: ../resources/roi-report-print.css
+    css: ../../resources/roi-report-print.css
     include-in-header:
       text: |
-        <link rel="stylesheet" href="../resources/roi-report-print.css">
-        <script defer src="../js/roi-report-generator.js"></script>
+        <link rel="stylesheet" href="../../resources/roi-report-print.css">
+        <script defer src="../../js/roi-report-generator.js"></script>
     toc: false
 ---
 

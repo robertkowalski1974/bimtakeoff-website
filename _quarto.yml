@@ -6,6 +6,8 @@ project:
     - js/**
     - css/**
     - images/**
+    - resources/**/*.css
+    - resources/**/*.js
   # Post-render scripts for SEO optimization
   post-render:
     - python3 scripts/add-hreflang.py
