@@ -542,11 +542,18 @@ body {
     height: 297mm;
     padding: 20mm;
     page-break-after: always;
+    page-break-before: auto;
+    page-break-inside: avoid;
+    break-after: page;
+    break-before: auto;
+    break-inside: avoid;
     box-shadow: none;
+    position: relative;
   }
 
   .report-page:last-child {
     page-break-after: avoid;
+    break-after: avoid;
   }
 
   /* Ensure colors print */
@@ -562,8 +569,22 @@ body {
   .timeline-phase,
   .action-step,
   .info-box,
-  .benefit-item {
+  .benefit-item,
+  .metrics-grid,
+  .cta-box,
+  .contact-box,
+  .section-heading,
+  .benefits-list,
+  .data-table {
     page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep sections together */
+  .page-header,
+  .page-header-simple {
+    page-break-after: avoid;
+    break-after: avoid;
   }
 
   /* Ensure backgrounds print */
