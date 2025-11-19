@@ -1011,9 +1011,8 @@ function generateExecutiveSummaryPL(doc, { orange, green, gray, darkGray, lightG
     ['Koszty Poprawek', '5-10% budżetu', '<2% budżetu', `${Math.round(projectValue * 0.06).toLocaleString('pl-PL')} ${currency}`],
     ['Zmiany w Projekcie', '15-20% typowo', '5-8% typowo', `${Math.round(projectValue * 0.12).toLocaleString('pl-PL')} ${currency}`]
   ];
-  
+
   // Table header
-  const lightGray = [248, 249, 250];
   doc.setFillColor(...lightGray);
   doc.rect(20, yPos, 170, 8, 'F');
   doc.setFont(undefined, 'bold');
