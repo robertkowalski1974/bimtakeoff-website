@@ -23,6 +23,7 @@ format:
 </div>
 
 <div class="print-controls no-print">
+  <button id="back-btn" class="btn-secondary">Back to Calculator</button>
   <button id="download-pdf-btn" class="btn-primary">
     <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
       <path d="M10 12l-5-5h3V3h4v4h3l-5 5z"/>
@@ -30,5 +31,4 @@ format:
     </svg>
     Download as PDF
   </button>
-  <button id="back-btn" class="btn-secondary">Back to Calculator</button>
 </div>
