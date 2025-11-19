@@ -66,8 +66,8 @@ Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, reduk
 💱 Waluta
 </label>
 <select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
-<option value="EUR">🇪🇺 Euro (EUR)</option>
-<option value="PLN" selected>🇵🇱 Polski Złoty (PLN)</option>
+<option value="EUR" selected>🇪🇺 Euro (EUR)</option>
+<option value="PLN">🇵🇱 Polski Złoty (PLN)</option>
 <option value="GBP">🇬🇧 Funt Brytyjski (GBP)</option>
 <option value="USD">🇺🇸 Dolar Amerykański (USD)</option>
 <option value="AUD">🇦🇺 Dolar Australijski (AUD)</option>
