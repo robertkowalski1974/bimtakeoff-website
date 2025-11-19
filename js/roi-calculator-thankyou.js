@@ -132,7 +132,7 @@ function generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, proj
   doc.text('Generated: ' + new Date().toLocaleDateString('en-GB'), 105, 50, { align: 'center' });
   
   // Add BIM Takeoff logo
-  doc.addImage(data:image/jpeg;base64, + BIM_LOGO_BASE64, JPEG, 20, 45, 50, 14);
+  doc.addImage('data:image/jpeg;base64,' + BIM_LOGO_BASE64, 'JPEG', 20, 45, 50, 14);
   
   let yPos = 70;
   

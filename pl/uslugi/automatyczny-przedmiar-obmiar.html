@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BIM Takeoff - Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji | BIM Takeoff</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
+<!-- End Google Tag Manager -->
+
+<!-- LinkedIn Insight Tag -->
+<script type="text/javascript">
+_linkedin_partner_id = "8743217";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<!-- End LinkedIn Insight Tag -->
+
+<!-- Twitter Card metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@bimtakeoff">
+<meta name="twitter:creator" content="@bimtakeoff">
+<meta name="twitter:title" content="BIM Takeoff - Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji | BIM Takeoff">
+<meta name="twitter:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+
+<!-- Organization Structured Data (Global) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BIM Takeoff",
+  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
+  "url": "https://robertkowalski1974.github.io/bimtakeoff-website",
+  "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "telephone": "+44-20-3239-9967",
+  "email": "info@bimtakeoff.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "GB"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    {
+      "@type": "Country",
+      "name": "Poland"
+    }
+  ],
+  "serviceType": [
+    "BIM 5D Cost Estimation",
+    "Quantity Surveying",
+    "Construction Cost Consulting",
+    "Automated Quantity Takeoff",
+    "BIM Coordination Services"
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "20"
+  }
+}
+</script>
+
+
+<link rel="stylesheet" href="../../css/styles.css">
+<meta property="og:title" content="BIM Takeoff - Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji | BIM Takeoff">
+<meta property="og:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+<meta property="og:image" content="https://robertkowalski1974.github.io/bimtakeoff-website/pl/uslugi/images/BIM TAKEOFF V2-2.jpg">
+<meta property="og:site_name" content="BIM Takeoff">
+<meta property="og:locale" content="en_GB">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/BIM TAKEOFF V2-2.jpg" alt="BIM Takeoff Logo" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">BIM Takeoff</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Services</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+        <li>
+    <a class="dropdown-item" href="../../services/cost-estimation-budget-planning.html">
+ <span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/trade-specific-specialist-services.html">
+ <span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/automated-quantity-takeoff.html">
+ <span class="dropdown-text">Automated Quantity Takeoff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/fast-track-cost-control.html">
+ <span class="dropdown-text">Fast-Track Cost Control</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/breeam-esg-cost-modeling.html">
+ <span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/mep-infrastructure-precision.html">
+ <span class="dropdown-text">MEP Infrastructure Precision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/multi-scenario-analysis.html">
+ <span class="dropdown-text">Multi-Scenario Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/comprehensive-reporting.html">
+ <span class="dropdown-text">Comprehensive Reporting</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/bid-writing-management.html">
+ <span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/traditional-quantity-takeoff.html">
+ <span class="dropdown-text">Traditional Quantity Takeoff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/construction-data-management.html">
+ <span class="dropdown-text">Construction Data Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../services/construction-logistics.html">
+ <span class="dropdown-text">Construction Logistics</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-industries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Industries</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-industries">    
+        <li>
+    <a class="dropdown-item" href="../../industries/warehouses-logistics.html">
+ <span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/data-centers.html">
+ <span class="dropdown-text">Data Centers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/residential-development.html">
+ <span class="dropdown-text">Residential Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/remediation.html">
+ <span class="dropdown-text">Remediation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/commercial-development.html">
+ <span class="dropdown-text">Commercial Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/housing-associations.html">
+ <span class="dropdown-text">Housing Associations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/healthcare-medical.html">
+ <span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/industrial-manufacturing.html">
+ <span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../industries/infrastructure-civil.html">
+ <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../coming-soon.html"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../resources/roi-calculator.html">
+ <span class="dropdown-text">ROI Calculator</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../coming-soon.html">
+ <span class="dropdown-text">Case Studies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/publications/index.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../pl/"> 
+<span class="menu-text">PL</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../"> 
+<span class="menu-text">EN</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji | BIM Takeoff</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="hero-section">
+<div class="hero-video-bg">
+<p><video autoplay="" muted="" loop="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"> </video></p>
+</div>
+<div class="container">
+<section id="automatyczny-przedmiar-i-obmiar-z-potrójnym-systemem-walidacji" class="level1 hero-title">
+<h1>Automatyczny Przedmiar i Obmiar z Potrójnym Systemem Walidacji</h1>
+<section id="precyzyjne-obmiary-w-10-krótszym-czasie" class="level3">
+<h3 class="anchored" data-anchor-id="precyzyjne-obmiary-w-10-krótszym-czasie">Precyzyjne obmiary w 10× krótszym czasie</h3>
+</section>
+</section>
+<div class="hero-subtitle">
+<p>O 95% szybciej niż tradycyjne przedmiary. Potrójnie weryfikowane dla pełnej dokładności.</p>
+</div>
+<div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
+<div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Automatyczne odczytywanie przez AI</strong> - Automatyczne pomiary z modeli BIM
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Potrójny system walidacji (Triple Validation System)</strong> - AI + Ekspert + Weryfikacja krzyżowa
+</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokładność 99,5%</strong> - Potwierdzone 20-letnim doświadczeniem
+</p>
+</div>
+</div>
+<div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../../pl/kontakt.html" class="cta-primary">Bezpłatna Próbka</a> <a href="../../pl/coming-soon.html" class="cta-secondary">Zobacz Portfolio</a></p>
+</div>
+</div>
+</div>
+<div class="container">
+<section id="dlaczego-tradycyjne-przedmiary-kosztują-czas-i-pieniądze" class="level2">
+<h2 class="anchored" data-anchor-id="dlaczego-tradycyjne-przedmiary-kosztują-czas-i-pieniądze">Dlaczego Tradycyjne Przedmiary Kosztują Czas i Pieniądze</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
+<section id="problemy-manualnych-przedmiarów" class="level3" style="">
+<h3 class="anchored" data-anchor-id="problemy-manualnych-przedmiarów">Problemy Manualnych Przedmiarów</h3>
+<p>Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 tygodni na złożone projekty
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy ludzkie w pomiarach (5-15%)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pominięte ilości i elementy
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespójne standardy pomiarowe
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Każda zmiana wymaga przeliczenia wszystkiego od nowa
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Trudne do zweryfikowania i audytu
+</p>
+</div>
+<section id="koszt-błędów" class="level4 callout-box" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
+<h4 class="anchored" data-anchor-id="koszt-błędów">Koszt Błędów</h4>
+<blockquote class="blockquote">
+<p>“W projekcie wartym 40 mln PLN nawet 5% błąd w ilościach może skutkować 2 mln PLN nieoczekiwanych kosztów lub roszczeń wykonawców. Ręczne przedmiary nie zapewniają precyzji wymaganej przez nowoczesne budownictwo.”</p>
+</blockquote>
+</section>
+</section>
+<section id="nasze-automatyczne-rozwiązanie" class="level3" style="">
+<h3 class="anchored" data-anchor-id="nasze-automatyczne-rozwiązanie">Nasze Automatyczne Rozwiązanie</h3>
+<p>Zaawansowana ekstrakcja AI z wielopoziomową walidacją:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2-3 dni</strong> na pełny przedmiar
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>99,5% dokładności</strong> z potrójną walidacją
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Kompletne rozpoznanie wszystkich elementów (bez pominiętych pozycji)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zgodność z ISO 19650 i KNR
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa aktualizacja po każdej zmianie
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Pełna ścieżka audytowa i dokumentacja
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="nasz-potrójny-system-walidacji-niezrównana-dokładność" class="level2">
+<h2 class="anchored" data-anchor-id="nasz-potrójny-system-walidacji-niezrównana-dokładność">Nasz Potrójny System Walidacji: Niezrównana Dokładność</h2>
+<section id="dlaczego-trzy-poziomy-walidacji" class="level3" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
+<h3 class="anchored" data-anchor-id="dlaczego-trzy-poziomy-walidacji">Dlaczego Trzy Poziomy Walidacji?</h3>
+<p>Projekty budowlane nie mogą sobie pozwolić na błędy pomiarowe. Nasz autorski potrójny system walidacji zapewnia, że każda ilość jest weryfikowana przez wiele niezależnych procesów, wychwytując błędy, które pomijają systemy jednopoziomowe.</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
+<section id="poziom-1-automatyczne-odczytywanie-przez-ai" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="poziom-1-automatyczne-odczytywanie-przez-ai"><i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 1: Automatyczne odczytywanie przez AI</h4>
+<p><strong>Automatyczna analiza BIM</strong></p>
+<p>Nasze algorytmy AI automatycznie wyodrębniają ilości z modelu BIM:</p>
+<ul>
+<li>Rozpoznawanie wzorców i typów elementów</li>
+<li>Automatyczne obliczenia pomiarowe</li>
+<li>Wykrywanie i rozwiązywanie kolizji</li>
+<li>Usuwanie duplikatów</li>
+<li>Kontrola wersji</li>
+</ul>
+<p><strong>Dokładność:</strong> 98% <strong>Czas trwania:</strong> 1-2 godziny</p>
+</section>
+<section id="poziom-2-przegląd-eksperta" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="poziom-2-przegląd-eksperta"><i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 2: Przegląd eksperta</h4>
+<p><strong>Weryfikacja przez kosztorysanta</strong></p>
+<p>Doświadczeni kosztorysanci ręcznie sprawdzają wyniki AI:</p>
+<ul>
+<li>Weryfikacja krzyżowa na podstawie rysunków 2D</li>
+<li>Walidacja metodologii pomiarowej</li>
+<li>Identyfikacja brakujących elementów</li>
+<li>Wykorzystanie wiedzy i doświadczenia budowlanego</li>
+<li>Weryfikacja przeliczników jednostek</li>
+</ul>
+<p><strong>Dokładność:</strong> 99,2% <strong>Czas trwania:</strong> 4-8 godzin</p>
+</section>
+<section id="poziom-3-weryfikacja-krzyżowa" class="level4" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="poziom-3-weryfikacja-krzyżowa"><i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 3: Weryfikacja krzyżowa</h4>
+<p><strong>Niezależna weryfikacja</strong></p>
+<p>Końcowa walidacja względem wielu źródeł:</p>
+<ul>
+<li>Porównanie z danymi historycznymi</li>
+<li>Porównanie ze standardami branżowymi</li>
+<li>Weryfikacja ze specyfikacjami</li>
+<li>Kontrola zależności materiałowych</li>
+<li>Końcowe zatwierdzenie przez kontrolę jakości (QA)</li>
+</ul>
+<p><strong>Końcowa dokładność:</strong> 99,5%+ <strong>Czas trwania:</strong> 2-4 godziny</p>
+</section>
+</div>
+<div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
+<p><strong>Rezultat:</strong> Każda ilość jest weryfikowana trzy razy przez niezależne systemy, zapewniając najbardziej dokładny Przedmiar Robót w branży.</p>
+</div>
+</section>
+</section>
+</div>
+<section id="nasz-sprawdzony-4-etapowy-proces" class="level2">
+<h2 class="anchored" data-anchor-id="nasz-sprawdzony-4-etapowy-proces">Nasz Sprawdzony 4-Etapowy Proces</h2>
+<div class="process-steps">
+<section id="etap-1-przyjęcie-i-przygotowanie-modelu" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="etap-1-przyjęcie-i-przygotowanie-modelu">Etap 1: Przyjęcie i Przygotowanie Modelu</h4>
+<p><strong>Czas trwania:</strong> 4-6 godzin</p>
+<p><strong>Nasze działania:</strong></p>
+<ul>
+<li>Otrzymujemy model BIM (IFC, Revit, ArchiCAD, Tekla)</li>
+<li>Walidujemy kompletność i integralność modelu</li>
+<li>Sprawdzamy klasyfikację i właściwości elementów</li>
+<li>Identyfikujemy luki w danych lub niespójności</li>
+<li>Konfigurujemy parametry pomiarowe</li>
+</ul>
+<p><strong>Rezultat:</strong> Raport walidacji modelu z oznaczonymi problemami</p>
+</section>
+<section id="etap-2-automatyczne-odczytywanie-walidacja-poziom-1" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="etap-2-automatyczne-odczytywanie-walidacja-poziom-1">Etap 2: Automatyczne odczytywanie (Walidacja Poziom 1)</h4>
+<p><strong>Czas trwania:</strong> 1-2 godziny (automatyczny)</p>
+<p><strong>Nasze działania:</strong></p>
+<ul>
+<li>Automatyczne odczytanie ilości z modelu BIM przez AI</li>
+<li>Automatyczne obliczenia pomiarowe</li>
+<li>Klasyfikacja i grupowanie elementów</li>
+<li>Wykrywanie kolizji i usuwanie duplikatów</li>
+<li>Wygenerowanie wstępnego przedmiaru robót</li>
+</ul>
+<p><strong>Rezultat:</strong> Wstępny przedmiar z automatycznymi pomiarami</p>
+</section>
+<section id="etap-3-przegląd-ekspercki-walidacja-poziom-2" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="etap-3-przegląd-ekspercki-walidacja-poziom-2">Etap 3: Przegląd ekspercki (Walidacja Poziom 2)</h4>
+<p><strong>Czas trwania:</strong> 4-8 godzin</p>
+<p><strong>Nasze działania:</strong></p>
+<ul>
+<li>Ręczna weryfikacja przez kosztorysanta</li>
+<li>Weryfikacja krzyżowa na podstawie rysunków 2D</li>
+<li>Zastosowanie standardów branżowych</li>
+<li>Identyfikacja i dodanie brakujących elementów</li>
+<li>Walidacja metodologii pomiarowych</li>
+<li>Zastosowanie wymagań specyficznych dla projektu</li>
+</ul>
+<p><strong>Rezultat:</strong> Przedmiar zweryfikowany przez eksperta z notatkami kontroli jakości</p>
+</section>
+<section id="etap-4-weryfikacja-krzyżowa-i-końcowa-kontrola-jakości-walidacja-poziom-3" class="level4 process-step">
+<h4 class="anchored" data-anchor-id="etap-4-weryfikacja-krzyżowa-i-końcowa-kontrola-jakości-walidacja-poziom-3">Etap 4: Weryfikacja krzyżowa i końcowa kontrola jakości (Walidacja Poziom 3)</h4>
+<p><strong>Czas trwania:</strong> 2-4 godziny</p>
+<p><strong>Nasze działania:</strong></p>
+<ul>
+<li>Porównanie z danymi historycznymi z podobnych projektów</li>
+<li>Porównanie ze standardami branżowymi</li>
+<li>Końcowa weryfikacja dokumentacji specyfikacji</li>
+<li>Zatwierdzenie przez starszego kosztorysanta</li>
+<li>Generowanie kompleksowej dokumentacji</li>
+<li>Przygotowanie ścieżki audytowej i komentarzy</li>
+</ul>
+<p><strong>Rezultat:</strong> Końcowy zwalidowany przedmiar z pełną dokumentacją i ścieżką audytową</p>
+</section>
+</div>
+<div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
+<p><strong>Całkowity Czas:</strong> 12-20 godzin roboczych<br>
+<strong>Całkowity Czas Projektu:</strong> 2-3 dni od otrzymania modelu do końcowego dostarczenia</p>
+</div>
+</section>
+<section id="co-jest-zawarte-w-państwa-przedmiarze-robót" class="level2">
+<h2 class="anchored" data-anchor-id="co-jest-zawarte-w-państwa-przedmiarze-robót">Co Jest Zawarte w Państwa Przedmiarze Robót</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;">
+<section id="standardowe-elementy" class="level3" style="">
+<h3 class="anchored" data-anchor-id="standardowe-elementy">Standardowe Elementy</h3>
+<p>Każdy automatyczny przedmiar zawiera:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szczegółowy Przedmiar Robót</strong> (format Excel)
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Znaczniki 3D</strong> pokazujące zmierzone elementy
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Komentarz Pomiarowy</strong> wyjaśniający metodologie
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Raporty Walidacji</strong> ze wszystkich trzech poziomów
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pełna Ścieżka Audytowa</strong> do weryfikacji
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Harmonogram Elementów</strong> z właściwościami i atrybutami
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Log Założeń</strong> dokumentujący wszelkie założenia
+</p>
+</div>
+</section>
+<section id="dodatkowe-opcje" class="level3" style="">
+<h3 class="anchored" data-anchor-id="dodatkowe-opcje">Dodatkowe Opcje</h3>
+<p>Wzbogać swój przedmiar o:</p>
+<div style="margin: 24px 0;">
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kosztorysowanie</strong> - Zastosowanie stawek do ilości
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Integracja z Harmonogramem</strong> - Powiązanie ilości z programem
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokumentacja Przetargowa</strong> - Przygotowanie przedmiaru do przetargu
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Wartości</strong> - Identyfikacja oszczędności
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Odpadów Materiałowych</strong> - Kalkulacja współczynników strat
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Formatowanie Niestandardowe</strong> - Dopasowanie do Państwa szablonu
+</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
+<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Bieżące Aktualizacje</strong> - Śledzenie zmian projektowych w czasie
+</p>
+</div>
+</section>
+</div>
+</section>
+<section id="branże-i-typy-projektów-które-obsługujemy" class="level2">
+<h2 class="anchored" data-anchor-id="branże-i-typy-projektów-które-obsługujemy">Branże i Typy Projektów, Które Obsługujemy</h2>
+<div class="feature-grid">
+<section id="budynki-komercyjne" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="budynki-komercyjne"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budynki Komercyjne</h3>
+<p>Kompleksy biurowe, centra handlowe, inwestycje wielofunkcyjne, projekty hotelarskie</p>
+</section>
+<section id="obiekty-służby-zdrowia" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="obiekty-służby-zdrowia"><i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Służby Zdrowia</h3>
+<p>Szpitale, centra medyczne, domy opieki, przychodnie specjalistyczne</p>
+</section>
+<section id="budownictwo-mieszkaniowe" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="budownictwo-mieszkaniowe"><i class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Mieszkaniowe</h3>
+<p>Budownictwo wielorodzinne, kompleksy apartamentowe, osiedla domów szeregowych</p>
+</section>
+<section id="przemysł-i-logistyka" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="przemysł-i-logistyka"><i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Przemysł i Logistyka</h3>
+<p>Magazyny, centra dystrybucyjne, zakłady produkcyjne, chłodnie</p>
+</section>
+<section id="edukacja-i-instytucje" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="edukacja-i-instytucje"><i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Edukacja i Instytucje</h3>
+<p>Uniwersytety, szkoły, biblioteki, budynki rządowe, centra obywatelskie</p>
+</section>
+<section id="projekty-infrastrukturalne" class="level3 feature-card">
+<h3 class="anchored" data-anchor-id="projekty-infrastrukturalne"><i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne</h3>
+<p>Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej</p>
+</section>
+</div>
+</section>
+<section id="obsługiwane-formaty-plików-i-oprogramowanie" class="level2">
+<h2 class="anchored" data-anchor-id="obsługiwane-formaty-plików-i-oprogramowanie">Obsługiwane Formaty Plików i Oprogramowanie</h2>
+<section id="pracujemy-z-państwa-istniejącym-workflow" class="level3" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
+<h3 class="anchored" data-anchor-id="pracujemy-z-państwa-istniejącym-workflow">Pracujemy z Państwa Istniejącym Workflow</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 32px 0;">
+<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+<p><strong>Oprogramowanie BIM</strong></p>
+<ul>
+<li>Autodesk Revit</li>
+<li>ArchiCAD</li>
+<li>Tekla Structures</li>
+<li>Bentley MicroStation</li>
+<li>Vectorworks</li>
+</ul>
+</div>
+<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+<p><strong>Formaty Plików</strong></p>
+<ul>
+<li>IFC 2x3 / IFC 4</li>
+<li>Revit (RVT)</li>
+<li>DWG / DXF</li>
+<li>PDF (z wymiarami)</li>
+<li>Chmury punktów (jeśli potrzebne)</li>
+</ul>
+</div>
+<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+<p><strong>Formaty Eksportu</strong></p>
+<ul>
+<li>Excel (XLSX)</li>
+<li>CSV</li>
+<li>Raporty PDF</li>
+<li>BCF (dla znaczników)</li>
+<li>Natywne formaty BIM</li>
+</ul>
+</div>
+<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+<p><strong>Integracja</strong></p>
+<ul>
+<li>MS Project</li>
+<li>Primavera P6</li>
+<li>CostX / Vico</li>
+<li>Procore / BIM 360</li>
+<li>Niestandardowe API</li>
+</ul>
+</div>
+</div>
+<div style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;">
+<p><strong>Nie widzisz swojego oprogramowania?</strong> Pracujemy praktycznie z każdą platformą BIM lub CAD. Skontaktuj się z nami, aby omówić Państwa specyficzne wymagania.</p>
+</div>
+</section>
+<p>:::</p>
+</section>
+<section id="najczęściej-zadawane-pytania" class="level2">
+<h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej Zadawane Pytania</h2>
+<div class="faq-section">
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Co jeśli mój projekt nie ma modelu BIM?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłuższe, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych wyników i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jak dokładny jest Państwa potrójny system walidacji?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Nasz potrójny system walidacji osiąga dokładność 99,5%+ gdy źródłowy model BIM jest kompletny i dokładny. Każda wielkość jest weryfikowana niezależnie na trzech poziomach (automatyczne odczytanie AI, weryfikacja przez eksperta, końcowa weryfikacja krzyżowa), zapewniając najwyższy poziom precyzji w branży. Zapewniamy pełne ścieżki audytowe dla wszystkich pomiarów.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Co się dzieje, gdy projekt zmienia się podczas realizacji?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: To właśnie zaleta przedmiarów opartych na BIM! Możemy szybko zaktualizować ilości na podstawie zmienionego modelu - zazwyczaj w ciągu 4-8 godzin zamiast tygodni potrzebnych na ponowny ręczny pomiar. Oferujemy bieżące usługi aktualizacji w obniżonych stawkach dla aktywnych projektów.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy przestrzegacie międzynarodowych standardów pomiarowych?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak, przestrzegamy RICS New Rules of Measurement (NRM), standardów ISO 19650 BIM i możemy dostosować się do lokalnych standardów w tym polskich norm KNR, australijskich AIQS lub innych regionalnych wymagań. Nasi kosztorysanci mają doświadczenie z projektami międzynarodowymi.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy potraficie obsłużyć duże, złożone projekty?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak, oczywiście. Pomyślnie zrealizowaliśmy przedmiary dla projektów od małych remontów do inwestycji o powierzchni 100 000+ m². Nasz system AI sprawdza się najlepiej przy dużych projektach, gdzie manualne przedmiary byłyby zbyt czasochłonne. Złożone projekty mogą wymagać 3-4 dni zamiast 2-3.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jaki poziom szczegółowości (LOD) jest potrzebny w modelu BIM?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Możemy pracować z LOD 300 i wyższym dla większości projektów. LOD 350-400 to poziom idealny dla szczegółowych przedmiarów branżowych. Jeśli model jest na poziomie LOD 200, nadal możemy wyodrębnić przydatne ilości, ale może być konieczne uzupełnienie rysunkami 2D dla dokładnych pomiarów.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy zapewniacie przedmiary dla konkretnych branż lub dyscyplin?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak! Możemy wyodrębnić ilości dla każdej branży budowlanej: konstrukcja (beton, stal, mur), architektura (wykończenia, drzwi, okna), instalacje (mechanika, elektryka, hydraulika, ochrona przeciwpożarowa), roboty ziemne i systemy specjalistyczne. Dostosowujemy format przedmiaru do waszych wymagań branżowych.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jak radzicie sobie z niespójnościami lub błędami w modelu?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Właśnie dlatego stosujemy potrójną walidację. Nasz Poziom 1 AI identyfikuje kolizje i duplikaty automatycznie. Przegląd ekspercki Poziomu 2 wychwytuje błędy modelu i weryfikuje z rysunkami 2D. Weryfikacja Poziomu 3 zapewnia logiczną spójność. Dokumentujemy wszystkie założenia i oznaczamy wszelkie obszary budzące wątpliwości do Państwa przeglądu.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jaka jest Państwa struktura cenowa?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. Każdy projekt wyceniamy indywidualnie. Skontaktuj się z nami ze szczegółami projektu, aby otrzymać dokładną wycenę w ciągu 24 godzin.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="gotowi-na-szybkie-dokładne-przedmiary" class="level2">
+<h2 class="anchored" data-anchor-id="gotowi-na-szybkie-dokładne-przedmiary">Gotowi na Szybkie, Dokładne Przedmiary?</h2>
+<div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
+<div style="max-width: 800px; margin: 0 auto;">
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;" class="anchored">
+Przestańcie Tracić Tygodnie na Manualne Pomiary
+</h2>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
+Dołączcie do ponad 2000 projektów, które wybrały szybkość i precyzję zamiast tradycyjnych metod.
+</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Bezpłatna próbka
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Prześlij model, otrzymaj bezpłatnie próbkę
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Zobacz nasze portfolio
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Przejrzyj ponad 2000 pomyślnie zmierzonych projektów
+</p>
+</div>
+<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;" class="anchored">
+Otrzymaj wycenę
+</h3>
+<p style="color: var(--bim-white); margin: 0;">
+Prześlij szczegóły projektu, otrzymaj wycenę w ciągu 2 godzin
+</p>
+</div>
+</div>
+<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<p><a href="../../pl/kontakt.html" class="cta-primary">Poproś o Bezpłatną Próbkę</a> <a href="../../pl/coming-soon.html" class="cta-secondary">Zobacz Portfolio</a> <a href="../../pl/kontakt.html" class="cta-secondary">Otrzymaj Wycenę</a></p>
+</div>
+<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja 99,5% Dokładności</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Potrójny System Walidacji</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja w 2-3 Dni</strong>
+</p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
+<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong>
+</p>
+</div>
+</div>
+</div>
+<section id="potrzebujecie-pomocy" class="level3" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
+<h3 class="anchored" data-anchor-id="potrzebujecie-pomocy">Potrzebujecie Pomocy?</h3>
+<p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Godziny Pracy:</strong> Poniedziałek-Piątek, 9:00-17:00 CET</p>
+</section>
+<p>:::</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 BIM Takeoff. All rights reserved.<br> Professional BIM 5D Cost Estimation Services</p>
+</div>   
+    <div class="nav-footer-center">
+<p><strong>Quick Links</strong><br> <a href="../../privacy-policy.html">Privacy Policy</a> | <a href="../../terms-of-service.html">Terms of Service</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><strong>Contact</strong><br> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+</div>
+  </div>
+</footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- LinkedIn Insight Tag (noscript) -->
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif">
+</noscript>
+<!-- End LinkedIn Insight Tag (noscript) -->
+
+<!-- Scroll Effects & Animations -->
+<script src="../../js/scroll-effects.js"></script>
+<!-- Polish Navbar Translation (activated only on /pl/ pages) -->
+<script src="../../js/polish-navbar.js"></script>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
