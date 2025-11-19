@@ -185,6 +185,12 @@
         './coming-soon.html': '/pl/coming-soon.html',
         '/coming-soon.html': '/pl/coming-soon.html',
         
+        // ROI CALCULATOR - Use absolute paths
+        'resources/roi-calculator.html': '/pl/zasoby/kalkulator-roi.html',
+        '../resources/roi-calculator.html': '/pl/zasoby/kalkulator-roi.html',
+        './resources/roi-calculator.html': '/pl/zasoby/kalkulator-roi.html',
+        '/resources/roi-calculator.html': '/pl/zasoby/kalkulator-roi.html',
+        
         // PUBLICATIONS - Use absolute paths
         'resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash variant
         '../resources/publications/': '/pl/zasoby/publikacje/',  // Trailing slash with ../

@@ -80,7 +80,7 @@ website:
       - text: "Resources"
         menu:
           - text: "ROI Calculator"
-            href: coming-soon.qmd
+            href: resources/roi-calculator.qmd
           - text: "Case Studies"
             href: coming-soon.qmd
           - text: "Publications"

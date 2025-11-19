@@ -1,0 +1,475 @@
+---
+title: "Kalkulator ROI BIM 5D | Oblicz Swoje Oszczędności"
+page-layout: full
+description: "Oblicz potencjalne oszczędności z wyceny BIM 5D. Zobacz ile czasu i pieniędzy może zaoszczędzić Twój projekt budowlany dzięki profesjonalnemu kosztorysowaniu."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Kalkulator ROI: Oblicz Swoje Oszczędności BIM 5D
+### Zobacz Swoje Potencjalne Oszczędności w 60 Sekund
+:::
+
+::: {.hero-subtitle}
+Większość projektów budowlanych oszczędza 30-50% na kosztach kosztorysowania przy jednoczesnej poprawie dokładności z ±15% do ±5%.  
+Darmowe, natychmiastowe obliczenie - bez rejestracji.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie wielu walut:</strong> PLN, GBP, EUR, USD, AUD</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Obliczenia specyficzne dla projektu</strong> dla wszystkich typów budynków</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zweryfikowane w branży</strong> na podstawie ponad 2000 zrealizowanych projektów</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Skontaktuj się z Nami](../../pl/kontakt.qmd){.cta-primary}
+[Zobacz Usługi](../../pl/uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
+### Wyzwanie
+
+Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do uniknięcia kosztach.
+
+### Nasze Rozwiązanie
+
+Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując zamówienia zmian, eliminując przeróbki i oszczędzając 30-50% na kosztach zakupów.
+:::
+
+::: {#calculator-container}
+
+::: {.calculator-layout style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 40px;"}
+
+<!-- LEWA KOLUMNA: Formularz Danych -->
+::: {.calculator-inputs style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);"}
+
+## Dane Twojego Projektu
+
+<form id="roi-form">
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+💱 Waluta
+</label>
+<select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
+<option value="PLN">🇵🇱 Polski Złoty (PLN)</option>
+<option value="GBP">🇬🇧 Funt Brytyjski (GBP)</option>
+<option value="EUR">🇪🇺 Euro (EUR)</option>
+<option value="USD">🇺🇸 Dolar Amerykański (USD)</option>
+<option value="AUD">🇦🇺 Dolar Australijski (AUD)</option>
+</select>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="project-type" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Typ Projektu
+</label>
+<select id="project-type" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
+<option value="residential">Mieszkaniowy (Budynki wielorodzinne)</option>
+<option value="commercial">Komercyjny (Biura, Handel)</option>
+<option value="industrial">Przemysłowy (Magazyny, Logistyka)</option>
+<option value="thermal">Termomodernizacja</option>
+<option value="infrastructure">Infrastruktura</option>
+<option value="mixed">Wielofunkcyjny</option>
+</select>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="project-value" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Wartość Projektu
+<span id="project-value-display" style="color: var(--bim-orange); float: right; font-weight: 700;">5,000,000</span>
+</label>
+<input type="range" id="project-value" min="500000" max="50000000" step="100000" value="5000000" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
+<div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
+<span>500K</span>
+<span>50M</span>
+</div>
+<input type="number" id="project-value-input" min="500000" max="50000000" step="100000" value="5000000" style="width: 100%; padding: 8px; border: 2px solid var(--bim-light-gray); border-radius: 4px; margin-top: 8px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label style="display: block; font-weight: 600; margin-bottom: 12px; color: var(--bim-charcoal);">
+Obecny Czas Kosztorysowania
+</label>
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="quick" style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Szybka wycena (1-2 tygodnie)</span>
+</label>
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="standard" checked style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Standardowy proces (4-6 tygodni)</span>
+</label>
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="detailed" style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Szczegółowe zamówienie (8-12 tygodni)</span>
+</label>
+</div>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Obecna Wariancja Kosztów
+<span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
+<i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="O ile zazwyczaj różnią się ostateczne koszty od wstępnych szacunków?"></i>
+</label>
+<input type="range" id="cost-variance" min="5" max="30" step="1" value="15" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
+<div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
+<span>±5% (Doskonałe)</span>
+<span>±30% (Słabe)</span>
+</div>
+</div>
+
+<button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
+Oblicz Moje Oszczędności
+</button>
+
+</form>
+
+:::
+
+<!-- PRAWA KOLUMNA: Panel Wyników -->
+::: {#results-panel style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); opacity: 0; transform: translateY(20px); transition: all 0.5s; pointer-events: none;"}
+
+## Twoje Potencjalne Oszczędności
+
+::: {#results-content}
+
+<div class="result-card" style="background: linear-gradient(135deg, #FFF8F0 0%, #FFE8CC 100%); padding: 24px; border-radius: 8px; border-left: 4px solid var(--bim-orange); margin-bottom: 20px;">
+<div style="font-size: 0.9rem; color: var(--bim-medium-gray); margin-bottom: 4px;">💰 Całkowite Oszczędności Kosztów</div>
+<div id="total-savings" style="font-size: 2.5rem; font-weight: 700; color: var(--bim-orange); line-height: 1;">0</div>
+</div>
+
+<div style="display: grid; gap: 16px; margin-bottom: 24px;">
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">⏱️</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Oszczędność Czasu</div>
+<div id="time-savings" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">0 dni</div>
+</div>
+</div>
+</div>
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">📊</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Poprawa Dokładności</div>
+<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15% → ±5%</div>
+</div>
+</div>
+</div>
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">🎯</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Zwrot z Inwestycji</div>
+<div id="roi-percentage" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">0%</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="breakdown-teaser" style="background: #F8F8F8; padding: 20px; border-radius: 6px; text-align: center; margin-bottom: 20px;">
+<p style="margin: 0 0 12px 0; color: var(--bim-medium-gray); font-size: 0.95rem;">Zobacz szczegółowe zestawienie zawierające:</p>
+<ul style="list-style: none; padding: 0; margin: 0 0 16px 0; color: var(--bim-charcoal);">
+<li>✓ Redukcja zamówień zmian</li>
+<li>✓ Unikanie przeróbek</li>
+<li>✓ Optymalizacja harmonogramu projektu</li>
+<li>✓ Wartość ograniczania ryzyka</li>
+</ul>
+<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
+Pobierz Pełny Raport ROI
+</button>
+</div>
+
+:::
+
+:::
+
+:::
+
+<!-- Wskaźniki Zaufania -->
+::: {.trust-section style="text-align: center; padding: 40px 0; border-top: 2px solid var(--bim-light-gray); margin-top: 40px;"}
+
+::: {style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;"}
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">2,000+</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Zrealizowanych Projektów</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">±5%</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Dokładność Kosztowa</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">3-10</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Dni Realizacji</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">750%</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Średni ROI</div>
+:::
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- Sekcja CTA -->
+```{=html}
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); margin-top: 60px;">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2.5rem;">Gotowy Zrealizować Te Oszczędności?</h2>
+    <p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
+      Skontaktuj się z nami już dziś, aby uzyskać bezpłatną konsultację i odkryj, jak kosztorysowanie BIM 5D 
+      może zmienić realizację Twojego projektu
+    </p>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="../../pl/kontakt.qmd" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Bezpłatna Konsultacja
+      </a>
+      <a href="tel:+48508209313" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Zadzwoń +48 508 209 313
+      </a>
+    </div>
+    
+    <!-- Informacje Kontaktowe -->
+    <div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left;">
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Telefon</div>
+          <a href="tel:+48508209313" style="color: #FFFFFF; text-decoration: none;">+48 508 209 313</a>
+        </div>
+        
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Email</div>
+          <a href="mailto:info@bimtakeoff.com" style="color: #FFFFFF; text-decoration: none;">info@bimtakeoff.com</a>
+        </div>
+        
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-globe"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Zasięg Globalny</div>
+          <div>🇬🇧 Wielka Brytania | 🇵🇱 Polska | 🇦🇺 Australia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+<!-- Modal Pozyskiwania Leadów -->
+::: {#lead-modal style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 10000; align-items: center; justify-content: center;"}
+
+::: {.modal-content style="background: white; padding: 40px; border-radius: 12px; max-width: 500px; width: 90%; margin: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); position: relative;"}
+
+<button id="close-modal" style="position: absolute; top: 16px; right: 16px; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--bim-medium-gray); line-height: 1;">&times;</button>
+
+<h2 style="margin-top: 0; color: var(--bim-charcoal);">Otrzymaj Kompletną Analizę ROI</h2>
+
+<p style="color: var(--bim-medium-gray); margin-bottom: 24px;">Otrzymaj szczegółowy raport PDF z rekomendacjami specyficznymi dla projektu oraz danymi referencyjnymi.</p>
+
+<form id="lead-form">
+
+<div class="form-group" style="margin-bottom: 16px;">
+<label style="display: block; font-weight: 600; margin-bottom: 6px; color: var(--bim-charcoal);">Imię i Nazwisko *</label>
+<input type="text" id="lead-name" required style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 16px;">
+<label style="display: block; font-weight: 600; margin-bottom: 6px; color: var(--bim-charcoal);">Firma</label>
+<input type="text" id="lead-company" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 16px;">
+<label style="display: block; font-weight: 600; margin-bottom: 6px; color: var(--bim-charcoal);">Email *</label>
+<input type="email" id="lead-email" required style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 16px;">
+<label style="display: block; font-weight: 600; margin-bottom: 6px; color: var(--bim-charcoal);">Telefon</label>
+<input type="tel" id="lead-phone" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 16px;">
+<label style="display: block; font-weight: 600; margin-bottom: 6px; color: var(--bim-charcoal);">Harmonogram Projektu</label>
+<select id="lead-timeline" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px;">
+<option value="">Wybierz harmonogram...</option>
+<option value="immediate">Natychmiastowy (0-3 miesiące)</option>
+<option value="short">Krótkoterminowy (3-6 miesięcy)</option>
+<option value="medium">Średnioterminowy (6-12 miesięcy)</option>
+<option value="long">Długoterminowy (12+ miesięcy)</option>
+<option value="research">Faza badawcza</option>
+</select>
+</div>
+
+<div class="form-group" style="margin-bottom: 20px;">
+<label style="display: flex; align-items: flex-start; cursor: pointer;">
+<input type="checkbox" id="privacy-consent" required style="margin-right: 8px; margin-top: 4px; width: 18px; height: 18px;">
+<span style="font-size: 0.9rem; color: var(--bim-medium-gray);">Zgadzam się z <a href="../../pl/polityka-prywatnosci.qmd" target="_blank" style="color: var(--bim-orange);">polityką prywatności</a> i wyrażam zgodę na kontakt w sprawie usług BIM Takeoff (zgodnie z RODO) *</span>
+</label>
+</div>
+
+<button type="submit" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-bottom: 12px;">
+Pobierz Raport
+</button>
+
+<button type="button" id="maybe-later" style="width: 100%; padding: 12px; background: transparent; color: var(--bim-medium-gray); border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; cursor: pointer; transition: all 0.3s;">
+Może Później
+</button>
+
+</form>
+
+:::
+
+:::
+
+<!-- Modal Podziękowania -->
+::: {#thankyou-modal style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 10000; align-items: center; justify-content: center;"}
+
+::: {.modal-content style="background: white; padding: 40px; border-radius: 12px; max-width: 500px; width: 90%; margin: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); text-align: center;"}
+
+<div style="font-size: 4rem; margin-bottom: 20px;">✅</div>
+
+<h2 style="color: var(--bim-charcoal); margin-bottom: 16px;">Dziękujemy!</h2>
+
+<p style="color: var(--bim-medium-gray); margin-bottom: 24px; font-size: 1.1rem;">Twój raport ROI został wysłany na Twój adres email. Sprawdź swoją skrzynkę w ciągu kilku minut.</p>
+
+<div style="background: var(--bim-light-gray); padding: 20px; border-radius: 6px; margin-bottom: 24px;">
+<p style="margin: 0 0 16px 0; font-weight: 600;">Gotowy, aby zacząć oszczędzać?</p>
+<a href="../../pl/kontakt.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: white; text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
+Umów Bezpłatną Konsultację
+</a>
+</div>
+
+<button id="close-thankyou" style="padding: 12px; background: transparent; color: var(--bim-medium-gray); border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; width: 100%;">
+Zamknij
+</button>
+
+:::
+
+:::
+
+<script src="../../js/roi-calculator.js"></script>
+
+<style>
+/* Responsywność Mobilna */
+@media (max-width: 768px) {
+  .calculator-layout {
+    grid-template-columns: 1fr !important;
+  }
+  
+  #results-panel {
+    margin-top: 24px;
+  }
+  
+  .trust-section > div {
+    gap: 24px !important;
+  }
+}
+
+/* Efekt hover dla przycisków radio */
+.radio-option:hover {
+  border-color: var(--bim-orange) !important;
+  background: #FFF8F0;
+}
+
+.radio-option input:checked {
+  accent-color: var(--bim-orange);
+}
+
+/* Efekty hover przycisków */
+#calculate-btn:hover {
+  background: var(--bim-orange-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+}
+
+#get-report-btn:hover {
+  background: var(--bim-orange-hover);
+  transform: translateY(-2px);
+}
+
+/* Stylizacja suwaka */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bim-orange);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bim-orange);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Animacje modali */
+#lead-modal[style*="display: flex"],
+#thankyou-modal[style*="display: flex"] {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+</style>
