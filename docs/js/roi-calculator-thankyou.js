@@ -15,9 +15,16 @@ let loadingState, successState, errorState, savingsSummary, manualDownloadBtn;
 let calculatorData = null;
 
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Initializing thank you page...');
+  console.log('🎉 Thank you page DOMContentLoaded fired');
+  console.log('📦 Checking jsPDF availability:', typeof window.jspdf, typeof window.jsPDF);
+  console.log('💾 LocalStorage data:', localStorage.getItem('bimtakeoff_calculator_data'));
+  
   initializeElements();
   loadCalculatorData();
+  
+  console.log('📊 Calculator data after loading:', calculatorData);
+  console.log('⏰ Setting timeout for PDF generation...');
+  
   setTimeout(() => attemptPDFGeneration(), 1500);
 });
 
@@ -57,8 +64,9 @@ function attemptPDFGeneration() {
     return;
   }
   
-  // Check if jsPDF is loaded - try both common ways it might be exposed
-  const jspdfAvailable = (typeof window.jspdf !== 'undefined') || (typeof window.jsPDF !== 'undefined');
+  // Check if jsPDF is loaded - check all possible locations
+  const jspdfAvailable = (typeof window.jspdf !== 'undefined' && typeof window.jspdf.jsPDF !== 'undefined') || 
+                          (typeof window.jsPDF !== 'undefined');
   
   if (!jspdfAvailable) {
     console.warn('⚠️ jsPDF library not loaded yet, retrying...');
@@ -78,12 +86,31 @@ function attemptPDFGeneration() {
 }
 
 function generatePDFReport() {
+  console.log('📝 generatePDFReport called');
+  console.log('📊 Calculator data exists:', !!calculatorData);
+  
   if (!calculatorData) {
+    console.error('❌ No calculator data available');
     alert('No calculator data available');
     return;
   }
   
-  const { jsPDF } = window.jspdf;
+  console.log('📦 Attempting to get jsPDF from window.jspdf');
+  console.log('🔍 window.jspdf =', window.jspdf);
+  console.log('🔍 window.jsPDF =', window.jsPDF);
+  
+  let jsPDF;
+  if (window.jspdf && window.jspdf.jsPDF) {
+    jsPDF = window.jspdf.jsPDF;
+    console.log('✅ Got jsPDF from window.jspdf.jsPDF');
+  } else if (window.jsPDF) {
+    jsPDF = window.jsPDF;
+    console.log('✅ Got jsPDF from window.jsPDF');
+  } else {
+    console.error('❌ jsPDF not found in window object');
+    alert('PDF library not loaded properly');
+    return;
+  }
   const doc = new jsPDF();
   
   const projectValue = calculatorData.project_value;
