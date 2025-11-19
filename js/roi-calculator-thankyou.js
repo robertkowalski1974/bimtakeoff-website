@@ -54,32 +54,32 @@ document.addEventListener('DOMContentLoaded', function() {
       const isPolish = window.location.pathname.includes('/pl/');
 
       savingsSummary.innerHTML = `
-        <h2 style="color: var(--bim-orange); font-size: 1.8rem; margin: 0 0 16px 0;">
+        <h2 style="color: #FF9900; font-size: 1.8rem; margin: 0 0 16px 0;">
           ${isPolish ? 'Twoje Oszczędności' : 'Your Savings'}
         </h2>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
           <div style="text-align: center;">
-            <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+            <p style="color: #6B7280; font-size: 0.9rem; margin: 0 0 8px 0;">
               ${isPolish ? 'Wartość Projektu' : 'Project Value'}
             </p>
-            <p style="color: var(--bim-charcoal); font-size: 1.5rem; font-weight: 700; margin: 0;">
+            <p style="color: #2C2C2C; font-size: 1.5rem; font-weight: 700; margin: 0;">
               ${Math.round(calculatorData.projectValue).toLocaleString(isPolish ? 'pl-PL' : 'en-US')} ${currency}
             </p>
           </div>
           <div style="text-align: center;">
-            <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+            <p style="color: #6B7280; font-size: 0.9rem; margin: 0 0 8px 0;">
               ${isPolish ? 'Oszczędności' : 'Savings'}
             </p>
-            <p style="color: var(--bim-green); font-size: 1.5rem; font-weight: 700; margin: 0;">
+            <p style="color: #10B981; font-size: 1.5rem; font-weight: 700; margin: 0;">
               ${Math.round(calculatorData.savings).toLocaleString(isPolish ? 'pl-PL' : 'en-US')} ${currency}
             </p>
           </div>
         </div>
-        <div style="text-align: center; background: var(--bim-light-gray); padding: 16px; border-radius: 8px;">
-          <p style="color: var(--bim-medium-gray); font-size: 0.9rem; margin: 0 0 8px 0;">
+        <div style="text-align: center; background: #F5F5F5; padding: 16px; border-radius: 8px;">
+          <p style="color: #6B7280; font-size: 0.9rem; margin: 0 0 8px 0;">
             ${isPolish ? 'Zwrot z Inwestycji' : 'Return on Investment'}
           </p>
-          <p style="color: var(--bim-orange); font-size: 2rem; font-weight: 700; margin: 0;">
+          <p style="color: #FF9900; font-size: 2rem; font-weight: 700; margin: 0;">
             ${Math.round(calculatorData.roi)}%
           </p>
         </div>
