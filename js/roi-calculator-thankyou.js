@@ -222,7 +222,7 @@ function generatePDFReport() {
     
     // ===== PAGE 2: EXECUTIVE SUMMARY =====
     doc.addPage();
-    generateExecutiveSummaryPL(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType });
+    generateExecutiveSummaryPL(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType });
     
     // ===== PAGE 3: DETAILED BREAKDOWN =====
     doc.addPage();
@@ -969,7 +969,7 @@ function generateCoverPagePL(doc, { orange, green, gray, darkGray, lightGray, pr
   doc.text('www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900', 105, 280, { align: 'center' });
 }
 
-function generateExecutiveSummaryPL(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType }) {
+function generateExecutiveSummaryPL(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType }) {
   // Page header
   doc.setFillColor(...orange);
   doc.rect(0, 0, 210, 20, 'F');
