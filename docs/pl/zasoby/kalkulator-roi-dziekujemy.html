@@ -332,260 +332,74 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 </header>
 <script src="../../js/jspdf.umd.min.js"></script>
-<div class="hero-section">
+<div class="hero-section" style="min-height: 60vh; display: flex; align-items: center; justify-content: center;">
 <div class="hero-video-bg">
 <p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
-<div class="hero-title" style="padding: 60px 20px; text-align: center;">
 <!-- Loading State -->
-<div id="loading-state" style="display: block;">
-<div style="font-size: 4rem; margin-bottom: 20px;">
-⏳
-</div>
-<h1 style="color: var(--bim-white); margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);">
+<div id="loading-state" style="text-align: center; display: block;">
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
 Generowanie Twojego Raportu ROI…
 </h1>
-<p style="color: var(--bim-white); font-size: 1.2rem; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);">
+<p style="color: white; font-size: 1.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
 Proszę czekać, przygotowujemy Twoją spersonalizowaną analizę
 </p>
+<div class="spinner" style="margin: 32px auto; width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.3); border-top-color: var(--bim-orange); border-radius: 50%; animation: spin 1s linear infinite;">
+</div>
 </div>
 <!-- Success State -->
-<div id="success-state" style="display: none;">
-<div style="font-size: 4rem; margin-bottom: 20px;">
-✅
-</div>
-<h1 style="color: var(--bim-white); margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);">
+<div id="success-state" style="text-align: center; display: none;">
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
 Dziękujemy!
 </h1>
-<p style="color: var(--bim-white); font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);">
-Twój raport ROI został pobrany i wysłany na Twój email
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+Twój raport ROI został pobrany
 </p>
-<div style="background: rgba(255, 255, 255, 0.95); padding: 32px; border-radius: 12px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);">
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-top: 0;">
+<div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+<div id="savings-summary" style="margin-bottom: 24px;">
+<!-- Will be populated by JavaScript -->
+</div>
+<div style="background: var(--bim-light-gray); padding: 24px; border-radius: 8px; margin-bottom: 24px;">
+<h3 class="anchored" style="color: var(--bim-charcoal); margin: 0 0 16px 0; font-size: 1.3rem;">
 Co Dalej?
 </h3>
-<ul style="text-align: left; color: var(--bim-charcoal); line-height: 1.8;">
+<ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0;">
 <li>
 Nasz zespół skontaktuje się z Tobą w ciągu 24 godzin
 </li>
 <li>
-Omówimy szczegóły Twojego projektu i potencjalne oszczędności
-</li>
-<li>
-Przygotujemy bezpłatną próbną wycenę dla Twojego projektu
-</li>
-<li>
-Otrzymasz dostęp do naszych ekskluzywnych zasobów dla polskiego rynku
+Umówimy bezpłatną konsultację dotyczącą Twojego projektu
 </li>
 </ul>
-<div style="margin-top: 32px; display: flex; flex-direction: column; gap: 16px;">
-<button id="manual-download-btn" style="padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: all 0.3s;">
-📄 Pobierz Raport PDF Ponownie
+</div>
+<button id="manual-download-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-bottom: 16px;">
+Pobierz PDF Ponownie
 </button>
-<p><a href="../../pl/kontakt.html" style="display: inline-block; padding: 16px; background: var(--bim-charcoal); color: white; text-decoration: none; border-radius: 8px; font-size: 1.1rem; font-weight: 700; text-align: center;"> 📅 Umów Bezpłatną Konsultację </a></p>
-<p><a href="../../pl/index.html" style="display: inline-block; padding: 12px; color: var(--bim-charcoal); text-decoration: none; border: 2px solid var(--bim-charcoal); border-radius: 8px; font-size: 1rem; font-weight: 600; text-align: center;"> ← Powrót do Strony Głównej </a></p>
+<p><a href="../../pl/kontakt.html" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;"> Umów Bezpłatną Konsultację </a></p>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-<!-- Benefits Reminder Section -->
-<div style="padding: 60px 0;">
-<h2 class="anchored" style="text-align: center; color: var(--bim-charcoal); margin-bottom: 48px; font-size: 2rem;">
-Dlaczego Warto Wybrać BIM Takeoff?
-</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; max-width: 1200px; margin: 0 auto;">
-<div class="benefit-card" style="background: white; padding: 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); text-align: center;">
-<div style="font-size: 3rem; margin-bottom: 16px;">
-🎯
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 12px;">
-Dokładność ±5%
-</h3>
-<p style="color: var(--bim-medium-gray); line-height: 1.6;">
-Znacznie lepsza niż tradycyjne ±15-20%, eliminując kosztowne niespodzianki podczas realizacji projektu.
+<!-- Error State -->
+<div id="error-state" style="text-align: center; display: none;">
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+Ups! Coś poszło nie tak
+</h1>
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+Nie mogliśmy automatycznie wygenerować Twojego raportu
 </p>
-</div>
-<div class="benefit-card" style="background: white; padding: 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); text-align: center;">
-<div style="font-size: 3rem; margin-bottom: 16px;">
-⚡
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 12px;">
-Realizacja w 3-10 Dni
-</h3>
-<p style="color: var(--bim-medium-gray); line-height: 1.6;">
-Szybkie dostarczenie wycen pozwala na terminowe składanie ofert i szybsze rozpoczęcie projektów.
+<div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+<p style="color: var(--bim-medium-gray); margin-bottom: 24px;">
+Nie martw się - otrzymaliśmy Twoje zapytanie i wkrótce się skontaktujemy.
 </p>
-</div>
-<div class="benefit-card" style="background: white; padding: 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); text-align: center;">
-<div style="font-size: 3rem; margin-bottom: 16px;">
-🌍
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 12px;">
-20 Lat Doświadczenia
-</h3>
-<p style="color: var(--bim-medium-gray); line-height: 1.6;">
-Międzynarodowa ekspertyza z UK, EU i Australii, dostosowana do polskiego rynku budowlanego.
-</p>
-</div>
-<div class="benefit-card" style="background: white; padding: 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); text-align: center;">
-<div style="font-size: 3rem; margin-bottom: 16px;">
-💼
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 12px;">
-Specjalizacja w BIM 5D
-</h3>
-<p style="color: var(--bim-medium-gray); line-height: 1.6;">
-Zaawansowana technologia BIM łącząca modele 3D z kosztami i harmonogramami dla optymalnych wyników.
-</p>
-</div>
-</div>
-</div>
-<!-- Case Study Teaser -->
-<div style="background: linear-gradient(135deg, #FFF8F0 0%, #FFE8CC 100%); padding: 48px 32px; border-radius: 12px; margin-top: 60px; text-align: center;">
-<h2 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 24px;">
-Przykładowe Oszczędności Naszych Klientów
-</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 900px; margin: 32px auto;">
-<div class="stat-item">
-<div style="font-size: 2.5rem; font-weight: 700; color: var(--bim-orange);">
-4.2 mln zł
-</div>
-<div style="color: var(--bim-medium-gray); margin-top: 8px;">
-Zaoszczędzone
-</div>
-<div style="color: var(--bim-charcoal); font-size: 0.9rem; margin-top: 4px;">
-Kompleks mieszkaniowy
-</div>
-</div>
-<div class="stat-item">
-<div style="font-size: 2.5rem; font-weight: 700; color: var(--bim-orange);">
-42 dni
-</div>
-<div style="color: var(--bim-medium-gray); margin-top: 8px;">
-Szybciej
-</div>
-<div style="color: var(--bim-charcoal); font-size: 0.9rem; margin-top: 4px;">
-Projekt komercyjny
-</div>
-</div>
-<div class="stat-item">
-<div style="font-size: 2.5rem; font-weight: 700; color: var(--bim-orange);">
-98%
-</div>
-<div style="color: var(--bim-medium-gray); margin-top: 8px;">
-Dokładność
-</div>
-<div style="color: var(--bim-charcoal); font-size: 0.9rem; margin-top: 4px;">
-Termomodernizacja
+<p><a href="../../pl/kontakt.html" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;"> Skontaktuj się z Nami Bezpośrednio </a></p>
 </div>
 </div>
 </div>
 </div>
-<!-- Resource Links -->
-<div style="margin-top: 60px; text-align: center;">
-<h2 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 32px;">
-Darmowe Zasoby dla Polskiego Rynku
-</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; max-width: 1000px; margin: 0 auto;">
-<a href="../../pl/zasoby/przewodnik-bim-2030.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;">
-<div style="font-size: 2rem; margin-bottom: 12px;">
-📘
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 8px;">
-Przewodnik BIM 2030
-</h3>
-<p style="color: var(--bim-medium-gray); font-size: 0.95rem;">
-Wszystko o nadchodzących wymaganiach BIM w Polsce
-</p>
-</a><p><a href="../../pl/zasoby/przewodnik-bim-2030.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;"></a></p>
-<a href="../../pl/kontakt.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;">
-<div style="font-size: 2rem; margin-bottom: 12px;">
-📋
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 8px;">
-Lista Kontrolna Przetargu
-</h3>
-<p style="color: var(--bim-medium-gray); font-size: 0.95rem;">
-37-punktowa lista dla spółdzielni mieszkaniowych
-</p>
-</a><p><a href="../../pl/kontakt.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;"></a></p>
-<a href="../../pl/zasoby/publikacje/index.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;">
-<div style="font-size: 2rem; margin-bottom: 12px;">
-📚
-</div>
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 8px;">
-Studia Przypadków
-</h3>
-<p style="color: var(--bim-medium-gray); font-size: 0.95rem;">
-Zobacz nasze zrealizowane projekty
-</p>
-</a><p><a href="../../pl/zasoby/publikacje/index.html" style="background: white; padding: 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s;"></a></p>
-</div>
-</div>
-</div>
-<p>:::</p>
-<!-- Contact CTA Section -->
-<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); margin-top: 60px;">
-<div class="container text-center" style="max-width: 800px; margin: 0 auto;">
-<h2 class="fw-bold mb-4 anchored" style="color: #FFFFFF; font-size: 2.5rem;">Masz Pytania? Jesteśmy Tu, Aby Pomóc</h2>
-<p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
-      Nasz zespół jest gotowy odpowiedzieć na wszystkie Twoje pytania dotyczące 
-      kosztorysowania BIM 5D i tego, jak możemy pomóc w Twoim projekcie
-    </p>
-<!-- Contact Methods -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 40px;">
-<div style="background: rgba(255, 255, 255, 0.05); padding: 24px; border-radius: 8px;">
-<div style="color: #FF9900; font-size: 2rem; margin-bottom: 12px;">
-<i class="bi bi-telephone-fill"></i>
-</div>
-<div style="color: #FFFFFF; font-weight: 600; margin-bottom: 8px;">Zadzwoń do Nas</div>
-<a href="tel:+48508209313" style="color: #FF9900; text-decoration: none; font-size: 1.1rem;">+48 508 209 313</a>
-</div>
-<div style="background: rgba(255, 255, 255, 0.05); padding: 24px; border-radius: 8px;">
-<div style="color: #FF9900; font-size: 2rem; margin-bottom: 12px;">
-<i class="bi bi-envelope-fill"></i>
-</div>
-<div style="color: #FFFFFF; font-weight: 600; margin-bottom: 8px;">Wyślij Email</div>
-<a href="mailto:info@bimtakeoff.com" style="color: #FF9900; text-decoration: none; font-size: 1.1rem;">info@bimtakeoff.com</a>
-</div>
-<div style="background: rgba(255, 255, 255, 0.05); padding: 24px; border-radius: 8px;">
-<div style="color: #FF9900; font-size: 2rem; margin-bottom: 12px;">
-<i class="bi bi-calendar-check-fill"></i>
-</div>
-<div style="color: #FFFFFF; font-weight: 600; margin-bottom: 8px;">Umów Spotkanie</div>
-<a href="../../pl/kontakt.html" style="color: #FF9900; text-decoration: none; font-size: 1.1rem;">Calendly</a>
-</div>
-</div>
-<div style="padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
-<p style="color: #E0E0E0; margin: 0;">
-<strong>Godziny pracy:</strong> Pon-Pt 9:00-18:00 (czas środkowoeuropejski)<br/>
-        Odpowiedzi email zazwyczaj w ciągu 2-4 godzin w dni robocze
-      </p>
-</div>
-</div>
-</section>
-<script src="../../js/roi-calculator-thankyou.js"></script>
 <style>
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.benefit-card,
-.stat-item,
-a[href*="zasoby"] {
-  animation: fadeIn 0.6s ease-out forwards;
-}
-
-.benefit-card:hover,
-a[href*="zasoby"]:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 #manual-download-btn:hover {
@@ -593,27 +407,8 @@ a[href*="zasoby"]:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
 }
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .hero-title {
-    padding: 40px 20px !important;
-  }
-  
-  h1 {
-    font-size: 1.8rem !important;
-  }
-  
-  h2 {
-    font-size: 1.5rem !important;
-  }
-  
-  .benefit-card,
-  .stat-item {
-    padding: 24px !important;
-  }
-}
 </style>
+<script src="../../js/roi-calculator-thankyou.js"></script>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
