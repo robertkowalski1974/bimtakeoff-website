@@ -7,7 +7,8 @@ format:
     css: ../resources/roi-report-print.css
     include-in-header:
       text: |
-        <script src="../js/roi-report-generator.js"></script>
+        <link rel="stylesheet" href="../resources/roi-report-print.css">
+        <script defer src="../js/roi-report-generator.js"></script>
     toc: false
 ---
 
@@ -31,7 +32,3 @@ format:
   </button>
   <button id="back-btn" class="btn-secondary">Wróć do Kalkulatora</button>
 </div>
-
-<script>
-// Skrypt zostanie załadowany po stronie
-</script>
