@@ -534,17 +534,43 @@ function handleLeadSubmission(e) {
     company: leadData.company
   };
 
-  localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
-  console.log('💾 Saved calculator data to localStorage:', calculatorData);
+  try {
+    localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
+    console.log('💾 Saved calculator data to localStorage:', calculatorData);
+
+    // Verify it was saved
+    const verification = localStorage.getItem('bimtakeoff_calculator_data');
+    if (!verification) {
+      throw new Error('Failed to save to localStorage');
+    }
+    console.log('✅ Verified localStorage save');
+  } catch (storageError) {
+    console.error('❌ localStorage error:', storageError);
+    alert('Unable to save calculator data. Please check your browser settings and try again.');
+    return;
+  }
 
   // Redirect to thank you page instead of showing modal
   // Detect if we're on Polish or English version
-  const isPolish = window.location.pathname.includes('/pl/');
-  const thankYouUrl = isPolish
-    ? '../pl/zasoby/kalkulator-roi-dziekujemy.html'
-    : './roi-calculator-thank-you.html';
+  const currentPath = window.location.pathname;
+  console.log('📍 Current path:', currentPath);
+
+  const isPolish = currentPath.includes('/pl/');
+  console.log('🌍 Language detected:', isPolish ? 'Polish' : 'English');
+
+  // Build the correct URL (same directory, different filename)
+  let thankYouUrl;
+  if (isPolish) {
+    // We're on /pl/zasoby/kalkulator-roi.html
+    thankYouUrl = 'kalkulator-roi-dziekujemy.html';
+  } else {
+    // We're on /resources/roi-calculator.html
+    thankYouUrl = 'roi-calculator-thank-you.html';
+  }
 
   console.log('🚀 Redirecting to:', thankYouUrl);
+
+  // Use relative URL (same directory)
   window.location.href = thankYouUrl;
 }
 
