@@ -233,11 +233,15 @@ function attachEventListeners() {
       localStorage.removeItem('bimtakeoff_calculator_data');
       console.log('🧹 Cleared old calculator data from localStorage');
 
+      // Debug calculation results
+      console.log('🔍 calculatedResults object:', calculatedResults);
+      console.log('🔍 totalSavings value:', calculatedResults.totalSavings, 'type:', typeof calculatedResults.totalSavings);
+
       // Save calculator data in NEW format (camelCase)
       const calculatorData = {
         projectValue: calculatedResults.inputs.projectValue,
-        savings: Math.round(calculatedResults.totalSavings),
-        roi: Math.round(calculatedResults.roi),
+        savings: Math.round(calculatedResults.totalSavings || 0),
+        roi: Math.round(calculatedResults.roi || 0),
         currency: currentCurrency,
         project_type: calculatedResults.inputs.projectType,
         timeline: calculatedResults.inputs.timeline,
@@ -245,6 +249,9 @@ function attachEventListeners() {
         breakdown: calculatedResults.breakdown,
         timestamp: new Date().toISOString()
       };
+
+      console.log('🔍 Prepared calculatorData:', calculatorData);
+      console.log('🔍 savings field:', calculatorData.savings, 'isNaN:', isNaN(calculatorData.savings));
 
       try {
         localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
