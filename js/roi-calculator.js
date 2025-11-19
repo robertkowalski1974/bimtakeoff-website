@@ -769,10 +769,11 @@ function prefillPipedriveForm() {
     lead_source: 'ROI Calculator',
     timestamp: new Date().toISOString()
   };
-  
-  // Store in localStorage for potential webhook/API use
-  localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(formData));
-  
+
+  // NOTE: DO NOT save to localStorage here - we save on form submission with correct format
+  // The handleLeadSubmission function saves with projectValue/savings/roi format
+  // localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(formData));
+
   // Store in session for this page
   window.pipedriveCalculatorData = formData;
   
