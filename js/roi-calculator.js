@@ -488,7 +488,7 @@ function animateValue(element, start, end, duration, formatter) {
 // ============================================================================
 function handleLeadSubmission(e) {
   e.preventDefault();
-  
+
   // Get form data
   const leadData = {
     name: document.getElementById('lead-name')?.value || '',
@@ -502,10 +502,10 @@ function handleLeadSubmission(e) {
     pageUrl: window.location.href,
     userAgent: navigator.userAgent
   };
-  
+
   // Log to console (in production, send to backend/CRM)
   console.log('Lead captured:', leadData);
-  
+
   // Track conversion
   if (typeof dataLayer !== 'undefined') {
     dataLayer.push({
@@ -516,18 +516,36 @@ function handleLeadSubmission(e) {
       'currency': currentCurrency
     });
   }
-  
-  // Show thank you modal
-  leadModal.style.display = 'none';
-  thankyouModal.style.display = 'flex';
-  
-  // Generate and download PDF (placeholder)
-  setTimeout(() => {
-    generatePDFReport(leadData);
-  }, 1000);
-  
-  // Reset form
-  leadForm.reset();
+
+  // Save calculator data to localStorage for thank you page
+  const calculatorData = {
+    projectValue: calculatedResults.inputs.projectValue,
+    savings: Math.round(calculatedResults.totalSavings),
+    roi: Math.round(calculatedResults.roi),
+    currency: currentCurrency,
+    project_type: calculatedResults.inputs.projectType,
+    timeline: calculatedResults.inputs.timeline,
+    variance: calculatedResults.inputs.variance,
+    breakdown: calculatedResults.breakdown,
+    timestamp: new Date().toISOString(),
+    // Add contact info for potential use
+    name: leadData.name,
+    email: leadData.email,
+    company: leadData.company
+  };
+
+  localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
+  console.log('💾 Saved calculator data to localStorage:', calculatorData);
+
+  // Redirect to thank you page instead of showing modal
+  // Detect if we're on Polish or English version
+  const isPolish = window.location.pathname.includes('/pl/');
+  const thankYouUrl = isPolish
+    ? '../pl/zasoby/kalkulator-roi-dziekujemy.html'
+    : './roi-calculator-thank-you.html';
+
+  console.log('🚀 Redirecting to:', thankYouUrl);
+  window.location.href = thankYouUrl;
 }
 
 // ============================================================================
