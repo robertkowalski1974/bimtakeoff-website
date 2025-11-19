@@ -1,0 +1,37 @@
+---
+title: "Raport Analizy ROI"
+subtitle: "Profesjonalna Wycena Kosztorysowa"
+format:
+  html:
+    theme: none
+    css: ../resources/roi-report-print.css
+    include-in-header:
+      text: |
+        <script src="../js/roi-report-generator.js"></script>
+    toc: false
+---
+
+<div id="report-container">
+  <div class="loading-state">
+    <p>Ładowanie raportu...</p>
+  </div>
+  
+  <div id="report-content" style="display: none;">
+    <!-- Raport zostanie wygenerowany przez JavaScript -->
+  </div>
+</div>
+
+<div class="print-controls no-print">
+  <button id="download-pdf-btn" class="btn-primary">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+      <path d="M10 12l-5-5h3V3h4v4h3l-5 5z"/>
+      <path d="M17 14v3H3v-3H1v5h18v-5h-2z"/>
+    </svg>
+    Pobierz jako PDF
+  </button>
+  <button id="back-btn" class="btn-secondary">Wróć do Kalkulatora</button>
+</div>
+
+<script>
+// Skrypt zostanie załadowany po stronie
+</script>
