@@ -1,7 +1,7 @@
 ---
 title: "Thank You - Your ROI Report is Ready"
 page-layout: full
-description: "Your personalized BIM 5D ROI report is being generated"
+description: "Your personalized BIM 5D ROI report is ready to view"
 ---
 
 ::: {.hero-section style="min-height: 60vh; display: flex; align-items: center; justify-content: center;"}
@@ -15,36 +15,49 @@ description: "Your personalized BIM 5D ROI report is being generated"
 
 <!-- Loading State -->
 ::: {#loading-state style="text-align: center; display: block;"}
-<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Generating Your ROI Report...</h1>
-<p style="color: white; font-size: 1.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Please wait while we prepare your personalized analysis</p>
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Preparing Your ROI Report...</h1>
+<p style="color: white; font-size: 1.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Please wait while we generate your personalized analysis</p>
 <div class="spinner" style="margin: 32px auto; width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.3); border-top-color: var(--bim-orange); border-radius: 50%; animation: spin 1s linear infinite;"></div>
 :::
 
 <!-- Success State -->
 ::: {#success-state style="text-align: center; display: none;"}
 <h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Thank You!</h1>
-<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Your ROI report has been downloaded</p>
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Your personalized ROI report is ready</p>
 
-<div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+<div style="background: white; border-radius: 12px; padding: 40px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
 
-<div id="savings-summary" style="margin-bottom: 24px;">
+<div id="savings-summary" style="margin-bottom: 32px;">
 <!-- Will be populated by JavaScript -->
 </div>
 
+<a href="roi-report.html" id="view-report-btn" style="display: block; width: 100%; padding: 20px; background: var(--bim-orange); color: white; border: none; border-radius: 8px; font-size: 18px; font-weight: 700; text-decoration: none; cursor: pointer; transition: all 0.3s; margin-bottom: 16px; text-align: center; box-shadow: 0 4px 12px rgba(255, 153, 0, 0.2);">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 8px;">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+    <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
+  </svg>
+  View Your Report
+</a>
+
 <div style="background: var(--bim-light-gray); padding: 24px; border-radius: 8px; margin-bottom: 24px;">
-<h3 style="color: var(--bim-charcoal); margin: 0 0 16px 0; font-size: 1.3rem;">What Happens Next?</h3>
-<ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0;">
-<li>Our team will follow up within 24 hours</li>
-<li>We'll schedule a free consultation to discuss your project</li>
-</ul>
+  <h3 style="color: var(--bim-charcoal); margin: 0 0 12px 0; font-size: 1.1rem;">📄 Your report includes:</h3>
+  <ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0; font-size: 15px;">
+    <li>Detailed cost breakdown and savings analysis</li>
+    <li>5-page professional report you can download as PDF</li>
+    <li>Implementation timeline and next steps</li>
+  </ul>
 </div>
 
-<button id="manual-download-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-bottom: 16px;">
-Download PDF Again
-</button>
+<div style="background: #FEF3C7; padding: 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid var(--bim-orange);">
+  <h3 style="color: var(--bim-charcoal); margin: 0 0 12px 0; font-size: 1.1rem;">What Happens Next?</h3>
+  <ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0; font-size: 15px;">
+    <li>Our team will follow up within 24 hours</li>
+    <li>We'll schedule a free consultation to discuss your project</li>
+  </ul>
+</div>
 
-<a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-Book Free Consultation
+<a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 8px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
+  Book Free Consultation
 </a>
 
 </div>
@@ -53,14 +66,18 @@ Book Free Consultation
 <!-- Error State -->
 ::: {#error-state style="text-align: center; display: none;"}
 <h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Oops! Something Went Wrong</h1>
-<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">We couldn't generate your report automatically</p>
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">We couldn't load your calculator data</p>
 
 <div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
-<p style="color: var(--bim-medium-gray); margin-bottom: 24px;">Don't worry - we've received your enquiry and contact you shortly.</p>
+  <p style="color: var(--bim-medium-gray); margin-bottom: 24px;">Please complete the ROI calculator first to generate your report.</p>
 
-<a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-Contact Us Directly
-</a>
+  <a href="roi-calculator.html" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center; margin-bottom: 16px;">
+    Go to ROI Calculator
+  </a>
+
+  <a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
+    Contact Us Directly
+  </a>
 </div>
 :::
 
@@ -73,33 +90,70 @@ Contact Us Directly
   100% { transform: rotate(360deg); }
 }
 
-#manual-download-btn:hover {
+#view-report-btn:hover {
   background: var(--bim-orange-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 153, 0, 0.4);
 }
 </style>
 
-<!-- Load jsPDF from local file first (more reliable than CDN) -->
-<script src="../js/jspdf.umd.min.js"></script>
 <script>
-// Verify jsPDF loaded correctly
-console.log('🔍 jsPDF loading check:', {
-  'window.jspdf': typeof window.jspdf,
-  'window.jsPDF': typeof window.jsPDF,
-  'jspdf.jsPDF': typeof (window.jspdf && window.jspdf.jsPDF)
-});
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('🎉 Thank you page loaded');
 
-// Fallback to CDN only if local file fails
-if (typeof window.jspdf === 'undefined' && typeof window.jsPDF === 'undefined') {
-  console.warn('⚠️ Local jsPDF failed, trying CDN fallback...');
-  var script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js';
-  script.onload = function() { console.log('✅ CDN jsPDF loaded'); };
-  script.onerror = function() { console.error('❌ CDN jsPDF failed to load'); };
-  document.head.appendChild(script);
-} else {
-  console.log('✅ jsPDF loaded successfully from local file');
-}
+  const loadingState = document.getElementById('loading-state');
+  const successState = document.getElementById('success-state');
+  const errorState = document.getElementById('error-state');
+  const savingsSummary = document.getElementById('savings-summary');
+
+  // Load calculator data
+  function loadCalculatorData() {
+    try {
+      const stored = localStorage.getItem('bimtakeoff_calculator_data');
+      if (!stored) return null;
+      return JSON.parse(stored);
+    } catch (e) {
+      console.error('Error loading data:', e);
+      return null;
+    }
+  }
+
+  const calculatorData = loadCalculatorData();
+
+  if (calculatorData && calculatorData.projectValue) {
+    const currency = calculatorData.currency || 'PLN';
+    const locale = 'en-US';
+
+    // Populate savings summary
+    if (savingsSummary) {
+      savingsSummary.innerHTML = `
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px;">
+          <div style="text-align: center; padding: 16px; background: #F8F9FA; border-radius: 8px;">
+            <p style="color: #6B7280; font-size: 0.85rem; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Project Value</p>
+            <p style="color: #2C2C2C; font-size: 1.4rem; font-weight: 700; margin: 0;">${Math.round(calculatorData.projectValue).toLocaleString(locale)} ${currency}</p>
+          </div>
+          <div style="text-align: center; padding: 16px; background: #DCFCE7; border-radius: 8px;">
+            <p style="color: #6B7280; font-size: 0.85rem; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Savings</p>
+            <p style="color: #10B981; font-size: 1.4rem; font-weight: 700; margin: 0;">${Math.round(calculatorData.savings).toLocaleString(locale)} ${currency}</p>
+          </div>
+          <div style="text-align: center; padding: 16px; background: #FEF3C7; border-radius: 8px;">
+            <p style="color: #6B7280; font-size: 0.85rem; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">ROI</p>
+            <p style="color: #FF9900; font-size: 1.4rem; font-weight: 700; margin: 0;">${Math.round(calculatorData.roi)}%</p>
+          </div>
+        </div>
+      `;
+    }
+
+    // Show success state
+    if (loadingState) loadingState.style.display = 'none';
+    if (successState) successState.style.display = 'block';
+    if (errorState) errorState.style.display = 'none';
+
+  } else {
+    // Show error state
+    if (loadingState) loadingState.style.display = 'none';
+    if (successState) successState.style.display = 'none';
+    if (errorState) errorState.style.display = 'block';
+  }
+});
 </script>
-<script src="../js/roi-calculator-thankyou.js"></script>
