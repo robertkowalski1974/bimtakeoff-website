@@ -5,7 +5,7 @@ description: "Twój spersonalizowany raport ROI BIM 5D jest generowany"
 lang: pl
 ---
 
-<script src="../../js/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 ::: {.hero-section style="min-height: 60vh; display: flex; align-items: center; justify-content: center;"}
 <div class="hero-video-bg">
