@@ -221,14 +221,53 @@ function attachEventListeners() {
   const getReportBtn = document.getElementById('get-report-btn');
   if (getReportBtn) {
     getReportBtn.addEventListener('click', function() {
-      // ✅ FIXED: Do NOT generate PDF here - only show modal
-      // PDF will be generated AFTER Pipedrive form is submitted
-      
+      // SAVE calculator data to localStorage BEFORE showing Pipedrive form
+      // Pipedrive redirects to thank-you page after submission, so data must be saved now
+
+      if (!calculatedResults) {
+        console.error('Cannot save: No calculation results');
+        return;
+      }
+
+      // Clear any old data first
+      localStorage.removeItem('bimtakeoff_calculator_data');
+      console.log('🧹 Cleared old calculator data from localStorage');
+
+      // Save calculator data in NEW format (camelCase)
+      const calculatorData = {
+        projectValue: calculatedResults.inputs.projectValue,
+        savings: Math.round(calculatedResults.totalSavings),
+        roi: Math.round(calculatedResults.roi),
+        currency: currentCurrency,
+        project_type: calculatedResults.inputs.projectType,
+        timeline: calculatedResults.inputs.timeline,
+        variance: calculatedResults.inputs.variance,
+        breakdown: calculatedResults.breakdown,
+        timestamp: new Date().toISOString()
+      };
+
+      try {
+        localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
+        console.log('💾 Saved calculator data to localStorage (before Pipedrive form):', calculatorData);
+
+        // Verify it was saved
+        const verification = localStorage.getItem('bimtakeoff_calculator_data');
+        if (!verification) {
+          throw new Error('Failed to save to localStorage');
+        }
+        console.log('✅ Verified localStorage save - data ready for thank-you page redirect');
+      } catch (storageError) {
+        console.error('❌ localStorage error:', storageError);
+        alert('Unable to save calculator data. Please check your browser settings and try again.');
+        return;
+      }
+
+      // Now show the Pipedrive form modal
       leadModal.style.display = 'flex';
-      
+
       // Pre-fill Pipedrive form with calculator data
       prefillPipedriveForm();
-      
+
       // Track modal open
       if (typeof dataLayer !== 'undefined') {
         dataLayer.push({
