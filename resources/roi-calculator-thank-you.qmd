@@ -1,0 +1,89 @@
+---
+title: "Thank You - Your ROI Report is Ready"
+page-layout: full
+description: "Your personalized BIM 5D ROI report is being generated"
+---
+
+<script src="../js/jspdf.umd.min.js"></script>
+
+::: {.hero-section style="min-height: 60vh; display: flex; align-items: center; justify-content: center;"}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+
+<!-- Loading State -->
+::: {#loading-state style="text-align: center; display: block;"}
+<div style="font-size: 4rem; margin-bottom: 24px;">?</div>
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Generating Your ROI Report...</h1>
+<p style="color: white; font-size: 1.2rem; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Please wait while we prepare your personalized analysis</p>
+<div class="spinner" style="margin: 32px auto; width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.3); border-top-color: var(--bim-orange); border-radius: 50%; animation: spin 1s linear infinite;"></div>
+:::
+
+<!-- Success State -->
+::: {#success-state style="text-align: center; display: none;"}
+<div style="font-size: 4rem; margin-bottom: 24px;">?</div>
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Thank You!</h1>
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Your ROI report has been downloaded and sent to your email</p>
+
+<div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+
+<div id="savings-summary" style="margin-bottom: 24px;">
+<!-- Will be populated by JavaScript -->
+</div>
+
+<div style="background: var(--bim-light-gray); padding: 24px; border-radius: 8px; margin-bottom: 24px;">
+<h3 style="color: var(--bim-charcoal); margin: 0 0 16px 0; font-size: 1.3rem;">What Happens Next?</h3>
+<ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0;">
+<li>Check your inbox - we've sent you the detailed report</li>
+<li>Our team will follow up within 24 hours</li>
+<li>We'll schedule a free consultation to discuss your project</li>
+</ul>
+</div>
+
+<button id="manual-download-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-bottom: 16px;">
+? Download PDF Again
+</button>
+
+<a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
+Book Free Consultation
+</a>
+
+</div>
+:::
+
+<!-- Error State -->
+::: {#error-state style="text-align: center; display: none;"}
+<div style="font-size: 4rem; margin-bottom: 24px;">??</div>
+<h1 style="color: white; font-size: 2.5rem; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">Oops! Something Went Wrong</h1>
+<p style="color: white; font-size: 1.2rem; margin-bottom: 32px; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">We couldn't generate your report automatically</p>
+
+<div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+<p style="color: var(--bim-medium-gray); margin-bottom: 24px;">Don't worry - we've received your enquiry and will email your report within 5 minutes.</p>
+
+<a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
+Contact Us Directly
+</a>
+</div>
+:::
+
+:::
+:::
+
+<style>
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#manual-download-btn:hover {
+  background: var(--bim-orange-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+}
+</style>
+
+<script src="../js/roi-calculator-thankyou.js"></script>

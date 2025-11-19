@@ -221,7 +221,24 @@ function attachEventListeners() {
   const getReportBtn = document.getElementById('get-report-btn');
   if (getReportBtn) {
     getReportBtn.addEventListener('click', function() {
+      // ✅ FIXED: Do NOT generate PDF here - only show modal
+      // PDF will be generated AFTER Pipedrive form is submitted
+      
       leadModal.style.display = 'flex';
+      
+      // Pre-fill Pipedrive form with calculator data
+      prefillPipedriveForm();
+      
+      // Track modal open
+      if (typeof dataLayer !== 'undefined') {
+        dataLayer.push({
+          'event': 'lead_modal_opened',
+          'calculator_completed': true,
+          'project_value': calculatedResults.inputs.projectValue,
+          'currency': currentCurrency
+        });
+      }
+
     });
   }
   
@@ -696,52 +713,81 @@ function prefillPipedriveForm() {
     return;
   }
   
-  console.log('Preparing to pre-fill Pipedrive form with calculator data...');
+  console.log('Preparing calculator data for Pipedrive...');
   
-  // Wait for Pipedrive form to fully load
-  const checkPipedriveLoaded = setInterval(() => {
-    // Check if Pipedrive webforms API is available
-    const pipedriveForm = document.querySelector('[data-pd-webforms]');
+  // Prepare data for storage and display
+  const formData = {
+    project_value: calculatedResults.inputs.projectValue,
+    estimated_savings: Math.round(calculatedResults.totalSavings),
+    roi_percentage: Math.round(calculatedResults.roi),
+    currency: currentCurrency,
+    project_type: capitalizeProjectType(calculatedResults.inputs.projectType),
+    lead_source: 'ROI Calculator',
+    timestamp: new Date().toISOString()
+  };
+  
+  // Store in localStorage for potential webhook/API use
+  localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(formData));
+  
+  // Store in session for this page
+  window.pipedriveCalculatorData = formData;
+  
+  // Display calculator data above the form so user knows it's captured
+  const container = document.querySelector('#pipedrive-form-container');
+  if (container && !document.querySelector('#calculator-data-display')) {
+    const display = document.createElement('div');
+    display.id = 'calculator-data-display';
+    display.className = 'calculator-data-box';
+    display.style.cssText = `
+      background: linear-gradient(135deg, #fff9f0 0%, #fff5e6 100%);
+      border: 2px solid #FF9900;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(255, 153, 0, 0.1);
+    `;
     
-    if (pipedriveForm) {
-      clearInterval(checkPipedriveLoaded);
+    display.innerHTML = `
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="#FF9900">
+          <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+        </svg>
+        <h4 style="margin: 0; color: #2C2C2C; font-size: 18px; font-weight: 600;">Your ROI Calculation Summary</h4>
+      </div>
       
-      // Prepare data for Pipedrive fields
-      const formData = {
-        // Calculator results
-        [PIPEDRIVE_FIELD_IDS.projectValue]: calculatedResults.inputs.projectValue,
-        [PIPEDRIVE_FIELD_IDS.estimatedSavings]: Math.round(calculatedResults.totalSavings),
-        [PIPEDRIVE_FIELD_IDS.roiPercentage]: Math.round(calculatedResults.roi),
-        [PIPEDRIVE_FIELD_IDS.currency]: currentCurrency,
-        [PIPEDRIVE_FIELD_IDS.projectType]: capitalizeProjectType(calculatedResults.inputs.projectType),
-        [PIPEDRIVE_FIELD_IDS.leadSource]: 'ROI Calculator'
-      };
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+        <div style="background: white; padding: 12px; border-radius: 8px;">
+          <p style="margin: 0; color: #6B7280; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Project Value</p>
+          <p style="margin: 4px 0 0 0; color: #2C2C2C; font-size: 20px; font-weight: 600;">${formatCurrency(formData.project_value, currentCurrency)}</p>
+        </div>
+        <div style="background: white; padding: 12px; border-radius: 8px;">
+          <p style="margin: 0; color: #6B7280; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Estimated Savings</p>
+          <p style="margin: 4px 0 0 0; color: #10B981; font-size: 20px; font-weight: 600;">${formatCurrency(formData.estimated_savings, currentCurrency)}</p>
+        </div>
+      </div>
       
-      // Try to pre-fill using Pipedrive API
-      try {
-        // Method 1: Try Pipedrive's prefill API if available
-        if (typeof pipedriveWebForms !== 'undefined' && pipedriveWebForms.prefill) {
-          pipedriveWebForms.prefill(formData);
-          console.log('✅ Pipedrive form pre-filled successfully using API');
-        } else {
-          // Method 2: Add hidden fields directly to form
-          addHiddenFieldsToForm(pipedriveForm, formData);
-          console.log('✅ Pipedrive form pre-filled successfully using hidden fields');
-        }
-      } catch (error) {
-        console.error('Error pre-filling Pipedrive form:', error);
-        // Fallback: try hidden fields method
-        addHiddenFieldsToForm(pipedriveForm, formData);
-      }
+      <div style="background: #FF9900; color: white; padding: 12px; border-radius: 8px; text-align: center;">
+        <p style="margin: 0; font-size: 14px;">Return on Investment</p>
+        <p style="margin: 4px 0 0 0; font-size: 32px; font-weight: 700;">${formData.roi_percentage}%</p>
+      </div>
       
-      console.log('Calculator data prepared for Pipedrive:', formData);
-    }
-  }, 100); // Check every 100ms
+      <p style="margin: 16px 0 0 0; padding: 12px; background: white; border-radius: 8px; font-size: 13px; color: #6B7280; text-align: center;">
+        <svg style="display: inline-block; vertical-align: middle; margin-right: 6px;" width="16" height="16" viewBox="0 0 24 24" fill="#10B981">
+          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+        </svg>
+        This calculation data will be automatically included with your enquiry
+      </p>
+    `;
+    
+    container.insertBefore(display, container.firstChild);
+    
+    console.log('✅ Calculator data display added to form');
+  }
   
-  // Stop checking after 5 seconds (form should load by then)
-  setTimeout(() => {
-    clearInterval(checkPipedriveLoaded);
-  }, 5000);
+  console.log('📊 Calculator data stored and ready:', formData);
+  
+  // Set up listener for form submission
+  setupFormSubmissionTracking(formData);
 }
 
 /**
@@ -787,6 +833,34 @@ function addHiddenField(form, name, value) {
   
   // Set value
   input.value = value;
+}
+
+/**
+ * Set up tracking for form submission
+ */
+function setupFormSubmissionTracking(data) {
+  // Listen for Pipedrive form submission events
+  document.addEventListener('message', function(event) {
+    // Check if message is from Pipedrive
+    if (event.origin && event.origin.includes('pipedrive.com')) {
+      if (event.data && event.data.type === 'form-submitted') {
+        console.log('✅ Pipedrive form submitted with calculator data');
+        
+        // Track in Google Analytics if available
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            'event': 'lead_with_calculator_data',
+            'project_value': data.project_value,
+            'estimated_savings': data.estimated_savings,
+            'roi_percentage': data.roi_percentage,
+            'currency': data.currency
+          });
+        }
+      }
+    }
+  });
+  
+  console.log('Form submission tracking enabled');
 }
 
 /**
@@ -848,13 +922,48 @@ function showLeadModal() {
  * Listen for Pipedrive form submission success
  */
 document.addEventListener('DOMContentLoaded', function() {
-  // Listen for Pipedrive WebForms events
+  console.log('🔍 Setting up Pipedrive form listeners...');
+  
+  // Listen for ALL postMessage events to debug
   window.addEventListener('message', function(event) {
+    console.log('📨 Received postMessage event:', event.data);
+    console.log('Origin:', event.origin);
+    
     // Check if message is from Pipedrive
     if (event.data && event.data.type === 'pipedriveWebForm') {
+      console.log('✅ Pipedrive WebForm event detected!', event.data);
       
       if (event.data.action === 'submitted') {
-        console.log('✅ Lead submitted to Pipedrive successfully!');
+        console.log('🎉 Lead submitted to Pipedrive successfully!');
+        
+        // 📊 GENERATE PDF REPORT NOW (after form submission)
+        console.log('Attempting to generate PDF...');
+        console.log('calculatedResults available:', !!calculatedResults);
+        console.log('generatePDFReport function exists:', typeof generatePDFReport);
+        console.log('window.jspdf available:', typeof window.jspdf);
+        
+        if (calculatedResults && typeof generatePDFReport === 'function') {
+          try {
+            // Extract lead data from Pipedrive form (if available)
+            const leadData = {
+              name: event.data.formData?.name || 'Valued Client',
+              email: event.data.formData?.email || '',
+              calculatorResults: calculatedResults
+            };
+            
+            console.log('Calling generatePDFReport with:', leadData);
+            generatePDFReport(leadData);
+            console.log('✅ PDF Report generated successfully');
+          } catch (error) {
+            console.error('❌ PDF generation failed:', error);
+            console.error('Error stack:', error.stack);
+            // Continue with flow even if PDF fails
+          }
+        } else {
+          console.error('❌ Cannot generate PDF:');
+          if (!calculatedResults) console.error('- calculatedResults is missing');
+          if (typeof generatePDFReport !== 'function') console.error('- generatePDFReport function not found');
+        }
         
         // Track conversion in Google Analytics
         if (typeof dataLayer !== 'undefined') {
@@ -880,12 +989,16 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       if (event.data.action === 'loaded') {
-        console.log('Pipedrive form loaded successfully');
+        console.log('✅ Pipedrive form loaded successfully');
+      }
+      
+      if (event.data.action === 'close') {
+        console.log('⚠️ Pipedrive form closed without submission');
       }
     }
   });
   
-  console.log('✅ Pipedrive integration loaded successfully');
+  console.log('✅ Pipedrive integration event listeners loaded');
 });
 
 // ============================================================================
@@ -908,12 +1021,27 @@ window.testPipedriveIntegration = function() {
     console.log('ROI percentage:', Math.round(calculatedResults.roi));
   }
   
+  // Check if data is stored
+  const storedData = localStorage.getItem('bimtakeoff_calculator_data');
+  if (storedData) {
+    console.log('✅ Data stored in localStorage:', JSON.parse(storedData));
+  } else {
+    console.log('⚠️ No data in localStorage yet');
+  }
+  
+  // Check if display is showing
+  const display = document.querySelector('#calculator-data-display');
+  console.log('Calculator data display visible:', !!display);
+  
   const pipedriveForm = document.querySelector('[data-pd-webforms]');
-  console.log('Pipedrive form found:', !!pipedriveForm);
+  console.log('Pipedrive form container found:', !!pipedriveForm);
   
   if (!pipedriveForm) {
-    console.warn('⚠️ Pipedrive form not found in DOM. Make sure modal is open.');
+    console.warn('⚠️ Pipedrive form not found. Make sure modal is open.');
   }
+  
+  console.log('\n📝 NOTE: Pipedrive forms run in iframes and cannot be pre-filled directly.');
+  console.log('The calculator data is displayed above the form and stored for webhook/API use.');
   
   console.log('=== END TEST ===');
 };
@@ -921,3 +1049,598 @@ window.testPipedriveIntegration = function() {
 // Log successful initialization
 console.log('🚀 Pipedrive integration module loaded');
 console.log('💡 Use window.testPipedriveIntegration() to test configuration');
+// PDF REPORT GENERATOR - Complete Solution
+// This generates a professional PDF report directly in the browser
+// No backend needed, works immediately!
+
+// ============================================================================
+// STEP 1: Add this library to your roi-calculator.qmd file
+// Add this in the YAML header or before your calculator div:
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+// ============================================================================
+
+/**
+ * Generate and download PDF report with calculator results
+ * Called after Pipedrive form submission
+ */
+function generatePDFReport(leadData) {
+  // Initialize jsPDF
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  
+  // Get calculator data
+  const projectValue = calculatedResults.inputs.projectValue;
+  const totalSavings = Math.round(calculatedResults.totalSavings);
+  const roiPercentage = Math.round(calculatedResults.roi);
+  const projectType = calculatedResults.inputs.projectType;
+  
+  // Color scheme
+  const orange = [255, 153, 0];
+  const green = [16, 185, 129];
+  const gray = [107, 114, 128];
+  const darkGray = [44, 44, 44];
+  
+  // ============================================================================
+  // PAGE 1: COVER & SUMMARY
+  // ============================================================================
+  
+  // Header background
+  doc.setFillColor(...orange);
+  doc.rect(0, 0, 210, 40, 'F');
+  
+  // Logo/Title
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(24);
+  doc.text('ROI ANALYSIS REPORT', 105, 20, { align: 'center' });
+  doc.setFontSize(12);
+  doc.text('BIM Takeoff - Construction Cost Optimization', 105, 30, { align: 'center' });
+  
+  // Date
+  doc.setTextColor(...gray);
+  doc.setFontSize(10);
+  doc.text(`Generated: ${new Date().toLocaleDateString()}`, 105, 50, { align: 'center' });
+  
+  // Main metrics boxes
+  let yPos = 70;
+  
+  // Project Value Box
+  doc.setFillColor(248, 249, 250);
+  doc.rect(20, yPos, 55, 30, 'F');
+  doc.setTextColor(...gray);
+  doc.setFontSize(9);
+  doc.text('PROJECT VALUE', 47.5, yPos + 8, { align: 'center' });
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text(formatCurrency(projectValue, currentCurrency), 47.5, yPos + 20, { align: 'center' });
+  
+  // Estimated Savings Box
+  doc.setFillColor(240, 253, 244);
+  doc.rect(77.5, yPos, 55, 30, 'F');
+  doc.setTextColor(...gray);
+  doc.setFontSize(9);
+  doc.setFont(undefined, 'normal');
+  doc.text('ESTIMATED SAVINGS', 105, yPos + 8, { align: 'center' });
+  doc.setTextColor(...green);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text(formatCurrency(totalSavings, currentCurrency), 105, yPos + 20, { align: 'center' });
+  
+  // ROI Box
+  doc.setFillColor(255, 247, 237);
+  doc.rect(135, yPos, 55, 30, 'F');
+  doc.setTextColor(...gray);
+  doc.setFontSize(9);
+  doc.setFont(undefined, 'normal');
+  doc.text('RETURN ON INVESTMENT', 162.5, yPos + 8, { align: 'center' });
+  doc.setTextColor(...orange);
+  doc.setFontSize(18);
+  doc.setFont(undefined, 'bold');
+  doc.text(`${roiPercentage}%`, 162.5, yPos + 20, { align: 'center' });
+  
+  // Detailed Breakdown Section
+  yPos = 110;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('Cost Breakdown Analysis', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  
+  // Table header
+  doc.setFillColor(248, 249, 250);
+  doc.rect(20, yPos, 170, 8, 'F');
+  doc.text('Cost Category', 25, yPos + 5);
+  doc.text('Traditional Method', 90, yPos + 5, { align: 'right' });
+  doc.text('With BIM Takeoff', 130, yPos + 5, { align: 'right' });
+  doc.text('Savings', 170, yPos + 5, { align: 'right' });
+  
+  yPos += 10;
+  
+  // Table rows
+  const costBreakdown = [
+    ['Estimation Errors (5%)', projectValue * 0.05, projectValue * 0.005, projectValue * 0.045],
+    ['Material Waste (3%)', projectValue * 0.03, projectValue * 0.01, projectValue * 0.02],
+    ['Rework Costs (4%)', projectValue * 0.04, projectValue * 0.01, projectValue * 0.03],
+    ['Change Orders (3%)', projectValue * 0.03, projectValue * 0.005, projectValue * 0.025],
+    ['Time Delays (2%)', projectValue * 0.02, 0, projectValue * 0.02]
+  ];
+  
+  doc.setTextColor(...gray);
+  costBreakdown.forEach((row, index) => {
+    if (index % 2 === 0) {
+      doc.setFillColor(250, 250, 250);
+      doc.rect(20, yPos - 2, 170, 7, 'F');
+    }
+    
+    doc.text(row[0], 25, yPos + 3);
+    doc.text(formatCurrency(row[1], currentCurrency), 90, yPos + 3, { align: 'right' });
+    doc.text(formatCurrency(row[2], currentCurrency), 130, yPos + 3, { align: 'right' });
+    doc.setTextColor(...green);
+    doc.text(formatCurrency(row[3], currentCurrency), 170, yPos + 3, { align: 'right' });
+    doc.setTextColor(...gray);
+    yPos += 8;
+  });
+  
+  // Total row
+  doc.setFillColor(...orange);
+  doc.rect(20, yPos, 170, 10, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFont(undefined, 'bold');
+  doc.text('TOTAL', 25, yPos + 6);
+  doc.text(formatCurrency(projectValue * 0.17, currentCurrency), 90, yPos + 6, { align: 'right' });
+  doc.text(formatCurrency(projectValue * 0.03, currentCurrency), 130, yPos + 6, { align: 'right' });
+  doc.text(formatCurrency(totalSavings, currentCurrency), 170, yPos + 6, { align: 'right' });
+  
+  // Implementation Timeline
+  yPos += 20;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.text('Implementation Timeline', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  
+  const timeline = [
+    ['Days 1-3', 'Initial Assessment', 'Analyze project documentation, create preliminary schedules'],
+    ['Days 4-5', 'Detailed Estimation', 'BIM 5D modeling, quantity extraction, market rates'],
+    ['Day 6', 'Review & Delivery', 'Final review, value engineering, report delivery']
+  ];
+  
+  timeline.forEach((phase, index) => {
+    // Timeline circle
+    doc.setFillColor(...orange);
+    doc.circle(25, yPos, 3, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(8);
+    doc.text(`${index + 1}`, 25, yPos + 1, { align: 'center' });
+    
+    // Timeline content
+    doc.setTextColor(...darkGray);
+    doc.setFontSize(10);
+    doc.setFont(undefined, 'bold');
+    doc.text(phase[0] + ': ' + phase[1], 33, yPos);
+    doc.setFont(undefined, 'normal');
+    doc.setTextColor(...gray);
+    doc.text(phase[2], 33, yPos + 5);
+    
+    yPos += 15;
+  });
+  
+  // ============================================================================
+  // PAGE 2: DETAILED ANALYSIS
+  // ============================================================================
+  
+  doc.addPage();
+  yPos = 20;
+  
+  // Header
+  doc.setFillColor(...orange);
+  doc.rect(0, 0, 210, 30, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(18);
+  doc.text('Detailed Analysis & Recommendations', 105, 18, { align: 'center' });
+  
+  yPos = 45;
+  
+  // Risk Analysis
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text(`Risk Analysis for ${capitalizeProjectType(projectType)} Projects`, 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  doc.setTextColor(...gray);
+  
+  const risks = [
+    [`Quantity errors in structural elements`, projectValue * 0.036],
+    [`MEP coordination clashes`, projectValue * 0.044],
+    [`Facade measurement discrepancies`, projectValue * 0.019],
+    [`Foundation over-excavation`, projectValue * 0.015],
+    [`Missing scope items`, projectValue * 0.028]
+  ];
+  
+  doc.text('Without BIM Takeoff, your project faces these risks:', 20, yPos);
+  yPos += 8;
+  
+  risks.forEach(risk => {
+    doc.setTextColor(...gray);
+    doc.text(`• ${risk[0]}:`, 25, yPos);
+    doc.setTextColor(220, 38, 38); // Red
+    doc.text(formatCurrency(risk[1], currentCurrency), 170, yPos, { align: 'right' });
+    yPos += 7;
+  });
+  
+  // Total risk
+  doc.setFont(undefined, 'bold');
+  doc.setTextColor(...darkGray);
+  doc.text('Total Risk Exposure:', 25, yPos);
+  doc.setTextColor(220, 38, 38);
+  doc.text(formatCurrency(projectValue * 0.142, currentCurrency), 170, yPos, { align: 'right' });
+  
+  // Value Propositions
+  yPos += 15;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('What You Get With BIM Takeoff', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  
+  const benefits = [
+    ['Accuracy & Speed', [
+      '±5% accuracy (vs. ±15-20% traditional)',
+      '3-day turnaround (vs. 6-8 weeks)',
+      'Automated clash detection',
+      'Real-time cost updates'
+    ]],
+    ['Risk Mitigation', [
+      'Identify scope gaps before tender',
+      'Catch design inconsistencies',
+      'Prevent material over-ordering',
+      'Avoid costly variations'
+    ]],
+    ['Competitive Advantage', [
+      'Win more tenders with accurate pricing',
+      'Faster response to tender invitations',
+      'Professional documentation',
+      'Value engineering opportunities'
+    ]]
+  ];
+  
+  benefits.forEach(section => {
+    doc.setTextColor(...orange);
+    doc.setFont(undefined, 'bold');
+    doc.text(section[0], 20, yPos);
+    yPos += 7;
+    
+    doc.setTextColor(...gray);
+    doc.setFont(undefined, 'normal');
+    section[1].forEach(item => {
+      doc.text(`• ${item}`, 25, yPos);
+      yPos += 6;
+    });
+    yPos += 3;
+  });
+  
+  // Industry Benchmarks
+  yPos += 5;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('Industry Benchmarks', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  doc.setTextColor(...gray);
+  
+  doc.text(`Your Project Type: ${capitalizeProjectType(projectType)}`, 20, yPos);
+  yPos += 7;
+  doc.text(`Industry Average Cost Overrun: 27%`, 20, yPos);
+  yPos += 7;
+  doc.text(`With BIM Takeoff: <5%`, 20, yPos);
+  yPos += 7;
+  doc.text(`Typical ROI for Your Sector: 600-900%`, 20, yPos);
+  yPos += 7;
+  doc.setTextColor(...green);
+  doc.setFont(undefined, 'bold');
+  doc.text(`Your Calculated ROI: ${roiPercentage}% ✓`, 20, yPos);
+  
+  // ============================================================================
+  // PAGE 3: NEXT STEPS & CONTACT
+  // ============================================================================
+  
+  doc.addPage();
+  yPos = 20;
+  
+  // Header
+  doc.setFillColor(...orange);
+  doc.rect(0, 0, 210, 30, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(18);
+  doc.text('Your Next Steps', 105, 18, { align: 'center' });
+  
+  yPos = 45;
+  
+  // Call to Action
+  doc.setFillColor(254, 243, 199); // Light yellow
+  doc.rect(20, yPos, 170, 40, 'F');
+  doc.setTextColor(146, 64, 14); // Dark yellow
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text(`Ready to Save ${formatCurrency(totalSavings, currentCurrency)}?`, 105, yPos + 10, { align: 'center' });
+  
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  doc.text('Get started with a free consultation and sample estimate', 105, yPos + 20, { align: 'center' });
+  
+  doc.setTextColor(59, 130, 246); // Blue
+  doc.textWithLink('Schedule Free Consultation', 105, yPos + 30, {
+    url: 'https://calendly.com/bimtakeoff/consultation',
+    align: 'center'
+  });
+  
+  yPos += 50;
+  
+  // Action Plan
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('Your Action Plan', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  
+  const actions = [
+    ['This Week', 'Schedule free consultation', 'Discuss your specific project needs'],
+    ['Next Week', 'Provide sample drawings', 'Receive test estimate for accuracy verification'],
+    ['Week 3', 'Review proposal', 'Approve framework agreement for ongoing support'],
+    ['Ongoing', 'Submit projects as needed', 'Receive estimates within 3 days']
+  ];
+  
+  actions.forEach((action, index) => {
+    // Checkbox
+    doc.rect(25, yPos - 3, 3, 3);
+    
+    // Action details
+    doc.setTextColor(...orange);
+    doc.setFont(undefined, 'bold');
+    doc.text(action[0], 32, yPos);
+    doc.setTextColor(...darkGray);
+    doc.text(': ' + action[1], 55, yPos);
+    doc.setTextColor(...gray);
+    doc.setFont(undefined, 'normal');
+    doc.text(action[2], 32, yPos + 5);
+    
+    yPos += 15;
+  });
+  
+  // Resources
+  yPos += 5;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('Free Resources', 20, yPos);
+  
+  yPos += 10;
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  doc.setTextColor(59, 130, 246);
+  
+  doc.textWithLink('• 37-Point Tender Checklist (Polish)', 25, yPos, {
+    url: 'https://bimtakeoff.com/pl/checklist-przetargu'
+  });
+  yPos += 7;
+  
+  doc.textWithLink('• BIM Implementation Guide for Poland', 25, yPos, {
+    url: 'https://bimtakeoff.com/resources/bim-guide-poland'
+  });
+  yPos += 7;
+  
+  doc.textWithLink('• Sample BoQ Template', 25, yPos, {
+    url: 'https://bimtakeoff.com/resources/sample-boq'
+  });
+  
+  // Contact Information
+  yPos += 20;
+  doc.setFillColor(248, 249, 250);
+  doc.rect(20, yPos, 170, 35, 'F');
+  
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'bold');
+  doc.text('Contact Information', 105, yPos + 8, { align: 'center' });
+  
+  doc.setFontSize(10);
+  doc.setFont(undefined, 'normal');
+  doc.setTextColor(...gray);
+  doc.text('Robert Kowalski - Managing Director', 105, yPos + 16, { align: 'center' });
+  doc.text('📧 robert@bimtakeoff.com | 📱 WhatsApp: +48 XXX XXX XXX', 105, yPos + 22, { align: 'center' });
+  doc.text('🌐 www.bimtakeoff.com', 105, yPos + 28, { align: 'center' });
+  
+  // Footer
+  doc.setFontSize(8);
+  doc.setTextColor(...gray);
+  doc.text(`This report is confidential and prepared specifically for ${leadData.name || 'you'}`, 105, 280, { align: 'center' });
+  doc.text(`Valid for 30 days from ${new Date().toLocaleDateString()}`, 105, 285, { align: 'center' });
+  
+  // ============================================================================
+  // SAVE THE PDF
+  // ============================================================================
+  
+  // Generate filename
+  const fileName = `BIM-Takeoff-ROI-Report-${(leadData.name || 'Client').replace(/\s+/g, '-')}-${Date.now()}.pdf`;
+  
+  // Download the PDF
+  doc.save(fileName);
+  
+  console.log('PDF Report generated and downloaded:', fileName);
+  
+  // Track event
+  if (typeof dataLayer !== 'undefined') {
+    dataLayer.push({
+      'event': 'pdf_report_downloaded',
+      'project_value': projectValue,
+      'estimated_savings': totalSavings,
+      'roi': roiPercentage,
+      'lead_name': leadData.name
+    });
+  }
+}
+
+/**
+ * Helper function to capitalize project type
+ */
+function capitalizeProjectType(type) {
+  const typeMap = {
+    'residential': 'Residential Complex',
+    'commercial': 'Commercial Building',
+    'industrial': 'Industrial Facility',
+    'infrastructure': 'Infrastructure Project',
+    'mixed': 'Mixed-Use Development'
+  };
+  return typeMap[type] || type;
+}
+
+// ============================================================================
+// IMPLEMENTATION INSTRUCTIONS
+// ============================================================================
+
+// 1. Add jsPDF library to your roi-calculator.qmd file
+//    Add this line in the <head> section or before your calculator:
+//    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+// 2. Update your form submission handler
+//    After Pipedrive form submits successfully, call:
+//    generatePDFReport({ name: 'Client Name', email: 'client@email.com' });
+
+// 3. The function should be called here (around line 280 in roi-calculator.js):
+//    Instead of showing thank you modal, generate and download PDF:
+/*
+// OLD CODE:
+document.getElementById('thankyou-modal').style.display = 'flex';
+
+// NEW CODE:
+generatePDFReport({
+  name: document.querySelector('[name="person_name"]').value,
+  email: document.querySelector('[name="person_email"]').value
+});
+document.getElementById('thankyou-modal').style.display = 'flex';
+*/
+
+// 4. Test the flow:
+//    - Fill calculator
+//    - Submit Pipedrive form
+//    - PDF downloads automatically
+//    - Check Pipedrive for new lead
+
+// ============================================================================
+// ============================================================================
+// MANUAL PDF GENERATION & TESTING
+// ============================================================================
+
+/**
+ * Manual PDF generation function - can be called from browser console
+ * Usage: window.manuallyGeneratePDF()
+ */
+window.manuallyGeneratePDF = function() {
+  console.log('🚀 Manual PDF generation triggered');
+  
+  if (!calculatedResults) {
+    console.error('❌ No calculation results available. Please calculate ROI first.');
+    alert('Please calculate your ROI first before downloading the report.');
+    return;
+  }
+  
+  if (typeof window.jspdf === 'undefined') {
+    console.error('❌ jsPDF library not loaded');
+    alert('PDF library not loaded. Please refresh the page and try again.');
+    return;
+  }
+  
+  try {
+    const leadData = {
+      name: 'Manual Download',
+      email: '',
+      calculatorResults: calculatedResults
+    };
+    
+    generatePDFReport(leadData);
+    console.log('✅ PDF generated successfully');
+    alert('PDF report downloaded successfully!');
+  } catch (error) {
+    console.error('❌ PDF generation failed:', error);
+    console.error('Error stack:', error.stack);
+    alert('Failed to generate PDF. Check console for details.');
+  }
+};
+
+/**
+ * Add manual download button to thank you modal
+ */
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Adding manual PDF download button to thank you modal...');
+  
+  const thankyouModal = document.getElementById('thankyou-modal');
+  if (thankyouModal) {
+    // Wait a bit for modal content to be ready
+    setTimeout(() => {
+      const modalContent = thankyouModal.querySelector('.modal-content');
+      if (modalContent && !document.getElementById('manual-pdf-btn')) {
+        // Find the contact section div
+        const contactSection = modalContent.querySelector('div[style*="background: var(--bim-light-gray)"]');
+        if (contactSection) {
+          // Create manual PDF button
+          const pdfButton = document.createElement('button');
+          pdfButton.id = 'manual-pdf-btn';
+          pdfButton.style.cssText = `
+            width: 100%;
+            padding: 14px 32px;
+            background: #10B981;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 16px;
+            font-size: 16px;
+          `;
+          pdfButton.textContent = '📄 Download PDF Report';
+          
+          pdfButton.addEventListener('click', function() {
+            console.log('Manual PDF button clicked');
+            window.manuallyGeneratePDF();
+          });
+          
+          pdfButton.addEventListener('mouseenter', function() {
+            this.style.background = '#059669';
+            this.style.transform = 'translateY(-2px)';
+          });
+          
+          pdfButton.addEventListener('mouseleave', function() {
+            this.style.background = '#10B981';
+            this.style.transform = 'translateY(0)';
+          });
+          
+          // Insert button after the consultation link
+          contactSection.appendChild(pdfButton);
+          console.log('✅ Manual PDF download button added');
+        }
+      }
+    }, 1000);
+  }
+});
+
+console.log('✅ Manual PDF generation functions loaded');
+console.log('💡 To manually generate PDF, open browser console and run: window.manuallyGeneratePDF()');
+

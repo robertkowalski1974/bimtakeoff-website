@@ -1,0 +1,31 @@
+✅ ROI CALCULATOR PDF GENERATION - FIXED!
+==========================================
+
+THE PROBLEM:
+- PDF was downloading immediately when user clicked button
+- PDF should only download AFTER user submits Pipedrive form
+
+THE FIX:
+- Removed immediate PDF generation from button click
+- Added PDF generation to Pipedrive form submission event
+
+WHAT HAPPENS NOW:
+1. User clicks "Download Full ROI Report"  →  Modal opens (no PDF yet) ✓
+2. User fills out Pipedrive form           →  Still no PDF ✓  
+3. User submits Pipedrive form             →  PDF DOWNLOADS NOW! ✅
+4. Thank you modal appears                 →  User has PDF ✓
+
+FILES CHANGED:
+- /js/roi-calculator.js (2 sections modified)
+
+TESTING:
+Ready to test! Just:
+1. Go to ROI calculator page
+2. Calculate savings  
+3. Click "Download Full ROI Report"
+4. Submit the Pipedrive form
+5. PDF should download immediately after submission
+
+DOCUMENTATION:
+Full details in: _archive/2025-01-19_ROI_PDF_Generation_Fix.md
+

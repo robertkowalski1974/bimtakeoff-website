@@ -3,6 +3,9 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    - js/**
+    - css/**
+    - images/**
   # Post-render scripts for SEO optimization
   post-render:
     - python3 scripts/add-hreflang.py
