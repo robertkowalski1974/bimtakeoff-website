@@ -177,7 +177,7 @@ function generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, proj
   doc.text(roiPercentage + '%', 162.5, yPos + 20, { align: 'center' });
   
   // Key Highlights
-  yPos = 120;
+  yPos = 160;
   doc.setFontSize(14);
   doc.setTextColor(...darkGray);
   doc.setFont(undefined, 'bold');
