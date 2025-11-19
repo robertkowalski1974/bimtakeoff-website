@@ -4,8 +4,6 @@ page-layout: full
 description: "Your personalized BIM 5D ROI report is being generated"
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
 ::: {.hero-section style="min-height: 60vh; display: flex; align-items: center; justify-content: center;"}
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../images/header-background.jpg">
@@ -82,4 +80,14 @@ Contact Us Directly
 }
 </style>
 
+<!-- Load jsPDF first with multiple fallbacks -->
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script>
+// Fallback if CDN fails
+if (typeof window.jspdf === 'undefined' && typeof window.jsPDF === 'undefined') {
+  var script = document.createElement('script');
+  script.src = '../js/jspdf.umd.min.js';
+  document.head.appendChild(script);
+}
+</script>
 <script src="../js/roi-calculator-thankyou.js"></script>
