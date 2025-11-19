@@ -81,14 +81,26 @@ Skontaktuj się z Nami Bezpośrednio
 }
 </style>
 
-<!-- Load jsPDF first with multiple fallbacks -->
-<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<!-- Load jsPDF from local file first (more reliable than CDN) -->
+<script src="../../js/jspdf.umd.min.js"></script>
 <script>
-// Fallback if CDN fails
+// Verify jsPDF loaded correctly
+console.log('🔍 jsPDF loading check:', {
+  'window.jspdf': typeof window.jspdf,
+  'window.jsPDF': typeof window.jsPDF,
+  'jspdf.jsPDF': typeof (window.jspdf && window.jspdf.jsPDF)
+});
+
+// Fallback to CDN only if local file fails
 if (typeof window.jspdf === 'undefined' && typeof window.jsPDF === 'undefined') {
+  console.warn('⚠️ Local jsPDF failed, trying CDN fallback...');
   var script = document.createElement('script');
-  script.src = '../../js/jspdf.umd.min.js';
+  script.src = 'https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js';
+  script.onload = function() { console.log('✅ CDN jsPDF loaded'); };
+  script.onerror = function() { console.error('❌ CDN jsPDF failed to load'); };
   document.head.appendChild(script);
+} else {
+  console.log('✅ jsPDF loaded successfully from local file');
 }
 </script>
 <script src="../../js/roi-calculator-thankyou.js"></script>
