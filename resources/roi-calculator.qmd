@@ -65,9 +65,9 @@ BIM 5D estimation delivers in 3-10 days with ±5% accuracy, reducing change orde
 💱 Currency
 </label>
 <select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
-<option value="PLN">🇵🇱 Polish Złoty (PLN)</option>
 <option value="GBP">🇬🇧 British Pound (GBP)</option>
 <option value="EUR">🇪🇺 Euro (EUR)</option>
+<option value="PLN">🇵🇱 Polish Złoty (PLN)</option>
 <option value="USD">🇺🇸 US Dollar (USD)</option>
 <option value="AUD">🇦🇺 Australian Dollar (AUD)</option>
 </select>

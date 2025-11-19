@@ -1,0 +1,14 @@
+PDF FIX COMPLETE - November 19, 2025
+
+PROBLEM: Line 85 in roi-calculator-thankyou.js was not generating PDFs
+
+SOLUTION: Modified attemptPDFGeneration() to:
+1. Check calculator data separately
+2. Detect both window.jspdf AND window.jsPDF
+3. Auto-retry every 500ms if library not loaded
+4. Better console.warn logging
+
+FILES: /js/roi-calculator-thankyou.js (FIXED)
+BACKUP: /_archive/roi-calculator-thankyou-FIXED-20251119_185800.js
+
+READY FOR TESTING

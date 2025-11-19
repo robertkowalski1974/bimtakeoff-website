@@ -51,7 +51,7 @@ const CURRENCIES = {
 // ============================================================================
 // CALCULATOR STATE
 // ============================================================================
-let currentCurrency = 'PLN'; // Default currency
+let currentCurrency = 'EUR'; // Default currency
 
 // ============================================================================
 // CORE CONFIGURATION

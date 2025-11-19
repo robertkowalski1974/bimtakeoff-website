@@ -1,0 +1,63 @@
+========================================================================
+ROI CALCULATOR PDF GENERATION - DEBUGGING SUMMARY
+========================================================================
+Date: $(date '+%Y-%m-%d %H:%M:%S')
+
+PROBLEM:
+--------
+Line 85 in js/roi-calculator-thankyou.js was supposed to trigger 
+automatic PDF creation when users land on the thank you page after
+completing the ROI calculator, but the PDF was not being generated.
+
+ROOT CAUSE:
+-----------
+1. Timing race condition: The code was checking for window.jspdf
+   before the library was fully loaded
+   
+2. The check used: typeof window.jspdf === 'undefined'
+   This would fail if the library exposed itself differently
+
+SOLUTION:
+---------
+Modified attemptPDFGeneration() function to:
+
+1. Better error logging with console.warn
+2. Check both window.jspdf AND window.jsPDF (handles different versions)
+3. Implement retry mechanism: if library not loaded, wait 500ms and retry
+4. Separate the checks for calculator data vs library availability
+
+KEY CHANGES:
+------------
+Before: Single combined check that would fail immediately
+After:  Separate checks with automatic retry mechanism
+
+BENEFITS:
+---------
+✅ Handles slow library loading gracefully
+✅ Works with different jsPDF versions/configurations  
+✅ Better debugging with console warnings
+✅ Automatic retry prevents race conditions
+✅ Still shows error state if truly fails after retries
+
+FILES MODIFIED:
+---------------
+- /js/roi-calculator-thankyou.js (main fix)
+
+BACKUP LOCATION:
+----------------
+- /_archive/roi-calculator-thankyou-[timestamp]_BACKUP.js
+
+TEST PAGES:
+-----------
+- Polish: /pl/zasoby/kalkulator-roi-dziekujemy.html
+- English: /resources/roi-calculator-thank-you.html
+
+NEXT STEPS:
+-----------
+1. Deploy changes to production
+2. Test both language versions
+3. Monitor browser console for warnings
+4. Verify PDF auto-download works
+5. Confirm manual button still works as fallback
+
+========================================================================

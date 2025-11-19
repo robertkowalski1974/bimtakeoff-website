@@ -50,20 +50,8 @@ function loadCalculatorData() {
 }
 
 function attemptPDFGeneration() {
-  // Check if calculator data exists
-  if (!calculatorData) {
-    console.warn('⚠️ No calculator data found');
+  if (!calculatorData || typeof window.jspdf === 'undefined') {
     showErrorState();
-    return;
-  }
-  
-  // Check if jsPDF is loaded - try both common ways it might be exposed
-  const jspdfAvailable = (typeof window.jspdf !== 'undefined') || (typeof window.jsPDF !== 'undefined');
-  
-  if (!jspdfAvailable) {
-    console.warn('⚠️ jsPDF library not loaded yet, retrying...');
-    // Retry after a short delay
-    setTimeout(() => attemptPDFGeneration(), 500);
     return;
   }
   
