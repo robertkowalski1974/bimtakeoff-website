@@ -517,6 +517,10 @@ function handleLeadSubmission(e) {
     });
   }
 
+  // FIRST: Clear any old data to ensure clean slate
+  localStorage.removeItem('bimtakeoff_calculator_data');
+  console.log('🧹 Cleared old calculator data from localStorage');
+
   // Save calculator data to localStorage for thank you page
   const calculatorData = {
     projectValue: calculatedResults.inputs.projectValue,
@@ -536,7 +540,7 @@ function handleLeadSubmission(e) {
 
   try {
     localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
-    console.log('💾 Saved calculator data to localStorage:', calculatorData);
+    console.log('💾 Saved NEW calculator data to localStorage:', calculatorData);
 
     // Verify it was saved
     const verification = localStorage.getItem('bimtakeoff_calculator_data');
