@@ -526,6 +526,12 @@ body {
     box-shadow: none;
   }
 
+  /* Hide all navigation and non-report elements */
+  nav,
+  header,
+  footer:not(.page-footer),
+  .navbar,
+  .nav,
   .no-print,
   .print-controls {
     display: none !important;

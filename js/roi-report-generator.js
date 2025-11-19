@@ -93,9 +93,6 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
     <!-- PAGE 1: COVER -->
     <div class="report-page">
       <div class="page-header">
-        <div class="logo-box">
-          <div class="logo-text">BIM TAKEOFF</div>
-        </div>
         <h1 class="report-title">ROI ANALYSIS REPORT</h1>
         <p class="report-subtitle">Professional Cost Estimation Services</p>
         <p class="report-date">Generated: ${today}</p>
@@ -146,7 +143,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -233,7 +230,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -297,7 +294,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -378,7 +375,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -449,9 +446,6 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
     <!-- STRONA 1: OKŁADKA -->
     <div class="report-page">
       <div class="page-header">
-        <div class="logo-box">
-          <div class="logo-text">BIM TAKEOFF</div>
-        </div>
         <h1 class="report-title">RAPORT ANALIZY ROI</h1>
         <p class="report-subtitle">Profesjonalna Wycena Kosztorysowa</p>
         <p class="report-date">Wygenerowano: ${today}</p>
@@ -502,7 +496,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -589,7 +583,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -653,7 +647,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
@@ -734,7 +728,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
       </div>
       
       <div class="page-footer">
-        www.bimtakeoff.com | enquiry@bimtakeoff.com | +61 480 373 900
+        www.bimtakeoff.com | info@bimtakeoff.com | +48 508 209 313
       </div>
     </div>
 
