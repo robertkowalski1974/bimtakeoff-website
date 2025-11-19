@@ -81,6 +81,9 @@ function generatePDFReport() {
   const timeline = calculatorData.timeline || '3-6 months';
   const projectType = calculatorData.project_type || 'General Construction';
   
+  // Detect language based on currency (PLN = Polish, others = English)
+  const isPolish = currency === 'PLN';
+  
   // Colors
   const orange = [255, 153, 0];
   const green = [16, 185, 129];
@@ -88,29 +91,59 @@ function generatePDFReport() {
   const darkGray = [44, 44, 44];
   const lightGray = [248, 249, 250];
   
-  // ===== PAGE 1: COVER PAGE =====
-  generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency });
-  
-  // ===== PAGE 2: EXECUTIVE SUMMARY =====
-  doc.addPage();
-  generateExecutiveSummary(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType });
-  
-  // ===== PAGE 3: DETAILED BREAKDOWN =====
-  doc.addPage();
-  generateDetailedBreakdown(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
-  
-  // ===== PAGE 4: SERVICE DELIVERABLES =====
-  doc.addPage();
-  generateServiceDeliverables(doc, { orange, gray, darkGray, timeline });
-  
-  // ===== PAGE 5: NEXT STEPS =====
-  doc.addPage();
-  generateNextSteps(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
-  
-  const fileName = 'BIM-Takeoff-ROI-Report-' + currency + '-' + Date.now() + '.pdf';
-  doc.save(fileName);
-  
-  console.log('✅ Enhanced PDF generated:', fileName);
+  if (isPolish) {
+    // ===== POLISH VERSION =====
+    console.log('🇵🇱 Generating Polish PDF...');
+    
+    // ===== PAGE 1: COVER PAGE =====
+    generateCoverPagePL(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency });
+    
+    // ===== PAGE 2: EXECUTIVE SUMMARY =====
+    doc.addPage();
+    generateExecutiveSummaryPL(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType });
+    
+    // ===== PAGE 3: DETAILED BREAKDOWN =====
+    doc.addPage();
+    generateDetailedBreakdownPL(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
+    
+    // ===== PAGE 4: SERVICE DELIVERABLES =====
+    doc.addPage();
+    generateServiceDeliverablesPL(doc, { orange, gray, darkGray, timeline });
+    
+    // ===== PAGE 5: NEXT STEPS =====
+    doc.addPage();
+    generateNextStepsPL(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
+    
+    const fileName = 'BIM-Takeoff-Raport-ROI-' + Date.now() + '.pdf';
+    doc.save(fileName);
+    console.log('✅ Polish PDF generated:', fileName);
+  } else {
+    // ===== ENGLISH VERSION =====
+    console.log('🇬🇧 Generating English PDF...');
+    
+    // ===== PAGE 1: COVER PAGE =====
+    generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency });
+    
+    // ===== PAGE 2: EXECUTIVE SUMMARY =====
+    doc.addPage();
+    generateExecutiveSummary(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType });
+    
+    // ===== PAGE 3: DETAILED BREAKDOWN =====
+    doc.addPage();
+    generateDetailedBreakdown(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
+    
+    // ===== PAGE 4: SERVICE DELIVERABLES =====
+    doc.addPage();
+    generateServiceDeliverables(doc, { orange, gray, darkGray, timeline });
+    
+    // ===== PAGE 5: NEXT STEPS =====
+    doc.addPage();
+    generateNextSteps(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency });
+    
+    const fileName = 'BIM-Takeoff-ROI-Report-' + currency + '-' + Date.now() + '.pdf';
+    doc.save(fileName);
+    console.log('✅ English PDF generated:', fileName);
+  }
 }
 
 function generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency }) {
@@ -623,3 +656,453 @@ function showErrorState() {
 
 window.manuallyGeneratePDF = generatePDFReport;
 console.log('✅ Thank you page script loaded');
+
+// ============================================================================
+// POLISH VERSION FUNCTIONS
+// ============================================================================
+
+function generateCoverPagePL(doc, { orange, green, gray, darkGray, lightGray, projectValue, totalSavings, roiPercentage, currency }) {
+  // Header
+  doc.setFillColor(...orange);
+  doc.rect(0, 0, 210, 40, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(24);
+  doc.setFont(undefined, 'bold');
+  doc.text('RAPORT ANALIZY ROI', 105, 20, { align: 'center' });
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'normal');
+  doc.text('BIM Takeoff - Profesjonalna Wycena Kosztorysowa', 105, 30, { align: 'center' });
+  
+  doc.setTextColor(...gray);
+  doc.setFontSize(10);
+  doc.text('Wygenerowano: ' + new Date().toLocaleDateString('pl-PL'), 105, 50, { align: 'center' });
+
+  // Add BIM Takeoff logo (centered)
+  const logoWidth = 60;
+  const logoHeight = 30;
+  const logoX = (210 - logoWidth) / 2;
+  doc.addImage(
+    'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDIwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRleHQgeD0iMTAwIiB5PSI1NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzJDMkMyQyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QklNIFRha2VvZmY8L3RleHQ+PC9zdmc+',
+    logoX,
+    60,
+    logoWidth,
+    logoHeight
+  );
+
+  // Key Metrics Section
+  let yPos = 110;
+  
+  // Project Value Box
+  doc.setFillColor(...lightGray);
+  doc.rect(20, yPos, 170, 30, 'F');
+  doc.setTextColor(...gray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  doc.text('Wartość Projektu', 105, yPos + 12, { align: 'center' });
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(20);
+  doc.setFont(undefined, 'bold');
+  doc.text(formatCurrency(projectValue, currency), 105, yPos + 24, { align: 'center' });
+  
+  yPos += 40;
+  
+  // ROI Box
+  doc.setFillColor(...orange);
+  doc.rect(20, yPos, 170, 40, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'normal');
+  doc.text('Twój Zwrot z Inwestycji (ROI)', 105, yPos + 15, { align: 'center' });
+  doc.setFontSize(32);
+  doc.setFont(undefined, 'bold');
+  doc.text(roiPercentage + '%', 105, yPos + 32, { align: 'center' });
+  
+  yPos += 50;
+  
+  // Savings Box
+  doc.setFillColor(...green);
+  doc.rect(20, yPos, 170, 35, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'normal');
+  doc.text('Szacowane Oszczędności', 105, yPos + 14, { align: 'center' });
+  doc.setFontSize(24);
+  doc.setFont(undefined, 'bold');
+  doc.text(formatCurrency(totalSavings, currency), 105, yPos + 28, { align: 'center' });
+  
+  // Bottom message
+  yPos += 50;
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  const msg = 'Ten raport przedstawia potencjalne korzyści finansowe z wdrożenia';
+  const msg2 = 'usług profesjonalnej wyceny BIM dla Twojego projektu budowlanego.';
+  doc.text(msg, 105, yPos, { align: 'center' });
+  doc.text(msg2, 105, yPos + 6, { align: 'center' });
+  
+  addPageFooter(doc, gray);
+}
+
+function generateExecutiveSummaryPL(doc, { orange, gray, darkGray, projectValue, totalSavings, roiPercentage, currency, timeline, projectType }) {
+  addPageHeader(doc, 'Podsumowanie Wykonawcze', orange, gray);
+  
+  let yPos = 40;
+  
+  // Main summary text
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  const summaryText = 'BIM Takeoff oferuje zaawansowane usługi wyceny 5D BIM, które rewolucjonizują tradycyjne procesy szacowania kosztów. Nasza metodologia łączy dokładne dane ilościowe z analizą kosztów w czasie rzeczywistym, zapewniając niezrównaną precyzję i szybkość.';
+  const lines = doc.splitTextToSize(summaryText, 170);
+  lines.forEach(line => {
+    doc.text(line, 20, yPos);
+    yPos += 6;
+  });
+  
+  yPos += 5;
+  
+  // Key Benefits Section
+  doc.setFillColor(...orange);
+  doc.rect(20, yPos, 170, 10, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(13);
+  doc.setFont(undefined, 'bold');
+  doc.text('Kluczowe Korzyści dla Twojego Projektu', 25, yPos + 7);
+  
+  yPos += 18;
+  
+  const benefits = [
+    {
+      title: 'Szybsza Realizacja',
+      desc: 'Skróć czas wyceny o 60-75% w porównaniu z tradycyjnymi metodami. Otrzymaj szczegółowe kosztorysy w ciągu 3-10 dni roboczych zamiast 6-8 tygodni.',
+      icon: '⚡'
+    },
+    {
+      title: 'Wyższa Dokładność',
+      desc: 'Osiągnij precyzję ±3-5% dzięki technologii BIM 5D i zautomatyzowanemu obliczaniu ilości. Wyeliminuj 95% błędów ręcznych i kosztownych przeliczeń.',
+      icon: '🎯'
+    },
+    {
+      title: 'Redukcja Kosztów',
+      desc: 'Zaoszczędź średnio 4-7% wartości projektu dzięki wczesnemu wykrywaniu konfliktów, optymalizacji zasobów i profesjonalnemu zarządzaniu przetargiem.',
+      icon: '💰'
+    },
+    {
+      title: 'Zarządzanie Ryzykiem',
+      desc: 'Zidentyfikuj potencjalne problemy przed rozpoczęciem budowy. Nasz proces wykrywa 80-90% konfliktów na etapie projektowania, oszczędzając miliony na zmianach.',
+      icon: '🛡️'
+    }
+  ];
+  
+  benefits.forEach(benefit => {
+    doc.setFillColor(...lightGray);
+    doc.rect(20, yPos, 170, 28, 'F');
+    
+    doc.setFontSize(18);
+    doc.text(benefit.icon, 25, yPos + 15);
+    
+    doc.setTextColor(...orange);
+    doc.setFontSize(11);
+    doc.setFont(undefined, 'bold');
+    doc.text(benefit.title, 35, yPos + 8);
+    
+    doc.setTextColor(...gray);
+    doc.setFontSize(9);
+    doc.setFont(undefined, 'normal');
+    const descLines = doc.splitTextToSize(benefit.desc, 150);
+    let descY = yPos + 14;
+    descLines.forEach(line => {
+      doc.text(line, 35, descY);
+      descY += 5;
+    });
+    
+    yPos += 33;
+  });
+  
+  addPageFooter(doc, gray);
+}
+
+function generateDetailedBreakdownPL(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency }) {
+  addPageHeader(doc, 'Szczegółowa Analiza Oszczędności', orange, gray);
+  
+  let yPos = 40;
+  
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  doc.text('Twoje szacowane oszczędności są obliczane na podstawie następujących czynników:', 20, yPos);
+  
+  yPos += 12;
+  
+  const savings = [
+    { category: 'Wykrywanie Konfliktów', percentage: 35, amount: totalSavings * 0.35 },
+    { category: 'Optymalizacja Przetargu', percentage: 25, amount: totalSavings * 0.25 },
+    { category: 'Zarządzanie Zmianami', percentage: 20, amount: totalSavings * 0.20 },
+    { category: 'Efektywność Czasu', percentage: 12, amount: totalSavings * 0.12 },
+    { category: 'Kontrola Materiałów', percentage: 8, amount: totalSavings * 0.08 }
+  ];
+  
+  savings.forEach(item => {
+    doc.setFillColor(...lightGray);
+    doc.rect(20, yPos, 170, 20, 'F');
+    
+    doc.setTextColor(...darkGray);
+    doc.setFontSize(10);
+    doc.setFont(undefined, 'bold');
+    doc.text(item.category, 25, yPos + 8);
+    
+    doc.setTextColor(...orange);
+    doc.text(item.percentage + '%', 120, yPos + 8);
+    
+    doc.setTextColor(...green);
+    doc.setFont(undefined, 'bold');
+    doc.text(formatCurrency(item.amount, currency), 185, yPos + 8, { align: 'right' });
+    
+    // Progress bar
+    const barWidth = 150;
+    const filledWidth = (barWidth * item.percentage) / 100;
+    doc.setDrawColor(...gray);
+    doc.rect(25, yPos + 13, barWidth, 4);
+    doc.setFillColor(...green);
+    doc.rect(25, yPos + 13, filledWidth, 4, 'F');
+    
+    yPos += 25;
+  });
+  
+  yPos += 5;
+  
+  // Total box
+  doc.setFillColor(...green);
+  doc.rect(20, yPos, 170, 20, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'bold');
+  doc.text('ŁĄCZNE SZACOWANE OSZCZĘDNOŚCI', 25, yPos + 13);
+  doc.setFontSize(14);
+  doc.text(formatCurrency(totalSavings, currency), 185, yPos + 13, { align: 'right' });
+  
+  yPos += 30;
+  
+  // ROI Comparison Chart
+  doc.setFillColor(...orange);
+  doc.rect(20, yPos, 170, 10, 'F');
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'bold');
+  doc.text('Porównanie Podejść', 25, yPos + 7);
+  
+  yPos += 18;
+  
+  const comparison = [
+    { approach: 'Tradycyjna Wycena', time: '6-8 tygodni', accuracy: '±8-12%', cost: 'Wysoki' },
+    { approach: 'BIM Takeoff 5D', time: '3-10 dni', accuracy: '±3-5%', cost: 'Optymalny' }
+  ];
+  
+  // Table header
+  doc.setFillColor(...lightGray);
+  doc.rect(20, yPos, 170, 10, 'F');
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(9);
+  doc.setFont(undefined, 'bold');
+  doc.text('Podejście', 25, yPos + 7);
+  doc.text('Czas', 80, yPos + 7);
+  doc.text('Dokładność', 125, yPos + 7);
+  doc.text('Koszt', 170, yPos + 7);
+  
+  yPos += 12;
+  
+  comparison.forEach((row, idx) => {
+    if (idx === 1) {
+      doc.setFillColor(255, 247, 237);
+    } else {
+      doc.setFillColor(255, 255, 255);
+    }
+    doc.rect(20, yPos, 170, 10, 'F');
+    
+    doc.setTextColor(...darkGray);
+    doc.setFontSize(9);
+    doc.setFont(undefined, 'normal');
+    doc.text(row.approach, 25, yPos + 7);
+    doc.text(row.time, 80, yPos + 7);
+    doc.text(row.accuracy, 125, yPos + 7);
+    doc.text(row.cost, 170, yPos + 7);
+    
+    yPos += 12;
+  });
+  
+  addPageFooter(doc, gray);
+}
+
+function generateServiceDeliverablesPL(doc, { orange, gray, darkGray, timeline }) {
+  addPageHeader(doc, 'Zakres Usług i Rezultaty', orange, gray);
+  
+  let yPos = 40;
+  
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  doc.text('Nasze kompleksowe usługi wyceny obejmują:', 20, yPos);
+  
+  yPos += 15;
+  
+  const deliverables = [
+    {
+      title: 'Model 5D BIM',
+      items: [
+        'Pełna ekstrakcja ilości z modeli 3D',
+        'Integracja danych kosztowych w czasie rzeczywistym',
+        'Raportowanie wizualne i harmonogramowanie'
+      ]
+    },
+    {
+      title: 'Dokumentacja Kosztorysowa',
+      items: [
+        'Szczegółowe zestawienia ilości (Bill of Quantities)',
+        'Analiza stawek i materiałów',
+        'Porównania budżetowe i benchmarki'
+      ]
+    },
+    {
+      title: 'Wsparcie Przetargowe',
+      items: [
+        'Przegląd i walidacja ofert wykonawców',
+        'Analiza zgodności i identyfikacja luk',
+        'Negocjacje i rekomendacje wyboru'
+      ]
+    },
+    {
+      title: 'Zarządzanie Zmianami',
+      items: [
+        'Śledzenie zmian projektowych',
+        'Wycena zleceń dodatkowych',
+        'Kontrola budżetu w trakcie realizacji'
+      ]
+    }
+  ];
+  
+  deliverables.forEach(section => {
+    doc.setFillColor(...orange);
+    doc.rect(20, yPos, 170, 8, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(11);
+    doc.setFont(undefined, 'bold');
+    doc.text(section.title, 25, yPos + 6);
+    
+    yPos += 12;
+    
+    section.items.forEach(item => {
+      doc.setTextColor(...darkGray);
+      doc.setFontSize(9);
+      doc.setFont(undefined, 'normal');
+      doc.text('•', 25, yPos + 4);
+      const itemLines = doc.splitTextToSize(item, 160);
+      let itemY = yPos + 4;
+      itemLines.forEach(line => {
+        doc.text(line, 30, itemY);
+        itemY += 5;
+      });
+      yPos += itemLines.length * 5;
+    });
+    
+    yPos += 5;
+  });
+  
+  addPageFooter(doc, gray);
+}
+
+function generateNextStepsPL(doc, { orange, green, gray, darkGray, lightGray, totalSavings, currency }) {
+  addPageHeader(doc, 'Następne Kroki', orange, gray);
+  
+  let yPos = 40;
+  
+  doc.setTextColor(...darkGray);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'bold');
+  doc.text('Jak rozpocząć współpracę z BIM Takeoff:', 20, yPos);
+  
+  yPos += 15;
+  
+  const steps = [
+    {
+      step: '1',
+      title: 'Bezpłatna Konsultacja',
+      desc: '30-minutowa rozmowa o wymaganiach projektu, harmonogramie i konkretnych wyzwaniach',
+      timeline: 'W ciągu 24 godzin'
+    },
+    {
+      step: '2',
+      title: 'Ocena Projektu',
+      desc: 'Przegląd rysunków i dokumentacji w celu przygotowania szczegółowej oferty i wyceny',
+      timeline: '1-2 dni robocze'
+    },
+    {
+      step: '3',
+      title: 'Spotkanie Wdrożeniowe',
+      desc: 'Szczegółowe omówienie z przypisanym kierownikiem projektu w celu uzgodnienia rezultatów i harmonogramu',
+      timeline: 'Po zatwierdzeniu'
+    },
+    {
+      step: '4',
+      title: 'Dostawa i Przegląd',
+      desc: 'Kompleksowy pakiet wyceny dostarczony z sesją omówienia i wsparciem Q&A',
+      timeline: 'Zgodnie z harmonogramem'
+    }
+  ];
+  
+  steps.forEach(step => {
+    doc.setFillColor(...lightGray);
+    doc.rect(20, yPos, 170, 25, 'F');
+    
+    // Step number circle
+    doc.setFillColor(...orange);
+    doc.circle(30, yPos + 12, 6, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(11);
+    doc.setFont(undefined, 'bold');
+    doc.text(step.step, 30, yPos + 14, { align: 'center' });
+    
+    // Step title
+    doc.setTextColor(...darkGray);
+    doc.setFontSize(11);
+    doc.text(step.title, 40, yPos + 8);
+    
+    // Timeline
+    doc.setTextColor(...orange);
+    doc.setFontSize(8);
+    doc.text(step.timeline, 185, yPos + 8, { align: 'right' });
+    
+    // Description
+    doc.setTextColor(...gray);
+    doc.setFontSize(9);
+    doc.setFont(undefined, 'normal');
+    const descLines = doc.splitTextToSize(step.desc, 145);
+    let descY = yPos + 15;
+    descLines.forEach(line => {
+      doc.text(line, 40, descY);
+      descY += 5;
+    });
+    
+    yPos += 30;
+  });
+  
+  yPos += 10;
+  
+  // Contact CTA box
+  doc.setFillColor(...green);
+  doc.rect(20, yPos, 170, 35, 'F');
+  
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(14);
+  doc.setFont(undefined, 'bold');
+  doc.text('Gotowy zaoszczędzić ' + Math.round(totalSavings).toLocaleString('pl-PL') + ' ' + currency + '?', 105, yPos + 12, { align: 'center' });
+  
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'normal');
+  doc.text('Skontaktuj się z nami już dziś, aby umówić bezpłatną konsultację', 105, yPos + 22, { align: 'center' });
+  
+  doc.setFontSize(12);
+  doc.setFont(undefined, 'bold');
+  doc.text('info@bimtakeoff.com | +44 (0) 20 3239 9967', 105, yPos + 30, { align: 'center' });
+  
+  addPageFooter(doc, gray);
+}
