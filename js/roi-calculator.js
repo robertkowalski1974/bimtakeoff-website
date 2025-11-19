@@ -984,36 +984,44 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (event.data.action === 'submitted') {
         console.log('🎉 Lead submitted to Pipedrive successfully!');
-        
-        // 📊 GENERATE PDF REPORT NOW (after form submission)
-        console.log('Attempting to generate PDF...');
-        console.log('calculatedResults available:', !!calculatedResults);
-        console.log('generatePDFReport function exists:', typeof generatePDFReport);
-        console.log('window.jspdf available:', typeof window.jspdf);
-        
-        if (calculatedResults && typeof generatePDFReport === 'function') {
-          try {
-            // Extract lead data from Pipedrive form (if available)
-            const leadData = {
-              name: event.data.formData?.name || 'Valued Client',
-              email: event.data.formData?.email || '',
-              calculatorResults: calculatedResults
-            };
-            
-            console.log('Calling generatePDFReport with:', leadData);
-            generatePDFReport(leadData);
-            console.log('✅ PDF Report generated successfully');
-          } catch (error) {
-            console.error('❌ PDF generation failed:', error);
-            console.error('Error stack:', error.stack);
-            // Continue with flow even if PDF fails
+
+        // FIRST: Clear any old data to ensure clean slate
+        localStorage.removeItem('bimtakeoff_calculator_data');
+        console.log('🧹 Cleared old calculator data from localStorage');
+
+        // SAVE calculator data to localStorage for thank you page
+        const calculatorData = {
+          projectValue: calculatedResults.inputs.projectValue,
+          savings: Math.round(calculatedResults.totalSavings),
+          roi: Math.round(calculatedResults.roi),
+          currency: currentCurrency,
+          project_type: calculatedResults.inputs.projectType,
+          timeline: calculatedResults.inputs.timeline,
+          variance: calculatedResults.inputs.variance,
+          breakdown: calculatedResults.breakdown,
+          timestamp: new Date().toISOString(),
+          // Add contact info from Pipedrive form if available
+          name: event.data.formData?.name || 'Valued Client',
+          email: event.data.formData?.email || '',
+          company: event.data.formData?.company || ''
+        };
+
+        try {
+          localStorage.setItem('bimtakeoff_calculator_data', JSON.stringify(calculatorData));
+          console.log('💾 Saved NEW calculator data to localStorage:', calculatorData);
+
+          // Verify it was saved
+          const verification = localStorage.getItem('bimtakeoff_calculator_data');
+          if (!verification) {
+            throw new Error('Failed to save to localStorage');
           }
-        } else {
-          console.error('❌ Cannot generate PDF:');
-          if (!calculatedResults) console.error('- calculatedResults is missing');
-          if (typeof generatePDFReport !== 'function') console.error('- generatePDFReport function not found');
+          console.log('✅ Verified localStorage save');
+        } catch (storageError) {
+          console.error('❌ localStorage error:', storageError);
+          alert('Unable to save calculator data. Please check your browser settings and try again.');
+          return;
         }
-        
+
         // Track conversion in Google Analytics
         if (typeof dataLayer !== 'undefined') {
           dataLayer.push({
@@ -1025,16 +1033,24 @@ document.addEventListener('DOMContentLoaded', function() {
             'project_type': calculatedResults.inputs.projectType
           });
         }
-        
-        // Close lead modal
-        if (leadModal) {
-          leadModal.style.display = 'none';
+
+        // REDIRECT to thank you page instead of showing modal
+        const currentPath = window.location.pathname;
+        console.log('📍 Current path:', currentPath);
+
+        const isPolish = currentPath.includes('/pl/');
+        console.log('🌍 Language detected:', isPolish ? 'Polish' : 'English');
+
+        // Build the correct URL (same directory, different filename)
+        let thankYouUrl;
+        if (isPolish) {
+          thankYouUrl = 'kalkulator-roi-dziekujemy.html';
+        } else {
+          thankYouUrl = 'roi-calculator-thank-you.html';
         }
-        
-        // Show thank you modal
-        if (thankyouModal) {
-          thankyouModal.style.display = 'flex';
-        }
+
+        console.log('🚀 Redirecting to:', thankYouUrl);
+        window.location.href = thankYouUrl;
       }
       
       if (event.data.action === 'loaded') {
