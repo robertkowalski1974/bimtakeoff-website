@@ -141,7 +141,7 @@ function generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, proj
     doc.text('BIM TAKEOFF', 105, 65, { align: 'center' });
   }
 
-  let yPos = 80;
+  let yPos = 100;
   
   // Main metrics
   doc.setFillColor(...lightGray);
