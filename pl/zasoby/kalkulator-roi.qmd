@@ -1,7 +1,7 @@
 ---
 title: "Kalkulator ROI BIM 5D | Oblicz Swoje Oszczędności"
 page-layout: full
-description: "Oblicz potencjalne oszczędności z wyceny BIM 5D. Zobacz ile czasu i pieniędzy może zaoszczędzić Twój projekt budowlany dzięki profesjonalnemu kosztorysowaniu."
+description: "Oblicz potencjalne oszczędności z wyceny BIM 5D. Zobacz ile czasu i pieniędzy może zaoszczędzić Twój projekt dzięki naszej usłudze."
 lang: pl
 ---
 
@@ -19,7 +19,7 @@ lang: pl
 :::
 
 ::: {.hero-subtitle}
-Większość projektów budowlanych oszczędza 30-50% na kosztach kosztorysowania przy jednoczesnej poprawie dokładności z ±15% do ±5%.  
+Większość projektów budowlanych notuje oszczędności rzędu 30% przy jednoczesnej poprawie dokładności z ±15% do ±5%.  
 Darmowe, natychmiastowe obliczenie - bez rejestracji.
 :::
 
@@ -43,11 +43,11 @@ Darmowe, natychmiastowe obliczenie - bez rejestracji.
 ::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
 ### Wyzwanie
 
-Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do uniknięcia kosztach.
+Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do kosztach, których można uniknąć.
 
 ### Nasze Rozwiązanie
 
-Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując zamówienia zmian, eliminując przeróbki i oszczędzając 30-50% na kosztach zakupów.
+Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując niepewniść i eliminując koszty związane z naprawmi. Oszczędzając nawet do 50% koszów.
 :::
 
 ::: {#calculator-container}
@@ -123,7 +123,7 @@ Obecny Czas Kosztorysowania
 
 <div class="form-group" style="margin-bottom: 24px;">
 <label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color:--bim-charcoal);">
-Obecna Rozbieżność Kosztów
+Obecna Dokładność Kosztorysu
 <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
 <i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="O ile zazwyczaj różnią się ostateczne koszty od wstępnych szacunków?"></i>
 </label>
