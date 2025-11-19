@@ -9,6 +9,8 @@ const CURRENCIES = {
   AUD: { symbol: 'A$', code: 'AUD', name: 'Australian Dollar', locale: 'en-AU', suffix: false }
 };
 
+
+
 let loadingState, successState, errorState, savingsSummary, manualDownloadBtn;
 let calculatorData = null;
 
@@ -126,8 +128,20 @@ function generateCoverPage(doc, { orange, green, gray, darkGray, lightGray, proj
   doc.setTextColor(...gray);
   doc.setFontSize(10);
   doc.text('Generated: ' + new Date().toLocaleDateString('en-GB'), 105, 50, { align: 'center' });
-  
-  let yPos = 70;
+
+  // Add BIM Takeoff logo (centered)
+  const logoData = 'data:image/png;base64,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';
+  try {
+    doc.addImage(logoData, 'PNG', 60, 50, 90, 25);
+  } catch (e) {
+    // Fallback to text if image fails to load
+    doc.setFontSize(16);
+    doc.setFont(undefined, 'bold');
+    doc.setTextColor(255, 255, 255);
+    doc.text('BIM TAKEOFF', 105, 65, { align: 'center' });
+  }
+
+  let yPos = 80;
   
   // Main metrics
   doc.setFillColor(...lightGray);
