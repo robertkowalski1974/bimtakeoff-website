@@ -113,14 +113,14 @@ body {
 
 /* Page header */
 .page-header {
-  background: var(--color-orange);
+  background: var(--color-dark-gray);
   margin: -20mm -20mm 30px -20mm;
   padding: 60px 20mm 40px 20mm;
   color: white;
 }
 
 .page-header-simple {
-  background: var(--color-orange);
+  background: var(--color-dark-gray);
   margin: -20mm -20mm 30px -20mm;
   padding: 20px 20mm;
   color: white;
