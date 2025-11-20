@@ -140,7 +140,62 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   }
 }
 </script>
-<script>window.pipedriveLeadboosterConfig = {base: 'leadbooster-chat.pipedrive.com',companyId: 14252767,playbookUuid: 'ea9cb334-dcb6-410b-a945-1f0f96d8ad91',version: 2};(function () {var w = window;if (w.LeadBooster) {console.warn('LeadBooster already exists');} else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();</script><script async="" src="https://leadbooster-chat.pipedrive.com/assets/loader.js"></script>
+<script>
+// Load chat widget based on language
+if (!window.location.pathname.includes('/pl/')) {
+    // English pages: Load Pipedrive chat
+    window.pipedriveLeadboosterConfig = {
+        base: 'leadbooster-chat.pipedrive.com',
+        companyId: 14252767,
+        playbookUuid: 'ea9cb334-dcb6-410b-a945-1f0f96d8ad91',
+        version: 2
+    };
+    (function () {
+        var w = window;
+        if (w.LeadBooster) {
+            console.warn('LeadBooster already exists');
+        } else {
+            w.LeadBooster = {
+                q: [],
+                on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},
+                trigger: function (n) {this.q.push({ t: 't', n: n });}
+            };
+        }
+    })();
+
+    // Dynamically load the Pipedrive script
+    var script = document.createElement('script');
+    script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    script.async = true;
+    document.head.appendChild(script);
+} else {
+    // Polish pages: Load Polish Pipedrive chat
+    window.pipedriveLeadboosterConfig = {
+        base: 'leadbooster-chat.pipedrive.com',
+        companyId: 14252767,
+        playbookUuid: '0cb8d4e1-69c7-417e-baf4-baa9861b409d',
+        version: 2
+    };
+    (function () {
+        var w = window;
+        if (w.LeadBooster) {
+            console.warn('LeadBooster already exists');
+        } else {
+            w.LeadBooster = {
+                q: [],
+                on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},
+                trigger: function (n) {this.q.push({ t: 't', n: n });}
+            };
+        }
+    })();
+
+    // Dynamically load the Polish Pipedrive script
+    var script = document.createElement('script');
+    script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    script.async = true;
+    document.head.appendChild(script);
+}
+</script>
 <link href="../css/styles.css" rel="stylesheet"/>
 <meta content="BIM Takeoff" property="og:title"/>
 <meta content="https://robertkowalski1974.github.io/bimtakeoff-website/resources/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
