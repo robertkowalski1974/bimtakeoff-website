@@ -238,27 +238,29 @@ function initLoadAnimation() {
 // ============================================
 // 9. SCROLL TO TOP BUTTON
 // ============================================
+// DISABLED: Replaced with chat widget
+// To re-enable, uncomment the function call in initScrollToTop() on line 299
 function initScrollToTop() {
-    const scrollBtn = document.createElement('button');
-    scrollBtn.className = 'scroll-to-top';
-    scrollBtn.innerHTML = '<i class="bi bi-arrow-up"></i>';
-    scrollBtn.setAttribute('aria-label', 'Scroll to top');
-    document.body.appendChild(scrollBtn);
-    
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 500) {
-            scrollBtn.classList.add('visible');
-        } else {
-            scrollBtn.classList.remove('visible');
-        }
-    });
-    
-    scrollBtn.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
+    // const scrollBtn = document.createElement('button');
+    // scrollBtn.className = 'scroll-to-top';
+    // scrollBtn.innerHTML = '<i class="bi bi-arrow-up"></i>';
+    // scrollBtn.setAttribute('aria-label', 'Scroll to top');
+    // document.body.appendChild(scrollBtn);
+
+    // window.addEventListener('scroll', () => {
+    //     if (window.pageYOffset > 500) {
+    //         scrollBtn.classList.add('visible');
+    //     } else {
+    //         scrollBtn.classList.remove('visible');
+    //     }
+    // });
+
+    // scrollBtn.addEventListener('click', () => {
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: 'smooth'
+    //     });
+    // });
 }
 
 // ============================================
