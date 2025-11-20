@@ -1,0 +1,262 @@
+/* BIM TAKEOFF BRAND CSS - WIX COMPATIBLE VERSION
+ * Created: October 25, 2025
+ * 
+ * HOW TO ADD TO WIX:
+ * 1. Go to your Wix site dashboard
+ * 2. Settings → Custom Code → + Add Custom Code
+ * 3. Paste this CSS in the code box
+ * 4. Select "All Pages" and "Load code once"
+ * 5. Click "Apply"
+ */
+
+/* ============================================
+   PART 1: BRAND COLORS & FONTS
+   ============================================ */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Apply Inter font globally to Wix */
+body, 
+.wixui-rich-text,
+.wixui-rich-text *,
+h1, h2, h3, h4, h5, h6,
+p, span, div,
+a, button {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
+}
+
+/* BIM Takeoff Brand Colors - Override Wix defaults */
+:root {
+  --bim-orange: #FF9900;
+  --bim-orange-hover: #E68A00;
+  --bim-charcoal: #2C2C2C;
+  --bim-white: #FFFFFF;
+  --bim-light-gray: #F0F0F0;
+  --bim-medium-gray: #757575;
+}
+
+
+/* ============================================
+   PART 2: BUTTONS
+   ============================================ */
+
+/* Style Wix buttons with BIM orange */
+button[data-testid*="buttonElement"],
+.wixui-button,
+a[data-testid*="linkElement"].button {
+  background-color: var(--bim-orange) !important;
+  color: var(--bim-white) !important;
+  font-weight: 700 !important;
+  border-radius: 4px !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+}
+
+button[data-testid*="buttonElement"]:hover,
+.wixui-button:hover,
+a[data-testid*="linkElement"].button:hover {
+  background-color: var(--bim-orange-hover) !important;
+  transform: translateY(-2px) !important;
+}
+
+
+/* ============================================
+   PART 3: LINKS
+   ============================================ */
+
+/* Make all links orange */
+a,
+a[data-testid*="linkElement"] {
+  color: var(--bim-orange) !important;
+  text-decoration: none !important;
+}
+
+a:hover,
+a[data-testid*="linkElement"]:hover {
+  color: var(--bim-orange-hover) !important;
+  text-decoration: underline !important;
+}
+
+
+/* ============================================
+   PART 4: HEADINGS
+   ============================================ */
+
+/* Style all headings with brand font and colors */
+h1, 
+[data-testid*="heading"] h1,
+.wixui-rich-text__text h1 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--bim-charcoal) !important;
+}
+
+h2,
+[data-testid*="heading"] h2,
+.wixui-rich-text__text h2 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--bim-charcoal) !important;
+  border-bottom: 3px solid var(--bim-orange) !important;
+  padding-bottom: 8px !important;
+}
+
+h3,
+[data-testid*="heading"] h3,
+.wixui-rich-text__text h3 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--bim-orange) !important;
+}
+
+
+/* ============================================
+   PART 5: BODY TEXT
+   ============================================ */
+
+/* Body text styling */
+p,
+.wixui-rich-text__text,
+.wixui-rich-text__text p {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--bim-charcoal) !important;
+  line-height: 1.6 !important;
+  font-size: 16px !important;
+}
+
+
+/* ============================================
+   PART 6: HEADER/NAVIGATION
+   ============================================ */
+
+/* Wix header background */
+header[data-testid="header"],
+#SITE_HEADER {
+  background-color: var(--bim-charcoal) !important;
+}
+
+/* Navigation links */
+nav a,
+header a,
+#SITE_HEADER a {
+  color: var(--bim-white) !important;
+  font-weight: 600 !important;
+}
+
+nav a:hover,
+header a:hover,
+#SITE_HEADER a:hover {
+  color: var(--bim-orange) !important;
+}
+
+
+/* ============================================
+   PART 7: FOOTER
+   ============================================ */
+
+/* Wix footer background */
+footer[data-testid="footer"],
+#SITE_FOOTER {
+  background-color: var(--bim-charcoal) !important;
+  color: var(--bim-white) !important;
+}
+
+footer a,
+#SITE_FOOTER a {
+  color: var(--bim-orange) !important;
+}
+
+footer a:hover,
+#SITE_FOOTER a:hover {
+  color: var(--bim-orange-hover) !important;
+}
+
+
+/* ============================================
+   PART 8: CARDS/BOXES
+   ============================================ */
+
+/* Style Wix cards/containers with brand accent */
+[data-testid*="container"],
+.card-container,
+.wixui-box {
+  border-left: 4px solid var(--bim-orange) !important;
+}
+
+
+/* ============================================
+   PART 9: FORMS
+   ============================================ */
+
+/* Wix form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+.wixui-text-input,
+.wixui-textarea {
+  border: 2px solid var(--bim-medium-gray) !important;
+  border-radius: 4px !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--bim-orange) !important;
+  outline: none !important;
+}
+
+/* Form submit buttons */
+button[type="submit"],
+input[type="submit"],
+.wixui-button[type="submit"] {
+  background-color: var(--bim-orange) !important;
+  color: var(--bim-white) !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 16px 32px !important;
+  cursor: pointer !important;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background-color: var(--bim-orange-hover) !important;
+}
+
+
+/* ============================================
+   PART 10: MOBILE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  p,
+  .wixui-rich-text__text {
+    font-size: 14px !important;
+  }
+  
+  h1 {
+    font-size: 32px !important;
+  }
+  
+  h2 {
+    font-size: 24px !important;
+  }
+  
+  h3 {
+    font-size: 18px !important;
+  }
+}
+
+
+/* ============================================
+   IMPORTANT NOTES:
+   
+   1. The !important flags are necessary to override Wix's default styles
+   2. Wix uses data-testid attributes for many elements
+   3. Some Wix elements may not respond to these styles due to inline styles
+   4. You may need to adjust selectors based on your specific Wix theme
+   5. For Wix Studio, you can be more specific with custom class names
+   
+   ============================================ */

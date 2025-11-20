@@ -1,0 +1,117 @@
+<!-- Polish Navbar Translation Script -->
+<script>
+// Polish Navbar Translation - Zaktualizowana wersja zgodna ze Strategią Komunikacji
+(function() {
+    // Uruchamiaj tylko na polskich stronach
+    if (!window.location.pathname.includes('/pl/')) return;
+    
+    const translations = {
+        // Główne pozycje menu
+        'Home': 'Strona Główna',
+        'Services': 'Usługi',
+        'Industries': 'Branże',
+        'Portfolio': 'Portfolio',
+        'Resources': 'Zasoby',
+        'About': 'O Nas',
+        'Contact': 'Kontakt',
+        
+        // Menu Usługi - Zaktualizowana terminologia zgodnie z dokumentami strategicznymi
+        'Cost Estimation & Budget Planning': 'Kosztorysowanie i Planowanie Budżetu',
+        'Trade-Specific Specialist Services': 'Specjalistyczne Usługi Branżowe',
+        'Automated Quantity Takeoff': 'Automatyczny Przedmiar z Modeli BIM',
+        'Fast-Track Cost Control': 'Bieżąca Kontrola Kosztów',
+        'BREEAM/ESG Cost Modeling': 'Kosztorysowanie BREEAM/ESG',
+        'MEP Infrastructure Precision': 'Kosztorysowanie Instalacji MEP',
+        'Multi-Scenario Analysis': 'Analiza Wariantowa',
+        'Comprehensive Reporting': 'Kompleksowe Raportowanie',
+        'Bid Writing & Bid Management': 'Przygotowanie Ofert Przetargowych',
+        'Traditional Quantity Takeoff': 'Tradycyjny Przedmiar z Rysunków 2D',
+        'Construction Data Management': 'Zarządzanie Danymi BIM',
+        'Construction Logistics': 'Logistyka Budowlana',
+        
+        // Menu Branże - Zaktualizowana terminologia
+        'Warehouses & Logistics': 'Magazyny i Logistyka',
+        'Data Centers': 'Centra Danych',
+        'Residential Development': 'Deweloperstwo Mieszkaniowe',
+        'Remediation': 'Remediacja i Modernizacja',
+        'Commercial Development': 'Deweloperstwo Komercyjne',
+        'Healthcare & Medical Facilities': 'Opieka Zdrowotna',
+        'Industrial & Manufacturing': 'Przemysł i Produkcja',
+        'Infrastructure & Civil Works': 'Infrastruktura',
+        
+        // Menu Zasoby - Zaktualizowana terminologia
+        'BIM 2030 Guide': 'Przewodnik BIM 2030',
+        'ROI Calculator': 'Kalkulator Oszczędności',
+        'Case Studies': 'Studia Przypadków',
+        
+        // Stopka - Zaktualizowana zgodnie z formalnym tonem
+        'All rights reserved': 'Wszelkie prawa zastrzeżone',
+        'Professional BIM 5D Cost Estimation Services': 'Kosztorysowanie BIM 5D | Certyfikacja RICS | Zgodność KNR/KNNR',
+        'Quick Links': 'Informacje',
+        'Privacy Policy': 'Polityka Prywatności',
+        'Terms of Service': 'Warunki Współpracy'
+    };
+
+    function translatePage() {
+        // Tłumacz elementy menu
+        document.querySelectorAll('.menu-text').forEach(element => {
+            const text = element.textContent.trim();
+            if (translations[text]) {
+                element.textContent = translations[text];
+            }
+        });
+        
+        // Tłumacz elementy rozwijane
+        document.querySelectorAll('.dropdown-text').forEach(element => {
+            const text = element.textContent.trim();
+            if (translations[text]) {
+                element.textContent = translations[text];
+            }
+        });
+        
+        // Tłumacz stopkę
+        const footer = document.querySelector('.nav-footer');
+        if (footer) {
+            const walker = document.createTreeWalker(
+                footer,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+            
+            let node;
+            while (node = walker.nextNode()) {
+                if (node.nodeValue && node.nodeValue.trim()) {
+                    let text = node.nodeValue;
+                    Object.keys(translations).forEach(eng => {
+                        if (text.includes(eng)) {
+                            text = text.replace(eng, translations[eng]);
+                        }
+                    });
+                    node.nodeValue = text;
+                }
+            }
+        }
+        
+        // Ustaw język strony
+        document.documentElement.lang = 'pl';
+    }
+
+    // Uruchom natychmiast
+    translatePage();
+    
+    // Uruchom również po pełnym załadowaniu DOM
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', translatePage);
+    }
+    
+    // Uruchom po krótkiej chwili dla dynamicznej zawartości
+    setTimeout(translatePage, 100);
+    
+    // Dla Quarto preview - obserwuj zmiany w nawigacji
+    if (window.location.href.includes('localhost')) {
+        const observer = new MutationObserver(translatePage);
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
+})();
+</script>

@@ -6,3 +6,8 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Backup files
+*.tar.gz
+backup-*.tar.gz
+bimtakeoff-backup-*.tar.gz

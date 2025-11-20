@@ -1,0 +1,480 @@
+---
+title: "BIM 5D ROI Calculator | Calculate Your Cost Savings"
+page-layout: full
+description: "Calculate potential savings from BIM 5D estimation. See how much time and money your construction project could save with professional quantity surveying."
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
+    <source src="../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# ROI Calculator: Calculate Your BIM 5D Savings
+### See Your Potential Savings in 60 Seconds
+:::
+
+::: {.hero-subtitle}
+Most construction projects save 30-50% on estimation costs while improving accuracy from ±15% to ±5%.  
+Free, instant calculation - no registration required.
+:::
+
+::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
+::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Multi-currency support:</strong> PLN, GBP, EUR, USD, AUD</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Project-specific calculations</strong> for all building types</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Industry-validated</strong> based on 2,000+ completed projects</p>
+:::
+:::
+
+::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Contact Us](../contact.qmd){.cta-primary}
+[View Services](../services/cost-estimation-budget-planning.qmd){.cta-secondary}
+:::
+:::
+:::
+
+::: {.container}
+
+::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
+### The Challenge
+
+Traditional quantity surveying takes 6-8 weeks with ±10-15% accuracy. Poor estimates lead to budget overruns, delays, and costly rework. Housing cooperatives and developers lose millions in preventable costs.
+
+### Our Solution
+
+BIM 5D estimation delivers in 3-10 days with ±5% accuracy, reducing change orders, eliminating rework, and saving 30-50% on procurement costs.
+:::
+
+::: {#calculator-container}
+
+::: {.calculator-layout style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 40px;"}
+
+<!-- LEFT COLUMN: Input Form -->
+::: {.calculator-inputs style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);"}
+
+## Your Project Details
+
+<form id="roi-form">
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+💱 Currency
+</label>
+<select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
+<option value="PLN">🇵🇱 Polish Złoty (PLN)</option>
+<option value="GBP">🇬🇧 British Pound (GBP)</option>
+<option value="EUR">🇪🇺 Euro (EUR)</option>
+<option value="USD">🇺🇸 US Dollar (USD)</option>
+<option value="AUD">🇦🇺 Australian Dollar (AUD)</option>
+</select>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="project-type" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Project Type
+</label>
+<select id="project-type" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
+<option value="residential">Residential (Multi-family housing)</option>
+<option value="commercial">Commercial (Office, Retail)</option>
+<option value="industrial">Industrial (Warehouse, Logistics)</option>
+<option value="thermal">Thermal Modernization</option>
+<option value="infrastructure">Infrastructure</option>
+<option value="mixed">Mixed-use Development</option>
+</select>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="project-value" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Project Value
+<span id="project-value-display" style="color: var(--bim-orange); float: right; font-weight: 700;">5,000,000</span>
+</label>
+<input type="range" id="project-value" min="500000" max="50000000" step="100000" value="5000000" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
+<div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
+<span>500K</span>
+<span>50M</span>
+</div>
+<input type="number" id="project-value-input" min="500000" max="50000000" step="100000" value="5000000" style="width: 100%; padding: 8px; border: 2px solid var(--bim-light-gray); border-radius: 4px; margin-top: 8px; font-size: 16px;">
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label style="display: block; font-weight: 600; margin-bottom: 12px; color: var(--bim-charcoal);">
+Current Estimation Timeline
+</label>
+<div style="display: flex; flex-direction: column; gap: 12px;">
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="quick" style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Quick estimate (1-2 weeks)</span>
+</label>
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="standard" checked style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Standard process (4-6 weeks)</span>
+</label>
+<label class="radio-option" style="display: flex; align-items: center; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; transition: all 0.3s;">
+<input type="radio" name="timeline" value="detailed" style="margin-right: 12px; width: 20px; height: 20px;">
+<span>Detailed procurement (8-12 weeks)</span>
+</label>
+</div>
+</div>
+
+<div class="form-group" style="margin-bottom: 24px;">
+<label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
+Current Cost Variance
+<span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
+<i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="How much do your final costs typically differ from initial estimates?"></i>
+</label>
+<input type="range" id="cost-variance" min="5" max="30" step="1" value="15" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
+<div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
+<span>±5% (Excellent)</span>
+<span>±30% (Poor)</span>
+</div>
+</div>
+
+<button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
+Calculate My Savings
+</button>
+
+</form>
+
+:::
+
+<!-- RIGHT COLUMN: Results Panel -->
+::: {#results-panel style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); opacity: 0; transform: translateY(20px); transition: all 0.5s; pointer-events: none;"}
+
+## Your Potential Savings
+
+::: {#results-content}
+
+<div class="result-card" style="background: linear-gradient(135deg, #FFF8F0 0%, #FFE8CC 100%); padding: 24px; border-radius: 8px; border-left: 4px solid var(--bim-orange); margin-bottom: 20px;">
+<div style="font-size: 0.9rem; color: var(--bim-medium-gray); margin-bottom: 4px;">💰 Total Cost Savings</div>
+<div id="total-savings" style="font-size: 2.5rem; font-weight: 700; color: var(--bim-orange); line-height: 1;">0</div>
+</div>
+
+<div style="display: grid; gap: 16px; margin-bottom: 24px;">
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">⏱️</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Time Savings</div>
+<div id="time-savings" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">0 days</div>
+</div>
+</div>
+</div>
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">📊</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Accuracy Improvement</div>
+<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15% → ±5%</div>
+</div>
+</div>
+</div>
+
+<div class="metric-card" style="background: white; padding: 16px; border-radius: 6px; border: 2px solid var(--bim-light-gray);">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="font-size: 1.5rem;">🎯</span>
+<div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Return on Investment</div>
+<div id="roi-percentage" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">0%</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="breakdown-teaser" style="background: #F8F8F8; padding: 20px; border-radius: 6px; text-align: center; margin-bottom: 20px;">
+<p style="margin: 0 0 12px 0; color: var(--bim-medium-gray); font-size: 0.95rem;">See detailed breakdown including:</p>
+<ul style="list-style: none; padding: 0; margin: 0 0 16px 0; color: var(--bim-charcoal);">
+<li>✓ Change order reduction</li>
+<li>✓ Rework avoidance</li>
+<li>✓ Project timeline optimization</li>
+<li>✓ Risk mitigation value</li>
+</ul>
+<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
+Download Full ROI Report
+</button>
+</div>
+
+:::
+
+:::
+
+:::
+
+<!-- Trust Indicators -->
+::: {.trust-section style="text-align: center; padding: 40px 0; border-top: 2px solid var(--bim-light-gray); margin-top: 40px;"}
+
+::: {style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;"}
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">2,000+</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Projects Completed</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">±5%</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Cost Accuracy</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">3-10</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Days Delivery</div>
+:::
+
+::: {.trust-item}
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">750%</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Average ROI</div>
+:::
+
+:::
+
+:::
+
+:::
+
+:::
+
+<!-- CTA Section -->
+```{=html}
+<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); margin-top: 60px;">
+  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2.5rem;">Ready to Realize These Savings?</h2>
+    <p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
+      Get in touch today for a free consultation and discover how BIM 5D cost estimation 
+      can transform your project delivery
+    </p>
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="../contact.qmd" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Get Free Consultation
+      </a>
+      <a href="tel:+442032399967" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Call +44 (0) 20 3239 9967
+      </a>
+    </div>
+    
+    <!-- Contact Information -->
+    <div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left;">
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Phone</div>
+          <a href="tel:+442032399967" style="color: #FFFFFF; text-decoration: none;">+44 (0) 20 3239 9967</a>
+        </div>
+        
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-envelope-fill"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Email</div>
+          <a href="mailto:info@bimtakeoff.com" style="color: #FFFFFF; text-decoration: none;">info@bimtakeoff.com</a>
+        </div>
+        
+        <div style="color: #E0E0E0;">
+          <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
+            <i class="bi bi-globe"></i>
+          </div>
+          <div style="font-weight: 600; margin-bottom: 5px;">Global Reach</div>
+          <div>🇬🇧 UK | 🇵🇱 Poland | 🇦🇺 Australia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+<!-- Lead Capture Modal with Pipedrive Form -->
+::: {#lead-modal style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 10000; align-items: center; justify-content: center;"}
+
+::: {.modal-content style="background: white; padding: 40px; border-radius: 12px; max-width: 600px; width: 90%; margin: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); position: relative; max-height: 90vh; overflow-y: auto;"}
+
+<button id="close-modal" style="position: absolute; top: 16px; right: 16px; background: none; border: none; font-size: 28px; cursor: pointer; color: var(--bim-medium-gray); line-height: 1; z-index: 10;">&times;</button>
+
+<div class="modal-header" style="margin-bottom: 24px;">
+<h2 style="margin: 0 0 12px 0; color: var(--bim-charcoal); font-size: 1.8rem;">Get Your Detailed ROI Report</h2>
+<p style="color: var(--bim-medium-gray); margin: 0; font-size: 1rem;">We'll prepare your personalized analysis and email it to you within 5 minutes</p>
+</div>
+
+<!-- PIPEDRIVE WEB FORM EMBEDDED HERE -->
+<div id="pipedrive-form-container" style="margin: 20px 0;">
+<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6qhf9PqIpqTLYNXaz5B62foo0fklkKq1LMDczVq1eaj9Nho3d2GrDLemXMjywHIJCX">
+<script src="https://webforms.pipedrive.com/f/loader"></script>
+</div>
+</div>
+
+<div class="modal-footer" style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--bim-light-gray);">
+<p style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--bim-medium-gray); margin: 0;">
+<svg style="flex-shrink: 0; color: #28a745;" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+<path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6z"/>
+</svg>
+<span>Your data is secure and RODO/GDPR compliant. We'll never share your information.</span>
+</p>
+</div>
+
+:::
+
+:::
+
+<!-- Thank You Modal -->
+::: {#thankyou-modal style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 10000; align-items: center; justify-content: center;"}
+
+::: {.modal-content style="background: white; padding: 40px; border-radius: 12px; max-width: 500px; width: 90%; margin: 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); text-align: center;"}
+
+<div style="font-size: 4rem; margin-bottom: 20px;">✅</div>
+
+<h2 style="color: var(--bim-charcoal); margin-bottom: 16px;">Thank You!</h2>
+
+<p style="color: var(--bim-medium-gray); margin-bottom: 24px; font-size: 1.1rem;">Your ROI report has been sent to your email. Check your inbox in the next few minutes.</p>
+
+<div style="background: var(--bim-light-gray); padding: 20px; border-radius: 6px; margin-bottom: 24px;">
+<p style="margin: 0 0 16px 0; font-weight: 600;">Ready to start saving?</p>
+<a href="../contact.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: white; text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
+Book Free Consultation
+</a>
+</div>
+
+<button id="close-thankyou" style="padding: 12px; background: transparent; color: var(--bim-medium-gray); border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; width: 100%;">
+Close
+</button>
+
+:::
+
+:::
+
+<script src="../js/roi-calculator.js"></script>
+
+<style>
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .calculator-layout {
+    grid-template-columns: 1fr !important;
+  }
+  
+  #results-panel {
+    margin-top: 24px;
+  }
+  
+  .trust-section > div {
+    gap: 24px !important;
+  }
+}
+
+/* Radio button hover effect */
+.radio-option:hover {
+  border-color: var(--bim-orange) !important;
+  background: #FFF8F0;
+}
+
+.radio-option input:checked {
+  accent-color: var(--bim-orange);
+}
+
+/* Button hover effects */
+#calculate-btn:hover {
+  background: var(--bim-orange-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+}
+
+#get-report-btn:hover {
+  background: var(--bim-orange-hover);
+  transform: translateY(-2px);
+}
+
+/* Slider styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bim-orange);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bim-orange);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Modal animations */
+#lead-modal[style*="display: flex"],
+#thankyou-modal[style*="display: flex"] {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Pipedrive Form Modal Styling */
+#pipedrive-form-container {
+  min-height: 400px;
+}
+
+#pipedrive-form-container iframe {
+  border: none !important;
+  width: 100% !important;
+  min-height: 500px;
+}
+
+/* Make modal scrollable on mobile */
+@media (max-width: 768px) {
+  #lead-modal .modal-content {
+    max-height: 95vh;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  #pipedrive-form-container iframe {
+    min-height: 600px;
+  }
+}
+
+/* Ensure Pipedrive form matches our brand */
+.pipedriveWebForms {
+  font-family: Inter, sans-serif !important;
+}
+
+/* Loading state for form */
+#pipedrive-form-container:empty::before {
+  content: "Loading form...";
+  display: block;
+  text-align: center;
+  padding: 40px;
+  color: var(--bim-medium-gray);
+  font-size: 1.1rem;
+}
+</style>

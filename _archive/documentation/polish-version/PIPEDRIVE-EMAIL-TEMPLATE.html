@@ -1,0 +1,124 @@
+<!-- PIPEDRIVE EMAIL TEMPLATE - ROI Report -->
+<!-- Go to Pipedrive → Settings → Email Templates → Create New -->
+<!-- Copy this entire HTML code -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Inter', Arial, sans-serif; line-height: 1.6; color: #2C2C2C; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background: linear-gradient(135deg, #FF9900 0%, #FF7700 100%); color: white; padding: 30px; text-align: center; border-radius: 8px 8px 0 0; }
+        .content { background: white; padding: 30px; border: 1px solid #e5e5e5; }
+        .highlight-box { background: #f8f9fa; border-left: 4px solid #FF9900; padding: 20px; margin: 20px 0; }
+        .metric { display: inline-block; margin: 10px 0; }
+        .metric-label { color: #6B7280; font-size: 12px; text-transform: uppercase; }
+        .metric-value { font-size: 24px; font-weight: bold; color: #2C2C2C; }
+        .savings { color: #10B981; }
+        .roi { color: #FF9900; font-size: 32px; }
+        .cta-button { display: inline-block; background: #FF9900; color: white; padding: 14px 32px; text-decoration: none; border-radius: 6px; font-weight: 600; margin: 20px 0; }
+        .footer { text-align: center; padding: 20px; color: #6B7280; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="margin: 0; font-size: 28px;">Your ROI Analysis Report</h1>
+            <p style="margin: 10px 0 0 0; opacity: 0.9;">BIM Takeoff - Construction Cost Optimization</p>
+        </div>
+        
+        <div class="content">
+            <p>Dear {{ person.name }},</p>
+            
+            <p>Thank you for using our ROI Calculator! Based on your inputs, here's your personalized cost-saving analysis:</p>
+            
+            <div class="highlight-box">
+                <h2 style="margin-top: 0; color: #FF9900;">📊 Your Project Analysis</h2>
+                
+                <div class="metric">
+                    <div class="metric-label">Project Value</div>
+                    <div class="metric-value">{{ deal.value }} {{ deal.currency }}</div>
+                </div>
+                
+                <div class="metric" style="margin-left: 40px;">
+                    <div class="metric-label">Estimated Savings</div>
+                    <div class="metric-value savings">{{ deal.c3a5bb3c3f6b2ad86f1bbb2e4ee394e40e094350 }} {{ deal.currency }}</div>
+                </div>
+                
+                <div style="text-align: center; margin: 30px 0;">
+                    <div class="metric-label">Return on Investment</div>
+                    <div class="roi">{{ deal.f6f37e12e29de3f0cc31e6d86e1de96c616f1fdf }}%</div>
+                </div>
+            </div>
+            
+            <h3>🎯 How We Can Help You Save {{ deal.c3a5bb3c3f6b2ad86f1bbb2e4ee394e40e094350 }} {{ deal.currency }}:</h3>
+            
+            <ul style="line-height: 2;">
+                <li><strong>BIM 5D Technology:</strong> Automated quantity extraction eliminates 95% of manual measurement errors</li>
+                <li><strong>3-Day Turnaround:</strong> Get accurate estimates in 72 hours vs. traditional 6-8 weeks</li>
+                <li><strong>Cost Database:</strong> Access to 20+ years of international pricing data</li>
+                <li><strong>Value Engineering:</strong> Identify cost-saving alternatives without compromising quality</li>
+                <li><strong>Risk Mitigation:</strong> Catch costly omissions before tender submission</li>
+            </ul>
+            
+            <h3>📈 Based on Your Project Type: {{ deal.8fbce75e8f69bbdaae4c230ca7e963fc2e459f40 }}</h3>
+            
+            <p>We've successfully delivered similar savings for:</p>
+            <ul>
+                <li>2,000+ projects across UK, EU, and Australian markets</li>
+                <li>Housing cooperatives achieving 30-50% procurement savings</li>
+                <li>International developers (Panattoni, Goodman, Prologis)</li>
+            </ul>
+            
+            <div style="background: #FEF3C7; border: 1px solid #FCD34D; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <h3 style="margin-top: 0; color: #92400E;">⚡ Next Steps - Quick Wins</h3>
+                <ol>
+                    <li><strong>Free 30-min consultation</strong> to discuss your specific project needs</li>
+                    <li><strong>Sample estimate</strong> on one section of your project (proof of accuracy)</li>
+                    <li><strong>Custom pricing proposal</strong> based on your project pipeline</li>
+                </ol>
+            </div>
+            
+            <div style="text-align: center; margin: 40px 0;">
+                <a href="https://calendly.com/bimtakeoff/consultation" class="cta-button">
+                    Schedule Your Free Consultation
+                </a>
+                <p style="margin: 10px 0; color: #6B7280;">or reply to this email with your questions</p>
+            </div>
+            
+            <h3>📎 Additional Resources</h3>
+            <ul>
+                <li><a href="https://bimtakeoff.com/resources/checklist-przetargu">37-Point Tender Checklist (Polish)</a></li>
+                <li><a href="https://bimtakeoff.com/case-studies">Case Studies & Success Stories</a></li>
+                <li><a href="https://bimtakeoff.com/pl/uslugi/kosztorysowanie-bim">BIM 5D Services Overview (Polish)</a></li>
+            </ul>
+            
+            <p>Best regards,</p>
+            <p><strong>Robert Kowalski</strong><br>
+            Managing Director<br>
+            BIM Takeoff<br>
+            📧 robert@bimtakeoff.com<br>
+            📱 WhatsApp: [Your Number]<br>
+            🌐 www.bimtakeoff.com</p>
+        </div>
+        
+        <div class="footer">
+            <p>BIM Takeoff - 20 Years UK & Australian Excellence in Construction Estimation<br>
+            This report is confidential and prepared specifically for {{ person.name }} at {{ organization.name }}</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- MERGE TAGS EXPLANATION:
+{{ person.name }} - Contact's name
+{{ organization.name }} - Company name
+{{ deal.value }} - Project value from calculator
+{{ deal.currency }} - Currency (PLN/GBP/EUR/AUD)
+{{ deal.c3a5bb3c3f6b2ad86f1bbb2e4ee394e40e094350 }} - Estimated Savings (custom field)
+{{ deal.f6f37e12e29de3f0cc31e6d86e1de96c616f1fdf }} - ROI Percentage (custom field)
+{{ deal.8fbce75e8f69bbdaae4c230ca7e963fc2e459f40 }} - Project Type (custom field)
+
+Note: Replace the custom field IDs with your actual Pipedrive custom field IDs
+-->
