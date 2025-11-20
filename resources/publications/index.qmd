@@ -33,7 +33,40 @@ Our research and analysis help industry professionals navigate the digital trans
 
 ::: {.publications-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 32px; margin: 48px 0;"}
 
+
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../images/modular-construction-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Modular Construction</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Industry Analysis</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Market Trends</span>
+:::
+
+### The Century-Old Innovation That Keeps Failing: What Really Happened to Modular Construction
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+November 20, 2025 | 25 min read
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+After 100 years of promises and £500 million in recent UK failures, why does modular construction still capture barely 5-8% of Western markets while Sweden quietly builds 84% of homes this way? A data-driven analysis of what works, what doesn't, and why.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Key Insights:**
+- £500 million evaporated in UK MMC sector collapse 2022-2024
+- Every major Category 1 volumetric manufacturer failed
+- Sweden achieves 84% adoption vs UK's 5-8% - what's the difference?
+- Bathroom pods thrive while housing modules fail - the paradox explained
+:::
+
+[Read Full Article](modular-construction-failure.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../images/ai-qs-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
