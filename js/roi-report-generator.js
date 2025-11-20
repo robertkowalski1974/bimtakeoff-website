@@ -793,20 +793,26 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
 }
 
 function generateComparisonBar(label, traditional, bimtakeoff, fmt) {
-  const maxValue = 35000;
+  const maxValue = Math.max(traditional, bimtakeoff);
   const tradWidth = (traditional / maxValue) * 100;
   const bimWidth = (bimtakeoff / maxValue) * 100;
-  
+
   return `
     <div class="comparison-item">
       <div class="comparison-label">${label}</div>
       <div class="comparison-bars">
         <div class="comparison-bar">
-          <div class="bar-fill gray" style="width: ${tradWidth}%;">Traditional</div>
+          <div class="bar-label">Traditional</div>
+          <div class="bar-container">
+            <div class="bar-fill gray" style="width: ${tradWidth}%;"></div>
+          </div>
           <div class="bar-value">${fmt(traditional)}</div>
         </div>
         <div class="comparison-bar">
-          <div class="bar-fill green" style="width: ${bimWidth}%;">BIM Takeoff</div>
+          <div class="bar-label">BIM Takeoff</div>
+          <div class="bar-container">
+            <div class="bar-fill green" style="width: ${bimWidth}%;"></div>
+          </div>
           <div class="bar-value">${fmt(bimtakeoff)}</div>
         </div>
       </div>

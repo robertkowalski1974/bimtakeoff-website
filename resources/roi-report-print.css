@@ -315,31 +315,42 @@ body {
 
 .comparison-label {
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   font-size: 15px;
+  color: var(--color-dark-gray);
 }
 
 .comparison-bars {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .comparison-bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: 90px 1fr 120px;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+}
+
+.bar-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-dark-gray);
+}
+
+.bar-container {
+  background: #F3F4F6;
+  height: 32px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
 }
 
 .bar-fill {
-  height: 24px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  padding: 0 12px;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
 }
 
 .bar-fill.gray {
@@ -351,10 +362,11 @@ body {
 }
 
 .bar-value {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--color-dark-gray);
   white-space: nowrap;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: right;
 }
 
 /* Timeline */
