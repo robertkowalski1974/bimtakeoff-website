@@ -115,8 +115,9 @@ body {
 .page-header {
   background: var(--color-dark-gray);
   margin: -20mm -20mm 30px -20mm;
-  padding: 60px 20mm 40px 20mm;
+  padding: 8mm 20mm 30px 20mm;
   color: white;
+  position: relative;
 }
 
 .page-header-simple {
@@ -133,32 +134,24 @@ body {
   margin: 0;
 }
 
-.logo-box {
-  background: white;
-  padding: 10px 20px;
-  display: inline-block;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-.logo-box .logo-text {
-  color: var(--color-orange);
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+.header-logo {
+  display: block;
+  width: auto;
+  height: 25mm;
+  margin: 0 auto 20px auto;
 }
 
 .report-title {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
-  margin: 0 0 10px 0;
-  letter-spacing: -1px;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
 }
 
 .report-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
   opacity: 0.95;
 }
 
