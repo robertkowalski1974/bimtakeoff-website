@@ -100,7 +100,7 @@ body {
    ============================================================================ */
 
 .report-page {
-  min-height: auto;
+  min-height: 297mm;
   padding: 20mm;
   background: white;
   page-break-after: always;
@@ -538,7 +538,8 @@ body {
   }
 
   .report-page {
-    min-height: auto;
+    min-height: 297mm;
+    height: 297mm;
     padding: 20mm;
     page-break-after: always;
     page-break-before: auto;
