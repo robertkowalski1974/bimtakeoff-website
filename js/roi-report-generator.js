@@ -426,7 +426,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
       <div class="contact-box">
         <div class="contact-heading">Ready to Save ${fmt(totalSavings)}?</div>
         <div class="contact-subheading">Contact our team today:</div>
-        <div class="contact-details">enquiry@bimtakeoff.com | +61 480 373 900</div>
+        <div class="contact-details">info@bimtakeoff.com | +48 508 209 313</div>
         <div class="contact-details">www.bimtakeoff.com</div>
         <div class="cta-button">BOOK YOUR FREE CONSULTATION</div>
       </div>
@@ -779,7 +779,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
       <div class="contact-box">
         <div class="contact-heading">Gotowy zaoszczędzić ${fmt(totalSavings)}?</div>
         <div class="contact-subheading">Skontaktuj się z naszym zespołem już dziś:</div>
-        <div class="contact-details">enquiry@bimtakeoff.com | +61 480 373 900</div>
+        <div class="contact-details">info@bimtakeoff.com | +48 508 209 313</div>
         <div class="contact-details">www.bimtakeoff.com/pl</div>
         <div class="cta-button">ZAREZERWUJ BEZPŁATNĄ KONSULTACJĘ</div>
       </div>
