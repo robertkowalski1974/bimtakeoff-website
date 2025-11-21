@@ -11,3 +11,6 @@
 *.tar.gz
 backup-*.tar.gz
 bimtakeoff-backup-*.tar.gz
+
+# Generated HTML files in resources (should only be in docs/)
+resources/**/*.html
