@@ -36,6 +36,40 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/70Percent.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Strategia Przetargowa</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">BIM</span>
+:::
+
+### Mit 70% ceny: Co naprawdę wygrywa przetargi budowlane
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 22 listopada 2025 | ⏱️ 20 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Analiza oparta na danych obalająca mit „70% ceny" w zamówieniach budowlanych. Badania pokazują, że 40-50% oceny to kryteria pozacenowe, gdzie dokładne kosztorysowanie i wizualizacja BIM zapewniają mierzalną poprawę współczynnika wygranych o 5-25%.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+- Polska prawnie ogranicza cenę do 60%, brytyjskie najlepsze praktyki stosują 40% ceny
+- Dokładność kosztorysowania to czynnik nr 1 — poprawia współczynnik wygranych z 20% do 35-50%
+- Strategia BIM dodaje 5-9% do prawdopodobieństwa wygranej
+- Zwycięzcy inwestują 25% więcej w przygotowanie oferty niż przegrani
+:::
+
+[Przeczytaj cały artykuł](strategie-wygrywania-przetargow.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../../images/ai-qs-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
@@ -64,7 +98,7 @@ Analiza wpływu AI na zawód kosztorysanta oparta na danych. Badania pokazują, 
 - Sześć krytycznych barier spowalniających adopcję AI w budownictwie
 :::
 
-[Przeczytaj cały artykuł](ai-czy-zastapi-kosztorysantow.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+[Przeczytaj cały artykuł](ai-czy-zastapi-kosztorysantow.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
 :::
 :::
 
@@ -98,7 +132,7 @@ Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu W
 - Sześć priorytetowych obszarów działania dla transformacji Polski
 :::
 
-[Przeczytaj cały artykuł](adopcja-bim-na-etapie-przetargow.qmd){.cta-primary style="display: inline-block; margin-top: 16px;"}
+[Przeczytaj cały artykuł](adopcja-bim-na-etapie-przetargow.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
 :::
 :::
 
@@ -111,8 +145,8 @@ Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu W
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Subskrybuj, aby otrzymywać nasze najnowsze badania, analizy branżowe i praktyczne przewodniki wdrożeniowe.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Skontaktuj się z nami](../../../pl/kontakt.html){.cta-primary}
-[Zobacz nasze usługi](../../../pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
+[Skontaktuj się z nami](../../kontakt.html){.cta-primary}
+[Zobacz nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
@@ -171,7 +205,7 @@ Nasze publikacje odnoszą się do najbardziej krytycznych wyzwań stojących prz
 
 Zapraszamy do współpracy przy badaniach i analizach branżowych.
 
-[Skontaktuj się z nami](../../../pl/kontakt.html){.cta-secondary style="display: inline-block;"}
+[Skontaktuj się z nami](../../kontakt.html){.cta-secondary style="display: inline-block;"}
 :::
 
 :::
