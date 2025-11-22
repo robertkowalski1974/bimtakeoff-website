@@ -66,8 +66,8 @@ website:
             href: coming-soon.qmd
           - text: "Infrastruktura"
             href: coming-soon.qmd
-      - text: "Portfolio"
-        href: coming-soon.qmd
+      - text: "Wygrywanie Przetargów"
+        href: wygrywanie-przetargow.qmd
       - text: "Zasoby"
         menu:
           - text: "Przewodnik BIM 2030"

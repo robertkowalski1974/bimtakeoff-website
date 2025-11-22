@@ -80,8 +80,8 @@ website:
             href: industries/industrial-manufacturing.qmd
           - text: "Infrastructure & Civil Works"
             href: industries/infrastructure-civil.qmd
-      - text: "Portfolio"
-        href: coming-soon.qmd
+      - text: "Tender Winning"
+        href: tender-winning.qmd
       - text: "Resources"
         menu:
           - text: "ROI Calculator"

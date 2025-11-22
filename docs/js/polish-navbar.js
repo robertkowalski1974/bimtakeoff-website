@@ -14,6 +14,7 @@
         'Services': 'Usługi',
         'Industries': 'Branże',
         'Portfolio': 'Portfolio',
+        'Tender Winning': 'Wygrywanie Przetargów',
         'Resources': 'Zasoby',
         'About': 'O Nas',
         'Contact': 'Kontakt',
@@ -184,6 +185,12 @@
         '../coming-soon.html': '/pl/coming-soon.html',
         './coming-soon.html': '/pl/coming-soon.html',
         '/coming-soon.html': '/pl/coming-soon.html',
+        
+        // TENDER WINNING - Use absolute paths
+        '../tender-winning.html': '/pl/wygrywanie-przetargow.html',
+        './tender-winning.html': '/pl/wygrywanie-przetargow.html',
+        '/tender-winning.html': '/pl/wygrywanie-przetargow.html',
+        'tender-winning.html': '/pl/wygrywanie-przetargow.html',
         
         // ROI CALCULATOR - Use absolute paths
         'resources/roi-calculator.html': '/pl/zasoby/kalkulator-roi.html',
