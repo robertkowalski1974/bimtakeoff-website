@@ -1,0 +1,42 @@
+# Zmiany w indeksie publikacji - 23 listopada 2025
+
+## Dodany artykuł
+- Tytuł: AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością
+- Data publikacji: 23 listopada 2025
+- Ścieżka: /pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.qmd
+
+## Wykonane zmiany
+
+### 1. Aktualizacja ilustracji w artykule
+Zmieniono ścieżkę obrazu w artykule polskim na zgodną z wersją angielską:
+- Przed: ../../../images/ai-takeoff-analysis.jpg
+- Po: ../../../images/AI-Estimating.png
+
+### 2. Dodanie wpisu do indeksu publikacji
+Dodano nową kartę publikacji w /pl/zasoby/publikacje/index.qmd
+Umieszczono jako pierwszą pozycję (najnowsza publikacja)
+
+Zawartość wpisu:
+- Ilustracja: AI-Estimating.png (ta sama co w wersji angielskiej)
+- Tagi: Technologie Budowlane, AI, Kosztorysowanie
+- Czas czytania: 25 min
+- Kluczowe spostrzeżenia:
+  * Wszystkie deklaracje dokładności pochodzą od producentów — brak niezależnych testów
+  * RICS wprowadził obowiązkowy nadzór specjalistów nad wynikami AI
+  * Rzeczywiste oszczędności czasu: 40-60%, nie 80-90% jak deklarują producenci
+  * Dokładność 97-98% możliwa tylko w idealnych warunkach z czystymi rysunkami wektorowymi
+
+Link do artykułu: ai-przedmiary-deklaracje-vs-rzeczywistosc.html
+
+## Pliki zmienione
+1. /pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.qmd
+   - Zmiana ścieżki obrazu
+   
+2. /pl/zasoby/publikacje/index.qmd
+   - Dodanie nowej karty publikacji na pierwszej pozycji
+
+## Następne kroki
+- Sprawdzić czy strona renderuje się poprawnie
+- Upewnić się, że wszystkie linki działają
+- Zweryfikować wyświetlanie ilustracji AI-Estimating.png
+- Przetestować responsywność na urządzeniach mobilnych

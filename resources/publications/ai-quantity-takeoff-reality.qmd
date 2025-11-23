@@ -8,26 +8,28 @@ categories: [AI, Quantity Takeoff, Construction Technology, Software Evaluation,
 image: "../../images/AI-Estimating.png"
 ---
 
-::: {.hero-section}
+<div class="hero-section">
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
     <source src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
-::: {.container}
-::: {.hero-title}
+<div class="container">
+<div class="hero-title">
+
 # AI Quantity Takeoff in Construction
 ### The Gap Between Marketing Claims and Reality
-:::
 
-::: {.hero-subtitle}
+</div>
+
+<div class="hero-subtitle">
 Why 97-98% accuracy claims require substantial professional oversight
-:::
-:::
-:::
+</div>
+</div>
+</div>
 
-::: {.container}
+<div class="container">
 
 ## The Promise vs. The Reality
 
@@ -416,7 +418,7 @@ The sweet spot, as industry experts consistently note, lies in synergizing AI's 
 :::
 :::
 
-:::
+</div>
 
 <style>
 .feature-grid {

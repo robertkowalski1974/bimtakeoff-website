@@ -36,6 +36,40 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/AI-Estimating.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Technologie Budowlane</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
+:::
+
+### AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 23 listopada 2025 | ⏱️ 25 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością. Badania pokazują, że deklaracje marketingowe znacząco zawyżają możliwości — rzeczywiste oszczędności czasu to 40-60% zamiast obiecywanych 80-90%, a dokładność 95-99% nie ma niezależnej weryfikacji.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+- Wszystkie deklaracje dokładności pochodzą od producentów — brak niezależnych testów
+- RICS wprowadził obowiązkowy nadzór specjalistów nad wynikami AI
+- Rzeczywiste oszczędności czasu: 40-60%, nie 80-90% jak deklarują producenci
+- Dokładność 97-98% możliwa tylko w idealnych warunkach z czystymi rysunkami wektorowymi
+:::
+
+[Przeczytaj cały artykuł](ai-przedmiary-deklaracje-vs-rzeczywistosc.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../../images/70Percent.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 

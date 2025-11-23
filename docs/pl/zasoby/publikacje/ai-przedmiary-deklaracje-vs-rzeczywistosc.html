@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+
+<html lang="pl" xml:lang="pl" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8"/><link href="https://robertkowalski1974.github.io/bimtakeoff-website/pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.html" rel="canonical"/>
+<meta content="quarto-1.4.549" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<meta content="Robert Kowalski" name="author"/>
+<meta content="Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością" name="description"/>
+<title>BIM Takeoff - AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta content="../../../" name="quarto:offset"/>
+<link href="../../../images/favicon.ico" rel="icon"/>
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet"/>
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" id="quarto-text-highlighting-styles" rel="stylesheet"/>
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/>
+<link data-mode="light" href="../../../site_libs/bootstrap/bootstrap.min.css" id="quarto-bootstrap" rel="stylesheet"/>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
+<!-- End Google Tag Manager -->
+<!-- LinkedIn Insight Tag -->
+<script type="text/javascript">
+_linkedin_partner_id = "8743217";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<!-- End LinkedIn Insight Tag -->
+<!-- Twitter Card metadata -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@bimtakeoff" name="twitter:site"/>
+<meta content="@bimtakeoff" name="twitter:creator"/>
+<meta content="BIM Takeoff - AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością" name="twitter:title"/>
+<meta content="Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością" name="twitter:description"/>
+<!-- Organization Structured Data (Global) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BIM Takeoff",
+  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
+  "url": "https://robertkowalski1974.github.io/bimtakeoff-website",
+  "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+  "telephone": "+44-20-3239-9967",
+  "email": "info@bimtakeoff.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "GB"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    {
+      "@type": "Country",
+      "name": "Poland"
+    }
+  ],
+  "serviceType": [
+    "BIM 5D Cost Estimation",
+    "Quantity Surveying",
+    "Construction Cost Consulting",
+    "Automated Quantity Takeoff",
+    "BIM Coordination Services"
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "20"
+  }
+}
+</script>
+<script>
+// Load chat widget based on language
+if (!window.location.pathname.includes('/pl/')) {
+    // English pages: Load Pipedrive chat
+    window.pipedriveLeadboosterConfig = {
+        base: 'leadbooster-chat.pipedrive.com',
+        companyId: 14252767,
+        playbookUuid: 'ea9cb334-dcb6-410b-a945-1f0f96d8ad91',
+        version: 2
+    };
+    (function () {
+        var w = window;
+        if (w.LeadBooster) {
+            console.warn('LeadBooster already exists');
+        } else {
+            w.LeadBooster = {
+                q: [],
+                on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},
+                trigger: function (n) {this.q.push({ t: 't', n: n });}
+            };
+        }
+    })();
+
+    // Dynamically load the Pipedrive script
+    var script = document.createElement('script');
+    script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    script.async = true;
+    document.head.appendChild(script);
+} else {
+    // Polish pages: Load Polish Pipedrive chat
+    window.pipedriveLeadboosterConfig = {
+        base: 'leadbooster-chat.pipedrive.com',
+        companyId: 14252767,
+        playbookUuid: '0cb8d4e1-69c7-417e-baf4-baa9861b409d',
+        version: 2
+    };
+    (function () {
+        var w = window;
+        if (w.LeadBooster) {
+            console.warn('LeadBooster already exists');
+        } else {
+            w.LeadBooster = {
+                q: [],
+                on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},
+                trigger: function (n) {this.q.push({ t: 't', n: n });}
+            };
+        }
+    })();
+
+    // Dynamically load the Polish Pipedrive script
+    var script = document.createElement('script');
+    script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
+    script.async = true;
+    document.head.appendChild(script);
+}
+</script>
+<link href="../../../css/styles.css" rel="stylesheet"/>
+<meta content="BIM Takeoff - AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością" property="og:title"/>
+<meta content="Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością" property="og:description"/>
+<meta content="https://robertkowalski1974.github.io/bimtakeoff-website/images/AI-Estimating.png" property="og:image"/>
+<meta content="BIM Takeoff" property="og:site_name"/>
+<meta content="en_GB" property="og:locale"/>
+<meta content="1024" property="og:image:height"/>
+<meta content="1024" property="og:image:width"/>
+<link href="https://robertkowalski1974.github.io/bimtakeoff-website/pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.html" hreflang="pl" rel="alternate"/></head>
+<body class="nav-fixed">
+<div id="quarto-search-results"></div>
+<header class="headroom fixed-top" id="quarto-header">
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+<div class="navbar-container container-fluid">
+<div class="navbar-brand-container mx-auto">
+<a class="navbar-brand navbar-brand-logo" href="../../../index.html">
+<img alt="BIM Takeoff Logo" class="navbar-logo" src="../../../images/BIM TAKEOFF V2-2.jpg"/>
+</a>
+<a class="navbar-brand" href="../../../index.html">
+<span class="navbar-title">BIM Takeoff</span>
+</a>
+</div>
+<div class="" id="quarto-search" title="Szukaj"></div>
+<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+<a class="nav-link" href="../../../index.html">
+<span class="menu-text">Home</span></a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-services" role="button">
+<span class="menu-text">Services</span>
+</a>
+<ul aria-labelledby="nav-menu-services" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../../services/cost-estimation-budget-planning.html">
+<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/trade-specific-specialist-services.html">
+<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/fast-track-cost-control.html">
+<span class="dropdown-text">Fast-Track Cost Control</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/mep-infrastructure-precision.html">
+<span class="dropdown-text">MEP Infrastructure Precision</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/multi-scenario-analysis.html">
+<span class="dropdown-text">Multi-Scenario Analysis</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/comprehensive-reporting.html">
+<span class="dropdown-text">Comprehensive Reporting</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/construction-data-management.html">
+<span class="dropdown-text">Construction Data Management</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../services/construction-logistics.html">
+<span class="dropdown-text">Construction Logistics</span></a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
+<span class="menu-text">Industries</span>
+</a>
+<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/data-centers.html">
+<span class="dropdown-text">Data Centers</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/residential-development.html">
+<span class="dropdown-text">Residential Development</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/remediation.html">
+<span class="dropdown-text">Remediation</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/housing-associations.html">
+<span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/healthcare-medical.html">
+<span class="dropdown-text">Healthcare &amp; Medical Facilities</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/industrial-manufacturing.html">
+<span class="dropdown-text">Industrial &amp; Manufacturing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../industries/infrastructure-civil.html">
+<span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../../../tender-winning.html">
+<span class="menu-text">Tender Winning</span></a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
+</a>
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../coming-soon.html">
+<span class="dropdown-text">Case Studies</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../../../contact.html">
+<span class="menu-text">Contact</span></a>
+</li>
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="../../../pl/">
+<span class="menu-text">PL</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../../../">
+<span class="menu-text">EN</span></a>
+</li>
+</ul>
+</div> <!-- /navcollapse -->
+<div class="quarto-navbar-tools">
+</div>
+</div> <!-- /container-fluid -->
+</nav>
+</header>
+<!-- content -->
+<div class="quarto-container page-columns page-rows-contents page-layout-full page-navbar" id="quarto-content">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<div class="sidebar margin-sidebar" id="quarto-margin-sidebar">
+<nav class="toc-active" id="TOC" role="doc-toc">
+<h2 id="toc-title">Na tej stronie</h2>
+<ul>
+<li><a class="nav-link active" data-scroll-target="#ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością" href="#ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością" id="toc-ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością">AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</a>
+<ul class="collapse">
+<li><a class="nav-link" data-scroll-target="#obecny-rynek-prawdziwa-ai-a-przemianowane-narzędzia-cyfrowe" href="#obecny-rynek-prawdziwa-ai-a-przemianowane-narzędzia-cyfrowe" id="toc-obecny-rynek-prawdziwa-ai-a-przemianowane-narzędzia-cyfrowe">Obecny rynek: prawdziwa AI a przemianowane narzędzia cyfrowe</a></li>
+<li><a class="nav-link" data-scroll-target="#luka-w-weryfikacji-akademickiej-gdzie-są-dowody" href="#luka-w-weryfikacji-akademickiej-gdzie-są-dowody" id="toc-luka-w-weryfikacji-akademickiej-gdzie-są-dowody">Luka w weryfikacji akademickiej: gdzie są dowody?</a></li>
+<li><a class="nav-link" data-scroll-target="#niezależne-testy-porównawcze-nie-istnieją" href="#niezależne-testy-porównawcze-nie-istnieją" id="toc-niezależne-testy-porównawcze-nie-istnieją">Niezależne testy porównawcze nie istnieją</a></li>
+<li><a class="nav-link" data-scroll-target="#wydajność-w-rzeczywistych-warunkach-ujawnia-znaczące-wymagania-dotyczące-ręcznych-korekt" href="#wydajność-w-rzeczywistych-warunkach-ujawnia-znaczące-wymagania-dotyczące-ręcznych-korekt" id="toc-wydajność-w-rzeczywistych-warunkach-ujawnia-znaczące-wymagania-dotyczące-ręcznych-korekt">Wydajność w rzeczywistych warunkach ujawnia znaczące wymagania dotyczące ręcznych korekt</a></li>
+<li><a class="nav-link" data-scroll-target="#dokładność-jest-zależna-od-jakości-dokumentacji-i-specyfiki-projektu" href="#dokładność-jest-zależna-od-jakości-dokumentacji-i-specyfiki-projektu" id="toc-dokładność-jest-zależna-od-jakości-dokumentacji-i-specyfiki-projektu">Dokładność jest zależna od jakości dokumentacji i specyfiki projektu</a></li>
+<li><a class="nav-link" data-scroll-target="#porównanie-ai-z-tradycyjnymi-metodami-oszczędności-czasu-są-realne-ale-zawyżone" href="#porównanie-ai-z-tradycyjnymi-metodami-oszczędności-czasu-są-realne-ale-zawyżone" id="toc-porównanie-ai-z-tradycyjnymi-metodami-oszczędności-czasu-są-realne-ale-zawyżone">Porównanie AI z tradycyjnymi metodami: oszczędności czasu są realne, ale zawyżone</a></li>
+<li><a class="nav-link" data-scroll-target="#przyszła-trajektoria-przyrostowa-poprawa-nie-perfekcja" href="#przyszła-trajektoria-przyrostowa-poprawa-nie-perfekcja" id="toc-przyszła-trajektoria-przyrostowa-poprawa-nie-perfekcja">Przyszła trajektoria: przyrostowa poprawa, nie perfekcja</a></li>
+<li><a class="nav-link" data-scroll-target="#co-rzeczoznawcy-kosztorysowi-muszą-wiedzieć" href="#co-rzeczoznawcy-kosztorysowi-muszą-wiedzieć" id="toc-co-rzeczoznawcy-kosztorysowi-muszą-wiedzieć">Co rzeczoznawcy kosztorysowi muszą wiedzieć</a></li>
+<li><a class="nav-link" data-scroll-target="#podsumowanie-użyteczne-narzędzie-nie-panaceum" href="#podsumowanie-użyteczne-narzędzie-nie-panaceum" id="toc-podsumowanie-użyteczne-narzędzie-nie-panaceum">Podsumowanie: użyteczne narzędzie, nie panaceum</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+<header class="quarto-title-block default" id="title-block-header">
+<div class="quarto-title">
+<h1 class="title">AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</h1>
+<div class="quarto-categories">
+<div class="quarto-category">Technologie Budowlane</div>
+<div class="quarto-category">AI</div>
+<div class="quarto-category">Kosztorysowanie</div>
+<div class="quarto-category">Recenzja Oprogramowania</div>
+</div>
+</div>
+<div>
+<div class="description">
+    Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością
+  </div>
+</div>
+<div class="quarto-title-meta column-page-left">
+<div>
+<div class="quarto-title-meta-heading">Autor</div>
+<div class="quarto-title-meta-contents">
+<p>Robert Kowalski </p>
+</div>
+</div>
+<div>
+<div class="quarto-title-meta-heading">Opublikowano</div>
+<div class="quarto-title-meta-contents">
+<p class="date">23 listopada 2025</p>
+</div>
+</div>
+</div>
+</header>
+<section class="level1" id="ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością">
+<h1>AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</h1>
+<p><strong>Oprogramowanie do przedmiarów budowlanych oparte na sztucznej inteligencji obiecuje oszczędność czasu rzędu 80–90% oraz dokładność na poziomie 95–99%, jednak brakuje niezależnej weryfikacji, a wyniki wymagają znaczących ręcznych korekt.</strong> Specjaliści branżowi, tacy jak Robert Kowalski, mają prawo być sceptyczni — kompleksowe badania pokazują, że <strong>deklaracje marketingowe znacząco zawyżają możliwości</strong>, a rzeczywiste oszczędności czasu są bliższe 40–60%, przy czym dokładność silnie zależy od jakości dokumentacji. Brytyjski Instytut Rzeczoznawców Majątkowych (RICS) wprowadził obowiązek nadzoru specjalistów nad wszystkimi wynikami generowanymi przez AI, uznając, że automatyzacja nie może zastąpić wiedzy rzeczoznawcy kosztorysowego. Choć technologia wykazuje rzeczywisty potencjał, osiągając dokładność 97–98% w idealnych projektach, <strong>nie istnieją niezależne testy porównawcze</strong> — wszystkie deklaracje dotyczące dokładności pochodzą od samych producentów, a weryfikacja akademicka jest szczątkowa.</p>
+<section class="level2" id="obecny-rynek-prawdziwa-ai-a-przemianowane-narzędzia-cyfrowe">
+<h2 class="anchored" data-anchor-id="obecny-rynek-prawdziwa-ai-a-przemianowane-narzędzia-cyfrowe">Obecny rynek: prawdziwa AI a przemianowane narzędzia cyfrowe</h2>
+<p>Rynek oprogramowania do przedmiarów budowlanych dzieli się na dwa odrębne pokolenia. Tradycyjne narzędzia cyfrowe, takie jak PlanSwift, Bluebeam Revu i OnScreen Takeoff, dominują od 20 lat, ale wymagają rozległych pomiarów manualnych metodą „kliknij i obrysuj”. Nowa fala platform stawiających AI na pierwszym miejscu pojawiła się między 2022 a 2024 rokiem — <strong>Togal.AI, Beam AI, Kreo Software i Workpack</strong> — deklarując automatyzację 80–90% procesu z wykorzystaniem widzenia komputerowego i głębokiego uczenia maszynowego.</p>
+<p><strong>Togal.AI</strong> był pionierem rynku w 2022 roku, dysponując zastrzeżonymi algorytmami deklarującymi <strong>98% dokładność na rzutach kondygnacji</strong>. System automatycznie wykrywa pomieszczenia, ściany, drzwi i okna, wykorzystując standardy pomiarowe AIA, oferując funkcje takie jak automatyczny przedmiar całych zestawów planów jednym kliknięciem. Jednak firma otwarcie przyznaje ograniczenia: nieregularne kształty mogą być usuwane niespójnie w zależności od jakości planu, dokumentacja instalacji MEP i konstrukcji jest nadal w fazie rozwoju, a przegląd przez człowieka pozostaje konieczny. Z około 1000 użytkownikami i trzema przyznanymi patentami Togal reprezentuje najbardziej dojrzałe rozwiązanie stawiające AI na pierwszym miejscu.</p>
+<p><strong>Beam AI</strong> przyjmuje odmienne podejście jako usługa „zrobione za Ciebie” zamiast oprogramowania samoobsługowego. Wykonawcy przesyłają plany i otrzymują sprawdzone przedmiary w ciągu 24–72 godzin, przy czym Beam deklaruje dokładność ±1%. Co kluczowe, ta dokładność zależy od <strong>kosztorysantów sprawdzających każdy przedmiar wygenerowany przez AI</strong> — automatyzacja nie jest w pełni autonomiczna. Z 48 milionami dolarów finansowania i ponad 1100 firmami korzystającymi z platformy Beam obsługuje wykonawców przetwarzających ponad 500 arkuszy rocznie.</p>
+<p><strong>Kreo Software</strong> deklaruje „dokładność do 98,5%” poprzez swój „Agencyjny Przepływ Pracy”, który autonomicznie odczytuje rysunki i generuje raporty. System uczy się na danych użytkowników, tworząc spersonalizowane szablony i obsługując złożone obliczenia, jak dachy wielospadowe i ściany wielowarstwowe. Jednak recenzje użytkowników na Capterra pokazują inny obraz: <em>„Automatyczny pomiar potrafi być trochę chaotyczny i spędzam tyle samo czasu, porządkując dane, co przy zwykłym przedmiarze”</em>. Ta pojedyncza opinia użytkownika bezpośrednio przeczy deklaracjom producenta o masywnych oszczędnościach czasu.</p>
+<p>Tradycyjne platformy, jak PlanSwift i Bluebeam, dodały ograniczone funkcje AI — PlanSwift pozostaje głównie cyfrowym narzędziem do przedmiarów z zestawami typu „przeciągnij i upuść”, podczas gdy Procore nabyło możliwości AI poprzez zakup Esticom i obecnie oferuje „Automatyczny Przedmiar Powierzchni” wykorzystujący uczenie maszynowe do wykrywania pomieszczeń. Raport JBKnowledge Construction Technology Report wykazał, że w 2014 roku <strong>OnScreen Takeoff posiadał 37,6% udziału w rynku, a PlanSwift 41,4%</strong>, jednak te wskaźniki adopcji nie mówią nic o wydajności ani dokładności.</p>
+</section>
+<section class="level2" id="luka-w-weryfikacji-akademickiej-gdzie-są-dowody">
+<h2 class="anchored" data-anchor-id="luka-w-weryfikacji-akademickiej-gdzie-są-dowody">Luka w weryfikacji akademickiej: gdzie są dowody?</h2>
+<p><strong>Najbardziej krytycznym odkryciem jest znacząca luka w badaniach akademickich weryfikujących dokładność AI/ML w przedmiarach budowlanych.</strong> Większość prac akademickich koncentruje się na podejściach opartych na BIM (ekstrakcja ilości z gotowych modeli 3D) zamiast na analizie rysunków 2D przez AI. To reprezentuje fundamentalną rozbieżność między komercyjnymi deklaracjami producentów a rygorystyczną weryfikacją naukową.</p>
+<p>Nieliczne istotne badania ujawniają ważne ograniczenia. Badanie z 2023 roku w <em>Nature Scientific Reports</em> analizowało automatyczny przedmiar w norweskim projekcie drogowym wykorzystującym modele BIM — <strong>tylko 40% z 486 pozycji kosztorysowych można było zautomatyzować</strong>, przy czym odtwarzalność była wątpliwa, a 70% kodów było specyficznych dla projektu. Praca doktorska z 2006 roku z Brigham Young University porównująca BIM z przedmiarem na ekranie wykazała bardzo zmienną dokładność w zależności od elementu: <strong>BIM pokazał 1% błędu dla powierzchni płyt, ale 32% błędu dla cegły zewnętrznej</strong>, podczas gdy tradycyjny przedmiar na ekranie wykazał błąd od 3% do 46% w zależności od elementu.</p>
+<p>Badania nad głębokim uczeniem dla wykrywania komponentów pokazują większe nadzieje, ale dotyczą tylko wstępnych kroków, nie pełnego przedmiaru. Badanie MDPI z 2020 roku wykorzystujące detekcję opartą na YOLO osiągnęło <strong>ponad 80% dokładność</strong> w wykrywaniu komponentów konstrukcyjnych z rysunków 2D w 0,71 sekundy na obraz. Inne badanie z 2020 roku wykazało <strong>91,6% dokładność rozpoznawania symboli i 83,1% dla rozpoznawania znaków</strong> w schematach P&amp;ID. Badanie porównawcze modeli głębokiego uczenia wykazało, że ConvNeXt sprawdza się najlepiej dla rysunków budowy mostów, podczas gdy YOLOv7/YOLOv8 lepiej radzą sobie ze stylami symboli o dużej zmienności — ale ponownie, to wykrywanie symboli, nie obliczanie ilości.</p>
+<p><strong>Nie istnieją kompleksowe badania walidacyjne porównujące AI z manualnym przedmiarem w wielu typach projektów z rygorystyczną analizą statystyczną.</strong> Branży brakuje standaryzowanych metryk dokładności, publicznie dostępnych zbiorów danych do treningu i walidacji oraz badań długoterminowych śledzących dokładność AI przez pełne cykle życia projektów. Komercyjni producenci deklarujący dokładność 95–99% nie zapewniają: weryfikacji w recenzowanych publikacjach, opublikowanej metodologii pomiaru dokładności, wielkości próbek i warunków testowych, przedziałów ufności ani niezależnej weryfikacji przez strony trzecie.</p>
+</section>
+<section class="level2" id="niezależne-testy-porównawcze-nie-istnieją">
+<h2 class="anchored" data-anchor-id="niezależne-testy-porównawcze-nie-istnieją">Niezależne testy porównawcze nie istnieją</h2>
+<p><strong>Kompleksowe testy porównawcze stron trzecich porównujące dokładność oprogramowania do przedmiarów nie istnieją na rynku technologii budowlanych.</strong> To prawdopodobnie najbardziej przygnębiające odkrycie dla branży składającej tak śmiałe deklaracje o dokładności. W przeciwieństwie do testowania oprogramowania (certyfikacja ISTQB), testowania materiałów budowlanych (standardy ASTM/AASHTO) czy urządzeń medycznych (walidacja FDA), oprogramowanie do kosztorysowania budowlanego nie podlega żadnym regulacyjnym wymaganiom dotyczącym dokładności i nie posiada standaryzowanych organów certyfikujących.</p>
+<p><strong>Jedynym znalezionym akademickim badaniem porównawczym</strong> był projekt z Wydziału CEAE Uniwersytetu Kansas porównujący Togal.AI z On-Screen Takeoff na zestawie rysunków remizy strażackiej. Badanie zmierzyło oszczędność czasu (Togal ukończył przedmiary w około 30 minut wobec ponad 2,5 godziny dla OST — 76% redukcja), ale stwierdziło, że Togal utrzymał „wysoki poziom dokładności” <strong>bez podania jakichkolwiek konkretnych metryk dokładności czy metodologii walidacji</strong>. To pojedyncze badanie, cytowane na stronie internetowej samego Togal, reprezentuje zakres akademickiego testowania porównawczego.</p>
+<p>Raport JBKnowledge Construction Technology Report, przeprowadzany corocznie we współpracy z Construction Financial Management Association i Texas A&amp;M University, jest najbardziej autorytatywnym źródłem danych branżowych. Jednak mierzy on <strong>penetrację rynku i adopcję przez użytkowników, nie dokładność oprogramowania, metryki wydajności czy wyniki testów porównawczych</strong>. Raport nie dostarcza danych porównawczych o precyzji przedmiaru, współczynnikach błędów czy porównaniach jakościowych między platformami.</p>
+<p>Duże firmy analityczne nie oferują pomocy. <strong>Gartner nie publikuje Magic Quadrant dla oprogramowania do przedmiarów budowlanych.</strong> Forrester nie ma raportów Wave dotyczących dokładności przedmiarów. ENR śledzi, jakiego oprogramowania używają Top 400 wykonawców, ale nie prowadzi testów dokładności. Stowarzyszenia branżowe — AGC, RICS, CIOB — oferują profesjonalną akredytację dla osób fizycznych, nie produktów programistycznych, i nie prowadzą programów testowania czy certyfikacji.</p>
+<p>Agregatory recenzji oprogramowania, jak G2, Capterra i Software Advice, dostarczają oceny zadowolenia użytkowników i listy funkcji, ale <strong>nie przeprowadzają ani nie publikują testów dokładności</strong>. Co gorsza, badania przeprowadzone przez Originality.AI wykazały, że <strong>26–33% recenzji na platformach jak G2 i Capterra prawdopodobnie zostało wygenerowanych przez AI</strong> od uruchomienia ChatGPT, co rodzi poważne pytania o autentyczność recenzji.</p>
+<p>Wszystkie deklaracje dotyczące dokładności pochodzą <strong>od samych producentów</strong>: Beam AI deklaruje ±1% z przeglądem zespołu QA (nadzór człowieka, nie niezależne testowanie), Togal.AI deklaruje 98% używając standardów AIA (raport własny), Kreo cytuje opinie użytkowników bez kwantyfikowanych metryk. Żaden nie zapewnia niezależnej weryfikacji.</p>
+</section>
+<section class="level2" id="wydajność-w-rzeczywistych-warunkach-ujawnia-znaczące-wymagania-dotyczące-ręcznych-korekt">
+<h2 class="anchored" data-anchor-id="wydajność-w-rzeczywistych-warunkach-ujawnia-znaczące-wymagania-dotyczące-ręcznych-korekt">Wydajność w rzeczywistych warunkach ujawnia znaczące wymagania dotyczące ręcznych korekt</h2>
+<p>Rozbieżność między marketingiem a rzeczywistością staje się jaskrawa przy analizie udokumentowanych doświadczeń użytkowników i ocen profesjonalistów. Podczas gdy producenci uniwersalnie deklarują oszczędności czasu 80–90%, <strong>rzeczywiście raportowane oszczędności wynoszą między 40–60%</strong>, ze znaczącym czasem spędzonym na oczyszczaniu, organizacji i walidacji danych.</p>
+<p>Studium przypadku strony trzeciej z udziałem Angusa Cockburna, rzeczoznawcy kosztorysowego z ponad 35-letnim doświadczeniem, wykazało zmierzenie 2700 pomiarów powierzchni i obwodu w 3 dni przy użyciu Bluebeam — <strong>70% szybciej niż ręcznie, nie 80–90%</strong>. Co kluczowe, Cockburn był „tak nowy w Bluebeam”, że początkowo nie wiedział, jak eksportować pomiary, co wskazuje, że nadal wykonywał znaczącą pracę ręczną.</p>
+<p>Recenzje użytkowników ujawniają ukryte koszty czasowe. Jeden z użytkowników Kreo na Capterra napisał: <em>„Najlepsza rzecz w Kreo to wspomagany AI przedmiar. Uważam, że automatyczny pomiar potrafi być trochę chaotyczny i spędzam tyle samo czasu, porządkując dane, co przy zwykłym przedmiarze”</em>. Inny zauważył, że „za każdym razem, gdy zaczynasz i kończysz, tworzony jest nowy warunek” wymagający ręcznej konsolidacji, w przeciwieństwie do OnScreen Takeoff, który grupuje automatycznie. Wielu użytkowników narzekało, że Kreo „działa najlepiej z rysunkami wektorowymi i nowoczesnymi rzutami budynków”, ale ma problemy ze „skanami zarejestrowanych planów kondominiów”.</p>
+<p><strong>Brytyjski Instytut Rzeczoznawców Majątkowych uznał za konieczne stworzenie obowiązkowych standardów</strong> właśnie ze względu na obawy dotyczące niezawodności AI. Globalny Standard RICS dotyczący Użycia AI, obowiązujący od marca 2026 roku, wymaga: obowiązkowego nadzoru specjalistów (wyniki AI muszą być sprawdzane przez wykwalifikowanych rzeczoznawców), pisemnych ocen ryzyka dla wszystkich zastosowań AI, regularnych „wyrywkowych kontroli” wyników generowanych przez AI oraz profesjonalnego sceptycyzmu stosowanego przez cały proces. Carys Rowlands, współautorka Standardów RICS, wyjaśniła: <em>„Nasi członkowie zaczynają używać AI na co dzień i używają go czasami w dość znaczący sposób… Przeprowadziliśmy ankietę wśród naszych członków… ujawniła ona dość duży rozrzut komfortu i kompetencji w zakresie używania AI”</em>.</p>
+<p>Niezależne firmy rzeczoznawców kosztorysowych potwierdzają te obawy. Artykuł z maja 2025 roku z Project Flux/Quantik stwierdził: <em>„Wiele tak zwanych rozwiązań AI dla rzeczoznawstwa kosztorysowego oferuje niewiele więcej niż podstawową automatyzację lub systemy oparte na regułach przebrane w terminologię AI. Prawdziwe systemy AI wykazują zdolności takie jak uczenie się na nowych danych, adaptacja do nowych sytuacji i poprawa wydajności w czasie — cechy nieobecne w wielu produktach obecnie sprzedawanych rzeczoznawcom kosztorysowym”</em>. Artykuł zidentyfikował powszechne luki w umiejętnościach danych i „problemy z promptowaniem”, z rzeczoznawcami kosztorysowymi „podchodzącymi do tych wyrafinowanych systemów tak, jakby były wyszukiwarką”.</p>
+<p>Grupa Altus, w webinarze AIQS, podkreśliła: <em>„Najtrudniejszą częścią procesu nie jest zbudowanie formuły… Najtrudniejszą częścią jest zebranie danych do przeprowadzenia modelowania”</em> — podkreślając, że AI nie rozwiązuje podstawowego wyzwania. Dodali: <em>„Modele AI nie są zawsze niezawodne… Modele AI nie mają ludzkiej świadomości do wnioskowania o znaczeniu, interpretacji rozmów i, co być może najważniejsze, do inspirowania nowych pomysłów”</em>.</p>
+<p>Nawet <strong>Beam AI, pomimo deklaracji marketingowych o pełnej automatyzacji, przyznaje</strong>: <em>„Każdy przedmiar oparty na AI jest sprawdzany przez doświadczonego kosztorysanta, zapewniając 99,9% dokładność”</em> — dowodząc, że przegląd przez człowieka jest niezbędny do osiągnięcia deklarowanych wskaźników dokładności.</p>
+</section>
+<section class="level2" id="dokładność-jest-zależna-od-jakości-dokumentacji-i-specyfiki-projektu">
+<h2 class="anchored" data-anchor-id="dokładność-jest-zależna-od-jakości-dokumentacji-i-specyfiki-projektu">Dokładność jest zależna od jakości dokumentacji i specyfiki projektu</h2>
+<p>Dokładność AI silnie zależy od jakości dokumentów źródłowych i typu projektu — fakt, który producenci często ukrywają w drobnym druku. Technologia <strong>działa najlepiej na czystych, wektorowych plikach PDF z czytelnymi symbolami i standardowymi konwencjami</strong>, ale <strong>ma problemy z</strong>: zeskanowanymi lub niskojasności rysunkami, planami z ręcznymi adnotacjami, historycznymi lub mieszanymi formatami dokumentów, rozmytymi lub niskorzednymi plikami oraz niestandardowymi symbolami.</p>
+<p>Opinie użytkowników konsekwentnie potwierdzają to ograniczenie. Recenzent Kreo stwierdził: <em>„Kreo działa najlepiej z rysunkami wektorowymi i nowoczesnymi rzutami budynków. Trudno jest użyć dla zeskanowanych, niskiej jakości rysunków, które może trzeba będzie zmierzyć. To nie wina oprogramowania, po prostu nie było zaprojektowane do tego”</em>. Inny zauważył: <em>„Kreo AI nie radzi sobie dobrze ze skanami zarejestrowanych planów kondominiów. Automatyzacja działa najlepiej z nowoczesnymi, czystymi rysunkami wektorowymi”</em>.</p>
+<p>Użytkownicy muszą ręcznie weryfikować, że cyfrowe pomiary odpowiadają rzeczywistości — krytyczny krok często pomijany w obliczeniach oszczędności czasu.</p>
+<p><strong>Podczas przetwarzania przez AI</strong> kosztorysanci muszą nauczyć AI rozpoznawać niestandardowe symbole, definiować parametry pomiarowe dla wymagań specyficznych dla projektu i ustalać reguły dla specjalnych warunków. Ta praca konfiguracyjna pochłania znaczący czas przy pierwszym użyciu i musi być powtarzana dla różnych typów projektów.</p>
+<p><strong>Przetwarzanie końcowe reprezentuje najbardziej czasochłonną fazę.</strong> Wielu użytkowników zgłasza, że spędza „tyle samo czasu, porządkując dane, co przy zwykłym przedmiarze”. Zadania obejmują: sprawdzanie wszystkich wyników AI pod kątem dokładności, organizację „chaotycznych” danych w użyteczne formaty, konsolidację wielu pozycji (Kreo tworzy nowy warunek za każdym razem, gdy zaczynasz i kończysz), korygowanie błędnych identyfikacji, dodawanie pominiętych elementów oraz walidację względem specyfikacji. Jeden użytkownik zauważył: <em>„Lewy panel jest mylący”</em> i narzekał na potrzebę ręcznej konsolidacji pomiarów, które inne systemy grupują automatycznie.</p>
+<p><strong>Kroki kontroli jakości nakazane przez RICS</strong> obejmują: krzyżowe sprawdzanie krytycznych ilości, porównywanie z historycznymi wskaźnikami, stosowanie profesjonalnego osądu do anomalii oraz przegląd i zatwierdzenie przez klienta. Standard RICS wyraźnie stwierdza: <em>„Rzeczoznawcy muszą ocenić niezawodność wyników AI i pozostać odpowiedzialni za całą pracę”</em>. Jeśli wyniki są niewiarygodne, klienci muszą być powiadomieni.</p>
+<p><strong>Ukryte koszty czasowe nieuwzględnione w deklaracjach producentów o oszczędnościach czasu</strong>: krzywa uczenia i czas szkolenia (Workpack wymaga trzech sesji szkoleniowych), czyszczenie i organizacja danych, przegląd kontroli jakości, korekta błędów AI, weryfikacja i kalibracja skali oraz dostosowania konwersji i eksportu formatu. Kiedy te są uwzględnione, <strong>odkrycie Rady Przemysłu Budowlanego o „40% szybciej niż tradycyjne metody”</strong> wydaje się bardziej realistyczne niż deklaracje producentów o 80–90%.</p>
+<p>Stonehaven, firma rzeczoznawców kosztorysowych z ZEA, zauważyła: <em>„Podczas gdy AI może automatyzować strukturalne, powtarzalne zadania z imponującą wydajnością, brakuje jej niuansowego osądu i wrażliwości kontekstowej, jakiej wymaga wiele obowiązków rzeczoznawcy kosztorysowego”</em>. Kingsmead Consultants w Wielkiej Brytanii wnioskował: <em>„Zamiast całkowicie zastępować rzeczoznawców kosztorysowych, AI jest znacznie bardziej efektywna i niezawodna, gdy jest używana w połączeniu z ludzką wiedzą i strategicznym podejmowaniem decyzji”</em>.</p>
+</section>
+<section class="level2" id="porównanie-ai-z-tradycyjnymi-metodami-oszczędności-czasu-są-realne-ale-zawyżone">
+<h2 class="anchored" data-anchor-id="porównanie-ai-z-tradycyjnymi-metodami-oszczędności-czasu-są-realne-ale-zawyżone">Porównanie AI z tradycyjnymi metodami: oszczędności czasu są realne, ale zawyżone</h2>
+<p>Porównując pokolenia technologii przedmiarowej, <strong>istnieją rzeczywiste ulepszenia, ale nie spełniają one szumu marketingowego.</strong> Tradycyjny ręczny przedmiar z drukowanymi rysunkami, linijkami skalowymi i kalkulatorami wymagał 20–40 godzin na projekt i był bardzo podatny na błędy (88% arkuszy kalkulacyjnych zawiera błędy formuł według badań). Narzędzia cyfrowe pierwszej generacji, jak OnScreen Takeoff i PlanSwift, deklarowały <strong>15-krotny wzrost produktywności nad papierem</strong>, redukując czas projektu do około 5–10 godzin poprzez cyfrowe narzędzia pomiarowe i automatyczne obliczenia.</p>
+<p>Obecne platformy oparte na AI (Togal.AI, Beam AI, Kreo) osiągają dalsze ulepszenia: zadania są zredukowane do 1–2 godzin głównie czasu przeglądu, z deklarowaną dokładnością 97–98% w idealnych projektach oraz 50–90% redukcją czasu w porównaniu z narzędziami cyfrowymi pierwszej generacji. Jednak zakłada to czyste rysunki i nie uwzględnia czasu organizacji danych.</p>
+<p><strong>Udokumentowane rzeczywiste zyski produktywności</strong>: wykonawcy zgłaszają składanie 2–5 razy więcej ofert bez dodatkowego personelu (rzeczywista korzyść), oszczędność 15–20 godzin tygodniowo na kosztorysanta, a jedno studium przypadku pokazało firmę budowlaną oszczędzającą milion dolarów rocznie. Oszczędności czasu <strong>90 minut na arkusz i 80% szybsze przedmiary</strong> zostały niezależnie zweryfikowane w niektórych kontekstach.</p>
+<p>Ale porównanie ujawnia kluczowe zastrzeżenia. <strong>Ręczna dokładność była zmienna (5–10% współczynnik błędów), cyfrowa pierwszej generacji osiągnęła 2–5% współczynnik błędów, a obecna AI deklaruje ±1–2% z przeglądem QA.</strong> Kluczowa fraza to „z przeglądem QA” — bez profesjonalnego nadzoru współczynniki błędów znacząco rosną. Badanie Brigham Young University pokazało, że nawet z BIM (prekursorem AI) dokładność wahała się od 1% do 32% w zależności od mierzonego elementu budynku.</p>
+<p>Rola kosztorysanta fundamentalnie się zmieniła. Tradycyjni kosztorysanci byli ręcznymi operatorami mierzącymi i obliczającymi. Użytkownicy cyfrowi pierwszej generacji stali się cyfrowymi operatorami klikającymi i dodającymi adnotacje. <strong>Obecni użytkownicy AI funkcjonują jako analitycy danych i weryfikatorzy jakości</strong> — inny zestaw umiejętności koncentrujący się na walidacji zamiast pomiarze. To reprezentuje postęp, ale profesjonalna wiedza pozostaje niezbędna.</p>
+</section>
+<section class="level2" id="przyszła-trajektoria-przyrostowa-poprawa-nie-perfekcja">
+<h2 class="anchored" data-anchor-id="przyszła-trajektoria-przyrostowa-poprawa-nie-perfekcja">Przyszła trajektoria: przyrostowa poprawa, nie perfekcja</h2>
+<p>Masywne inwestycje venture capital sygnalizują zaufanie rynku, ale również ujawniają realistyczne ograniczenia. <strong>3,7 miliarda dolarów wpłynęło do technologii budowlanych przez Q3 2025</strong> (ponad dwa razy więcej niż w 2024 roku), przy czym <strong>technologie oparte na AI przejęły 2,22 miliarda dolarów i 46% inwestycji w contech w Q1 2025</strong>. Rynek przeszedł od „spekulacyjnej euforii do strategicznej dojrzałości”, z firmami budowlanymi grawitującymi ku sprawdzonym startupom Serii B+ zamiast wczesnych eksperymentów.</p>
+<p>Znaczące rundy finansowania obejmują <strong>30,5 miliona dolarów Serii B Beam AI</strong> (listopad 2025), doprowadzając całkowite finansowanie do 48 milionów dolarów i obsługując ponad 1100 firm; 20 milionów dolarów Serii A Trunk Tools koncentrujących się na agentach AI dla produktywności budowlanej; oraz 15 milionów dolarów rundy Buildots na zarządzanie budową oparte na AI z 121 milionami dolarów całkowitego finansowania.</p>
+<p>Jednak eksperci branżowi pozostają ostrożni co do oczekiwań. McKinsey przewiduje, że <strong>produktywność budowlana wzrośnie o 40–50% do 2030 roku dzięki AI, cyfryzacji i automatyzacji</strong> — znacząca poprawa, ale daleka od całkowitej transformacji. Oczekiwania rynkowe przesunęły się od „AI zastąpi kosztorysantów” do „AI zwiększy produktywność kosztorysantów”.</p>
+<p>Postęp technologiczny będzie kontynuowany, ale przyrostowo. <strong>GPT-4 Vision (listopad 2023) i późniejsze modele wielomodalne</strong> pokazują ulepszenia w rozumieniu obrazu, ale potrzebują rozległych zbiorów danych specyficznych dla domeny budowlanej. Automatyzacja procesów roboczych poprzez integrację z większymi systemami (Procore, CoConstruct, Buildertrend) zmniejsza tarcia, ale nie poprawia fundamentalnej dokładności przedmiaru. Konsolidacja branży jest prawdopodobna — mniejsze startupy zostaną przejęte przez ustalone platformy, podobnie jak Procore nabył Esticom.</p>
+<p><strong>Ograniczenia adaptacyjności</strong> powstają, ponieważ modele AI trenowane na danych historycznych mogą nie uchwycić wszystkich wariacji i złożoności. Unikalne wymagania projektu (niestandardowe projekty, materiały specjalistyczne, innowacyjne metody budowy), kulturowe i regionalne wariacje w praktykach budowlanych oraz rozumienie kontekstu („AI postrzega wzorce, ale brakuje jej wrodzonego rozumienia historii za nimi”) — wszystkie te czynniki wymagają ludzkiego osądu.</p>
+<p><strong>Wymagania dotyczące różnorodnych zbiorów danych</strong> oznaczają, że AI potrzebuje ekspozycji na ogromną różnorodność projektów budynków, stylów i materiałów. Ograniczone dane treningowe dla specjalistycznych branż czy unikalnych typów projektów zmniejszają dokładność. Sama skala wariacji budowlanej czyni naprawdę kompleksowe zbiory danych treningowych niepraktycznymi.</p>
+<p>Eksperci branżowi osiągnęli konsensus co do realistycznych oczekiwań. CostMiner podsumował: <em>„AI jest transformacyjna, ale nie jest wszechmocna. Najlepszy punkt leży w synergii obliczeniowej mocy AI z ludzkim osądem”</em>. Kreo przyznał: <em>„Dokładność i jakość danych: niedokładne lub niekompletne dane wejściowe mogą prowadzić do błędnych wyników. Dlatego kluczowe jest zapewnienie, że dane używane do treningu i walidacji są niezawodne”</em>.</p>
+<p><strong>Dlaczego 100% dokładność jest nierealistyczna</strong>: wrodzonej zmienności rysunków nie można w pełni standaryzować, interpretacja kontekstu i intencji wymaga ludzkiego zrozumienia, nowe sytuacje niereprezentowane w danych treningowych zawsze będą występować, kompromisy i decyzje osądowe są subiektywne, nawarstwianie błędów z problemów wyższego szczebla (błędy rysunkowe, niejasne specyfikacje) propaguje się przez system, a przypadki brzegowe i wyjątki zawsze istnieją w budownictwie.</p>
+<p>Branża zaakceptowała tę rzeczywistość: <strong>dokładność 97–98% jest uważana za doskonałą i wiodącą w branży</strong>, odchylenie ±1% od wewnętrznych szacunków jest akceptowalne, procesy QA/przeglądu są uznawane za konieczne kroki, a nacisk jest na „wysokie zaufanie z minimalnymi sprawdzeniami”, nie „zero sprawdzeń”.</p>
+</section>
+<section class="level2" id="co-rzeczoznawcy-kosztorysowi-muszą-wiedzieć">
+<h2 class="anchored" data-anchor-id="co-rzeczoznawcy-kosztorysowi-muszą-wiedzieć">Co rzeczoznawcy kosztorysowi muszą wiedzieć</h2>
+<p>Dla specjalistów takich jak Robert Kowalski, którzy doświadczyli, że te narzędzia „nie spełniają obietnicy automatycznych przedmiarów”, badania potwierdzają ten sceptycyzm. Kluczowe spostrzeżenia dla praktyków to:</p>
+<p><strong>Marketing kontra rzeczywistość</strong>: Deklaracje producentów o oszczędności czasu 80–90% powinny być skorygowane do 40–60%, gdy uwzględni się czyszczenie danych, przegląd QA i ręczne korekty. Deklaracje o dokładności 95–99% nie mają niezależnej walidacji i stosują się tylko do idealnych warunków (czyste wektorowe PDF, standardowe projekty, nowoczesne rysunki). Terminy takie jak „w pełni zautomatyzowany” lub „nie wymaga ręcznej pracy” są sygnałami ostrzegawczymi — wszystkie systemy wymagają profesjonalnego nadzoru.</p>
+<p><strong>Co działa, a co nie</strong>: AI działa dobrze w nowych budowach z czystymi modelami BIM, powtarzalnych projektach mieszkaniowych, standardowych budynkach komercyjnych z nowoczesnymi rysunkami wektorowymi oraz prostym zakresie z czytelnymi specyfikacjami. AI zwykle zawodzi w remontach z niejasnym stanem istniejącym, złożonych projektach niestandardowych, projektach z kiepską dokumentacją lub rysunkami ręcznymi, historycznych budynkach ze zeskanowanymi dokumentami oraz w każdym projekcie wymagającym kontekstowego osądu lub decyzji kompromisowych.</p>
+<p><strong>Obowiązkowy nadzór specjalistów</strong>: Standardy RICS wymagają pisemnych ocen ryzyka dla wszystkich zastosowań AI, regularnych wyrywkowych kontroli wyników, profesjonalnego sceptycyzmu stosowanego przez cały proces oraz powiadomienia klienta, jeśli wyniki są niewiarygodne. Rzeczoznawcy pozostają odpowiedzialni za całą pracę — AI nie przenosi odpowiedzialności.</p>
+<p><strong>Ukryte koszty</strong>: Implementacja wymaga czasu szkolenia (Workpack zgłasza trzy sesje potrzebne do biegłości), znaczącego czyszczenia i organizacji danych nawet po przetworzeniu AI, weryfikacji skali i kalibracji dla każdego rysunku, korekty błędnych identyfikacji i pominiętych elementów oraz walidacji względem specyfikacji i historycznych wskaźników. Koszty oprogramowania często ukrywają funkcje AI w warstwach premium wymagających kontaktu w celu ustalenia ceny.</p>
+<p><strong>Kryteria ewaluacji</strong>: Oceniając narzędzia, pytaj producentów o wskaźniki dokładności na zeskanowanych lub niskojasności rysunkach (nie tylko czystych PDF), procent wyników wymagających ręcznej korekty, czas spędzony na czyszczeniu danych, studia przypadków nieudanych wdrożeń (nie tylko sukcesów), konkretne dane treningowe użyte, obsługę niestandardowych symboli oraz obowiązkowe kroki QA po przetworzeniu.</p>
+<p><strong>Realistyczne oczekiwania</strong>: Traktuj oprogramowanie do przedmiarów AI jako narzędzie zwiększające produktywność wykwalifikowanych specjalistów, nie jako zautomatyzowane zastąpienie wiedzy rzeczoznawcy kosztorysowego. Budżetuj znaczący czas na szkolenie, procesy QA i profesjonalny przegląd przy wdrażaniu. Technologia wspomaga ludzką wiedzę, zamiast ją zastępować — sukces wymaga „synergii obliczeniowej mocy AI z ludzkim osądem”.</p>
+</section>
+<section class="level2" id="podsumowanie-użyteczne-narzędzie-nie-panaceum">
+<h2 class="anchored" data-anchor-id="podsumowanie-użyteczne-narzędzie-nie-panaceum">Podsumowanie: użyteczne narzędzie, nie panaceum</h2>
+<p>Badania kompleksowo potwierdzają, że <strong>oprogramowanie do przedmiarów AI reprezentuje rzeczywisty postęp technologiczny, ale znacząco odbiega od obietnic marketingowych.</strong> Producenci deklarujący oszczędność czasu 80–90% i dokładność 95–99% bez zastrzeżeń zawyżają możliwości — rzeczywiste oszczędności czasu wynoszą między 40–60%, znaczące ręczne korekty pozostają konieczne, a dokładność silnie zależy od jakości rysunku i typu projektu.</p>
+<p><strong>Najbardziej przygnębiające odkrycia</strong>: kompleksowe testy porównawcze stron trzecich nie istnieją, weryfikacja akademicka jest szczątkowa bez standaryzowanych metodologii testowania, wszystkie deklaracje dotyczące dokładności pochodzą od samych producentów bez niezależnej weryfikacji, organy profesjonalne jak RICS wprowadzają obecnie obowiązek ludzkiego nadzoru specjalnie ze względu na obawy dotyczące niezawodności oraz 26–33% recenzji online może być generowanych przez AI, co rodzi pytania o autentyczność.</p>
+<p>Jednak <strong>rzeczywiste korzyści istnieją dla tych z realistycznymi oczekiwaniami</strong>: udokumentowane zyski produktywności umożliwiające składanie 2–5 razy więcej ofert bez dodatkowego personelu, oszczędności czasu 40–60% na rutynowych zadaniach pomiarowych reprezentują rzeczywistą wartość, dokładność 97–98% w idealnych projektach przewyższa metody ręczne, funkcje współpracy w chmurze poprawiają koordynację zespołu, a zmniejszenie powtarzalnego klikania pozwala skupić się na analizie wyższej wartości i osądzie.</p>
+<p>Optymalne podejście łączy automatyzację AI z profesjonalnym nadzorem. Przyszłość branży budowlanej obejmuje kosztorysantów funkcjonujących jako analitycy danych i weryfikatorzy jakości zamiast ręcznych pomiarowców, AI obsługującą strukturalne powtarzalne zadania, podczas gdy ludzie skupiają się na kontekstowym osądzie, oraz ciągłe doskonalenie w miarę jak systemy uczą się na większych zbiorach danych, a nowsze technologie, jak GPT-4 Vision, dojrzewają.</p>
+<p>Dla Roberta Kowalskiego i innych rzeczoznawców kosztorysowych doświadczających rozczarowania narzędziami AI do przedmiarów problemem nie jest fundamentalna awaria narzędzi, ale raczej napompowany marketing tworzący nierealistyczne oczekiwania. <strong>Technologia działa — ale wymaga profesjonalnej wiedzy do walidacji, korygowania i interpretowania wyników.</strong> Ci, którzy traktują AI jako narzędzie produktywności w ramach profesjonalnego przepływu pracy, osiągają rzeczywiste korzyści. Ci, którzy oczekują automatyzacji „ustaw i zapomnij”, będą nadal rozczarowani.</p>
+<p>Najlepszy punkt, jak eksperci branżowi konsekwentnie zauważają, leży w synergii obliczeniowej szybkości AI z ludzkim osądem, doświadczeniem i kontekstowym zrozumieniem — partnerstwem między technologią a wiedzą, zamiast technologii zastępującej wiedzę.</p>
+</section>
+</section>
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Skopiowano!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Skopiowano!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/robertkowalski1974\.github\.io\/bimtakeoff-website");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+<div class="nav-footer">
+<div class="nav-footer-left">
+<p>© 2025 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+</div>
+<div class="nav-footer-center">
+<p><strong>Quick Links</strong><br/> <a href="../../../privacy-policy.html">Privacy Policy</a> | <a href="../../../terms-of-service.html">Terms of Service</a></p>
+</div>
+<div class="nav-footer-right">
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+</div>
+</div>
+</footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- LinkedIn Insight Tag (noscript) -->
+<noscript>
+<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
+</noscript>
+<!-- End LinkedIn Insight Tag (noscript) -->
+<!-- Scroll Effects & Animations -->
+<script src="../../../js/scroll-effects.js"></script>
+<!-- Polish Navbar Translation (activated only on /pl/ pages) -->
+<script src="../../../js/polish-navbar.js"></script>
+<!-- LinkedIn Conversion Tracking for Contact Links -->
+<script src="../../../js/linkedin-tracking.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

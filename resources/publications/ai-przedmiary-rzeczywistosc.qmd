@@ -8,26 +8,28 @@ categories: [AI, Przedmiary, Technologie Budowlane, Ocena Oprogramowania, Standa
 image: "../../images/AI-Estimating.png"
 ---
 
-::: {.hero-section}
+<div class="hero-section">
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
     <source src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
-::: {.container}
-::: {.hero-title}
+<div class="container">
+<div class="hero-title">
+
 # AI w przedmiarach budowlanych
 ### Między deklaracjami marketingowymi a rzeczywistością
-:::
 
-::: {.hero-subtitle}
+</div>
+
+<div class="hero-subtitle">
 Dlaczego deklaracje dokładności 97-98% wymagają znaczącego nadzoru specjalistów
-:::
-:::
-:::
+</div>
+</div>
+</div>
 
-::: {.container}
+<div class="container">
 
 ## Obietnica kontra rzeczywistość
 
@@ -416,7 +418,7 @@ Najlepszy punkt, jak eksperci branżowi konsekwentnie zauważają, leży w syner
 :::
 :::
 
-:::
+</div>
 
 <style>
 .feature-grid {
