@@ -1,17 +1,36 @@
 ---
-title: "AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością"
+title: "AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością | BIM Takeoff"
 description: "Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością"
-author: "Robert Kowalski"
+page-layout: full
+author: "BIM Takeoff"
 date: "2025-11-23"
 categories: [Technologie Budowlane, AI, Kosztorysowanie, Recenzja Oprogramowania]
 image: "../../../images/AI-Estimating.png"
-draft: false
-toc: true
-toc-depth: 3
 lang: pl
 ---
 
-# AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością
+<div class="hero-section">
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
+    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div class="container">
+<div class="hero-title">
+
+# AI w przedmiarach budowlanych
+### Między deklaracjami marketingowymi a rzeczywistością
+
+</div>
+
+<div class="hero-subtitle">
+Kompleksowa analiza dokładności oprogramowania AI do przedmiarów budowlanych
+</div>
+</div>
+</div>
+
+<div class="container">
 
 **Oprogramowanie do przedmiarów budowlanych oparte na sztucznej inteligencji obiecuje oszczędność czasu rzędu 80–90% oraz dokładność na poziomie 95–99%, jednak brakuje niezależnej weryfikacji, a wyniki wymagają znaczących ręcznych korekt.** Specjaliści branżowi, tacy jak Robert Kowalski, mają prawo być sceptyczni — kompleksowe badania pokazują, że **deklaracje marketingowe znacząco zawyżają możliwości**, a rzeczywiste oszczędności czasu są bliższe 40–60%, przy czym dokładność silnie zależy od jakości dokumentacji. Brytyjski Instytut Rzeczoznawców Majątkowych (RICS) wprowadził obowiązek nadzoru specjalistów nad wszystkimi wynikami generowanymi przez AI, uznając, że automatyzacja nie może zastąpić wiedzy rzeczoznawcy kosztorysowego. Choć technologia wykazuje rzeczywisty potencjał, osiągając dokładność 97–98% w idealnych projektach, **nie istnieją niezależne testy porównawcze** — wszystkie deklaracje dotyczące dokładności pochodzą od samych producentów, a weryfikacja akademicka jest szczątkowa.
 
@@ -146,3 +165,60 @@ Optymalne podejście łączy automatyzację AI z profesjonalnym nadzorem. Przysz
 Dla Roberta Kowalskiego i innych rzeczoznawców kosztorysowych doświadczających rozczarowania narzędziami AI do przedmiarów problemem nie jest fundamentalna awaria narzędzi, ale raczej napompowany marketing tworzący nierealistyczne oczekiwania. **Technologia działa — ale wymaga profesjonalnej wiedzy do walidacji, korygowania i interpretowania wyników.** Ci, którzy traktują AI jako narzędzie produktywności w ramach profesjonalnego przepływu pracy, osiągają rzeczywiste korzyści. Ci, którzy oczekują automatyzacji „ustaw i zapomnij", będą nadal rozczarowani.
 
 Najlepszy punkt, jak eksperci branżowi konsekwentnie zauważają, leży w synergii obliczeniowej szybkości AI z ludzkim osądem, doświadczeniem i kontekstowym zrozumieniem — partnerstwem między technologią a wiedzą, zamiast technologii zastępującej wiedzę.
+
+---
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Potrzebujesz profesjonalnego kosztorysowania?</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff zapewnia dokładność profesjonalnej wiedzy wzmocnionej technologią BIM 5D opartą na AI. Rozumiemy zarówno możliwości, jak i ograniczenia automatyzacji.</p>
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Kontakt](../../kontakt.qmd){.cta-primary}
+[Zobacz nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Profesjonalna walidacja wszystkich wyników</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±3-5% z nadzorem specjalistów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+:::
+:::
+:::
+
+</div>
+
+<style>
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.feature-card {
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.callout-box {
+  padding: 24px;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
