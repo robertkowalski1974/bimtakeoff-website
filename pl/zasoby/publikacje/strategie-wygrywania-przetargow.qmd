@@ -9,26 +9,28 @@ image: "../../../images/tender-strategy-cover.png"
 lang: pl
 ---
 
-::: {.hero-section}
+<div class="hero-section">
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
     <source src="../../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
-::: {.container}
-::: {.hero-title}
+<div class="container">
+<div class="hero-title">
+
 # Mit 70% Ceny
 ### Co naprawdę wygrywa przetargi budowlane
-:::
 
-::: {.hero-subtitle}
+</div>
+
+<div class="hero-subtitle">
 Analiza oparta na danych pokazująca jak dokładne kosztorysowanie i wizualizacja BIM poprawiają współczynnik wygranych o 5-25%
-:::
-:::
-:::
+</div>
+</div>
+</div>
 
-::: {.container}
+<div class="container">
 
 ## Mit, który kosztuje wykonawców kontrakty
 
@@ -487,7 +489,7 @@ Każdy dodatkowy wygrany projekt o wartości 40 mln PLN przynosi znacznie więks
 :::
 :::
 
-:::
+</div>
 
 <style>
 .feature-grid {
