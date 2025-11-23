@@ -455,7 +455,7 @@ Gdy mają Państwo kluczowy przetarg wymagający profesjonalnego przeglądu i po
 **Inwestycja:** w zależności od uzgodnionego zakresu
 **Realizacja:** 2–7 dni
 
-[Zapytaj o szczegóły](kontakt.qmd){.cta-secondary style="width: 100%; text-align: center;"}
+[Zapytaj o szczegóły](kontakt.qmd){.cta-primary style="width: 100%; text-align: center;"}
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); border-top: 4px solid var(--bim-orange); transform: scale(1.02);"}
@@ -500,7 +500,7 @@ Dla wykonawców poszukujących spójnego wsparcia przetargowego przez cały rok.
 **Inwestycja:** 8 000–25 000 PLN miesięcznie
 **Oszczędność:** do 40% vs pojedyncze projekty
 
-[Omów partnerstwo](kontakt.qmd){.cta-secondary style="width: 100%; text-align: center;"}
+[Omów partnerstwo](kontakt.qmd){.cta-primary style="width: 100%; text-align: center;"}
 :::
 
 :::
