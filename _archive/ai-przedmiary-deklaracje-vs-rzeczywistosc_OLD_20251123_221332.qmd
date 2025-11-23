@@ -38,7 +38,7 @@ Dlaczego deklaracje 97-98% dokładności wymagają znaczącego nadzoru specjalis
 Oprogramowanie do przedmiarów budowlanych oparte na sztucznej inteligencji obiecuje oszczędność czasu rzędu 80–90% oraz dokładność na poziomie 95–99%, jednak brakuje niezależnej weryfikacji, a wyniki wymagają znaczących ręcznych korekt. Specjaliści branżowi, tacy jak Robert Kowalski, mają prawo być sceptyczni — kompleksowe badania pokazują, że **deklaracje marketingowe znacząco zawyżają możliwości**, a rzeczywiste oszczędności czasu są bliższe 40–60%, przy czym dokładność silnie zależy od jakości dokumentacji.
 :::
 
-Jako osoba głęboko zaangażowana w sektor kosztorysowania i wyceny z 20-letnim międzynarodowym doświadczeniem, obserwowałem szybki rozwój narzędzi AI do przedmiarów z zaciekawieniem. Po obszernych badaniach deklaracji producentów, doświadczeń użytkowników, walidacji akademickiej i standardów profesjonalnych, wnioski są jasne: chociaż AI w przedmiarach reprezentuje autentyczny postęp technologiczny, przepaść między obietnicami marketingowymi a rzeczywistością operacyjną pozostaje znacząca.
+Jako osoba głęboko zaangażowana w sektor kosztorysowania i wyceny z 20-letnim międzynarodowym doświadczeniem, obserwowałem szybki rozwój narzędzi AI do przedmiarów z równym podekscytowaniem i rozwagą. Po obszernych badaniach deklaracji producentów, doświadczeń użytkowników, walidacji akademickiej i standardów profesjonalnych, wnioski są jasne: chociaż AI w przedmiarach reprezentuje autentyczny postęp technologiczny, przepaść między obietnicami marketingowymi a rzeczywistością operacyjną pozostaje znacząca.
 
 Brytyjski Instytut Rzeczoznawców Majątkowych (RICS) wprowadził obowiązek nadzoru specjalistów nad wszystkimi wynikami generowanymi przez AI, uznając, że automatyzacja nie może zastąpić wiedzy rzeczoznawcy kosztorysowego. Choć technologia wykazuje rzeczywisty potencjał, osiągając dokładność 97–98% w idealnych projektach, **nie istnieją niezależne testy porównawcze**, wszystkie deklaracje dotyczące dokładności pochodzą od samych producentów, a weryfikacja akademicka jest szczątkowa.
 
@@ -68,7 +68,7 @@ Deklaruje „dokładność do 98,5%" poprzez swój „Agencyjny Przepływ Pracy"
 :::
 :::
 
-Tradycyjne platformy, jak PlanSwift i Bluebeam, dodały ograniczone funkcje AI — PlanSwift pozostaje głównie cyfrowym narzędziem do przedmiarów z zestawami typu „przeciągnij i upuść", podczas gdy Procore implementuje AI poprzez zakup Esticom i obecnie oferuje „Automatyczny Przedmiar Powierzchni" wykorzystujący uczenie maszynowe do wykrywania pomieszczeń.
+Tradycyjne platformy, jak PlanSwift i Bluebeam, dodały ograniczone funkcje AI — PlanSwift pozostaje głównie cyfrowym narzędziem do przedmiarów z zestawami typu „przeciągnij i upuść", podczas gdy Procore nabyło możliwości AI poprzez zakup Esticom i obecnie oferuje „Automatyczny Przedmiar Powierzchni" wykorzystujący uczenie maszynowe do wykrywania pomieszczeń.
 
 ## Luka w weryfikacji akademickiej: gdzie są dowody?
 
@@ -78,7 +78,7 @@ Najbardziej krytycznym odkryciem jest znacząca luka w badaniach akademickich we
 
 Nieliczne istotne badania ujawniają ważne ograniczenia:
 
-- Badanie z 2023 roku w *Nature Scientific Reports* analizowało automatyczny przedmiar w norweskim projekcie drogowym wykorzystującym modele BIM — **tylko 40% z 486 pozycji kosztorysowych można było zautomatyzować**, przy czym odtwarzalność była wątpliwa, a 70% przedmiaru było specyficzne dla projektu.
+- Badanie z 2023 roku w *Nature Scientific Reports* analizowało automatyczny przedmiar w norweskim projekcie drogowym wykorzystującym modele BIM — **tylko 40% z 486 pozycji kosztorysowych można było zautomatyzować**, przy czym odtwarzalność była wątpliwa, a 70% kodów było specyficznych dla projektu.
 
 - Praca doktorska z 2006 roku z Brigham Young University porównująca BIM z przedmiarem na ekranie wykazała bardzo zmienną dokładność w zależności od elementu: **BIM pokazał 1% błędu dla stropów, ale 32% błędu dla elewacji ceglanej**, podczas gdy tradycyjny przedmiar na ekranie wykazał błąd od 3% do 46% w zależności od elementu.
 
@@ -219,7 +219,7 @@ Stosowany przez cały proces. Rzeczoznawcy pozostają odpowiedzialni za całą p
 
 Niezależne firmy rzeczoznawców kosztorysowych potwierdzają te obawy. Artykuł z maja 2025 roku z Project Flux/Quantik stwierdził:
 
-> „Wiele tak zwanych rozwiązań AI dla kosztorysowania oferuje niewiele więcej niż podstawową automatyzację lub systemy oparte na regułach przebrane w terminologię AI. Prawdziwe systemy AI wykazują zdolności takie jak uczenie się na nowych danych, adaptacja do nowych sytuacji i poprawa wydajności w czasie — cechy nieobecne w wielu produktach obecnie sprzedawanych rzeczoznawcom kosztorysowym".
+> „Wiele tak zwanych rozwiązań AI dla rzeczoznawstwa kosztorysowego oferuje niewiele więcej niż podstawową automatyzację lub systemy oparte na regułach przebrane w terminologię AI. Prawdziwe systemy AI wykazują zdolności takie jak uczenie się na nowych danych, adaptacja do nowych sytuacji i poprawa wydajności w czasie — cechy nieobecne w wielu produktach obecnie sprzedawanych rzeczoznawcom kosztorysowym".
 
 ## Porównanie AI z tradycyjnymi metodami: prawdziwy postęp z zastrzeżeniami
 
