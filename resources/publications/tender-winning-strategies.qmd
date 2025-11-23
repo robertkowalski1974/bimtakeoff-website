@@ -8,26 +8,28 @@ categories: [Tender Strategy, Cost Estimation, BIM, Win Rate Optimization, Const
 image: "../../images/tender-strategy-cover.png"
 ---
 
-::: {.hero-section}
+<div class="hero-section">
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
     <source src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
-::: {.container}
-::: {.hero-title}
+<div class="container">
+<div class="hero-title">
+
 # The 70% Price Myth
 ### What Really Wins Construction Tenders
-:::
 
-::: {.hero-subtitle}
+</div>
+
+<div class="hero-subtitle">
 Data-driven analysis revealing how accurate cost estimation and BIM visualization improve win rates by 5-25%
-:::
-:::
-:::
+</div>
+</div>
+</div>
 
-::: {.container}
+<div class="container">
 
 ## The Myth That Costs Contractors Work
 
@@ -486,7 +488,7 @@ Each additional £10M project won delivers significantly more value than bid pre
 :::
 :::
 
-:::
+</div>
 
 <style>
 .feature-grid {
