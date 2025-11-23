@@ -452,8 +452,8 @@ Gdy mają Państwo kluczowy przetarg wymagający profesjonalnego przeglądu i po
 <p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wzmocnienie dowodów</p>
 </div>
 
-**Inwestycja:** 25 000–40 000 PLN
-**Realizacja:** 5–7 dni
+**Inwestycja:** w zależności od uzgodnionego zakresu
+**Realizacja:** 2–7 dni
 
 [Zapytaj o szczegóły](kontakt.qmd){.cta-secondary style="width: 100%; text-align: center;"}
 :::
@@ -475,10 +475,9 @@ Wsparcie od początku do końca – od otrzymania przetargu do złożenia oferty
 
 **Model inwestycji:**
 <div style="font-size: 13px; line-height: 1.6; margin: 12px 0;">
-<strong>Opcja A:</strong> Stała opłata 60 000–150 000 PLN<br>
+<strong>Opcja A:</strong> Stała opłata zależna od uzgodnionego zakresu usług<br>
 <strong>Opcja B:</strong> 3–5% wartości kontraktu (płatne po wygranej)<br>
 <strong>Opcja C:</strong> Model hybrydowy (50% z góry + bonus za sukces)<br>
-<span style="color: #666;">Minimum: 35 000 PLN</span>
 </div>
 
 [Rozpocznij przetarg](kontakt.qmd){.cta-primary style="width: 100%; text-align: center;"}
@@ -498,7 +497,7 @@ Dla wykonawców poszukujących spójnego wsparcia przetargowego przez cały rok.
 <p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie planowania strategicznego</p>
 </div>
 
-**Inwestycja:** 15 000–25 000 PLN miesięcznie
+**Inwestycja:** 8 000–25 000 PLN miesięcznie
 **Oszczędność:** do 40% vs pojedyncze projekty
 
 [Omów partnerstwo](kontakt.qmd){.cta-secondary style="width: 100%; text-align: center;"}
