@@ -416,36 +416,92 @@ Zwiększają Państwo liczbę wygranych kontraktów trzykrotnie przy zachowaniu 
 </div>
 </div>
 <script>
-// ROI Calculator Script
+// ROI Calculator Script - VERSION 3 - FINAL FIX
 window.addEventListener('DOMContentLoaded', function() {
     function calculateROI() {
         const tendersPerYear = parseFloat(document.getElementById('tenders-per-year').value) || 20;
         const currentWinRate = parseFloat(document.getElementById('current-win-rate').value) || 10;
         const avgContractValue = parseFloat(document.getElementById('avg-contract-value').value) || 5000000;
-        const avgMargin = parseFloat(document.getElementById('avg-margin').value) || 8;
+        const currentMargin = parseFloat(document.getElementById('avg-margin').value) || 8;
         
-        // Calculate current and improved metrics
+        // Calculate current situation
         const currentWins = tendersPerYear * (currentWinRate / 100);
-        const improvedWinRate = 35; // Target win rate
-        const improvedWins = tendersPerYear * (improvedWinRate / 100);
-        const additionalWins = Math.round(improvedWins - currentWins);
+        const currentAnnualProfit = currentWins * avgContractValue * (currentMargin / 100);
         
-        // Calculate financial impact
-        const profitPerContract = avgContractValue * (avgMargin / 100);
-        const additionalProfit = additionalWins * profitPerContract;
+        // DYNAMIC improved win rate based on current performance
+        let improvedWinRate;
+        if (currentWinRate < 15) {
+            improvedWinRate = 35;  // Major improvement: 10% → 35%
+        } else if (currentWinRate < 25) {
+            improvedWinRate = 40;  // Good improvement: 20% → 40%
+        } else if (currentWinRate < 35) {
+            improvedWinRate = 45;  // Moderate improvement: 30% → 45%
+        } else {
+            improvedWinRate = Math.min(currentWinRate + 10, 55);  // Incremental: 40% → 50%
+        }
         
-        // Calculate ROI (assuming 3% service fee)
-        const serviceFee = additionalWins * avgContractValue * 0.03;
-        const roi = serviceFee > 0 ? Math.round((additionalProfit / serviceFee) * 100) : 0;
+        // SMART tender selection strategy
+        // Low performers: reduce volume, increase quality (strategic selection)
+        // High performers: maintain volume, increase quality (volume maintenance)
+        let strategicTenders;
+        if (currentWinRate < 20) {
+            strategicTenders = Math.round(tendersPerYear * 0.75);  // Focus on fewer, better tenders
+        } else {
+            strategicTenders = tendersPerYear;  // Maintain volume for high performers
+        }
+        
+        const improvedWins = strategicTenders * (improvedWinRate / 100);
+        const additionalWins = Math.round(Math.max(0, improvedWins - currentWins));
+        
+        // Smart margin improvement
+        let improvedMargin;
+        if (currentMargin < 5) {
+            improvedMargin = 10;
+        } else if (currentMargin < 8) {
+            improvedMargin = 12;
+        } else if (currentMargin < 12) {
+            improvedMargin = 14;
+        } else {
+            improvedMargin = Math.min(currentMargin + 2, 16);
+        }
+        
+        const improvedAnnualProfit = improvedWins * avgContractValue * (improvedMargin / 100);
+        const additionalProfit = Math.max(0, improvedAnnualProfit - currentAnnualProfit);
+        
+        // Service fee (3% of additional won contracts)
+        const serviceFee = additionalWins > 0 ? additionalWins * avgContractValue * 0.03 : 0;
+        
+        // ROI calculation with safeguards
+        let roi, roiDisplay;
+        if (serviceFee === 0) {
+            roi = 0;  // No additional wins = no ROI to calculate
+            roiDisplay = 'N/A';
+        } else if (additionalProfit <= serviceFee) {
+            roi = 0;  // Not profitable
+            roiDisplay = 'N/A';
+        } else {
+            const netBenefit = additionalProfit - serviceFee;
+            roi = Math.round((netBenefit / serviceFee) * 100);
+            
+            // Display logic: show "1000%+" if capped
+            if (roi > 1000) {
+                roiDisplay = '1000%+';
+            } else if (roi > 0) {
+                roiDisplay = roi + '%';
+            } else {
+                roiDisplay = 'N/A';
+            }
+        }
         
         // Update display
         document.querySelector('[data-metric="new-win-rate"]').textContent = improvedWinRate + '%';
-        document.querySelector('[data-metric="additional-wins"]').textContent = '+' + additionalWins;
-        document.querySelector('[data-metric="additional-profit"]').textContent = '+' + additionalProfit.toLocaleString('pl-PL') + ' PLN';
-        document.querySelector('[data-metric="roi"]').textContent = roi + '%';
+        document.querySelector('[data-metric="additional-wins"]').textContent = additionalWins > 0 ? '+' + additionalWins : '0';
+        document.querySelector('[data-metric="additional-profit"]').textContent = 
+            additionalProfit > 0 ? '+' + Math.round(additionalProfit).toLocaleString('pl-PL') + ' PLN' : '0 PLN';
+        document.querySelector('[data-metric="roi"]').textContent = roiDisplay;
     }
     
-    // Add event listeners to inputs
+    // Add event listeners
     const inputs = ['tenders-per-year', 'current-win-rate', 'avg-contract-value', 'avg-margin'];
     inputs.forEach(id => {
         const element = document.getElementById(id);
