@@ -43,11 +43,11 @@ Darmowe, natychmiastowe obliczenie - bez rejestracji.
 ::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
 ### Wyzwanie
 
-Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do kosztach, których można uniknąć.
+Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do uniknięcia kosztach.
 
 ### Nasze Rozwiązanie
 
-Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując niepewniść i eliminując koszty związane z naprawmi. Oszczędzając nawet do 50% koszów.
+Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując niepewność i eliminując koszty związane z naprawami. Oszczędzając nawet do 50% kosztów.
 :::
 
 ::: {#calculator-container}

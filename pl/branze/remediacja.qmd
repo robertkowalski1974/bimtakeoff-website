@@ -212,7 +212,7 @@ Ekspercka ocena:
 - Systemy sygnalizacji pożaru
 - Oświetlenie awaryjne
 - Instalacje tryskaczowe (opcjonalnie)
-- Oznakowanie drög ewakuacyjnych
+- Oznakowanie dróg ewakuacyjnych
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-left: 4px solid var(--bim-orange); border-radius: 4px;"}
