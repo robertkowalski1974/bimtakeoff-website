@@ -63,7 +63,7 @@ Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, reduk
 
 <div class="form-group" style="margin-bottom: 24px;">
 <label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
-💱 Waluta
+<i class="bi bi-currency-exchange"></i> Waluta
 </label>
 <select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
 <option value="EUR" selected>🇪🇺 Euro (EUR)</option>
