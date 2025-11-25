@@ -557,7 +557,7 @@ A: Our international experience (20 years UK/Australia), advanced BIM technology
 Schedule a free 30-minute consultation or start with a 50% off pilot project
 
 [Schedule Consultation](coming-soon.qmd){.cta-primary}
-[Calculate Your Savings](coming-soon.qmd){.cta-secondary}
+[Calculate Your Savings](resources/roi-calculator.qmd){.cta-secondary}
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 :::
