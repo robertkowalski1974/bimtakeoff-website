@@ -329,6 +329,15 @@
         // Translate menu items
         document.querySelectorAll('.menu-text').forEach(translateText);
         document.querySelectorAll('.dropdown-text').forEach(translateText);
+
+        // Translate right navbar items (Client Login, etc.)
+        document.querySelectorAll('.navbar-nav.navbar-nav-right .nav-link').forEach(link => {
+            const linkText = link.textContent.trim();
+            // Skip language switcher links
+            if (linkText !== 'PL' && linkText !== 'EN') {
+                translateText(link);
+            }
+        });
         
         // Translate footer
         const footer = document.querySelector('.nav-footer');
