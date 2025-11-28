@@ -10,6 +10,7 @@
     // Define all text translations
     const translations = {
         // Main navbar items
+        'Client Login': 'Logowanie Klienta',
         'Home': 'Strona Główna',
         'Services': 'Usługi',
         'Industries': 'Branże',

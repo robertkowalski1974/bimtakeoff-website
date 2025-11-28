@@ -93,6 +93,9 @@ website:
       - text: "Contact"
         href: contact.qmd
     right:
+      - text: "Client Login"
+        href: https://client-portal.bimtakeoff.com
+        icon: box-arrow-in-right
       - text: "PL"
         href: /pl/
       - text: "EN"
@@ -142,6 +145,16 @@ format:
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
         <!-- End Google Tag Manager -->
+        
+        <!-- Google tag (gtag.js) - GA4 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KYLVZ91F7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-1KYLVZ91F7');
+        </script>
+        <!-- End Google tag (gtag.js) -->
         
         <!-- LinkedIn Insight Tag -->
         <script type="text/javascript">
