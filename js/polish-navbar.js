@@ -10,7 +10,7 @@
     // Define all text translations
     const translations = {
         // Main navbar items
-        'Client Login': 'Logowanie Klienta',
+        'Client Login': 'Strefa Klienta',
         'Home': 'Strona Główna',
         'Services': 'Usługi',
         'Industries': 'Branże',
@@ -234,17 +234,22 @@
             }
             
             let href = link.getAttribute('href');
-            
-            // Handle absolute URLs by extracting the pathname
+
+            // Skip external URLs entirely (don't modify links to other domains)
             if (href && href.includes('://')) {
+                const currentHost = window.location.hostname;
                 try {
                     const url = new URL(href);
+                    // If it's an external domain, skip translation
+                    if (url.hostname !== currentHost) {
+                        return;
+                    }
                     href = url.pathname;
                 } catch (e) {
                     // If URL parsing fails, continue with original href
                 }
             }
-            
+
             // Check if we have a translation for this path
             if (linkTranslations[href]) {
                 link.setAttribute('href', linkTranslations[href]);
