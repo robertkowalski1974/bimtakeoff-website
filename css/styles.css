@@ -1094,30 +1094,131 @@ h3 {
     min-height: 400px;
     padding: 48px 0;
   }
-  
+
   .hero-section .container {
     padding: 0 16px;
   }
-  
+
   .hero-title,
   .hero-title h1 {
     font-size: 32px;
   }
-  
+
   .hero-subtitle,
   .hero-subtitle p {
     font-size: 18px;
   }
-  
+
   .feature-grid,
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .scroll-to-top {
     bottom: 20px;
     right: 20px;
     width: 45px;
     height: 45px;
+  }
+}
+
+/* ============================================
+   WHATSAPP FLOATING BUTTON
+   ============================================ */
+.whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-button svg {
+  width: 32px;
+  height: 32px;
+  fill: #FFFFFF;
+}
+
+/* WhatsApp Tooltip */
+.whatsapp-button::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: 75px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.whatsapp-button::after {
+  content: '';
+  position: absolute;
+  right: 70px;
+  border: 6px solid transparent;
+  border-left-color: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover::before,
+.whatsapp-button:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile: Smaller button, no tooltip */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp-button svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .whatsapp-button::before,
+  .whatsapp-button::after {
+    display: none;
+  }
+}
+
+/* Adjust position when scroll-to-top is visible */
+.scroll-to-top.visible ~ .whatsapp-button,
+body:has(.scroll-to-top.visible) .whatsapp-button {
+  bottom: 95px;
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top.visible ~ .whatsapp-button,
+  body:has(.scroll-to-top.visible) .whatsapp-button {
+    bottom: 80px;
   }
 }
