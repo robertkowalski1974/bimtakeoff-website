@@ -5,7 +5,7 @@ page-layout: full
 date: "2025-11-29"
 author: "BIM Takeoff"
 categories: [Project Management, Cost Overruns, Construction Industry, Megaprojects, Research Analysis]
-image: "../../images/header-background.jpg"
+image: "../../images/construction-failure-cover.png"
 ---
 
 ::: {.hero-section}
