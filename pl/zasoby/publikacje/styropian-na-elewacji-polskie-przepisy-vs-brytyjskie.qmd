@@ -1,0 +1,408 @@
+---
+title: "Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra brytyjski rygoryzm | BIM Takeoff"
+description: "Analiza porównawcza przepisów dotyczących stosowania styropianu na elewacjach budynków wielorodzinnych w Polsce i Wielkiej Brytanii. Polski limit 25 m vs brytyjski zakaz powyżej 18 m – kluczowe różnice regulacyjne i kierunki zmian legislacyjnych."
+page-layout: full
+date: "2025-11-29"
+author: "BIM Takeoff"
+categories: [Bezpieczeństwo Pożarowe, Przepisy Budowlane, Termomodernizacja, ETICS, Regulacje]
+image: "../../../images/EPS-polskie-warunki.png"
+lang: pl
+---
+
+::: {.hero-section}
+<div class="hero-video-bg">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
+    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+::: {.container}
+::: {.hero-title}
+# Styropian na elewacji wielorodzinnego bloku
+### Polskie przepisy kontra brytyjski rygoryzm
+:::
+
+::: {.hero-subtitle}
+Analiza porównawcza regulacji bezpieczeństwa pożarowego elewacji w Polsce i Wielkiej Brytanii
+:::
+:::
+:::
+
+::: {.container}
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%); border-left: 4px solid var(--bim-orange);"}
+Polskie przepisy dopuszczają stosowanie styropianu (EPS) na budynkach mieszkalnych wielorodzinnych do wysokości **25 metrów** – znacznie powyżej brytyjskiego limitu 18 metrów, gdzie od 2018 roku obowiązuje całkowity zakaz materiałów palnych. To fundamentalna różnica regulacyjna, która wynika z odmiennego podejścia do oceny ryzyka pożarowego i stanowi kluczową informację dla inwestorów planujących termomodernizację w Polsce. Jednocześnie trwające prace legislacyjne nad nowelizacją Warunków Technicznych sugerują, że polskie przepisy mogą wkrótce ulec zaostrzeniu, zbliżając się do standardów zachodnioeuropejskich.
+:::
+
+---
+
+## Polskie przepisy przeciwpożarowe – granica 25 metrów jako próg krytyczny
+
+Kluczowym aktem prawnym regulującym stosowanie materiałów izolacyjnych na elewacjach budynków jest **Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r.** w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie (tekst jednolity: Dz.U. 2022 poz. 1225, ostatnia nowelizacja z maja 2024 r.).
+
+::: {.feature-grid}
+::: {.feature-card}
+#### Budynki niskie (N)
+**Do 12 m wysokości** — styropian dozwolony bez ograniczeń przy spełnieniu wymagań NRO.
+:::
+
+::: {.feature-card}
+#### Budynki średniowysokie (SW)
+**12-25 m wysokości** — styropian dozwolony, system ETICS musi spełniać wymagania NRO.
+:::
+
+::: {.feature-card}
+#### Budynki wysokie (W)
+**25-55 m wysokości** — wymagane materiały niepalne klasy A1 lub A2-s1,d0.
+:::
+
+::: {.feature-card}
+#### Budynki wysokościowe (WW)
+**Powyżej 55 m** — bezwzględny wymóg materiałów niepalnych na całej elewacji.
+:::
+:::
+
+Decydujący jest **§ 216 ust. 8** rozporządzenia, który jednoznacznie stwierdza: *„W budynku, na wysokości powyżej 25 m od poziomu terenu, okładzina elewacyjna i jej zamocowanie mechaniczne, a także izolacja cieplna ściany zewnętrznej, powinny być wykonane z materiałów niepalnych."*
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0f8ff 0%, #d6ebff 100%); border-left: 4px solid #0066cc;"}
+**Wyjątek historyczny:** § 216 ust. 9 dopuszcza ocieplenie styropianem samogasnącym budynków mieszkalnych wzniesionych przed 1 kwietnia 1995 r. o wysokości do 11 kondygnacji — jednak pod warunkiem zapewnienia nierozprzestrzeniania ognia w sposób zgodny z aktualną wiedzą techniczną.
+:::
+
+W praktyce oznacza to, że **styropian (EPS) klasy reakcji na ogień E** może być stosowany na budynkach niskich i średniowysokich bez ograniczeń, pod warunkiem wykonania systemu ETICS spełniającego wymagania nierozprzestrzeniania ognia (NRO). Budynki wysokie i wysokościowe wymagają natomiast materiałów klasy **A1 lub A2-s1,d0** według normy PN-EN 13501-1, co w praktyce oznacza konieczność zastosowania wełny mineralnej skalnej lub szklanej.
+
+---
+
+## Pasy ogniochronne – zalecenie branżowe, nie wymóg prawny
+
+Jedną z najczęściej błędnie interpretowanych kwestii jest status pasów ogniochronnych z wełny mineralnej. W obecnym stanie prawnym **pasy te nie są obligatoryjne** — stanowią jedynie zalecenie zawarte w Wytycznych SITP WP-03:2018 opracowanych przez Stowarzyszenie Inżynierów i Techników Pożarnictwa.
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> Zalecenia SITP WP-03:2018
+
+- Poziome bariery o minimalnej wysokości **20 cm** z materiału klasy A1 lub A2-s1,d0
+- Rozmieszczanie co 2 kondygnacje powyżej trzeciego piętra
+- Dotyczy budynków wielorodzinnych ze styropianem o grubości >10 cm
+- Dodatkowo: pasy nad cokołem, przy zakończeniu ocieplenia oraz wokół otworów okiennych
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange);"></i> Stanowisko PSPS
+
+Polskie Stowarzyszenie Producentów Styropianu kwestionuje zasadność wytycznych, powołując się na:
+
+- Badania ICiMB z 2020 r. według normy BS 8414-1
+- Systemy ETICS ze styropianem spełniają kryteria NRO bez pasów
+- Brak statystycznie istotnej poprawy bezpieczeństwa w krajach z obowiązkowymi barierami
+:::
+:::
+
+---
+
+## Projekt nowego rozporządzenia – rewolucja w przepisach od 2026 roku
+
+Ministerstwo Rozwoju i Technologii opublikowało w czerwcu 2025 r. projekt nowelizacji rozporządzenia o warunkach technicznych, który może fundamentalnie zmienić zasady stosowania styropianu na elewacjach. Planowane wejście w życie to **20 września 2026 r.**
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 4px solid var(--bim-orange);"}
+**Planowane zmiany:**
+
+- **Obowiązkowe pasy ogniochronne** z materiałów klasy A1 lub A2-s1,d0 w palnych ociepleniach budynków wielorodzinnych powyżej 3 kondygnacji nadziemnych
+- **Alternatywa:** pojedyncza przegroda niepalna na wysokości 9-12 m wraz z podwójnym siatkowaniem ościeży okiennych
+:::
+
+Stanowisko Państwowej Straży Pożarnej jednoznacznie popiera zaostrzenie przepisów. St. bryg. Ernest Ziębaczewski z Komendy Głównej PSP wskazuje na doświadczenia z innych krajów europejskich — Niemiec, Francji, Czech, Słowacji, Węgier — gdzie bariery ogniowe są standardem.
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;"}
+::: {style="padding: 20px; background: #d4edda; border-radius: 8px; border-left: 4px solid #28a745;"}
+**Poznań 2025 (ul. Naramowicka)**
+
+Bariery ogniowe zatrzymały rozprzestrzenianie się ognia — dowód skuteczności systemu pasów ogniochronnych.
+:::
+
+::: {style="padding: 20px; background: #f8d7da; border-radius: 8px; border-left: 4px solid #dc3545;"}
+**Wrocław 2017 / Gdańsk 2024**
+
+Elewacje bez barier spłonęły całkowicie — tragiczne skutki braku zabezpieczeń.
+:::
+:::
+
+---
+
+## Termomodernizacja spółdzielni – programy wsparcia i wymagania techniczne
+
+Spółdzielnie mieszkaniowe planujące termomodernizację mają do dyspozycji kilka kluczowych programów dofinansowania:
+
+::: {.feature-grid}
+::: {.feature-card}
+#### Fundusz Termomodernizacji i Remontów (FTiR)
+**Premia 26% kosztów** przedsięwzięcia, z możliwością zwiększenia do **41%** przy połączeniu z inwestycją w OZE i grantem termomodernizacyjnym. Zarządzany przez BGK.
+:::
+
+::: {.feature-card}
+#### Ciepłe Mieszkanie
+**Dofinansowanie do 60% kosztów** dla wspólnot mieszkaniowych (3-7 lokali). Dedykowany budynkom wielorodzinnym.
+:::
+
+::: {.feature-card}
+#### Program FEnIKS
+**Pożyczki preferencyjne** dla spółdzielni przy wymogu osiągnięcia minimum **30% oszczędności energii pierwotnej**.
+:::
+
+::: {.feature-card}
+#### Czyste Powietrze
+**Uwaga:** Program NIE obejmuje budynków wielorodzinnych zarządzanych przez spółdzielnie — jest dedykowany wyłącznie domom jednorodzinnym.
+:::
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; margin: 32px 0;"}
+### Wymagania techniczne dla termomodernizacji
+
+Każda termomodernizacja finansowana z premii BGK wymaga **audytu energetycznego** zgodnego z rozporządzeniem MI z 17 marca 2009 r. Audyt musi zawierać:
+
+- Ocenę stanu technicznego budynku
+- Analizę wariantów termomodernizacyjnych z obliczeniami współczynników przenikania ciepła
+- Wskazanie optymalnego rozwiązania
+
+**Wymagania WT 2021:** Maksymalny współczynnik U dla ścian zewnętrznych: **0,20 W/(m²·K)**
+
+System ETICS musi posiadać **Krajową Ocenę Techniczną (KOT)** wydaną przez ITB lub **Europejską Ocenę Techniczną (ETA)**. Bezwzględnie obowiązuje zasada stosowania kompletnych systemów od jednego producenta.
+:::
+
+---
+
+## Brytyjskie przepisy BSR – rygoryzm wynikły z tragedii
+
+Tragedia Grenfell Tower z 14 czerwca 2017 r., w której zginęło **72 osoby**, fundamentalnie zmieniła podejście Wielkiej Brytanii do bezpieczeństwa pożarowego elewacji. Bezpośrednią przyczyną rozprzestrzenienia się ognia były panele ACM z rdzeniem polietylenowym (Reynobond PE) oraz izolacja PIR Celotex RS5000 — materiały, które w Polsce pozostają legalne na budynkach do 25 m wysokości.
+
+::: {.callout-box style="background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%); border-left: 4px solid #dc3545;"}
+**Brytyjskie regulacje po Grenfell:**
+
+- **Od 21 grudnia 2018 r.:** Całkowity zakaz materiałów palnych na budynkach powyżej **18 metrów** (~6 kondygnacji)
+- **Od grudnia 2022 r.:** Zakaz rozszerzony na budynki **11-18 metrów** (materiały palne jedynie w ścianach szczelinowych lub po pozytywnym teście BS 8414)
+- **Panele MCM z rdzeniem polietylenowym:** Zakazane na **wszystkich wysokościach** budynków mieszkalnych, szpitali i domów opieki
+- **Wymagana klasa:** A2-s3,d2 lub wyższa dla wszystkich komponentów elewacji
+:::
+
+**Building Safety Act 2022** wprowadził dodatkowo:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 32px 0;"}
+::: {style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"}
+**Odpowiedzialność prawna**
+
+System z możliwością sankcji karnych dla osób odpowiedzialnych za bezpieczeństwo budynku (Accountable Person).
+:::
+
+::: {style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"}
+**Wydłużone terminy roszczeń**
+
+Okres dochodzenia roszczeń wydłużony z 6 do **15 lat** (retrospektywnie dla remediacji okładzin nawet do **30 lat**).
+:::
+
+::: {style="padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"}
+**Building Safety Regulator**
+
+Nowy dedykowany regulator bezpieczeństwa budowlanego (od 2023 r.).
+:::
+:::
+
+---
+
+## Porównanie podejść – fundamentalne różnice w filozofii regulacji
+
+::: {style="overflow-x: auto; margin: 32px 0;"}
+| Aspekt | Polska | Wielka Brytania |
+|--------|--------|-----------------|
+| **Próg wysokości dla materiałów niepalnych** | 25 m | 18 m (całkowity zakaz), 11 m (zakaz częściowy) |
+| **Dopuszczalność styropianu EPS** | Tak, do 25 m | Nie, powyżej 18 m |
+| **Panele ACM z PE** | Dozwolone z ograniczeniami | Zakazane na wszystkich wysokościach |
+| **Obowiązkowe bariery ogniowe** | Nie (zalecenie SITP) | Tak (cavity barriers co 10 m) |
+| **Test pełnoskalowy systemów** | Nieobowiązkowy | Obowiązkowy dla 11-18 m |
+| **Regulator bezpieczeństwa budowlanego** | Brak dedykowanego | Building Safety Regulator (od 2023) |
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #f0f8ff 0%, #d6ebff 100%); border-left: 4px solid #0066cc;"}
+**Fundamentalna różnica w filozofii:**
+
+- **Polska:** Model oparty na **klasyfikacji materiałów** i wymaganiach systemowych (NRO)
+- **Wielka Brytania:** Model **bezwzględnych zakazów materialnych** połączony z rygorystycznymi testami pełnoskalowymi i osobistą odpowiedzialnością prawną zarządców
+:::
+
+---
+
+## Europejski kierunek zmian i wpływ na Polskę
+
+Unia Europejska stopniowo zaostrza wymagania dotyczące bezpieczeństwa pożarowego budynków:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange);"></i> Rozporządzenie CPR (EU) 2024/3110
+
+Obowiązujące od stycznia 2025 r. — utrzymuje bezpieczeństwo pożarowe jako jedno z podstawowych wymagań dla wyrobów budowlanych i zapowiada prace nad zharmonizowaną europejską metodą oceny właściwości pożarowych fasad.
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
+### <i class="bi bi-building" style="color: var(--bim-orange);"></i> Dyrektywa EPBD (2024/1275)
+
+Po raz pierwszy explicite wymienia bezpieczeństwo pożarowe jako kryterium, które państwa członkowskie muszą uwzględnić w odniesieniu do nowych budynków.
+:::
+:::
+
+Komisja Europejska od 2016 r. pracuje nad harmonizacją metod testowych, wykorzystując jako podstawę brytyjski BS 8414 i niemiecki DIN 4102-20. Brak jednolitego standardu sprawia, że poszczególne kraje stosują różne podejścia:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 32px 0;"}
+::: {style="padding: 16px; background: #d4edda; border-radius: 8px; text-align: center;"}
+**Niemcy, Czechy**
+
+Zakaz palnych materiałów na wysokich budynkach
+:::
+
+::: {style="padding: 16px; background: #fff3cd; border-radius: 8px; text-align: center;"}
+**Francja**
+
+Testy LEPIR II + obowiązkowe bariery
+:::
+
+::: {style="padding: 16px; background: #f8d7da; border-radius: 8px; text-align: center;"}
+**Holandia, Grecja**
+
+Brak szczególnych ograniczeń materialnych
+:::
+:::
+
+**Polska transpozycja nowej EPBD musi nastąpić do maja 2026 r.**, co zbiegnie się z planowanym wejściem w życie nowelizacji Warunków Technicznych. Kierunek zmian wskazuje na zbliżenie do modelu niemieckiego i francuskiego — z obowiązkowymi barierami ogniowymi, ale bez całkowitego zakazu styropianu.
+
+---
+
+## Praktyczne rekomendacje dla inwestorów i spółdzielni
+
+Planując termomodernizację budynku wielorodzinnego w Polsce, należy uwzględnić kilka kluczowych czynników decyzyjnych:
+
+::: {.feature-grid}
+::: {.feature-card}
+#### Budynki do 12 m (niskie)
+**Styropian w pełni legalny** i ekonomicznie uzasadniony. Stosowanie pasów ogniochronnych zalecane, ale nieobowiązkowe.
+:::
+
+::: {.feature-card}
+#### Budynki 12-25 m (średniowysokie)
+**Styropian dozwolony**, ale z uwagi na planowane zmiany przepisów warto rozważyć proaktywne stosowanie barier ogniowych lub wybór wełny mineralnej.
+:::
+
+::: {.feature-card}
+#### Budynki powyżej 25 m
+**Wyłącznie materiały niepalne** klasy A1 lub A2-s1,d0 (wełna mineralna skalna lub szklana). Jakiekolwiek próby stosowania styropianu stanowią naruszenie prawa.
+:::
+:::
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; margin: 32px 0;"}
+### Alternatywy dla tradycyjnego styropianu EPS
+
+| Materiał | Klasa ogniowa | Charakterystyka |
+|----------|---------------|-----------------|
+| **Wełna mineralna** | A1 | Uniwersalne zastosowanie, wyższa cena |
+| **Płyty PIR** | B-C | Lepsze parametry cieplne niż EPS przy mniejszej grubości, ale nadal palne — **zakaz powyżej 25 m** |
+| **Grafitowy EPS** | E | Lepsze parametry λ niż standardowy styropian |
+
+**Uwaga:** PIR również podlega zakazowi powyżej 25 m jako materiał palny — fakt często pomijany w materiałach marketingowych producentów.
+:::
+
+::: {.callout-box style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 4px solid var(--bim-orange);"}
+**Lista kontrolna przed rozpoczęciem inwestycji:**
+
+- ✓ Aktualna Krajowa Ocena Techniczna ITB lub Europejska Ocena Techniczna
+- ✓ Certyfikat Zakładowej Kontroli Produkcji
+- ✓ Deklaracja właściwości użytkowych
+- ✓ Kompletny system od jednego producenta (nie łączyć komponentów!)
+
+Stosowanie niecertyfikowanych systemów lub łączenie komponentów od różnych producentów nie tylko pozbawia gwarancji, ale może skutkować odmową odbioru budowlanego i problemami z ubezpieczycielem.
+:::
+
+---
+
+## Wnioski końcowe
+
+::: {style="padding: 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; color: white; margin: 48px 0;"}
+<h3 style="color: white; border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Kluczowe wnioski</h3>
+
+<p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 24px;">Polski system regulacji bezpieczeństwa pożarowego elewacji pozostaje znacząco mniej restrykcyjny niż brytyjski. Próg <strong style="color: var(--bim-orange);">25 metrów</strong> dla materiałów niepalnych versus brytyjskie <strong style="color: var(--bim-orange);">18 metrów</strong> oznacza, że typowy 9-kondygnacyjny blok mieszkalny w Polsce może być legalnie ocieplony styropianem, podczas gdy w Wielkiej Brytanii wymagałby wełny mineralnej.</p>
+
+<p style="color: white; font-size: 18px; line-height: 1.6; margin-bottom: 24px;">Jednak kierunek zmian legislacyjnych jest jednoznaczny — <strong style="color: var(--bim-orange);">Polska zmierza ku zaostrzeniu przepisów</strong>, wprowadzeniu obowiązkowych barier ogniowych i zbliżeniu do standardów zachodnioeuropejskich.</p>
+
+<p style="color: white; font-size: 18px; line-height: 1.6;">Wybór materiałów niepalnych lub proaktywne stosowanie barier ogniowych może okazać się rozsądną strategią zabezpieczającą przed koniecznością kosztownych modyfikacji w przyszłości.</p>
+:::
+
+Kluczowe pozostaje stosowanie **kompletnych, certyfikowanych systemów ETICS** od jednego producenta, prawidłowe wykonawstwo eliminujące mostki termiczne i kominy wentylacyjne, oraz współpraca z audytorem energetycznym posiadającym odpowiednie kompetencje. Bezpieczeństwo pożarowe i efektywność energetyczna nie muszą stać w sprzeczności — wymagają jednak świadomego projektowania i starannego wykonania.
+
+---
+
+::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
+::: {style="max-width: 800px; margin: 0 auto;"}
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Planujesz termomodernizację?</h2>
+
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff oferuje profesjonalne wsparcie w zakresie kosztorysowania i planowania termomodernizacji. Nasze 20-letnie doświadczenie międzynarodowe pomoże Ci wybrać optymalne rozwiązania zgodne z aktualnymi i przyszłymi przepisami.</p>
+
+::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+[Skontaktuj się](../../kontakt.qmd){.cta-primary}
+[Nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
+:::
+
+::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Kosztorysowanie BIM 5D</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność szacowania ±3–5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+:::
+:::
+:::
+
+---
+
+## Kluczowe źródła
+
+::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; margin: 32px 0;"}
+### Główne akty prawne i dokumenty
+
+- **Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r.** w sprawie warunków technicznych (Dz.U. 2022 poz. 1225)
+- **Wytyczne SITP WP-03:2018** — Stowarzyszenie Inżynierów i Techników Pożarnictwa
+- **Building Safety Act 2022** — Wielka Brytania
+- **The Building (Amendment) Regulations 2018** — Wielka Brytania
+- **Rozporządzenie CPR (EU) 2024/3110** — Unia Europejska
+- **Dyrektywa EPBD (2024/1275)** — Unia Europejska
+- **Norma PN-EN 13501-1** — Klasyfikacja reakcji na ogień wyrobów budowlanych
+- **Norma BS 8414** — Metoda badania pełnoskalowego elewacji
+:::
+
+:::
+
+<style>
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.feature-card {
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.callout-box {
+  padding: 24px;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
