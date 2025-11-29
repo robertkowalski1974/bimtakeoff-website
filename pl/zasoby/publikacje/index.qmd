@@ -36,6 +36,40 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/construction-failure-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Zarządzanie Projektami</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Megaprojekty</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Analiza Badawcza</span>
+:::
+
+### Endemiczna porażka realizacji projektów budowlanych: dlaczego 91,5% projektów kończy się niepowodzeniem
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+📅 29 listopada 2025 | ⏱️ 25 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Analiza badawcza przyczyn systematycznych niepowodzeń projektów budowlanych. Dane Uniwersytetu Oksfordzkiego wskazują, że 91,5% projektów przekracza budżet lub harmonogram, ze średnim przekroczeniem kosztów wynoszącym 62%. Poznaj strukturalne przyczyny stojące za żelaznym prawem megaprojektów.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+- 91,5% projektów przekracza budżet, harmonogram lub jedno i drugie
+- Średnie przekroczenie kosztów wynosi 62% — dane z 16 000 projektów
+- Wskaźniki przekroczeń pozostają niezmienne od 70 lat pomimo postępu technologicznego
+- Optymistyczne nastawienie i strategiczne zniekształcanie jako główne przyczyny
+:::
+
+[Przeczytaj cały artykuł](endemiczna-porazka-realizacji-projektow-budowlanych.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../../images/AI-Estimating.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
