@@ -5,7 +5,7 @@ page-layout: full
 date: "2025-11-29"
 author: "BIM Takeoff"
 categories: [Bezpieczeństwo Pożarowe, Przepisy Budowlane, Termomodernizacja, ETICS, Regulacje]
-image: "../../../images/construction-site.png"
+image: "../../../images/EPS-polskie-warunki.png"
 lang: pl
 ---
 
