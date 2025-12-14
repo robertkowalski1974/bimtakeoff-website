@@ -36,6 +36,41 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
+![](../../../images/construction-crisis-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+:::
+
+::: {style="padding: 24px;"}
+::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
+<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Branża Budowlana</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Infrastruktura</span>
+<span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Transformacja Cyfrowa</span>
+:::
+
+### Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające globalną branżę
+
+::: {style="color: #666; font-size: 14px; margin: 12px 0;"}
+14 grudnia 2025 | 25 min czytania
+:::
+
+::: {style="margin: 16px 0; color: var(--bim-charcoal); line-height: 1.6;"}
+Kompleksowa analiza egzystencjalnych wyzwań branży budowlanej: luka infrastrukturalna 40 bilionów dolarów do 2040 roku, kryzys kadrowy z 41% odchodzącymi na emeryturę do 2031 roku, stagnacja produktywności i pilna potrzeba cyfrowej transformacji.
+:::
+
+::: {style="margin: 16px 0; padding: 16px; background: var(--bim-light-gray); border-radius: 6px;"}
+**Kluczowe spostrzeżenia:**
+
+- Wydatki budowlane muszą wzrosnąć z 13 do 22 bln USD rocznie do 2040
+- 92% amerykańskich firm zgłasza trudności z obsadzeniem stanowisk
+- 41% siły roboczej sprzed 2020 przejdzie na emeryturę do 2031
+- Środowisko budowane odpowiada za 37% globalnych emisji CO2
+:::
+
+[Przeczytaj cały artykuł](kryzys-budownictwa-40-bilionow-dolarow.html){.cta-primary style="display: inline-block; margin-top: 16px;"}
+:::
+:::
+
+::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+::: {style="position: relative; overflow: hidden; height: 200px;"}
 ![](../../../images/EPS-polskie-warunki.png){style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
