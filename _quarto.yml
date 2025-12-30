@@ -100,6 +100,7 @@ website:
         href: /pl/
       - text: "EN"
         href: /
+
     
   sidebar: false
   
@@ -300,6 +301,8 @@ format:
           <script src="/js/scroll-effects.js"></script>
           <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
           <script src="/js/polish-navbar.js"></script>
+          <!-- Praevius Logo in Navbar -->
+          <script src="/js/praevius-navbar.js"></script>
           <!-- LinkedIn Conversion Tracking for Contact Links -->
           <script src="/js/linkedin-tracking.js"></script>
     

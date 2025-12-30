@@ -238,6 +238,23 @@ body:not(.loaded) .cta-secondary {
   color: var(--bim-white) !important;
 }
 
+/* Praevius Logo in Navbar */
+.praevius-navbar-logo {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin-left: 8px;
+}
+
+.praevius-navbar-logo img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.praevius-navbar-logo:hover img {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
 /* ============================================
    TYPOGRAPHY WITH ANIMATIONS
    ============================================ */
