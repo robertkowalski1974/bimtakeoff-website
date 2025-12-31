@@ -1387,6 +1387,20 @@ h3 {
     border-radius: 4px;
   }
 
+  /* Force all images to respect container width on mobile */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Fix inline-styled images that have fixed max-width */
+  [style*="max-width: 900px"],
+  [style*="max-width: 1000px"],
+  [style*="max-width:900px"],
+  [style*="max-width:1000px"] {
+    max-width: 100% !important;
+  }
+
   /* Scroll to top button */
   .scroll-to-top {
     bottom: 20px;
