@@ -1198,6 +1198,11 @@ h3 {
     --spacing-xxl: 32px;
   }
 
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
   body {
     font-size: 15px;
   }
@@ -1381,10 +1386,17 @@ h3 {
   /* Image sections mobile */
   .image-section {
     margin: 32px 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
   }
 
   .image-section img {
     border-radius: 4px;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
   /* Force all images to respect container width on mobile */
@@ -1394,11 +1406,20 @@ h3 {
   }
 
   /* Fix inline-styled images that have fixed max-width */
-  [style*="max-width: 900px"],
-  [style*="max-width: 1000px"],
-  [style*="max-width:900px"],
-  [style*="max-width:1000px"] {
+  img[style*="max-width: 900px"],
+  img[style*="max-width: 1000px"],
+  img[style*="max-width:900px"],
+  img[style*="max-width:1000px"] {
     max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Prevent horizontal overflow on main content */
+  .container,
+  #quarto-content,
+  main {
+    overflow-x: hidden;
+    max-width: 100vw;
   }
 
   /* Scroll to top button */
