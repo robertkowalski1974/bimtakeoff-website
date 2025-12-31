@@ -350,6 +350,24 @@ h3 {
   z-index: 1;
 }
 
+/* Video disabled state (mobile/reduced data) */
+.hero-video-bg.video-disabled video {
+  display: none;
+}
+
+.hero-video-bg.video-disabled::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/header-background.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
 /* Ensure hero content is above video and overlay */
 .hero-section > .container,
 .hero-section .container {
@@ -1104,37 +1122,647 @@ h3 {
 }
 
 /* ============================================
-   MOBILE RESPONSIVE
+   MOBILE RESPONSIVE - COMPREHENSIVE BREAKPOINTS
    ============================================ */
+
+/* --- TABLETS (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  :root {
+    --spacing-xl: 24px;
+    --spacing-xxl: 36px;
+  }
+
+  .hero-section {
+    min-height: 500px;
+    padding: 60px 0;
+  }
+
+  .hero-title,
+  .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .hero-subtitle,
+  .hero-subtitle p {
+    font-size: 22px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .stat-number,
+  .stat-number p {
+    font-size: 40px;
+  }
+
+  /* Navbar adjustments for tablet */
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-item .nav-link,
+  .navbar .navbar-nav .nav-link {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+
+  /* Two-column grid adjustments */
+  [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* --- LARGE PHONES (max-width: 768px) --- */
 @media (max-width: 768px) {
+  :root {
+    --spacing-xl: 20px;
+    --spacing-xxl: 32px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
   .hero-section {
     min-height: 400px;
     padding: 48px 0;
   }
-  
+
   .hero-section .container {
     padding: 0 16px;
   }
-  
+
   .hero-title,
   .hero-title h1 {
     font-size: 32px;
+    line-height: 1.2;
   }
-  
+
   .hero-subtitle,
   .hero-subtitle p {
     font-size: 18px;
+    line-height: 1.4;
   }
-  
+
+  .hero-logo img {
+    max-width: 200px;
+  }
+
+  /* Single column grids */
   .feature-grid,
-  .portfolio-grid {
+  .portfolio-grid,
+  .process-steps {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-  
+
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 20px;
+    margin: 32px 0;
+  }
+
+  .stat {
+    padding: 12px;
+  }
+
+  .stat-number,
+  .stat-number p {
+    font-size: 36px;
+  }
+
+  .stat-label,
+  .stat-label p {
+    font-size: 14px;
+  }
+
+  /* Feature cards mobile */
+  .feature-card {
+    padding: 24px;
+  }
+
+  .feature-card h3 {
+    font-size: 18px;
+  }
+
+  .feature-card h3 i {
+    font-size: 28px;
+  }
+
+  /* Process steps mobile */
+  .process-step {
+    padding: 20px 24px 24px 24px;
+  }
+
+  .process-step::before {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .process-step h4 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+
+  /* Trust section mobile */
+  .trust-section {
+    padding: 32px 16px;
+  }
+
+  .trust-badges {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .trust-badge {
+    min-width: auto;
+    width: 100%;
+  }
+
+  /* CTA buttons touch-friendly */
+  .cta-primary,
+  .cta-secondary {
+    padding: 14px 28px;
+    font-size: 16px;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hero CTA container */
+  [style*="display: flex"][style*="gap: 16px"][style*="justify-content: center"] {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px !important;
+  }
+
+  /* FAQ items mobile */
+  .faq-item {
+    padding: 20px;
+  }
+
+  .faq-question,
+  .faq-question p,
+  .faq-question strong {
+    font-size: 16px;
+  }
+
+  /* Callout box mobile */
+  .callout-box {
+    padding: 20px;
+    margin: 24px 0;
+  }
+
+  .callout-box h4 {
+    font-size: 18px;
+  }
+
+  /* Contact form mobile */
+  .contact-form {
+    padding: 24px;
+    margin: 24px auto;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 14px;
+    font-size: 16px; /* Prevents iOS zoom */
+    min-height: 48px;
+  }
+
+  /* Typography mobile */
+  h2 {
+    font-size: 24px;
+    padding-bottom: 6px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /* Portfolio items mobile */
+  .portfolio-item img {
+    height: 200px;
+  }
+
+  .portfolio-content {
+    padding: 20px;
+  }
+
+  .portfolio-content h3 {
+    font-size: 18px;
+  }
+
+  /* Image sections mobile */
+  .image-section {
+    margin: 32px 0;
+  }
+
+  .image-section img {
+    border-radius: 4px;
+  }
+
+  /* Scroll to top button */
   .scroll-to-top {
     bottom: 20px;
     right: 20px;
     width: 45px;
     height: 45px;
+  }
+
+  /* Table responsive */
+  .comparison-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* Dropdown menu mobile improvements */
+  .navbar .dropdown-menu {
+    position: static;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    padding-left: 20px;
+  }
+
+  .navbar .dropdown-menu .dropdown-item {
+    padding: 12px 16px;
+    min-height: 44px;
+  }
+}
+
+/* --- SMALL PHONES (max-width: 480px) --- */
+@media (max-width: 480px) {
+  :root {
+    --spacing-xl: 16px;
+    --spacing-xxl: 24px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .hero-section {
+    min-height: 350px;
+    padding: 40px 0;
+  }
+
+  .hero-section .container {
+    padding: 0 12px;
+  }
+
+  .hero-title,
+  .hero-title h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle,
+  .hero-subtitle p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .hero-logo img {
+    max-width: 160px;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  /* Stats section small phones */
+  .stats-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .stat {
+    padding: 10px 8px;
+  }
+
+  .stat-number,
+  .stat-number p {
+    font-size: 28px;
+  }
+
+  .stat-label,
+  .stat-label p {
+    font-size: 12px;
+  }
+
+  /* Feature cards small phones */
+  .feature-card {
+    padding: 20px;
+  }
+
+  .feature-card h3 {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+
+  .feature-card h3 i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .feature-card p {
+    font-size: 13px;
+  }
+
+  /* CTA buttons small phones */
+  .cta-primary,
+  .cta-secondary {
+    padding: 12px 24px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Typography small phones */
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Process steps small phones */
+  .process-step {
+    padding: 16px 20px 20px 20px;
+  }
+
+  .process-step::before {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    top: 16px;
+    left: 16px;
+  }
+
+  .process-step h4 {
+    margin-top: 45px;
+    font-size: 15px;
+  }
+
+  .process-step p {
+    font-size: 13px;
+  }
+
+  /* FAQ small phones */
+  .faq-item {
+    padding: 16px;
+  }
+
+  .faq-question,
+  .faq-question p,
+  .faq-question strong {
+    font-size: 15px;
+  }
+
+  .faq-answer,
+  .faq-answer p {
+    font-size: 13px;
+  }
+
+  /* Callout box small phones */
+  .callout-box {
+    padding: 16px;
+  }
+
+  .callout-box h4 {
+    font-size: 16px;
+  }
+
+  .callout-box p {
+    font-size: 13px;
+  }
+
+  /* Portfolio small phones */
+  .portfolio-item img {
+    height: 180px;
+  }
+
+  .portfolio-content {
+    padding: 16px;
+  }
+
+  .portfolio-content h3 {
+    font-size: 16px;
+  }
+
+  .portfolio-content p {
+    font-size: 13px;
+  }
+
+  .portfolio-tag {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+
+  /* Trust badges small phones */
+  .trust-badge {
+    padding: 20px;
+  }
+
+  .trust-badge h4 {
+    font-size: 16px;
+  }
+
+  .trust-badge p {
+    font-size: 13px;
+  }
+
+  /* Contact form small phones */
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  /* Navbar small phones */
+  .navbar-brand img {
+    max-height: 40px;
+  }
+
+  /* Praevius logo smaller on mobile */
+  .praevius-navbar-logo {
+    padding: 6px 8px;
+    margin-left: 4px;
+  }
+
+  .praevius-navbar-logo img {
+    max-height: 24px !important;
+  }
+}
+
+/* ============================================
+   TOUCH DEVICE OPTIMIZATIONS
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects that don't work on touch */
+  .feature-card:hover,
+  .portfolio-item:hover,
+  .trust-badge:hover {
+    transform: none;
+  }
+
+  .feature-card:hover::before {
+    left: -100%;
+  }
+
+  .feature-card:hover h3 i,
+  .trust-badge:hover h4 i {
+    transform: none;
+  }
+
+  .process-step:hover {
+    transform: none;
+  }
+
+  .process-step:hover::before {
+    transform: none;
+  }
+
+  .stat:hover {
+    transform: none;
+  }
+
+  .stat:hover .stat-number {
+    transform: none;
+  }
+
+  .faq-item:hover {
+    transform: none;
+  }
+
+  .callout-box:hover {
+    transform: none;
+  }
+
+  .image-section img:hover {
+    transform: none;
+  }
+
+  /* Ensure touch targets are large enough (min 44x44px) */
+  .cta-primary,
+  .cta-secondary,
+  .navbar-nav .nav-link,
+  .dropdown-item,
+  button,
+  [role="button"],
+  input[type="submit"],
+  input[type="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Better tap feedback */
+  .cta-primary:active,
+  .cta-secondary:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+  }
+
+  .feature-card:active,
+  .portfolio-item:active {
+    background-color: rgba(255, 153, 0, 0.05);
+  }
+
+  /* Touch active state styling */
+  .touch-active {
+    opacity: 0.85;
+    transform: scale(0.98);
+  }
+}
+
+/* ============================================
+   REDUCED MOTION PREFERENCES
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .fade-in-element {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero-video-bg video {
+    display: none;
+  }
+
+  .hero-section {
+    background-image: linear-gradient(rgba(44, 44, 44, 0.5), rgba(64, 64, 64, 0.5)), url('../images/header-background.jpg');
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  .hero-video-bg,
+  .scroll-progress,
+  .scroll-to-top,
+  .navbar {
+    display: none !important;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 20px;
+    background: none;
+    color: black;
+  }
+
+  .hero-title,
+  .hero-title h1,
+  .hero-subtitle,
+  .hero-subtitle p {
+    color: black;
+    text-shadow: none;
   }
 }

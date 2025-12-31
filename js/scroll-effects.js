@@ -1,7 +1,16 @@
 /**
  * BIM Takeoff - Scroll Effects & Animations
  * Advanced visual effects for better user experience
+ * Updated with mobile optimizations
  */
+
+// ============================================
+// MOBILE DETECTION & UTILITIES
+// ============================================
+const isMobile = () => window.innerWidth <= 768;
+const isSmallPhone = () => window.innerWidth <= 480;
+const isReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const isTouchDevice = () => 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
 // ============================================
 // 1. SCROLL REVEAL ANIMATIONS
@@ -41,33 +50,47 @@ function initScrollReveal() {
 }
 
 // ============================================
-// 2. PARALLAX HERO EFFECT
+// 2. PARALLAX HERO EFFECT (Mobile-Optimized)
 // ============================================
 function initParallax() {
     const hero = document.querySelector('.hero-section');
     const heroVideo = document.querySelector('.hero-video-bg video');
-    
+
     if (!hero) return;
-    
+
+    // Disable parallax on mobile for performance
+    if (isMobile() || isReducedMotion()) {
+        return;
+    }
+
+    // Use requestAnimationFrame for smoother performance
+    let ticking = false;
+
     window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const heroHeight = hero.offsetHeight;
-        
-        // Only apply parallax while hero is visible
-        if (scrolled < heroHeight) {
-            const parallaxSpeed = 0.5;
-            if (heroVideo) {
-                heroVideo.style.transform = `translateX(-50%) translateY(${scrolled * parallaxSpeed}px)`;
-            }
-            
-            // Fade out hero content as you scroll
-            const opacity = 1 - (scrolled / heroHeight) * 1.5;
-            const content = hero.querySelector('.container');
-            if (content) {
-                content.style.opacity = Math.max(0, opacity);
-            }
+        if (!ticking) {
+            requestAnimationFrame(() => {
+                const scrolled = window.pageYOffset;
+                const heroHeight = hero.offsetHeight;
+
+                // Only apply parallax while hero is visible
+                if (scrolled < heroHeight) {
+                    const parallaxSpeed = 0.5;
+                    if (heroVideo) {
+                        heroVideo.style.transform = `translateX(-50%) translateY(${scrolled * parallaxSpeed}px)`;
+                    }
+
+                    // Fade out hero content as you scroll
+                    const opacity = 1 - (scrolled / heroHeight) * 1.5;
+                    const content = hero.querySelector('.container');
+                    if (content) {
+                        content.style.opacity = Math.max(0, opacity);
+                    }
+                }
+                ticking = false;
+            });
+            ticking = true;
         }
-    });
+    }, { passive: true });
 }
 
 // ============================================
@@ -264,11 +287,12 @@ function initScrollToTop() {
 }
 
 // ============================================
-// 10. IMAGE LAZY LOADING WITH FADE
+// 10. IMAGE LAZY LOADING WITH FADE (Enhanced)
 // ============================================
 function initLazyImages() {
-    const images = document.querySelectorAll('img[data-src]');
-    
+    // Handle data-src lazy images
+    const lazyImages = document.querySelectorAll('img[data-src]');
+
     const imageObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -278,9 +302,116 @@ function initLazyImages() {
                 imageObserver.unobserve(img);
             }
         });
+    }, {
+        rootMargin: '50px 0px',
+        threshold: 0.01
     });
-    
-    images.forEach(img => imageObserver.observe(img));
+
+    lazyImages.forEach(img => imageObserver.observe(img));
+
+    // Add native lazy loading to all images without it
+    document.querySelectorAll('img:not([loading])').forEach(img => {
+        // Skip hero/critical images
+        if (!img.closest('.hero-section') && !img.closest('.navbar')) {
+            img.setAttribute('loading', 'lazy');
+        }
+    });
+
+    // Add decoding async to all images
+    document.querySelectorAll('img:not([decoding])').forEach(img => {
+        img.setAttribute('decoding', 'async');
+    });
+}
+
+// ============================================
+// 11. MOBILE VIDEO OPTIMIZATION
+// ============================================
+function initMobileVideoOptimization() {
+    const heroVideo = document.querySelector('.hero-video-bg video');
+
+    if (!heroVideo) return;
+
+    // Check if user prefers reduced data
+    const prefersReducedData = navigator.connection &&
+        (navigator.connection.saveData ||
+         navigator.connection.effectiveType === 'slow-2g' ||
+         navigator.connection.effectiveType === '2g');
+
+    // On mobile or reduced data, consider replacing video with static image
+    if (isSmallPhone() || prefersReducedData || isReducedMotion()) {
+        // Pause video and show poster instead
+        heroVideo.pause();
+        heroVideo.removeAttribute('autoplay');
+
+        // Add a CSS class to indicate video is disabled
+        heroVideo.closest('.hero-video-bg').classList.add('video-disabled');
+
+        console.log('📱 Hero video disabled for mobile/reduced data');
+    } else if (isMobile()) {
+        // On larger phones, reduce video quality by limiting playback
+        heroVideo.playbackRate = 1.0;
+
+        // Pause when not visible
+        const videoObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    heroVideo.play().catch(() => {});
+                } else {
+                    heroVideo.pause();
+                }
+            });
+        }, { threshold: 0.1 });
+
+        videoObserver.observe(heroVideo);
+    }
+}
+
+// ============================================
+// 12. VIEWPORT HEIGHT FIX FOR MOBILE
+// ============================================
+function initMobileViewportFix() {
+    // Fix for mobile browsers where 100vh includes the address bar
+    const setVH = () => {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    setVH();
+    window.addEventListener('resize', debounce(setVH, 100));
+}
+
+// ============================================
+// 13. TOUCH-FRIENDLY NAVIGATION
+// ============================================
+function initTouchNavigation() {
+    if (!isTouchDevice()) return;
+
+    // Add touch feedback to interactive elements
+    const interactiveElements = document.querySelectorAll(
+        '.cta-primary, .cta-secondary, .feature-card, .portfolio-item, .nav-link, .dropdown-item'
+    );
+
+    interactiveElements.forEach(el => {
+        el.addEventListener('touchstart', function() {
+            this.classList.add('touch-active');
+        }, { passive: true });
+
+        el.addEventListener('touchend', function() {
+            this.classList.remove('touch-active');
+        }, { passive: true });
+    });
+
+    // Improve dropdown behavior on touch
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
+            // On mobile, first click opens, second navigates
+            const dropdown = this.closest('.dropdown');
+            if (dropdown && !dropdown.classList.contains('show')) {
+                e.preventDefault();
+            }
+        });
+    });
 }
 
 // ============================================
@@ -288,7 +419,12 @@ function initLazyImages() {
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🎨 Initializing BIM Takeoff scroll effects...');
-    
+
+    // Initialize mobile-specific optimizations first
+    initMobileViewportFix();
+    initMobileVideoOptimization();
+    initTouchNavigation();
+
     // Initialize all effects
     initScrollReveal();
     initParallax();
@@ -300,8 +436,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initLoadAnimation();
     initScrollToTop();
     initLazyImages();
-    
+
     console.log('✅ All scroll effects initialized');
+    console.log(`📱 Mobile: ${isMobile()}, Touch: ${isTouchDevice()}, Reduced Motion: ${isReducedMotion()}`);
 });
 
 // ============================================

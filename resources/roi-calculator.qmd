@@ -347,24 +347,112 @@ Close
 
 :::
 
-<!-- jsPDF Library for PDF Report Generation (Local) -->
-<script src="../js/jspdf.umd.min.js"></script>
+<!-- jsPDF Library - Loaded on demand when PDF is requested -->
+<script>
+// Defer jsPDF loading until user clicks "Download Full ROI Report"
+window.loadJsPDF = function() {
+  return new Promise((resolve, reject) => {
+    if (window.jspdf) {
+      resolve(window.jspdf);
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = '../js/jspdf.umd.min.js';
+    script.onload = () => resolve(window.jspdf);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+};
+</script>
 
-<script src="../js/roi-calculator.js"></script>
+<script src="../js/roi-calculator.js" defer></script>
 
 <style>
-/* Mobile Responsive */
+/* Mobile Responsive - Calculator */
+@media (max-width: 1024px) {
+  .calculator-layout {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .calculator-layout {
     grid-template-columns: 1fr !important;
   }
-  
+
+  .calculator-inputs,
+  #results-panel {
+    padding: 24px !important;
+  }
+
   #results-panel {
     margin-top: 24px;
   }
-  
+
   .trust-section > div {
     gap: 24px !important;
+  }
+
+  #total-savings {
+    font-size: 2rem !important;
+  }
+
+  .metric-card {
+    padding: 12px !important;
+  }
+
+  /* Touch-friendly form controls */
+  select.form-control,
+  input[type="number"],
+  .radio-option {
+    min-height: 48px;
+    font-size: 16px !important; /* Prevents iOS zoom */
+  }
+
+  #calculate-btn,
+  #get-report-btn {
+    min-height: 52px;
+    font-size: 16px !important;
+  }
+
+  /* Modal mobile fixes */
+  #lead-modal .modal-content,
+  #thankyou-modal .modal-content {
+    max-height: 95vh;
+    overflow-y: auto;
+    padding: 24px !important;
+    margin: 10px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculator-inputs,
+  #results-panel {
+    padding: 16px !important;
+  }
+
+  #total-savings {
+    font-size: 1.75rem !important;
+  }
+
+  .result-card {
+    padding: 16px !important;
+  }
+
+  .metric-card > div {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  .trust-item div:first-child {
+    font-size: 1.5rem !important;
+  }
+
+  /* CTA section mobile */
+  section[style*="padding: 80px"] {
+    padding: 40px 16px !important;
   }
 }
 
