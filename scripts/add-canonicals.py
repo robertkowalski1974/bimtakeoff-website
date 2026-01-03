@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 SITE_DIR = Path("docs")
-BASE_URL = "https://robertkowalski1974.github.io/bimtakeoff-website"
+BASE_URL = "https://www.bimtakeoff.com"
 
 
 def normalize_url(file_path: Path, base_dir: Path) -> str:

@@ -19,7 +19,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
-BASE_URL = "https://robertkowalski1974.github.io/bimtakeoff-website"
+BASE_URL = "https://www.bimtakeoff.com"
 
 # Define all pages with their properties
 PAGES = [
@@ -93,7 +93,7 @@ def main():
     logger.info("  - Trade-Specific Services (EN + PL)")
     logger.info("  - Automated Quantity Takeoff (EN + PL) ⭐ NEW")
     logger.info("")
-    logger.info("Sitemap URL: https://robertkowalski1974.github.io/bimtakeoff-website/sitemap.xml")
+    logger.info("Sitemap URL: https://www.bimtakeoff.com/sitemap.xml")
     logger.info("=" * 70)
 
 if __name__ == "__main__":

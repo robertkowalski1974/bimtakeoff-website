@@ -16,7 +16,7 @@ project:
 
 website:
   title: "BIM Takeoff"
-  site-url: "https://robertkowalski1974.github.io/bimtakeoff-website"
+  site-url: "https://www.bimtakeoff.com"
   description: "Professional BIM 5D Cost Estimation | 20 Years International Experience"
   favicon: images/favicon.ico
   
@@ -204,9 +204,9 @@ format:
           "@type": "ProfessionalService",
           "name": "BIM Takeoff",
           "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
-          "url": "https://robertkowalski1974.github.io/bimtakeoff-website",
-          "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
-          "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "url": "https://www.bimtakeoff.com",
+          "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
+          "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
           "telephone": "+44-20-3239-9967",
           "email": "info@bimtakeoff.com",
           "address": {
