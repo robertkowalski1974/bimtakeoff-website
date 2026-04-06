@@ -38,6 +38,12 @@ Eliminate conflicts before they cost time and money.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Construction logistics planning** estimates and manages the site setup, temporary works, and material delivery requirements that support the main construction programme. Logistics costs -- including tower cranes, hoists, scaffolding, welfare facilities, site roads, and material storage -- typically represent 8-15% of project value but are frequently under-estimated in tenders. BIM Takeoff models logistics requirements from BIM data, capturing phased site setup, crane reach analysis, and material delivery scheduling.
+
+</div>
+
 ## Why Site Logistics Separate Winners from Losers
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

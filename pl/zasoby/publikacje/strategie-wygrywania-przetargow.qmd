@@ -3,7 +3,7 @@ title: "Mit 70% ceny: Co naprawdę wygrywa przetargi budowlane | BIM Takeoff"
 description: "Analiza oparta na danych obalająca mit '70% ceny' w zamówieniach budowlanych. Badania pokazują, że 40-50% oceny to kryteria pozacenowe, gdzie dokładne kosztorysowanie i wizualizacja BIM zapewniają mierzalną poprawę współczynnika wygranych."
 page-layout: full
 date: "2025-11-22"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [Strategia Przetargowa, Kosztorysowanie, BIM, Optymalizacja Wygranych, Zamówienia Budowlane]
 image: "../../../images/tender-strategy-cover.png"
 lang: pl

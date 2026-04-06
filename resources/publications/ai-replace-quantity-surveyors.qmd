@@ -3,7 +3,7 @@ title: "Will AI Replace Quantity Surveyors? The Reality Behind Construction's Di
 description: "Data-driven analysis of AI's impact on quantity surveying. Research shows AI will transform, not replace, the profession - but contractors face a £495,680 question about automation versus human expertise."
 page-layout: full
 date: "2025-11-16"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [AI, Quantity Surveying, Digital Transformation, Construction Technology, Future of Work]
 image: "../../images/ai-qs-cover.png"
 ---

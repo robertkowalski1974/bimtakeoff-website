@@ -3,7 +3,7 @@ title: "Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające
 description: "Kompleksowa analiza egzystencjalnych wyzwań branży budowlanej: luka infrastrukturalna 40 bilionów dolarów do 2040 roku, kryzys kadrowy z 41% odchodzącymi na emeryturę do 2031 roku, stagnacja produktywności i pilna potrzeba cyfrowej transformacji."
 page-layout: full
 date: "2025-12-14"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [Branża Budowlana, Infrastruktura, Kadry, Zmiany Klimatu, Transformacja Cyfrowa]
 image: "../../../images/construction-crisis-cover.png"
 lang: pl

@@ -38,6 +38,12 @@ Triple-validated for complete accuracy.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Automated quantity takeoff** uses BIM technology to extract material quantities directly from IFC model files produced by software such as Autodesk Revit, ArchiCAD, and Tekla Structures, eliminating manual measurement from 2D drawings. The process is 90-95% faster than traditional methods, with automated QA checks reducing human error to below 1%. BIM Takeoff's automated takeoff service applies a triple validation system -- AI extraction, expert quantity surveyor review, and cross-reference verification -- and has processed over 2,000 projects across 12 million square metres.
+
+</div>
+
 ## Why Traditional Take-offs Cost You Time & Money
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

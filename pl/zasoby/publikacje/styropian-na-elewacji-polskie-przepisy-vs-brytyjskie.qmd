@@ -3,7 +3,7 @@ title: "Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra 
 description: "Analiza porównawcza przepisów dotyczących stosowania styropianu na elewacjach budynków wielorodzinnych w Polsce i Wielkiej Brytanii. Polski limit 25 m vs brytyjski zakaz powyżej 18 m – kluczowe różnice regulacyjne i kierunki zmian legislacyjnych."
 page-layout: full
 date: "2025-11-29"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [Bezpieczeństwo Pożarowe, Przepisy Budowlane, Termomodernizacja, ETICS, Regulacje]
 image: "../../../images/EPS-polskie-warunki.png"
 lang: pl

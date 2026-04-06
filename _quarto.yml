@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    - llms.txt
+    - llms-full.txt
     - js/**
     - css/**
     - images/**
@@ -13,6 +15,8 @@ project:
     - python3 scripts/add-hreflang.py
     - python3 scripts/add-canonicals.py
     - python3 scripts/clean-sitemap.py
+    - python3 scripts/add-structured-data.py
+    - python3 scripts/generate-feed.py
 
 website:
   title: "BIM Takeoff"
@@ -90,6 +94,8 @@ website:
             href: coming-soon.qmd
           - text: "Publications"
             href: resources/publications/index.qmd
+          - text: "What is BIM 5D Cost Estimation?"
+            href: resources/what-is-bim-5d-cost-estimation.qmd
       - text: "Contact"
         href: contact.qmd
     right:
@@ -136,6 +142,9 @@ format:
     lang: en-GB
     include-in-header:
       text: |
+        <!-- Atom Feed Autodiscovery -->
+        <link rel="alternate" type="application/atom+xml" title="BIM Takeoff Publications" href="https://www.bimtakeoff.com/feed.xml">
+
         <!-- Google Search Console Verification -->
         <meta name="google-site-verification" content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA">
 
@@ -203,7 +212,7 @@ format:
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "BIM Takeoff",
-          "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services",
+          "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
           "url": "https://www.bimtakeoff.com",
           "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
           "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -212,6 +221,12 @@ format:
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "GB"
+          },
+          "founder": {
+            "@type": "Person",
+            "name": "Robert Kowalski",
+            "jobTitle": "Quantity Surveyor & BIM 5D Cost Estimation Specialist",
+            "knowsAbout": ["BIM 5D Cost Estimation", "Quantity Surveying", "Construction Cost Management", "Automated Quantity Takeoff", "Building Safety Act Compliance"]
           },
           "areaServed": [
             {
@@ -227,19 +242,38 @@ format:
               "name": "Poland"
             }
           ],
+          "knowsAbout": [
+            "BIM 5D Cost Estimation",
+            "Quantity Surveying",
+            "Automated Quantity Takeoff",
+            "Construction Cost Consulting",
+            "Drylining Systems Estimation",
+            "Structural Works Estimation",
+            "Facade Compliance and Remediation",
+            "Fire Protection Cost Estimation",
+            "MEP Infrastructure Estimation",
+            "Building Safety Act Compliance",
+            "ISO 19650 BIM Information Management"
+          ],
           "serviceType": [
             "BIM 5D Cost Estimation",
             "Quantity Surveying",
             "Construction Cost Consulting",
             "Automated Quantity Takeoff",
-            "BIM Coordination Services"
+            "BIM Coordination Services",
+            "Tender Preparation and Bid Management",
+            "Building Remediation Cost Estimation"
           ],
           "priceRange": "$$",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
             "reviewCount": "20"
-          }
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/bimtakeoff",
+            "https://twitter.com/bimtakeoff"
+          ]
         }
         </script>
         <script>

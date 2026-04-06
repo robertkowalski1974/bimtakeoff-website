@@ -38,6 +38,12 @@ From pricing strategy to technical narratives.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Construction bid writing and bid management** is the process of preparing and submitting competitive tender responses that maximise win probability. Research shows that 40-50% of tender evaluation is based on non-price criteria including methodology, programme, and risk management. BIM Takeoff provides end-to-end tender support from pricing documents and method statements to programme development and submission management, helping contractors improve win rates from the industry average of 15-25% to 35-45%.
+
+</div>
+
 ## Why Most Tenders Lose Before Evaluation
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

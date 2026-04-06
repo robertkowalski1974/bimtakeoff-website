@@ -38,6 +38,12 @@ Clash-free quantities with ±3% accuracy.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**MEP cost estimation** covers the mechanical, electrical, and plumbing systems that typically represent 30-50% of a building's total construction cost. Accurate MEP estimation requires specialist knowledge of HVAC systems, electrical distribution, plumbing, fire suppression, and building management systems. BIM Takeoff extracts MEP quantities directly from coordinated BIM models, capturing complex routing, fittings, and connections that 2D takeoff methods routinely undercount.
+
+</div>
+
 ## The MEP Cost Challenge
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

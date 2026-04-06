@@ -38,6 +38,12 @@ Interactive PowerBI and Tableau dashboards for instant analysis.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Construction cost reporting** transforms raw quantity and cost data into clear, auditable documents that support decision-making across the project lifecycle. Comprehensive cost reports include elemental cost breakdowns, trade-by-trade summaries, benchmarking against BCIS data, risk-adjusted contingencies, and visual dashboards. BIM Takeoff's reporting integrates directly with BIM models, ensuring that every line item is traceable back to a specific building element.
+
+</div>
+
 ## Why Traditional Reports Fail Stakeholders
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

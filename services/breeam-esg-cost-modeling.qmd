@@ -38,6 +38,12 @@ Optimize sustainability investments with ±5% precision.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**BREEAM and ESG cost modelling** quantifies the financial impact of sustainability measures in construction projects, helping teams optimise the balance between environmental targets and budget constraints. This includes modelling the cost of achieving specific BREEAM ratings (Pass through Outstanding), embodied carbon reduction strategies, energy efficiency measures, and ESG compliance requirements. BIM Takeoff integrates sustainability cost data directly into BIM 5D models, enabling side-by-side comparison of standard versus sustainable specification options.
+
+</div>
+
 ## The Green Building Cost Challenge
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

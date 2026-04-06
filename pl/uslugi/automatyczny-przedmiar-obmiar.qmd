@@ -38,6 +38,12 @@ Potrójnie weryfikowane dla pełnej dokładności.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Automatyczny przedmiar** wykorzystuje technologie BIM do ekstrakcji ilosci materialow bezposrednio z plikow modeli IFC tworzonych w programach Autodesk Revit, ArchiCAD i Tekla Structures, eliminujac reczny pomiar z rysunkow 2D. Proces jest o 90-95% szybszy niz metody tradycyjne, a automatyczne kontrole jakosci redukuja blad ludzki ponizej 1%. Usluga BIM Takeoff stosuje potrojny system walidacji -- ekstrakcja AI, weryfikacja eksperta kosztorysanta i analiza krzyzowa -- i obsluzyla ponad 2000 projektow o lacznej powierzchni ponad 12 milionow metrow kwadratowych.
+
+</div>
+
 ## Dlaczego Tradycyjne Przedmiary Kosztują Czas i Pieniądze
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

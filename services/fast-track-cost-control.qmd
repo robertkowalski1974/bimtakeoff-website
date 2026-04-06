@@ -38,6 +38,12 @@ Early warning system catches budget risks 4-6 weeks ahead.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Fast-track cost control** provides real-time cost feedback during design development, enabling project teams to make informed financial decisions before commitments are locked in. Rather than waiting 6-8 weeks for a traditional cost plan, fast-track cost control delivers iterative budget updates within 24-48 hours as the design evolves, reducing the risk of late-stage cost surprises. BIM Takeoff's fast-track service uses automated BIM model analysis to track cost implications of design changes in near real-time.
+
+</div>
+
 ## The Hidden Cost of Poor Cost Control
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

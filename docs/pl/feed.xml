@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BIM Takeoff - Badania i Publikacje</title>
+  <subtitle>Eksperckie analizy kosztorysowania BIM 5D, AI w budownictwie i trendow branzowych</subtitle>
+  <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="self"/>
+  <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/"/>
+  <id>https://www.bimtakeoff.com/pl/</id>
+  <updated>2025-12-14T00:00:00Z</updated>
+  <author>
+    <name>Robert Kowalski</name>
+    <email>info@bimtakeoff.com</email>
+  </author>
+  <entry>
+    <title>Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające globalną branżę</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/kryzys-budownictwa-40-bilionow-dolarow.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/kryzys-budownictwa-40-bilionow-dolarow.html</id>
+    <updated>2025-12-14T00:00:00Z</updated>
+    <summary>Kompleksowa analiza egzystencjalnych wyzwań branży budowlanej: luka infrastrukturalna 40 bilionów dolarów do 2040 roku, kryzys kadrowy z 41% odchodzącymi na emeryturę do 2031 roku, stagnacja produktywności i pilna potrzeba cyfrowej transformacji.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Endemiczna porażka realizacji projektów budowlanych: dlaczego 91,5% projektów kończy się niepowodzeniem</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/endemiczna-porazka-realizacji-projektow-budowlanych.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/endemiczna-porazka-realizacji-projektow-budowlanych.html</id>
+    <updated>2025-11-29T00:00:00Z</updated>
+    <summary>Analiza badawcza przyczyn systematycznych niepowodzeń projektów budowlanych. Dane Uniwersytetu Oksfordzkiego wskazują, że 91,5% projektów przekracza budżet lub harmonogram, ze średnim przekroczeniem kosztów wynoszącym 62%. Poznaj strukturalne przyczyny stojące za żelaznym prawem megaprojektów.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra brytyjski rygoryzm</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/styropian-na-elewacji-polskie-przepisy-vs-brytyjskie.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/styropian-na-elewacji-polskie-przepisy-vs-brytyjskie.html</id>
+    <updated>2025-11-29T00:00:00Z</updated>
+    <summary>Analiza porównawcza przepisów dotyczących stosowania styropianu na elewacjach budynków wielorodzinnych w Polsce i Wielkiej Brytanii. Polski limit 25 m vs brytyjski zakaz powyżej 18 m – kluczowe różnice regulacyjne i kierunki zmian legislacyjnych.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/ai-przedmiary-deklaracje-vs-rzeczywistosc.html</id>
+    <updated>2025-11-23T00:00:00Z</updated>
+    <summary>Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Mit 70% ceny: Co naprawdę wygrywa przetargi budowlane</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/strategie-wygrywania-przetargow.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/strategie-wygrywania-przetargow.html</id>
+    <updated>2025-11-22T00:00:00Z</updated>
+    <summary>Analiza oparta na danych obalająca mit '70% ceny' w zamówieniach budowlanych. Badania pokazują, że 40-50% oceny to kryteria pozacenowe, gdzie dokładne kosztorysowanie i wizualizacja BIM zapewniają mierzalną poprawę współczynnika wygranych.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/ai-czy-zastapi-kosztorysantow.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/ai-czy-zastapi-kosztorysantow.html</id>
+    <updated>2025-11-16T00:00:00Z</updated>
+    <summary>Analiza wpływu sztucznej inteligencji na zawód kosztorysanta oparta na danych. Badania pokazują, że AI przekształci, ale nie zastąpi profesji - ale wykonawcy stoją przed pytaniem o 2,1 mln PLN dotyczącym automatyzacji.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Adopcja BIM na etapie przetargów: Dlaczego wykonawcy stawiają opór i czego Polska może nauczyć się od Wielkiej Brytanii</title>
+    <link href="https://www.bimtakeoff.com/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html"/>
+    <id>https://www.bimtakeoff.com/pl/zasoby/publikacje/adopcja-bim-na-etapie-przetargow.html</id>
+    <updated>2025-10-05T00:00:00Z</updated>
+    <summary>Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu Wielkiej Brytanii (73% adopcji) z wyzwaniami Polski (8,9% adopcji wśród wykonawców). Kompleksowe rekomendacje polityczne dla mandatu Polski 2030.</summary>
+    <author>
+      <name>Robert Kowalski</name>
+    </author>
+  </entry>
+</feed>

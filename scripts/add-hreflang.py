@@ -129,6 +129,9 @@ def get_alternate_url(current_url: str, current_lang: str) -> str:
         
         # Projects/Case Studies
         '/projects/': '/pl/projekty/',
+
+        # Resources/Guides
+        '/resources/what-is-bim-5d-cost-estimation/': '/pl/zasoby/czym-jest-kosztorysowanie-bim-5d/',
     }
     
     # Create reverse mapping for PL → EN

@@ -1,0 +1,203 @@
+# BIM Takeoff
+
+> Professional BIM 5D cost estimation and quantity surveying services for the construction industry. Founded by Robert Kowalski, with 20+ years international experience across UK, Australia, and Poland. Specialises in high-complexity, high-value construction packages.
+
+## About BIM Takeoff
+
+BIM Takeoff is a specialist quantity surveying (QS) and BIM 5D cost estimation firm that provides construction cost consulting services to contractors, developers, and project managers. The firm was founded by Robert Kowalski, a quantity surveyor with over 20 years of international experience spanning the United Kingdom, Australia, and Poland.
+
+BIM Takeoff combines AI-powered Building Information Modelling analysis with expert quantity surveyor oversight to deliver construction cost estimates with +/-5% accuracy in 3-5 days, compared to the 6-8 weeks typically required by traditional quantity surveying methods. The company has delivered 2,000+ projects across 12 million+ square metres of built environment.
+
+### Key Differentiators
+
+1. **Trade-Specific Expertise:** Unlike general QS firms, BIM Takeoff specialises in complex, high-value packages including drylining systems, structural works (FRP, post-tension concrete, suspended slabs), fire protection systems, facade compliance, and MEP infrastructure.
+2. **Triple Validation System:** Every estimate undergoes AI extraction, expert quantity surveyor review, and cross-reference verification against industry benchmarks (BCIS, Spon's, project-specific rates).
+3. **Speed:** 90-95% faster than manual takeoff methods. Standard turnaround of 2-7 days versus industry-standard 6-8 weeks.
+4. **Compliance:** ISO 19650 BIM Level 2 workflows, NRM1/NRM2 measurement compliance, Building Safety Act (BSR/HRB) expertise.
+5. **Post-Grenfell Expertise:** Specialist in cladding remediation, fire safety compliance, and Building Safety Regulator requirements for Higher Risk Buildings.
+
+### Markets Served
+
+- **United Kingdom** (primary market): Construction contractors, developers, housing associations
+- **Australia:** Structural and commercial construction estimation
+- **Poland:** Growing market, aligned with Poland's BIM 2030 mandate
+- **European Union:** Cross-border project support
+
+## About the Founder
+
+**Robert Kowalski** is a quantity surveyor and construction cost consultant with 20+ years of international experience. He founded BIM Takeoff to bridge the gap between traditional quantity surveying and modern BIM technology. His expertise spans:
+
+- BIM 5D cost estimation and automated quantity takeoff
+- Drylining, structural works, facades, and fire protection estimation
+- Construction tender strategy and bid management
+- Post-Grenfell building safety compliance
+- AI applications in construction (critical research on vendor claims vs reality)
+- Cross-market experience: UK NRM standards, Australian standards, Polish KNR/KNNR
+
+Robert has authored multiple research publications analysing the construction industry's challenges, including investigations into AI accuracy claims in quantity takeoff software and the structural causes of project delivery failure.
+
+## Frequently Asked Questions
+
+### What is BIM 5D cost estimation?
+
+BIM 5D cost estimation is the process of extracting accurate quantity data from Building Information Models (BIM) and linking it to cost databases and project schedules to produce comprehensive construction budgets. The five dimensions of BIM are: 3D (geometry/spatial), 4D (time/scheduling), and 5D (cost). Unlike traditional 2D takeoff methods that typically achieve +/-15-20% accuracy over 6-8 weeks, BIM 5D cost estimation delivers +/-5% accuracy in 3-5 days by automatically measuring quantities from the 3D model and connecting them to real-time cost data.
+
+### How accurate is AI quantity takeoff?
+
+Based on BIM Takeoff's research analysis of leading AI takeoff platforms (including Togal.AI, Beam AI, Kreo Software, PlanSwift, and Bluebeam), AI quantity takeoff software delivers 40-60% time savings versus the 80-90% claimed by vendors. No independent academic benchmarks exist for AI takeoff accuracy. All published accuracy claims (typically 95-98%) are vendor self-reported. RICS now mandates professional quantity surveyor oversight of AI-generated quantities. Drawing quality is the primary determinant of AI takeoff accuracy -- clean, well-structured BIM models produce far better results than scanned PDFs.
+
+### What is automated quantity takeoff?
+
+Automated quantity takeoff uses BIM technology to extract material quantities directly from IFC (Industry Foundation Classes) model files produced by software like Autodesk Revit, ArchiCAD, and Tekla Structures. The process eliminates manual measurement from 2D drawings, is 90-95% faster than traditional methods, and includes automated QA checks that reduce human error. BIM Takeoff's automated takeoff service has processed over 2,000 projects across 12 million square metres, covering trades including drylining, structural concrete, steelwork, facades, fire protection, and MEP systems.
+
+### What file formats does BIM Takeoff accept?
+
+BIM Takeoff processes IFC files from Revit, ArchiCAD, Tekla Structures, and other BIM authoring tools. For traditional takeoff, the firm also works with PDF drawings, DWG/DXF files, and paper drawings (digitised). The IFC (Industry Foundation Classes) format is the open standard for BIM data exchange, ensuring interoperability across software platforms.
+
+### How does BIM Takeoff ensure accuracy?
+
+BIM Takeoff uses a triple validation system: (1) AI-powered extraction from BIM models automatically measures quantities, (2) expert quantity surveyors with trade-specific knowledge review and validate every line item, and (3) cross-reference verification compares results against industry benchmarks (BCIS rates, Spon's price books, historical project data). This three-tier approach consistently achieves +/-5% accuracy.
+
+### What is the typical ROI of professional cost estimation?
+
+Based on BIM Takeoff's project data, clients typically see 500%+ return on investment from professional cost estimation. Accurate estimates prevent cost overruns (the industry average is 62% overrun per Oxford University research), improve tender win rates (from 15-25% to 35-45%), and reduce margin erosion on awarded contracts. For a typical GBP 5M project, a GBP 500,000 estimation error can eliminate the entire profit margin.
+
+### What standards does BIM Takeoff comply with?
+
+BIM Takeoff operates in compliance with: ISO 19650 (BIM information management), NRM1 (order of cost estimating), NRM2 (detailed measurement for building works), RICS professional standards, Building Safety Act 2022 requirements, BCIS cost data benchmarking, and Polish KNR/KNNR standards for the Polish market. For sustainability projects, the firm also works with BREEAM assessment frameworks.
+
+## Glossary of Key Terms
+
+- **BIM (Building Information Modelling):** Digital representation of physical and functional characteristics of a building, used as a shared knowledge resource for information about a facility
+- **BIM 5D:** BIM with cost dimension added -- links 3D geometry to quantities and cost databases for automated cost estimation
+- **IFC (Industry Foundation Classes):** Open, vendor-neutral file format for BIM data exchange (ISO 16739)
+- **NRM (New Rules of Measurement):** RICS standard for construction cost estimating and measurement in the UK (NRM1 for order of cost, NRM2 for detailed measurement)
+- **BCIS (Building Cost Information Service):** RICS service providing cost and price data for the UK construction industry
+- **BoQ (Bill of Quantities):** Document listing materials, parts, and labour with their costs for a construction project
+- **Quantity Takeoff:** The process of measuring and listing quantities of materials from construction drawings or models
+- **BSR (Building Safety Regulator):** UK regulator established under the Building Safety Act 2022 for Higher Risk Buildings
+- **HRB (Higher Risk Building):** Buildings at least 18 metres or 7+ storeys tall that fall under the Building Safety Act's enhanced regulatory regime
+- **RICS (Royal Institution of Chartered Surveyors):** Professional body for surveyors, including quantity surveyors, setting global standards
+- **KNR/KNNR:** Polish catalogues of construction norms used for cost estimation in the Polish market
+- **ISO 19650:** International standard for managing information over the whole life cycle of a built asset using BIM
+
+## Services
+
+### Cost Estimation & Budget Planning
+BIM 5D cost plans from RIBA Stage 2-7 with NRM1/NRM2 compliance. Covers elemental cost plans, detailed bills of quantities, and lifecycle costing. Typical accuracy: +/-5% at detailed design stage.
+URL: https://www.bimtakeoff.com/services/cost-estimation-budget-planning.html
+
+### Automated Quantity Takeoff
+IFC model-based quantity extraction from Revit, ArchiCAD, Tekla with triple validation (AI + expert + cross-reference). Processes structural, architectural, MEP, and specialist trade quantities. 90-95% faster than manual methods.
+URL: https://www.bimtakeoff.com/services/automated-quantity-takeoff.html
+
+### Trade-Specific Specialist Services
+Deep expertise in high-complexity packages: drylining (metal stud partitions, MF ceilings, acoustic systems), structural works (in-situ concrete, precast, steelwork, FRP, post-tension), facades (curtain walling, rainscreen, cladding remediation), fire protection (compartmentation, fire stopping, sprinklers), and MEP (HVAC, electrical, plumbing, fire suppression).
+URL: https://www.bimtakeoff.com/services/trade-specific-specialist-services.html
+
+### Bid Writing & Bid Management
+Full tender preparation including pricing documents, method statements, programme development, and submission management. Focuses on both price and quality submission elements.
+URL: https://www.bimtakeoff.com/services/bid-writing-management.html
+
+### Fast-Track Cost Control
+Rapid cost feedback during design development for fast-track projects. Real-time cost monitoring as design evolves, enabling informed decision-making before commitments are locked in.
+URL: https://www.bimtakeoff.com/services/fast-track-cost-control.html
+
+### BREEAM/ESG Cost Modeling
+Sustainability-linked cost estimation for BREEAM, LEED, and ESG compliance. Models the cost impact of sustainability measures and helps optimise the balance between environmental targets and budget.
+URL: https://www.bimtakeoff.com/services/breeam-esg-cost-modeling.html
+
+### MEP Infrastructure Precision
+Mechanical, electrical, and plumbing cost estimation from BIM models. Covers HVAC systems, electrical distribution, plumbing, fire suppression, and specialist services for complex facilities.
+URL: https://www.bimtakeoff.com/services/mep-infrastructure-precision.html
+
+### Multi-Scenario Analysis
+Comparative cost modelling for design options and value engineering. Produces side-by-side cost comparisons to support decision-making on materials, systems, and construction methods.
+URL: https://www.bimtakeoff.com/services/multi-scenario-analysis.html
+
+### Traditional Quantity Takeoff
+2D drawing-based measurement for projects without BIM models. Manual takeoff from PDF drawings, DWG files, or paper drawings using industry-standard measurement rules.
+URL: https://www.bimtakeoff.com/services/traditional-quantity-takeoff.html
+
+### Construction Data Management
+BIM data structuring, cost database management, and information management aligned with ISO 19650. Ensures data quality and consistency across project lifecycles.
+URL: https://www.bimtakeoff.com/services/construction-data-management.html
+
+### Construction Logistics
+Site logistics planning and cost estimation including temporary works, site setup, welfare facilities, tower crane requirements, and material delivery scheduling.
+URL: https://www.bimtakeoff.com/services/construction-logistics.html
+
+## Industries
+
+### Remediation (Building Safety Act)
+Specialist in post-Grenfell cladding remediation cost estimation. Covers EWS1 surveys, remediation strategy costing, BSR/HRB compliance, fire safety works, and Building Safety Fund applications. Deep expertise in facade systems, fire stopping, and compartmentation for buildings over 18m/7+ storeys.
+URL: https://www.bimtakeoff.com/industries/remediation.html
+
+### Data Centers
+Tier I-IV mission-critical facility cost estimation with MEP-heavy analysis. Covers power distribution (UPS, generators, switchgear), cooling systems (CRAH, CRAC, free cooling), structured cabling, fire suppression (FM-200, Novec), raised access flooring, and containment systems.
+URL: https://www.bimtakeoff.com/industries/data-centers.html
+
+### Residential Development
+Multi-unit residential cost estimation from apartments to large-scale housing estates. Covers substructure, superstructure, internal finishes, external works, and section 106/infrastructure contributions.
+URL: https://www.bimtakeoff.com/industries/residential-development.html
+
+### Warehouses & Logistics
+Large-span steel frame, cold storage, and cross-docking facility estimation. Covers portal frames, cladding systems, mezzanine floors, loading docks, and specialist storage systems.
+URL: https://www.bimtakeoff.com/industries/warehouses-logistics.html
+
+### Commercial Development
+Office, retail, and mixed-use development cost estimation. Covers Cat A and Cat B fit-out, base build, and shell & core works.
+URL: https://www.bimtakeoff.com/industries/commercial-development.html
+
+### Healthcare & Medical
+HTM/HBN-compliant healthcare facility estimation. Specialist in cleanroom, theatre, and ward environments with complex M&E requirements.
+URL: https://www.bimtakeoff.com/industries/healthcare-medical.html
+
+### Infrastructure & Civil Works
+Civil engineering project estimation including earthworks, drainage, road construction, bridges, and utilities.
+URL: https://www.bimtakeoff.com/industries/infrastructure-civil.html
+
+## Research & Publications
+
+### AI Quantity Takeoff: Gap Between Marketing Claims and Reality
+**Author:** Robert Kowalski | **Date:** 2025-11-23
+Analysis of leading AI takeoff platforms reveals significant gaps between marketing claims and actual performance. AI delivers 40-60% time savings versus marketed 80-90%. No independent academic benchmarks exist for accuracy claims. All published accuracy figures (95-98%) are vendor self-reported. RICS mandates professional oversight. Drawing quality is the primary accuracy determinant. Platforms analysed: Togal.AI, Beam AI, Kreo Software, PlanSwift, Bluebeam.
+URL: https://www.bimtakeoff.com/resources/publications/ai-quantity-takeoff-reality.html
+
+### Will AI Replace Quantity Surveyors?
+**Author:** Robert Kowalski | **Date:** 2025-11-16
+Data-driven analysis concludes AI will transform, not replace, the quantity surveying profession. 44% of QS work hours could be freed for higher-value tasks. Contractors face a GBP 495,680 decision point on automation versus human expertise. The roles most at risk are junior measurement and data entry; strategic cost advice and professional judgement remain firmly human.
+URL: https://www.bimtakeoff.com/resources/publications/ai-replace-quantity-surveyors.html
+
+### The 70% Price Myth: What Really Wins Construction Tenders
+**Author:** Robert Kowalski | **Date:** 2025-11-22
+Research debunks the widespread belief that lowest price wins 70% of construction tenders. Analysis shows 40-50% of tender evaluation is non-price criteria. Cost estimation accuracy is the number one factor -- inaccurate estimates that are too low win work but destroy margins; estimates that are too high lose bids. BIM-based visualization in submissions improves win rates measurably.
+URL: https://www.bimtakeoff.com/resources/publications/tender-winning-strategies.html
+
+### BIM Adoption at Tender Stages
+**Author:** Robert Kowalski | **Date:** 2025-10-05
+Comparative analysis of BIM adoption in UK and Poland reveals a 64.1 percentage point gap (UK 73% vs Poland 8.9% among contractors). Examines barriers: cost perception, skills shortage, cultural resistance, fragmented supply chains. Provides policy recommendations for Poland's 2030 BIM mandate. The UK's success was driven by government mandate (2016) combined with demonstrated productivity gains.
+URL: https://www.bimtakeoff.com/resources/publications/bim-adoption-tender-stages.html
+
+### The Century-Old Innovation That Keeps Failing: Modular Construction
+**Author:** Robert Kowalski | **Date:** 2025-11-20
+After 100 years of promises, modular construction captures only 5-8% of Western markets despite GBP 500M+ in recent UK failures (including Ilke Homes). Sweden is the outlier, building 84% of homes using modular methods. Analysis examines why: transport constraints, regulatory fragmentation, financing challenges, and the "factory in a field" fallacy.
+URL: https://www.bimtakeoff.com/resources/publications/modular-construction-failure.html
+
+### The Endemic Failure of Construction Project Delivery
+**Author:** Robert Kowalski | **Date:** 2025-11-29
+Oxford University research data shows 91.5% of construction projects exceed budget or schedule, with mean cost overruns of 62%. Analysis examines the structural causes: optimism bias, strategic misrepresentation, scope creep, inadequate risk pricing, and the "iron law of megaprojects" (over budget, over time, under benefits, over and over again).
+URL: https://www.bimtakeoff.com/resources/publications/construction-project-delivery-failure.html
+
+### The $40 Trillion Construction Crisis
+**Author:** Robert Kowalski | **Date:** 2025-12-14
+The global construction industry faces convergent crises: a $40 trillion infrastructure gap by 2040, workforce collapse with 41% of workers retiring by 2031, productivity that has barely improved in 50 years, and climate targets requiring fundamental changes to materials and methods. Digital transformation through BIM and automation is not optional but existential.
+URL: https://www.bimtakeoff.com/resources/publications/construction-industry-40-trillion-crisis.html
+
+## Contact
+
+- **Website:** https://www.bimtakeoff.com
+- **Polish version:** https://www.bimtakeoff.com/pl/
+- **Email:** info@bimtakeoff.com
+- **UK Phone:** +44 (0) 20 3239 9967
+- **PL Phone:** +48 508 209 313

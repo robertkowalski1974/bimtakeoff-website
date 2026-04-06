@@ -3,7 +3,7 @@ title: "AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rze
 description: "Kompleksowa analiza oprogramowania AI do przedmiarów ujawnia oszczędności czasu 40-60% wobec deklarowanych 80-90%, przy czym wszystkie deklaracje dokładności pochodzą od producentów. RICS wprowadza obowiązek nadzoru specjalistów—technologia wspomaga, nie zastępuje wiedzy rzeczoznawcy."
 page-layout: full
 date: "2025-11-23"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [AI, Przedmiary, Technologie Budowlane, Ocena Oprogramowania, Standardy Zawodowe]
 image: "../../images/AI-Estimating.png"
 ---

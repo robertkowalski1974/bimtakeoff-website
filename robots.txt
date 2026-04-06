@@ -1,6 +1,5 @@
 # robots.txt for BIM Takeoff Bilingual Website
-# https://robertkowalski1974.github.io/bimtakeoff-website/
-# Custom domain: bimtakeoff.com
+# https://www.bimtakeoff.com
 
 # Allow all search engines to crawl the entire site
 User-agent: *
@@ -8,7 +7,7 @@ Allow: /
 Allow: /pl/
 
 # Sitemap location
-Sitemap: https://robertkowalski1974.github.io/bimtakeoff-website/sitemap.xml
+Sitemap: https://www.bimtakeoff.com/sitemap.xml
 
 # Block private/development directories
 Disallow: /_archive/
@@ -31,9 +30,6 @@ Allow: /css/
 Allow: /js/
 Allow: /images/
 
-# Crawl delay (optional - be nice to servers)
-# Crawl-delay: 1
-
 # Specific instructions for major search engines
 
 # Google
@@ -50,12 +46,87 @@ Allow: /pl/
 Disallow: /_archive/
 Disallow: /scripts/
 
-# Yandex (for potential Russian market)
+# Yandex
 User-agent: Yandex
 Allow: /
 Allow: /pl/
 Disallow: /_archive/
 Disallow: /scripts/
 
-# Note: After custom domain activation, update Sitemap URL to:
-# Sitemap: https://bimtakeoff.com/sitemap.xml
+# -----------------------------------------------------------
+# AI Search Bots (return traffic via citations/search results)
+# -----------------------------------------------------------
+
+# OpenAI - ChatGPT search results
+User-agent: OAI-SearchBot
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# OpenAI - ChatGPT user browsing
+User-agent: ChatGPT-User
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Anthropic - Claude search citations
+User-agent: Claude-SearchBot
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Anthropic - Claude user-initiated fetches
+User-agent: Claude-User
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Perplexity AI search
+User-agent: PerplexityBot
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# -----------------------------------------------------------
+# AI Training Bots (builds knowledge in model training data)
+# -----------------------------------------------------------
+
+# OpenAI training
+User-agent: GPTBot
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Anthropic training
+User-agent: ClaudeBot
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Google Gemini training
+User-agent: Google-Extended
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/
+
+# Cohere AI training
+User-agent: cohere-ai
+Allow: /
+Allow: /pl/
+Disallow: /_archive/
+Disallow: /scripts/

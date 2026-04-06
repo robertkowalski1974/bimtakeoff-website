@@ -1,0 +1,58 @@
+# BIM Takeoff
+
+> Professional BIM 5D cost estimation and quantity surveying services for the construction industry. Founded by Robert Kowalski, with 20+ years international experience across UK, Australia, and Poland. Specialises in high-complexity, high-value construction packages.
+
+## About
+
+BIM Takeoff provides specialist quantity surveying (QS) and BIM 5D cost estimation services. The firm combines AI-powered Building Information Modelling with expert quantity surveyor oversight to deliver construction cost estimates with +/-5% accuracy in 3-5 days, compared to 6-8 weeks using traditional methods.
+
+- **Founder:** Robert Kowalski, MRICS-equivalent quantity surveyor with 20+ years experience
+- **Track Record:** 2,000+ projects delivered, 12M+ square metres estimated
+- **Markets:** United Kingdom (primary), Australia, Poland, European Union
+- **Compliance:** ISO 19650 BIM Level 2, Building Safety Act (BSR/HRB), RICS standards
+- **Specialisms:** Drylining systems, structural works (FRP, post-tension, suspended slabs), fire protection, facade compliance, MEP infrastructure, data centres
+
+## Services
+
+- [Cost Estimation & Budget Planning](https://www.bimtakeoff.com/services/cost-estimation-budget-planning.html): BIM 5D cost plans from RIBA Stage 2-7 with NRM1/NRM2 compliance
+- [Automated Quantity Takeoff](https://www.bimtakeoff.com/services/automated-quantity-takeoff.html): IFC model-based quantity extraction from Revit, ArchiCAD, Tekla with triple validation
+- [Trade-Specific Specialist Services](https://www.bimtakeoff.com/services/trade-specific-specialist-services.html): Deep expertise in drylining, structural, facades, fire protection, MEP
+- [Fast-Track Cost Control](https://www.bimtakeoff.com/services/fast-track-cost-control.html): Rapid cost feedback during design development
+- [BREEAM/ESG Cost Modeling](https://www.bimtakeoff.com/services/breeam-esg-cost-modeling.html): Sustainability-linked cost estimation
+- [MEP Infrastructure Precision](https://www.bimtakeoff.com/services/mep-infrastructure-precision.html): Mechanical, electrical, and plumbing cost estimation from BIM
+- [Multi-Scenario Analysis](https://www.bimtakeoff.com/services/multi-scenario-analysis.html): Comparative cost modelling for design options
+- [Comprehensive Reporting](https://www.bimtakeoff.com/services/comprehensive-reporting.html): Detailed cost reports with visual breakdowns
+- [Bid Writing & Bid Management](https://www.bimtakeoff.com/services/bid-writing-management.html): Tender preparation and submission support
+- [Traditional Quantity Takeoff](https://www.bimtakeoff.com/services/traditional-quantity-takeoff.html): 2D drawing-based measurement for non-BIM projects
+- [Construction Data Management](https://www.bimtakeoff.com/services/construction-data-management.html): BIM data structuring and cost database management
+- [Construction Logistics](https://www.bimtakeoff.com/services/construction-logistics.html): Site logistics planning and cost estimation
+
+## Industries
+
+- [Warehouses & Logistics](https://www.bimtakeoff.com/industries/warehouses-logistics.html): Large-span steel, cold storage, cross-docking facilities
+- [Data Centers](https://www.bimtakeoff.com/industries/data-centers.html): Tier I-IV mission-critical facilities with MEP-heavy cost estimation
+- [Residential Development](https://www.bimtakeoff.com/industries/residential-development.html): Multi-unit residential from apartments to large-scale housing
+- [Remediation](https://www.bimtakeoff.com/industries/remediation.html): Building Safety Act cladding remediation and fire safety compliance (post-Grenfell)
+- [Commercial Development](https://www.bimtakeoff.com/industries/commercial-development.html): Office, retail, and mixed-use developments
+- [Housing Associations](https://www.bimtakeoff.com/industries/housing-associations.html): Social housing cost estimation and compliance
+- [Healthcare & Medical](https://www.bimtakeoff.com/industries/healthcare-medical.html): HTM/HBN-compliant healthcare facility estimation
+- [Industrial & Manufacturing](https://www.bimtakeoff.com/industries/industrial-manufacturing.html): Factory and production facility cost estimation
+- [Infrastructure & Civil Works](https://www.bimtakeoff.com/industries/infrastructure-civil.html): Civil engineering and infrastructure project estimation
+
+## Research & Publications
+
+- [AI Quantity Takeoff: Gap Between Marketing Claims and Reality](https://www.bimtakeoff.com/resources/publications/ai-quantity-takeoff-reality.html): Analysis reveals AI takeoff delivers 40-60% time savings versus marketed 80-90%. No independent benchmarks exist. All accuracy claims are vendor self-reported.
+- [Will AI Replace Quantity Surveyors?](https://www.bimtakeoff.com/resources/publications/ai-replace-quantity-surveyors.html): AI will transform, not replace QS. 44% of work hours could be freed for higher-value tasks. Contractors face a GBP 495,680 question on automation vs expertise.
+- [The 70% Price Myth: What Really Wins Construction Tenders](https://www.bimtakeoff.com/resources/publications/tender-winning-strategies.html): 40-50% of tender evaluation is non-price criteria. Cost estimation accuracy is the number one factor in winning tenders.
+- [BIM Adoption at Tender Stages](https://www.bimtakeoff.com/resources/publications/bim-adoption-tender-stages.html): 64.1 percentage point BIM adoption gap between UK (73%) and Polish contractors (8.9%). Policy recommendations for Poland's 2030 BIM mandate.
+- [The Century-Old Innovation That Keeps Failing: Modular Construction](https://www.bimtakeoff.com/resources/publications/modular-construction-failure.html): After 100 years of promises and GBP 500M in UK failures, modular captures only 5-8% of Western markets while Sweden builds 84% of homes this way.
+- [The Endemic Failure of Construction Project Delivery](https://www.bimtakeoff.com/resources/publications/construction-project-delivery-failure.html): Oxford University data shows 91.5% of projects exceed budget or schedule with mean cost overruns of 62%.
+- [The $40 Trillion Construction Crisis](https://www.bimtakeoff.com/resources/publications/construction-industry-40-trillion-crisis.html): $40T infrastructure gap by 2040, 41% workforce retiring by 2031, persistent productivity stagnation.
+
+## Contact
+
+- **Website:** https://www.bimtakeoff.com
+- **Polish version:** https://www.bimtakeoff.com/pl/
+- **Email:** info@bimtakeoff.com
+- **UK Phone:** +44 (0) 20 3239 9967
+- **PL Phone:** +48 508 209 313

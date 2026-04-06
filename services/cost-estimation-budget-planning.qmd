@@ -38,6 +38,12 @@ With ±5% accuracy guaranteed.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**BIM 5D cost estimation** is the process of extracting accurate quantity data from Building Information Models and linking it to cost databases and project schedules to produce comprehensive construction budgets. Unlike traditional 2D takeoff methods that typically achieve +/-15-20% accuracy over 6-8 weeks, BIM 5D cost estimation delivers +/-5% accuracy in 3-5 days by automatically measuring quantities from the 3D model and connecting them to the 4th dimension (time) and 5th dimension (cost). BIM Takeoff has delivered 2,000+ BIM 5D cost plans across UK, Australia, and Poland.
+
+</div>
+
 ## The Cost of Outdated Estimation Methods
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

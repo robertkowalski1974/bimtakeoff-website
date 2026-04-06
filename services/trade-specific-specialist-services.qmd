@@ -41,6 +41,12 @@ precision costing for the trades that matter most.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Trade-specific quantity surveying** provides specialist cost estimation for individual construction trades rather than generic whole-building estimates. By deploying quantity surveyors with hands-on trade knowledge -- drylining systems, structural concrete and steelwork, facade cladding, fire protection, and MEP infrastructure -- trade-specific estimation catches the specialist items, allowances, and waste factors that generalist QS firms routinely miss. BIM Takeoff's trade specialists have priced over 2,000 packages with +/-5% accuracy.
+
+</div>
+
 ## Why Specialist Trades Need Specialist Estimators
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

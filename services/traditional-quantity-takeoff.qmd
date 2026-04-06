@@ -38,6 +38,12 @@ PDF, DWG, or paper drawings - we measure them all.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Traditional quantity takeoff** is the process of manually measuring and listing construction material quantities from 2D drawings (PDFs, DWGs, or paper plans) using industry-standard measurement rules such as NRM2. While BIM-based automated takeoff is faster, traditional methods remain essential for projects without BIM models, refurbishment works, or when only 2D information is available. BIM Takeoff applies the same rigorous quality standards to traditional takeoffs, with expert quantity surveyors measuring to NRM2 or project-specific rules.
+
+</div>
+
 ## When Traditional Measurement Is The Right Choice
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

@@ -4,7 +4,7 @@ project:
 
 website:
   title: "BIM Takeoff"
-  site-url: "https://robertkowalski1974.github.io/bimtakeoff-website/pl"
+  site-url: "https://www.bimtakeoff.com/pl"
   description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
   favicon: ../images/favicon.ico
   
@@ -118,6 +118,9 @@ format:
     lang: pl
     include-in-header:
       text: |
+        <!-- Atom Feed Autodiscovery (Polish) -->
+        <link rel="alternate" type="application/atom+xml" title="BIM Takeoff - Publikacje" href="https://www.bimtakeoff.com/pl/feed.xml">
+
         <!-- Resource Hints for Performance -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -155,15 +158,21 @@ format:
           "@type": "ProfessionalService",
           "name": "BIM Takeoff",
           "alternateName": "BIM Takeoff Polska",
-          "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych",
-          "url": "https://robertkowalski1974.github.io/bimtakeoff-website/pl",
-          "logo": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
-          "image": "https://robertkowalski1974.github.io/bimtakeoff-website/images/BIM TAKEOFF V2-2.jpg",
+          "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+          "url": "https://www.bimtakeoff.com/pl",
+          "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
+          "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
           "telephone": "+48-508-209-313",
           "email": "info@bimtakeoff.com",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "PL"
+          },
+          "founder": {
+            "@type": "Person",
+            "name": "Robert Kowalski",
+            "jobTitle": "Kosztorysant i Specjalista BIM 5D",
+            "knowsAbout": ["Kosztorysowanie BIM 5D", "Przedmiary budowlane", "Zarządzanie kosztami budowy", "Automatyczne przedmiarowanie"]
           },
           "areaServed": [
             {
@@ -179,12 +188,23 @@ format:
               "name": "Australia"
             }
           ],
+          "knowsAbout": [
+            "Kosztorysowanie BIM 5D",
+            "Przedmiary budowlane",
+            "Automatyczne przedmiarowanie",
+            "Doradztwo kosztowe w budownictwie",
+            "Kosztorysowanie robót suchej zabudowy",
+            "Kosztorysowanie robót konstrukcyjnych",
+            "Kosztorysowanie elewacji i remediacji",
+            "Zgodność z przepisami BIM 2030"
+          ],
           "serviceType": [
             "Kosztorysowanie BIM 5D",
             "Przedmiar budowlany",
             "Obmiar budowlany",
             "Automatyczne przedmiarowanie",
-            "Usługi kosztorysowe"
+            "Usługi kosztorysowe",
+            "Przygotowanie ofert przetargowych"
           ],
           "priceRange": "$$",
           "aggregateRating": {
@@ -192,6 +212,10 @@ format:
             "ratingValue": "5",
             "reviewCount": "20"
           },
+          "sameAs": [
+            "https://www.linkedin.com/company/bimtakeoff",
+            "https://twitter.com/bimtakeoff"
+          ],
           "knowsLanguage": [
             {
               "@type": "Language",

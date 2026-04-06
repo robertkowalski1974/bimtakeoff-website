@@ -3,7 +3,7 @@ title: "The $40 Trillion Construction Crisis: Challenges Reshaping a Global Indu
 description: "Comprehensive analysis of the construction industry's existential challenges: a $40 trillion infrastructure gap by 2040, workforce collapse with 41% retiring by 2031, productivity stagnation, and the urgent need for digital transformation."
 page-layout: full
 date: "2025-12-14"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [Construction Industry, Infrastructure, Workforce, Climate Change, Digital Transformation]
 image: "../../images/construction-crisis-cover.png"
 ---

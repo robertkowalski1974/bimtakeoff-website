@@ -38,6 +38,12 @@ From tender through handover and beyond.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Construction data management** ensures that cost, quantity, and project information is structured, consistent, and accessible throughout the building lifecycle. Aligned with ISO 19650 information management standards, effective data management connects BIM model data to cost databases, scheduling tools, and reporting systems. BIM Takeoff structures construction data from model authoring through to facilities management, ensuring interoperability between Revit, ArchiCAD, Tekla, and downstream cost management platforms.
+
+</div>
+
 ## Why Data Management Matters More Than Ever
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

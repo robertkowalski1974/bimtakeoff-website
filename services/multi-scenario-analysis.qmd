@@ -38,6 +38,12 @@ Identify optimal value without compromising quality.
 
 ::: {.container}
 
+<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
+
+**Multi-scenario cost analysis** produces side-by-side cost comparisons for different design options, materials, construction methods, or specification levels, enabling evidence-based decision-making during value engineering. Rather than costing a single option and hoping it fits the budget, multi-scenario analysis models 3-5 alternatives simultaneously, showing cost, programme, and risk implications of each. BIM Takeoff uses parametric BIM models to generate scenario comparisons in days rather than weeks.
+
+</div>
+
 ## Why Single-Option Designs Cost You Money
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}

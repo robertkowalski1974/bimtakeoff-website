@@ -3,7 +3,7 @@ title: "AI Quantity Takeoff in Construction: The Gap Between Marketing Claims an
 description: "Comprehensive analysis of AI takeoff software reveals 40-60% time savings versus marketed 80-90%, with all accuracy claims vendor self-reported. RICS now mandates professional oversight—the technology augments rather than replaces quantity surveyor expertise."
 page-layout: full
 date: "2025-11-23"
-author: "BIM Takeoff"
+author: "Robert Kowalski"
 categories: [AI, Quantity Takeoff, Construction Technology, Software Evaluation, Professional Standards]
 image: "../../images/AI-Estimating.png"
 ---
