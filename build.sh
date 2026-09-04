@@ -15,6 +15,7 @@ if ! "$PY" -c "import bs4" 2>/dev/null; then
 fi
 "$PY" -c "import bs4" || { echo "No python3 with beautifulsoup4 found (pip install beautifulsoup4)"; exit 1; }
 
+echo "Quarto version: $(quarto --version)"
 echo "1/4 Rendering English site (root project)..."
 quarto render
 echo "2/4 Rendering Polish site (pl project)..."

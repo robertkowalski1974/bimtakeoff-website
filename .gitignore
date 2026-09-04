@@ -1,5 +1,8 @@
+.quarto/
 /.quarto/
+pl/.quarto/
 /_site/
+index_files/
 /.DS_Store
 .DS_Store
 *.log

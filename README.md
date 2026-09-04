@@ -1,47 +1,73 @@
 # BIM Takeoff - Professional Bilingual Website
 ## 🇬🇧 English | 🇵🇱 Polski
 
-[![Status](https://img.shields.io/badge/Status-Ready%20to%20Deploy-brightgreen)]()
-[![Version](https://img.shields.io/badge/Version-2.0%20Bilingual-blue)]()
-[![License](https://img.shields.io/badge/License-Proprietary-red)]()
-
-**Professional BIM 5D Cost Estimation Services**  
+**Professional BIM 5D Cost Estimation Services**
 Complete bilingual website with English and Polish versions
 
 ---
 
-## 🎉 Polish Version COMPLETE! ✅
+## How the site is built
 
-**Completed:** October 25, 2025  
-**Status:** Ready for deployment  
-**Languages:** English + Polish
-
-### What's New:
-- ✅ Complete Polish translation of entire website
-- ✅ Polish navigation menu and footer
-- ✅ Language switcher (PL/EN)
-- ✅ Automated deployment system
-- ✅ Comprehensive documentation
-
----
-
-## 🚀 Quick Deploy (3 Steps)
-
-### 1. Make Script Executable
-```bash
-cd /Users/robertkowalski/Documents/bimtakeoff-website
-chmod +x deploy.sh
+```
+source (.qmd, css/, js/, images/)
+        │
+        ▼
+    build.sh            renders root (EN) project + pl/ (PL) project,
+        │                then runs the SEO post-processing scripts once
+        │                over the whole docs/ tree
+        ▼
+    docs/                the rendered, deployable site (EN at /, PL at /pl/)
+        │
+        ▼
+    GitHub Pages         source: main branch, path /docs
 ```
 
-### 2. Deploy Both Versions
+### Primary path: GitHub Actions
+
+`.github/workflows/build-and-deploy.yml` runs `build.sh` on every push to
+`main` (ignoring changes under `docs/`, `_archive/`, and `*.md` so the bot's
+own commit doesn't retrigger it) and on `workflow_dispatch`. When the run is
+on `main` it commits the rendered `docs/` tree back as
+`github-actions[bot]` with message `Build site [skip ci]` and pushes. A
+`pull_request` run builds the same way but never commits - it uploads
+`docs/` as a downloadable artifact instead, so a PR can be checked before
+merge. The job summary reports the sitemap URL count and the result of
+`scripts/check-links.py`.
+
+### Manual fallback
+
+`deploy.sh` builds (`build.sh`) then commits and pushes `docs/` by hand.
+Use it only when Actions is unavailable; it refuses to run on any branch
+other than `main`.
+
 ```bash
-./deploy.sh "Launch Polish version"
+./deploy.sh "Your update message"
 ```
 
-### 3. Wait 2-5 Minutes
-Your site will be live at:
-- 🇬🇧 **English:** https://www.bimtakeoff.com/
-- 🇵🇱 **Polish:** https://www.bimtakeoff.com/pl/
+### Python requirement
+
+The SEO post-processing scripts need `beautifulsoup4` (see
+`requirements.txt`):
+
+```bash
+pip install -r requirements.txt
+```
+
+`build.sh` looks for a `python3` with `beautifulsoup4` installed; set the
+`PYTHON` environment variable to point at a specific interpreter if needed
+(the Actions workflow sets `PYTHON: python3`).
+
+### Adding a new EN/PL page pair
+
+1. Add `description` to the front matter of both the English `.qmd` and its
+   Polish counterpart.
+2. Add the pair's rendered paths to `scripts/page-map.json`.
+3. Regenerate the language switcher:
+   ```bash
+   python3 scripts/build-language-switcher.py
+   ```
+4. Commit the `.qmd` files, `scripts/page-map.json`, and the regenerated
+   `js/language-switcher.js` (never `docs/` - that's rendered output).
 
 ---
 
@@ -50,32 +76,26 @@ Your site will be live at:
 ```
 bimtakeoff-website/
 │
-├── 🇬🇧 ENGLISH VERSION
-│   ├── index.qmd ........................ Homepage
-│   ├── coming-soon.qmd .................. Placeholder
-│   └── _quarto.yml ...................... Configuration
+├── build.sh .............................. Build script (EN + PL + SEO scripts)
+├── deploy.sh .............................. Manual build + commit + push fallback
+├── _quarto.yml ............................ Root (English) Quarto configuration
+├── index.qmd, contact.qmd, ... ............ English content
 │
-├── 🇵🇱 POLISH VERSION (NEW!)
-│   └── pl/
-│       ├── index.qmd .................... Homepage
-│       ├── coming-soon.qmd .............. Placeholder
-│       ├── _quarto.yml .................. Configuration
-│       └── README.md .................... Documentation
+├── pl/ .................................... Polish Quarto project
+│   ├── _quarto.yml ........................ Polish configuration
+│   └── index.qmd, ... ..................... Polish content
 │
-├── 🖼️  SHARED ASSETS
-│   ├── images/ .......................... Logo, photos, video
-│   ├── css/ ............................. Stylesheets
-│   └── custom.scss ...................... SCSS styles
+├── scripts/ ............................... Build helpers and SEO post-processing
+│   ├── add-hreflang.py, add-canonicals.py,
+│   │   clean-sitemap.py, add-structured-data.py,
+│   │   generate-feed.py ................... run once by build.sh over docs/
+│   ├── check-links.py ..................... internal link checker
+│   ├── build-language-switcher.py ......... regenerates js/language-switcher.js
+│   └── page-map.json ...................... EN <-> PL page mapping
 │
-├── 🚀 DEPLOYMENT
-│   ├── deploy.sh .............. Auto-deploy script
-│   └── quick-reference.sh ............... Command reference
+├── images/, css/, js/, custom.scss ........ Shared assets
 │
-└── 📚 DOCUMENTATION
-    ├── DEPLOY_NOW.md .................... Deployment guide ⭐
-    ├── POLISH_VERSION_COMPLETE.md ....... Full documentation
-    ├── SUMMARY.md ....................... Project summary
-    └── FILE_TREE.md ..................... File structure
+└── docs/ ................................... Rendered output (GitHub Pages source, do not hand-edit)
 ```
 
 ---
