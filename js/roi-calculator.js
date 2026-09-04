@@ -2,6 +2,14 @@
 // Version 2.1 - Multi-currency + Project Type Impact
 // Realistic calculations based on industry standards
 
+// LinkedIn conversion id for ROI Calculator lead submissions. The repo has
+// one LinkedIn conversion id on record (js/linkedin-tracking.js /
+// js/engagement-tracking.js, used for tel:/mailto: contact clicks) - reused
+// here since no separate "lead" conversion id exists. window.lintrk is only
+// present once marketing consent is granted (see js/consent-banner.js), so
+// every call site below guards on it.
+const LINKEDIN_LEAD_CONVERSION_ID = 24859401;
+
 // ============================================================================
 // CURRENCY CONFIGURATION
 // ============================================================================
@@ -142,6 +150,18 @@ let currencySelector;
 
 // Calculator state
 let calculatedResults = null;
+let calculatorStartTracked = false;
+
+function trackCalculatorStarted() {
+  if (calculatorStartTracked) return;
+  calculatorStartTracked = true;
+  if (typeof dataLayer !== 'undefined') {
+    dataLayer.push({
+      'event': 'roi_calculator_started',
+      'page_language': document.documentElement.lang
+    });
+  }
+}
 
 // ============================================================================
 // INITIALIZATION
@@ -194,28 +214,34 @@ function attachEventListeners() {
   
   // Slider sync with input
   projectValue.addEventListener('input', function() {
+    trackCalculatorStarted();
     const value = parseInt(this.value);
     projectValueInput.value = value;
     projectValueDisplay.textContent = formatCurrency(value);
   });
-  
+
   projectValueInput.addEventListener('input', function() {
+    trackCalculatorStarted();
     let value = parseInt(this.value);
     if (isNaN(value)) value = 500000;
     if (value < 500000) value = 500000;
     if (value > 50000000) value = 50000000;
-    
+
     projectValue.value = value;
     projectValueDisplay.textContent = formatCurrency(value);
   });
   
   // Variance slider
   costVariance.addEventListener('input', function() {
+    trackCalculatorStarted();
     varianceDisplay.textContent = this.value + '%';
   });
-  
+
   // Calculate button
-  calculateBtn.addEventListener('click', calculateROI);
+  calculateBtn.addEventListener('click', function() {
+    trackCalculatorStarted();
+    calculateROI();
+  });
   
   // Get report button
   const getReportBtn = document.getElementById('get-report-btn');
@@ -559,8 +585,12 @@ function handleLeadSubmission(e) {
       'lead_source': 'roi_calculator',
       'project_value': calculatedResults.inputs.projectValue,
       'estimated_savings': Math.round(calculatedResults.totalSavings),
-      'currency': currentCurrency
+      'currency': currentCurrency,
+      'page_language': document.documentElement.lang
     });
+  }
+  if (window.lintrk && LINKEDIN_LEAD_CONVERSION_ID) {
+    window.lintrk('track', { conversion_id: LINKEDIN_LEAD_CONVERSION_ID });
   }
 
   // FIRST: Clear any old data to ensure clean slate
@@ -1076,8 +1106,12 @@ document.addEventListener('DOMContentLoaded', function() {
             'project_value': calculatedResults.inputs.projectValue,
             'estimated_savings': Math.round(calculatedResults.totalSavings),
             'currency': currentCurrency,
-            'project_type': calculatedResults.inputs.projectType
+            'project_type': calculatedResults.inputs.projectType,
+            'page_language': document.documentElement.lang
           });
+        }
+        if (window.lintrk && LINKEDIN_LEAD_CONVERSION_ID) {
+          window.lintrk('track', { conversion_id: LINKEDIN_LEAD_CONVERSION_ID });
         }
 
         // REDIRECT to thank you page instead of showing modal

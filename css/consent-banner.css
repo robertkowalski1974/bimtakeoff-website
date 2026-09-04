@@ -1,0 +1,99 @@
+/* Cookie Consent Banner - BIM Takeoff */
+
+#bimtakeoff-consent-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100000;
+  background: #2C2C2C;
+  color: #FFFFFF;
+  padding: 20px 24px;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.25);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#bimtakeoff-consent-banner[hidden] {
+  display: none !important;
+}
+
+.bimtakeoff-consent-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.bimtakeoff-consent-text {
+  flex: 1 1 400px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.bimtakeoff-consent-text a {
+  color: #FF9900;
+  text-decoration: underline;
+}
+
+.bimtakeoff-consent-actions {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.bimtakeoff-consent-btn {
+  min-height: 44px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.bimtakeoff-consent-btn-accept {
+  background: #FF9900;
+  color: #2C2C2C;
+  border-color: #FF9900;
+}
+
+.bimtakeoff-consent-btn-accept:hover {
+  background: #e68a00;
+  border-color: #e68a00;
+}
+
+.bimtakeoff-consent-btn-essential {
+  background: transparent;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.bimtakeoff-consent-btn-essential:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.bimtakeoff-consent-btn:focus-visible {
+  outline: 3px solid #FF9900;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .bimtakeoff-consent-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .bimtakeoff-consent-actions {
+    flex-direction: column;
+  }
+
+  .bimtakeoff-consent-btn {
+    width: 100%;
+  }
+}

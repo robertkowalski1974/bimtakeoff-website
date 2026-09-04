@@ -293,9 +293,18 @@ description: "BIM Takeoff Privacy Policy - GDPR and RODO compliant data protecti
 
       <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.3 Managing Cookies</h3>
       <p>
-        You can control cookies through your browser settings. Note that disabling cookies may 
-        affect website functionality. For more information, visit 
+        You can control cookies through your browser settings. Note that disabling cookies may
+        affect website functionality. For more information, visit
         <a href="https://www.aboutcookies.org" style="color: #FF9900;" target="_blank" rel="noopener">www.aboutcookies.org</a>.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.4 Cookie Consent Choices</h3>
+      <p>
+        When you first visit our site, a cookie consent banner lets you accept analytics and marketing
+        cookies or continue with essential cookies only. We use Google Analytics 4 (GA4) to measure
+        site usage and, only when you grant marketing consent, the LinkedIn Insight Tag to measure
+        LinkedIn campaign performance. Your choice is stored in your browser for 12 months and applied
+        automatically on your next visit.
       </p>
 
       <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">11. Children's Privacy</h2>
