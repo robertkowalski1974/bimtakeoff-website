@@ -21,7 +21,7 @@ project:
 website:
   title: "BIM Takeoff"
   site-url: "https://www.bimtakeoff.com"
-  description: "Professional BIM 5D Cost Estimation | 20 Years International Experience"
+  description: "Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland."
   favicon: images/favicon.ico
   
   # Open Graph metadata for social sharing
@@ -217,8 +217,8 @@ format:
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@bimtakeoff">
         <meta name="twitter:creator" content="@bimtakeoff">
-        <meta name="twitter:title" content="BIM Takeoff - Professional BIM 5D Cost Estimation">
-        <meta name="twitter:description" content="Professional BIM 5D Cost Estimation | 20 Years International Experience">
+        <meta name="twitter:title" content="BIM Takeoff – Quantity takeoffs and priced bills for specialist subcontractors">
+        <meta name="twitter:description" content="Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland.">
         
         <!-- Organization Structured Data (Global) -->
         <script type="application/ld+json">
