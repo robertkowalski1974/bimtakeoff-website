@@ -287,6 +287,9 @@ footer a:focus-visible {
 }
 
 .praevius-navbar-logo img {
+  height: 28px !important;
+  width: auto !important;
+  max-height: 28px;
   transition: opacity .3s ease;
 }
 
