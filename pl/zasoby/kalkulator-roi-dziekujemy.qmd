@@ -59,7 +59,7 @@ lang: pl
 </div>
 
 <a href="../kontakt.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 8px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-  Umów Bezpłatną Konsultację
+  Prześlij dokumentację
 </a>
 
 </div>
@@ -78,7 +78,7 @@ lang: pl
   </a>
 
   <a href="../kontakt.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-    Skontaktuj się Bezpośrednio
+    Prześlij dokumentację
   </a>
 </div>
 :::

@@ -58,7 +58,7 @@ description: "Your personalized BIM 5D ROI report is ready to view"
 </div>
 
 <a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 8px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-  Book Free Consultation
+  Send us your drawings
 </a>
 
 </div>
@@ -77,7 +77,7 @@ description: "Your personalized BIM 5D ROI report is ready to view"
   </a>
 
   <a href="../contact.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-    Contact Us Directly
+    Send us your drawings
   </a>
 </div>
 :::

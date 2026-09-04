@@ -20,21 +20,20 @@ lang: pl
 :::
 
 ::: {.hero-subtitle}
-Większość projektów budowlanych notuje oszczędności rzędu 30% przy jednoczesnej poprawie dokładności z ±15% do ±5%.  
-Darmowe, natychmiastowe obliczenie - bez rejestracji.
+Oszacuj, ile Twój dział ofertowy oszczędza na przedmiarze wykonanym na zewnątrz. Poniższe liczby są ilustracją opartą na założeniach, które wpisujesz, a nie obietnicą. Zmień dowolne założenie, a wynik się zmieni.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Wsparcie wielu walut:</strong> PLN, EUR, GBP, USD, AUD</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Obliczenia specyficzne dla projektu</strong> dla wszystkich typów budynków</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zweryfikowane w branży</strong> na podstawie ponad 2000 zrealizowanych projektów</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Oparte na naszej własnej pracy przetargowej</strong> w Wielkiej Brytanii, Australii i Polsce</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Skontaktuj się z Nami](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -44,11 +43,11 @@ Darmowe, natychmiastowe obliczenie - bez rejestracji.
 ::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
 ### Wyzwanie
 
-Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do uniknięcia kosztach.
+Tradycyjne kosztorysowanie potrafi trwać 6-8 tygodni, a wycena często odbiega od kosztów rzeczywistych. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą pieniądze na możliwych do uniknięcia kosztach.
 
-### Nasze Rozwiązanie
+### Nasze podejście
 
-Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując niepewność i eliminując koszty związane z naprawami. Oszczędzając nawet do 50% kosztów.
+Mierzony przedmiar BIM 5D dostarczamy w 3-10 dni, na podstawie rysunków i specyfikacji, które nam przesyłasz. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać — dzięki temu widzisz dokładnie, na czym oparte są poniższe liczby.
 :::
 
 ::: {#calculator-container}
@@ -124,15 +123,16 @@ Obecny Czas Kosztorysowania
 
 <div class="form-group" style="margin-bottom: 24px;">
 <label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color:--bim-charcoal);">
-Obecna Dokładność Kosztorysu
+Rozrzut, który widzisz dziś między wyceną a kosztem końcowym
 <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
 <i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="O ile zazwyczaj różnią się ostateczne koszty od wstępnych szacunków?" aria-hidden="true"></i>
 </label>
 <input type="range" id="cost-variance" min="5" max="30" step="1" value="15" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
 <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
-<span>±5% (Doskonałe)</span>
-<span>±30% (Słabe)</span>
+<span>±5%</span>
+<span>±30%</span>
 </div>
+<p style="font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 8px; margin-bottom: 0;">Wybierz wartość zgodną z Twoimi własnymi danymi przetargowymi.</p>
 </div>
 
 <button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
@@ -171,8 +171,8 @@ Oblicz Moje Oszczędności
 <div style="display: flex; align-items: center; gap: 12px;">
 <span style="font-size: 1.5rem;">📊</span>
 <div>
-<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Poprawa Dokładności</div>
-<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15% → ±5%</div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Twoje założenie rozrzutu</div>
+<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15%</div>
 </div>
 </div>
 </div>
@@ -214,27 +214,15 @@ Pobierz Pełny Raport ROI
 ::: {style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;"}
 
 ::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">2,000+</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Zrealizowanych Projektów</div>
-:::
-
-::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">±5%</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Dokładność Kosztowa</div>
-:::
-
-::: {.trust-item}
 <div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">3-10</div>
 <div style="color: var(--bim-medium-gray); margin-top: 4px;">Dni Realizacji</div>
 :::
 
-::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">750%</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Średni ROI</div>
 :::
 
-:::
-
+::: {style="max-width: 700px; margin: 24px auto 0; text-align: center; color: var(--bim-medium-gray);"}
+<p style="margin: 4px 0;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy.</p>
+<p style="margin: 4px 0;">Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 :::
 
 :::
@@ -252,10 +240,10 @@ Pobierz Pełny Raport ROI
     </p>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="../kontakt.qmd" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Bezpłatna Konsultacja
+        Prześlij dokumentację
       </a>
-      <a href="tel:+48508209313" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Zadzwoń +48 508 209 313
+      <a href="../kontakt.qmd#probny" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Bezpłatny przedmiar próbny
       </a>
     </div>
     
@@ -337,7 +325,7 @@ Pobierz Pełny Raport ROI
 <div style="background: var(--bim-light-gray); padding: 20px; border-radius: 6px; margin-bottom: 24px;">
 <p style="margin: 0 0 16px 0; font-weight: 600;">Gotowy, aby zacząć oszczędzać?</p>
 <a href="../kontakt.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: var(--bim-charcoal); text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
-Umów Bezpłatną Konsultację
+Prześlij dokumentację
 </a>
 </div>
 

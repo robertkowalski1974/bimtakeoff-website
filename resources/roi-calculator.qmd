@@ -19,8 +19,7 @@ description: "Calculate potential savings from BIM 5D estimation. See how much t
 :::
 
 ::: {.hero-subtitle}
-Most construction projects save 30-50% on estimation costs while improving accuracy from ±15% to ±5%.  
-Free, instant calculation - no registration required.
+Estimate what a measured takeoff saves your estimating team. The figures below are an illustration built from the assumptions you enter, not a promise. Change any assumption and the result changes.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -32,8 +31,8 @@ Free, instant calculation - no registration required.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Contact Us](../contact.qmd){.cta-primary}
-[View Services](../services/cost-estimation-budget-planning.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -43,11 +42,11 @@ Free, instant calculation - no registration required.
 ::: {.roi-problem-statement style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;"}
 ### The Challenge
 
-Traditional quantity surveying takes 6-8 weeks with ±10-15% accuracy. Poor estimates lead to budget overruns, delays, and costly rework. Housing cooperatives and developers lose millions in preventable costs.
+Traditional quantity surveying can take 6-8 weeks, and the estimate often drifts from the out-turn cost. Poor estimates lead to budget overruns, delays, and costly rework. Housing cooperatives and developers lose money to preventable costs.
 
-### Our Solution
+### Our Approach
 
-BIM 5D estimation delivers in 3-10 days with ±5% accuracy, reducing change orders, eliminating rework, and saving 30-50% on procurement costs.
+A measured BIM 5D takeoff is delivered in 3-10 days, built from the drawings and specification you send. Where the information is incomplete, we list the assumption rather than absorb it — so you can see exactly what the figures below rest on.
 :::
 
 ::: {#calculator-container}
@@ -123,15 +122,16 @@ Current Estimation Timeline
 
 <div class="form-group" style="margin-bottom: 24px;">
 <label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
-Current Cost Variance
+Variance you see today between estimate and out-turn
 <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
 <i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="How much do your final costs typically differ from initial estimates?" aria-hidden="true"></i>
 </label>
 <input type="range" id="cost-variance" min="5" max="30" step="1" value="15" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
 <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
-<span>±5% (Excellent)</span>
-<span>±30% (Poor)</span>
+<span>±5%</span>
+<span>±30%</span>
 </div>
+<p style="font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 8px; margin-bottom: 0;">Pick what matches your own tender records.</p>
 </div>
 
 <button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
@@ -170,8 +170,8 @@ Calculate My Savings
 <div style="display: flex; align-items: center; gap: 12px;">
 <span style="font-size: 1.5rem;">📊</span>
 <div>
-<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Accuracy Improvement</div>
-<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15% → ±5%</div>
+<div style="font-size: 0.85rem; color: var(--bim-medium-gray);">Your variance assumption</div>
+<div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">±15%</div>
 </div>
 </div>
 </div>
@@ -227,13 +227,11 @@ Download Full ROI Report
 <div style="color: var(--bim-medium-gray); margin-top: 4px;">Days Delivery</div>
 :::
 
-::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">750%</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Average ROI</div>
 :::
 
-:::
-
+::: {style="max-width: 700px; margin: 24px auto 0; text-align: center; color: var(--bim-medium-gray);"}
+<p style="margin: 4px 0;">Priced per package, quoted before we start.</p>
+<p style="margin: 4px 0;">Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.</p>
 :::
 
 :::
@@ -251,10 +249,10 @@ Download Full ROI Report
     </p>
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       <a href="../contact.qmd" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Get Free Consultation
+        Send us your drawings
       </a>
-      <a href="tel:+442032399967" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Call +44 (0) 20 3239 9967
+      <a href="../contact.qmd#sample" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Free sample takeoff
       </a>
     </div>
     
@@ -336,7 +334,7 @@ Download Full ROI Report
 <div style="background: var(--bim-light-gray); padding: 20px; border-radius: 6px; margin-bottom: 24px;">
 <p style="margin: 0 0 16px 0; font-weight: 600;">Ready to start saving?</p>
 <a href="../contact.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: var(--bim-charcoal); text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
-Book Free Consultation
+Send us your drawings
 </a>
 </div>
 
