@@ -1,5 +1,6 @@
 ---
 title: ""
+description: "Contact BIM Takeoff for quantity surveying and BIM 5D cost estimation. 24-hour response for UK, Australia and Poland construction projects."
 page-layout: full
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: "Professional Cost Estimation & Budget Planning | 5D BIM Services | BIM Takeoff"
+title: "Cost Estimation & Budget Planning | 5D BIM Services"
+description: "Professional cost estimation and 5D BIM budget planning. Cut estimation time from 6 weeks to 3 days with ±5% accuracy guaranteed."
 page-layout: full
 ---
 

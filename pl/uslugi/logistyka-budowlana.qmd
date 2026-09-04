@@ -1,5 +1,5 @@
 ---
-title: "Logistyka Budowlana i Planowanie Placu | Symulacja 4D | BIM Takeoff"
+title: "Logistyka Budowlana i Planowanie Placu | Symulacja 4D"
 page-layout: full
 ---
 

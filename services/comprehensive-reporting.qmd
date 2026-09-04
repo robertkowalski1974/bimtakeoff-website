@@ -1,5 +1,6 @@
 ---
-title: "Comprehensive Reporting & Dashboards | Business Intelligence | BIM Takeoff"
+title: "Comprehensive Reporting & Dashboards | Business Intelligence"
+description: "Comprehensive cost reporting and interactive dashboards. Real-time visibility across every project metric with PowerBI and Tableau analysis."
 page-layout: full
 ---
 

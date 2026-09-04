@@ -1,6 +1,6 @@
 ---
-title: "The Endemic Failure of Construction Project Delivery: Why 91.5% of Projects Fail | BIM Takeoff"
-description: "Research analysis of why construction projects consistently fail. Oxford University data reveals 91.5% exceed budgets or schedules, with mean cost overruns of 62%. Understanding the structural causes behind the iron law of megaprojects."
+title: "The Endemic Failure of Construction Project Delivery: Why 91.5% of Projects Fail"
+description: "Why construction projects consistently fail. Oxford University data shows 91.5% exceed budget or schedule, with mean cost overruns of 62%."
 page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"

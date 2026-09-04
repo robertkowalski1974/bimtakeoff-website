@@ -1,5 +1,6 @@
 ---
-title: "Construction Data Management | ISO 19650 | BIM Takeoff"
+title: "Construction Data Management | ISO 19650"
+description: "ISO 19650 compliant construction data management. Structured BIM information flows from tender through handover and beyond."
 page-layout: full
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "Kompleksowa Obsługa Przetargowa dla Spółdzielni Mieszkaniowych | BIM Takeoff"
+title: "Obsługa Przetargowa dla Spółdzielni Mieszkaniowych"
 page-layout: full
-description: "Kompletny doradca przetargowy dla spółdzielni mieszkaniowych. Od wyceny przez przetarg do rozliczenia końcowego. Szacowane oszczędności 20-30%. 2000+ projektów doświadczenia UK/Australia."
+description: "Kompletny doradca przetargowy dla spółdzielni mieszkaniowych. Szacowane oszczędności 20-30%. 2000+ projektów doświadczenia UK/Australia."
 ---
 
 ::: {.hero-section}

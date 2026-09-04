@@ -63,7 +63,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
         <p>Aby odstąpić od umowy, poinformuj nas o swojej decyzji poprzez jednoznaczne oświadczenie wysłane na:</p>
         <ul style="margin-left: 20px; margin-top: 10px;">
           <li style="margin-bottom: 10px;"><strong>Email:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></li>
-          <li style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></li>
+          <li style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+48508209313" style="color: #FF9900;">+48 508 209 313</a></li>
           <li style="margin-bottom: 10px;"><strong>Poczta:</strong> ul. Gen. Gustawa Orlicz Dreszera 32, 22-400 Zamość, Polska</li>
         </ul>
         <p style="margin-top: 15px;">Możesz skorzystać ze wzoru formularza odstąpienia (dostępny na żądanie), ale nie jest to obowiązkowe.</p>
@@ -85,7 +85,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
         <p style="margin-bottom: 10px;"><strong>REGON:</strong> 951147557</p>
         <p style="margin-bottom: 10px;"><strong>Adres siedziby:</strong> ul. Gen. Gustawa Orlicz Dreszera 32, 22-400 Zamość, Polska</p>
         <p style="margin-bottom: 10px;"><strong>Email kontaktowy:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
-        <p style="margin-bottom: 10px;"><strong>Telefon kontaktowy:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon kontaktowy:</strong> <a href="tel:+48508209313" style="color: #FF9900;">+48 508 209 313</a></p>
         <p style="margin-bottom: 10px;"><strong>Rynki działania:</strong> Wielka Brytania, Polska, Australia oraz rynki międzynarodowe</p>
         <p style="margin-bottom: 0;"><strong>Główne biuro operacyjne:</strong> Polska</p>
       </div>
@@ -274,7 +274,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
         <p>Reklamacje dotyczące wykonanych usług należy zgłaszać:</p>
         <ul style="margin-left: 20px; margin-top: 10px;">
           <li style="margin-bottom: 8px;"><strong>Email:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a> (z tematem "REKLAMACJA")</li>
-          <li style="margin-bottom: 8px;"><strong>Telefon:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></li>
+          <li style="margin-bottom: 8px;"><strong>Telefon:</strong> <a href="tel:+48508209313" style="color: #FF9900;">+48 508 209 313</a></li>
           <li style="margin-bottom: 8px;"><strong>Forma pisemna:</strong> ul. Gen. Gustawa Orlicz Dreszera 32, 22-400 Zamość, Polska</li>
         </ul>
       </div>
@@ -325,7 +325,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
       <p>
         Zachowujemy ścisłą poufność dotyczącą wszystkich projektów i informacji klienta. 
         Nasze praktyki ochrony danych są szczegółowo opisane w osobnej 
-        <a href="/pl/polityka-prywatnosci" style="color: #FF9900; text-decoration: none;">Polityce Prywatności</a>, 
+        <a href="polityka-prywatnosci.html" style="color: #FF9900; text-decoration: none;">Polityce Prywatności</a>, 
         która jest zgodna z RODO (UE), brytyjskim RODO oraz obowiązującym australijskim prawem o ochronie prywatności.
       </p>
 
@@ -633,7 +633,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
       <div style="background: #F8F9FA; padding: 30px; border-left: 4px solid #FF9900; border-radius: 8px; margin: 20px 0;">
         <p style="margin-bottom: 10px;"><strong>Dane kontaktowe:</strong></p>
         <p style="margin-bottom: 10px;"><strong>Email:</strong> <a href="mailto:info@bimtakeoff.com" style="color: #FF9900;">info@bimtakeoff.com</a></p>
-        <p style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+442032399967" style="color: #FF9900;">+44 (0) 20 3239 9967</a></p>
+        <p style="margin-bottom: 10px;"><strong>Telefon:</strong> <a href="tel:+48508209313" style="color: #FF9900;">+48 508 209 313</a></p>
         <p style="margin-bottom: 10px;"><strong>Adres korespondencyjny:</strong> ul. Gen. Gustawa Orlicz Dreszera 32, 22-400 Zamość, Polska</p>
         <p style="margin-bottom: 10px;"><strong>Godziny kontaktu:</strong> Poniedziałek - Piątek: 9:00 - 17:00 (czas lokalny)</p>
         <p style="margin-bottom: 10px;"><strong>Czas odpowiedzi:</strong></p>
@@ -656,7 +656,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
     <p style="color: #E0E0E0; font-size: 1.1rem; margin-bottom: 30px;">
       Nasz zespół jest gotowy wyjaśnić wszelkie aspekty naszego Regulaminu Świadczenia Usług
     </p>
-    <a href="/pl/kontakt" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+    <a href="kontakt.html" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
       Skontaktuj Się
     </a>
   </div>

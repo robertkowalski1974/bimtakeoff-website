@@ -1,5 +1,6 @@
 ---
-title: "Multi-Scenario Analysis | Value Engineering | BIM Takeoff"
+title: "Multi-Scenario Analysis | Value Engineering"
+description: "Multi-scenario cost analysis and value engineering. Compare 5-10 design alternatives in parallel to find optimal value without compromising quality."
 page-layout: full
 ---
 

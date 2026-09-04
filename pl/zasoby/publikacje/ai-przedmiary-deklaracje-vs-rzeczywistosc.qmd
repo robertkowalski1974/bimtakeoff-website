@@ -1,6 +1,6 @@
 ---
-title: "AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością | BIM Takeoff"
-description: "Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opartego na AI, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością"
+title: "AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością"
+description: "Analiza dokładności oprogramowania AI do przedmiarów, ujawniająca przepaść między obietnicami producentów a rzeczywistą wydajnością."
 page-layout: full
 author: "Robert Kowalski"
 date: "2025-11-23"

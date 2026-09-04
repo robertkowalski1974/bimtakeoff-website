@@ -1,5 +1,6 @@
 ---
-title: "BREEAM & ESG Cost Modeling | Sustainable Construction Budgeting | BIM Takeoff"
+title: "BREEAM & ESG Cost Modeling | Sustainable Budgeting"
+description: "BREEAM and ESG cost modeling for sustainable construction. Accurate cost estimation for green building certifications with ±5% precision."
 page-layout: full
 ---
 

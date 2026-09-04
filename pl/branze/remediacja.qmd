@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona | BIM Takeoff"
+title: "Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona"
 page-layout: full
-description: "Profesjonalne kosztorysowanie remediacji budynków. Wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%. Specjaliści od przepon ogniowych i remediacji elewacji."
+description: "Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%."
 ---
 
 ::: {.hero-section}

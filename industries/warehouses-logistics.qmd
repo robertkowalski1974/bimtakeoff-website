@@ -1,7 +1,7 @@
 ---
-title: "Warehouse & Logistics Cost Estimation | BIM 5D Services | BIM Takeoff"
+title: "Warehouse & Logistics Cost Estimation | BIM 5D Services"
 page-layout: full
-description: "Professional warehouse and logistics facility cost estimation. 50,000+ sqm projects, 3-7 day turnaround, ±5% accuracy. Specialists in pre-engineered buildings and repetitive elements."
+description: "Warehouse and logistics facility cost estimation. 50,000+ sqm projects, 3-7 day turnaround, ±5% accuracy. Specialists in pre-engineered buildings."
 ---
 
 ::: {.hero-section}

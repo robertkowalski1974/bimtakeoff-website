@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Centrów Danych | BIM 5D | BIM Takeoff"
+title: "Kosztorysowanie Centrów Danych | BIM 5D"
 page-layout: full
-description: "Profesjonalne kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożoności MEP, gęstości mocy, systemach chłodzenia. Realizacja 5-10 dni, dokładność ±3-5%."
+description: "Kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożoności MEP i gęstości mocy. Realizacja 5-10 dni, dokładność ±3-5%."
 ---
 
 ::: {.hero-section}

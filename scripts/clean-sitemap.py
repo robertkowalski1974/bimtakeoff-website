@@ -33,9 +33,57 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Configuration
-SITEMAP_PATH = Path("docs/sitemap.xml")
-BACKUP_PATH = Path("docs/sitemap.xml.backup")
+# Configuration - resolved relative to this script's location so it works
+# regardless of the caller's current working directory.
+SCRIPT_DIR = Path(__file__).resolve().parent
+DOCS_DIR = SCRIPT_DIR.parent / "docs"
+SITEMAP_PATH = DOCS_DIR / "sitemap.xml"
+BACKUP_PATH = DOCS_DIR / "sitemap.xml.backup"
+
+# URLs that must never appear in the sitemap: draft/internal pages, stray
+# duplicate-numbered files left behind by earlier builds, and the two
+# Polish-language articles that were published under the EN /resources/
+# path by mistake (see scripts/page-map.json / task 7 for their canonical
+# PL-path twins).
+EXCLUDED_EXACT_PATHS = {
+    "QUICK_START.html",
+    "roi-calculator-NEW.html",
+    "resources/roi-calculator-NEW.html",
+    "roi-calculator-thank-you.html",
+    "resources/roi-calculator-thank-you.html",
+    "kalkulator-roi-dziekujemy.html",
+    "pl/zasoby/kalkulator-roi-dziekujemy.html",
+    "coming-soon.html",
+    "pl/coming-soon.html",
+    "roi-report.html",
+    "resources/roi-report.html",
+    "resources/publications/ai-czy-zastapi-kosztorysantow.html",
+    "resources/publications/ai-przedmiary-rzeczywistosc.html",
+}
+
+
+def is_excluded_url(url: str) -> bool:
+    """
+    Return True if this sitemap URL must be excluded:
+    - QUICK_START.html
+    - anything under /content/
+    - the ROI calculator "NEW" draft, its thank-you pages, and roi-report
+    - coming-soon pages (EN and PL)
+    - any URL containing a stray " 2" / " 3" / "%202" / "%203" suffix left
+      by duplicate file artifacts
+    - the two Polish-language articles published under /resources/publications/
+      (their canonical home is /pl/zasoby/publikacje/, see page-map.json)
+    """
+    if "/content/" in url:
+        return True
+    if " 2" in url or " 3" in url or "%202" in url or "%203" in url:
+        return True
+
+    for excluded in EXCLUDED_EXACT_PATHS:
+        if url.endswith(excluded):
+            return True
+
+    return False
 
 
 def backup_sitemap():
@@ -90,6 +138,7 @@ def process_sitemap(sitemap_path: Path) -> bool:
     """
     try:
         # Parse XML
+        ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
         tree = ET.parse(sitemap_path)
         root = tree.getroot()
         
@@ -114,12 +163,14 @@ def process_sitemap(sitemap_path: Path) -> bool:
                 
                 # Check for unwanted URLs (e.g., 404 pages, site_libs)
                 should_remove = False
-                
+
                 if 'site_libs' in cleaned_url:
                     should_remove = True
                 elif cleaned_url.endswith('404.html'):
                     should_remove = True
                 elif cleaned_url.endswith('.css') or cleaned_url.endswith('.js'):
+                    should_remove = True
+                elif is_excluded_url(cleaned_url) or is_excluded_url(original_url):
                     should_remove = True
                 
                 if should_remove:
@@ -132,12 +183,35 @@ def process_sitemap(sitemap_path: Path) -> bool:
                     logger.info(f"✓ Cleaned: {original_url}")
                     logger.info(f"       → {cleaned_url}")
         
+        # Make sure every Polish page (built by the separate pl/ project) is listed
+        SITEMAP_NS = 'http://www.sitemaps.org/schemas/sitemap/0.9'
+        listed = {u.find('ns:loc', namespace).text for u in root.findall('.//ns:url', namespace)
+                  if u.find('ns:loc', namespace) is not None}
+        added_count = 0
+        pl_dir = DOCS_DIR / 'pl'
+        if pl_dir.exists():
+            for html in sorted(pl_dir.rglob('*.html')):
+                rel = html.relative_to(DOCS_DIR).as_posix()
+                if 'site_libs' in rel or ' ' in rel:
+                    continue
+                url = 'https://www.bimtakeoff.com/' + rel
+                if is_excluded_url(url) or url in listed:
+                    continue
+                url_el = ET.SubElement(root, f'{{{SITEMAP_NS}}}url')
+                ET.SubElement(url_el, f'{{{SITEMAP_NS}}}loc').text = url
+                ET.SubElement(url_el, f'{{{SITEMAP_NS}}}lastmod').text = datetime.now().strftime('%Y-%m-%d')
+                listed.add(url)
+                added_count += 1
+        logger.info(f"✓ Added {added_count} Polish URLs missing from the sitemap")
+
         # Update lastmod to current date
         current_date = datetime.now().strftime('%Y-%m-%d')
         for lastmod in root.findall('.//ns:lastmod', namespace):
             lastmod.text = current_date
         
         # Write back to file with proper XML declaration
+        if hasattr(ET, 'indent'):
+            ET.indent(tree, space='  ')
         tree.write(
             sitemap_path,
             encoding='utf-8',

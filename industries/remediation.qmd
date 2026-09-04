@@ -1,7 +1,7 @@
 ---
-title: "Building Remediation Cost Estimation | Cladding & Fire Safety | BIM Takeoff"
+title: "Remediation Cost Estimation | Cladding & Fire Safety"
 page-layout: full
-description: "Professional building remediation cost estimation. Cladding replacement, fire safety upgrades, structural repairs. 3-8 day turnaround, ±5% accuracy. Specialists in post-Grenfell compliance and Building Safety Act requirements."
+description: "Building remediation cost estimation for cladding replacement and fire safety upgrades. 3-8 day turnaround. Specialists in Building Safety Act compliance."
 ---
 
 ::: {.hero-section}

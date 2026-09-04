@@ -1,7 +1,7 @@
 ---
-title: "Housing Association Cost Estimation | Social Housing Projects | BIM Takeoff"
+title: "Housing Association Cost Estimation | Social Housing"
 page-layout: full
-description: "Professional housing association cost estimation. Social housing developments, refurbishments, thermal modernization. 3-10 day turnaround, ±5% accuracy. Specialists in multi-unit housing and grant-funded projects."
+description: "Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects."
 ---
 
 ::: {.hero-section}

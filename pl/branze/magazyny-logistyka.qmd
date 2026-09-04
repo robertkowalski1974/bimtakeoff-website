@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Magazynów i Centrów Logistycznych | BIM 5D | BIM Takeoff"
+title: "Kosztorysowanie Magazynów i Centrów Logistycznych | BIM 5D"
 page-layout: full
-description: "Profesjonalne kosztorysowanie magazynów i obiektów logistycznych. Projekty 50 000+ m², realizacja 3-7 dni, dokładność ±5%. Specjaliści w budynkach prefabrykowanych i elementach powtarzalnych."
+description: "Kosztorysowanie magazynów i obiektów logistycznych. Projekty 50 000+ m², realizacja 3-7 dni, dokładność ±5%. Budynki prefabrykowane."
 ---
 
 ::: {.hero-section}

@@ -1,6 +1,6 @@
 ---
-title: "The Century-Old Innovation That Keeps Failing: What Really Happened to Modular Construction | BIM Takeoff"
-description: "After 100 years of promises and £500 million in recent UK failures, why does modular construction still capture barely 5-8% of Western markets while Sweden quietly builds 84% of homes this way? A data-driven analysis of what works, what doesn't, and why."
+title: "The Century-Old Innovation That Keeps Failing: What Really Happened to Modular Construction"
+description: "After 100 years of promises and £500 million in UK failures, modular construction still captures barely 5-8% of Western markets. What works and why."
 page-layout: full
 date: "2025-11-20"
 author: "Robert Kowalski"

@@ -1,5 +1,6 @@
 ---
-title: "Automated Quantity Take-off | Multi-Level Validation | BIM Takeoff"
+title: "Automated Quantity Take-off | Multi-Level Validation"
+description: "Automated quantity takeoff from BIM models with triple-level validation. 95% faster than manual measurement, ±5% accuracy, results in days not weeks."
 page-layout: full
 ---
 

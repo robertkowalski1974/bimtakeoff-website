@@ -23,7 +23,6 @@ Disallow: /*_STATUS.html
 Disallow: /*_SUMMARY.html
 Disallow: /*_FIX.html
 Disallow: /*_UPDATE.html
-Disallow: /docs/*.html
 
 # Allow CSS, JS, and images for proper rendering
 Allow: /css/

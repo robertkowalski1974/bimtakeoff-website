@@ -30,18 +30,18 @@ Complete bilingual website with English and Polish versions
 ### 1. Make Script Executable
 ```bash
 cd /Users/robertkowalski/Documents/bimtakeoff-website
-chmod +x deploy-bilingual.sh
+chmod +x deploy.sh
 ```
 
 ### 2. Deploy Both Versions
 ```bash
-./deploy-bilingual.sh "Launch Polish version"
+./deploy.sh "Launch Polish version"
 ```
 
 ### 3. Wait 2-5 Minutes
 Your site will be live at:
-- 🇬🇧 **English:** https://robertkowalski1974.github.io/bimtakeoff-website/
-- 🇵🇱 **Polish:** https://robertkowalski1974.github.io/bimtakeoff-website/pl/
+- 🇬🇧 **English:** https://www.bimtakeoff.com/
+- 🇵🇱 **Polish:** https://www.bimtakeoff.com/pl/
 
 ---
 
@@ -68,7 +68,7 @@ bimtakeoff-website/
 │   └── custom.scss ...................... SCSS styles
 │
 ├── 🚀 DEPLOYMENT
-│   ├── deploy-bilingual.sh .............. Auto-deploy script
+│   ├── deploy.sh .............. Auto-deploy script
 │   └── quick-reference.sh ............... Command reference
 │
 └── 📚 DOCUMENTATION
@@ -142,7 +142,7 @@ cd pl && quarto preview
 ### Deploy Updates:
 ```bash
 # After editing, deploy:
-./deploy-bilingual.sh "Your update message"
+./deploy.sh "Your update message"
 ```
 
 ### Build Without Deploying:
@@ -176,8 +176,8 @@ cd pl && quarto render && cd ..
 
 After deployment (2-5 minutes):
 
-- **🇬🇧 English:** https://robertkowalski1974.github.io/bimtakeoff-website/
-- **🇵🇱 Polish:** https://robertkowalski1974.github.io/bimtakeoff-website/pl/
+- **🇬🇧 English:** https://www.bimtakeoff.com/
+- **🇵🇱 Polish:** https://www.bimtakeoff.com/pl/
 
 ---
 
@@ -220,7 +220,7 @@ After deployment (2-5 minutes):
 
 ### Quick Answers:
 1. **How do I deploy?**  
-   Run `./deploy-bilingual.sh "Your message"`
+   Run `./deploy.sh "Your message"`
 
 2. **How do I edit content?**  
    Edit `pl/index.qmd` for Polish, `index.qmd` for English
@@ -286,7 +286,7 @@ Your complete bilingual website is ready for deployment.
 
 **To deploy now:**
 ```bash
-./deploy-bilingual.sh "Launch bilingual BIM Takeoff website"
+./deploy.sh "Launch bilingual BIM Takeoff website"
 ```
 
 **Questions?** Read **[DEPLOY_NOW.md](DEPLOY_NOW.md)**

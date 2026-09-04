@@ -1,7 +1,7 @@
 ---
-title: "Residential Development Cost Estimation | Multi-Unit Housing | BIM Takeoff"
+title: "Residential Development Cost Estimation | Multi-Unit Housing"
 page-layout: full
-description: "Professional residential development cost estimation. From townhouses to high-rise apartments. 3-10 day turnaround, ±5% accuracy. Specialists in multi-unit residential and mixed-use developments."
+description: "Residential development cost estimation from townhouses to high-rise apartments. 3-10 day turnaround, ±5% accuracy, multi-unit and mixed-use schemes."
 ---
 
 ::: {.hero-section}

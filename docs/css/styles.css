@@ -1801,3 +1801,13 @@ h3 {
     text-shadow: none;
   }
 }
+
+/* Hero eyebrow (replaces the former H3 kicker above the H1) */
+.hero-eyebrow {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--bim-light-gray);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}

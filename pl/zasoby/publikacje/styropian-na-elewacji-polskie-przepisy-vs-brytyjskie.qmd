@@ -1,6 +1,6 @@
 ---
-title: "Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra brytyjski rygoryzm | BIM Takeoff"
-description: "Analiza porównawcza przepisów dotyczących stosowania styropianu na elewacjach budynków wielorodzinnych w Polsce i Wielkiej Brytanii. Polski limit 25 m vs brytyjski zakaz powyżej 18 m – kluczowe różnice regulacyjne i kierunki zmian legislacyjnych."
+title: "Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra brytyjski rygoryzm"
+description: "Analiza przepisów dot. styropianu na elewacjach budynków wielorodzinnych w Polsce i UK. Polski limit 25 m vs brytyjski zakaz powyżej 18 m."
 page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"

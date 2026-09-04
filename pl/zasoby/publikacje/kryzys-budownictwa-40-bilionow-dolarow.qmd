@@ -1,6 +1,6 @@
 ---
-title: "Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające globalną branżę | BIM Takeoff"
-description: "Kompleksowa analiza egzystencjalnych wyzwań branży budowlanej: luka infrastrukturalna 40 bilionów dolarów do 2040 roku, kryzys kadrowy z 41% odchodzącymi na emeryturę do 2031 roku, stagnacja produktywności i pilna potrzeba cyfrowej transformacji."
+title: "Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające globalną branżę"
+description: "Analiza wyzwań branży budowlanej: luka infrastrukturalna 40 bln USD do 2040, kryzys kadrowy - 41% na emeryturze do 2031, stagnacja produktywności."
 page-layout: full
 date: "2025-12-14"
 author: "Robert Kowalski"
@@ -362,8 +362,8 @@ Organizacje, które rozpoznają powiązaną naturę tych presji i odpowiednio in
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">W branży stojącej przed luką 40 bilionów dolarów i bezprecedensowymi wyzwaniami, dokładne kosztorysowanie oparte na BIM stanowi krytyczny fundament sukcesu projektu. BIM Takeoff dostarcza precyzyjne przedmiary i analizy kosztów poparte 20-letnim doświadczeniem międzynarodowym.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Skontaktuj się z nami](../../../kontakt.html){.cta-primary}
-[Zobacz nasze usługi](../../../uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
+[Skontaktuj się z nami](../../kontakt.html){.cta-primary}
+[Zobacz nasze usługi](../../uslugi/kosztorysowanie-i-planowanie-budzetu.html){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}

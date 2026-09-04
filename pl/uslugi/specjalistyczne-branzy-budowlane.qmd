@@ -1,6 +1,6 @@
 ---
-title: "Specjalistyczne Kosztorysowanie Branż: Sucha Zabudowa, Ppoż., Elewacje, Konstrukcje | BIM Takeoff"
-description: "20 lat doświadczenia branż specjalistycznych. Sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. Dokładność ±3%. 1,500+ projektów EU/UK/AU. Od 10,000 PLN."
+title: "Kosztorysowanie Branż: Zabudowa, Ppoż., Elewacje, Konstrukcje"
+description: "20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU."
 keywords: "kosztorysowanie specjalistyczne, kosztorys sucha zabudowa, wycena ochrona ppoż, kosztorys elewacje, kosztorys konstrukcje stalowe, quantity surveyor polska"
 page-layout: full
 ---

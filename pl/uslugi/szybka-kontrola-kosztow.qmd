@@ -1,5 +1,5 @@
 ---
-title: "Bieżąca Kontrola Kosztów | Monitorowanie w Czasie Rzeczywistym | BIM Takeoff"
+title: "Kontrola Kosztów | Monitorowanie w Czasie Rzeczywistym"
 page-layout: full
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Tradycyjny Przedmiar Ilości | Pomiar z Rysunków 2D | BIM Takeoff"
+title: "Tradycyjny Przedmiar Ilości | Pomiar z Rysunków 2D"
 page-layout: full
 ---
 

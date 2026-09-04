@@ -1,6 +1,6 @@
 ---
-title: "Publications | Expert Insights on BIM & Construction Technology | BIM Takeoff"
-description: "Expert analysis and thought leadership on BIM adoption, construction technology, and industry transformation from BIM Takeoff's 20 years of international experience."
+title: "Publications | Expert Insights on BIM & Construction Technology"
+description: "Expert analysis and thought leadership on BIM adoption, construction technology and industry transformation, from 20 years of international experience."
 page-layout: full
 ---
 

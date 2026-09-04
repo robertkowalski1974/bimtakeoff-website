@@ -1,7 +1,7 @@
 ---
-title: "Commercial Development Cost Estimation | Office & Retail | BIM Takeoff"
+title: "Commercial Development Cost Estimation | Office & Retail"
 page-layout: full
-description: "Professional commercial development cost estimation. Office buildings, retail spaces, mixed-use developments. 3-10 day turnaround, ±5% accuracy. Specialists in Grade A offices and commercial fit-outs."
+description: "Commercial development cost estimation for offices, retail and mixed-use schemes. 3-10 day turnaround, ±5% accuracy. Specialists in Grade A fit-outs."
 ---
 
 ::: {.hero-section}

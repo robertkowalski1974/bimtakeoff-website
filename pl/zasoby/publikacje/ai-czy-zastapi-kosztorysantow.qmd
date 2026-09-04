@@ -1,6 +1,6 @@
 ---
-title: "Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie | BIM Takeoff"
-description: "Analiza wpływu sztucznej inteligencji na zawód kosztorysanta oparta na danych. Badania pokazują, że AI przekształci, ale nie zastąpi profesji - ale wykonawcy stoją przed pytaniem o 2,1 mln PLN dotyczącym automatyzacji."
+title: "Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie"
+description: "Analiza wpływu sztucznej inteligencji na zawód kosztorysanta. AI przekształci, ale nie zastąpi profesji - wykonawcy stoją przed pytaniem o 2,1 mln PLN."
 page-layout: full
 date: "2025-11-16"
 author: "Robert Kowalski"

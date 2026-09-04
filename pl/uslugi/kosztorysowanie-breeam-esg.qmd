@@ -1,5 +1,5 @@
 ---
-title: "Kosztorysowanie BREEAM i ESG | Budynki Zrównoważone | BIM Takeoff"
+title: "Kosztorysowanie BREEAM i ESG | Budynki Zrównoważone"
 page-layout: full
 ---
 

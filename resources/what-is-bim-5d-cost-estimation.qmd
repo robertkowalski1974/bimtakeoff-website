@@ -1,6 +1,6 @@
 ---
-title: "What is BIM 5D Cost Estimation? The Complete Guide | BIM Takeoff"
-description: "BIM 5D cost estimation extracts quantities from Building Information Models and links them to cost databases for +/-5% accuracy in days, not weeks. Complete guide covering process, benefits, standards, and tools."
+title: "What is BIM 5D Cost Estimation? The Complete Guide"
+description: "BIM 5D cost estimation extracts quantities from BIM models and links them to cost databases for ±5% accuracy in days, not weeks. A complete guide."
 page-layout: full
 date: "2026-04-06"
 author: "Robert Kowalski"

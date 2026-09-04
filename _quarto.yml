@@ -1,8 +1,15 @@
+quarto-required: ">=1.4.549"
+
 project:
   type: website
   output-dir: docs
+  # The Polish site is a separate Quarto project (pl/_quarto.yml). Exclude it here.
+  render:
+    - "*.qmd"
+    - "!pl/"
   resources:
     - CNAME
+    - .nojekyll
     - llms.txt
     - llms-full.txt
     - js/**
@@ -10,13 +17,6 @@ project:
     - images/**
     - resources/**/*.css
     - resources/**/*.js
-  # Post-render scripts for SEO optimization
-  post-render:
-    - python3 scripts/add-hreflang.py
-    - python3 scripts/add-canonicals.py
-    - python3 scripts/clean-sitemap.py
-    - python3 scripts/add-structured-data.py
-    - python3 scripts/generate-feed.py
 
 website:
   title: "BIM Takeoff"
@@ -114,7 +114,7 @@ website:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     left: |
-      © 2025 BIM Takeoff. All rights reserved.<br>
+      © 2026 BIM Takeoff. All rights reserved.<br>
       Professional BIM 5D Cost Estimation Services
     center: |
       **Quick Links**<br>
@@ -348,8 +348,8 @@ format:
           
           <!-- Scroll Effects & Animations -->
           <script src="/js/scroll-effects.js"></script>
+          <script src="/js/language-switcher.js"></script>
           <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
-          <script src="/js/polish-navbar.js"></script>
           <!-- Praevius Logo in Navbar -->
           <script src="/js/praevius-navbar.js"></script>
           <!-- LinkedIn Conversion Tracking for Contact Links -->

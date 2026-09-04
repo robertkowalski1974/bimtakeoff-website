@@ -1,5 +1,5 @@
 ---
-title: "Pisanie Ofert i Zarządzanie Przetargami | Wygraj Więcej Przetargów | BIM Takeoff"
+title: "Pisanie Ofert i Zarządzanie Przetargami | Wygraj Przetargi"
 page-layout: full
 ---
 

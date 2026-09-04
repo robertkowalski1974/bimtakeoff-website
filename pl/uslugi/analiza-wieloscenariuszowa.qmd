@@ -1,5 +1,5 @@
 ---
-title: "Analiza Wieloscenariuszowa | Inżynieria Wartości | BIM Takeoff"
+title: "Analiza Wieloscenariuszowa | Inżynieria Wartości"
 page-layout: full
 ---
 

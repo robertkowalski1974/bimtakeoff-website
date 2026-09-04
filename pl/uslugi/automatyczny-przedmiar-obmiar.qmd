@@ -1,12 +1,12 @@
 ---
-title: "Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji | BIM Takeoff"
+title: "Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji"
 page-layout: full
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+    <source src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -40,7 +40,7 @@ Potrójnie weryfikowane dla pełnej dokładności.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Automatyczny przedmiar** wykorzystuje technologie BIM do ekstrakcji ilosci materialow bezposrednio z plikow modeli IFC tworzonych w programach Autodesk Revit, ArchiCAD i Tekla Structures, eliminujac reczny pomiar z rysunkow 2D. Proces jest o 90-95% szybszy niz metody tradycyjne, a automatyczne kontrole jakosci redukuja blad ludzki ponizej 1%. Usluga BIM Takeoff stosuje potrojny system walidacji -- ekstrakcja AI, weryfikacja eksperta kosztorysanta i analiza krzyzowa -- i obsluzyla ponad 2000 projektow o lacznej powierzchni ponad 12 milionow metrow kwadratowych.
+**Automatyczny przedmiar** wykorzystuje technologie BIM do ekstrakcji ilości materiałów bezpośrednio z plików modeli IFC tworzonych w programach Autodesk Revit, ArchiCAD i Tekla Structures, eliminując ręczny pomiar z rysunków 2D. Proces jest o 90-95% szybszy niż metody tradycyjne, a automatyczne kontrole jakości redukują błąd ludzki poniżej 1%. Usługa BIM Takeoff stosuje potrójny system walidacji -- ekstrakcja AI, weryfikacja eksperta kosztorysanta i analiza krzyżowa -- i obsłużyła ponad 2000 projektów o łącznej powierzchni ponad 12 milionów metrów kwadratowych.
 
 </div>
 

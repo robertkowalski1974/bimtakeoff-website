@@ -1,6 +1,6 @@
 ---
-title: "Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik | BIM Takeoff"
-description: "Kosztorysowanie BIM 5D polega na ekstrakcji ilości z modeli BIM i łączeniu ich z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie. Kompletny przewodnik: proces, korzyści, standardy i narzędzia."
+title: "Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik"
+description: "Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie."
 page-layout: full
 date: "2026-04-06"
 author: "Robert Kowalski"
@@ -331,7 +331,7 @@ O: Wynagrodzenie zależy od wielkości projektu, złożoności i zakresu wymagan
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
 [Umów bezpłatną konsultację](../kontakt.qmd){.cta-primary}
-[Poznaj usługi](../uslugi/kosztorysowanie-planowanie-budzetowe.qmd){.cta-secondary}
+[Poznaj usługi](../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
 [Uzyskaj wycenę](../kontakt.qmd){.cta-secondary}
 :::
 

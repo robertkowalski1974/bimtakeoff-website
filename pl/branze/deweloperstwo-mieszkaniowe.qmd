@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Deweloperstwa Mieszkaniowego | Budynki Wielorodzinne | BIM Takeoff"
+title: "Deweloperstwo Mieszkaniowe | Budynki Wielorodzinne"
 page-layout: full
-description: "Profesjonalne kosztorysowanie deweloperstwa mieszkaniowego. Od domów szeregowych po wysokościowe apartamenty. Realizacja 3-10 dni, dokładność ±5%. Specjaliści w zakresie zabudowy wielorodzinnej i projektów mieszanych."
+description: "Kosztorysowanie deweloperstwa mieszkaniowego - od domów szeregowych po apartamentowce. Realizacja 3-10 dni, dokładność ±5%."
 ---
 
 ::: {.hero-section}

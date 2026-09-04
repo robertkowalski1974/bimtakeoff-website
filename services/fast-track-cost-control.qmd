@@ -1,5 +1,6 @@
 ---
-title: "Fast-Track Cost Control | Real-Time Construction Monitoring | BIM Takeoff"
+title: "Fast-Track Cost Control | Real-Time Construction Monitoring"
+description: "Fast-track cost control with real-time construction monitoring. Weekly cost updates and early warnings that catch budget risks 4-6 weeks ahead."
 page-layout: full
 ---
 
