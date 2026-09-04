@@ -171,30 +171,11 @@ Rozbieżności między rysunkami, specyfikacją i przedmiarem zbieramy w jedno p
 
 ## Kosztorys inwestorski {#inwestorski}
 
-Kosztorys inwestorski to dokument zamawiającego, nie wykonawcy. Służy do ustalenia wartości zamówienia na roboty budowlane przed wszczęciem postępowania i sporządza się go zgodnie z rozporządzeniem w sprawie określenia metod i podstaw sporządzania kosztorysu inwestorskiego.
+Kosztorys inwestorski to dokument zamawiającego, nie wykonawcy. Służy do ustalenia szacunkowej wartości zamówienia przed wszczęciem postępowania i sporządza się go zgodnie z rozporządzeniem w sprawie określenia metod i podstaw sporządzania kosztorysu inwestorskiego. Sporządzamy go razem z przedmiarem, założeniami wyjściowymi, tabelą elementów scalonych i zestawieniem RMS.
 
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 32px 0; align-items: start;"}
+Jeśli pracujemy dla zamawiającego przy danym postępowaniu, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
 
-::: {style=""}
-### Kto go potrzebuje
-
-- Zamawiający publiczni prowadzący postępowanie na roboty budowlane w trybie ustawy Prawo zamówień publicznych
-- Jednostki samorządu i ich spółki, które muszą udokumentować wartość szacunkową zamówienia
-- Inwestorzy i zarządcy nieruchomości, którzy rozliczają dofinansowanie lub kredyt i muszą wykazać, skąd wzięła się kwota
-- Inwestorzy prywatni, którzy chcą wiedzieć, czy oferty, jakie dostali, mieszczą się w rozsądnym przedziale
-:::
-
-::: {style=""}
-### Co dostajesz
-
-- Przedmiar robót sporządzony z dokumentacji projektowej i specyfikacji technicznej
-- Kosztorys inwestorski metodą uproszczoną lub szczegółową, zależnie od tego, czym dysponujesz
-- Założenia wyjściowe do kosztorysowania, opisane, a nie domyślne
-- Tabela elementów scalonych i zestawienie robocizny, materiałów i sprzętu
-- Plik w Normie PRO lub Zuzi, plik ATH do wymiany danych oraz wersja PDF do akt postępowania
-:::
-
-::: Jeśli pracujemy dla zamawiającego, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
+Pełny opis obu dokumentów, podstaw cenowych i formatów: [kosztorys inwestorski i kosztorys ofertowy](kosztorys-inwestorski-i-ofertowy.qmd).
 
 ## Najczęściej zadawane pytania
 

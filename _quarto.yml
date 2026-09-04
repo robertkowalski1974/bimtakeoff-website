@@ -53,6 +53,12 @@ website:
             href: /pl/
           - text: "---"
           - text: "More"
+          - text: "BSR Gateway 2 cost consultant"
+            href: services/bsr-gateway-2-cost-consultant.qmd
+          - text: "Facade remediation cost consultant"
+            href: services/facade-remediation-cost-consultant.qmd
+          - text: "Drylining takeoff and tender pricing"
+            href: services/drylining-takeoff-tender-pricing.qmd
           - text: "Traditional Quantity Takeoff"
             href: services/traditional-quantity-takeoff.qmd
           - text: "Fast-Track Cost Control"

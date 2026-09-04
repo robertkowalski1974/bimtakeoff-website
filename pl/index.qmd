@@ -131,7 +131,7 @@ Przedmiar (ilości robót z dokumentacji projektowej, przed budową) i kosztorys
       <td>Ceny wykonawcy lub Sekocenbud</td>
     </tr>
     <tr>
-      <td><strong><a href="uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski">Kosztorys inwestorski</a></strong></td>
+      <td><strong><a href="uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a></strong></td>
       <td>Wartość zamówienia dla zamawiającego publicznego zgodnie z rozporządzeniem, z przedmiarem i założeniami wyjściowymi.</td>
       <td>PZP · rozporządzenie w sprawie kosztorysu inwestorskiego</td>
     </tr>

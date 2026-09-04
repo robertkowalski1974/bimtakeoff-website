@@ -185,6 +185,8 @@ Expert assessment of:
 
 The Building Safety Act 2022 introduced the **Building Safety Regulator (BSR)** under the Health and Safety Executive (HSE), fundamentally changing how Higher Risk Buildings (HRB) are designed, constructed, and maintained. We provide specialised cost estimation services aligned with BSR requirements.
 
+For the cost evidence that goes into the application itself, see [BSR Gateway 2 cost consultant for facade remediation](../services/bsr-gateway-2-cost-consultant.qmd). For pricing the remediation package at tender, see [facade remediation cost consultant](../services/facade-remediation-cost-consultant.qmd).
+
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}

@@ -1,0 +1,164 @@
+---
+title: "Kosztorys inwestorski i kosztorys ofertowy"
+description: "Kosztorys inwestorski dla zamawiającego i kosztorys ofertowy dla wykonawcy: przedmiar, tabela elementów scalonych, RMS, Norma PRO, Zuzia, ATH, Excel i PDF."
+page-layout: full
+---
+
+::: {.page-banner}
+::: {.container}
+# Kosztorys inwestorski i kosztorys ofertowy
+
+::: {.page-banner-lead}
+Dwa dokumenty, dwa cele i dwie podstawy. Kosztorys inwestorski ustala wartość zamówienia dla zamawiającego, kosztorys ofertowy wycenia ofertę wykonawcy.
+:::
+:::
+:::
+
+::: {.container}
+
+## Na czym polega różnica
+
+**Kosztorys inwestorski** sporządza zamawiający, zanim ogłosi postępowanie. Służy do ustalenia szacunkowej wartości zamówienia na roboty budowlane w trybie ustawy Prawo zamówień publicznych i powstaje zgodnie z rozporządzeniem w sprawie określenia metod i podstaw sporządzania kosztorysu inwestorskiego. Nie jest ofertą i nie zawiera zysku wykonawcy — jest udokumentowaną odpowiedzią na pytanie, ile te roboty powinny kosztować.
+
+**Kosztorys ofertowy** sporządza wykonawca i składa razem z ofertą. Powstaje na przedmiarze zamawiającego albo na własnym przedmiarze, z cenami, którymi wykonawca faktycznie dysponuje, i z narzutami, które uzgodnił u siebie. To dokument handlowy, nie dokument postępowania.
+
+Ten sam projekt można więc wycenić dwa razy i otrzymać dwie różne kwoty, obie poprawne. Robimy jedno albo drugie. Jeśli pracujemy dla zamawiającego przy danym postępowaniu, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
+
+## Dla kogo pracujemy
+
+::: {.feature-grid}
+::: {.card-base}
+### Zamawiający publiczni
+
+Jednostki samorządu, ich spółki i inne podmioty, które muszą udokumentować wartość szacunkową zamówienia przed wszczęciem postępowania.
+:::
+
+::: {.card-base}
+### Wykonawcy i podwykonawcy
+
+Firmy składające ofertę w postępowaniu publicznym lub prywatnym, którym potrzebny jest kosztorys ofertowy w formacie wskazanym w dokumentacji.
+:::
+
+::: {.card-base}
+### Inwestorzy prywatni i zarządcy
+
+Inwestorzy rozliczający dofinansowanie lub kredyt oraz zarządcy, którzy chcą sprawdzić, czy otrzymane oferty mieszczą się w rozsądnym przedziale.
+:::
+:::
+
+## Co dostajesz
+
+**W kosztorysie inwestorskim:**
+
+- Przedmiar robót sporządzony z dokumentacji projektowej i specyfikacji technicznej wykonania i odbioru robót budowlanych
+- Kosztorys metodą szczegółową lub uproszczoną, zależnie od tego, czym dysponujesz
+- Założenia wyjściowe do kosztorysowania, opisane, a nie domyślne
+- Tabela elementów scalonych i zestawienie robocizny, materiałów i sprzętu
+- Wersja do akt postępowania w PDF oraz plik roboczy do dalszej pracy
+
+**W kosztorysie ofertowym:**
+
+- Przedmiar zamawiającego sprawdzony z rysunkami, z wykazem rozbieżności
+- Kosztorys szczegółowy lub uproszczony, w układzie wymaganym w dokumentacji
+- Narzuty uzgodnione z Tobą: koszty pośrednie, zysk, koszty zakupu
+- Tabela elementów scalonych i zestawienie RMS
+- Rejestr pytań do zamawiającego, złożony przed upływem terminu
+
+## Podstawy cenowe
+
+W kosztorysie inwestorskim ceny bierzemy z powszechnie stosowanych publikowanych baz, najczęściej Sekocenbud, a tam gdzie katalog nie ma pozycji — z kalkulacji własnej, opisanej i możliwej do sprawdzenia. W kosztorysie ofertowym pracujemy na cenach wykonawcy: Twoich stawkach robocizny, Twoich cenach materiałów i ofertach dostawców, które już masz. Podstawy nakładów to KNR i KNNR, a kalkulacje własne oznaczamy osobno.
+
+## Formaty
+
+Norma PRO, Zuzia, plik wymiany ATH, formularz cenowy w Excelu oraz PDF. Powiedz, czego wymaga dokumentacja albo w czym pracuje Twój kosztorysant, a w tym wydamy.
+
+## Co nam przesłać
+
+Projekt budowlany lub wykonawczy w PDF albo DWG, specyfikację techniczną wykonania i odbioru robót (STWiORB), przedmiar zamawiającego, jeśli został wydany, oraz termin składania ofert. Przy postępowaniu publicznym przydaje się także SWZ wraz z załącznikami — wynika z niej wymagany format kosztorysu, a także wysokość wadium i sposób jego wniesienia, jeśli zamawiający je przewidział. Model IFC z Revita, ArchiCAD-a lub Tekli przyspiesza pomiar, ale nie jest wymagany.
+
+## Jak pracujemy
+
+::: {.process-steps}
+::: {.process-step}
+#### Przesyłasz dokumentację
+Projekt, STWiORB, przedmiar zamawiającego, jeśli jest, oraz termin.
+:::
+
+::: {.process-step}
+#### Odpowiadamy w ciągu jednego dnia roboczego
+Potwierdzamy zakres, stałą cenę i termin wydania, ustalony pod Twój termin składania ofert.
+:::
+
+::: {.process-step}
+#### Otrzymujesz kosztorys
+W wymaganym formacie, z tabelą elementów scalonych, zestawieniem RMS i wykazem założeń.
+:::
+:::
+
+## Ile to kosztuje
+
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+
+## Najczęściej zadawane pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy kosztorys inwestorski może posłużyć wykonawcy jako oferta?**
+:::
+::: {.faq-answer}
+O: Nie. To dokument zamawiającego, sporządzony inną metodą i na innych cenach. Wykonawca składa własny kosztorys ofertowy, na swoich cenach i narzutach.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Metoda szczegółowa czy uproszczona?**
+:::
+::: {.faq-answer}
+O: Zależy od tego, czym dysponujesz i czego wymaga dokumentacja. Metoda szczegółowa wymaga pełnej dokumentacji projektowej i daje rozbicie na robociznę, materiały i sprzęt. Metoda uproszczona opiera się na cenach jednostkowych pozycji przedmiaru. Podpowiadamy, która jest właściwa, po przeczytaniu dokumentacji.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co, jeśli przedmiar zamawiającego nie zgadza się z rysunkami?**
+:::
+::: {.faq-answer}
+O: Wyceniamy przedmiar zamawiającego, bo to on jest podstawą oferty, a rozbieżności zbieramy w jedno pismo z odwołaniem do rysunku i punktu specyfikacji. Pytania składamy przed upływem terminu, a nie po otwarciu ofert.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: W jakich programach kosztorysowych wydajecie pliki?**
+:::
+::: {.faq-answer}
+O: Norma PRO, Zuzia, plik wymiany ATH, Excel i PDF. Jeżeli zamawiający wskazał format w dokumentacji, wydajemy dokładnie w nim.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jak dokładne są ilości?**
+:::
+::: {.faq-answer}
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
+:::
+:::
+:::
+
+Zobacz też: [kosztorys ofertowy i planowanie budżetu](kosztorysowanie-i-planowanie-budzetu.qmd#inwestorski) oraz [przedmiary robót i kosztorysy dla wykonawców](../index.qmd).
+
+## Prześlij dokumentację do najbliższego postępowania
+
+::: {.callout-box .text-center}
+Prześlij jeden pakiet i zobacz, co wraca. Jeśli termin składania ofert wypada w ciągu 72 godzin, zadzwoń.
+
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+:::
+
+:::
