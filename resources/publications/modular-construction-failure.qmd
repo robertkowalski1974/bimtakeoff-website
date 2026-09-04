@@ -196,7 +196,7 @@ UK customers "want their houses to feel unique and special, and the idea of buyi
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-left: 4px solid var(--bim-orange);"}
 ### Government Consistency
 
-Singapore's mandate creates guaranteed pipeline. Japanese building codes harmonized to facilitate prefabrication. Swedish planning systems accommodate standardized designs.
+Singapore's mandate creates a committed pipeline. Japanese building codes harmonized to facilitate prefabrication. Swedish planning systems accommodate standardized designs.
 
 The UK's fragmented local authority system with site-specific requirements undermines standardization benefits. As one analyst noted: "How can a system of building that relies on repetition adapt to the genius loci of Harrogate, Bourton-on-the-Water or Bowness?"
 :::

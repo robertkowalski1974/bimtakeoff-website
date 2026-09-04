@@ -84,20 +84,20 @@ Inline code also works: `variable_name = "BIM Takeoff"`
 
 ## Table Example
 
-| Service | Turnaround | Accuracy |
+| Service | Turnaround | Measured to |
 |---------|-----------|----------|
-| Cost Estimation | 3-5 days | ±3-5% |
-| Quantity Takeoff | 5-7 days | ±2-3% |
-| Tender Review | 2-3 days | ±5% |
+| Cost Estimation | 3-5 days | NRM2 / SMM7 |
+| Quantity Takeoff | 5-7 days | Your bill format |
+| Tender Review | 2-3 days | The drawings issued |
 
 ## Professional Elements
 
 ### Statistics Section
 
-- **2000+** Projects Completed
-- **20+** Years Experience  
-- **±3-5%** Accuracy Rate
-- **3-10 Days** Average Turnaround
+- **20 years** measuring and pricing construction work
+- **3 markets** - UK, Australia and Poland
+- **NRM2, SMM7, AS 4000, KNR/KNNR** - measured to your bill
+- **Fixed fee** quoted before we start
 
 ### Contact Information
 

@@ -239,7 +239,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
       </ul>
 
       <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">7.2 Standardy Jakości (dla Wszystkich Klientów)</h3>
-      <p>Gwarantujemy wykonanie usług zgodnie z:</p>
+      <p>Usługi wykonujemy zgodnie z:</p>
       <ul style="margin-left: 20px; margin-top: 10px;">
         <li style="margin-bottom: 8px;"><strong>Standardami profesjonalnymi RICS</strong> (Royal Institution of Chartered Surveyors)</li>
         <li style="margin-bottom: 8px;"><strong>Normami ISO 19650</strong> dotyczącymi zarządzania informacją BIM</li>
@@ -654,7 +654,7 @@ description: "Regulamin świadczenia usług BIM Takeoff - Profesjonalne usługi 
   <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
     <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2rem;">Mają Państwo Pytania?</h2>
     <p style="color: #E0E0E0; font-size: 1.1rem; margin-bottom: 30px;">
-      Nasz zespół jest gotowy wyjaśnić wszelkie aspekty naszego Regulaminu Świadczenia Usług
+      Chętnie wyjaśnimy każdy zapis Regulaminu Świadczenia Usług
     </p>
     <a href="kontakt.html" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
       Skontaktuj Się

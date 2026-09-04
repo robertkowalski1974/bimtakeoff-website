@@ -18,21 +18,21 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Szczegółowe przedmiary MEP z skoordynowanych modeli BIM.  
-Obmiary bez kolizji z dokładnością ±3%.
+Szczegółowe przedmiary MEP ze skoordynowanych modeli BIM.  
+Ilości bez kolizji, liczone element po elemencie.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Pełna koordynacja M&E</strong> – mechanika, elektryka, sanitarne, przeciwpożarowe</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zintegrowana detekcja kolizji</strong> – wstępnie zwalidowane ilości</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Specjaliści systemów złożonych</strong> – centra danych, przemysł, ochrona zdrowia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Systemy złożone</strong> – centra danych, przemysł, ochrona zdrowia</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Ocenę MEP](../kontakt.qmd){.cta-primary}
-[Zobacz Projekty MEP](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -60,7 +60,7 @@ Instalacje mechaniczne, elektryczne i sanitarne stanowią 30-50% kosztów projek
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Ukryte koszty
 
-> "W projekcie centrum danych MEP to 60% całkowitego kosztu. 10% błąd w kosztorysowaniu MEP oznacza 6% przekroczenie budżetu – potencjalnie 24 mln PLN w projekcie wartym 400 mln PLN. Precyzja ma znaczenie."
+W obiektach technicznych instalacje to największa pozycja kosztowa. Błąd popełniony na tej pozycji przenosi się wprost na budżet całego projektu, a wychodzi dopiero na montażu.
 :::
 :::
 
@@ -72,10 +72,10 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ilości bez kolizji** ze skoordynowanych modeli</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Każdy komponent zliczony** - złączki, mocowania, akcesoria</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Walidacja system po systemie** przez specjalistów MEP</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Sprawdzenie system po systemie** przed wydaniem przedmiaru</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Koszty koordynacji i testów uwzględnione</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Wyceniona integracja sterowań i BMS</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Uwzględnione gwarancje wydajności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Uwzględnione testy i weryfikacja wydajności</p>
 :::
 :::
 
@@ -173,7 +173,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 - Sterowniki DDC
 - Pomiary i monitoring
 - Protokoły integracji
-- Dashboardy i analityka
+- Pulpity i analityka
 - Konserwacja predykcyjna
 - Czujniki IoT
 
@@ -378,7 +378,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 **P: Jaki LOD (Poziom Szczegółowości) potrzebujecie do dokładnego kosztorysowania MEP?**
 :::
 ::: {.faq-answer}
-O: LOD 300 minimum dla dokładności ±5%, LOD 350-400 dla dokładności ±3%. Przy LOD 300 pracujemy ze schematycznym trasowaniem i harmonogramami wyposażenia. LOD 350+ zapewnia szczegóły poziomu wytwarzania, w tym wszystkie złączki, wsporniki i akcesoria. Jeśli model jest LOD 200, możemy uzupełnić specyfikacjami i rysunkami schematycznymi, ale dokładność spada do ±10%.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Przy LOD 300 pracujemy ze schematycznym trasowaniem i zestawieniami wyposażenia. LOD 350 i wyżej daje szczegół poziomu wytwarzania: złączki, wsporniki, akcesoria. Model LOD 200 uzupełniamy specyfikacjami i schematami, a przyjęte założenia wypisujemy w rejestrze.
 :::
 :::
 
@@ -414,7 +414,7 @@ O: Tak, oczywiście. T&C to często 3-8% kosztów instalacji MEP i często pomij
 **P: Jak wyceniacie integrację BMS/sterowań?**
 :::
 ::: {.faq-answer}
-O: Koszty BMS obejmują: urządzenia (sterowniki, czujniki, siłowniki), licencje na oprogramowanie, programowanie, grafiki/dashboardy, integrację z systemami specjalistycznymi, szkolenia i dokumentację. Zazwyczaj 5-15% kosztów MEP w zależności od poziomu inteligencji budynku. Wyceniamy według wytycznych BSRIA dla poziomów specyfikacji BMS.
+O: Koszty BMS obejmują: urządzenia (sterowniki, czujniki, siłowniki), licencje na oprogramowanie, programowanie, grafiki i pulpity, integrację z systemami specjalistycznymi, szkolenia i dokumentację. Zazwyczaj 5-15% kosztów MEP w zależności od poziomu inteligencji budynku. Wyceniamy według wytycznych BSRIA dla poziomów specyfikacji BMS.
 :::
 :::
 
@@ -423,7 +423,7 @@ O: Koszty BMS obejmują: urządzenia (sterowniki, czujniki, siłowniki), licencj
 **P: Czy możecie porównać nasze koszty MEP z normami branżowymi?**
 :::
 ::: {.faq-answer}
-O: Tak. Porównujemy z naszą bazą danych 2000+ projektów. Dostarczamy porównania PLN/m² według typu budynku, proporcji MEP całkowitych kosztów projektu i stawek jednostkowych system po systemie. To pomaga określić, czy specyfikacja jest zawyżona/zaniżona w porównaniu z normami rynkowymi dla podobnych budynków.
+O: Tak. Porównujemy ze stawkami z wcześniejszych wycen i z publikowanymi wskaźnikami rynkowymi. Dostarczamy porównania PLN/m² według typu budynku, udziału MEP w koszcie projektu i stawek jednostkowych system po systemie. To pomaga określić, czy specyfikacja jest zawyżona/zaniżona w porównaniu z normami rynkowymi dla podobnych budynków.
 :::
 :::
 
@@ -451,11 +451,11 @@ O: Dla głównego wyposażenia (agregaty, generatory, rozdzielnice, UPS) uzyskuj
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Zespół Specjalistów MEP
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Znajomość instalacji, nie tylko cen
 
-**Inżynierowie i konsultanci kosztowi**
+**Kosztorysowanie od strony projektu systemu**
 
-Nasz zespół obejmuje wykwalifikowanych inżynierów M&E, którzy rozumieją projektowanie systemów, a nie tylko dane kosztowe. Mówimy tym samym językiem co Twoi konsultanci MEP i możemy walidować założenia projektowe, identyfikować brakujące systemy i oznaczać nadmiar/niedomiar specyfikacji. Ta wiedza inżynierska zapewnia, że nasze szacunki odzwierciedlają rzeczywistą złożoność instalacji.
+Czytamy dokumentację MEP jak inżynier, a nie jak arkusz stawek. Dzięki temu widzimy, gdzie brakuje systemu, gdzie specyfikacja jest przeszacowana i które założenie projektowe trzeba potwierdzić, zanim policzy się ilości. To jest różnica między wyceną, która wygląda kompletnie, a wyceną, która odpowiada temu, co da się zmontować.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -463,7 +463,7 @@ Nasz zespół obejmuje wykwalifikowanych inżynierów M&E, którzy rozumieją pr
 
 **Od centrów danych do sal operacyjnych**
 
-Kosztorysowaliśmy MEP dla najbardziej wymagających zastosowań: centra danych Tier IV z nadmiarowością 2N+1, sale operacyjne szpitalne, czyste pomieszczenia farmaceutyczne ISO Klasa 5 i obiekty przemysłowe z wyposażeniem stref zagrożonych. Jeśli jest technicznie złożone, szacowaliśmy to.
+Wyceniamy instalacje w obiektach o wysokich wymaganiach technicznych: centra danych z nadmiarowością zasilania i chłodzenia, sale operacyjne, pomieszczenia czyste oraz zakłady przemysłowe z wyposażeniem stref zagrożonych wybuchem.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -474,14 +474,6 @@ Kosztorysowaliśmy MEP dla najbardziej wymagających zastosowań: centra danych 
 Pracujemy bezpośrednio ze sfederowanymi modelami MEP, uruchamiając detekcję kolizji przed odczytem ilości. Oznacza to, że nasze ilości są wolne od kolizji i gotowe do instalacji. Dostarczamy również raporty koordynacyjne identyfikujące problemy projektowe, które mogą wpłynąć na koszty - dając widoczność przed pojawieniem się problemów na placu budowy.
 :::
 
-::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Sprawdzona Dokładność
-
-**±3% na Złożonym MEP**
-
-Nasze szacunki MEP osiągają dokładność ±3-5% przy pracy ze skoordynowanymi modelami LOD 350+. To znacznie lepsze niż standardowa branżowa ±10-15% dla pracy MEP. Ta precyzja pochodzi z kompletnego odczytu danych z systemów, wkładu specjalistycznego inżynieryjnego i kompleksowych narzutów na testy, rozruch i integrację.
-:::
-
 :::
 
 ## Gotowy Na Precyzyjne Kosztorysowanie MEP?
@@ -490,34 +482,30 @@ Nasze szacunki MEP osiągają dokładność ±3-5% przy pracy ze skoordynowanymi
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie pozwól, aby niepewność MEP wykoleliła projekt</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Uzyskaj wolne od kolizji, system-walidowane ilości MEP od specjalistów, którzy rozumieją inżynierię.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Ilości MEP bez kolizji, sprawdzone system po systemie.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna ocena MEP</h3>
-<p style="color: var(--bim-white); margin: 0;">Przegląd modelu i omówienie podejścia do kosztorysowania</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Model MEP lub rysunki i specyfikacja. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Przykładowe zestawienie MEP</h3>
-<p style="color: var(--bim-white); margin: 0;">Zobacz analizę kosztów system po systemie</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden system z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę dostosowaną do projektu</h3>
-<p style="color: var(--bim-white); margin: 0;">Wycena specyficzna dla projektu w 24 godziny</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Ocenę](../kontakt.qmd){.cta-primary}
-[Zobacz Przykład MEP](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Wykwalifikowani inżynierowie M&E</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3% dokładność na skoordynowanych modelach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Przedmiar system po systemie</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Założenia wypisane, nie ukryte w sumie</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Detekcja kolizji wliczona</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia ze złożonymi systemami</strong></p>
 :::

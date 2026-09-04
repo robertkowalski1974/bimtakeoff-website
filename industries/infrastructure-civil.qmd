@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure & Civil Works Cost Estimation | BIM 5D"
 page-layout: full
-description: "Infrastructure cost estimation for roads, bridges, tunnels, utilities and earthworks. Complex civil engineering, 7-12 day turnaround, ±5-8% accuracy."
+description: "Infrastructure cost estimation for roads, bridges, tunnels, utilities and earthworks. Civil engineering costed to your drawings, 7-12 day turnaround."
 ---
 
 ::: {.hero-section}
@@ -20,7 +20,7 @@ description: "Infrastructure cost estimation for roads, bridges, tunnels, utilit
 
 ::: {.hero-subtitle}
 From Roads & Bridges to Major Utilities & Earthworks.  
-Delivered in 7-12 days with ±5-8% accuracy.
+Delivered in 7-12 days, measured to your drawings and specification.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -32,8 +32,8 @@ Delivered in 7-12 days with ±5-8% accuracy.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -60,18 +60,18 @@ Infrastructure construction faces unique scale and complexity challenges:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Risk
 
-> "Infrastructure projects are inherently uncertain with ground conditions, utility clashes, and environmental constraints. Traditional estimation struggles with linear project complexity, leading to 15-25% cost overruns. Early, accurate cost modeling is critical for securing public funding and maintaining project viability."
+> "Infrastructure projects are inherently uncertain with ground conditions, utility clashes, and environmental constraints. Traditional estimation struggles with linear project complexity, and unmanaged risk shows up as cost overruns later. Early, accurate cost modelling is critical for securing public funding and maintaining project viability."
 :::
 :::
 
 ::: {style=""}
 ### Our Infrastructure Solution
 
-Specialized 5D BIM for civil engineering and infrastructure projects:
+Specialised 5D BIM for civil engineering and infrastructure projects:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **7-12 days** for complete estimate (vs 10-16 weeks traditional)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Earthworks optimization** - Cut/fill balance & haulage analysis</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Earthworks optimisation** - Cut/fill balance & haulage analysis</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Linear project expertise** - Roads, utilities, drainage networks</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Bridge & structure costing** - Detailed civil structures analysis</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Risk allowances** - Ground conditions, utilities, environmental</p>
@@ -83,7 +83,7 @@ Specialized 5D BIM for civil engineering and infrastructure projects:
 - **Comprehensive infrastructure experience** across UK, EU, Australia
 - **Major civil projects** successfully delivered
 - **Average 9 days** from BIM model to detailed estimate
-- **±5-8% accuracy** accounting for civil works uncertainty
+- **Risk allowances** included for ground conditions and utility uncertainty
 :::
 :::
 
@@ -138,13 +138,13 @@ Analysis of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Earthworks Optimization
+### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Earthworks Optimisation
 
 **Cut/Fill Mass Haul Analysis**
 
 Strategic planning for:
 - Bulk earthworks volumes
-- Cut/fill balance optimization
+- Cut/fill balance optimisation
 - Haulage route planning
 - Spoil disposal & import
 - Ground improvement works
@@ -196,7 +196,7 @@ Planning & costing for:
 **Type:** Single carriageway  
 **Complexity:** Medium  
 **Timeline:** 7-8 days  
-**Typical Cost:** £800-1,500 per linear meter
+**Typical Cost:** £800-1,500 per linear metre
 
 **Characteristics:**
 - Estate roads & access ways
@@ -213,7 +213,7 @@ Planning & costing for:
 **Type:** Dual carriageway/major junctions  
 **Complexity:** High  
 **Timeline:** 9-11 days  
-**Typical Cost:** £1,500-3,500 per linear meter
+**Typical Cost:** £1,500-3,500 per linear metre
 
 **Characteristics:**
 - Dual carriageway sections
@@ -231,7 +231,7 @@ Planning & costing for:
 **Type:** Highways/major bridges  
 **Complexity:** Very High  
 **Timeline:** 11-12 days  
-**Typical Cost:** £3,000-8,000+ per linear meter
+**Typical Cost:** £3,000-8,000+ per linear metre
 
 **Characteristics:**
 - Motorway/highway construction
@@ -250,7 +250,7 @@ Planning & costing for:
 ## Key Cost Drivers in Infrastructure Projects
 
 ::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
-### Typical Major Road Project Breakdown (per linear meter)
+### Typical Major Road Project Breakdown (per linear metre)
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 24px 0;"}
 
@@ -314,7 +314,7 @@ Planning & costing for:
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); border-radius: 8px;"}
-<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £3,140-5,880 per linear meter</h3>
+<h3 style="color: #FFFFFF; margin-top: 0;">Total Typical Range: £3,140-5,880 per linear metre</h3>
 <p style="color: #FFFFFF; font-style: italic;">(Dual carriageway standard, excluding land acquisition and major structures)</p>
 
 <p style="color: #FFFFFF;"><strong>NOTE:</strong> Actual costs vary significantly based on:</p>
@@ -339,7 +339,7 @@ Planning & costing for:
 
 **What We Do:**
 - Review civil engineering designs
-- Analyze geotechnical reports
+- Analyse geotechnical reports
 - Assess site constraints
 - Review utility surveys
 - Identify environmental constraints
@@ -361,18 +361,18 @@ Planning & costing for:
 
 **What We Do:**
 - Calculate earthworks volumes
-- Analyze cut/fill balance
+- Analyse cut/fill balance
 - Assess haulage requirements
 - Evaluate ground improvement needs
-- Model mass haul optimization
+- Model mass haul optimisation
 
 **Technology:**
 - BIM 5D volume extraction
-- Cut/fill optimization software
-- Haulage route modeling
+- Cut/fill optimisation software
+- Haulage route modelling
 - Ground treatment analysis
 
-**Output:** Earthworks quantity take-off with optimization
+**Output:** Earthworks quantity take-off with optimisation
 :::
 
 ::: {.process-step}
@@ -413,7 +413,7 @@ Planning & costing for:
 - Multi-discipline coordination
 - Utility clash resolution
 - Environmental compliance
-- Traffic phasing optimization
+- Traffic phasing optimisation
 
 **Output:** Structures & utilities cost breakdown
 :::
@@ -484,19 +484,19 @@ Planning & costing for:
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Earthworks Optimization
+### Earthworks Optimisation
 - **Cut/fill balance** analysis
-- **Mass haul** optimization
+- **Mass haul** optimisation
 - **Haulage route** planning
 - **Ground treatment** expertise
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Risk-Based Accuracy
-- **±5-8% accuracy** with risk allowances
+- **Risk allowances** built into every estimate
 - **Ground condition** contingencies
 - **Utility clash** provisions
-- **Environmental risk** modeling
+- **Environmental risk** modelling
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -504,7 +504,6 @@ Planning & costing for:
 - **9-12 days** typical turnaround
 - **7-8 days** express (limited)
 - **2-3 days** change analysis
-- **70% faster** than traditional
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -533,16 +532,16 @@ Planning & costing for:
 **Q: Why do infrastructure projects have higher uncertainty than buildings?**
 :::
 ::: {.faq-answer}
-A: Infrastructure projects face inherent uncertainty from ground conditions (revealed only during construction), utility clashes (survey limitations), linear project variability (changing conditions over distance), and environmental constraints (protected species, contamination). We address this through ±5-8% accuracy ranges and explicit risk allowances for these factors.
+A: Infrastructure projects face inherent uncertainty from ground conditions (revealed only during construction), utility clashes (survey limitations), linear project variability (changing conditions over distance), and environmental constraints (protected species, contamination). We manage this with explicit risk allowances for these factors. Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: Can you optimize earthworks for cut/fill balance?**
+**Q: Can you optimise earthworks for cut/fill balance?**
 :::
 ::: {.faq-answer}
-A: Yes, we use mass haul analysis to optimize cut/fill balance, minimizing import/export costs and environmental impact. Our BIM workflows calculate earthworks volumes along the entire route and model different vertical alignment scenarios to find the optimal balance. We can save projects 10-20% on earthworks costs through optimization.
+A: Yes, we use mass haul analysis to optimise cut/fill balance, minimising import/export costs and environmental impact. Our BIM workflows calculate earthworks volumes along the entire route and model different vertical alignment scenarios to find the optimal balance, helping reduce earthworks costs.
 :::
 :::
 
@@ -587,7 +586,7 @@ A: Yes, we regularly prepare phased delivery estimates that maintain operational
 **Q: How quickly can you assess alternative route alignments?**
 :::
 ::: {.faq-answer}
-A: For route optioneering, we can typically compare 2-3 alignment alternatives within 5-7 days. Our BIM workflows allow rapid calculation of earthworks volumes, pavement quantities, and structure requirements for each option. This is valuable during early design stages when route selection is still being finalized.
+A: For route optioneering, we can typically compare 2-3 alignment alternatives within 5-7 days. Our BIM workflows allow rapid calculation of earthworks volumes, pavement quantities, and structure requirements for each option. This is valuable during early design stages when route selection is still being finalised.
 :::
 :::
 
@@ -596,7 +595,7 @@ A: For route optioneering, we can typically compare 2-3 alignment alternatives w
 **Q: What's your fee structure for infrastructure projects?**
 :::
 ::: {.faq-answer}
-A: Fees vary based on project type, length/scale, and complexity. As a guide:
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees vary based on project type, length/scale, and complexity. As a guide:
 - Local roads (500m-2km): £12,000-20,000
 - Major roads (2-10km): £25,000-45,000
 - Major infrastructure (10km+ or complex): £45,000-80,000+
@@ -618,34 +617,33 @@ Express service carries a 30% premium where available. Contact us for a specific
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Schedule Call</h3>
-<p style="color: var(--bim-white); margin: 0;">Discuss your project requirements with our specialists</p>
+<p style="color: var(--bim-white); margin: 0;">Discuss your project requirements with us</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 0;">We respond within one working day, Monday to Friday, with a detailed proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Book Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">Free 30-minute infrastructure project review</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">Send your drawings for a free sample takeoff</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd#sample" style="color: var(--bim-orange); text-decoration: underline;">Get Started →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
-[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Civil Engineering Specialists</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Earthworks Optimization Experts</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Earthworks Optimisation Experts</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>9-12 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5-8% Accuracy with Risk Allowances</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Risk Allowances Built Into Every Estimate</strong></p>
 :::
 :::
 :::

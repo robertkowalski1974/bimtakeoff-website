@@ -15,7 +15,7 @@ page-layout: full
 ::: {.container}
 ::: {.hero-title}
 # Construction Data Management & ISO 19650 Compliance
-### Transform Information Chaos Into Strategic Asset
+### Structured Information From Tender Through Handover
 :::
 
 ::: {.hero-subtitle}
@@ -32,8 +32,8 @@ From tender through handover and beyond.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Consultation](../contact.qmd){.cta-primary}
-[View CDE Solutions](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -56,7 +56,7 @@ From tender through handover and beyond.
 Poor data management creates expensive problems:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 5-15% project time wasted finding information</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Time wasted searching for the right document or version</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Rework from using wrong document versions</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Compliance failures (Building Safety Act, Golden Thread)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Incomplete handover information</p>
@@ -106,7 +106,7 @@ ISO 19650 compliant, lifecycle-focused data management:
 - Information delivery schedules
 - Level of Information Need definitions
 - Data drop specifications
-- Task Team mobilization plans
+- Task Team mobilisation plans
 
 **Deliverable:** ISO 19650-compliant documentation suite
 :::
@@ -222,12 +222,12 @@ ISO 19650 compliant, lifecycle-focused data management:
 
 **What We Do:**
 
-- Mobilize Task Team responses to EIR
+- Mobilise Task Team responses to EIR
 - Develop pre-appointment BEP
 - Coordinate Task Information Delivery Plans (TIDP)
 - Establish information production methods
 - Define quality assurance procedures
-- Finalize post-appointment BEP
+- Finalise post-appointment BEP
 
 **What You Receive:** Agreed BIM Execution Plan (BEP)
 :::
@@ -424,7 +424,7 @@ A: For UK public sector projects, yes - it's mandatory. For private projects, it
 **Q: What's the difference between a CDE and just using SharePoint or Dropbox?**
 :::
 ::: {.faq-answer}
-A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customization. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.
+A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customisation. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.
 :::
 :::
 
@@ -442,7 +442,7 @@ A: Ideally at tender stage or project inception. Early engagement allows us to s
 **Q: Can you help with Building Safety Act compliance and Golden Thread?**
 :::
 ::: {.faq-answer}
-A: Yes! We specialize in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support. We've worked on multiple Gateway 2 and Gateway 3 submissions.
+A: Yes. We specialise in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support, including Gateway 2 and Gateway 3 submissions.
 :::
 :::
 
@@ -460,7 +460,7 @@ A: We can still add value through: EIR development, information coordination acr
 **Q: How much does information management cost?**
 :::
 ::: {.faq-answer}
-A: Depends on project size and service scope. Setup (EIR, BEP, CDE config) for a £10M project: £15K-25K. Part-time Information Manager support: £3K-5K/month. Full-time dedicated resource: £6K-10K/month. Golden Thread services: £20K-50K depending on building complexity. Investment typically saves 2-5x through reduced rework and better project outcomes.
+A: It depends on project size and the scope of service - setup (EIR, BEP, CDE configuration), ongoing information management support, and Golden Thread services are all sized to the project. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
 :::
 :::
 
@@ -496,38 +496,31 @@ A: Yes! Training is essential for successful adoption. We provide: CDE user trai
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Transform Data Chaos Into Strategic Advantage</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Put Your Information On a Proper Footing</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">ISO 19650 compliant information management from experts who understand construction.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">ISO 19650 aligned information management, structured from tender through to handover.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Request Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">Discuss your information needs</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send us your drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Tell us about your information needs</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See CDE Examples</h3>
-<p style="color: var(--bim-white); margin: 0;">Review implementation case studies</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Scoped proposal within 3 days</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free sample takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See how we structure information before you commit</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Consultation](../contact.qmd){.cta-primary}
-[View Examples](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650 Certified Specialists</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Building Safety Act Compliant</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650 Information Management</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Building Safety Act Aware</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>CDE Platform Agnostic</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
 :::
@@ -537,7 +530,7 @@ A: Yes! Training is essential for successful adoption. We provide: CDE user trai
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

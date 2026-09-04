@@ -304,7 +304,7 @@ Publikacje BIM Takeoff czerpią z 20-letniego międzynarodowego doświadczenia w
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
 ### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);" aria-hidden="true"></i> Analiza rynku
 
-Rzeczywiste dane z 2000+ projektów na wielu rynkach, śledzenie trendów adopcji, barier i czynników sukcesu.
+Dane z projektów na kilku rynkach: trendy adopcji, bariery i czynniki powodzenia.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}

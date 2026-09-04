@@ -1,5 +1,6 @@
 ---
-title: "Automatyczny Przedmiar i Obmiar | Potrójny System Walidacji"
+title: "Przedmiar robót z modelu BIM i rysunków 2D"
+description: "Przedmiary robót z modeli IFC, plików DWG i rysunków 2D. Eksport do Normy PRO i Zuzi, plik ATH lub Excel. Obmiary powykonawcze do rozliczeń."
 page-layout: full
 ---
 
@@ -13,26 +14,25 @@ page-layout: full
 
 ::: {.container}
 ::: {.hero-title}
-# Automatyczny Przedmiar i Obmiar z Potrójnym Systemem Walidacji
-### Precyzyjne obmiary w 10× krótszym czasie
+# Przedmiar robót z modelu BIM i rysunków 2D
+### Ilości, które da się sprawdzić pozycja po pozycji
 :::
 
 ::: {.hero-subtitle}
-O 95% szybciej niż tradycyjne przedmiary.
-Potrójnie weryfikowane dla pełnej dokładności.
+Ilości pobrane z modelu IFC lub zmierzone z rysunków, sprawdzone ręcznie i wydane w formacie Twojego programu kosztorysowego.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Automatyczne odczytywanie przez AI</strong> - Automatyczne pomiary z modeli BIM</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Potrójny system walidacji (Triple Validation System)</strong> - AI + Ekspert + Weryfikacja krzyżowa</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Dokładność 99,5%</strong> - Potwierdzone 20-letnim doświadczeniem</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Model IFC albo rysunki 2D</strong> — model przyspiesza pomiar, ale nie jest wymagany</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Każda ilość sprawdzona z rysunkami</strong> — ręcznie, przed wydaniem</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Eksport do Normy PRO i Zuzi</strong> — plik ATH, Excel lub PDF</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Bezpłatna Próbka](../kontakt.qmd){.cta-primary}
-[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -41,280 +41,182 @@ Potrójnie weryfikowane dla pełnej dokładności.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Automatyczny przedmiar** wykorzystuje technologie BIM do ekstrakcji ilości materiałów bezpośrednio z plików modeli IFC tworzonych w programach Autodesk Revit, ArchiCAD i Tekla Structures, eliminując ręczny pomiar z rysunków 2D. Proces jest o 90-95% szybszy niż metody tradycyjne, a automatyczne kontrole jakości redukują błąd ludzki poniżej 1%. Usługa BIM Takeoff stosuje potrójny system walidacji -- ekstrakcja AI, weryfikacja eksperta kosztorysanta i analiza krzyżowa -- i obsłużyła ponad 2000 projektów o łącznej powierzchni ponad 12 milionów metrów kwadratowych.
+**Przedmiar robót** to zestawienie ilości robót wyliczonych z dokumentacji projektowej, sporządzane **przed** rozpoczęciem budowy — do oferty, do kosztorysu inwestorskiego, do umowy. **Obmiar robót** to ilości robót faktycznie wykonanych, mierzone na budowie **po** ich wykonaniu — do rozliczenia i do faktury. To dwa różne dokumenty i nie zastępują się nawzajem. Sporządzamy oba, ale zawsze osobno i z innego źródła: przedmiar z rysunków i modelu, obmiar z pomiaru w terenie i z dokumentacji powykonawczej.
 
 </div>
 
-## Dlaczego Tradycyjne Przedmiary Kosztują Czas i Pieniądze
+## Co jest nie tak z przedmiarem robionym w pośpiechu
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
 
 ::: {style=""}
-### Problemy Manualnych Przedmiarów
-
-Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:
+### Problem
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 4-6 tygodni na złożone projekty</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Błędy ludzkie w pomiarach (5-15%)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pominięte ilości i elementy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niespójne standardy pomiarowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Każda zmiana wymaga przeliczenia wszystkiego od nowa</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Trudne do zweryfikowania i audytu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pominięte elementy, których nikt nie zauważy do czasu realizacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niespójne zasady pomiaru między kondygnacjami i budynkami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Ilości, których po tygodniu nie da się odtworzyć ani obronić</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Każda zmiana rysunku wymaga liczenia wszystkiego od nowa</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Założenia przyjęte w głowie kosztorysanta, nie na papierze</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Koszt Błędów
+#### Koszt błędu
 
-> "W projekcie wartym 40 mln PLN nawet 5% błąd w ilościach może skutkować 2 mln PLN nieoczekiwanych kosztów lub roszczeń wykonawców. Ręczne przedmiary nie zapewniają precyzji wymaganej przez nowoczesne budownictwo."
+> Ilość, której nie da się wyjaśnić, jest w sporze bezużyteczna. Przedmiar ma pokazywać, skąd wzięła się każda liczba, a nie tylko podawać wynik.
 :::
 :::
 
 ::: {style=""}
-### Nasze Automatyczne Rozwiązanie
-
-Zaawansowana ekstrakcja AI z wielopoziomową walidacją:
+### Jak to robimy
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2-3 dni** na pełny przedmiar</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **99,5% dokładności** z potrójną walidacją</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Kompletne rozpoznanie wszystkich elementów (bez pominiętych pozycji)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zgodność z ISO 19650 i KNR</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Natychmiastowa aktualizacja po każdej zmianie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Pełna ścieżka audytowa i dokumentacja</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Ilości z modelu IFC albo pomiar z rysunków 2D i plików DWG</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Sprawdzenie ręczne z rysunkami przed wydaniem</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Podział według elementów, kondygnacji i budynków</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Pozycje ułożone pod KNR/KNNR albo pod formularz zamawiającego</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Wykaz założeń dołączony do przedmiaru, nie ukryty w arkuszu</p>
+:::
+
+::: {.callout-box}
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 :::
 
 :::
 
-## Nasz Potrójny System Walidacji: Niezrównana Dokładność
-
-::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
-
-### Dlaczego Trzy Poziomy Walidacji?
-
-Projekty budowlane nie mogą sobie pozwolić na błędy pomiarowe. Nasz autorski potrójny system walidacji zapewnia, że każda ilość jest weryfikowana przez wiele niezależnych procesów, wychwytując błędy, które pomijają systemy jednopoziomowe.
-
-::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 1: Automatyczne odczytywanie przez AI
-
-**Automatyczna analiza BIM**
-
-Nasze algorytmy AI automatycznie wyodrębniają ilości z modelu BIM:
-
-- Rozpoznawanie wzorców i typów elementów
-- Automatyczne obliczenia pomiarowe
-- Wykrywanie i rozwiązywanie kolizji
-- Usuwanie duplikatów
-- Kontrola wersji
-
-**Dokładność:** 98%
-**Czas trwania:** 1-2 godziny
-:::
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 2: Przegląd eksperta
-
-**Weryfikacja przez kosztorysanta**
-
-Doświadczeni kosztorysanci ręcznie sprawdzają wyniki AI:
-
-- Weryfikacja krzyżowa na podstawie rysunków 2D
-- Walidacja metodologii pomiarowej
-- Identyfikacja brakujących elementów
-- Wykorzystanie wiedzy i doświadczenia budowlanego
-- Weryfikacja przeliczników jednostek
-
-**Dokładność:** 99,2%
-**Czas trwania:** 4-8 godzin
-:::
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 3: Weryfikacja krzyżowa
-
-**Niezależna weryfikacja**
-
-Końcowa walidacja względem wielu źródeł:
-
-- Porównanie z danymi historycznymi
-- Porównanie ze standardami branżowymi
-- Weryfikacja ze specyfikacjami
-- Kontrola zależności materiałowych
-- Końcowe zatwierdzenie przez kontrolę jakości (QA)
-
-**Końcowa dokładność:** 99,5%+
-**Czas trwania:** 2-4 godziny
-:::
-
-:::
-
-::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-**Rezultat:** Każda ilość jest weryfikowana trzy razy przez niezależne systemy, zapewniając najbardziej dokładny Przedmiar Robót w branży.
-:::
-
-:::
-:::
-
-## Nasz Sprawdzony 4-Etapowy Proces
+## Jak pracujemy
 
 ::: {.process-steps}
 ::: {.process-step}
-#### Etap 1: Przyjęcie i Przygotowanie Modelu
+#### Sprawdzenie dokumentacji
 
-**Czas trwania:** 4-6 godzin
+**Co robimy:**
 
-**Nasze działania:**
+- Przyjmujemy model (IFC, Revit, ArchiCAD, Tekla) albo rysunki w PDF i DWG
+- Sprawdzamy kompletność: czy jest komplet rzutów, przekrojów i detali
+- Ustalamy, czy klasyfikacja elementów w modelu nadaje się do przedmiaru
+- Wskazujemy braki, które trzeba wyjaśnić z projektantem
 
-- Otrzymujemy model BIM (IFC, Revit, ArchiCAD, Tekla)
-- Walidujemy kompletność i integralność modelu
-- Sprawdzamy klasyfikację i właściwości elementów
-- Identyfikujemy luki w danych lub niespójności
-- Konfigurujemy parametry pomiarowe
-
-**Rezultat:** Raport walidacji modelu z oznaczonymi problemami
+**Rezultat:** Lista braków i pytań do dokumentacji
 :::
 
 ::: {.process-step}
-#### Etap 2: Automatyczne odczytywanie (Walidacja Poziom 1)
+#### Pomiar
 
-**Czas trwania:** 1-2 godziny (automatyczny)
+**Co robimy:**
 
-**Nasze działania:**
+- Pobieramy ilości z modelu albo mierzymy je z rysunków
+- Grupujemy elementy według typów przegród, stref i kondygnacji
+- Odejmujemy otwory, uwzględniamy zakłady i zasady pomiaru przyjętej podstawy
 
-- Automatyczne odczytanie ilości z modelu BIM przez AI
-- Automatyczne obliczenia pomiarowe
-- Klasyfikacja i grupowanie elementów
-- Wykrywanie kolizji i usuwanie duplikatów
-- Wygenerowanie wstępnego przedmiaru robót
-
-**Rezultat:** Wstępny przedmiar z automatycznymi pomiarami
+**Rezultat:** Ilości z podziałem na elementy, kondygnacje i budynki
 :::
 
 ::: {.process-step}
-#### Etap 3: Przegląd ekspercki (Walidacja Poziom 2)
+#### Sprawdzenie
 
-**Czas trwania:** 4-8 godzin
+**Co robimy:**
 
-**Nasze działania:**
+- Porównujemy każdą pozycję z rysunkami, ręcznie
+- Sprawdzamy ilości ze specyfikacją techniczną i z zestawieniami projektanta
+- Zapisujemy założenia tam, gdzie dokumentacja nie rozstrzyga
 
-- Ręczna weryfikacja przez kosztorysanta
-- Weryfikacja krzyżowa na podstawie rysunków 2D
-- Zastosowanie standardów branżowych
-- Identyfikacja i dodanie brakujących elementów
-- Walidacja metodologii pomiarowych
-- Zastosowanie wymagań specyficznych dla projektu
-
-**Rezultat:** Przedmiar zweryfikowany przez eksperta z notatkami kontroli jakości
+**Rezultat:** Przedmiar sprawdzony z wykazem założeń
 :::
 
 ::: {.process-step}
-#### Etap 4: Weryfikacja krzyżowa i końcowa kontrola jakości (Walidacja Poziom 3)
+#### Wydanie
 
-**Czas trwania:** 2-4 godziny
+**Co robimy:**
 
-**Nasze działania:**
+- Układamy pozycje pod podstawę nakładów albo pod formularz zamawiającego
+- Eksportujemy do formatu, w którym pracuje Twój kosztorysant
+- Dołączamy wykaz założeń i listę pytań do zamawiającego
 
-- Porównanie z danymi historycznymi z podobnych projektów
-- Porównanie ze standardami branżowymi
-- Końcowa weryfikacja dokumentacji specyfikacji
-- Zatwierdzenie przez starszego kosztorysanta
-- Generowanie kompleksowej dokumentacji
-- Przygotowanie ścieżki audytowej i komentarzy
-
-**Rezultat:** Końcowy zwalidowany przedmiar z pełną dokumentacją i ścieżką audytową
+**Rezultat:** Przedmiar gotowy do wyceny
 :::
 :::
 
-::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Całkowity Czas:** 12-20 godzin roboczych  
-**Całkowity Czas Projektu:** 2-3 dni od otrzymania modelu do końcowego dostarczenia
-:::
-
-## Co Jest Zawarte w Państwa Przedmiarze Robót
+## Co zawiera przedmiar
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;"}
 
 ::: {style=""}
-### Standardowe Elementy
-
-Każdy automatyczny przedmiar zawiera:
+### W każdym przedmiarze
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowy Przedmiar Robót** (format Excel)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Znaczniki 3D** pokazujące zmierzone elementy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Komentarz Pomiarowy** wyjaśniający metodologie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Raporty Walidacji** ze wszystkich trzech poziomów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pełna Ścieżka Audytowa** do weryfikacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Harmonogram Elementów** z właściwościami i atrybutami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Log Założeń** dokumentujący wszelkie założenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Przedmiar robót** z podziałem na elementy, kondygnacje i budynki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wyliczenia pomocnicze** — widać, z czego wyszła każda ilość</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wykaz założeń** dla miejsc, których dokumentacja nie rozstrzyga</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Lista pytań** do zamawiającego lub projektanta</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zestawienie elementów** z właściwościami przyjętymi do pomiaru</p>
 :::
 :::
 
 ::: {style=""}
-### Dodatkowe Opcje
-
-Wzbogać swój przedmiar o:
+### Na życzenie
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie** - Zastosowanie stawek do ilości</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Integracja z Harmonogramem** - Powiązanie ilości z programem</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokumentacja Przetargowa** - Przygotowanie przedmiaru do przetargu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja Wartości** - Identyfikacja oszczędności</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Odpadów Materiałowych** - Kalkulacja współczynników strat</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Formatowanie Niestandardowe** - Dopasowanie do Państwa szablonu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Bieżące Aktualizacje** - Śledzenie zmian projektowych w czasie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorys ofertowy** — ceny, narzuty i zestawienie RMS do gotowych ilości</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Znaczniki w modelu** pokazujące, co zostało zmierzone</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zestawienie materiałów** ze współczynnikami strat</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Aktualizacja po zmianie projektu** z wykazem różnic wobec poprzedniej wersji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Obmiar powykonawczy** do rozliczenia robót wykonanych</p>
 :::
 :::
 
 :::
 
-## Branże i Typy Projektów, Które Obsługujemy
+## Obmiar powykonawczy
+
+Obmiar sporządzamy do rozliczenia robót już wykonanych: z dokumentacji powykonawczej, wpisów w dzienniku budowy i pomiaru na miejscu. Ilości z obmiaru zestawiamy z przedmiarem ofertowym, tak aby różnice były widoczne pozycja po pozycji i dały się przypisać do konkretnej zmiany zakresu. Przedmiaru nie podstawiamy pod obmiar i nie robimy tego w drugą stronę.
+
+## Branże i typy obiektów
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budynki Komercyjne
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budynki komercyjne
 
-Kompleksy biurowe, centra handlowe, inwestycje wielofunkcyjne, projekty hotelarskie
+Biurowce, obiekty handlowe, inwestycje wielofunkcyjne, hotele
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Obiekty Służby Zdrowia
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Obiekty ochrony zdrowia
 
-Szpitale, centra medyczne, domy opieki, przychodnie specjalistyczne
+Szpitale, przychodnie, domy opieki
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budownictwo Mieszkaniowe
+### <i class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budownictwo mieszkaniowe
 
-Budownictwo wielorodzinne, kompleksy apartamentowe, osiedla domów szeregowych
+Budynki wielorodzinne, osiedla, zabudowa szeregowa
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przemysł i Logistyka
+### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Magazyny i produkcja
 
-Magazyny, centra dystrybucyjne, zakłady produkcyjne, chłodnie
+Hale magazynowe, centra dystrybucyjne, zakłady produkcyjne, chłodnie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Edukacja i Instytucje
+### <i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Obiekty publiczne
 
-Uniwersytety, szkoły, biblioteki, budynki rządowe, centra obywatelskie
+Szkoły, uczelnie, biblioteki, budynki administracji
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Projekty Infrastrukturalne
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Infrastruktura
 
-Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej
+Węzły komunikacyjne, sieci, roboty inżynieryjne
 :::
 :::
 
-## Obsługiwane Formaty Plików i Oprogramowanie
+## Formaty plików i oprogramowanie
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### Pracujemy z Państwa Istniejącym Workflow
+### Pracujemy w tym, w czym pracuje Twój dział ofertowy
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 32px 0;"}
 
@@ -329,175 +231,130 @@ Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej
 :::
 
 ::: {style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-**Formaty Plików**
+**Formaty wejściowe**
 
 - IFC 2x3 / IFC 4
 - Revit (RVT)
 - DWG / DXF
-- PDF (z wymiarami)
-- Chmury punktów (jeśli potrzebne)
+- PDF z wymiarami
+- Chmury punktów
 :::
 
 ::: {style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-**Formaty Eksportu**
+**Programy kosztorysowe**
 
-- Excel (XLSX)
-- CSV
+- Norma PRO
+- Zuzia
+- Plik wymiany ATH
+- Excel (XLSX) i CSV
 - Raporty PDF
-- BCF (dla znaczników)
-- Natywne formaty BIM
 :::
 
 ::: {style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-**Integracja**
+**Rynki zagraniczne**
 
-- MS Project
-- Primavera P6
-- CostX / Vico
-- Procore / BIM 360
-- Niestandardowe API
+- NRM2 i SMM7
+- AS 4000
+- CITE / eBQ
+- MS Project, Primavera P6
 :::
 
 :::
 
 ::: {style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;"}
-**Nie widzisz swojego oprogramowania?** Pracujemy praktycznie z każdą platformą BIM lub CAD. Skontaktuj się z nami, aby omówić Państwa specyficzne wymagania.
+**Nie widzisz swojego programu?** Napisz, w czym pracujesz. Jeśli program przyjmuje plik ATH albo Excel w ustalonym układzie, wydamy przedmiar w tym formacie.
 :::
 
 :::
-:::
 
-## Najczęściej Zadawane Pytania
+## Najczęściej zadawane pytania
 
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Co jeśli mój projekt nie ma modelu BIM?**
+**P: Co, jeśli nie mam modelu BIM?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować z rysunkami 2D (DWG, PDF), ale terminy będą znacznie dłuższe, ponieważ będziemy musieli wyodrębnić ilości ręcznie. Dla najlepszych wyników i najszybszej realizacji zalecamy modele BIM lub rozważenie naszych usług modelowania BIM w celu konwersji rysunków 2D.
+O: To normalna sytuacja i nie stanowi przeszkody. Większość tego, co mierzymy, pochodzi z rysunków 2D w PDF i z plików DWG. Model skraca pomiar powtarzalnych elementów, ale nie jest wymagany.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jak dokładny jest Państwa potrójny system walidacji?**
+**P: Czy przedmiar i obmiar to to samo?**
 :::
 ::: {.faq-answer}
-O: Nasz potrójny system walidacji osiąga dokładność 99,5%+ gdy źródłowy model BIM jest kompletny i dokładny. Każda wielkość jest weryfikowana niezależnie na trzech poziomach (automatyczne odczytanie AI, weryfikacja przez eksperta, końcowa weryfikacja krzyżowa), zapewniając najwyższy poziom precyzji w branży. Zapewniamy pełne ścieżki audytowe dla wszystkich pomiarów.
+O: Nie. Przedmiar to ilości wyliczone z dokumentacji projektowej przed rozpoczęciem robót — do oferty i do umowy. Obmiar to ilości robót już wykonanych, mierzone na budowie — do rozliczenia. Sporządzamy oba, ale zawsze jako osobne dokumenty.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Co się dzieje, gdy projekt zmienia się podczas realizacji?**
+**P: Jak dokładne są ilości?**
 :::
 ::: {.faq-answer}
-O: To właśnie zaleta przedmiarów opartych na BIM! Możemy szybko zaktualizować ilości na podstawie zmienionego modelu - zazwyczaj w ciągu 4-8 godzin zamiast tygodni potrzebnych na ponowny ręczny pomiar. Oferujemy bieżące usługi aktualizacji w obniżonych stawkach dla aktywnych projektów.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Każdą ilość pobraną z modelu sprawdzamy ręcznie z rysunkami, bo model bywa niezgodny z rysunkiem, który obowiązuje w postępowaniu.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy przestrzegacie międzynarodowych standardów pomiarowych?**
+**P: Co się dzieje, gdy projekt zmienia się w trakcie postępowania?**
 :::
 ::: {.faq-answer}
-O: Tak, przestrzegamy RICS New Rules of Measurement (NRM), standardów ISO 19650 BIM i możemy dostosować się do lokalnych standardów w tym polskich norm KNR, australijskich AIQS lub innych regionalnych wymagań. Nasi kosztorysanci mają doświadczenie z projektami międzynarodowymi.
+O: Aktualizujemy przedmiar i podajemy wykaz różnic wobec poprzedniej wersji, żeby było widać, co i o ile się zmieniło. Zakres i cenę takiej aktualizacji uzgadniamy przed rozpoczęciem pracy.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy potraficie obsłużyć duże, złożone projekty?**
+**P: Według jakich zasad mierzycie?**
 :::
 ::: {.faq-answer}
-O: Tak, oczywiście. Pomyślnie zrealizowaliśmy przedmiary dla projektów od małych remontów do inwestycji o powierzchni 100 000+ m². Nasz system AI sprawdza się najlepiej przy dużych projektach, gdzie manualne przedmiary byłyby zbyt czasochłonne. Złożone projekty mogą wymagać 3-4 dni zamiast 2-3.
+O: W Polsce według KNR i KNNR albo według formularza cenowego zamawiającego. Na rynku brytyjskim według NRM2 lub SMM7, w Australii według AS 4000. Podstawę ustalamy przed pomiarem, bo od niej zależą zasady potrąceń i jednostki.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jaki poziom szczegółowości (LOD) jest potrzebny w modelu BIM?**
+**P: Jaki poziom szczegółowości modelu jest potrzebny?**
 :::
 ::: {.faq-answer}
-O: Możemy pracować z LOD 300 i wyższym dla większości projektów. LOD 350-400 to poziom idealny dla szczegółowych przedmiarów branżowych. Jeśli model jest na poziomie LOD 200, nadal możemy wyodrębnić przydatne ilości, ale może być konieczne uzupełnienie rysunkami 2D dla dokładnych pomiarów.
+O: Przy LOD 300 i wyżej z modelu da się pobrać większość ilości. Przy LOD 200 model służy do orientacji, a ilości mierzymy z rysunków. Tak czy inaczej sprawdzamy je z rysunkami przed wydaniem.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy zapewniacie przedmiary dla konkretnych branż lub dyscyplin?**
+**P: Ile to kosztuje?**
 :::
 ::: {.faq-answer}
-O: Tak! Możemy wyodrębnić ilości dla każdej branży budowlanej: konstrukcja (beton, stal, mur), architektura (wykończenia, drzwi, okna), instalacje (mechanika, elektryka, hydraulika, ochrona przeciwpożarowa), roboty ziemne i systemy specjalistyczne. Dostosowujemy format przedmiaru do waszych wymagań branżowych.
-:::
-:::
-
-::: {.faq-item}
-::: {.faq-question}
-**P: Jak radzicie sobie z niespójnościami lub błędami w modelu?**
-:::
-::: {.faq-answer}
-O: Właśnie dlatego stosujemy potrójną walidację. Nasz Poziom 1 AI identyfikuje kolizje i duplikaty automatycznie. Przegląd ekspercki Poziomu 2 wychwytuje błędy modelu i weryfikuje z rysunkami 2D. Weryfikacja Poziomu 3 zapewnia logiczną spójność. Dokumentujemy wszystkie założenia i oznaczamy wszelkie obszary budzące wątpliwości do Państwa przeglądu.
-:::
-:::
-
-::: {.faq-item}
-::: {.faq-question}
-**P: Jaka jest Państwa struktura cenowa?**
-:::
-::: {.faq-answer}
-O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. Każdy projekt wyceniamy indywidualnie. Skontaktuj się z nami ze szczegółami projektu, aby otrzymać dokładną wycenę w ciągu 24 godzin.
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Zakres, cenę i termin potwierdzamy w ciągu jednego dnia roboczego od otrzymania dokumentacji.
 :::
 :::
 :::
 
-## Gotowi na Szybkie, Dokładne Przedmiary?
+## Prześlij dokumentację do najbliższego przetargu
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestańcie Tracić Tygodnie na Manualne Pomiary</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Zobacz przedmiar, zanim zamówisz cały pakiet</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołączcie do ponad 2000 projektów, które wybrały szybkość i precyzję zamiast tradycyjnych metod.</p>
-
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna próbka</h3>
-<p style="color: var(--bim-white); margin: 0;">Prześlij model, otrzymaj bezpłatnie próbkę</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz nasze portfolio</h3>
-<p style="color: var(--bim-white); margin: 0;">Przejrzyj ponad 2000 pomyślnie zmierzonych projektów</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Prześlij szczegóły projektu, otrzymaj wycenę w ciągu 2 godzin</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Prześlij jedną kondygnację, jedną elewację lub jeden typ lokalu. Zmierzymy i odeślemy w ciągu dwóch dni roboczych, w Twoim formacie, bez opłat.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Bezpłatną Próbkę](../kontakt.qmd){.cta-primary}
-[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
-:::
-
-::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Gwarancja 99,5% Dokładności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Potrójny System Walidacji</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja w 2-3 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
 
 ::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
-### Potrzebujecie Pomocy?
+### Potrzebujesz odpowiedzi dzisiaj?
 
-**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
 
-**Godziny Pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+**Godziny pracy:** poniedziałek–piątek, 9:00–19:00 czasu polskiego
 :::
 
 :::

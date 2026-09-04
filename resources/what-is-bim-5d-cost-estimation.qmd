@@ -1,6 +1,6 @@
 ---
 title: "What is BIM 5D Cost Estimation? The Complete Guide"
-description: "BIM 5D cost estimation extracts quantities from BIM models and links them to cost databases for ±5% accuracy in days, not weeks. A complete guide."
+description: "A complete guide to BIM 5D cost estimation: how quantities are extracted from BIM models and linked to cost data for tendering and cost planning."
 page-layout: full
 date: "2026-04-06"
 author: "Robert Kowalski"
@@ -39,7 +39,7 @@ How Building Information Modelling transforms quantity surveying from weeks of m
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**BIM 5D cost estimation** is the process of extracting accurate material quantities from a Building Information Model (BIM) and linking them to cost databases and construction schedules to produce comprehensive project budgets. The "5D" refers to the five dimensions of BIM: three spatial dimensions (3D geometry), the fourth dimension (time/scheduling), and the fifth dimension (cost). BIM 5D cost estimation typically achieves +/-5% accuracy in 3-5 days, compared to +/-15-20% accuracy over 6-8 weeks using traditional 2D quantity surveying methods.
+**BIM 5D cost estimation** is the process of extracting accurate material quantities from a Building Information Model (BIM) and linking them to cost databases and construction schedules to produce comprehensive project budgets. The "5D" refers to the five dimensions of BIM: three spatial dimensions (3D geometry), the fourth dimension (time/scheduling), and the fifth dimension (cost). BIM 5D cost estimation extracts quantities directly from the model, producing a cost plan in days rather than the weeks needed for traditional 2D quantity surveying methods.
 
 </div>
 
@@ -75,7 +75,7 @@ The foundation of BIM. A 3D BIM model contains every building element---walls, f
 
 ## The BIM 5D Cost Estimation Process
 
-The BIM 5D cost estimation process follows a structured workflow that combines automated extraction with professional oversight. Below is the step-by-step methodology used at BIM Takeoff, refined over 2,000+ projects across the UK, Australia, and Poland.
+The BIM 5D cost estimation process follows a structured workflow that combines automated extraction with professional oversight. Below is the step-by-step methodology used at BIM Takeoff, refined across projects in the UK, Australia, and Poland.
 
 ### Step 1: BIM Model Receipt and Audit
 
@@ -116,13 +116,13 @@ Each model element receives a unit rate (cost per m^2^, per m^3^, per item). The
 
 ### Step 4: Expert Review and Validation
 
-Automated extraction is only as reliable as the model and the rates applied. BIM Takeoff uses a triple validation approach:
+Automated extraction is only as reliable as the model and the rates applied. BIM Takeoff checks every cost plan in three ways:
 
 1. **Algorithmic checks**: Software flags anomalies---quantities that fall outside expected ranges, missing elements, unit rate outliers
 2. **Expert review**: A qualified quantity surveyor reviews every cost plan, checking measurement logic, rate appropriateness, and scope completeness against the design intent
 3. **Benchmark comparison**: The estimate is compared against BCIS, Sekocenbud, or project-specific benchmarks for the building type, size, and location
 
-This validation layer is what distinguishes professional BIM 5D cost estimation from raw software output. The technology handles the measurement; the professional handles the judgement.
+This review layer is what distinguishes professional BIM 5D cost estimation from raw software output. The technology handles the measurement; the professional handles the judgement.
 
 ### Step 5: Reporting and Integration
 
@@ -137,13 +137,13 @@ Reports are delivered in Excel, PDF, or integrated directly into project managem
 
 ## Benefits of BIM 5D Cost Estimation
 
-### Speed: 90-95% Faster Than Manual Methods
+### Speed: Days, Not Weeks
 
 Traditional 2D quantity takeoff for a medium-sized commercial building (5,000-10,000 m^2^) typically requires 6-8 weeks. BIM 5D extraction for the same project takes 3-5 working days. For repeat building types (warehouses, residential blocks), the process can be as fast as 1-2 days once the cost template is established.
 
-### Accuracy: +/-5% at Detailed Design Stage
+### Accuracy at Detailed Design Stage
 
-Research consistently shows that BIM-based estimates achieve higher accuracy than traditional methods. At RIBA Stage 4 (Technical Design), BIM 5D cost plans typically achieve +/-5% accuracy against final account figures, compared to +/-15-20% for traditional methods at the same stage. This reduction in variance directly reduces the risk of cost overruns.
+Research consistently shows that BIM-based estimates achieve higher accuracy than traditional 2D methods, because quantities are taken directly from the model rather than scaled by hand. Better accuracy at the pre-construction stage reduces the risk of cost overruns later in the project.
 
 The Oxford Global Projects research programme (Flyvbjerg, 2023) found that 62% of construction projects worldwide experience cost overruns, with the average overrun at 40% of the original budget. Improved estimating accuracy at the pre-construction stage is one of the most effective interventions against this systemic problem.
 
@@ -189,7 +189,7 @@ In the Polish market, KNR (Katalog Nakładów Rzeczowych) and KNNR (Kosztorysowe
 
 ### RICS Professional Oversight
 
-Regardless of the technology used, professional cost estimates in the UK and internationally are subject to RICS professional standards. The RICS mandates that AI and automated outputs require professional review and sign-off by a qualified quantity surveyor.
+Regardless of the technology used, professional cost estimates in the UK and internationally are subject to RICS professional standards. RICS guidance requires that automated outputs are reviewed by a qualified quantity surveyor before they are relied on.
 
 ## Software and Tools
 
@@ -250,7 +250,7 @@ Public sector clients use BIM 5D to evaluate tender submissions objectively. The
 **Q: How accurate is BIM 5D cost estimation?**
 :::
 ::: {.faq-answer}
-A: BIM 5D cost estimation typically achieves +/-5% accuracy at detailed design stage (RIBA Stage 4), compared to +/-15-20% for traditional 2D methods at the same stage. Accuracy depends on model quality: a well-developed LOD 300-350 model with correct material assignments produces the most reliable results. At earlier design stages (RIBA Stage 2, LOD 200), BIM 5D achieves +/-10-15% accuracy, which still outperforms traditional methods at the same stage. All estimates are validated by qualified quantity surveyors against BCIS benchmarks.
+A: Accuracy depends on the quality of the model and the completeness of the information supplied. A well-developed model with correct material assignments, checked against the drawings and specification, produces the most reliable results at any design stage. Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. Estimates are checked by a qualified quantity surveyor and benchmarked against BCIS or Sekocenbud data where relevant.
 :::
 :::
 
@@ -286,7 +286,7 @@ A: Yes, though the greatest efficiency gains are on medium to large projects whe
 **Q: How does BIM 5D compare to traditional quantity surveying?**
 :::
 ::: {.faq-answer}
-A: BIM 5D and traditional quantity surveying produce the same deliverables---cost plans, Bills of Quantities, budget estimates---but differ fundamentally in method. Traditional QS relies on manual measurement from 2D drawings: scaling areas, counting elements, calculating volumes by hand or with basic digital tools. BIM 5D extracts these quantities automatically from the 3D model. The key differences are speed (3-5 days vs. 6-8 weeks), accuracy (+/-5% vs. +/-15-20%), auditability (every quantity traces to a model element), and update capability (automatic re-costing when the design changes vs. manual re-measurement). BIM 5D does not eliminate the need for a qualified quantity surveyor; it changes the surveyor's role from measurement to validation, analysis, and strategic cost advice.
+A: BIM 5D and traditional quantity surveying produce the same deliverables---cost plans, Bills of Quantities, budget estimates---but differ fundamentally in method. Traditional QS relies on manual measurement from 2D drawings: scaling areas, counting elements, calculating volumes by hand or with basic digital tools. BIM 5D extracts these quantities automatically from the 3D model. The key differences are speed (days rather than weeks), auditability (every quantity traces to a model element), and update capability (automatic re-costing when the design changes vs. manual re-measurement). BIM 5D does not eliminate the need for a qualified quantity surveyor; it changes the surveyor's role from measurement to review, analysis, and strategic cost advice.
 :::
 :::
 
@@ -295,25 +295,20 @@ A: BIM 5D and traditional quantity surveying produce the same deliverables---cos
 **Q: What is the cost of BIM 5D cost estimation?**
 :::
 ::: {.faq-answer}
-A: Fees depend on project size, complexity, and the scope of deliverables required. BIM 5D cost estimation is typically priced as a fixed fee per project, based on gross internal floor area (GIFA) and the number of building elements. For most projects, BIM 5D fees are comparable to or lower than traditional QS fees because the process requires fewer labour hours. Projects that include ongoing cost management (design change tracking, cashflow updates, tender support) are quoted separately. Contact BIM Takeoff for a bespoke quote tailored to your project requirements.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. The fee depends on project size, complexity, and the scope of deliverables required, typically based on gross internal floor area (GIFA) and the number of building elements. Projects that include ongoing cost management, such as design change tracking or tender support, are quoted separately. Contact BIM Takeoff for a quote tailored to your project.
 :::
 :::
 :::
 
-## Transform Your Cost Estimation with BIM 5D
+## Get Started with BIM 5D Cost Estimation
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Ready to Move from Weeks to Days?</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff has delivered 2,000+ BIM 5D cost plans across the UK, Australia, and Poland. Our quantity surveyors combine 20 years of international experience with advanced BIM technology to deliver cost plans that are accurate, auditable, and fast.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff delivers BIM 5D cost plans across the UK, Australia, and Poland, combining international quantity surveying experience with BIM technology to produce cost plans that are accurate, auditable, and fast.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free 30-Min Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">Discuss your project requirements and get a preliminary timeline</p>
-:::
-
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">View Our Services</h3>
 <p style="color: var(--bim-white); margin: 0;">Explore our full range of BIM 5D cost estimation and quantity surveying services</p>
@@ -321,21 +316,19 @@ A: Fees depend on project size, complexity, and the scope of deliverables requir
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get a Project Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Bespoke quotes within 24 hours, tailored to your project</p>
+<p style="color: var(--bim-white); margin: 0;">Scope, fee and delivery date within one working day</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Schedule Free Consultation](../coming-soon.qmd){.cta-primary}
-[View Services](../services/cost-estimation-budget-planning.qmd){.cta-secondary}
-[Get Quote](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Qualified Quantity Surveyors</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650 Compliant Workflows</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Projects Delivered</strong></p>
 :::
 :::
 :::
@@ -345,7 +338,7 @@ A: Fees depend on project size, complexity, and the scope of deliverables requir
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

@@ -18,8 +18,8 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Zwiększ wskaźnik wygranych o 40% dzięki eksperckiemu przygotowaniu ofert.  
-Od strategii cenowej po narrację techniczną.
+Kompletna, zgodna oferta złożona w terminie.  
+Od wyceny po narrację techniczną.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -31,8 +31,8 @@ Od strategii cenowej po narrację techniczną.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Omów Przetarg](../kontakt.qmd){.cta-primary}
-[Zobacz Portfolio Wygranych](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -58,9 +58,9 @@ Wykonawcy tracą szansę na wygranie przetargów przez błędy, którym można z
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Koszt Słabych Ofert
+#### Koszt słabych ofert
 
-> "40-60% ofert zostaje odrzuconych już na etapie weryfikacji formalnej, jeszcze przed właściwą oceną. Spośród zakwalifikowanych, słabe narracje techniczne osiągają wyniki o 30-40% niższe niż profesjonalne oferty, często przegrywając mimo konkurencyjnych cen."
+Oferta odrzucona na weryfikacji formalnej nigdy nie trafia do oceny merytorycznej – cena nie ma wtedy znaczenia. Wśród ofert dopuszczonych przegrywa ta, która odpowiada ogólnikami na pytania punktowane szczegółowo.
 :::
 :::
 
@@ -70,7 +70,7 @@ Wykonawcy tracą szansę na wygranie przetargów przez błędy, którym można z
 Strategiczne, zgodne oferty, które wygrywają:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **100% zgodność** - przejście wszystkich obowiązkowych kontroli</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kompletność formalna** - lista kontrolna wymagań obowiązkowych</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Odpowiedzi na zamówienie** - dostosowane do kryteriów oceny</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokładna wycena** - zweryfikowane ilości i stawki</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Przekonujące narracje** - demonstracja możliwości</p>
@@ -217,7 +217,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 
 - Opracowanie planu oferty i macierzy odpowiedzialności
 - Ustalenie harmonogramu i kamieni milowych składania
-- Przydzielenie pisarzy i specjalistów technicznych
+- Podział pracy nad poszczególnymi częściami oferty
 - Zaplanowanie spotkań z zamawiającym w celu wyjaśnienia wątpliwości
 - Rozpoczęcie angażowania podwykonawców
 - Utworzenie szablonów i struktury dokumentów
@@ -266,12 +266,12 @@ Strategiczne, zgodne oferty, które wygrywają:
 
 **Co robimy:**
 
-- Niezależny audyt oferty przez zespół kontrolny
+- Niezależny przegląd oferty przed złożeniem
 - Kontrola zgodności z wszystkimi wymaganiami
 - Ocena w kontekście prawdopodobnej strategii konkurencji
 - Dopracowanie wyceny i narracji technicznej
 - Wzmocnienie słabych obszarów zidentyfikowanych w przeglądzie
-- Ostateczne zapewnienie jakości przez zespół senior
+- Ostatnie sprawdzenie kompletności dokumentów
 
 **Co otrzymujesz:** Ulepszoną ofertę gotową do złożenia
 :::
@@ -393,7 +393,7 @@ O: Idealnie 3-4 tygodnie na kompleksowy przetarg. Jednak rutynowo obsługujemy p
 **P: Czy możecie pomóc nam wygrać konkurencyjne przetargi, gdzie nie jesteśmy najtańsi?**
 :::
 ::: {.faq-answer}
-O: Tak, oczywiście! Większość nowoczesnych przetargów używa podziału jakość/cena (np. 60/40 lub 70/30). Nasze pisanie techniczne zapewnia maksimum punktów w kryteriach jakościowych. W przetargu 60/40, oferent z ceną o 5-8% wyższą od najtańszej oferty nadal może wygrać, zdobywając 90%+ punktów za jakość vs 60-70% konkurentów. Koncentrujemy się na wykazaniu wartości, nie tylko najniższego kosztu.
+O: Tak. Większość przetargów punktuje jakość obok ceny (na przykład 60/40 albo 70/30). Piszemy część techniczną tak, aby odpowiadała dokładnie na punktowane kryteria, zamiast opisywać firmę ogólnie. Tam, gdzie kryteria jakościowe ważą dużo, oferta droższa od najtańszej nadal bywa wybierana – decyduje różnica punktowa, a nie sama cena.
 :::
 :::
 
@@ -408,10 +408,10 @@ O: Niekoniecznie. Dla usług wyceny, tak, potrzebujemy pełnej przejrzystości d
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jaki jest Wasz wskaźnik sukcesu w przetargach, które wspieraliście?**
+**P: Czy obiecujecie, że wygram przetarg?**
 :::
 ::: {.faq-answer}
-O: Nasi klienci osiągają średnio 35-45% wskaźników wygranych w konkurencyjnych przetargach, które wspieramy (vs średnia branżowa 15-25%). W przetargach negocjowanych lub dwuetapowych, gdzie jesteśmy zaangażowani wcześnie, wskaźniki sukcesu przekraczają 70%. Sukces zależy od wielu czynników, w tym konkurencyjności ceny, relacji z klientem i pola konkurencyjnego.
+O: Nie. O wyniku decyduje cena, pole konkurencyjne i relacja z zamawiającym – tego nie kontrolujemy. Kontrolujemy to, czy oferta jest kompletna, zgodna z wymaganiami formalnymi, policzona z dokumentacji i napisana pod kryteria oceny. Wyniki przetargów klientów obejmuje poufność, więc nie publikujemy statystyk wygranych.
 :::
 :::
 
@@ -420,7 +420,7 @@ O: Nasi klienci osiągają średnio 35-45% wskaźników wygranych w konkurencyjn
 **P: Czy możecie pomóc z aplikacjami ramowymi i długoterminowymi nominacjami?**
 :::
 ::: {.faq-answer}
-O: Tak! Oferty ramowe wymagają innych podejść - wykazania spójnych możliwości, zdolności i historii realizacji zamiast rozwiązań specyficznych dla projektu. Z powodzeniem wspieraliśmy aplikacje do głównych umów ramowych, w tym samorządowych umów budowlanych, umów NFZ, Scape, Procure Partnerships i umów Crown Commercial Service.
+O: Tak. Wniosek do umowy ramowej wymaga innego podejścia niż oferta na jeden projekt: liczy się wykazanie powtarzalnych zdolności, zasobów i historii realizacji, a nie rozwiązanie dla konkretnego placu. Przygotowujemy takie wnioski dla postępowań krajowych i zagranicznych, w tym systemów DPS i nominacji panelowych.
 :::
 :::
 
@@ -429,7 +429,7 @@ O: Tak! Oferty ramowe wymagają innych podejść - wykazania spójnych możliwo�
 **P: Czy pracujecie z mniejszymi wykonawcami i MŚP?**
 :::
 ::: {.faq-answer}
-O: Tak, oczywiście. Wielu małych/średnich wykonawców nie ma wewnętrznych zespołów ofertowych, ale potrzebuje profesjonalnych ofert do konkurowania. Dostosowujemy nasze usługi do Waszych potrzeb i budżetu. Dla MŚP oferujących projekty 2-8M PLN, zazwyczaj zapewniamy wsparcie wyceny i pisanie techniczne. Mamy doświadczenie w ukazywaniu mniejszych firm jako równie profesjonalnych jak główni wykonawcy.
+O: Tak. Mniejszy wykonawca zwykle nie ma własnego działu ofert, a musi konkurować z tymi, którzy go mają. Najczęściej zamawiane są u nas dwie części: wycena z przedmiarem i narracja techniczna. Zakres dopasowujemy do wielkości postępowania.
 :::
 :::
 
@@ -456,7 +456,7 @@ O: Tak. Oferujemy usługi monitorowania przetargów, gdzie monitorujemy platform
 **P: Ile kosztują usługi pisania ofert?**
 :::
 ::: {.faq-answer}
-O: Opłaty zależą od złożoności przetargu, wartości i wymaganych usług. Jako wskazówka: Analiza Startować/Nie Startować 2.000-6.000 PLN; Wycena/Przedmiar 8.000-32.000 PLN; Pisanie techniczne 12.000-40.000 PLN; Pełne zarządzanie przetargiem 32.000-100.000 PLN. Aplikacje ramowe 40.000-120.000 PLN. Dostarczamy wyceny w stałych cenach w ciągu 24 godzin od przeglądu dokumentów przetargowych.
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Po przesłaniu dokumentów przetargowych odpowiadamy w ciągu jednego dnia roboczego.
 :::
 :::
 :::
@@ -471,30 +471,26 @@ O: Opłaty zależą od złożoności przetargu, wartości i wymaganych usług. J
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Omów swój przetarg</h3>
-<p style="color: var(--bim-white); margin: 0;">Podziel się szczegółami dla szybkiej oceny</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Dokumenty przetargowe i termin składania. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz nasze realizacje</h3>
-<p style="color: var(--bim-white); margin: 0;">Przejrzyj udane oferty, które wspieraliśmy</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Otrzymaj cenę w ciągu 24 godzin</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Omów Przetarg](../kontakt.qmd){.cta-primary}
-[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>35-45% wskaźnik wygranych w wspieranych przetargach</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>100% gwarancja zgodności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Przedmiar i wycena liczone z dokumentacji</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Lista kontrolna wymagań formalnych</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Doświadczenie w sektorze publicznym i prywatnym</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
 :::

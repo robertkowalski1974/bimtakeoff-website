@@ -1,7 +1,7 @@
 ---
 title: "Kosztorysowanie Centrów Danych | BIM 5D"
 page-layout: full
-description: "Kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożoności MEP i gęstości mocy. Realizacja 5-10 dni, dokładność ±3-5%."
+description: "Kosztorysowanie centrów danych Tier I-IV. Przedmiary i kosztorysy instalacji MEP oraz infrastruktury krytycznej. Realizacja 5–10 dni."
 ---
 
 ::: {.hero-section}
@@ -20,7 +20,7 @@ description: "Kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożon
 
 ::: {.hero-subtitle}
 Od Edge Computing po Obiekty Hyperscale.  
-Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
+Gotowe w ciągu 5–10 dni.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -32,8 +32,8 @@ Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -64,7 +64,7 @@ Centra danych to najbardziej wymagające projekty budowlane bez marginesu na bł
 Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 dni** na kompletne kosztorysowanie (vs 8-12 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5–10 dni** na kompletne kosztorysowanie</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Specjalizacja w instalacjach MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Weryfikacja redundancji** - Sprawdzanie systemów N+1, 2N</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zgodność ze standardami Tier** - Specyfikacje I, II, III, IV</p>
@@ -248,18 +248,15 @@ Planowanie pojemności:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Specjalizacja w instalacjach MEP
-- **Instalacje MEP stanowią 60-70% kosztów** - nasza specjalizacja gwarantuje precyzję
+- **Instalacje MEP to dominująca część kosztu** - mierzymy je szczegółowo
 - **Weryfikacja redundancji** N+1, 2N, 2N+1
 - **Specjalizacja w zasilaniu i chłodzeniu** - szczegółowe obliczenia
 - **Integracja systemów** - kompleksowa koordynacja
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Sprawdzona Dokładność
-- **Dokładność ±3-5%** na złożonych MEP
-- **Kompleksowy zakres** - nic nie zostaje pominięte
-- **Zgodność z Tier** zweryfikowane kosztorysy
-- **Niezależna weryfikacja** dostępna
+### Podstawa ilości
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -271,11 +268,10 @@ Planowanie pojemności:
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Szybka Realizacja
-- **7-10 dni** - standardowy czas realizacji
-- **5-6 dni** - tryb ekspresowy dostępny
+### Szybka realizacja
+- **7–10 dni** - standardowy czas realizacji
+- **5–6 dni** - tryb przyspieszony
 - **Tego samego dnia** - analiza wpływu zmian
-- **85% szybciej** niż tradycyjne metody
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -299,27 +295,26 @@ Planowanie pojemności:
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Umów Rozmowę</h3>
-<p style="color: var(--bim-white); margin: 0;">Omów wymagania Tier z naszymi specjalistami</p>
+<p style="color: var(--bim-white); margin: 0;">Omów wymagania Tier bezpośrednio z Robertem Kowalskim</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu jednego dnia roboczego</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Bezpłatna Konsultacja</h3>
-<p style="color: var(--bim-white); margin: 0;">30-minutowy przegląd techniczny</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Prześlij fragment dokumentacji, zmierzymy go bez opłaty</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd#probny" style="color: var(--bim-orange); text-decoration: underline;">Prześlij fragment →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Usługi](../uslugi/automatyczny-przedmiar-obmiar.qmd){.cta-secondary}
-[Zapytaj o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::

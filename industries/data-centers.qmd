@@ -1,7 +1,7 @@
 ---
-title: "Data Center Cost Estimation | Mission-Critical BIM 5D"
+title: "Data Centre Cost Estimation | Mission-Critical BIM 5D"
 page-layout: full
-description: "Data center cost estimation for Tier I-IV facilities. Specialists in MEP complexity and power density. 5-10 day turnaround, ±3-5% accuracy."
+description: "Data centre cost estimation for Tier I-IV facilities. We cover MEP complexity, power density and redundancy requirements."
 ---
 
 ::: {.hero-section}
@@ -14,13 +14,13 @@ description: "Data center cost estimation for Tier I-IV facilities. Specialists 
 
 ::: {.container}
 ::: {.hero-title}
-# Data Center Cost Estimation
+# Data Centre Cost Estimation
 ### Mission-Critical Infrastructure Precision
 :::
 
 ::: {.hero-subtitle}
-From Edge Computing to Hyperscale Facilities.  
-Delivered in 5-10 days with ±3-5% accuracy.
+From Edge Computing to Hyperscale Facilities.
+Delivered in 5-10 days.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -32,22 +32,22 @@ Delivered in 5-10 days with ±3-5% accuracy.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
 
 ::: {.container}
 
-## Data Centers: Zero-Tolerance Infrastructure
+## Data Centres: Zero-Tolerance Infrastructure
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
 
 ::: {style=""}
 ### Industry Challenges
 
-Data centers are the most demanding construction projects with no room for error:
+Data centres are the most demanding construction projects with no room for error:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Uptime criticality** - 99.99%+ availability requirements</p>
@@ -60,21 +60,21 @@ Data centers are the most demanding construction projects with no room for error
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Risk
 
-> "A single hour of downtime costs hyperscale operators $300,000+. Traditional estimation methods miss critical redundancy requirements and MEP interdependencies, leading to scope gaps that threaten project viability."
+Downtime at a hyperscale facility is costly. Traditional estimation methods can miss critical redundancy requirements and MEP interdependencies, leading to scope gaps that threaten project viability.
 :::
 :::
 
 ::: {style=""}
-### Our Data Center Solution
+### Our Data Centre Solution
 
-Specialized 5D BIM for mission-critical infrastructure:
+Specialised 5D BIM for mission-critical infrastructure:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 days** for a complete estimate</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **MEP-focused** - Detailed electrical, mechanical, plumbing analysis</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Redundancy verification** - N+1, 2N system checking</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Tier standard compliance** - I, II, III, IV specifications</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Power/cooling modeling** - Capacity and load calculations</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Power/cooling modelling** - Capacity and load calculations</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -83,13 +83,12 @@ Specialized 5D BIM for mission-critical infrastructure:
 - **Comprehensive experience** across edge, colocation & hyperscale
 - **All tier levels** delivered with precision
 - **Average 7 days** from BIM model to detailed estimate
-- **±3-5% accuracy** on mission-critical systems
 :::
 :::
 
 :::
 
-## Data Center-Specific Services
+## Data Centre-Specific Services
 
 ::: {.feature-grid}
 ::: {.feature-card}
@@ -183,7 +182,7 @@ Capacity planning for:
 :::
 :::
 
-## Data Center Tier Complexity
+## Data Centre Tier Complexity
 
 ::: {style="margin: 48px 0;"}
 ### Understanding Tier Classifications
@@ -253,7 +252,7 @@ Capacity planning for:
 :::
 :::
 
-## Key Cost Drivers in Data Center Projects
+## Key Cost Drivers in Data Centre Projects
 
 ::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px;"}
 ### Typical Cost Breakdown (Tier III, per sqm)
@@ -314,7 +313,7 @@ Capacity planning for:
 :::
 :::
 
-## Our Data Center Estimation Process
+## Our Data Centre Estimation Process
 
 ::: {.process-steps}
 ::: {.process-step}
@@ -395,7 +394,7 @@ Capacity planning for:
 - Add contingency (8-12% typical)
 
 **Database Sources:**
-- Specialist data center benchmarks
+- Specialist data centre benchmarks
 - MEP contractor quotes
 - Equipment manufacturer pricing
 - Recent project comparisons
@@ -451,16 +450,16 @@ Capacity planning for:
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
 **Typical Total Duration:** 7-10 working days from BIM model receipt to final report  
-**Express Service:** Available for urgent projects (5-6 days) at 30% premium
+**Express Service:** Available for urgent projects (5-6 days) - contact us for a quote
 :::
 
-## Why Choose BIM Takeoff for Data Centers?
+## Why Choose BIM Takeoff for Data Centres?
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Mission-Critical Expertise
-- **Comprehensive experience** in data center delivery
+- **Comprehensive experience** in data centre delivery
 - **All tier levels** (I through IV)
 - **Edge to hyperscale** facilities
 - **International standards** (UK, EU, Australia)
@@ -468,7 +467,7 @@ Capacity planning for:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### MEP Focus
-- **60-70% MEP accuracy** critical for data centers
+- **60-70% MEP cost share** critical for data centres
 - **Redundancy verification** N+1, 2N, 2N+1
 - **Power/cooling expertise** detailed calculations
 - **System integration** comprehensive coordination
@@ -476,7 +475,8 @@ Capacity planning for:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Proven Accuracy
-- **±3-5% accuracy** on complex MEP
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
+
 - **Comprehensive scope** - nothing missed
 - **Tier compliance** verified estimates
 - **Independent verification** available
@@ -495,7 +495,6 @@ Capacity planning for:
 - **7-10 days** typical delivery
 - **5-6 days** express service
 - **Same-day** change impact analysis
-- **85% faster** than traditional methods
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -513,16 +512,16 @@ Capacity planning for:
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: What makes data center estimation different from other building types?**
+**Q: What makes data centre estimation different from other building types?**
 :::
 ::: {.faq-answer}
-A: Data centers are 60-70% MEP systems (vs 20-30% for typical buildings), with complex redundancy requirements, mission-critical reliability standards, and power densities 10-50x higher than office buildings. Traditional estimation methods often miss critical MEP interdependencies and redundancy specifications.
+A: Data centres are 60-70% MEP systems (vs 20-30% for typical buildings), with complex redundancy requirements, mission-critical reliability standards, and power densities 10-50x higher than office buildings. Traditional estimation methods often miss critical MEP interdependencies and redundancy specifications.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: Can you estimate data centers at different tier levels?**
+**Q: Can you estimate data centres at different tier levels?**
 :::
 ::: {.faq-answer}
 A: Yes, we have extensive experience with all tier classifications (I through IV). We verify compliance with tier standards and can model cost differences between tier levels to support decision-making. Tier III and IV projects typically require 9-10 days due to their complexity.
@@ -576,25 +575,19 @@ A: Yes, we can model expected PUE based on the proposed cooling strategy, climat
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: What's your fee structure for data center projects?**
+**Q: What's your fee structure for data centre projects?**
 :::
 ::: {.faq-answer}
-A: Fees vary based on tier level, size, and complexity. As a guide:
-- Tier I/II (500-2,000 sqm): £8,000-15,000
-- Tier III (2,000-5,000 sqm): £15,000-30,000
-- Tier III (5,000-10,000+ sqm): £30,000-50,000
-- Tier IV (any size): Premium pricing due to complexity
-
-Express service carries a 30% premium. Contact us for a specific quote.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees vary with tier level, size and complexity, so contact us for a specific quote.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: Do you support edge computing facilities and modular data centers?**
+**Q: Do you support edge computing facilities and modular data centres?**
 :::
 ::: {.faq-answer}
-A: Yes, we work with edge facilities, containerized solutions, and modular data centers. Our approach scales from single-rack edge nodes to multi-MW modular deployments. We understand the unique cost dynamics of prefabricated and rapidly deployed solutions.
+A: Yes, we work with edge facilities, containerised solutions, and modular data centres. Our approach scales from single-rack edge nodes to multi-MW modular deployments. We understand the unique cost dynamics of prefabricated and rapidly deployed solutions.
 :::
 :::
 :::
@@ -605,39 +598,32 @@ A: Yes, we work with edge facilities, containerized solutions, and modular data 
 ::: {style="max-width: 900px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Risking Cost Overruns on Critical Infrastructure</h2>
 
-<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the MEP-focused precision your data center project demands. Proven expertise across all tier levels in UK, EU & Australia.</p>
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get the MEP-focused precision your data centre project demands. Proven expertise across all tier levels in UK, EU & Australia.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Schedule Call</h3>
-<p style="color: var(--bim-white); margin: 0;">Discuss your tier requirements with our specialists</p>
+<p style="color: var(--bim-white); margin: 0;">Discuss your tier requirements with us</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 0;">We respond within one working day, Monday to Friday, with a detailed proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Book Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">Free 30-minute technical review</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
-:::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Services](../services/automated-quantity-takeoff.qmd){.cta-secondary}
-[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>All Tier Levels (I-IV)</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>MEP-Focused Expertise</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>7-10 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3-5% Accuracy on MEP Systems</strong></p>
 :::
 :::
 :::

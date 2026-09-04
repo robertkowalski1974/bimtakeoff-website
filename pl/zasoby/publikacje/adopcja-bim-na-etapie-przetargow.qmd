@@ -127,7 +127,7 @@ Sytuacja Polski, gdzie "same organy zamawiające muszą próbować określić za
 ::: {.feature-card}
 #### Programy wsparcia specyficzne dla MŚP
 
-Wielka Brytania osiągnęła 80% adopcji wśród dużych firm, ale tylko 56-62% wśród MŚP pomimo kompleksowego ogólnego wsparcia. Skład MŚP w Polsce na poziomie 99,8% oznacza, że niepowodzenie w rozwiązaniu barier MŚP gwarantuje niepowodzenie mandatu.
+Wielka Brytania osiągnęła 80% adopcji wśród dużych firm, ale tylko 56-62% wśród MŚP pomimo kompleksowego ogólnego wsparcia. Skład MŚP w Polsce na poziomie 99,8% oznacza, że bez usunięcia barier po stronie MŚP mandat się nie powiedzie.
 
 **Działania:**
 - Dotacje na oprogramowanie i szkolenia z funduszy UE
@@ -239,7 +239,7 @@ Z nadchodzącym mandatem z 2030 roku i obecną adopcją wykonawców na poziomie 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Procesy certyfikowane ISO 19650</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Ekspertyza rynku brytyjskiego i polskiego</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2000+ zrealizowanych projektów BIM</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dwadzieścia lat przedmiarów i kosztorysów</strong></p>
 :::
 :::
 :::

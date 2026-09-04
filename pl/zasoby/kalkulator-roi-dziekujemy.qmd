@@ -53,13 +53,13 @@ lang: pl
 <div style="background: #FEF3C7; padding: 20px; border-radius: 8px; margin-bottom: 24px; border-left: 4px solid var(--bim-orange);">
   <h3 style="color: var(--bim-charcoal); margin: 0 0 12px 0; font-size: 1.1rem;">Co Dalej?</h3>
   <ul style="text-align: left; color: var(--bim-medium-gray); line-height: 1.8; padding-left: 20px; margin: 0; font-size: 15px;">
-    <li>Nasz zespół skontaktuje się z Tobą w ciągu 24 godzin</li>
-    <li>Umówimy bezpłatną konsultację dotyczącą Twojego projektu</li>
+    <li>Odezwiemy się w ciągu jednego dnia roboczego</li>
+    <li>Odpowiemy w ciągu jednego dnia roboczego z zakresem, stałą ceną i terminem</li>
   </ul>
 </div>
 
 <a href="../kontakt.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 8px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-  Umów Bezpłatną Konsultację
+  Prześlij dokumentację
 </a>
 
 </div>
@@ -78,7 +78,7 @@ lang: pl
   </a>
 
   <a href="../kontakt.qmd" style="display: block; width: 100%; padding: 16px; background: white; color: var(--bim-orange); border: 2px solid var(--bim-orange); border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center;">
-    Skontaktuj się Bezpośrednio
+    Prześlij dokumentację
   </a>
 </div>
 :::

@@ -1,7 +1,7 @@
 ---
 title: "Kosztorysowanie Deweloperstwa Komercyjnego | Biura & Handel"
 page-layout: full
-description: "Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%."
+description: "Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Przedmiary i kosztorysy w 3–10 dni."
 ---
 
 ::: {.hero-section}
@@ -20,20 +20,20 @@ description: "Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie ha
 
 ::: {.hero-subtitle}
 Od adaptacji 1 000 m² do wież komercyjnych 50 000+ m².  
-Gotowe w ciągu 3-10 dni z dokładnością ±5%.
+Gotowe w ciągu 3–10 dni.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Przedmiar i kosztorys</strong> - Pozycje, ilości, stawki i założenia</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczenie w Biurach Klasy A</strong> - Specyfikacje premium</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Case Studies](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -60,7 +60,7 @@ Projekty komercyjne napotykają intensywną presję rynkową i rygorystyczną ko
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Ryzyko
 
-> "5% przekroczenie kosztów w projekcie biurowym o wartości 120 mln PLN oznacza 6 mln PLN straty zysku i może sprawić, że projekt stanie się nieopłacalny. Tradycyjne kosztorysowanie trwające 6-8 tygodni opóźnia decyzje finansowe i negocjacje z najemcami, gdy warunki rynkowe wymagają szybkości."
+> „Przekroczenie kosztów w projekcie biurowym zjada zysk i potrafi przesądzić o opłacalności inwestycji. Kosztorys, który przychodzi za późno, opóźnia decyzje finansowe i negocjacje z najemcami."
 :::
 :::
 
@@ -70,7 +70,7 @@ Projekty komercyjne napotykają intensywną presję rynkową i rygorystyczną ko
 Specjalistyczne BIM 5D dla projektów biurowych i handlowych:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-10 dni** na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3–10 dni** na kompletny kosztorys</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ekspertyza klasy A** - Specyfikacje biur premium</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Modelowanie kosztów ESG** - BREEAM, WELL, opcje net-zero</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Optymalizacja bez kompromisów</p>
@@ -78,12 +78,12 @@ Specjalistyczne BIM 5D dla projektów biurowych i handlowych:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
-#### Nasze doświadczenie
+#### Jak pracujemy
 
-- **Szerokie portfolio projektów komercyjnych** w UK, UE i Australii
-- **Projekty biur klasy A** do 50 000+ m² - zrealizowaliśmy je sprawnie
-- **Średnio 7 dni** od modelu BIM do szczegółowego kosztorysu
-- **Dokładność ±5%** w 95% projektów
+- **Mierzymy** z rysunków i specyfikacji, które otrzymujemy
+- **Wydajemy przedmiar** w układzie pozycji, gotowy do wyceny
+- **Kosztorys z widocznymi** ilościami, stawkami i założeniami
+- **Rynki** UK, UE i Polska
 :::
 :::
 
@@ -168,7 +168,7 @@ Osobne koszty dla:
 **Wsparcie Przetargów**
 
 Pełna obsługa:
-- Obmiary ilościowe
+- Przedmiary robót
 - Szczegółowa wycena
 - Rozbicie kosztów przygotowawczych
 - Koordynacja przetargowa
@@ -279,7 +279,7 @@ Pełna obsługa:
 - Analiza powierzchni kondygnacji
 - Weryfikacja krzyżowa ze specyfikacjami
 
-**Rezultat:** Kompletny obmiar ilościowy (przedmiar)
+**Rezultat:** Kompletny przedmiar robót
 :::
 
 ::: {.process-step}
@@ -351,8 +351,8 @@ Pełna obsługa:
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Standardowy czas realizacji:** 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
-**Tryb ekspresowy:** Dostępny dla pilnych projektów (4-5 dni) z 25% premium
+**Standardowy czas realizacji:** 7–10 dni roboczych od otrzymania modelu BIM do raportu końcowego  
+**Tryb przyspieszony:** Dostępny dla pilnych projektów (4–5 dni)
 :::
 
 ## Dlaczego Wybrać BIM Takeoff do Projektów Komercyjnych?
@@ -368,19 +368,15 @@ Pełna obsługa:
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Potwierdzona Szybkość
-- **3-10 dni** typowa realizacja
+### Termin
+- **3–10 dni** typowa realizacja
 - **W ciągu dnia** aktualizacje zmian
-- **4-5 dni** usługa ekspresowa
-- **90% szybciej** niż tradycyjnie
+- **4–5 dni** tryb przyspieszony
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
-### Dokładność Klasy Inwestycyjnej
-- **Gwarancja ±5%** dokładności
-- Analiza **zorientowana na rentowność**
-- **Benchmarking rynkowy** wliczony
-- **Kosztorysy obronne** dla inwestorów
+### Podstawa ilości
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -414,10 +410,10 @@ Pełna obsługa:
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jaki był wasz największy projekt komercyjny?**
+**P: Jak duże projekty komercyjne obsługujecie?**
 :::
 ::: {.faq-answer}
-O: Pracowaliśmy nad budynkami biurowymi do 50 000 m² i projektami wielofunkcyjnymi przekraczającymi 100 000 m² całkowitej powierzchni. Nasz workflow BIM 5D skutecznie skaluje się dla dużych projektów komercyjnych, w tym wielowieżowych.
+O: Mierzymy zarówno pojedyncze adaptacje wnętrz, jak i całe budynki biurowe oraz projekty wielofunkcyjne. Metoda jest ta sama niezależnie od skali: pozycje przedmiaru wynikają z rysunków i specyfikacji, a nie z założeń o typowym budynku. Nazw i danych projektów nie podajemy - obowiązuje nas poufność wobec klientów.
 :::
 :::
 
@@ -432,7 +428,7 @@ O: Absolutnie. Regularnie dostarczamy rozbiciu kosztów pokazujące budynek w st
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jak szybko może Pan dostarczyć wstępny kosztorys dla decyzji inwestycyjnych?**
+**P: Jak szybko dostarczacie wstępny kosztorys dla decyzji inwestycyjnych?**
 :::
 ::: {.faq-answer}
 O: Dla wczesnych kosztorysów wykonalności opartych na projektach koncepcyjnych możemy dostarczyć zakresy kosztów w ciągu 2-3 dni, używając benchmarków i kosztorysowania parametrycznego. Daje to inwestorom pewność do przejścia do szczegółowego projektu.
@@ -441,7 +437,7 @@ O: Dla wczesnych kosztorysów wykonalności opartych na projektach koncepcyjnych
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Co jeśli najemca zechce innej specyfikacji po Pana kosztorysie?**
+**P: Co jeśli najemca zechce innej specyfikacji po waszym kosztorysie?**
 :::
 ::: {.faq-answer}
 O: Ponieważ pracujemy z BIM 5D, możemy szybko przeliczyć koszty dla zmian specyfikacji w ciągu godzin do jednego dnia. Jest to szczególnie cenne podczas negocjacji najmu, gdy najemcy żądają wariantów.
@@ -480,14 +476,14 @@ O: Mamy rozległe doświadczenie w kosztorysowaniu zaawansowanych systemów MEP,
 **P: Jaka jest wasza struktura opłat za projekty komercyjne?**
 :::
 ::: {.faq-answer}
-O: Każdy projekt komercyjny wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od:
-- Powierzchni budynku i liczby kondygnacji
-- Poziomu złożoności technicznej (klasa A, B, projekty wielofunkcyjne)
-- Wymaganego poziomu szczegółowości kosztorysu
-- Terminu realizacji (standardowy lub ekspresowy)
-- Zakresu dodatkowych analiz (ESG, wieloscenariuszowe, value engineering)
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają:
+- Powierzchnia budynku i liczba kondygnacji
+- Poziom złożoności technicznej (klasa A, B, projekty wielofunkcyjne)
+- Wymagany poziom szczegółowości kosztorysu
+- Termin realizacji (standardowy lub przyspieszony)
+- Zakres dodatkowych analiz (ESG, wieloscenariuszowe, value engineering)
 
-Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu. Zazwyczaj odpowiadamy w ciągu 24 godzin ze szczegółową propozycją.
+Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego.
 :::
 :::
 :::
@@ -496,41 +492,40 @@ Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 900px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Przestań Czekać 6-8 Tygodni na Kosztorysy</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Prześlij dokumentację, odeślemy przedmiar</h2>
 
-<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Uzyskaj precyzję i szybkość, których wymaga Twój projekt komercyjny. Ekspertyza biur klasy A w UK, UE i Australii.</p>
+<p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Mierzone przedmiary i wycenione kosztorysy dla projektów biurowych, handlowych i wielofunkcyjnych.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Zaplanuj Rozmowę</h3>
-<p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami komercyjnymi</p>
+<p style="color: var(--bim-white); margin: 0;">Omów swój projekt bezpośrednio z Robertem Kowalskim</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj wycenę</h3>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu jednego dnia roboczego</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Zarezerwuj Konsultację</h3>
-<p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Prześlij fragment dokumentacji, zmierzymy go bez opłaty</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd#probny" style="color: var(--bim-orange); text-decoration: underline;">Prześlij fragment →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Bezpłatna Konsultacja](../kontakt.qmd){.cta-primary}
-[Zobacz Portfolio](../coming-soon.qmd){.cta-secondary}
-[Poproś o Wycenę](mailto:info@bimtakeoff.com){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Ekspertyza Biur Klasy A</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Projekty do 50 000+ m²</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 3-10 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Specyfikacje biur klasy A</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Przedmiar i kosztorys w jednym pakiecie</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 3–10 dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Widoczne ilości, stawki i założenia</strong></p>
 :::
 :::
 :::

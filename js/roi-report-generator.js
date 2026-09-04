@@ -123,7 +123,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
-          <span>±3-5% accuracy guaranteed</span>
+          <span>Variance shown against the assumptions you enter</span>
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
@@ -135,7 +135,7 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
-          <span>2000+ projects completed globally</span>
+          <span>Priced per package, quoted before we start</span>
         </div>
       </div>
       
@@ -178,10 +178,10 @@ function generateEnglishReport(projectValue, totalSavings, roiPercentage, curren
             <td>75% reduction</td>
           </tr>
           <tr>
-            <td>Accuracy Rate</td>
-            <td>±10-15%</td>
-            <td>±3-5%</td>
-            <td>67% improvement</td>
+            <td>Cost Variance</td>
+            <td>Your stated variance today</td>
+            <td>Assumption you set above</td>
+            <td>Illustrative, not guaranteed</td>
           </tr>
           <tr>
             <td>Rework Costs</td>
@@ -477,7 +477,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
-          <span>Gwarantowana dokładność ±3-5%</span>
+          <span>Rozrzut pokazany względem założeń, które wpisujesz</span>
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
@@ -489,7 +489,7 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
         </div>
         <div class="benefit-item">
           <span class="benefit-icon">✓</span>
-          <span>2000+ zrealizowanych projektów globalnie</span>
+          <span>Wycena za pakiet, uzgodniona przed rozpoczęciem pracy</span>
         </div>
       </div>
       
@@ -532,10 +532,10 @@ function generatePolishReport(projectValue, totalSavings, roiPercentage, currenc
             <td>75% redukcji</td>
           </tr>
           <tr>
-            <td>Dokładność</td>
-            <td>±10-15%</td>
-            <td>±3-5%</td>
-            <td>67% poprawa</td>
+            <td>Rozrzut Kosztów</td>
+            <td>Twój obecny rozrzut</td>
+            <td>Założenie wpisane powyżej</td>
+            <td>Ilustracyjne, nie gwarantowane</td>
           </tr>
           <tr>
             <td>Koszty Poprawek</td>

@@ -19,7 +19,7 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Weekly cost updates in 24 hours.  
+Weekly cost updates.  
 Early warning system catches budget risks 4-6 weeks ahead.
 :::
 
@@ -32,8 +32,8 @@ Early warning system catches budget risks 4-6 weeks ahead.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Schedule Demo](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -81,7 +81,7 @@ Real-time cost intelligence powered by 5D BIM and experienced oversight:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **4-6 week early warning** system</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Same-day variation analysis** for changes</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Real-time budget vs actual tracking</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Proactive cost optimization strategies</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Proactive cost optimisation strategies</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> No surprises at project completion</p>
 :::
 :::
@@ -171,7 +171,7 @@ Identify problems before they become critical:
 - Configure 5D BIM model with cost data
 - Establish reporting formats and schedules
 - Set budget thresholds and alert triggers
-- Train your team on reporting requirements
+- Train your staff on reporting requirements
 
 **Deliverable:** Cost control system ready for project start
 :::
@@ -296,7 +296,7 @@ Additional insights available:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Earned Value Analysis** - Efficiency metrics (CPI, SPI)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cashflow Projections** - 8-12 week look-ahead</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Contingency Tracking** - Burn rate and remaining buffer</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value Engineering Opportunities** - Cost optimization suggestions</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value Engineering Opportunities** - Cost optimisation suggestions</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Productivity Metrics** - Labour efficiency tracking</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Benchmarking Data** - Compare to similar projects</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Custom Dashboards** - Tailored to stakeholder needs</p>
@@ -355,9 +355,9 @@ Comprehensive BI solutions:
 - **Custom PowerBI dashboards** tailored to your KPIs
 - **Tableau integration** for advanced analytics
 - **Executive dashboards** for C-suite reporting
-- **Multi-project portfolio views** across your organization
+- **Multi-project portfolio views** across your organisation
 - **Automated data refresh** from project sources
-- **Mobile-optimized** for on-the-go access
+- **Mobile-optimised** for on-the-go access
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
@@ -447,7 +447,7 @@ A: Setup takes 3-5 days. We need your baseline budget, cost coding structure, an
 **Q: What information do you need from us each week?**
 :::
 ::: {.faq-answer}
-A: We need progress data (quantities installed), actual costs (invoices/timesheets), and any change orders or variations. Most clients provide this via a simple Excel template we supply. Data submission typically takes your team 2-3 hours per week. We can also integrate directly with your project management software.
+A: We need progress data (quantities installed), actual costs (invoices/timesheets), and any change orders or variations. Most clients provide this via a simple Excel template we supply. Data submission typically takes your staff 2-3 hours per week. We can also integrate directly with your project management software.
 :::
 :::
 
@@ -456,7 +456,7 @@ A: We need progress data (quantities installed), actual costs (invoices/timeshee
 **Q: Can you work with projects already in progress?**
 :::
 ::: {.faq-answer}
-A: Absolutely! We specialize in taking over cost control mid-project. We'll reconcile all historical data, verify the baseline, and have you up and running within one week. This is particularly valuable when existing cost control has fallen behind or when changing project circumstances require more rigorous oversight.
+A: Absolutely! We specialise in taking over cost control mid-project. We'll reconcile all historical data, verify the baseline, and have you up and running within one week. This is particularly valuable when existing cost control has fallen behind or when changing project circumstances require more rigorous oversight.
 :::
 :::
 
@@ -501,7 +501,7 @@ A: We handle projects from £2M to £200M+. Smaller projects typically use our E
 **Q: Can you help with value engineering during construction?**
 :::
 ::: {.faq-answer}
-A: Yes! Our ongoing cost monitoring identifies opportunities for value engineering as the project progresses. We can quickly analyze alternative materials, methods, or sequencing that could reduce costs without compromising quality. This is included in Professional and Premium tiers.
+A: Yes! Our ongoing cost monitoring identifies opportunities for value engineering as the project progresses. We can quickly analyse alternative materials, methods, or sequencing that could reduce costs without compromising quality. This is included in Professional and Premium tiers.
 :::
 :::
 
@@ -510,7 +510,7 @@ A: Yes! Our ongoing cost monitoring identifies opportunities for value engineeri
 **Q: How do you charge for your services?**
 :::
 ::: {.faq-answer}
-A: Pricing varies by service tier and project size. Essential tier starts from £2,500/month, Professional from £5,000/month, and Premium from £10,000/month. We also offer fixed-fee arrangements for the entire construction period with discounts for longer engagements (12+ months). Contact us for a custom quote based on your project specifics.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Pricing varies by service tier and project size — contact us for a quote based on your project specifics.
 :::
 :::
 :::
@@ -524,15 +524,15 @@ A: Pricing varies by service tier and project size. Essential tier starts from �
 
 **20 Years Across 3 Continents**
 
-We've managed cost control on 2000+ projects spanning UK, European, and Australian markets. We understand different contractual frameworks, regulatory requirements, and construction practices. Our international experience means we bring best practices from global construction leaders to every project.
+We've managed cost control on projects spanning UK, European, and Australian markets. We understand different contractual frameworks, regulatory requirements, and construction practices. Our international experience means we bring best practices from global construction leaders to every project.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-clock-history" style="color: var(--bim-orange);" aria-hidden="true"></i> Proven Speed
+### <i class="bi bi-clock-history" style="color: var(--bim-orange);" aria-hidden="true"></i> Weekly Turnaround
 
-**24-Hour Turnaround Guaranteed**
+**Weekly reports delivered within 24 hours of receiving data**
 
-While others take weeks, we deliver weekly reports within 24 hours of receiving data. Our variation analyses are completed in 24-48 hours, not weeks. This speed comes from optimized processes, 5D BIM integration, and experienced team who know what matters.
+While others take weeks, we deliver weekly reports within 24 hours of receiving data, and variation analyses within 24-48 hours. This speed comes from optimised processes, 5D BIM integration, and experienced oversight that knows what matters.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -540,7 +540,7 @@ While others take weeks, we deliver weekly reports within 24 hours of receiving 
 
 **Independent & Objective**
 
-As independent cost consultants, we have no incentive to over or understate costs. We provide objective analysis serving your interests only. Our track record shows forecast accuracy within ±2-3% at project completion, enabling confident decision-making throughout construction.
+As independent cost consultants, we have no incentive to over or understate costs. We provide objective analysis serving your interests only. Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -563,25 +563,19 @@ We don't just report numbers - we link costs to the 3D model and construction sc
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Project Assessment</h3>
-<p style="color: var(--bim-white); margin: 0;">30-minute consultation on your cost control needs</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send Us Your Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Share your baseline budget and cost coding and we'll scope the work</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Live Dashboard Demo</h3>
-<p style="color: var(--bim-white); margin: 0;">See real-time cost control in action</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Custom Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Tailored pricing for your project within 24 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See a sample measured takeoff before you commit</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Schedule Assessment](../contact.qmd){.cta-primary}
-[View Demo](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
@@ -598,7 +592,7 @@ We don't just report numbers - we link costs to the 3D model and construction sc
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

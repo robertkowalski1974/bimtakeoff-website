@@ -21,6 +21,7 @@
     "/terms-of-service.html": "/pl/regulamin.html",
     "/privacy-policy.html": "/pl/polityka-prywatnosci.html",
     "/tender-winning.html": "/pl/wygrywanie-przetargow.html",
+    "/contact-thank-you.html": "/pl/kontakt-dziekujemy.html",
     "/coming-soon.html": "/pl/coming-soon.html",
     "/services/automated-quantity-takeoff.html": "/pl/uslugi/automatyczny-przedmiar-obmiar.html",
     "/services/bid-writing-management.html": "/pl/uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html",

@@ -1,7 +1,7 @@
 ---
 title: "Housing Association Cost Estimation | Social Housing"
 page-layout: full
-description: "Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects."
+description: "Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, grant-funded projects."
 ---
 
 ::: {.hero-section}
@@ -20,7 +20,7 @@ description: "Housing association cost estimation for social housing, refurbishm
 
 ::: {.hero-subtitle}
 From 50-unit refurbishments to 500+ unit new builds.
-Delivered in 3-10 days with ±5% accuracy.
+Delivered in 3-10 days from data receipt.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -32,8 +32,8 @@ Delivered in 3-10 days with ±5% accuracy.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -67,13 +67,13 @@ Housing associations and cooperatives face unique pressures with limited budgets
 ::: {style=""}
 ### Our Housing Association Solution
 
-Specialized 5D BIM for social housing and cooperative projects:
+Specialised 5D BIM for social housing and cooperative projects:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-10 days** for complete estimate (vs 6-8 weeks traditional)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Grant funding expertise** - Documentation for applications</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Compliance knowledge** - Decent Homes, EPC C by 2030</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Maximize impact per pound spent</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Maximise impact per pound spent</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Resident-friendly** - Phasing for occupied buildings</p>
 :::
 
@@ -83,7 +83,8 @@ Specialized 5D BIM for social housing and cooperative projects:
 - **Extensive social housing experience** across UK housing associations and ALMOs
 - **Large-scale refurbishment programmes** - Multi-million pound projects
 - **Average 7 days** from design to detailed estimate
-- **±5% accuracy** on 95% of projects
+
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 :::
 :::
 
@@ -139,7 +140,7 @@ Full support for:
 
 **Compare Upgrade Options**
 
-Analyze impact of:
+Analyse impact of:
 - Different insulation strategies
 - Heating system alternatives
 - Window replacement options
@@ -322,7 +323,7 @@ Critical for:
 
 **Technology:**
 - BIM 5D extraction (if available)
-- Property archetype modeling
+- Property archetype modelling
 - Volume quantity analysis
 
 **Output:** Complete quantity take-off (BOQ)
@@ -396,7 +397,7 @@ Critical for:
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
 **Typical Total Duration:** 7-10 working days from data receipt to final report  
-**Express Service:** Available for urgent grant deadlines (4-5 days) at 25% premium
+**Express Service:** Available for urgent grant deadlines (4-5 days) at a premium
 :::
 
 ## Why Choose BIM Takeoff for Housing Associations?
@@ -413,9 +414,9 @@ Critical for:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Value for Money
-- **±5% accuracy** - minimize overruns
+- **Careful measurement** - reduce the risk of overruns
 - **Value engineering** - stretch budgets
-- **Volume discounts** - optimize procurement
+- **Volume discounts** - optimise procurement
 - **Cost-per-unit focus** - board reporting
 :::
 
@@ -423,7 +424,7 @@ Critical for:
 ### Resident Focus
 - **Clear communication** - consultation materials
 - **Minimal disruption** - phasing strategies
-- **Occupied works** - decanting minimized
+- **Occupied works** - decanting minimised
 - **Alternative options** - member choice
 :::
 
@@ -437,7 +438,7 @@ Critical for:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Technology Advantage
-- **5D BIM** - rapid cost modeling
+- **5D BIM** - rapid cost modelling
 - **Scenario analysis** - compare options
 - **Real-time updates** - cost changes
 - **Digital delivery** - board presentations
@@ -488,7 +489,7 @@ A: Yes, we prepare resident-friendly consultation materials including visual pre
 **Q: What about estimating for occupied properties?**
 :::
 ::: {.faq-answer}
-A: We specialize in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional).
+A: We specialise in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional).
 :::
 :::
 
@@ -497,7 +498,7 @@ A: We specialize in occupied building works. Our estimates include phasing strat
 **Q: How accurate are estimates for Decent Homes compliance?**
 :::
 ::: {.faq-answer}
-A: With proper stock condition surveys, we achieve ±5-8% accuracy on Decent Homes refurbishment programmes. We include appropriate contingencies (5-10%) for properties where condition surveys reveal uncertainties.
+A: Accuracy depends on the quality of the stock condition survey we are given. We include contingencies (5-10%) for properties where the survey reveals uncertainties, and we flag the assumption rather than absorb it.
 :::
 :::
 
@@ -506,7 +507,7 @@ A: With proper stock condition surveys, we achieve ±5-8% accuracy on Decent Hom
 **Q: How do you approach value engineering for tight budgets?**
 :::
 ::: {.faq-answer}
-A: We identify value engineering opportunities without compromising quality or compliance. This includes optimizing specifications, exploring alternative materials, value-analyzing phasing options, and maximizing volume discounts through strategic procurement.
+A: We identify value engineering opportunities without compromising quality or compliance. This includes optimising specifications, exploring alternative materials, value-analysing phasing options, and maximising volume discounts through strategic procurement.
 :::
 :::
 
@@ -515,12 +516,7 @@ A: We identify value engineering opportunities without compromising quality or c
 **Q: What's your fee structure for housing association projects?**
 :::
 ::: {.faq-answer}
-A: Fees vary based on programme size and complexity. As a rough guide:
-- Small programme (50-100 units): £3,000-6,000
-- Medium programme (100-300 units): £6,000-12,000
-- Large programme (300-500 units): £12,000-20,000
-
-Express service (4-5 days) carries a 25% premium. Contact us for a specific quote.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees scale with programme size and complexity. Contact us for a specific quote.
 :::
 :::
 :::
@@ -529,7 +525,7 @@ Express service (4-5 days) carries a 25% premium. Contact us for a specific quot
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 900px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Maximize Value from Every Pound Spent</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Maximise Value from Every Pound Spent</h2>
 
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">Get accurate cost estimates for grant applications, resident consultation, and board approvals. Specialist social housing expertise across the UK.</p>
 
@@ -542,28 +538,27 @@ Express service (4-5 days) carries a 25% premium. Contact us for a specific quot
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 0;">We respond within one working day, Monday to Friday</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Free Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">30-minute programme review</p>
-<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-check-fill" aria-hidden="true"></i> Free Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See our measurement on one of your drawings before you commit</p>
+<p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd#sample" style="color: var(--bim-orange); text-decoration: underline;">Request Sample →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Portfolio](../coming-soon.qmd){.cta-secondary}
-[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>UK Social Housing Specialists</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Grant Funding Application Support</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3-10 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5% Accuracy - Value for Money</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Value for Money</strong></p>
 :::
 :::
 :::

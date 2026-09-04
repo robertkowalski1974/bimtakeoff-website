@@ -520,7 +520,7 @@ function displayResults() {
     return Math.round(val) + ' days';
   });
   
-  accuracyEl.textContent = `±${calculatedResults.accuracyFrom}% → ±${calculatedResults.accuracyTo}%`;
+  accuracyEl.textContent = `±${calculatedResults.accuracyFrom}%`;
   
   animateValue(roiEl, 0, calculatedResults.roi, 1500, (val) => {
     return Math.round(val) + '%';
@@ -710,8 +710,8 @@ DETAILED BREAKDOWN
 ✓ Time Savings:           ${formatCurrency(results.breakdown.timeSavings, true)}
   (Reduced from ${results.inputs.timeline} to 7-day BIM delivery)
 
-✓ Accuracy Improvement:   ${formatCurrency(results.breakdown.accuracySavings, true)}
-  (Improved from ±${results.accuracyFrom}% to ±${results.accuracyTo}% variance)
+✓ Variance Assumption:    ${formatCurrency(results.breakdown.accuracySavings, true)}
+  (Based on your stated ±${results.accuracyFrom}% variance today)
 
 ✓ Rework Avoidance:       ${formatCurrency(results.breakdown.reworkSavings, true)}
   (Better estimates = less costly rework during construction)
@@ -1440,9 +1440,9 @@ function generatePDFReport(leadData) {
   doc.setFont(undefined, 'normal');
   
   const benefits = [
-    ['Accuracy & Speed', [
-      '±5% accuracy (vs. ±15-20% traditional)',
-      '3-day turnaround (vs. 6-8 weeks)',
+    ['Measured Quantities', [
+      'Variance shown against the assumptions you enter',
+      '3-10 day turnaround (vs. 6-8 weeks)',
       'Automated clash detection',
       'Real-time cost updates'
     ]],
@@ -1452,8 +1452,8 @@ function generatePDFReport(leadData) {
       'Prevent material over-ordering',
       'Avoid costly variations'
     ]],
-    ['Competitive Advantage', [
-      'Win more tenders with accurate pricing',
+    ['Tender Support', [
+      'Documented assumptions where information is incomplete',
       'Faster response to tender invitations',
       'Professional documentation',
       'Value engineering opportunities'
@@ -1475,12 +1475,12 @@ function generatePDFReport(leadData) {
     yPos += 3;
   });
   
-  // Industry Benchmarks
+  // Your Assumptions
   yPos += 5;
   doc.setTextColor(...darkGray);
   doc.setFontSize(14);
   doc.setFont(undefined, 'bold');
-  doc.text('Industry Benchmarks', 20, yPos);
+  doc.text('Your Assumptions', 20, yPos);
   
   yPos += 10;
   doc.setFontSize(10);
@@ -1489,11 +1489,9 @@ function generatePDFReport(leadData) {
   
   doc.text(`Your Project Type: ${capitalizeProjectType(projectType)}`, 20, yPos);
   yPos += 7;
-  doc.text(`Industry Average Cost Overrun: 27%`, 20, yPos);
+  doc.text(`Your Stated Variance Today: ±${calculatedResults.accuracyFrom}%`, 20, yPos);
   yPos += 7;
-  doc.text(`With BIM Takeoff: <5%`, 20, yPos);
-  yPos += 7;
-  doc.text(`Typical ROI for Your Sector: 600-900%`, 20, yPos);
+  doc.text(`Figures below are illustrative, built from your inputs`, 20, yPos);
   yPos += 7;
   doc.setTextColor(...green);
   doc.setFont(undefined, 'bold');
