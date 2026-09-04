@@ -194,7 +194,7 @@ format:
           "@type": "ProfessionalService",
           "name": "BIM Takeoff",
           "alternateName": "BIM Takeoff Polska",
-          "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+          "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
           "url": "https://www.bimtakeoff.com/pl",
           "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
           "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -243,14 +243,8 @@ format:
             "Przygotowanie ofert przetargowych"
           ],
           "priceRange": "$$",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "20"
-          },
           "sameAs": [
-            "https://www.linkedin.com/company/bimtakeoff",
-            "https://twitter.com/bimtakeoff"
+            "https://www.linkedin.com/company/bimtakeoff"
           ],
           "knowsLanguage": [
             {

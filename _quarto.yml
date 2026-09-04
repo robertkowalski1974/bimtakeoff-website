@@ -226,7 +226,7 @@ format:
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
           "name": "BIM Takeoff",
-          "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+          "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
           "url": "https://www.bimtakeoff.com",
           "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
           "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -279,14 +279,8 @@ format:
             "Building Remediation Cost Estimation"
           ],
           "priceRange": "$$",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "20"
-          },
           "sameAs": [
-            "https://www.linkedin.com/company/bimtakeoff",
-            "https://twitter.com/bimtakeoff"
+            "https://www.linkedin.com/company/bimtakeoff"
           ]
         }
         </script>

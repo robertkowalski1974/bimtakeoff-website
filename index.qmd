@@ -200,7 +200,7 @@ You deal with me directly. The person who measures your drawings is the person w
 
 <p>Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.</p>
 
-<p>If the pack is over 100 MB, email us and we send an upload link.</p>
+<p>Attach up to 20 MB with the form. For a larger pack, email us and we send an upload link.</p>
 :::
 
 ::: {.split-panel-text}

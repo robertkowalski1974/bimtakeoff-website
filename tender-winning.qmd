@@ -328,7 +328,7 @@ A: Most bid writers focus on documents. We provide a complete system: strategic 
 **Q: What win rate improvement can I realistically expect?**
 :::
 ::: {.faq-answer}
-A: We do not publish a win rate, and you should be wary of anyone who does — the outcome of a tender turns on your price, your programme and your relationship with the client, not on who typed the bill. What we can tell you is what leaves here: a bill priced against the specification, with the qualifications and the tender queries written down rather than buried.
+A: We do not publish a win rate. The outcome of a tender turns on your price, your programme and your relationship with the client, not on who typed the bill. What we can tell you is what leaves here: a bill priced against the specification, with the qualifications and the tender queries written down rather than buried.
 :::
 :::
 
