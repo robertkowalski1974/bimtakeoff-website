@@ -31,8 +31,8 @@ Od przetargu przez przekazanie i dalej.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Konsultację](../kontakt.qmd){.cta-primary}
-[Zobacz Rozwiązania CDE](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -49,7 +49,7 @@ Od przetargu przez przekazanie i dalej.
 Słabe zarządzanie danymi tworzy kosztowne problemy:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 5-15% czasu projektu marnowanego na szukanie informacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Czas zespołu tracony na szukanie aktualnej wersji dokumentu</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Przeróbki z powodu użycia niewłaściwych wersji dokumentów</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niepowodzenia w zakresie zgodności z przepisami</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niekompletne informacje przy przekazaniu</p>
@@ -58,9 +58,9 @@ Słabe zarządzanie danymi tworzy kosztowne problemy:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Wymóg Regulacyjny
+#### Wymóg rynkowy
 
-> "W Polsce, choć nie ma jeszcze tak rygorystycznych przepisów jak Building Safety Act 2022 w UK, ustrukturyzowane zarządzanie informacją staje się standardem w dużych projektach deweloperskich i inwestycjach publicznych. Profesjonalne zarządzanie danymi to już nie tylko efektywność - to wymóg rynkowy."
+W Polsce nie obowiązują jeszcze przepisy tak rygorystyczne jak brytyjski Building Safety Act 2022, ale uporządkowane zarządzanie informacją staje się standardem w dużych inwestycjach deweloperskich i publicznych. Coraz częściej jest to warunek udziału, a nie kwestia wygody.
 :::
 :::
 
@@ -441,7 +441,7 @@ O: Tak! Specjalizujemy się we wdrażaniu Golden Thread dla budynków wysokiego 
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Co jeśli nasz zespół projektowy już ma CDE? Czy nadal potrzebujemy Waszej pomocy?**
+**P: Mamy już wdrożone CDE. Czy nadal potrzebujemy waszej pomocy?**
 :::
 ::: {.faq-answer}
 O: Nadal możemy dodać wartość poprzez: opracowanie EIR, koordynację informacji w zespołach zadaniowych, zapewnienie jakości, federację modeli, wykrywanie kolizji, przygotowanie przekazania i zapewnienie zgodności z ISO 19650. Wiele projektów ma wiele CDE (projektant, wykonawca, klient) wymagających koordynacji - my zarządzamy tymi interfejsami.
@@ -453,7 +453,7 @@ O: Nadal możemy dodać wartość poprzez: opracowanie EIR, koordynację informa
 **P: Ile kosztuje zarządzanie informacją?**
 :::
 ::: {.faq-answer}
-O: Zależy od wielkości projektu i zakresu usług. Konfiguracja (EIR, BEP, konfiguracja CDE) dla projektu o wartości 40M PLN: 60K-100K PLN. Wsparcie Menedżera Informacji w niepełnym wymiarze: 12K-20K PLN/miesiąc. Dedykowany zasób pełnoetatowy: 24K-40K PLN/miesiąc. Usługi Golden Thread: 80K-200K PLN w zależności od złożoności budynku. Inwestycja zazwyczaj oszczędza 2-5x dzięki zmniejszeniu przeróbek i lepszym wynikom projektu.
+O: Zależy od wielkości projektu i zakresu usług: inaczej wycenia się samą konfigurację (EIR, BEP, uruchomienie CDE), a inaczej bieżące prowadzenie informacji przez cały cykl życia projektu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 :::
 :::
 
@@ -495,32 +495,28 @@ O: Tak! Szkolenie jest niezbędne dla pomyślnego wdrożenia. Zapewniamy: szkole
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Konsultację</h3>
-<p style="color: var(--bim-white); margin: 0;">Omów swoje potrzeby informacyjne</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Zakres projektu, wymagania informacyjne i obecne CDE. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Przykłady CDE</h3>
-<p style="color: var(--bim-white); margin: 0;">Przejrzyj studia przypadków wdrożeń</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Waszej dokumentacji, żeby pokazać format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Uzyskaj Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Propozycja w zakresie w 3 dni</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Konsultację](../kontakt.qmd){.cta-primary}
-[Zobacz Przykłady](../coming-soon.qmd){.cta-secondary}
-[Uzyskaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Certyfikowani Specjaliści ISO 19650</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zgodność z Najwyższymi Standardami</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Niezależność Platformy CDE</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Praca zgodna z ISO 19650</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Golden Thread prowadzony od przetargu do eksploatacji</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Niezależność od platformy CDE</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
 :::
 :::
 :::

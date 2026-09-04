@@ -1,191 +1,67 @@
 ---
-title: ""
-description: "Skontaktuj się z BIM Takeoff w sprawie kosztorysowania i wyceny BIM 5D. Odpowiadamy w 24 godziny na zapytania z Polski, UK i Australii."
+title: "Prześlij dokumentację"
+description: "Prześlij BIM Takeoff dokumentację do najbliższego przetargu. Odpowiadamy w ciągu jednego dnia roboczego. Przedmiary robót i kosztorysy ofertowe — Polska, Wielka Brytania, Australia."
 page-layout: full
-
 ---
 
-```{=html}
-<!-- Contact Hero Section -->
-<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
-  <div class="container" style="max-width: 1200px; margin: 0 auto;">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Skontaktuj się z nami</h1>
-        <p class="lead mb-4" style="color: #E0E0E0; font-size: 1.25rem;">
-          Gotowy, aby przekształcić swój projekt dzięki profesjonalnemu kosztorysowaniu BIM 5D? 
-          Porozmawiajmy o tym, jak możemy pomóc Ci osiągnąć precyzyjną kontrolę budżetu i pewność kosztów.
-        </p>
-        <div class="trust-indicators" style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 30px; justify-content: center;">
-          <div>
-            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">20+</div>
-            <div style="color: #B0B0B0; font-size: 0.9rem;">Lat Doświadczenia</div>
-          </div>
-          <div>
-            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">2000+</div>
-            <div style="color: #B0B0B0; font-size: 0.9rem;">Zrealizowanych Projektów</div>
-          </div>
-          <div>
-            <div style="color: #FF9900; font-size: 2rem; font-weight: bold;">24h</div>
-            <div style="color: #B0B0B0; font-size: 0.9rem;">Czas Odpowiedzi</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+::: {.page-banner}
+::: {.container}
+# Prześlij dokumentację
 
-<!-- Contact Information Section -->
-<section style="padding: 80px 20px; background: #FFFFFF;">
-  <div class="container" style="max-width: 1200px; margin: 0 auto;">
-    <div class="row g-4">
-      
-      <!-- Contact Cards -->
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
-          </div>
-          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Telefon</h3>
-          <p style="color: #666666; margin-bottom: 20px;">Porozmawiaj bezpośrednio z naszymi specjalistami</p>
-          <a href="tel:+48508209313" onclick="window.lintrk('track', { conversion_id: 24859401 });" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
-            +48 508 209 313
-          </a>
-          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
-            Poniedziałek - Piątek: 9:00 - 18:00
-          </div>
-        </div>
-      </div>
+::: {.page-banner-lead}
+Odpowiadamy w ciągu jednego dnia roboczego, od poniedziałku do piątku. Jeśli termin składania ofert wypada w ciągu 72 godzin, zadzwoń.
+:::
+:::
+:::
 
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
-          </div>
-          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">E-mail</h3>
-          <p style="color: #666666; margin-bottom: 20px;">Wyślij nam szczegóły projektu i wymagania</p>
-          <a href="mailto:info@bimtakeoff.com" onclick="window.lintrk('track', { conversion_id: 24859401 });" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none; word-break: break-all;">
-            info@bimtakeoff.com
-          </a>
-          <div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
-            Odpowiadamy w ciągu 24 godzin
-          </div>
-        </div>
-      </div>
+::: {.container}
 
-      <div class="col-lg-4 col-md-6">
-        <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
-          </div>
-          <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Zasięg Międzynarodowy</h3>
-          <p style="color: #666666; margin-bottom: 20px;">Obsługujemy klientów na rynkach międzynarodowych</p>
-          <div style="color: #2C2C2C; font-size: 1.1rem; line-height: 1.8;">
-            <div>🇵🇱 Polska</div>
-            <div>🇬🇧 Wielka Brytania</div>
-            <div>🇦🇺 Australia</div>
-          </div>
-        </div>
-      </div>
+::: {.contact-layout}
 
-    </div>
-  </div>
-</section>
+::: {#formularz .contact-form-col}
+<div id="pipedrive-form-container">
+<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/72rWXUuSJYQND6JNZwOBOUK1N2AlXahsjQzmAk5XZObXpDbjacZyRDAb35Co9FRA8H"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+</div>
 
-<!-- Why Contact Us Section -->
-<section style="padding: 80px 20px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
-  <div class="container" style="max-width: 1200px; margin: 0 auto;">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold mb-3" style="color: #2C2C2C; font-size: 2.5rem;">Dlaczego Warto Z Nami Współpracować?</h2>
-      <p style="color: #666666; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
-        Doświadcz różnicy w pracy z certyfikowanymi specjalistami ds. kosztorysowania
-      </p>
-    </div>
+::: {.contact-note}
+Twoje dane wykorzystujemy wyłącznie po to, aby odpowiedzieć na to zapytanie. Zobacz [politykę prywatności](polityka-prywatnosci.qmd).
+:::
+:::
 
-    <div class="row g-4">
-      <div class="col-lg-3 col-md-6">
-        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Międzynarodowe Doświadczenie</h4>
-          <p style="color: #666666; font-size: 0.95rem;">Profesjonalne standardy quantity surveying</p>
-        </div>
-      </div>
+::: {.contact-aside}
+## Co nam przesłać
 
-      <div class="col-lg-3 col-md-6">
-        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">20+ Lat Doświadczenia</h4>
-          <p style="color: #666666; font-size: 0.95rem;">Udokumentowane osiągnięcia w UE, UK i Australii</p>
-        </div>
-      </div>
+Projekt (PDF lub DWG), specyfikację techniczną, przedmiar zamawiającego, jeśli jest, oraz termin składania ofert. Model IFC, jeśli istnieje; nie jest wymagany.
 
-      <div class="col-lg-3 col-md-6">
-        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Zgodność z BIM 2030</h4>
-          <p style="color: #666666; font-size: 0.95rem;">Zgodność z polskim mandatem BIM</p>
-        </div>
-      </div>
+Załącz do 20 MB przez formularz. Przy większej paczce napisz do nas, a wyślemy link do przesłania plików.
 
-      <div class="col-lg-3 col-md-6">
-        <div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-          <h4 style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Szybka Odpowiedź</h4>
-          <p style="color: #666666; font-size: 0.95rem;">Gwarancja odpowiedzi w 24 godziny</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+## Co dzieje się dalej
 
-<!-- CTA Section -->
-<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
-  <div class="container text-center" style="max-width: 800px; margin: 0 auto;">
-    <h2 class="fw-bold mb-4" style="color: #FFFFFF; font-size: 2.5rem;">Gotowy Na Start Projektu?</h2>
-    <p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
-      Skontaktuj się z nami już dziś, aby otrzymać bezpłatną konsultację i dowiedzieć się, 
-      jak kosztorysowanie BIM 5D może przekształcić realizację Twojego projektu
-    </p>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-      <a href="tel:+48508209313" onclick="window.lintrk('track', { conversion_id: 24859401 });" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Zadzwoń Teraz
-      </a>
-      <a href="mailto:info@bimtakeoff.com" onclick="window.lintrk('track', { conversion_id: 24859401 });" class="btn btn-outline-light" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Wyślij E-mail
-      </a>
-    </div>
-  </div>
-</section>
+W ciągu jednego dnia roboczego potwierdzamy zakres, stałą cenę i termin. Jeśli to nie jest zlecenie, które wykonamy dobrze, mówimy o tym wprost i wskazujemy, kto je wykona.
 
-<style>
-.contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 
-.benefit-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
+## Wolisz porozmawiać
 
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
+**Polska** [+48 508 209 313](tel:+48508209313)
 
-@media (max-width: 768px) {
-  .trust-indicators {
-    gap: 20px !important;
-  }
-  
-  .display-4 {
-    font-size: 2rem !important;
-  }
-  
-  .lead {
-    font-size: 1.1rem !important;
-  }
-}
-</style>
-```
+**Wielka Brytania** [+44 (0) 20 3239 9967](tel:+442032399967)
+
+**E-mail** [info@bimtakeoff.com](mailto:info@bimtakeoff.com)
+
+Poniedziałek–piątek, 9:00–19:00 czasu polskiego.
+:::
+
+:::
+
+## Bezpłatny przedmiar próbny {#probny}
+
+::: {.callout-box}
+Prześlij jedną kondygnację, jedną elewację lub jeden typ lokalu. Zmierzymy i odeślemy w ciągu dwóch dni roboczych, w Twoim formacie, bez opłat. Jeśli wynik odpowiada, wyceniamy resztę.
+
+::: {.card-actions}
+[Prześlij dokumentację](#formularz){.cta-primary}
+:::
+:::
+
+:::

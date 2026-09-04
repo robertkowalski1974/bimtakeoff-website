@@ -1,6 +1,6 @@
 ---
 title: "Kosztorysowanie Branż: Zabudowa, Ppoż., Elewacje, Konstrukcje"
-description: "20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU."
+description: "Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii."
 keywords: "kosztorysowanie specjalistyczne, kosztorys sucha zabudowa, wycena ochrona ppoż, kosztorys elewacje, kosztorys konstrukcje stalowe, quantity surveyor polska"
 page-layout: full
 ---
@@ -26,7 +26,7 @@ precyzyjne kosztorysowanie dla najważniejszych branż.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>2,000+ projektów specjalistycznych</strong> wycenionych w EU, UK i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Pakiety branżowe</strong> wyceniane w EU, UK i Australii</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Głęboka ekspertyza:</strong> Sucha Zabudowa, Ochrona Ppoż., Elewacje, Konstrukcje</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Przetargi</strong> jedno i dwustopniowe</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zgodność</strong> z międzynarodowymi standardami (NRM, AS, BS, EN) + polskie przepisy</p>
@@ -34,8 +34,8 @@ precyzyjne kosztorysowanie dla najważniejszych branż.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Otrzymaj Wycenę Specjalistyczną](../coming-soon.qmd){.cta-primary}
-[Pobierz Przewodnik Branżowy](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -59,20 +59,20 @@ Ogólni kosztorysanci nie rozumieją złożoności branż specjalistycznych:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Ukryte Koszty Się Sumują
+#### Ukryte koszty się sumują
 
-> "W branżach specjalistycznych to, czego nie widać w kosztorysie, kosztuje podczas budowy. Same testy ppoż. mogą stanowić 3-5% wartości całego pakietu."
+W branżach specjalistycznych to, czego nie widać w kosztorysie, i tak kosztuje podczas budowy. Testy i certyfikacja ochrony ppoż. są tego najczęstszym przykładem: pozycja zwykle pomijana, a rozliczana na końcu.
 :::
 :::
 
 ::: {style=""}
-### Nasze Rozwiązanie
+### Nasze rozwiązanie
 
-Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
+Kosztorysowanie prowadzone przez kogoś, kto pracował na tych pakietach, nie tylko je liczył:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Praktyczne doświadczenie** w montażu suchej zabudowy, systemów ppoż., elewacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2,000+ pakietów specjalistycznych** wycenionych na 3 kontynentach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pakiety branżowe** wyceniane na trzech kontynentach</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Znamy ukryte koszty: nieefektywność pracy, straty materiału, ryzyko poprawek</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Rozumiemy zgodność: klasy ppoż., obliczenia statyczne, testy obciążenia</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Rzeczywiste kosztorysowanie: nie tylko przedmiar — faktyczne koszty wykonania</p>
@@ -96,7 +96,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 - Ścianki przeciwpożarowe
 
 #### Nasze Doświadczenie
-- 900+ projektów suchej zabudowy wycenionych (biura, magazyny, mieszkania)
+- Sucha zabudowa wyceniana w biurach, magazynach i budynkach mieszkalnych
 - Praca ze specyfikacjami Knauf, British Gypsum, CSR Gyprock, SAS, Armstrong, Rigips
 - Rozumiemy stawki robocizny: dobór ekip, współczynniki wydajności, ograniczenia dostępu
 - Znamy współczynniki strat materiałowych - realne, nie dobrze wyglądające na papierze
@@ -129,7 +129,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 - Ochrona ppoż. konstrukcji (powłoki na stali/betonie)
 
 #### Nasze Doświadczenie
-- 150+ pakietów ochrony ppoż. (magazyny, centra danych, wysokościowce)
+- Pakiety ochrony ppoż. w magazynach, centrach danych i budynkach wysokich
 - Zgodność z AS 1530.4, BS 476, EN 13501, polskie przepisy
 - Praca z systemami Trafalgar, Hilti, Nullifire, FireMaster, Rockwool, Titan
 - Rozumiemy wymogi certyfikacyjne: testy, zgodność BCA/NCC
@@ -164,7 +164,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 - Hydroizolacja i systemy uszczelniające
 
 #### Nasze Doświadczenie
-- 120+ projektów elewacji (magazyny, biura, wysokościowce mieszkalne)
+- Elewacje magazynów, biur i wysokich budynków mieszkalnych
 - Systemy materiałowe: Kingspan, Trespa, Equitone, Alucobond, Cemintel
 - Uwzględnienie w wycenie obliczeń strukturalnych i koordynacji projektowej
 - Złożone sekwencje montażu: rusztowania, dźwigi, opóźnienia pogodowe
@@ -200,7 +200,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 - Połączenia konstrukcyjne i tolerancje
 
 #### Nasze Doświadczenie
-- 180+ pakietów konstrukcyjnych (magazyny, mosty, wysokościowce)
+- Pakiety konstrukcyjne magazynów, mostów i budynków wysokich
 - Stal: prefabrykacja + montaż + malowanie + ochrona ppoż.
 - Beton: szalunki + zbrojenie + wylanie + pielęgnacja + wykończenie
 - Złożone obliczenia: ścieżki obciążeń, detale połączeń, sekwencje budowy
@@ -217,7 +217,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
 - Stal konstrukcyjna: prefabrykacja 40%, montaż 35%, malowanie/ppoż. 25%
 - Stropy sprężone: 15-20% więcej materiału ale 30% szybsza budowa
-- Złożoność połączeń: proste = 200 PLN/połączenie, momentowe = 2000+ PLN
+- Złożoność połączeń: połączenia momentowe kosztują wielokrotnie więcej niż przegubowe
 - Wynajem pompy do betonu: 6000-10000 PLN/dzień z operatorem
 - Wiązanie zbrojenia: średnio 8-12 godzin na tonę
 :::
@@ -242,8 +242,6 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 - Ocena ograniczeń montażowych (dostęp, sekwencjonowanie, koordynacja)
 - Określenie dokładnych granic zakresu i interfejsów z innymi branżami
 
-**Twoja Inwestycja:** Darmowy wstępny przegląd (1-2 godziny)
-
 **Kluczowy Rezultat:** Dokument wyjaśniający zakres ze zidentyfikowanymi złożonościami
 :::
 
@@ -260,7 +258,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 
 **Rezultat:** Szczegółowy przedmiar ze specyfikacjami producentów
 
-**Poziom dokładności:** ±2% dla ilości
+**Podstawa pomiaru:** Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
@@ -276,7 +274,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 
 **Rezultat:** Harmonogram pracy z alokacją zasobów
 
-**Na podstawie:** Rzeczywistych danych z 2000+ instalacji
+**Na podstawie:** Nakładów obserwowanych na montażu, nie tabel katalogowych
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
@@ -308,38 +306,22 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 
 **Rezultat:** Kompletny kosztorys specjalistyczny z rejestrem ryzyk
 
-**Mitygacja ryzyka:** Zidentyfikowane możliwości oszczędności zazwyczaj 10-15%
+**Optymalizacja wartości:** Wskazane alternatywy materiałowe i montażowe
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;"}
-**Całkowity Czas:** 8-13 dni roboczych | **Czas Projektu:** 2-3 tygodnie od początku do końca
+**Całkowity czas:** 8–13 dni roboczych | **Czas projektu:** 2–3 tygodnie od początku do końca
 
-**Tryb Ekspresowy:** Pilne kosztorysy w 5-7 dni roboczych (dopłata 30%)
+**Tryb przyspieszony:** pilne kosztorysy w 5–7 dni roboczych
 :::
 :::
 
-## 6 Kluczowych Korzyści Kosztorysowania Specjalistycznego
+## 5 kluczowych korzyści kosztorysowania specjalistycznego
 
 ::: {.benefits-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> 1. Dokładność Która Ma Znaczenie
-
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;"}
-::: {style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;"}
-**Ogólni Kosztorysanci**  
-±15-20% wariancja
-:::
-::: {style="text-align: center; padding: 16px; background: #e8f5e9; border-radius: 8px;"}
-**Nasi Specjaliści**  
-±3-5% dokładność
-:::
-:::
-Na podstawie 2000 rzeczywistych projektów śledzonych do zakończenia
-:::
-
-::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-eye-slash" style="color: var(--bim-orange);" aria-hidden="true"></i> 2. Ukryte Koszty Ujawnione
+### <i class="bi bi-eye-slash" style="color: var(--bim-orange);" aria-hidden="true"></i> 1. Ukryte koszty ujawnione
 
 Wiemy czego inni nie widzą:
 - Wymogi uszczelnień akustycznych
@@ -351,7 +333,7 @@ Wiemy czego inni nie widzą:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-check-circle" style="color: var(--bim-orange);" aria-hidden="true"></i> 3. Zgodność Wbudowana
+### <i class="bi bi-check-circle" style="color: var(--bim-orange);" aria-hidden="true"></i> 2. Zgodność wbudowana
 
 Od pierwszego dnia, nie odkrywana podczas budowy:
 - Klasy ogniowe (standardy AS, BS, EN)
@@ -363,7 +345,7 @@ Od pierwszego dnia, nie odkrywana podczas budowy:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> 4. Rzeczywistość Montażu
+### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> 3. Rzeczywistość montażu
 
 Stawki robocizny oparte na:
 - Faktycznej wydajności ekip
@@ -374,7 +356,7 @@ Stawki robocizny oparte na:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-box-seam" style="color: var(--bim-orange);" aria-hidden="true"></i> 5. Wiedza Materiałowa
+### <i class="bi bi-box-seam" style="color: var(--bim-orange);" aria-hidden="true"></i> 4. Wiedza materiałowa
 
 Głęboka ekspertyza producentów:
 - Wiemy które systemy współpracują
@@ -385,7 +367,7 @@ Głęboka ekspertyza producentów:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 6. Zarządzanie Ryzykiem
+### <i class="bi bi-shield-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 5. Zarządzanie ryzykiem
 
 Każdy pakiet zawiera:
 - Kompleksowy rejestr ryzyk
@@ -407,7 +389,7 @@ Każdy pakiet zawiera:
 **P: Czym różni się kosztorysowanie specjalistyczne od ogólnego?**
 :::
 ::: {.faq-answer}
-O: Kosztorysanci specjalistyczni mają praktyczne doświadczenie w montażu i rozumieją niuanse wpływające na koszty: systemy ognioodporne wymagają określonych sekwencji montażu, prace elewacyjne są zależne od pogody, a połączenia konstrukcyjne mają ukrytą złożoność. Uwzględniamy czynniki, które ogólni kosztorysanci często pomijają, co skutkuje dokładnością ±3-5% versus ±15-20% dla ogólnych kosztorysów.
+O: Chodzi o znajomość montażu, nie tylko cen. Systemy ognioodporne wymagają określonej sekwencji prac, elewacje są zależne od pogody i dostępu, a połączenia konstrukcyjne mają ukrytą pracochłonność. Wyceniamy te czynniki osobno, zamiast chować je w narzucie.
 :::
 :::
 
@@ -452,7 +434,7 @@ O: Idealnie: rysunki architektoniczne, specyfikacje, preferencje materiałowe i 
 **P: Czy dostarczacie alternatywy optymalizacji wartości?**
 :::
 ::: {.faq-answer}
-O: Absolutnie. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, metody montażu i substytucje równoważne wydajnościowo, które mogą obniżyć koszty bez kompromisu w jakości. Typowe możliwości oszczędności wahają się od 10-20% wartości pakietu.
+O: Tak. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, inne metody montażu i zamienniki równoważne pod względem parametrów. Przy każdej opcji podajemy różnicę kosztu i warunek, który trzeba spełnić, żeby ją zastosować.
 :::
 :::
 
@@ -461,7 +443,7 @@ O: Absolutnie. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizac
 **P: Jakie rozmiary projektów obsługujecie?**
 :::
 ::: {.faq-answer}
-O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja wysokościowca jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Dla projektów poniżej 2 000 000 PLN obowiązuje minimalna opłata.
+O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja budynku wysokiego jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 :::
 :::
 
@@ -479,7 +461,7 @@ O: Tak. Zapewniamy pełne wsparcie przetargowe: przedmiar, szczegółowy podzia�
 **P: Jak szybko możecie dostarczyć kosztorys?**
 :::
 ::: {.faq-answer}
-O: Standardowy czas to 2-3 tygodnie dla kompleksowych kosztorysów specjalistycznych. Dla pilnych wymagań oferujemy usługę ekspresową (5-7 dni roboczych) z 30% dopłatą. Wstępne kosztorysy budżetowe mogą być dostarczone w ciągu 48 godzin dla studiów wykonalności.
+O: Standardowy czas to 2–3 tygodnie dla pełnego kosztorysu specjalistycznego. Przy pilnych terminach pracujemy w trybie przyspieszonym: 5–7 dni roboczych. Wstępny kosztorys budżetowy do studium wykonalności wydajemy w ciągu 48 godzin.
 :::
 :::
 
@@ -506,43 +488,39 @@ O: Tak. Choć mamy siedzibę w Polsce, posiadamy szerokie doświadczenie ze stan
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Pozostańmy w Kontakcie</h3>
-<p style="color: var(--bim-white); margin: 0;">Napisz do nas, otrzymaj wycenę w 24h</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Rysunki, specyfikacja i zakres pakietu. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download" aria-hidden="true"></i> Pobierz Przewodniki Branżowe</h3>
-<p style="color: var(--bim-white); margin: 0;">"Kosztorysowanie Branż Specjalistycznych: 12 Kosztów Które Wszyscy Pomijają" (18-str PDF)</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Otrzymaj Wycenę Specjalistyczną</h3>
-<p style="color: var(--bim-white); margin: 0;">3-min formularz, wycena w 48h</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Pozostańmy w Kontakcie](../kontakt.qmd).cta-primary}
-[Pobierz Przewodniki](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Projektów Specjalistycznych</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia EU/UK/AU</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność ±5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Sucha zabudowa, ppoż., elewacje, konstrukcje</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia w EU, UK i Australii</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Założenia i wyłączenia wypisane w kosztorysie</strong></p>
 :::
 :::
 :::
 
-## Nasze Referencje Specjalistyczne
+## Kto prowadzi kosztorysowanie
 
 ::: {.credentials-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 48px 0; text-align: center;"}
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**Doświadczony Surveyor**  
-Quantity Surveyor
+**Robert Kowalski**  
+Kosztorysowanie i przedmiary
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
@@ -559,14 +537,8 @@ Projekty Globalne
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 <i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**±3-5%**  
-Dokładność
-:::
-
-::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**10 mld PLN**  
-Wycenionych Projektów
+**NRM2, AS 4000, KNR**  
+Standardy pomiaru
 :::
 
 :::
@@ -576,9 +548,9 @@ Wycenionych Projektów
 
 **Zadzwoń:** [+44 (0) 20 3239 9967](tel:+442032399967) | **Email:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com)
 
-**Godziny Pracy:** Poniedziałek-Piątek, 9:00-17:00 CET | **Czas Reakcji:** W ciągu 4 godzin
+**Godziny pracy:** poniedziałek–piątek, 9:00–17:00 CET | **Czas reakcji:** w ciągu jednego dnia roboczego
 
-**Kosztorysy Awaryjne:** Dostępne dla pilnych przetargów (realizacja 48h)
+**Tryb przyspieszony:** dostępny dla pilnych przetargów (realizacja 48 h)
 :::
 
 :::

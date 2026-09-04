@@ -18,8 +18,8 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Cotygodniowe raporty kosztowe w 24 godziny.
-System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
+Cotygodniowe raporty kosztowe w 24 godziny od przesłania danych.
+Odchylenia widać w tygodniu, w którym powstały, a nie po zamknięciu miesiąca.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -31,8 +31,8 @@ System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Demo](../kontakt.qmd){.cta-primary}
-[Zobacz Studia Przypadków](../../pl/coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -58,20 +58,20 @@ Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po zakończeniu miesiąca 
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Prawdziwy Koszt
+#### Prawdziwy koszt
 
-> "W projekcie wartym 80 mln PLN wykrycie przekroczenia o 2 mln PLN po 6 tygodniach oznacza ograniczone opcje naprawy. Wczesne wykrycie dałoby czas na wprowadzenie optymalizacji wartości, podejście etapowe lub świadome podejmowanie decyzji, aby utrzymać projekt w budżecie."
+Przekroczenie wykryte po kilku tygodniach zostawia niewiele opcji naprawy. To samo przekroczenie widoczne w tygodniu, w którym powstało, daje czas na optymalizację wartości, etapowanie albo świadomą decyzję o zmianie zakresu.
 :::
 :::
 
 ::: {style=""}
-### Nasze Rozwiązanie Szybkiego Toru
+### Nasze rozwiązanie w trybie przyspieszonym
 
-Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym nadzorze:
+Dane kosztowe aktualizowane co tydzień, oparte na modelu 5D BIM i przeglądzie postępu:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cotygodniowe aktualizacje** dostarczane w ciągu 24 godzin</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> System **wczesnego ostrzegania** 4-6 tygodni</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> System **wczesnego ostrzegania** przy progach budżetowych</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza zmian w dniu zgłoszenia**</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Proaktywne strategie optymalizacji kosztów</p>
@@ -81,11 +81,11 @@ Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym na
 
 :::
 
-## Co Czyni Naszą Kontrolę Kosztów Szybką?
+## Co przyspiesza naszą kontrolę kosztów
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### Trzy Filary Szybkiej Inteligencji Kosztowej
+### Trzy filary szybkiego raportowania kosztów
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
@@ -142,7 +142,7 @@ Wykryj problemy, zanim staną się krytyczne:
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-**Przewaga Szybkiego Toru:** Połącz wszystkie trzy filary, aby utrzymać kontrolę od pierwszego dnia budowy do rozliczenia końcowego.
+**Trzy filary razem:** kontrola od pierwszego dnia budowy do rozliczenia końcowego.
 :::
 
 :::
@@ -367,7 +367,7 @@ Uprawnienia oparte na rolach:
 :::
 
 ::: {style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;"}
-**Demo Dostępne:** Zobacz panel w akcji z przykładowymi danymi projektu podczas konsultacji.
+**Pulpit uruchamiamy** na przykładowych danych projektu, zanim wejdą do niego dane rzeczywiste.
 :::
 
 :::
@@ -417,7 +417,7 @@ Uprawnienia oparte na rolach:
 - **Niestandardowe panele BI (PowerBI/Tableau)**
 - Zaawansowana analityka i benchmarking
 - Wizyty na miejscu (miesięczne)
-- Priorytetowe wsparcie (odpowiedź w ciągu 4 godz.)
+- Priorytetowe wsparcie (odpowiedź w ciągu jednego dnia roboczego)
 
 **Najlepsze dla:** projekty >200 mln PLN, programy przyspieszone
 :::
@@ -458,7 +458,7 @@ O: Tak, oczywiście! Specjalizujemy się w przejmowaniu kontroli kosztów w trak
 **P: Jak obsługujecie wnioski o płatność wykonawcy?**
 :::
 ::: {.faq-answer}
-O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i dostarczanie certyfikowanych rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.
+O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i wydanie rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.
 :::
 :::
 
@@ -503,7 +503,7 @@ O: Tak, oczywiście! Nasze bieżące monitorowanie kosztów identyfikuje możliw
 **P: Jak naliczacie opłaty za usługi?**
 :::
 ::: {.faq-answer}
-O: Ceny różnią się w zależności od pakietu usług i wielkości projektu. Pakiet Podstawowy rozpoczyna się od 10 000 PLN/miesiąc, Profesjonalny od 20 000 PLN/miesiąc, a Premium od 40 000 PLN/miesiąc. Oferujemy również ustalenia opłat stałych na cały okres budowy ze zniżkami na dłuższe zaangażowania (12+ miesięcy). Skontaktuj się z nami, aby uzyskać niestandardową wycenę na podstawie specyfikacji projektu.
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Stawka zależy od wybranego pakietu i częstotliwości raportowania; podajemy ją po przejrzeniu dokumentów kontraktowych.
 :::
 :::
 :::
@@ -515,25 +515,25 @@ O: Ceny różnią się w zależności od pakietu usług i wielkości projektu. P
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
 ### <i class="bi bi-award-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Doświadczenie
 
-**20 Lat Na 3 Kontynentach**
+**20 lat na trzech kontynentach**
 
-Zarządzaliśmy kontrolą kosztów na 2000+ projektach obejmujących rynki UK, europejskie i australijskie. Rozumiemy różne ramy kontraktowe, wymagania regulacyjne i praktyki budowlane. Nasze międzynarodowe doświadczenie oznacza, że wnosimy najlepsze praktyki od globalnych liderów budowlanych do każdego projektu.
+Prowadzimy kontrolę kosztów na rynku brytyjskim, europejskim i australijskim. Znamy różne ramy kontraktowe, wymagania regulacyjne i praktykę rozliczeń na budowie, więc raport dopasowujemy do konkretnej umowy, a nie do jednego uniwersalnego szablonu.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-clock-history" style="color: var(--bim-orange);" aria-hidden="true"></i> Sprawdzona Szybkość
+### <i class="bi bi-clock-history" style="color: var(--bim-orange);" aria-hidden="true"></i> Tempo pracy
 
-**24-Godzinny Czas Realizacji Gwarantowany**
+**24 godziny od przesłania danych**
 
-Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24 godzin od otrzymania danych. Nasze analizy zmian są realizowane w 24-48 godzin, a nie tygodni. Ta szybkość wynika z zoptymalizowanych procesów, integracji 5D BIM i doświadczonego zespołu, który wie, co się liczy.
+Cotygodniowy raport wydajemy w ciągu 24 godzin od otrzymania danych o postępie. Analizę zmiany wydajemy w 24–48 godzin. Tempo bierze się z ustalonego formatu danych i z połączenia kosztów z modelem 5D BIM, a nie z pośpiechu przy liczeniu.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
 ### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> Dokładność
 
-**Niezależni i Obiektywni**
+**Niezależnie i bez interesu w wyniku**
 
-Jako niezależni konsultanci kosztowi nie mamy motywacji do zawyżania lub zaniżania kosztów. Zapewniamy obiektywną analizę w waszym interesie. Nasz dorobek pokazuje dokładność prognoz w granicach ±2-3% po zakończeniu projektu, umożliwiając pewne podejmowanie decyzji przez całą budowę.
+Nie wykonujemy robót, które wyceniamy, więc nie mamy powodu, żeby zawyżać ani zaniżać kwoty. Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -556,32 +556,28 @@ Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem bud
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Darmowa Ocena Projektu</h3>
-<p style="color: var(--bim-white); margin: 0;">30-minutowa konsultacja na temat potrzeb kontroli kosztów</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Budżet bazowy, umowa i struktura kodów kosztowych. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Demo panelu w czasie rzeczywistym</h3>
-<p style="color: var(--bim-white); margin: 0;">Zobacz kontrolę kosztów w czasie rzeczywistym w akcji</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Niestandardowa Wycena</h3>
-<p style="color: var(--bim-white); margin: 0;">Dostosowane ceny dla projektu w ciągu 24 godzin</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Ocenę](../kontakt.qmd){.cta-primary}
-[Zobacz Demo](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>24-Godzinny Czas Realizacji Raportu</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>System Wczesnego Ostrzegania</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dostęp Do Panelu W Czasie Rzeczywistym</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Raport w 24 godziny od przesłania danych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Wczesne ostrzeganie przy progach budżetowych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dostęp do pulpitu z bieżącymi danymi</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

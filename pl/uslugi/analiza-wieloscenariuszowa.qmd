@@ -26,13 +26,13 @@ Zidentyfikuj optymalną wartość bez kompromisu w jakości.
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Porównania równoległe</strong> – oceń wiele opcji jednocześnie</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Matryca koszt-wydajność</strong> – równowaga między budżetem a funkcjonalnością</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Oszczędności 10-20%</strong> bez poświęcania jakości</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Jedna metodyka dla wszystkich wariantów</strong> – porównanie pozostaje ważne</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Analizę](../kontakt.qmd){.cta-primary}
-[Zobacz Studia Przypadków](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -58,9 +58,9 @@ Większość projektów bada tylko jedno rozwiązanie:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Koszt Ograniczonych Opcji
+#### Koszt ograniczonych opcji
 
-> "Projekty warte 60 mln PLN bez analizy scenariuszy zwykle przekraczają budżet o 15-25% w porównaniu do zoptymalizowanych wariantów. Najlepsze rozwiązanie rzadko jest pierwszym, które przychodzi do głowy."
+Jeżeli policzony zostaje tylko jeden wariant, nie wiadomo, ile kosztują pozostałe. Najlepsze rozwiązanie rzadko jest tym pierwszym, które przychodzi do głowy.
 :::
 :::
 
@@ -74,7 +74,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wymierne porównania** kosztów, czasu i wydajności</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja we wczesnej fazie** przed projektem szczegółowym</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Decyzje oparte na danych** z przejrzystymi kompromisami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **10-20% oszczędności** zidentyfikowane proaktywnie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Założenia opisane** przy każdym wariancie, nie ukryte w sumie</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Konsensus interesariuszy** poprzez przejrzystą analizę</p>
 :::
 :::
@@ -355,7 +355,7 @@ O: Możemy pracować ze szkicami koncepcyjnymi, schematami jednoliniowymi lub op
 **P: Jak dokładne są porównania kosztów?**
 :::
 ::: {.faq-answer}
-O: Na etapie koncepcyjnym (RIBA 2) oczekuj dokładności ±15-20% - wystarczającej do porównania scenariuszy. Na etapie koordynacji przestrzennej (RIBA 3) osiągamy ±10-15%. Kluczowe jest to, że wszystkie scenariusze używają spójnej metodologii, więc porównania względne pozostają ważne, nawet jeśli koszty bezwzględne mają margines.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Wszystkie scenariusze liczymy tą samą metodą, więc porównanie między nimi pozostaje ważne nawet wtedy, gdy dokumentacja jest jeszcze wczesna.
 :::
 :::
 
@@ -415,32 +415,28 @@ O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespó�
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poproś o Analizę</h3>
-<p style="color: var(--bim-white); margin: 0;">Zacznij od bezpłatnej konsultacji</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Rysunki, specyfikacja i lista wariantów. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz Studia Przypadków</h3>
-<p style="color: var(--bim-white); margin: 0;">Przejrzyj przykłady optymalizacji</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Szybką Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Otrzymaj ofertę w ciągu 24 godzin</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Poproś o Analizę](../kontakt.qmd){.cta-primary}
-[Zobacz Studia Przypadków](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>5-10 Scenariuszy Ocenianych Równolegle</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>7-Wskaźnikowy System Oceny</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>10-20% Zidentyfikowanych Oszczędności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Warianty liczone równolegle, jedną metodą</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Siedem kryteriów oceny w jednej matrycy</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Założenia wypisane, nie ukryte</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
 :::
 :::
 :::

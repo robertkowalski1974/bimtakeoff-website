@@ -1,6 +1,6 @@
 ---
 title: "Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik"
-description: "Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie."
+description: "Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, skracając przedmiar z tygodni do dni."
 page-layout: full
 date: "2026-04-06"
 author: "Robert Kowalski"
@@ -40,7 +40,7 @@ Jak modelowanie informacji o budynku (BIM) transformuje kosztorysowanie z tygodn
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Kosztorysowanie BIM 5D** to proces ekstrakcji dokładnych ilości materiałów z modelu BIM (Building Information Model) i łączenia ich z bazami kosztowymi oraz harmonogramami budowy w celu opracowania kompleksowych budżetów projektów. "5D" odnosi się do pięciu wymiarów BIM: trzech wymiarów przestrzennych (geometria 3D), czwartego wymiaru (czas/harmonogramowanie) i piątego wymiaru (koszt). Kosztorysowanie BIM 5D zapewnia typową dokładność +/-5% w ciągu 3-5 dni, w porównaniu z dokładnością +/-15-20% w ciągu 6-8 tygodni przy zastosowaniu tradycyjnych metod kosztorysowania na podstawie dokumentacji 2D.
+**Kosztorysowanie BIM 5D** to proces ekstrakcji dokładnych ilości materiałów z modelu BIM (Building Information Model) i łączenia ich z bazami kosztowymi oraz harmonogramami budowy w celu opracowania kompleksowych budżetów projektów. „5D" odnosi się do pięciu wymiarów BIM: trzech wymiarów przestrzennych (geometria 3D), czwartego wymiaru (czas i harmonogramowanie) i piątego wymiaru (koszt). Ilości pochodzą wprost z modelu, więc przedmiar dla typowego projektu powstaje w ciągu 3–5 dni roboczych zamiast tygodni ręcznego pomiaru z dokumentacji 2D.
 
 </div>
 
@@ -76,7 +76,7 @@ Fundament BIM. Model 3D BIM zawiera każdy element budynku---ściany, stropy, da
 
 ## Proces kosztorysowania BIM 5D
 
-Proces kosztorysowania BIM 5D przebiega według ustrukturyzowanego schematu łączącego automatyczną ekstrakcję z nadzorem profesjonalnym. Poniżej przedstawiamy metodologię stosowaną przez BIM Takeoff, wypracowaną na ponad 2000 projektach w Wielkiej Brytanii, Australii i Polsce.
+Proces kosztorysowania BIM 5D przebiega według ustrukturyzowanego schematu łączącego automatyczną ekstrakcję z nadzorem profesjonalnym. Poniżej przedstawiamy metodykę stosowaną przez BIM Takeoff na rynku brytyjskim, australijskim i polskim.
 
 ### Krok 1: Odbiór i audyt modelu BIM
 
@@ -117,11 +117,11 @@ Każdy element modelu otrzymuje stawkę jednostkową (koszt za m^2^, za m^3^, za
 
 ### Krok 4: Przegląd ekspercki i walidacja
 
-Automatyczna ekstrakcja jest wiarygodna jedynie w takim stopniu, w jakim wiarygodny jest model i zastosowane stawki. BIM Takeoff stosuje potrójną walidację:
+Automatyczna ekstrakcja jest wiarygodna jedynie w takim stopniu, w jakim wiarygodny jest model i zastosowane stawki. Dlatego wynik oprogramowania przechodzi przez kolejne kontrole:
 
-1. **Kontrole algorytmiczne**: Oprogramowanie sygnalizuje anomalie---ilości wykraczające poza oczekiwane zakresy, brakujące elementy, odstające stawki jednostkowe
-2. **Przegląd ekspercki**: Wykwalifikowany kosztorysant weryfikuje każdy plan kosztowy, sprawdzając logikę pomiarów, adekwatność stawek i kompletność zakresu w odniesieniu do zamierzenia projektowego
-3. **Porównanie benchmarkowe**: Kosztorys jest porównywany z benchmarkami BCIS, Sekocenbud lub benchmarkami specyficznymi dla projektu, uwzględniając typ budynku, wielkość i lokalizację
+- **Kontrole algorytmiczne**: Oprogramowanie sygnalizuje anomalie---ilości wykraczające poza oczekiwane zakresy, brakujące elementy, odstające stawki jednostkowe
+- **Przegląd kosztorysanta**: Sprawdzamy logikę pomiarów, adekwatność stawek i kompletność zakresu w odniesieniu do zamierzenia projektowego
+- **Porównanie benchmarkowe**: Kosztorys jest porównywany z benchmarkami BCIS, Sekocenbud lub benchmarkami specyficznymi dla projektu, uwzględniając typ budynku, wielkość i lokalizację
 
 Ta warstwa walidacyjna odróżnia profesjonalne kosztorysowanie BIM 5D od surowego wyniku oprogramowania. Technologia wykonuje pomiary; profesjonalista zapewnia osąd.
 
@@ -138,13 +138,13 @@ Raporty są dostarczane w formacie Excel, PDF lub integrowane bezpośrednio z pl
 
 ## Korzyści z kosztorysowania BIM 5D
 
-### Szybkość: 90-95% szybciej niż metody tradycyjne
+### Szybkość: dni zamiast tygodni
 
-Tradycyjny przedmiar 2D dla średniej wielkości budynku komercyjnego (5 000-10 000 m^2^) wymaga typowo 6-8 tygodni. Ekstrakcja BIM 5D dla tego samego projektu zajmuje 3-5 dni roboczych. Dla powtarzalnych typów budynków (hale magazynowe, bloki mieszkalne) proces może trwać zaledwie 1-2 dni po ustaleniu szablonu kosztowego.
+Ręczny przedmiar 2D dla średniej wielkości budynku komercyjnego (5 000–10 000 m^2^) zajmuje tygodnie. Ekstrakcja BIM 5D dla tego samego projektu zajmuje 3–5 dni roboczych. Dla powtarzalnych typów budynków (hale magazynowe, bloki mieszkalne) proces może trwać 1–2 dni po ustaleniu szablonu kosztowego.
 
-### Dokładność: +/-5% na etapie projektu szczegółowego
+### Ilości wprost z modelu
 
-Badania konsekwentnie wykazują, że kosztorysy oparte na BIM osiągają wyższą dokładność niż metody tradycyjne. Na etapie projektu technicznego kosztorysy BIM 5D typowo osiągają dokładność +/-5% w porównaniu z rozliczeniem końcowym, wobec +/-15-20% dla metod tradycyjnych na tym samym etapie. Redukcja tej wariancji bezpośrednio zmniejsza ryzyko przekroczeń budżetowych.
+Każda pozycja przedmiaru jest powiązana z konkretnym elementem modelu, więc nie ma miejsca na przeoczoną ścianę czy podwójnie policzoną powierzchnię. To, czego model nie zawiera, uzupełniamy z rysunków 2D i specyfikacji i opisujemy jako założenie, zamiast domykać kosztorys narzutem.
 
 Program badawczy Oxford Global Projects (Flyvbjerg, 2023) wykazał, że 62% projektów budowlanych na świecie doświadcza przekroczenia kosztów, ze średnim przekroczeniem na poziomie 40% pierwotnego budżetu. Poprawa dokładności kosztorysowania na etapie przygotowania inwestycji jest jedną z najskuteczniejszych interwencji przeciwdziałających temu systemowemu problemowi.
 
@@ -194,7 +194,7 @@ Sekocenbud (wydawnictwo Ośrodka Wdrożeń Ekonomiczno-Organizacyjnych Budownict
 
 ### Nadzór profesjonalny RICS
 
-Niezależnie od zastosowanej technologii, profesjonalne kosztorysy w Wielkiej Brytanii i na arenie międzynarodowej podlegają standardom zawodowym RICS. RICS wymaga, aby wyniki automatyczne i oparte na AI podlegały przeglądowi i zatwierdzeniu przez wykwalifikowanego kosztorysanta.
+Niezależnie od zastosowanej technologii, profesjonalne kosztorysy w Wielkiej Brytanii i na arenie międzynarodowej podlegają standardom zawodowym RICS. RICS wymaga, aby wyniki automatyczne podlegały przeglądowi i zatwierdzeniu przez wykwalifikowanego kosztorysanta.
 
 ## Oprogramowanie i narzędzia
 
@@ -255,7 +255,7 @@ Klienci sektora publicznego wykorzystują BIM 5D do obiektywnej oceny ofert prze
 **P: Jaka jest dokładność kosztorysowania BIM 5D?**
 :::
 ::: {.faq-answer}
-O: Kosztorysowanie BIM 5D typowo osiąga dokładność +/-5% na etapie projektu szczegółowego, w porównaniu z +/-15-20% dla tradycyjnych metod 2D na tym samym etapie. Dokładność zależy od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje najlepsze wyniki. Na wcześniejszych etapach projektowania (LOD 200) BIM 5D osiąga dokładność +/-10-15%, co wciąż przewyższa metody tradycyjne na tym samym etapie. Wszystkie kosztorysy są walidowane przez wykwalifikowanych kosztorysantów w odniesieniu do benchmarków BCIS i Sekocenbud.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Jakość wyniku zależy przede wszystkim od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje pozycje gotowe do wyceny, natomiast model LOD 200 na wczesnym etapie projektowania nadaje się do szacunku kosztowego, a nie do przedmiaru przetargowego. Każdy kosztorys porównujemy z benchmarkami BCIS i Sekocenbud.
 :::
 :::
 
@@ -273,7 +273,7 @@ O: Preferowany format to IFC (Industry Foundation Classes, ISO 16739)---otwarty 
 **P: Ile czasu zajmuje kosztorysowanie BIM 5D?**
 :::
 ::: {.faq-answer}
-O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m^2^) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1-2 dni po ustaleniu szablonu kosztowego. Dla porównania, tradycyjny przedmiar 2D dla tych samych projektów wymaga typowo 6-8 tygodni.
+O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m^2^) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1–2 dni po ustaleniu szablonu kosztowego. Ręczny przedmiar 2D dla tych samych projektów zajmuje tygodnie.
 :::
 :::
 
@@ -291,7 +291,7 @@ O: Tak, choć największe korzyści efektywnościowe występują przy średnich 
 **P: Jak kosztorysowanie BIM 5D wypada w porównaniu z tradycyjnym kosztorysowaniem?**
 :::
 ::: {.faq-answer}
-O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe---plany kosztowe, przedmiary robót, szacunki budżetowe---ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (3-5 dni vs. 6-8 tygodni), dokładność (+/-5% vs. +/-15-20%), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu vs. ręczny ponowny pomiar). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą.
+O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe---plany kosztowe, przedmiary robót, szacunki budżetowe---ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (dni zamiast tygodni), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu zamiast ręcznego ponownego pomiaru). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą.
 :::
 :::
 
@@ -300,7 +300,7 @@ O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe---plany k
 **P: Jaki jest koszt kosztorysowania BIM 5D?**
 :::
 ::: {.faq-answer}
-O: Wynagrodzenie zależy od wielkości projektu, złożoności i zakresu wymaganych produktów. Kosztorysowanie BIM 5D jest zazwyczaj wyceniane jako stałe wynagrodzenie za projekt, na podstawie powierzchni użytkowej brutto (PUB) i liczby elementów budowlanych. W przypadku większości projektów wynagrodzenie za BIM 5D jest porównywalne lub niższe od wynagrodzenia za tradycyjne kosztorysowanie, ponieważ proces wymaga mniejszej liczby godzin pracy. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) są wyceniane osobno. Prosimy o kontakt z BIM Takeoff w celu uzyskania indywidualnej wyceny dostosowanej do wymagań Państwa projektu.
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają wielkość projektu, jego złożoność oraz zakres wymaganych opracowań. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) wyceniamy osobno. Prosimy o przesłanie dokumentacji - odpowiadamy w ciągu jednego dnia roboczego.
 :::
 :::
 :::
@@ -311,36 +311,35 @@ O: Wynagrodzenie zależy od wielkości projektu, złożoności i zakresu wymagan
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Gotowi na przejście z tygodni do dni?</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff dostarczył ponad 2000 planów kosztowych BIM 5D w Wielkiej Brytanii, Australii i Polsce. Nasi kosztorysanci łączą 20 lat międzynarodowego doświadczenia z zaawansowaną technologią BIM, aby dostarczać kosztorysy dokładne, audytowalne i szybkie.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">BIM Takeoff mierzy przedmiary i wydaje kosztorysy dla wykonawców i podwykonawców w Wielkiej Brytanii, Australii i Polsce. Prześlij dokumentację, a odeślemy pozycje z ilościami, stawkami i wypisanymi założeniami.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna 30-minutowa konsultacja</h3>
-<p style="color: var(--bim-white); margin: 0;">Omów wymagania projektu i uzyskaj wstępny harmonogram</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Prześlij fragment dokumentacji, zmierzymy go bez opłaty</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Poznaj nasze usługi</h3>
-<p style="color: var(--bim-white); margin: 0;">Zapoznaj się z pełną ofertą usług kosztorysowania BIM 5D i quantity surveying</p>
+<p style="color: var(--bim-white); margin: 0;">Zapoznaj się z pełną ofertą kosztorysowania BIM 5D i przedmiarów robót</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Wycena projektu</h3>
-<p style="color: var(--bim-white); margin: 0;">Indywidualne wyceny w ciągu 24 godzin, dostosowane do projektu</p>
+<p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu jednego dnia roboczego</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów bezpłatną konsultację](../kontakt.qmd){.cta-primary}
-[Poznaj usługi](../uslugi/kosztorysowanie-i-planowanie-budzetu.qmd){.cta-secondary}
-[Uzyskaj wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Wykwalifikowani kosztorysanci</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Pomiar zgodny z NRM2 i KNR/KNNR</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zgodność z ISO 19650</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Ponad 2000 zrealizowanych projektów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Rynki: Wielka Brytania, Australia, Polska</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Widoczne ilości, stawki i założenia</strong></p>
 :::
 :::
 :::

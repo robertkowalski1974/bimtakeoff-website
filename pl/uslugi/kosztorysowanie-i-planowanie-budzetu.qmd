@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM"
+title: "Kosztorys ofertowy i planowanie budżetu"
+description: "Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy."
 page-layout: full
-
 ---
 
 ::: {.hero-section}
@@ -14,26 +14,25 @@ page-layout: full
 
 ::: {.container}
 ::: {.hero-title}
-# Profesjonalne Kosztorysowanie i Planowanie Budżetu
-### 20 lat doświadczenia z UK i Australii - teraz w Polsce
+# Kosztorys ofertowy i planowanie budżetu
+### Dwadzieścia lat kosztorysów w Polsce, Wielkiej Brytanii i Australii
 :::
 
 ::: {.hero-subtitle}
-Zmień proces kosztorysowania z 6 tygodni na 3 dni.  
-Dokładność ±5%.
+Kosztorys ofertowy z Twojego przedmiaru, rysunków lub modelu BIM, sprawdzony ręcznie ze specyfikacją przed złożeniem oferty.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Kosztorys ofertowy</strong> z narzutami, zestawieniem RMS i tabelą elementów scalonych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Kosztorys inwestorski</strong> dla zamawiającego publicznego, zgodnie z rozporządzeniem</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Format, którego wymaga zamawiający</strong> — Norma PRO, Zuzia, ATH lub Excel</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Darmową Konsultację](../kontakt.qmd){.cta-primary}
-[Sprawdź Ofertę](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -42,306 +41,233 @@ Dokładność ±5%.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Kosztorysowanie BIM 5D** to proces pozyskiwania precyzyjnych danych ilościowych z modeli BIM i łączenia ich z bazami kosztowymi oraz harmonogramami w celu opracowania kompleksowych budżetów budowlanych. W przeciwieństwie do tradycyjnych metod 2D, które zazwyczaj osiągają dokładność +/-15-20% w ciągu 6-8 tygodni, kosztorysowanie BIM 5D zapewnia dokładność +/-5% w 3-5 dni dzięki automatycznemu pomiarowi ilości z modelu 3D i połączeniu ich z 4. wymiarem (czas) i 5. wymiarem (koszt). BIM Takeoff zrealizował ponad 2000 kosztorysów BIM 5D w UK, Australii i Polsce.
+**Kosztorys** to przedmiar robót pomnożony przez ceny: pozycje z podstawą nakładów (najczęściej KNR lub KNNR), ilości, ceny jednostkowe, narzuty i zestawienie robocizny, materiałów i sprzętu. **Przedmiar** to same ilości, wyliczone z dokumentacji projektowej przed rozpoczęciem robót; **obmiar** to ilości robót już wykonanych, mierzone na budowie. Kosztorysowanie BIM 5D oznacza tylko tyle, że ilości do przedmiaru pobieramy z modelu, zamiast mierzyć je wyłącznie z rysunków — pozycje, ceny i narzuty powstają tak samo.
 
 </div>
 
-## Koszt Przestarzałych Metod Kosztorysowania
+## Gdzie kosztorysy przestają się zgadzać
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;"}
 
 ::: {style=""}
 ### Problem
 
-Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:
-
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 6-8 tygodni na szczegółowy kosztorys</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Margines błędu ±15-20%</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Błędy manualne i pominięte pozycje</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Rozproszone dane w wielu arkuszach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Przedmiar zamawiającego nie zgadza się z rysunkami, a pytania trzeba złożyć w terminie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pozycje bez podstawy nakładów, których nie da się porównać z ofertą konkurencji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Roboty z pogranicza dwóch branż, których nie policzył nikt</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Zmiana projektu na dwa dni przed terminem składania ofert</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Założenia przyjęte w cenach, których nikt nie zapisał</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Rzeczywisty Wpływ
+#### Co to kosztuje
 
-> "Dla magazynu 50,000 mkw, przekroczenie kosztów o 15% oznacza **różnicę między projektem zyskownym a przynoszącym straty**.  
-> To może całkowicie zmienić opłacalność Twojego projektu."
+> Pozycja pominięta w kosztorysie ofertowym nie znika. Wraca jako robota do wykonania za cenę, której nikt nie przewidział w ofercie.
 :::
 :::
 
 ::: {style=""}
-### Nasze Rozwiązanie
-
-Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i czasu:
+### Co robimy
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3 dni** na kompletny kosztorys</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Dokładność **±5%**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Automatyczne przedmiary z modelu BIM</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Natychmiastowa wycena wpływu zmian projektowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zintegrowane dane w jednym inteligentnym systemie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Przedmiar sprawdzony z rysunkami i specyfikacją, z wykazem założeń</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Kosztorys z podstawą nakładów, narzutami i zestawieniem RMS</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Rejestr pytań do zamawiającego, złożony przed upływem terminu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Wycena wpływu zmiany projektowej na ofertę</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Plik w formacie, w którym pracuje Twój dział ofertowy</p>
 :::
 :::
 
 :::
 
-## Nasz Sprawdzony 5-Etapowy Proces
+## Jak pracujemy
 
 ::: {.process-steps}
 ::: {.process-step}
-#### Wstępna Konsultacja i Analiza Projektu
+#### Dokumentacja i zakres
 
-**Czas trwania:** 1-2 dni
+**Czas trwania:** 1 dzień roboczy
 
 **Co robimy:**
 
-- Przegląd dokumentacji projektowej
-- Zrozumienie wymagań i ograniczeń
-- Ocena złożoności projektu i ryzyk
-- Określenie zakresu i rezultatów
+- Czytamy projekt, specyfikację i przedmiar zamawiającego
+- Ustalamy, co wchodzi w zakres, a co zostaje po stronie innych branż
+- Wskazujemy braki w dokumentacji, które wpłyną na cenę
 
-**Twoja Inwestycja:** Darmowa konsultacja (30-60 min)
+**Cena:** Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 :::
 
 ::: {.process-step}
-#### Integracja Modelu BIM
+#### Przedmiar
 
-**Czas trwania:** 1-2 dni
+**Czas trwania:** zależnie od wielkości pakietu
 
 **Co robimy:**
 
-- Wczytanie plików IFC z Revit, ArchiCAD lub Tekla
-- Walidacja dokładności i kompletności modelu
-- Konfiguracja środowiska 5D BIM
-- Połączenie baz danych kosztowych
+- Mierzymy ilości z rysunków 2D, plików DWG lub modelu IFC
+- Sprawdzamy ilości z modelu ręcznie z rysunkami
+- Zapisujemy założenia tam, gdzie dokumentacja jest niekompletna
 
-**Rezultat:** Zwalidowany model 5D BIM
+**Rezultat:** Przedmiar robót z wykazem założeń
 :::
 
 ::: {.process-step}
-#### Automatyczny Przedmiar
+#### Wycena
 
-**Czas trwania:** 1-2 dni
+**Czas trwania:** zależnie od wielkości pakietu
 
 **Co robimy:**
 
-- Automatyczna ekstrakcja ilości z modelu BIM
-- Weryfikacja krzyżowa z rysunkami 2D
-- Identyfikacja rozbieżności lub brakujących elementów
-- Generowanie szczegółowego przedmiaru robót
+- Dobieramy podstawy nakładów (KNR, KNNR lub kalkulacja własna)
+- Wprowadzamy ceny — Twoje lub z bazy Sekocenbud
+- Uzgadniamy narzuty: koszty pośrednie, zysk, koszty zakupu
 
-**Rezultat:** Kompleksowy przedmiar z obmiarami
+**Rezultat:** Kosztorys ofertowy z zestawieniem RMS
 :::
 
 ::: {.process-step}
-#### Kosztorysowanie i Analiza
+#### Sprawdzenie i wydanie
 
-**Czas trwania:** 2-3 dni
-
-**Co robimy:**
-
-- Zastosowanie aktualnych stawek rynkowych
-- Uwzględnienie ryzyk specyficznych dla projektu
-- Analiza wielowariantowa kosztów
-- Rekomendacje optymalizacji wartości
-
-**Rezultat:** Szczegółowy kosztorys z rozbiciem
-:::
-
-::: {.process-step}
-#### Planowanie Budżetu i Raportowanie
-
-**Czas trwania:** 1 dzień
+**Czas trwania:** 1 dzień roboczy
 
 **Co robimy:**
 
-- Opracowanie projekcji przepływów pieniężnych
-- Utworzenie alokacji budżetu wg faz
-- Przygotowanie kompleksowego raportu kosztowego
-- Prezentacja wyników i rekomendacji
+- Porównujemy kosztorys ze specyfikacją pozycja po pozycji
+- Zestawiamy tabelę elementów scalonych
+- Wydajemy plik w formacie, którego wymaga zamawiający, oraz w PDF
 
-**Rezultat:** Streszczenie wykonawcze + szczegółowy raport
+**Rezultat:** Kosztorys gotowy do złożenia wraz z wykazem założeń
 :::
 :::
 
-::: {style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;"}
-**Całkowity Czas:** 6-10 dni roboczych  
-**Całkowity Czas Projektu:** Zazwyczaj 2-3 tygodnie od początku do końca
-:::
-
-## 6 Kluczowych Korzyści Transformujących Twoje Projekty
+## Co dostajesz
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Szybkość: 90-95% Szybciej
+### <i class="bi bi-list-ol" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kosztorys z podstawą nakładów
 
-**Tradycyjna metoda:** 6-8 tygodni  
-**Nasza metoda 5D BIM:** 3-10 dni  
-**Aktualizacje w czasie rzeczywistym** w ciągu godzin
+Pozycje z KNR lub KNNR, kalkulacje własne tam, gdzie katalog nie ma pozycji. Każda kalkulacja własna opisana.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Dokładność: ±5%
+### <i class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Format, którego wymaga zamawiający
 
-**Tradycyjne marginesy:** ±15-20%  
-**Nasza dokładność:** ±5% lub lepsza  
-**Potwierdzone** 20-letnim doświadczeniem
+Norma PRO, Zuzia, plik ATH, formularz cenowy w Excelu albo układ Twojego działu ofertowego.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kompleksowość: Nic Nie Pominięte
+### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Wykaz założeń
 
-Automatyczna ekstrakcja z BIM  
-Weryfikacja z rysunkami  
-Wszystkie branże uwzględnione
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przejrzystość: Pełna Alokacja Kosztów
+### <i class="bi bi-question-circle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Rejestr pytań
 
-Interaktywny model kosztowy 3D  
-Szczegóły każdego elementu  
-Zobacz gdzie każda złotówka jest wydawana
-:::
-
-::: {.feature-card}
-### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Elastyczność: Analiza Wielowariantowa
-
-Porównanie alternatyw projektowych  
-Testowanie różnych materiałów  
-Podejmowanie świadomych decyzji
-:::
-
-::: {.feature-card}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Integracja: Łączy Wszystko
-
-Model 3D + koszty + harmonogram  
-Wpływ zmian projektowych w czasie rzeczywistym  
-Bieżące wsparcie
+Rozbieżności między rysunkami, specyfikacją i przedmiarem zbieramy w jedno pismo do zamawiającego.
 :::
 :::
 
+## Kosztorys inwestorski {#inwestorski}
 
+Kosztorys inwestorski to dokument zamawiającego, nie wykonawcy. Służy do ustalenia wartości zamówienia na roboty budowlane przed wszczęciem postępowania i sporządza się go zgodnie z rozporządzeniem w sprawie określenia metod i podstaw sporządzania kosztorysu inwestorskiego.
 
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 32px 0; align-items: start;"}
 
+::: {style=""}
+### Kto go potrzebuje
 
-## Najczęściej Zadawane Pytania
+- Zamawiający publiczni prowadzący postępowanie na roboty budowlane w trybie ustawy Prawo zamówień publicznych
+- Jednostki samorządu i ich spółki, które muszą udokumentować wartość szacunkową zamówienia
+- Inwestorzy i zarządcy nieruchomości, którzy rozliczają dofinansowanie lub kredyt i muszą wykazać, skąd wzięła się kwota
+- Inwestorzy prywatni, którzy chcą wiedzieć, czy oferty, jakie dostali, mieszczą się w rozsądnym przedziale
+:::
+
+::: {style=""}
+### Co dostajesz
+
+- Przedmiar robót sporządzony z dokumentacji projektowej i specyfikacji technicznej
+- Kosztorys inwestorski metodą uproszczoną lub szczegółową, zależnie od tego, czym dysponujesz
+- Założenia wyjściowe do kosztorysowania, opisane, a nie domyślne
+- Tabela elementów scalonych i zestawienie robocizny, materiałów i sprzętu
+- Plik w Normie PRO lub Zuzi, plik ATH do wymiany danych oraz wersja PDF do akt postępowania
+:::
+
+:::
+
+Kosztorys inwestorski i kosztorys ofertowy sporządzamy dla różnych stron tego samego postępowania, więc nie wykonujemy obu w jednym przetargu. Jeśli pracujemy dla zamawiającego, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
+
+## Najczęściej zadawane pytania
 
 ::: {.faq-section}
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jakie informacje są potrzebne do przygotowania kosztorysu?**
+**P: Czego potrzebujecie, żeby sporządzić kosztorys?**
 :::
 ::: {.faq-answer}
-O: Idealnie model BIM (plik IFC). Jeśli niedostępny, pracujemy z rysunkami 2D + specyfikacjami (terminy mogą wydłużyć się o 2-3 dni).
+O: Rysunków w PDF lub DWG i specyfikacji technicznej. Jeśli zamawiający wydał przedmiar, prześlij go razem z dokumentacją — sprawdzimy go z rysunkami. Model IFC z Revita, ArchiCAD-a lub Tekli przyspiesza pomiar, ale nie jest potrzebny.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jak dokładne są Wasze kosztorysy?**
+**P: Jak dokładne są ilości?**
 :::
 ::: {.faq-answer}
-O: Nasze kosztorysy 5D BIM osiągają dokładność ±5% vs ±15-20% tradycyjnych metod. Potwierdzone 20-letnim doświadczeniem i 2000+ projektami.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy pracujecie z projektami już w budowie?**
+**P: W jakich programach kosztorysowych pracujecie?**
 :::
 ::: {.faq-answer}
-O: Tak! Zapewniamy bieżącą kontrolę kosztów obejmującą cotygodniowe raporty, analizę zamówień dodatkowych i śledzenie budżetu.
+O: Wydajemy pliki do Normy PRO i Zuzi, plik wymiany ATH, formularz cenowy w Excelu oraz PDF. Powiedz, w czym pracuje Twój kosztorysant, a w tym wydamy.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Czy można zintegrować z naszym istniejącym oprogramowaniem?**
+**P: Czy wyceniacie roboty już rozpoczęte?**
 :::
 ::: {.faq-answer}
-O: Tak, eksportujemy do Excel, MS Project, Primavera P6 i większości platform zarządzania kosztami.
+O: Tak. Do rozliczenia robót wykonanych sporządzamy obmiar, czyli ilości zmierzone na budowie, a nie przedmiar z dokumentacji. Te dwa dokumenty prowadzimy osobno.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**P: Jakie wielkości projektów obsługujecie?**
+**P: Ile to kosztuje?**
 :::
 ::: {.faq-answer}
-O: Obsługujemy projekty różnej skali - od małych adaptacji po duże centra logistyczne i kompleksy mieszkaniowe. Każdy projekt traktujemy indywidualnie.
-:::
-:::
-
-
-
-::: {.faq-item}
-::: {.faq-question}
-**P: Jak wypadają Wasze honoraria w porównaniu z konkurencją?**
-:::
-::: {.faq-answer}
-O: Konkurencyjne z tradycyjnymi firmami, ale znacznie szybsza realizacja (dni vs tygodnie) i lepsza dokładność (±5% vs ±15%).
-:::
-:::
-
-::: {.faq-item}
-::: {.faq-question}
-**P: Czy przygotowujecie kosztorysy do przetargów?**
-:::
-::: {.faq-answer}
-O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Przedmiar → Kosztorys → Oferta → Negocjacje. Kompleksowe wsparcie na każdym etapie.
+O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 :::
 :::
 :::
 
-## Gotowy na Transformację Kosztorysowania?
+## Prześlij dokumentację do najbliższego przetargu
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Nie Pozwól Przestarzałym Metodom Opóźniać Projektu</h2>
+<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Kosztorys w formacie, którego wymaga zamawiający</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Dołącz do 2000+ udanych projektów, które wybrały precyzję zamiast zgadywania.</p>
-
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Darmowa 30-Min Konsultacja</h3>
-<p style="color: var(--bim-white); margin: 0;">Omówienie wymagań, wstępny harmonogram</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Sprawdź Naszą Ofertę</h3>
-<p style="color: var(--bim-white); margin: 0;">Szczegółowe informacje o naszych usługach i podejściu</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">2-min formularz, wycena w 24h</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Prześlij jeden pakiet i zobacz, co wraca. W ciągu jednego dnia roboczego potwierdzamy zakres, stałą cenę i termin.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Zaplanuj Darmową Konsultację](../kontakt.qmd){.cta-primary}
-[Pobierz Przewodnik BIM](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
-:::
-
-::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Partnerzy Państwa Sukcesu</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Bezproblemowy Zespół Ekspertów</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia</strong></p>
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
 
 ::: {style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;"}
-### Potrzebujesz Pomocy Teraz?
+### Potrzebujesz odpowiedzi dzisiaj?
 
-**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
 
-**Godziny Pracy:** Poniedziałek-Piątek, 9:00-17:00 CET
+**Godziny pracy:** poniedziałek–piątek, 9:00–19:00 czasu polskiego
 :::
 
 :::

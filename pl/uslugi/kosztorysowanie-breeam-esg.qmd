@@ -18,8 +18,8 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Dokładne modelowanie kosztów dla certyfikacji zielonych budynków.  
-Optymalizuj inwestycje w zrównoważony rozwój z dokładnością ±5%.
+Modelowanie kosztów dla certyfikacji zielonych budynków.  
+Wyceniamy punkt po punkcie, z wypisanymi założeniami.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
@@ -31,8 +31,8 @@ Optymalizuj inwestycje w zrównoważony rozwój z dokładnością ±5%.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Ocenę Zrównoważoności](../kontakt.qmd){.cta-primary}
-[Zobacz Zielone Projekty](../coming-soon.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -58,22 +58,22 @@ Elementy zrównoważoności są często postrzegane jako dodatkowe koszty bez wy
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### Rzeczywisty Koszt
+#### Rzeczywisty koszt
 
-> "Bez dokładnego modelowania kosztów zrównoważoności, projekty albo przekraczają budżet przy podstawowej zgodności, albo nie spełniają zobowiązań ESG. Oba scenariusze szkodzą zaufaniu inwestorów i konkurencyjności rynkowej."
+Bez policzonych kosztów zrównoważoności projekt albo przekracza budżet przy podstawowej zgodności, albo nie dotrzymuje zobowiązań ESG. Obie sytuacje kosztują w rozmowie z inwestorem.
 :::
 :::
 
 ::: {style=""}
 ### Nasze Rozwiązanie Oparte na Dowodach
 
-Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w zrównoważoność:
+Szczegółowe modelowanie kosztów, które pokazuje, co kosztuje każdy punkt. Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowe kosztorysowanie punktowe** dla BREEAM/LEED/WELL</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **30-letnia analiza cyklu życia** z oszczędnościami operacyjnymi</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie emisji wbudowanej** (tCO2e)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Scenariusze ceny emisji CO2 (200-600 PLN/tonę)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Scenariusze ceny emisji CO2 według bieżących notowań i prognoz</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zestawienia kosztów gotowe do raportowania ESG</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Optymalizacja wartości zachowująca cele zrównoważoności</p>
 :::
@@ -97,7 +97,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 - Środki efektywności wodnej
 - Punkty po budowie
 
-**Typowa Premia:** 2-8% w zależności od docelowej oceny
+**Zakres:** premia kosztowa liczona dla docelowej oceny, punkt po punkcie
 :::
 
 ::: {.feature-card}
@@ -113,7 +113,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 - Przyszły podatek od emisji CO2
 - Scenariusze dekarbonizacji sieci
 
-**Analiza zwrotu z inwestycji:** okres zwrotu 5-15 lat
+**Analiza zwrotu z inwestycji:** okres zwrotu liczony dla przyjętych scenariuszy
 :::
 
 ::: {.feature-card}
@@ -353,7 +353,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 **P: Jaka jest typowa premia kosztowa dla BREEAM Excellent vs Good?**
 :::
 ::: {.faq-answer}
-O: W oparciu o nasze doświadczenie, BREEAM Excellent dodaje 3-5% do kosztów budowy vs BREEAM Good, podczas gdy Outstanding dodaje 6-8%, ale różni się to znacząco w zależności od typu budynku, skali i specyfikacji bazowej. Nasze modelowanie dostarcza dane specyficzne dla projektu z zestawieniem punkt po punkcie, pomagając określić najbardziej opłacalny poziom oceny.
+O: Różnica zależy od typu budynku, skali i specyfikacji bazowej, więc nie podajemy jednej liczby dla wszystkich projektów. Liczymy premię kosztową dla konkretnego projektu, punkt po punkcie, żeby było widać, który poziom oceny jest osiągalny w budżecie.
 :::
 :::
 
@@ -362,7 +362,7 @@ O: W oparciu o nasze doświadczenie, BREEAM Excellent dodaje 3-5% do kosztów bu
 **P: Jak obliczacie koszty emisji CO2?**
 :::
 ::: {.faq-answer}
-O: Korzystamy z kompleksowych baz danych emisji (ICE, EPD) do obliczenia kgCO2e na materiał/element. Przeliczamy to na koszty przy użyciu bieżącej i przewidywanej ceny emisji CO2 (scenariusze 200-600 PLN/tonę). Oceniamy zarówno emisję wbudowaną początkową (materiały, budowa), jak i emisję w całym cyklu życia (konserwacja, wymiana, koniec życia), aby uzyskać pełny obraz.
+O: Korzystamy z baz danych emisji (ICE, EPD) do obliczenia kgCO2e na materiał lub element. Przeliczamy to na koszty przy użyciu bieżącej i prognozowanej ceny emisji CO2, w kilku scenariuszach cenowych. Oceniamy zarówno emisję wbudowaną początkową (materiały, budowa), jak i emisję w całym cyklu życia (konserwacja, wymiana, koniec życia), aby uzyskać pełny obraz.
 :::
 :::
 
@@ -389,7 +389,7 @@ O: Tak, oczywiście. Wiele projektów dąży do BREEAM + WELL, lub LEED + Net Ze
 **P: Jak radzicie sobie z niepewnością przyszłych cen emisji?**
 :::
 ::: {.faq-answer}
-O: Modelujemy wiele scenariuszy (konserwatywny 200 PLN/tonę, średni 400 PLN/tonę, optymistyczny 600 PLN/tonę) na podstawie trendów UK ETS i prognoz polityki. Dzięki temu pokazujemy zakres ryzyka zamiast pojedynczej wartości, pozwalając na świadome podejmowanie decyzji w warunkach niepewności. Aktualizujemy scenariusze w miarę rozwoju polityki.
+O: Modelujemy kilka scenariuszy cenowych – konserwatywny, średni i wysoki – na podstawie notowań EU ETS i zapowiedzi regulacyjnych. Pokazujemy zakres ryzyka zamiast jednej wartości, a scenariusze aktualizujemy, gdy zmienia się rynek.
 :::
 :::
 
@@ -416,54 +416,11 @@ O: Nasze podejście do optymalizacji wartości priorytetyzuje redukcje kosztów,
 **P: Jak wyceniacie zgodność raportowania ESG?**
 :::
 ::: {.faq-answer}
-O: Koszty raportowania ESG obejmują: systemy zbierania danych, urządzenia monitorujące, weryfikację zewnętrzną, przygotowanie rocznych raportów i utrzymanie certyfikacji. Modelujemy je jako koszty operacyjne (20-200 tys. PLN rocznie w zależności od wymogów) i uwzględniamy w analizie kosztów całego cyklu życia.
+O: Koszty raportowania ESG obejmują: systemy zbierania danych, urządzenia monitorujące, weryfikację zewnętrzną, przygotowanie rocznych raportów i utrzymanie certyfikacji. Modelujemy je jako koszty operacyjne w skali roku i uwzględniamy w analizie kosztów całego cyklu życia.
 :::
 :::
 :::
 
-## Rzeczywisty Wpływ: Koszt vs Wartość
-
-::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
-
-### Inwestycje w ekologię się opłacają
-
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### Wymagana Inwestycja
-
-**Biuro BREEAM Excellent (10 000 m²)**
-
-- Dodatkowy koszt kapitałowy: **1,6 mln PLN** (4% premia)
-- Ulepszone systemy M&E: 800 tys. PLN
-- Zrównoważone materiały: 480 tys. PLN
-- Systemy wody/odpadów: 200 tys. PLN
-- Rozruch/monitorowanie: 120 tys. PLN
-
-**Całkowita inwestycja:** 1,6 mln PLN powyżej wariantu podstawowego
-:::
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### Osiągnięte Zyski
-
-**Analiza korzyści w perspektywie 30 lat**
-
-- Oszczędności energii (30 lat): **4,8 mln PLN**
-- Unikanie podatku od emisji CO2: 1,4 mln PLN
-- Zwiększona wartość najmu (3% narzut): 8,4 mln PLN
-- Zmniejszone okresy pustostanów: 720 tys. PLN
-- Niższe koszty ubezpieczenia: 360 tys. PLN
-
-**Łączna wartość w 30 latach:** 15,7 mln PLN (zwrot 9,8×)
-:::
-
-:::
-
-::: {style="text-align: center; padding: 24px; background: rgba(76, 175, 80, 0.1); border-radius: 8px; border-left: 4px solid #4CAF50; margin-top: 24px;"}
-**Analiza biznesowa jest jednoznaczna:** każda złotówka zainwestowana w BREEAM Excellent przynosi 9,80 zł wartości w ciągu 30 lat. Nasze modelowanie dowodzi, że inwestycje w ekologię są opłacalne.
-:::
-
-:::
 :::
 
 ## Gotowy Na Budowanie Zrównoważone i Zyskowne?
@@ -476,31 +433,27 @@ O: Koszty raportowania ESG obejmują: systemy zbierania danych, urządzenia moni
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatna ocena zrównoważoności</h3>
-<p style="color: var(--bim-white); margin: 0;">30-minutowa konsultacja na temat celów zielonego budownictwa</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Rysunki, specyfikacja i cele certyfikacji. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Przykładowy Model Kosztów BREEAM</h3>
-<p style="color: var(--bim-white); margin: 0;">Zobacz przykład analizy punkt po punkcie</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj Niestandardową Wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Wycena specyficzna dla projektu w 24 godziny</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Umów Ocenę](../kontakt.qmd){.cta-primary}
-[Pobierz Przykładowy Raport](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj Wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zespół z Kwalifikacjami BREEAM AP</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Kosztorysowanie punkt po punkcie dla BREEAM</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>30-letnia analiza cyklu życia</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Analizy biznesowe gotowe dla inwestorów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zestawienia gotowe do raportowania ESG</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::

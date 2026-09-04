@@ -25,14 +25,14 @@ Rysunki PDF, DWG lub papierowe - mierzymy wszystko.
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Pomiar z rysunków 2D</strong> – formaty PDF, DWG lub papierowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Dokładność ±5-8%</strong> – doświadczeni inżynierowie kosztorysanci (QS)</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>5-15 dni roboczych</strong> – szybciej niż standardowe firmy kosztorysowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Arkusze wymiarowe w komplecie</strong> – widać każde obliczenie</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>5–15 dni roboczych</strong> – termin ustalony przy przyjęciu zlecenia</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Otrzymaj wycenę](../kontakt.qmd){.cta-primary}
-[Prześlij rysunki](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 :::
 :::
@@ -58,23 +58,23 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #e8f4ff 0%, #d4e9ff 100%); border-left: 4px solid var(--bim-orange);"}
-#### Kiedy pomiar manualny przewyższa automatyczny
+#### Kiedy pomiar ręczny wygrywa z modelem
 
-> "Dla projektów poniżej 2 mln PLN lub wczesnych koncepcji tworzenie modelu BIM tylko do odczytania ilości jest często nieopłacalne. Tradycyjny pomiar przez doświadczonego inżyniera kosztorysanta dostarcza dokładne wyniki szybciej i taniej."
+Przy małych zakresach i wczesnych koncepcjach zbudowanie modelu BIM tylko po to, żeby odczytać z niego ilości, kosztuje więcej niż sam pomiar. Rysunek 2D zmierzony ręcznie daje wynik szybciej i taniej.
 :::
 :::
 
 ::: {style=""}
-### Nasza ekspertyza w tradycyjnym przedmiarze
+### Nasze doświadczenie w tradycyjnym przedmiarze
 
 20 lat praktycznego pomiaru we wszystkich typach budynków:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Doświadczeni inżynierowie kosztorysanci** – ponad 20 lat praktycznego doświadczenia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokładność ±5-8%** – spójne standardy pomiaru</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pomiar prowadzi Robert Kowalski** – ponad 20 lat praktyki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Spójne zasady pomiaru** – ta sama metoda w całym przedmiarze</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pomiar cyfrowy lub skalowy** – rysunki PDF lub CAD</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Standardy międzynarodowe** – NRM, SMM7, POMI, KNR</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Realizacja 5-15 dni** – szybciej niż lokalne firmy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Realizacja 5–15 dni** – termin ustalony przy przyjęciu zlecenia</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kompletny audyt** – pokazujący wszystkie obliczenia</p>
 :::
 :::
@@ -103,7 +103,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 - Kolorowe oznaczenia do weryfikacji
 - Eksport do Excel Przedmiaru Robót
 
-**Dokładność:** ±5-7% | **Najszybsza Metoda**
+**Najszybsza metoda przy czytelnym PDF ze skalą**
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -120,7 +120,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 - Pobranie ilości warstwa po warstwie
 - Weryfikacja krzyżowa ze specyfikacjami
 
-**Dokładność:** ±4-6% | **Najdokładniejsza dla 2D**
+**Najpewniejsza metoda dla dokumentacji 2D**
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -137,7 +137,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 - Weryfikacja arytmetyczna
 - Konserwatywne dodatki na niepewność
 
-**Dokładność:** ±8-12% | **Niższa opcja kosztowa**
+**Opcja dla rysunków bez zapisanej skali**
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
@@ -154,7 +154,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 - Dodatki ważone ryzykiem
 - Przegląd założeń przez klienta
 
-**Dokładność:** ±10-15% | **Dla wczesnych szacunków**
+**Dla wczesnych szacunków, z rejestrem założeń**
 :::
 
 :::
@@ -289,7 +289,7 @@ Możemy również pracować z:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rysunki Archiwalne** - Historyczne plany (możemy digitalizować)</p>
 :::
 
-**Uwaga:** Rysunki fizyczne wymagają skanowania i mają niższą dokładność (±10-12%)
+**Uwaga:** rysunki papierowe wymagają skanowania, a niepewność pomiaru jest przy nich większa
 :::
 
 :::
@@ -367,7 +367,7 @@ Wzbogać swój przedmiar o:
 **P: Jak dokładny jest tradycyjny pomiar w porównaniu do przedmiaru BIM?**
 :::
 ::: {.faq-answer}
-O: Tradycyjny pomiar przez doświadczonego inżyniera kosztorysanta zazwyczaj osiąga dokładność ±5-8% vs ±3-5% dla przedmiaru BIM. Różnica jest akceptowalna dla większości projektów poniżej 20 mln PLN. Dla większych, bardziej złożonych projektów, gdzie precyzja jest krytyczna, zalecany jest przedmiar BIM. Jednak tradycyjny pomiar pozostaje bardziej opłacalny dla mniejszych projektów.
+O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Model BIM daje przewagę tam, gdzie geometria jest skomplikowana i powtarzalna, bo mniej elementów trzeba odczytywać ręcznie. Przy mniejszych zakresach pomiar z rysunków 2D wychodzi taniej i szybciej.
 :::
 :::
 
@@ -376,7 +376,7 @@ O: Tradycyjny pomiar przez doświadczonego inżyniera kosztorysanta zazwyczaj os
 **P: Co jeśli nasze rysunki są niekompletne lub na wczesnym etapie projektu?**
 :::
 ::: {.faq-answer}
-O: Regularnie pracujemy z projektami koncepcyjnymi i szkicowymi. Przyjmiemy rozsądne założenia oparte na podobnych projektach, wszystko jasno udokumentujemy i dostarczymy zakresy (np. ±15-20%) zamiast fałszywej precyzji. Możemy również podkreślić informacje potrzebne do poprawy dokładności w miarę rozwoju projektu.
+O: Regularnie pracujemy z projektami koncepcyjnymi i szkicowymi. Przyjmiemy rozsądne założenia oparte na podobnych zakresach, wypiszemy je w rejestrze i podamy wynik jako zakres, a nie jako pozorną precyzję. Możemy również podkreślić informacje potrzebne do poprawy dokładności w miarę rozwoju projektu.
 :::
 :::
 
@@ -385,7 +385,7 @@ O: Regularnie pracujemy z projektami koncepcyjnymi i szkicowymi. Przyjmiemy rozs
 **P: Czy możecie mierzyć ze zdjęć z placu budowy lub danych z pomiarów?**
 :::
 ::: {.faq-answer}
-O: Dla projektów remontowych/renowacyjnych, tak! Możemy przygotować PR z pomiarów geodezyjnych, pomiarów fotograficznych lub notatek z wizji lokalnej. Jest to powszechne dla projektów, gdzie nie istnieją rysunki powykonawcze. Dokładność zależy od jakości pomiarów, ale zazwyczaj osiąga ±10-12%, co jest akceptowalne dla budżetowania remontów.
+O: Przy remontach i modernizacjach – tak. Przedmiar planowanych robót przygotujemy z pomiarów geodezyjnych, zdjęć z pomiarem lub notatek z wizji lokalnej. To częsty przypadek tam, gdzie nie zachowała się dokumentacja powykonawcza. Wynik zależy od jakości materiału wejściowego, dlatego przy każdej pozycji zapisujemy, z czego została zmierzona.
 :::
 :::
 
@@ -394,7 +394,7 @@ O: Dla projektów remontowych/renowacyjnych, tak! Możemy przygotować PR z pomi
 **P: Czy mierzycie tylko budynki, czy również roboty inżynieryjne?**
 :::
 ::: {.faq-answer}
-O: Mierzymy obie! Nasz zespół obejmuje specjalistów od dróg, odwodnień, robót ziemnych, konstrukcji oporowych i mediów. Stosujemy CESMM4 dla projektów inżynierii lądowej. Typowe projekty obejmują budowę dróg, parkingi, pakiety robót zewnętrznych i projekty infrastrukturalne.
+O: Mierzymy jedne i drugie: drogi, odwodnienie, roboty ziemne, konstrukcje oporowe i sieci. Dla robót inżynieryjnych stosujemy CESMM4. Typowe projekty obejmują budowę dróg, parkingi, pakiety robót zewnętrznych i projekty infrastrukturalne.
 :::
 :::
 
@@ -403,7 +403,7 @@ O: Mierzymy obie! Nasz zespół obejmuje specjalistów od dróg, odwodnień, rob
 **P: Jaka jest minimalna wielkość projektu dla tradycyjnego pomiaru?**
 :::
 ::: {.faq-answer}
-O: Pracujemy nad projektami od 200 tys. PLN wzwyż. Dla bardzo małych projektów (200-600 tys. PLN) oferujemy uproszczone przedmiary z dokładnością ±10-15% w obniżonych cenach. Dla projektów 600 tys. PLN+ dostarczamy pełny szczegółowy pomiar z dokładnością ±5-8%. Żadna praca nie jest za mała, jeśli potrzebujesz profesjonalnego pomiaru.
+O: Nie mamy progu wielkości. Przy bardzo małych zakresach robimy przedmiar uproszczony, przy większych – pełny, z arkuszami wymiarowymi. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
 :::
 :::
 
@@ -430,7 +430,7 @@ O: PDF z wbudowaną skalą jest idealny. Drugim wyborem są natywne pliki CAD (D
 **P: Czy dostarczacie ponowny pomiar po zmianach projektowych?**
 :::
 ::: {.faq-answer}
-O: Tak, i w obniżonych cenach! Jeśli już mierzyliśmy Twój projekt, ponowny pomiar dla zmian projektowych to zazwyczaj 40-60% pierwotnego kosztu (w zależności od zakresu zmian). Utrzymujemy Twoje oryginalne pliki pomiarowe, co czyni aktualizacje efektywnymi. Klienci często angażują nas do wielu iteracji projektowych.
+O: Tak. Jeżeli mierzyliśmy wcześniej ten projekt, aktualizacja obejmuje tylko zmienione elementy – oryginalne arkusze wymiarowe zachowujemy. Wycenę takiej aktualizacji podajemy przed rozpoczęciem pracy, na podstawie zakresu zmian.
 :::
 :::
 
@@ -439,7 +439,7 @@ O: Tak, i w obniżonych cenach! Jeśli już mierzyliśmy Twój projekt, ponowny 
 **P: Co się stanie, jeśli Wasze pomiary zostaną później zakwestionowane?**
 :::
 ::: {.faq-answer}
-O: Dostarczamy kompletny ślad audytu - arkusze wymiarowe pokazujące każde obliczenie. Spory są rzadkie, ponieważ metodologia jest przejrzysta. Jeśli ilości są kwestionowane podczas przetargu lub budowy, zapewniamy wsparcie techniczne bez opłat przez pierwsze 2 godziny. Ubezpieczenie OC zawodowego pokrywa wszelkie błędy (choć roszczenia są niezwykle rzadkie ze względu na nasze procesy kontroli jakości).
+O: Wydajemy komplet arkuszy wymiarowych, w których widać każde obliczenie i źródłowy rysunek. Jeżeli ilość zostanie zakwestionowana podczas przetargu lub budowy, wskazujemy pozycję, wymiar i założenie, na podstawie których powstała, i wyjaśniamy różnicę. Prowadzimy ubezpieczenie odpowiedzialności zawodowej.
 :::
 :::
 :::
@@ -450,35 +450,31 @@ O: Dostarczamy kompletny ślad audytu - arkusze wymiarowe pokazujące każde obl
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">BIM niedostępny? Żaden problem.</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Pozwól doświadczonym inżynierom kosztorysantom dostarczyć dokładność, której potrzebujesz z rysunków 2D.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Przedmiar z rysunków 2D, z arkuszami wymiarowymi i rejestrem założeń.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij rysunki</h3>
-<p style="color: var(--bim-white); margin: 0;">Email lub upload rysunków do przeglądu</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Prześlij dokumentację</h3>
+<p style="color: var(--bim-white); margin: 0;">Rysunki PDF, DWG lub skany. Odpowiadamy w ciągu jednego dnia roboczego.</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Zobacz przykłady</h3>
-<p style="color: var(--bim-white); margin: 0;">Sprawdź przykłady naszych PR</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Bezpłatny przedmiar próbny</h3>
+<p style="color: var(--bim-white); margin: 0;">Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.</p>
+:::
 :::
 
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Otrzymaj wycenę</h3>
-<p style="color: var(--bim-white); margin: 0;">Stała cena w ciągu 24 godzin</p>
-:::
-:::
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Prześlij rysunki](../kontakt.qmd){.cta-primary}
-[Zobacz przykłady](../coming-soon.qmd){.cta-secondary}
-[Otrzymaj wycenę](../kontakt.qmd){.cta-secondary}
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność pomiaru ±5-8%</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Doświadczeni inżynierowie kosztorysanci</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 5-15 dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Arkusze wymiarowe przy każdej pozycji</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Pomiar według NRM2, SMM7, CESMM4 lub KNR</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 5–15 dni roboczych</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::

@@ -1,0 +1,34 @@
+---
+title: "Dziękujemy"
+description: "Twoje zapytanie dotarło do BIM Takeoff. Robert odezwie się w ciągu jednego dnia roboczego, od poniedziałku do piątku."
+page-layout: full
+include-in-header:
+  text: |
+    <meta name="robots" content="noindex, follow">
+---
+
+::: {.page-banner}
+::: {.container}
+# Dziękujemy
+
+::: {.page-banner-lead}
+Twoje zapytanie jest u nas.
+:::
+:::
+:::
+
+::: {.container}
+
+::: {.callout-box}
+Dokumentacja i dane kontaktowe dotarły. Robert odezwie się w ciągu jednego dnia roboczego, od poniedziałku do piątku.
+
+Jeśli termin składania ofert wypada w ciągu 72 godzin, zadzwoń na [+48 508 209 313](tel:+48508209313), żebyśmy mogli zacząć od razu.
+
+[Wróć na stronę główną](index.qmd)
+:::
+
+:::
+
+```{=html}
+<script>window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'contact_form_submitted',lead_source:'contact_form',page_language:'pl'});</script>
+```

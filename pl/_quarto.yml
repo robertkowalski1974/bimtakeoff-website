@@ -7,7 +7,7 @@ project:
 website:
   title: "BIM Takeoff"
   site-url: "https://www.bimtakeoff.com/pl"
-  description: "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
+  description: "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia."
   favicon: ../images/favicon.ico
   
   # Open Graph metadata for social sharing (Polish)
@@ -22,62 +22,73 @@ website:
     logo: "../images/BIM TAKEOFF V2-2.jpg"
     logo-alt: "Logo BIM Takeoff"
     left:
-      - text: "Strona Główna"
+      - text: "Strona główna"
         href: index.qmd
       - text: "Usługi"
         menu:
-          - text: "Kosztorysowanie i Planowanie Budżetu"
-            href: uslugi/kosztorysowanie-i-planowanie-budzetu.qmd
-          - text: "Specjalistyczne Usługi Branżowe"
-            href: uslugi/specjalistyczne-branzy-budowlane.qmd
-          - text: "Automatyczny Przedmiar z Modeli BIM"
+          # Pięć filarów, w kolejności z tabeli na stronie głównej.
+          - text: "Przedmiar robót"
             href: uslugi/automatyczny-przedmiar-obmiar.qmd
-          - text: "Bieżąca Kontrola Kosztów"
+          - text: "Kosztorys ofertowy"
+            href: uslugi/kosztorysowanie-i-planowanie-budzetu.qmd
+          - text: "Kosztorys inwestorski"
+            href: https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski
+          - text: "Hale stalowe i konstrukcje prefabrykowane"
+            href: uslugi/specjalistyczne-branzy-budowlane.qmd
+          - text: "Pakiety branżowe (UK i Australia)"
+            href: /
+          - text: "---"
+          - text: "Więcej"
+          - text: "Tradycyjny przedmiar z rysunków 2D"
+            href: uslugi/tradycyjny-przedmiar-ilosci.qmd
+          - text: "Przygotowanie ofert przetargowych"
+            href: uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd
+          - text: "Bieżąca kontrola kosztów"
             href: uslugi/szybka-kontrola-kosztow.qmd
+          - text: "Kosztorysowanie instalacji MEP"
+            href: uslugi/precyzyjne-kosztorysowanie-mep.qmd
+          - text: "Analiza wariantowa"
+            href: uslugi/analiza-wieloscenariuszowa.qmd
+          - text: "Kompleksowe raportowanie"
+            href: uslugi/kompleksowe-raportowanie.qmd
+          - text: "Zarządzanie danymi BIM"
+            href: uslugi/zarzadzanie-danymi-budowlanymi.qmd
+          - text: "Logistyka budowlana"
+            href: uslugi/logistyka-budowlana.qmd
           - text: "Kosztorysowanie BREEAM/ESG"
             href: uslugi/kosztorysowanie-breeam-esg.qmd
-          - text: "Kosztorysowanie Instalacji MEP"
-            href: uslugi/precyzyjne-kosztorysowanie-mep.qmd
-          - text: "Analiza Wariantowa"
-            href: uslugi/analiza-wieloscenariuszowa.qmd
-          - text: "Kompleksowe Raportowanie"
-            href: uslugi/kompleksowe-raportowanie.qmd
-          - text: "Przygotowanie Ofert Przetargowych"
-            href: uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd
-          - text: "Tradycyjny Przedmiar z Rysunków 2D"
-            href: uslugi/tradycyjny-przedmiar-ilosci.qmd
-          - text: "Zarządzanie Danymi BIM"
-            href: uslugi/zarzadzanie-danymi-budowlanymi.qmd
-          - text: "Logistyka Budowlana"
-            href: uslugi/logistyka-budowlana.qmd
-      - text: "Branże"
-        menu:
-          - text: "Magazyny i Logistyka"
-            href: branze/magazyny-logistyka.qmd
-          - text: "Centra Danych"
-            href: branze/centra-danych.qmd
-          - text: "Deweloperstwo Mieszkaniowe"
-            href: branze/deweloperstwo-mieszkaniowe.qmd
-          - text: "Remediacja i Modernizacja"
-            href: branze/remediacja.qmd
-          - text: "Deweloperstwo Komercyjne"
-            href: branze/deweloperstwo-komercyjne.qmd
-          - text: "Opieka Zdrowotna"
-            href: branze/obiekty-medyczne.qmd
-          - text: "Przemysł i Produkcja"
-            href: branze/przemysl-i-produkcja.qmd
-          - text: "Infrastruktura"
-            href: branze/infrastruktura-i-roboty-inzynieryjne.qmd
-      - text: "Wygrywanie Przetargów"
+      - text: "Przetargi"
         href: wygrywanie-przetargow.qmd
       - text: "Zasoby"
         menu:
+          - text: "Czym jest kosztorysowanie BIM 5D?"
+            href: zasoby/czym-jest-kosztorysowanie-bim-5d.qmd
+          - text: "Publikacje"
+            href: zasoby/publikacje/index.qmd
           - text: "Przewodnik BIM 2030"
             href: zasoby/przewodnik-bim-2030.qmd
-          - text: "Kalkulator Oszczędności"
+          - text: "Kalkulator oszczędności"
             href: zasoby/kalkulator-roi.qmd
-          - text: "Studia Przypadków"
-            href: coming-soon.qmd
+          - text: "---"
+          - text: "Deweloperstwo mieszkaniowe"
+            href: branze/deweloperstwo-mieszkaniowe.qmd
+          - text: "Remediacja i modernizacja"
+            href: branze/remediacja.qmd
+          - text: "Spółdzielnie mieszkaniowe"
+            href: branze/spoldzielnie-mieszkaniowe.qmd
+          - text: "---"
+          - text: "Magazyny i logistyka"
+            href: branze/magazyny-logistyka.qmd
+          - text: "Centra danych"
+            href: branze/centra-danych.qmd
+          - text: "Deweloperstwo komercyjne"
+            href: branze/deweloperstwo-komercyjne.qmd
+          - text: "Obiekty medyczne"
+            href: branze/obiekty-medyczne.qmd
+          - text: "Przemysł i produkcja"
+            href: branze/przemysl-i-produkcja.qmd
+          - text: "Infrastruktura i roboty inżynieryjne"
+            href: branze/infrastruktura-i-roboty-inzynieryjne.qmd
       - text: "Kontakt"
         href: kontakt.qmd
     right:
@@ -95,15 +106,20 @@ website:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     left: |
-      © 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br>
-      Kosztorysowanie BIM 5D i przedmiary robót
+      © 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.
     center: |
-      **Informacje**<br>
-      [Polityka Prywatności](https://www.bimtakeoff.com/pl/polityka-prywatnosci.html) | [Warunki Współpracy](https://www.bimtakeoff.com/pl/regulamin.html)
+      **Usługi**<br>
+      [Przedmiar robót](https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html)<br>
+      [Kosztorys ofertowy](https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html)<br>
+      [Kosztorys inwestorski](https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski)<br>
+      [Hale stalowe i konstrukcje prefabrykowane](https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html)<br>
+      [Pakiety branżowe (UK i Australia)](https://www.bimtakeoff.com/)
     right: |
       **Kontakt**<br>
       [info@bimtakeoff.com](mailto:info@bimtakeoff.com)<br>
-      [+48 508 209 313](tel:+48508209313)
+      PL [+48 508 209 313](tel:+48508209313)<br>
+      UK [+44 (0) 20 3239 9967](tel:+442032399967)<br>
+      [Polityka prywatności](https://www.bimtakeoff.com/pl/polityka-prywatnosci.html) · [Regulamin](https://www.bimtakeoff.com/pl/regulamin.html)
 
 format:
   html:
@@ -184,8 +200,8 @@ format:
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@bimtakeoff">
         <meta name="twitter:creator" content="@bimtakeoff">
-        <meta name="twitter:title" content="BIM Takeoff - Profesjonalne Kosztorysowanie BIM 5D">
-        <meta name="twitter:description" content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia">
+        <meta name="twitter:title" content="BIM Takeoff – Przedmiary robót i kosztorysy ofertowe dla wykonawców">
+        <meta name="twitter:description" content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia.">
         
         <!-- Organization Structured Data (Polish version) -->
         <script type="application/ld+json">
