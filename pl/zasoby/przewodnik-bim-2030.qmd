@@ -18,8 +18,9 @@ format:
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -870,7 +871,7 @@ Zaawansowane usługi kosztowe i harmonogramowanie 4D
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 40px;">
       <div>
         <div style="color: #FF9900; font-size: 2rem; margin-bottom: 10px;">
-          <i class="bi bi-telephone-fill"></i>
+          <i class="bi bi-telephone-fill" aria-hidden="true"></i>
         </div>
         <a href="tel:+48508209313" style="color: #FF9900; font-size: 1.2rem; font-weight: 600; text-decoration: none;">
           +48 508 209 313
@@ -879,7 +880,7 @@ Zaawansowane usługi kosztowe i harmonogramowanie 4D
       
       <div>
         <div style="color: #FF9900; font-size: 2rem; margin-bottom: 10px;">
-          <i class="bi bi-envelope-fill"></i>
+          <i class="bi bi-envelope-fill" aria-hidden="true"></i>
         </div>
         <a href="mailto:info@bimtakeoff.com" style="color: #FF9900; font-size: 1.2rem; font-weight: 600; text-decoration: none;">
           info@bimtakeoff.com
@@ -888,7 +889,7 @@ Zaawansowane usługi kosztowe i harmonogramowanie 4D
       
       <div>
         <div style="color: #FF9900; font-size: 2rem; margin-bottom: 10px;">
-          <i class="bi bi-globe"></i>
+          <i class="bi bi-globe" aria-hidden="true"></i>
         </div>
         <a href="https://bimtakeoff.com" style="color: #FF9900; font-size: 1.2rem; font-weight: 600; text-decoration: none;">
           bimtakeoff.com

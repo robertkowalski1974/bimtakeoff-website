@@ -5,13 +5,14 @@ page-layout: full
 date: "2025-12-14"
 author: "Robert Kowalski"
 categories: [Construction Industry, Infrastructure, Workforce, Climate Change, Digital Transformation]
-image: "../../images/construction-crisis-cover.png"
+image: "../../images/construction-crisis-cover.jpg"
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -79,13 +80,13 @@ McKinsey's August 2024 analysis reveals that construction became 1-3% more expen
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange);"></i> Megaproject Performance
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange);" aria-hidden="true"></i> Megaproject Performance
 
 Large projects, which represent 21% of global construction spending, perform worst: **98% of megaprojects face cost overruns or delays**, running 20% behind schedule and up to 80% over budget.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-graph-down" style="color: var(--bim-orange);"></i> Margin Erosion
+### <i class="bi bi-graph-down" style="color: var(--bim-orange);" aria-hidden="true"></i> Margin Erosion
 
 Return on invested capital has declined 0.5 percentage points globally from 2008-2023, limiting reinvestment capacity for technology and training.
 :::
@@ -366,9 +367,9 @@ Organizations that recognize the interconnected nature of these pressures and in
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>BIM 5D Cost Estimation</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>UK, Australian & Polish Markets</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>BIM 5D Cost Estimation</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>UK, Australian & Polish Markets</strong></p>
 :::
 :::
 :::

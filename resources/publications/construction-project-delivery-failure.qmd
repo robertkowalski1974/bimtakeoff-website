@@ -5,13 +5,14 @@ page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"
 categories: [Project Management, Cost Overruns, Construction Industry, Megaprojects, Research Analysis]
-image: "../../images/construction-failure-cover.png"
+image: "../../images/construction-failure-cover.jpg"
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -81,13 +82,13 @@ The theoretical framework for understanding project overruns owes much to Nobel 
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-emoji-smile" style="color: var(--bim-orange);"></i> Optimism Bias
+### <i class="bi bi-emoji-smile" style="color: var(--bim-orange);" aria-hidden="true"></i> Optimism Bias
 
 Unconscious psychological tendency toward overly favourable estimates. Project planners focus on project-specific details rather than examining how similar projects have performed historically.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart" style="color: var(--bim-orange);"></i> Strategic Misrepresentation
+### <i class="bi bi-bar-chart" style="color: var(--bim-orange);" aria-hidden="true"></i> Strategic Misrepresentation
 
 Deliberate distortion of forecasts to secure project approval. In competitive environments, contractors submitting the lowest bid win work; politicians face pressure to present favourable benefit-cost ratios.
 :::
@@ -233,25 +234,25 @@ Construction stands alone among major industries in exhibiting sustained negativ
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;"}
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-search" style="color: var(--bim-orange);"></i> Low R&D Investment
+### <i class="bi bi-search" style="color: var(--bim-orange);" aria-hidden="true"></i> Low R&D Investment
 
 The construction industry invests less than 1% of revenue in research and development, compared with 3-4% for manufacturing and over 10% for technology sectors.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-laptop" style="color: var(--bim-orange);"></i> Digital Lag
+### <i class="bi bi-laptop" style="color: var(--bim-orange);" aria-hidden="true"></i> Digital Lag
 
 McKinsey's digitisation index ranks construction second-to-last in the US and last in Europe.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-people" style="color: var(--bim-orange);"></i> Workforce Shortage
+### <i class="bi bi-people" style="color: var(--bim-orange);" aria-hidden="true"></i> Workforce Shortage
 
 The US construction industry needs approximately **439,000 new workers in 2025** simply to balance supply and demand.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange);"></i> Rework Epidemic
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange);" aria-hidden="true"></i> Rework Epidemic
 
 Industry data indicates that **roughly 30% of work performed on construction sites constitutes rework**. Poor communication alone costs US construction an estimated **$31.3 billion annually**.
 :::
@@ -358,9 +359,9 @@ Understanding these dynamics does not automatically suggest solutions—the forc
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>BIM 5D Cost Estimation</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3-5% Estimation Accuracy</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>BIM 5D Cost Estimation</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3-5% Estimation Accuracy</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
 :::

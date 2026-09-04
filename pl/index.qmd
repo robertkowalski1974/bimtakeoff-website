@@ -7,8 +7,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -27,7 +28,7 @@ Eksperci w Kosztorysowaniu i Przedmiarach
 Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót konstrukcyjnych, ochrony przeciwpożarowej i fasad. Od szczegółowych przedmiarów po kompletne pakiety przetargowe - dostarczamy na całym świecie.
 :::
 
-::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
+::: {.hero-actions}
 [ZAPRASZAMY DO KONTAKTU](kontakt.qmd){.cta-primary}
 [POZNAJ USŁUGI](#nasze-usługi){.cta-secondary}
 :::
@@ -38,32 +39,32 @@ Ponad 2000 projektów zrealizowanych w zakresie zabudowy wewnętrznej, robót ko
 
 ## O nas
 
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
+::: {.about-grid}
 
-::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-award" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+::: {.about-card}
+<i class="bi bi-award" aria-hidden="true"></i>
 
-::: {style="flex: 1;"}
+::: {.about-card-body}
 **Eksperci w Kosztorysowaniu z Międzynarodowym Doświadczeniem**
 
 20 lat doświadczenia | 2000+ Projektów | Wielka Brytania, Australia i Europa
 :::
 :::
 
-::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-tools" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+::: {.about-card}
+<i class="bi bi-tools" aria-hidden="true"></i>
 
-::: {style="flex: 1;"}
+::: {.about-card-body}
 **Specjalistyczna Wiedza Branżowa**
 
 Systemy Suchej Zabudowy | Ochrona Przeciwpożarowa | Fasady | Roboty Konstrukcyjne
 :::
 :::
 
-::: {style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-shield-check" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i>
+::: {.about-card}
+<i class="bi bi-shield-check" aria-hidden="true"></i>
 
-::: {style="flex: 1;"}
+::: {.about-card-body}
 **Zgodność z Polskimi Standardami**
 
 Zgodność z ISO 19650  | 2000+ Projektów UK/EU/AU | Gotowość BIM 2030
@@ -81,7 +82,7 @@ Dzięki ponad 2000 zrealizowanym projektom w Wielkiej Brytanii, Australii i Euro
 Oferujemy kosztorysy zgodne z wymogami BIM 2030, wspierając inwestorów i generalnych wykonawców w przygotowaniu do nowych przepisów.
 
 ::: {.image-section style="margin: 48px 0; text-align: center;"}
-![Model BIM z nakładką przedmiaru ilości](../images/bim-technology.png){width=900 style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![Model BIM z nakładką przedmiaru ilości](../images/bim-technology.webp){.figure-narrow width=1400 height=934}
 :::
 
 ::: {.stats-section}
@@ -126,7 +127,7 @@ Redukcja Czasu Kosztorysowania
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Międzynarodowe doświadczenie, lokalna specyfika
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Międzynarodowe doświadczenie, lokalna specyfika
 
 **20 lat na rynkach UK, EU i Australii + znajomość polskich standardów**
 
@@ -134,7 +135,7 @@ Dwie dekady praktycznego doświadczenia w kosztorysowaniu na wymagających rynka
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Oszczędność czasu – 90% szybciej
+### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Oszczędność czasu – 90% szybciej
 
 **3 dni zamiast 3 tygodni**
 
@@ -142,7 +143,7 @@ Technologia BIM 5D pozwala skrócić czas kosztorysowania o 90% w porównaniu z 
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja wartości inwestycji
+### <i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Optymalizacja wartości inwestycji
 
 **Analiza wartości (value engineering)**
 
@@ -150,7 +151,7 @@ Precyzyjne kosztorysowanie zapobiega przekroczeniom budżetu i marnowaniu materi
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokumentacja zgodna ze standardami
+### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Dokumentacja zgodna ze standardami
 
 **Raporty gotowe do audytu i kontroli**
 
@@ -158,7 +159,7 @@ Otrzymują Państwo szczegółowe zestawienia ilości, materiałów i kosztów s
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalizacja w złożonych pakietach
+### <i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Specjalizacja w złożonych pakietach
 
 **Prawdziwa ekspertyza branżowa**
 
@@ -166,7 +167,7 @@ Nasz zespół wnosi praktyczną wiedzę w złożonych pakietach budowlanych. Spe
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Przygotowanie na BIM 2030
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przygotowanie na BIM 2030
 
 **Zgodność z nowymi wymogami**
 
@@ -178,84 +179,84 @@ Wspieramy przygotowanie do wymogów BIM 2030. Specjalizujemy się w systemach be
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie i planowanie budżetu
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kosztorysowanie i planowanie budżetu
 Precyzyjne wyceny zgodne z KNR/KNNR, które pomagają wygrywać przetargi. Od wstępnych kosztorysów po szczegółowe pakiety przetargowe z analizą optymalizacji wartości i oceną ryzyka.
 
 [Kosztorysowanie i planowanie budżetu →](uslugi/kosztorysowanie-i-planowanie-budzetu.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczne usługi branżowe
+### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Specjalistyczne usługi branżowe
 Doświadczenie w systemach suchej zabudowy,  ochrony przeciwpożarowej - pasywnej i aktywnej, elewacjach oraz robotach konstrukcyjnych. Ponad 20 lat praktycznego doświadczenia w wycenie skomplikowanych projektów.
 
 [Specjalistyczne usługi branżowe →](uslugi/specjalistyczne-branzy-budowlane.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automatyczny przedmiar z modeli BIM
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Automatyczny przedmiar z modeli BIM
 Przetwarzanie modeli IFC z Revit, ArchiCAD i Tekla. **90% szybciej** niż tradycyjne przedmiary 2D z aktualizacjami w czasie rzeczywistym przy zmianach projektowych. Dokładność ±5%.
 
 [Automatyczny przedmiar z modeli BIM →](uslugi/automatyczny-przedmiar-obmiar.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Bieżąca kontrola kosztów
+### <i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Bieżąca kontrola kosztów
 Regularne raporty kosztowe dla inwestycji 4-6 miesięcznych. System wczesnego ostrzegania przed przekroczeniami budżetu z rekomendacjami optymalizacji wartości.
 
 [Bieżąca kontrola kosztów →](uslugi/szybka-kontrola-kosztow.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie BREEAM/ESG
+### <i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kosztorysowanie BREEAM/ESG
 Kosztorysowanie śladu węglowego zintegrowane ze śledzeniem materiałów zrównoważonych i weryfikacją zgodności certyfikacyjnej. Wsparcie w osiąganiu celów środowiskowych.
 
 [Kosztorysowanie BREEAM/ESG →](uslugi/kosztorysowanie-breeam-esg.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie instalacji MEP
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kosztorysowanie instalacji MEP
 Specjalistyczne kosztorysowanie dla obiektów logistycznych, chłodni, systemów HVAC, instalacji elektrycznych i ochrony przeciwpożarowej.
 
 [Kosztorysowanie instalacji MEP →](uslugi/precyzyjne-kosztorysowanie-mep.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza wariantowa
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza wariantowa
 Porównanie alternatywnych rozwiązań projektowych, materiałów i metod budowy. Podejmowanie świadomych decyzji w oparciu o dokładne dane kosztowe.
 
 [Analiza wariantowa →](uslugi/analiza-wieloscenariuszowa.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowe raportowanie
+### <i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kompleksowe raportowanie
 Szczegółowe zestawienia kosztów, wizualne dashboardy i raporty gotowe do eksportu, zintegrowane z Państwa procesem pracy.
 
 [Kompleksowe raportowanie →](uslugi/kompleksowe-raportowanie.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Przygotowanie ofert przetargowych
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przygotowanie ofert przetargowych
 Profesjonalna dokumentacja przetargowa i wsparcie w zarządzaniu procesem składania ofert. Kompleksowa koordynacja od strategii cenowej po finalne złożenie oferty.
 
 [Przygotowanie ofert przetargowych →](uslugi/pisanie-ofert-i-zarzadzanie-przetargami.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny przedmiar z rysunków 2D
+### <i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Tradycyjny przedmiar z rysunków 2D
 Precyzyjny przedmiar z rysunków 2D i specyfikacji. Szczegółowy pomiar i kwantyfikacja gdy modele BIM nie są dostępne, zachowując dokładność dla tradycyjnej realizacji projektów.
 
 [Tradycyjny przedmiar z rysunków 2D →](uslugi/tradycyjny-przedmiar-ilosci.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie danymi BIM
+### <i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zarządzanie danymi BIM
 Centralna koordynacja danych projektowych i strukturyzacja informacji BIM. Zarządzanie przepływem informacji, zapewnianie jakości danych przez cały cykl życia projektu.
 
 [Zarządzanie danymi BIM →](uslugi/zarzadzanie-danymi-budowlanymi.qmd)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Logistyka budowlana
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Logistyka budowlana
 Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koordynacja łańcucha dostaw. Optymalizacja przepływów pracy i efektywna alokacja zasobów.
 
 [Logistyka budowlana →](uslugi/logistyka-budowlana.qmd)
@@ -263,29 +264,29 @@ Planowanie logistyki placu budowy, harmonogramowanie dostaw materiałów i koord
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Panel analizy kosztów dla przetargu budowlanego](../images/data-analysis.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![Panel analizy kosztów dla przetargu budowlanego](../images/data-analysis.webp){width=1400 height=934}
 :::
 
-::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
-::: {style="max-width: 800px; margin: 0 auto;"}
-<h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange);">Nowoczesne Kosztorysowanie BIM 5D</h2>
+::: {.cta-band}
+::: {.cta-band-inner}
+<h2>Nowoczesne Kosztorysowanie BIM 5D</h2>
 
-<p style="color: var(--bim-white); font-size: 16px;">Technologia BIM 5D zapewnia precyzję i szybkość potrzebną w nowoczesnym budownictwie. Nasze usługi pomagają wygrywać rentowne zlecenia przy jednoczesnym zmniejszeniu ryzyka przekroczeń budżetu.</p>
+<p>Technologia BIM 5D zapewnia precyzję i szybkość potrzebną w nowoczesnym budownictwie. Nasze usługi pomagają wygrywać rentowne zlecenia przy jednoczesnym zmniejszeniu ryzyka przekroczeń budżetu.</p>
 
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px;"}
-::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">90%</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Redukcja czasu kosztorysowania</p>
+::: {.cta-band-stats}
+::: {.cta-band-stat}
+<h3>90%</h3>
+<p>Redukcja czasu kosztorysowania</p>
 :::
 
-::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">±5%</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Dokładność wyceny</p>
+::: {.cta-band-stat}
+<h3>±5%</h3>
+<p>Dokładność wyceny</p>
 :::
 
-::: {style="padding: 16px;"}
-<h3 style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">24h</h3>
-<p style="color: var(--bim-white); font-weight: 600;">Aktualizacje przy zmianach</p>
+::: {.cta-band-stat}
+<h3>24h</h3>
+<p>Aktualizacje przy zmianach</p>
 :::
 :::
 :::
@@ -297,91 +298,91 @@ Rozumiemy specyfikę różnych sektorów budownictwa:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Magazyny i logistyka
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Magazyny i logistyka
 **Doświadczenie:** Centra dystrybucyjne, chłodnie, obiekty fulfillment
 **Specjalizacja:** Realizacja w trybie przyspieszonym (fast-track), obiekty przeładunkowe (cross-docking), instalacje chłodnicze
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/magazyny-logistyka.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;"></i>Centra danych
+### <i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Centra danych
 **Doświadczenie:** Obiekty Tier III/IV
 **Specjalizacja:** Krytyczne systemy MEP, redundancja zasilania, infrastruktura chłodzenia
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/centra-danych.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo mieszkaniowe
+### <i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Deweloperstwo mieszkaniowe
 **Doświadczenie:** Budownictwo wielorodzinne, projekty mieszane
 **Specjalizacja:** Kosztorysowanie na poziomie lokali, prefabrykacja, efektywność energetyczna
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/deweloperstwo-mieszkaniowe.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediacja i modernizacja
+### <i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Remediacja i modernizacja
 **Doświadczenie:** Zgodność z przepisami bezpieczeństwa, modernizacje elewacji
 **Specjalizacja:** Systemy bezpieczeństwa pożarowego, remediacja okładzin, wymogi BIM 2030
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/remediacja.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Deweloperstwo komercyjne
+### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Deweloperstwo komercyjne
 **Doświadczenie:** Biurowce, centra handlowe, kompleksy mieszane
 **Specjalizacja:** Aranżacje najemców, realizacja etapowa, optymalizacja wartości
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/deweloperstwo-komercyjne.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-home-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Spółdzielnie mieszkaniowe
+### <i class="bi bi-home-heart" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Spółdzielnie mieszkaniowe
 **Doświadczenie:** Termomodernizacje, programy remontowe
 **Specjalizacja:** Wsparcie w dotacjach, optymalizacja wartości, zgodność z wymogami energetycznymi
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/spoldzielnie-mieszkaniowe.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Opieka zdrowotna
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Opieka zdrowotna
 **Doświadczenie:** Szpitale, centra medyczne, obiekty specjalistyczne
 **Specjalizacja:** Kompartmentacja przeciwpożarowa, systemy gazów medycznych, redundancja zasilania
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/obiekty-medyczne.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Przemysł i produkcja
+### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przemysł i produkcja
 **Doświadczenie:** Zakłady produkcyjne, hale montażowe
 **Specjalizacja:** Konstrukcje ciężkie, systemy dźwigowe, przemysłowe instalacje MEP
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/przemysl-i-produkcja.qmd){.cta-primary}
 :::
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastruktura
+### <i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Infrastruktura
 **Doświadczenie:** Mosty, tunele, infrastruktura transportowa
 **Specjalizacja:** Konstrukcje sprężane, fundamenty głębokie, systemy inżynieryjne
 
-::: {style="margin-top: 16px;"}
+::: {.card-actions}
 [Poznaj Rozwiązania →](branze/infrastruktura-i-roboty-inzynieryjne.qmd){.cta-primary}
 :::
 :::
@@ -396,17 +397,17 @@ Rozumiemy specyfikę różnych sektorów budownictwa:
 
 ::: {.trust-badges}
 ::: {.trust-badge}
-#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Wieloletnie Doświadczenie
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Wieloletnie Doświadczenie
 Międzynarodowe Standardy QS
 :::
 
 ::: {.trust-badge}
-#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>ISO 19650
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>ISO 19650
 BIM Poziom 2 Compliance
 :::
 
 ::: {.trust-badge}
-#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>20 Lat Doświadczenia
+#### <i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>20 Lat Doświadczenia
 UK, EU, Australia
 :::
 :::
@@ -414,7 +415,7 @@ UK, EU, Australia
 :::
 
 ::: {.image-section style="margin: 64px 0; text-align: center;"}
-![Proces BIM 5D od modelu do przedmiaru robót](../images/bim-workflow.png){style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;"}
+![Proces BIM 5D od modelu do przedmiaru robót](../images/bim-workflow.webp){width=1400 height=934}
 :::
 
 ::: {.container}
@@ -449,45 +450,45 @@ Wspólne omówienie raportu, odpowiedzi na pytania i dyskusja o możliwościach 
 :::
 
 ::: {.callout-box}
-#### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekt Pilotażowy
+#### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Projekt Pilotażowy
 **Oferta Wprowadzająca:** Pierwszy projekt z 50% rabatem. Przekonają się Państwo o precyzji i szybkości BIM 5D bez długoterminowych zobowiązań.
 
 [Zaplanuj Projekt Pilotażowy →](kontakt.qmd){.cta-primary}
 :::
 
-::: {style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;"}
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;"}
-::: {style="padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
-<h3 style="color: var(--bim-charcoal); margin-top: 0; margin-bottom: 16px;">Zapraszamy do Współpracy</h3>
+::: {.split-panel}
+::: {.two-col}
+::: {.split-panel-text}
+<h3>Zapraszamy do Współpracy</h3>
 
-<p style="color: var(--bim-charcoal); margin-bottom: 16px;">Przekonają się Państwo o precyzji i szybkości nowoczesnego kosztorysowania BIM. Od szczegółowych przedmiarów po kompletne pakiety przetargowe – dostarczamy dokładność potrzebną do wygrywania rentownych zleceń.</p>
+<p>Przekonają się Państwo o precyzji i szybkości nowoczesnego kosztorysowania BIM. Od szczegółowych przedmiarów po kompletne pakiety przetargowe – dostarczamy dokładność potrzebną do wygrywania rentownych zleceń.</p>
 
-<p style="color: var(--bim-charcoal); font-weight: 600; margin-bottom: 8px;">Co otrzymają Państwo:</p>
-<ul style="color: var(--bim-charcoal); margin-bottom: 24px;">
+<p class="label-strong">Co otrzymają Państwo:</p>
+<ul>
 <li>Szczegółowe przedmiary ilościowe</li>
 <li>Profesjonalne kosztorysy zgodne z KNR/KNNR</li>
 <li>Analiza optymalizacji wartości</li>
 <li>Raporty gotowe do audytu</li>
 </ul>
 
-::: {style="margin-top: 24px;"}
+::: {.card-actions}
 [Zapraszamy do Kontaktu →](kontakt.qmd){.cta-primary}
 :::
 :::
 
-::: {style="background: var(--bim-charcoal); padding: 48px; display: flex; flex-direction: column; justify-content: center;"}
-<p style="color: var(--bim-white); font-weight: 600; margin-bottom: 8px;">Zaufali nam deweloperzy i wykonawcy z:</p>
+::: {.split-panel-aside}
+<p class="label-strong">Zaufali nam deweloperzy i wykonawcy z:</p>
 
-::: {style="margin-top: 24px; line-height: 2;"}
-<p style="color: var(--bim-white); margin: 0;">🇬🇧 Wielkiej Brytanii</p>
-<p style="color: var(--bim-white); margin: 0;">🇦🇺 Australii</p>
-<p style="color: var(--bim-white); margin: 0;">🇪🇺 Unii Europejskiej</p>
+::: {.split-panel-markets}
+<p>Wielkiej Brytanii</p>
+<p>Australii</p>
+<p>Unii Europejskiej</p>
 :::
 
-::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--bim-medium-gray);"}
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">2000+ zrealizowanych projektów</p>
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">12M+ m² wycenionych</p>
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">20+ lat doświadczenia</p>
+::: {.split-panel-facts}
+<p>2000+ zrealizowanych projektów</p>
+<p>12M+ m² wycenionych</p>
+<p>20+ lat doświadczenia</p>
 :::
 :::
 :::

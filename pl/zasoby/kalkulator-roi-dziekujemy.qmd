@@ -7,8 +7,9 @@ lang: pl
 
 ::: {.hero-section style="min-height: 60vh; display: flex; align-items: center; justify-content: center;"}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -32,7 +33,7 @@ lang: pl
 <!-- Will be populated by JavaScript -->
 </div>
 
-<a href="raport-roi.html" id="view-report-btn" style="display: block; width: 100%; padding: 20px; background: var(--bim-orange); color: white; border: none; border-radius: 8px; font-size: 18px; font-weight: 700; text-decoration: none; cursor: pointer; transition: all 0.3s; margin-bottom: 16px; text-align: center; box-shadow: 0 4px 12px rgba(255, 153, 0, 0.2);">
+<a href="raport-roi.html" id="view-report-btn" style="display: block; width: 100%; padding: 20px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 8px; font-size: 18px; font-weight: 700; text-decoration: none; cursor: pointer; transition: all 0.3s; margin-bottom: 16px; text-align: center; box-shadow: 0 4px 12px rgba(255, 153, 0, 0.2);">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 8px;">
     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
     <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
@@ -72,7 +73,7 @@ lang: pl
 <div style="background: white; border-radius: 12px; padding: 32px; max-width: 600px; margin: 0 auto; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
   <p style="color: var(--bim-medium-gray); margin-bottom: 24px;">Proszę najpierw wypełnić kalkulator ROI, aby wygenerować raport.</p>
 
-  <a href="kalkulator-roi.html" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center; margin-bottom: 16px;">
+  <a href="kalkulator-roi.html" style="display: block; width: 100%; padding: 16px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 16px; font-weight: 700; text-decoration: none; transition: all 0.3s; text-align: center; margin-bottom: 16px;">
     Przejdź do Kalkulatora ROI
   </a>
 

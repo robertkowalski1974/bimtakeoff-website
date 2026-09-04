@@ -5,14 +5,15 @@ page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"
 categories: [Zarządzanie Projektami, Przekroczenia Kosztów, Branża Budowlana, Megaprojekty, Analiza Badawcza]
-image: "../../../images/construction-failure-cover.png"
+image: "../../../images/construction-failure-cover.jpg"
 lang: pl
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
-    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg" preload="none">
+    <source data-src="../../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -82,13 +83,13 @@ Teoretyczne ramy rozumienia przekroczeń projektowych zawdzięczają wiele laure
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-emoji-smile" style="color: var(--bim-orange);"></i> Optymistyczne nastawienie
+### <i class="bi bi-emoji-smile" style="color: var(--bim-orange);" aria-hidden="true"></i> Optymistyczne nastawienie
 
 Nieświadoma psychologiczna tendencja do nadmiernie korzystnych szacunków. Planiści projektów koncentrują się na szczegółach specyficznych dla projektu, zamiast badać, jak podobne projekty radziły sobie historycznie.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart" style="color: var(--bim-orange);"></i> Strategiczne zniekształcanie
+### <i class="bi bi-bar-chart" style="color: var(--bim-orange);" aria-hidden="true"></i> Strategiczne zniekształcanie
 
 Celowe wypaczanie prognoz w celu uzyskania zatwierdzenia projektu. W konkurencyjnych środowiskach wykonawcy składający najniższą ofertę wygrywają kontrakty; politycy są pod presją prezentowania korzystnych wskaźników korzyści do kosztów.
 :::
@@ -234,25 +235,25 @@ Budownictwo stoi samotnie wśród głównych branż, wykazując utrzymujący si�
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;"}
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-search" style="color: var(--bim-orange);"></i> Niskie inwestycje w B+R
+### <i class="bi bi-search" style="color: var(--bim-orange);" aria-hidden="true"></i> Niskie inwestycje w B+R
 
 Branża budowlana inwestuje mniej niż 1% przychodów w badania i rozwój, w porównaniu z 3–4% w produkcji przemysłowej i ponad 10% w sektorach technologicznych.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-laptop" style="color: var(--bim-orange);"></i> Cyfrowe opóźnienie
+### <i class="bi bi-laptop" style="color: var(--bim-orange);" aria-hidden="true"></i> Cyfrowe opóźnienie
 
 Indeks cyfryzacji McKinsey plasuje budownictwo na przedostatnim miejscu w USA i ostatnim w Europie.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-people" style="color: var(--bim-orange);"></i> Niedobór pracowników
+### <i class="bi bi-people" style="color: var(--bim-orange);" aria-hidden="true"></i> Niedobór pracowników
 
 Amerykański przemysł budowlany potrzebuje około **439 000 nowych pracowników w 2025 roku** po prostu dla zrównoważenia podaży i popytu.
 :::
 
 ::: {style="padding: 20px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange);"></i> Epidemia przeróbek
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange);" aria-hidden="true"></i> Epidemia przeróbek
 
 Dane branżowe wskazują, że **około 30% prac wykonywanych na placach budowy stanowią przeróbki**. Sama słaba komunikacja kosztuje amerykańskie budownictwo szacunkowo **31,3 mld dolarów rocznie**.
 :::
@@ -359,9 +360,9 @@ Zrozumienie tych dynamik nie sugeruje automatycznie rozwiązań — siły utrzym
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Kosztorysowanie BIM 5D</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność szacowania ±3–5%</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Kosztorysowanie BIM 5D</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność szacowania ±3–5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

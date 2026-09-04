@@ -1697,21 +1697,32 @@ document.getElementById('thankyou-modal').style.display = 'flex';
  * Manual PDF generation function - can be called from browser console
  * Usage: window.manuallyGeneratePDF()
  */
-window.manuallyGeneratePDF = function() {
+window.manuallyGeneratePDF = async function() {
   console.log('🚀 Manual PDF generation triggered');
-  
+
   if (!calculatedResults) {
     console.error('❌ No calculation results available. Please calculate ROI first.');
     alert('Please calculate your ROI first before downloading the report.');
     return;
   }
-  
+
+  // The calculator pages no longer ship jsPDF up front - it is ~360KB and is
+  // only needed if someone actually asks for the PDF. They expose
+  // window.loadJsPDF() to fetch it on demand; await it before going on.
+  if (typeof window.jspdf === 'undefined' && typeof window.loadJsPDF === 'function') {
+    try {
+      await window.loadJsPDF();
+    } catch (error) {
+      console.error('❌ jsPDF failed to load', error);
+    }
+  }
+
   if (typeof window.jspdf === 'undefined') {
     console.error('❌ jsPDF library not loaded');
     alert('PDF library not loaded. Please refresh the page and try again.');
     return;
   }
-  
+
   try {
     const leadData = {
       name: 'Manual Download',

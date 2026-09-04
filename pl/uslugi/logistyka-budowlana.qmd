@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Logistyki Placu</strong> - Wizualizacja 2D/3D/4D</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Żurawi</strong> - Analiza zasięgu i wykrywanie kolizji</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Sekwencji</strong> - Maksymalna wydajność, minimalne opóźnienia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Plany Logistyki Placu</strong> - Wizualizacja 2D/3D/4D</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Planowanie Żurawi</strong> - Analiza zasięgu i wykrywanie kolizji</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Optymalizacja Sekwencji</strong> - Maksymalna wydajność, minimalne opóźnienia</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.
 Większość placów budów planuje logistykę "w biegu":
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty żurawi wykryte w trakcie podnoszenia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dostawy materiałów blokują dostęp do placu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niewystarczające miejsce składowania powoduje opóźnienia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty w kolejności prac różnych brygad</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wielokrotne projektowanie tymczasowych zabezpieczeń</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki dla klienta dotyczące wpływu budowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Konflikty żurawi wykryte w trakcie podnoszenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Dostawy materiałów blokują dostęp do placu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niewystarczające miejsce składowania powoduje opóźnienia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Konflikty w kolejności prac różnych brygad</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Wielokrotne projektowanie tymczasowych zabezpieczeń</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niespodzianki dla klienta dotyczące wpływu budowy</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Większość placów budów planuje logistykę "w biegu":
 Wirtualne planowanie budowy przed mobilizacją:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konflikty żurawi** rozwiązane w 3D przed wynajmem</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogramy dostaw** skoordynowane z dostępnością miejsca</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zoptymalizowane układy** maksymalizują wydajność</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Symulacja 4D** wizualizuje konflikty sekwencji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Jednolity projekt zabezpieczeń** używany przez cały czas</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wizualizacja dla klienta** buduje zaufanie i redukuje niespodzianki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Konflikty żurawi** rozwiązane w 3D przed wynajmem</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Harmonogramy dostaw** skoordynowane z dostępnością miejsca</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zoptymalizowane układy** maksymalizują wydajność</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Symulacja 4D** wizualizuje konflikty sekwencji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Jednolity projekt zabezpieczeń** używany przez cały czas</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wizualizacja dla klienta** buduje zaufanie i redukuje niespodzianki</p>
 :::
 :::
 
@@ -89,7 +90,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-map" style="color: var(--bim-orange); margin-right: 12px;"></i>Plany Logistyki Placu
+#### <i class="bi bi-map" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Plany Logistyki Placu
 
 **Układy 2D/3D**
 
@@ -104,7 +105,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Żurawi i Dźwigów
+#### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Planowanie Żurawi i Dźwigów
 
 **Analiza Zasięgu**
 
@@ -119,7 +120,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-film" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie 4D
+#### <i class="bi bi-film" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Planowanie 4D
 
 **Symulacja Czasowa**
 
@@ -134,7 +135,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Dostawami
+#### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zarządzanie Dostawami
 
 **Harmonogramowanie Just-In-Time**
 
@@ -149,7 +150,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Zabezpieczenia Tymczasowe
+#### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zabezpieczenia Tymczasowe
 
 **Koordynacja Projektowania**
 
@@ -164,7 +165,7 @@ Wirtualne planowanie budowy przed mobilizacją:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Sekwencji
+#### <i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Optymalizacja Sekwencji
 
 **Analiza Wydajności**
 
@@ -284,37 +285,37 @@ Wirtualne planowanie budowy przed mobilizacją:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Wysokościowe
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budownictwo Wysokościowe
 
 Żurawie wieżowe, wielokrotne dźwigi, logistyka pionowa, małe powierzchnie, ograniczenia miejskie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Złożone Remonty
+### <i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Złożone Remonty
 
 Budynki użytkowane, dostęp etapowy, zabezpieczenia, koordynacja z użytkownikami, ograniczona przestrzeń
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Prace Ziemne Na Dużą Skalę
+### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Prace Ziemne Na Dużą Skalę
 
 Sekwencjonowanie robót ziemnych, drogi transportowe, wywóz ziemi, wiertnice palowe, odwodnienie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Operacyjne
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Obiekty Operacyjne
 
 Szpitale, centra danych, lotniska - praca wokół czynnych operacji
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Projekty Infrastrukturalne
 
 Drogi, mosty, media - interfejs publiczny, zarządzanie ruchem, fazowanie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-building-add" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Modułowe
+### <i class="bi bi-building-add" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budownictwo Modułowe
 
 Logistyka fabryczna, planowanie transportu, dostawa just-in-time, sekwencjonowanie montażu
 :::
@@ -330,12 +331,12 @@ Logistyka fabryczna, planowanie transportu, dostawa just-in-time, sekwencjonowan
 Profesjonalne oprogramowanie do planowania logistyki:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Navisworks** - Symulacja 4D i wykrywanie kolizji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Synchro PRO** - Zaawansowane planowanie 4D/5D budowy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Primavera P6** - Harmonogramowanie budowy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **AutoCAD/Revit** - Modelowanie placu 2D/3D</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **SketchUp** - Szybka wizualizacja 3D</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **GEOPAK** - Inżynieria lądowa i roboty ziemne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Navisworks** - Symulacja 4D i wykrywanie kolizji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Synchro PRO** - Zaawansowane planowanie 4D/5D budowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Primavera P6** - Harmonogramowanie budowy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **AutoCAD/Revit** - Modelowanie placu 2D/3D</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **SketchUp** - Szybka wizualizacja 3D</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **GEOPAK** - Inżynieria lądowa i roboty ziemne</p>
 :::
 :::
 
@@ -345,11 +346,11 @@ Profesjonalne oprogramowanie do planowania logistyki:
 Narzędzia specyficzne dla żurawi i logistyki:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cranimax** - Oprogramowanie do planowania żurawi wieżowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3D Lift Plan** - Planowanie żurawi mobilnych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **AutoTURN** - Analiza łuków skrętu pojazdów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Narzędzia producentów** - Konfiguracja żurawi Liebherr, Potain</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **GPS/Geodezja** - Topografia placu i stan faktyczny</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cranimax** - Oprogramowanie do planowania żurawi wieżowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3D Lift Plan** - Planowanie żurawi mobilnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **AutoTURN** - Analiza łuków skrętu pojazdów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Narzędzia producentów** - Konfiguracja żurawi Liebherr, Potain</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **GPS/Geodezja** - Topografia placu i stan faktyczny</p>
 :::
 :::
 
@@ -365,12 +366,12 @@ Narzędzia specyficzne dla żurawi i logistyki:
 Każde zlecenie planowania logistyki obejmuje:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Placu 2D** (format AutoCAD)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modele Placu 3D** (Revit lub SketchUp)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Zasięgu Żurawia** (strefy podnoszenia i promienie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Fazowania** (pokazują ewolucję w czasie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogramy Logistyki** (dostawy, zabezpieczenia tymczasowe)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja Wspierająca** (raporty i analizy)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Plany Placu 2D** (format AutoCAD)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Modele Placu 3D** (Revit lub SketchUp)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Zasięgu Żurawia** (strefy podnoszenia i promienie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Plany Fazowania** (pokazują ewolucję w czasie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Harmonogramy Logistyki** (dostawy, zabezpieczenia tymczasowe)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokumentacja Wspierająca** (raporty i analizy)</p>
 :::
 :::
 
@@ -380,13 +381,13 @@ Każde zlecenie planowania logistyki obejmuje:
 Wzmocnij swoje planowanie logistyki:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Animacje 4D** - Symulacja budowy w czasie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Spacery VR** - Immersyjna wizualizacja placu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Zarządzania Ruchem** - Zatwierdzenia drogowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ocena Oddziaływania Środowiskowego** - Modelowanie hałasu, pyłu, wibracji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wsparcie Na Placu** - Tygodniowa koordynacja logistyki</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie Lean Construction** - Integracja z systemem Last Planner</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Miesięczne Aktualizacje** - Replanning dla rzeczywistego postępu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Animacje 4D** - Symulacja budowy w czasie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Spacery VR** - Immersyjna wizualizacja placu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Plany Zarządzania Ruchem** - Zatwierdzenia drogowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ocena Oddziaływania Środowiskowego** - Modelowanie hałasu, pyłu, wibracji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wsparcie Na Placu** - Tygodniowa koordynacja logistyki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Planowanie Lean Construction** - Integracja z systemem Last Planner</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Miesięczne Aktualizacje** - Replanning dla rzeczywistego postępu</p>
 :::
 :::
 
@@ -509,10 +510,10 @@ O: Klienci zazwyczaj oszczędzają 5-15x kosztu planowania poprzez: uniknięte b
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Planowania 3D/4D</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Planowania Żurawi</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie Miejskie</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Specjaliści Planowania 3D/4D</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Eksperci Planowania Żurawi</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Doświadczenie Miejskie</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
 :::
 :::
 :::

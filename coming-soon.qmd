@@ -6,7 +6,7 @@ page-layout: full
 ::: {style="min-height: 70vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #2C2C2C 0%, #3a3a3a 100%);"}
 ::: {style="text-align: center; max-width: 800px; padding: 48px 32px;"}
 
-<i class="bi bi-tools" style="font-size: 120px; color: #FF9900; margin-bottom: 32px; display: block;"></i>
+<i class="bi bi-tools" style="font-size: 120px; color: #FF9900; margin-bottom: 32px; display: block;" aria-hidden="true"></i>
 
 <h1 style="color: #FFFFFF; font-family: 'Inter', sans-serif; font-weight: 700;">We're Building Something Great</h1>
 
@@ -17,7 +17,7 @@ This section is currently under construction. We're working hard to bring you co
 :::
 
 ::: {style="margin-top: 48px;"}
-[<i class="bi bi-house-door"></i> Return to Homepage](index.qmd){.cta-primary style="font-size: 18px; padding: 16px 48px;"}
+[<i class="bi bi-house-door" aria-hidden="true"></i> Return to Homepage](index.qmd){.cta-primary style="font-size: 18px; padding: 16px 48px;"}
 :::
 
 ::: {style="margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255, 153, 0, 0.3);"}

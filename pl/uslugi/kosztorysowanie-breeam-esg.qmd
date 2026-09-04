@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Optymalizuj inwestycje w zrównoważony rozwój z dokładnością ±5%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BREEAM Excellent/Outstanding</strong> - Planowanie kosztów dla wszystkich kategorii</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność ESG</strong> - Modelowanie kosztów środowiskowych, społecznych, zarządczych</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ocena emisji w całym cyklu życia</strong> - Kosztorysowanie emisji wbudowanej i operacyjnej</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>BREEAM Excellent/Outstanding</strong> - Planowanie kosztów dla wszystkich kategorii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zgodność ESG</strong> - Modelowanie kosztów środowiskowych, społecznych, zarządczych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Ocena emisji w całym cyklu życia</strong> - Kosztorysowanie emisji wbudowanej i operacyjnej</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Optymalizuj inwestycje w zrównoważony rozwój z dokładnością ±5%.
 Elementy zrównoważoności są często postrzegane jako dodatkowe koszty bez wyraźnego zwrotu z inwestycji:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Szacunki oparte na domysłach typu "10-15% narzutu za zrównoważoność"</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak rozróżnienia między kategoriami punktów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Oszczędności operacyjne ignorowane w analizie biznesowej</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Koszty emisji traktowane jako obciążenie regulacyjne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Koszty cyklu życia nie są prawidłowo oceniane</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Przy optymalizacji kosztów funkcje zrównoważoności są usuwane w pierwszej kolejności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Szacunki oparte na domysłach typu "10-15% narzutu za zrównoważoność"</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak rozróżnienia między kategoriami punktów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Oszczędności operacyjne ignorowane w analizie biznesowej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Koszty emisji traktowane jako obciążenie regulacyjne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Koszty cyklu życia nie są prawidłowo oceniane</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Przy optymalizacji kosztów funkcje zrównoważoności są usuwane w pierwszej kolejności</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Elementy zrównoważoności są często postrzegane jako dodatkowe koszty bez wy
 Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w zrównoważoność:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowe kosztorysowanie punktowe** dla BREEAM/LEED/WELL</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **30-letnia analiza cyklu życia** z oszczędnościami operacyjnymi</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kosztorysowanie emisji wbudowanej** (tCO2e)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Scenariusze ceny emisji CO2 (200-600 PLN/tonę)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zestawienia kosztów gotowe do raportowania ESG</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Optymalizacja wartości zachowująca cele zrównoważoności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowe kosztorysowanie punktowe** dla BREEAM/LEED/WELL</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **30-letnia analiza cyklu życia** z oszczędnościami operacyjnymi</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie emisji wbudowanej** (tCO2e)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Scenariusze ceny emisji CO2 (200-600 PLN/tonę)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zestawienia kosztów gotowe do raportowania ESG</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Optymalizacja wartości zachowująca cele zrównoważoności</p>
 :::
 :::
 
@@ -84,7 +85,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-award-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Certyfikacja BREEAM
+### <i class="bi bi-award-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Certyfikacja BREEAM
 
 **Wszystkie poziomy certyfikacji**
 
@@ -100,7 +101,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>Emisje i energia
+### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Emisje i energia
 
 **Budynki neutralne emisyjnie**
 
@@ -116,7 +117,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Raportowanie ESG
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Raportowanie ESG
 
 **Analiza dla inwestorów instytucjonalnych**
 
@@ -132,7 +133,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Efektywność Zasobów
+### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Efektywność Zasobów
 
 **Zrównoważone Materiały i Systemy**
 
@@ -148,7 +149,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-heart-pulse-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Zdrowie i Dobrostan
+### <i class="bi bi-heart-pulse-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zdrowie i Dobrostan
 
 **Projektowanie skoncentrowane na użytkownikach**
 
@@ -164,7 +165,7 @@ Szczegółowe modelowanie kosztów, które dowodzi opłacalności inwestycji w z
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Gospodarka Obiegu Zamkniętego
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Gospodarka Obiegu Zamkniętego
 
 **Aktywa przyszłości**
 
@@ -497,10 +498,10 @@ O: Koszty raportowania ESG obejmują: systemy zbierania danych, urządzenia moni
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zespół z Kwalifikacjami BREEAM AP</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>30-letnia analiza cyklu życia</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analizy biznesowe gotowe dla inwestorów</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zespół z Kwalifikacjami BREEAM AP</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>30-letnia analiza cyklu życia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Analizy biznesowe gotowe dla inwestorów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

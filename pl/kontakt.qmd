@@ -44,7 +44,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Telefon</h3>
           <p style="color: #666666; margin-bottom: 20px;">Porozmawiaj bezpośrednio z naszymi specjalistami</p>
@@ -60,7 +60,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">E-mail</h3>
           <p style="color: #666666; margin-bottom: 20px;">Wyślij nam szczegóły projektu i wymagania</p>
@@ -76,7 +76,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-geo-alt-fill"></i>
+            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Zasięg Międzynarodowy</h3>
           <p style="color: #666666; margin-bottom: 20px;">Obsługujemy klientów na rynkach międzynarodowych</p>

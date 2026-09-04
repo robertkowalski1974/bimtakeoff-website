@@ -1,37 +1,65 @@
-/* BIM Takeoff Web Styles - Updated October 2025 with Advanced Animations
- * 
- * Typography: Per updated brand guidelines, using Inter for all web text
+/* BIM Takeoff Web Styles
+ *
+ * Typography: Inter for all web text. The font is loaded with a <link> tag from
+ * include-in-header in _quarto.yml, never with a CSS import rule here - such a
+ * rule blocks rendering of the stylesheet that contains it.
  * - Headings: Inter Bold (700) / Semi-bold (600)
- * - Body Text: Inter Regular (400) - optimized for screen rendering
+ * - Body Text: Inter Regular (400)
  * - Note: Lora serif font reserved for print/PDF documents only
- * 
+ *
  * Colors: Official BIM Takeoff brand palette
  * - Primary: Orange #FF9900, Charcoal #2C2C2C, White #FFFFFF
- * - Secondary: Light Gray #F0F0F0, Medium Gray #757575
+ * - Secondary: Light Gray #F0F0F0, Medium Gray #757575, Dark Gray #404040
+ *
+ * Orange is used for fills, rules and icons only - never as text on white,
+ * and never as a background behind white text (both fail WCAG AA).
  */
 
-/* Import Brand Fonts - Inter for all web text */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-/* BIM Takeoff Brand Colors */
+/* ============================================
+   DESIGN TOKENS
+   ============================================ */
 :root {
+  /* Brand colour */
   --bim-orange: #FF9900;
   --bim-orange-hover: #E68A00;
+  --bim-orange-visited: #D97500;
   --bim-charcoal: #2C2C2C;
   --bim-white: #FFFFFF;
   --bim-light-gray: #F0F0F0;
   --bim-medium-gray: #757575;
+  --bim-dark-gray: #404040;
+
+  /* Type */
   --font-heading: 'Inter', 'Segoe UI', Arial, sans-serif;
   --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
+
+  /* Spacing */
   --spacing-xl: 32px;
   --spacing-xxl: 48px;
+
+  /* Elevation - three steps, used everywhere a shadow is needed */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, .10);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, .12);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, .18);
+
+  /* Radius - cards are square, controls take a small radius */
+  --radius-card: 0;
+  --radius-control: 4px;
 }
 
 /* ============================================
-   SMOOTH SCROLLING
+   BASE
    ============================================ */
 html {
   scroll-behavior: smooth;
+}
+
+/* `clip` contains the full-bleed hero without creating a scroll container,
+   so position: sticky keeps working. Replaces the old overflow-x: hidden
+   plus max-width: 100vw pair, which broke against the scrollbar width. */
+html,
+body {
+  overflow-x: clip;
 }
 
 body {
@@ -42,7 +70,14 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+}
+
+/* Media never overflows its column. No !important needed - element
+   selectors lose to every component rule that sets an explicit size. */
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Remove any top margin/padding from main content */
@@ -68,36 +103,84 @@ main > :first-child,
 }
 
 /* ============================================
-   SCROLL REVEAL ANIMATIONS
+   ACCESSIBILITY
    ============================================ */
-.fade-in-element {
+
+/* Skip link - injected into <body> by js/scroll-effects.js.
+   Visually hidden until it takes focus. */
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: -9999px;
+  z-index: 10000;
+  background: var(--bim-charcoal);
+  color: var(--bim-white);
+  padding: 12px 20px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: var(--radius-control);
+}
+
+.skip-link:focus {
+  left: 8px;
+  outline: 3px solid var(--bim-orange);
+  outline-offset: 2px;
+}
+
+/* Visible keyboard focus. Orange on light ground... */
+a:focus-visible,
+button:focus-visible,
+.cta-primary:focus-visible,
+.cta-secondary:focus-visible,
+.nav-link:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--bim-orange);
+  outline-offset: 2px;
+}
+
+/* ...white on the charcoal navbar and footer, where orange is too dim. */
+.navbar a:focus-visible,
+.navbar .nav-link:focus-visible,
+.navbar .dropdown-item:focus-visible,
+.navbar button:focus-visible,
+.nav-footer a:focus-visible,
+footer a:focus-visible {
+  outline: 3px solid var(--bim-white);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   SCROLL REVEAL
+   ============================================
+   Content is visible by default. The hidden state applies only when the
+   script has added .js-reveal, so no-JS readers, jump-to-end readers and
+   anyone the IntersectionObserver misses still see the page. */
+.js-reveal {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transform: translateY(24px);
+  transition: opacity .5s ease-out, transform .5s ease-out;
 }
 
-.fade-in-visible {
-  opacity: 1 !important;
-  transform: translateY(0) !important;
+.js-reveal.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* ============================================
-   SCROLL PROGRESS INDICATOR
-   ============================================ */
-.scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--bim-orange) 0%, var(--bim-orange-hover) 100%);
-  width: 0%;
-  z-index: 9999;
-  transition: width 0.2s ease-out;
-  box-shadow: 0 2px 5px rgba(255, 153, 0, 0.3);
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal,
+  .js-reveal.fade-in-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* ============================================
-   SCROLL TO TOP BUTTON
+   SCROLL TO TOP BUTTON (currently disabled in JS)
    ============================================ */
 .scroll-to-top {
   position: fixed;
@@ -106,15 +189,14 @@ main > :first-child,
   width: 50px;
   height: 50px;
   background: var(--bim-orange);
-  color: var(--bim-white);
+  color: var(--bim-charcoal);
   border: none;
   border-radius: 50%;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(20px);
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 153, 0, 0.4);
+  transition: opacity .3s ease, visibility .3s ease, background-color .3s ease;
+  box-shadow: var(--shadow-md);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -124,72 +206,32 @@ main > :first-child,
 
 .scroll-to-top:hover {
   background: var(--bim-orange-hover);
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(255, 153, 0, 0.6);
 }
 
 .scroll-to-top.visible {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
 }
 
 /* ============================================
-   LOADING ANIMATIONS
-   ============================================ */
-body:not(.loaded) .hero-title,
-body:not(.loaded) .hero-subtitle,
-body:not(.loaded) .cta-primary,
-body:not(.loaded) .cta-secondary {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-/* ============================================
-   ENHANCED CARD ANIMATIONS
-   ============================================ */
-.feature-card,
-.portfolio-item,
-.trust-badge {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-origin: center;
-  will-change: transform;
-}
-
-.feature-card:hover,
-.portfolio-item:hover,
-.trust-badge:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
-}
-
-/* ============================================
-   NAVBAR ANIMATIONS
+   NAVBAR
    ============================================ */
 .navbar {
-  transition: box-shadow 0.3s ease;
+  background-color: var(--bim-charcoal) !important;
+  transition: box-shadow .3s ease;
 }
 
-/* Navbar Logo Styling */
 .navbar-brand img {
   max-height: 50px;
   width: auto;
 }
 
 /* Hide the site title text next to logo - show only logo */
-.navbar-brand .navbar-title {
-  display: none !important;
-}
-
+.navbar-brand .navbar-title,
 .navbar-title {
   display: none !important;
 }
 
-.navbar {
-  background-color: var(--bim-charcoal) !important;
-}
-
-/* Navbar Font Styling - Consistent with Brand */
 .navbar-nav .nav-link,
 .navbar-nav .nav-item .nav-link,
 .navbar .navbar-nav .nav-link {
@@ -197,14 +239,11 @@ body:not(.loaded) .cta-secondary {
   font-weight: 600 !important;
   font-size: 16px !important;
   color: var(--bim-white) !important;
-  transition: color 0.3s ease;
+  transition: color .3s ease;
 }
 
 .navbar-nav .nav-link:hover,
-.navbar-nav .nav-item .nav-link:hover {
-  color: var(--bim-orange) !important;
-}
-
+.navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-item .nav-link.active {
   color: var(--bim-orange) !important;
@@ -214,20 +253,21 @@ body:not(.loaded) .cta-secondary {
 .navbar .dropdown-menu {
   background-color: var(--bim-charcoal);
   border: 1px solid var(--bim-orange);
-  animation: fadeIn 0.3s ease-out;
+  border-radius: var(--radius-control);
 }
 
 .navbar .dropdown-menu .dropdown-item {
   font-family: var(--font-heading) !important;
   font-weight: 500 !important;
   color: var(--bim-white) !important;
-  transition: all 0.3s ease;
+  transition: background-color .2s ease, color .2s ease;
 }
 
-.navbar .dropdown-menu .dropdown-item:hover {
+/* Charcoal on orange, not white on orange (2.14:1 fails AA) */
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
   background-color: var(--bim-orange);
-  color: var(--bim-white) !important;
-  transform: translateX(5px);
+  color: var(--bim-charcoal) !important;
 }
 
 /* Language switcher styling */
@@ -247,18 +287,19 @@ body:not(.loaded) .cta-secondary {
 }
 
 .praevius-navbar-logo img {
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition: opacity .3s ease;
 }
 
 .praevius-navbar-logo:hover img {
-  transform: scale(1.15);
-  filter: brightness(1.2);
+  opacity: .75;
 }
 
 /* ============================================
-   TYPOGRAPHY WITH ANIMATIONS
+   TYPOGRAPHY
    ============================================ */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-heading);
   font-weight: 700;
 }
@@ -267,57 +308,57 @@ h2 {
   border-bottom: 3px solid var(--bim-orange);
   padding-bottom: 8px;
   color: var(--bim-charcoal);
-  position: relative;
-  overflow: hidden;
-}
-
-h2::after {
-  content: '';
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: var(--bim-orange-hover);
-  transition: width 0.6s ease;
-}
-
-h2:hover::after {
-  width: 100%;
 }
 
 h3 {
   color: var(--bim-charcoal);
 }
 
+/* In-content links: charcoal text (12.6:1) with an orange underline.
+   Orange text on white is 2.14:1 and fails AA, so the colour moves to
+   the rule and the text stays readable. */
+#quarto-content a:not(.cta-primary):not(.cta-secondary):not(.nav-link):not(.dropdown-item):not(.praevius-navbar-logo):not(.skip-link):not(.navbar-brand) {
+  color: var(--bim-charcoal);
+  text-decoration: underline;
+  text-decoration-color: var(--bim-orange);
+  text-underline-offset: 3px;
+}
+
+#quarto-content a:not(.cta-primary):not(.cta-secondary):not(.nav-link):not(.dropdown-item):not(.praevius-navbar-logo):not(.skip-link):not(.navbar-brand):hover {
+  text-decoration-color: var(--bim-orange-hover);
+  text-decoration-thickness: 2px;
+}
+
+#quarto-content a:not(.cta-primary):not(.cta-secondary):not(.nav-link):not(.dropdown-item):not(.praevius-navbar-logo):not(.skip-link):not(.navbar-brand):visited {
+  text-decoration-color: var(--bim-orange-visited);
+}
+
 /* ============================================
-   HERO SECTION WITH ENHANCED PARALLAX
+   HERO SECTION
    ============================================ */
+
+/* Full-bleed without 100vw: 100vw includes the scrollbar and overflows.
+   margin-inline against the parent's own width does not. */
 .hero-section {
-  background-image: linear-gradient(rgba(44, 44, 44, 0.3), rgba(64, 64, 64, 0.3)), url('../images/header-background.jpg');
+  background-image: linear-gradient(rgba(44, 44, 44, .3), rgba(64, 64, 64, .3)), url('../images/header-background.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: var(--bim-white);
   padding: 80px 0;
   text-align: center;
-  margin-bottom: var(--spacing-xxl);
-  margin-top: 0;
+  margin-block: 0 var(--spacing-xxl);
+  margin-inline: calc(50% - 50vw);
+  width: auto;
   position: relative;
   min-height: 600px;
   overflow: hidden;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
 }
 
 /* Video background container */
 .hero-video-bg {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
@@ -335,22 +376,18 @@ h3 {
   transform: translateX(-50%);
   object-fit: cover;
   object-position: center top;
-  transition: transform 0.1s ease-out;
 }
 
 /* Dark overlay over video */
 .hero-video-bg::after {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(44, 44, 44, 0.3), rgba(64, 64, 64, 0.3));
+  inset: 0;
+  background: linear-gradient(rgba(44, 44, 44, .3), rgba(64, 64, 64, .3));
   z-index: 1;
 }
 
-/* Video disabled state (mobile/reduced data) */
+/* Video disabled state (mobile / reduced data / no-JS) - poster stays */
 .hero-video-bg.video-disabled video {
   display: none;
 }
@@ -358,10 +395,7 @@ h3 {
 .hero-video-bg.video-disabled::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background-image: url('../images/header-background.jpg');
   background-size: cover;
   background-position: center;
@@ -376,7 +410,7 @@ h3 {
   padding: 0 32px;
   max-width: 1200px;
   margin: 0 auto;
-  transition: opacity 0.3s ease-out;
+  transition: opacity .3s ease-out;
 }
 
 .hero-logo {
@@ -387,97 +421,99 @@ h3 {
 .hero-logo img {
   max-width: 300px;
   height: auto;
-  animation: fadeInUp 0.8s ease-out;
 }
 
-.hero-title {
-  font-family: var(--font-heading);
-  font-size: 48px;
-  font-weight: 700;
-  color: var(--bim-white);
-  margin-bottom: 24px;
-  line-height: 1.2;
-  position: relative;
-  z-index: 10;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-}
-
+.hero-title,
 .hero-title h1 {
   font-family: var(--font-heading);
   font-size: 48px;
   font-weight: 700;
   color: var(--bim-white);
-  margin: 0;
   line-height: 1.2;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+}
+
+.hero-title {
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-title h1 {
+  margin: 0;
 }
 
 .hero-title h3 {
   color: var(--bim-orange);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  animation: pulse 2s ease-in-out infinite;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
 }
 
-.hero-subtitle {
-  font-family: var(--font-body);
-  font-size: 24px;
-  color: var(--bim-white);
-  margin-bottom: 32px;
-  line-height: 1.4;
-  position: relative;
-  z-index: 10;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-}
-
+.hero-subtitle,
 .hero-subtitle p {
   font-family: var(--font-body);
   font-size: 24px;
   color: var(--bim-white);
-  margin: 0;
   line-height: 1.4;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+}
+
+.hero-subtitle {
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-subtitle p {
+  margin: 0;
+}
+
+/* Hero eyebrow (replaces the former H3 kicker above the H1) */
+.hero-eyebrow {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--bim-light-gray);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+  margin-bottom: 8px;
+}
+
+/* Hero button row (was an inline flex style on the .qmd) */
+.hero-actions {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* ============================================
-   CTA BUTTONS WITH ENHANCED ANIMATIONS
+   CTA BUTTONS
    ============================================ */
+
+/* Charcoal on orange is 6.5:1 and passes AA.
+   White on orange is 2.14:1 and does not. */
 .cta-primary {
   display: inline-block;
   background-color: var(--bim-orange);
-  color: var(--bim-white);
+  color: var(--bim-charcoal);
   padding: 16px 32px;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 4px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
+  border-radius: var(--radius-control);
+  transition: background-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 
-.cta-primary::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
-
-.cta-primary:hover::before {
-  width: 300px;
-  height: 300px;
-}
-
-.cta-primary:hover {
+.cta-primary:hover,
+.cta-primary:focus {
   background-color: var(--bim-orange-hover);
+  color: var(--bim-charcoal);
   transform: translateY(-2px);
-  color: var(--bim-white);
-  box-shadow: 0 5px 15px rgba(255, 153, 0, 0.4);
+  box-shadow: var(--shadow-md);
+}
+
+.cta-primary:visited {
+  color: var(--bim-charcoal);
 }
 
 .cta-secondary {
@@ -488,32 +524,75 @@ h3 {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: var(--radius-control);
   border: 2px solid var(--bim-white);
-  transition: all 0.3s ease;
-  position: relative;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.cta-secondary:hover,
+.cta-secondary:focus {
+  background-color: var(--bim-white);
+  color: var(--bim-charcoal);
+  border-color: var(--bim-white);
+}
+
+/* ============================================
+   CARD PRIMITIVE
+   ============================================
+   One skin for every card: white ground, orange left rule, small shadow,
+   square corners. Individual classes override only their own padding and
+   background, so existing layout dimensions are unchanged. */
+.card-base,
+.feature-card,
+.faq-item,
+.callout-box,
+.trust-badge,
+.portfolio-item,
+.process-step {
+  background: var(--bim-white);
+  padding: 32px;
+  border-left: 4px solid var(--bim-orange);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-card);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.faq-item,
+.trust-badge {
+  padding: 24px;
+}
+
+.callout-box {
+  padding: 24px;
+  background: var(--bim-light-gray);
+  margin: 32px 0;
+}
+
+.portfolio-item {
+  padding: 0;
   overflow: hidden;
 }
 
-.cta-secondary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: var(--bim-white);
-  transition: left 0.3s ease;
-  z-index: -1;
+.process-step {
+  padding: 24px 32px 32px 32px;
+  background: var(--bim-light-gray);
 }
 
-.cta-secondary:hover::before {
-  left: 0;
+.faq-item {
+  margin-bottom: 16px;
 }
 
-.cta-secondary:hover {
-  color: var(--bim-charcoal);
-  border-color: var(--bim-white);
+/* Hover lift, in CSS rather than inline styles set from JS.
+   Declared AFTER .js-reveal.fade-in-visible so that the hover transform
+   wins the specificity tie against the reveal's resting transform. */
+.feature-card:hover,
+.faq-item:hover,
+.callout-box:hover,
+.trust-badge:hover,
+.portfolio-item:hover,
+.process-step:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 /* ============================================
@@ -521,33 +600,9 @@ h3 {
    ============================================ */
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 32px;
   margin: 48px 0;
-}
-
-.feature-card {
-  background: white;
-  padding: 32px;
-  border-left: 4px solid var(--bim-orange);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.feature-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 153, 0, 0.1), transparent);
-  transition: left 0.5s ease;
-}
-
-.feature-card:hover::before {
-  left: 100%;
 }
 
 .feature-card h3 {
@@ -564,11 +619,6 @@ h3 {
   font-size: 32px;
   margin-right: 12px;
   color: var(--bim-orange);
-  transition: transform 0.3s ease;
-}
-
-.feature-card:hover h3 i {
-  transform: scale(1.2) rotate(5deg);
 }
 
 .feature-card p {
@@ -580,55 +630,48 @@ h3 {
 }
 
 .feature-card a {
-  color: var(--bim-orange);
-  text-decoration: none;
   font-weight: 600;
-  transition: all 0.3s ease;
 }
 
-.feature-card a:hover {
-  text-decoration: underline;
-  padding-left: 5px;
-}
-
-/* Override for CTA buttons inside feature cards */
-.feature-card a.cta-primary {
-  color: var(--bim-white) !important;
-}
-
-.feature-card a.cta-primary:hover {
-  color: var(--bim-white) !important;
+/* CTA buttons inside feature cards keep the button treatment */
+.feature-card a.cta-primary,
+.feature-card a.cta-primary:hover,
+.feature-card a.cta-primary:visited {
+  color: var(--bim-charcoal) !important;
   text-decoration: none;
-  padding-left: 32px;
+}
+
+/* Button row inside a card (was an inline flex style on the .qmd) */
+.card-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 /* ============================================
-   STATS SECTION WITH ANIMATED COUNTERS
-   ============================================ */
+   STATS SECTION
+   ============================================
+   The one place a gradient survives: charcoal to dark grey. */
 .stats-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   gap: 24px;
   margin: 48px 0;
   padding: 32px;
-  background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%);
-  color: white;
-  border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, var(--bim-charcoal) 0%, var(--bim-dark-gray) 100%);
+  color: var(--bim-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-lg);
 }
 
 .stat {
   text-align: center;
   padding: 16px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  border-radius: var(--radius-card);
 }
 
-.stat:hover {
-  background: rgba(255, 153, 0, 0.1);
-  transform: translateY(-5px);
-}
-
+/* Orange on charcoal is 4.6:1 and passes AA */
 .stat-number,
 .stat-number p {
   font-size: 48px;
@@ -637,12 +680,6 @@ h3 {
   display: block;
   font-family: var(--font-heading);
   margin: 0;
-  transition: all 0.5s ease;
-}
-
-.stat:hover .stat-number {
-  transform: scale(1.1);
-  text-shadow: 0 0 20px rgba(255, 153, 0, 0.5);
 }
 
 .stat-label,
@@ -657,7 +694,7 @@ h3 {
    TRUST SECTION
    ============================================ */
 .trust-section {
-  background: linear-gradient(135deg, var(--bim-light-gray) 0%, #e0e0e0 100%);
+  background: var(--bim-light-gray);
   padding: 48px 32px;
   text-align: center;
   margin: 48px 0;
@@ -672,10 +709,6 @@ h3 {
 }
 
 .trust-badge {
-  background: white;
-  padding: 24px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   min-width: 200px;
 }
 
@@ -692,11 +725,6 @@ h3 {
 
 .trust-badge h4 i {
   color: var(--bim-orange);
-  transition: transform 0.3s ease;
-}
-
-.trust-badge:hover h4 i {
-  transform: scale(1.3) rotate(10deg);
 }
 
 .trust-badge p {
@@ -717,7 +745,7 @@ h3 {
 
 .comparison-table thead {
   background: var(--bim-charcoal);
-  color: white;
+  color: var(--bim-white);
 }
 
 .comparison-table th,
@@ -725,7 +753,6 @@ h3 {
   padding: 16px;
   text-align: left;
   font-family: var(--font-body);
-  transition: background 0.3s ease;
 }
 
 .comparison-table th {
@@ -738,12 +765,14 @@ h3 {
 }
 
 .comparison-table tr:hover {
-  background-color: rgba(255, 153, 0, 0.1);
+  background-color: rgba(255, 153, 0, .1);
 }
 
+/* Orange as a rule, not as text - orange text on white fails AA */
 .comparison-table .highlight {
-  color: var(--bim-orange);
+  color: var(--bim-charcoal);
   font-weight: 700;
+  box-shadow: inset 0 -3px 0 var(--bim-orange);
 }
 
 .comparison-table td strong {
@@ -752,36 +781,28 @@ h3 {
 }
 
 /* ============================================
-   PROCESS STEPS WITH ANIMATIONS
+   PROCESS STEPS
    ============================================ */
 .process-steps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
   gap: 32px;
   counter-reset: step-counter;
 }
 
 .process-step {
   position: relative;
-  padding: 24px 32px 32px 32px;
-  background: var(--bim-light-gray);
-  border-radius: 8px;
   counter-increment: step-counter;
-  transition: all 0.3s ease;
 }
 
-.process-step:hover {
-  background: linear-gradient(135deg, var(--bim-light-gray) 0%, #e8e8e8 100%);
-  transform: translateY(-5px);
-}
-
+/* Charcoal on orange, not white on orange */
 .process-step::before {
   content: counter(step-counter);
   position: absolute;
   top: 24px;
   left: 24px;
   background: var(--bim-orange);
-  color: white;
+  color: var(--bim-charcoal);
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -791,13 +812,6 @@ h3 {
   font-weight: 700;
   font-size: 24px;
   font-family: var(--font-heading);
-  box-shadow: 0 4px 10px rgba(255, 153, 0, 0.3);
-  transition: all 0.3s ease;
-}
-
-.process-step:hover::before {
-  transform: scale(1.1) rotate(360deg);
-  box-shadow: 0 6px 15px rgba(255, 153, 0, 0.5);
 }
 
 .process-step h4 {
@@ -822,32 +836,15 @@ h3 {
    ============================================ */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
   gap: 32px;
   margin: 48px 0;
-}
-
-.portfolio-item {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.portfolio-item:hover {
-  transform: translateY(-10px) scale(1.02);
 }
 
 .portfolio-item img {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.1);
 }
 
 .portfolio-content {
@@ -875,30 +872,25 @@ h3 {
   margin: 12px 0;
 }
 
+/* Charcoal on orange, not white on orange */
+.portfolio-tag,
+.portfolio-tag p {
+  color: var(--bim-charcoal);
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
 .portfolio-tag {
   background: var(--bim-orange);
-  color: white;
   padding: 4px 12px;
-  border-radius: 4px;
+  border-radius: var(--radius-control);
   font-size: 14px;
   display: inline-block;
   margin: 8px 4px;
-  font-family: var(--font-heading);
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.portfolio-tag:hover {
-  background: var(--bim-orange-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 2px 5px rgba(255, 153, 0, 0.3);
 }
 
 .portfolio-tag p {
   margin: 0;
-  font-family: var(--font-heading);
-  font-weight: 600;
-  color: white;
 }
 
 /* ============================================
@@ -906,20 +898,6 @@ h3 {
    ============================================ */
 .faq-section {
   margin: 48px 0;
-}
-
-.faq-item {
-  background: white;
-  border-left: 4px solid var(--bim-orange);
-  padding: 24px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateX(5px);
 }
 
 .faq-question,
@@ -945,20 +923,6 @@ h3 {
 /* ============================================
    CALLOUT BOX
    ============================================ */
-.callout-box {
-  background: linear-gradient(135deg, var(--bim-light-gray) 0%, #e8e8e8 100%);
-  border-left: 4px solid var(--bim-orange);
-  padding: 24px;
-  margin: 32px 0;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-.callout-box:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transform: translateY(-5px);
-}
-
 .callout-box h4 {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -979,16 +943,167 @@ h3 {
   margin-top: 16px;
 }
 
-/* Fix secondary button visibility on light backgrounds */
+/* Secondary button needs a dark outline on the light callout ground */
 .callout-box .cta-secondary {
   color: var(--bim-charcoal);
   border-color: var(--bim-charcoal);
 }
 
-.callout-box .cta-secondary:hover {
+.callout-box .cta-secondary:hover,
+.callout-box .cta-secondary:focus {
   background-color: var(--bim-charcoal);
   color: var(--bim-white);
   border-color: var(--bim-charcoal);
+}
+
+/* ============================================
+   HOME PAGE BLOCKS
+   ============================================
+   Named classes replacing inline grid/flex styles in index.qmd and
+   pl/index.qmd, so the mobile rules can be plain class selectors instead
+   of brittle attribute-substring matches on the style attribute. */
+
+/* "About us" three-up */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  background: var(--bim-white);
+  padding: 20px;
+  border-left: 4px solid var(--bim-orange);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--radius-card);
+}
+
+.about-card i {
+  font-size: 48px;
+  color: var(--bim-orange);
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.about-card-body {
+  flex: 1;
+}
+
+/* Dark "Transform your estimation process" band */
+.cta-band {
+  margin: 64px 0;
+  padding: 48px 32px;
+  background: linear-gradient(135deg, var(--bim-charcoal) 0%, var(--bim-dark-gray) 100%);
+  border-radius: var(--radius-card);
+  text-align: center;
+}
+
+.cta-band-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-band h2 {
+  color: var(--bim-white);
+  border-bottom: 3px solid var(--bim-orange);
+}
+
+.cta-band p {
+  color: var(--bim-white);
+  font-size: 16px;
+}
+
+.cta-band-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.cta-band-stat {
+  padding: 16px;
+}
+
+.cta-band-stat h3 {
+  color: var(--bim-orange);
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.cta-band-stat p {
+  color: var(--bim-white);
+  font-weight: 600;
+}
+
+/* Two-up "Ready to see the difference?" split panel */
+.split-panel {
+  margin: 64px 0;
+  padding: 0;
+  background: var(--bim-light-gray);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.split-panel-text,
+.split-panel-aside {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split-panel-text h3 {
+  color: var(--bim-charcoal);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.split-panel-text p,
+.split-panel-text ul {
+  color: var(--bim-charcoal);
+}
+
+.split-panel-aside {
+  background: var(--bim-charcoal);
+}
+
+.split-panel-aside p {
+  color: var(--bim-white);
+}
+
+/* Intro label above a list, in either panel */
+.label-strong {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.split-panel-markets {
+  margin-top: 24px;
+  line-height: 2;
+}
+
+.split-panel-markets p {
+  margin: 0;
+}
+
+.split-panel-facts {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--bim-medium-gray);
+}
+
+.split-panel-facts p {
+  margin: 4px 0;
+  font-weight: 600;
 }
 
 /* ============================================
@@ -999,7 +1114,7 @@ h3 {
   margin: 32px auto;
   padding: 32px;
   background: var(--bim-light-gray);
-  border-radius: 8px;
+  border-radius: var(--radius-card);
 }
 
 .form-group {
@@ -1018,21 +1133,19 @@ h3 {
   width: 100%;
   padding: 16px;
   border: 2px solid var(--bim-medium-gray);
-  border-radius: 4px;
+  border-radius: var(--radius-control);
   font-size: 16px;
-  transition: all 0.3s ease;
+  transition: border-color .2s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  outline: none;
   border-color: var(--bim-orange);
-  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.1);
 }
 
 /* ============================================
-   UTILITY CLASSES
+   UTILITY
    ============================================ */
 .container {
   max-width: 1200px;
@@ -1047,16 +1160,17 @@ h3 {
 }
 
 .image-section img {
-  max-width: 100%;
+  max-width: min(1000px, 100%);
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-md);
 }
 
-.image-section img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+.image-section img.figure-narrow {
+  max-width: min(900px, 100%);
 }
 
 .text-center {
@@ -1068,61 +1182,7 @@ h3 {
 }
 
 /* ============================================
-   KEYFRAME ANIMATIONS
-   ============================================ */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* ============================================
-   MOBILE RESPONSIVE - COMPREHENSIVE BREAKPOINTS
+   MOBILE RESPONSIVE
    ============================================ */
 
 /* --- TABLETS (max-width: 1024px) --- */
@@ -1151,16 +1211,8 @@ h3 {
     padding: 0 24px;
   }
 
-  .feature-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-
-  .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-
+  .feature-grid,
+  .portfolio-grid,
   .process-steps {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
@@ -1185,9 +1237,8 @@ h3 {
     padding: 8px 12px !important;
   }
 
-  /* Two-column grid adjustments */
-  [style*="grid-template-columns: 1fr 1fr"] {
-    grid-template-columns: 1fr !important;
+  .two-col {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1196,11 +1247,6 @@ h3 {
   :root {
     --spacing-xl: 20px;
     --spacing-xxl: 32px;
-  }
-
-  html, body {
-    overflow-x: hidden;
-    max-width: 100vw;
   }
 
   body {
@@ -1235,7 +1281,8 @@ h3 {
   /* Single column grids */
   .feature-grid,
   .portfolio-grid,
-  .process-steps {
+  .process-steps,
+  .about-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -1318,11 +1365,12 @@ h3 {
     justify-content: center;
   }
 
-  /* Hero CTA container */
-  [style*="display: flex"][style*="gap: 16px"][style*="justify-content: center"] {
+  /* Stack the hero and in-card button rows */
+  .hero-actions,
+  .card-actions {
     flex-direction: column;
     align-items: center;
-    gap: 12px !important;
+    gap: 12px;
   }
 
   /* FAQ items mobile */
@@ -1388,38 +1436,30 @@ h3 {
     margin: 32px 0;
     padding: 0 16px;
     box-sizing: border-box;
-    width: 100%;
-    overflow: hidden;
   }
 
-  .image-section img {
-    border-radius: 4px;
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto !important;
+  /* Home page blocks mobile */
+  .about-card {
+    padding: 16px;
   }
 
-  /* Force all images to respect container width on mobile */
-  img {
-    max-width: 100% !important;
-    height: auto !important;
+  .about-card i {
+    font-size: 36px;
+    margin-right: 14px;
   }
 
-  /* Fix inline-styled images that have fixed max-width */
-  img[style*="max-width: 900px"],
-  img[style*="max-width: 1000px"],
-  img[style*="max-width:900px"],
-  img[style*="max-width:1000px"] {
-    max-width: 100% !important;
-    width: 100% !important;
+  .cta-band {
+    padding: 32px 20px;
+    margin: 32px 0;
   }
 
-  /* Prevent horizontal overflow on main content */
-  .container,
-  #quarto-content,
-  main {
-    overflow-x: hidden;
-    max-width: 100vw;
+  .split-panel {
+    margin: 32px 0;
+  }
+
+  .split-panel-text,
+  .split-panel-aside {
+    padding: 28px 20px;
   }
 
   /* Scroll to top button */
@@ -1652,19 +1692,23 @@ h3 {
     font-size: 14px;
   }
 
+  /* Home page blocks small phones */
+  .cta-band-stat h3 {
+    font-size: 30px;
+  }
+
   /* Navbar small phones */
   .navbar-brand img {
     max-height: 40px;
   }
 
-  /* Praevius logo smaller on mobile */
   .praevius-navbar-logo {
     padding: 6px 8px;
     margin-left: 4px;
   }
 
   .praevius-navbar-logo img {
-    max-height: 24px !important;
+    max-height: 24px;
   }
 }
 
@@ -1672,47 +1716,14 @@ h3 {
    TOUCH DEVICE OPTIMIZATIONS
    ============================================ */
 @media (hover: none) and (pointer: coarse) {
-  /* Remove hover effects that don't work on touch */
+  /* Hover lift is meaningless on touch */
   .feature-card:hover,
+  .faq-item:hover,
+  .callout-box:hover,
+  .trust-badge:hover,
   .portfolio-item:hover,
-  .trust-badge:hover {
-    transform: none;
-  }
-
-  .feature-card:hover::before {
-    left: -100%;
-  }
-
-  .feature-card:hover h3 i,
-  .trust-badge:hover h4 i {
-    transform: none;
-  }
-
-  .process-step:hover {
-    transform: none;
-  }
-
-  .process-step:hover::before {
-    transform: none;
-  }
-
-  .stat:hover {
-    transform: none;
-  }
-
-  .stat:hover .stat-number {
-    transform: none;
-  }
-
-  .faq-item:hover {
-    transform: none;
-  }
-
-  .callout-box:hover {
-    transform: none;
-  }
-
-  .image-section img:hover {
+  .process-step:hover,
+  .cta-primary:hover {
     transform: none;
   }
 
@@ -1732,19 +1743,11 @@ h3 {
   /* Better tap feedback */
   .cta-primary:active,
   .cta-secondary:active {
-    transform: scale(0.98);
-    opacity: 0.9;
+    opacity: .9;
   }
 
-  .feature-card:active,
-  .portfolio-item:active {
-    background-color: rgba(255, 153, 0, 0.05);
-  }
-
-  /* Touch active state styling */
   .touch-active {
-    opacity: 0.85;
-    transform: scale(0.98);
+    opacity: .85;
   }
 }
 
@@ -1755,15 +1758,10 @@ h3 {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
+    animation-duration: .01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+    transition-duration: .01ms !important;
     scroll-behavior: auto !important;
-  }
-
-  .fade-in-element {
-    opacity: 1;
-    transform: none;
   }
 
   .hero-video-bg video {
@@ -1771,7 +1769,7 @@ h3 {
   }
 
   .hero-section {
-    background-image: linear-gradient(rgba(44, 44, 44, 0.5), rgba(64, 64, 64, 0.5)), url('../images/header-background.jpg');
+    background-image: linear-gradient(rgba(44, 44, 44, .5), rgba(64, 64, 64, .5)), url('../images/header-background.jpg');
   }
 }
 
@@ -1780,8 +1778,8 @@ h3 {
    ============================================ */
 @media print {
   .hero-video-bg,
-  .scroll-progress,
   .scroll-to-top,
+  .skip-link,
   .navbar {
     display: none !important;
   }
@@ -1800,14 +1798,9 @@ h3 {
     color: black;
     text-shadow: none;
   }
-}
 
-/* Hero eyebrow (replaces the former H3 kicker above the H1) */
-.hero-eyebrow {
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--bim-light-gray);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  margin-bottom: 8px;
+  .js-reveal {
+    opacity: 1;
+    transform: none;
+  }
 }

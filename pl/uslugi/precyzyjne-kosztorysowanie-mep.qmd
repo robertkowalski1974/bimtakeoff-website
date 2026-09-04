@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Obmiary bez kolizji z dokładnością ±3%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pełna koordynacja M&E</strong> – mechanika, elektryka, sanitarne, przeciwpożarowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zintegrowana detekcja kolizji</strong> – wstępnie zwalidowane ilości</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjaliści systemów złożonych</strong> – centra danych, przemysł, ochrona zdrowia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Pełna koordynacja M&E</strong> – mechanika, elektryka, sanitarne, przeciwpożarowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zintegrowana detekcja kolizji</strong> – wstępnie zwalidowane ilości</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Specjaliści systemów złożonych</strong> – centra danych, przemysł, ochrona zdrowia</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Obmiary bez kolizji z dokładnością ±3%.
 Instalacje mechaniczne, elektryczne i sanitarne stanowią 30-50% kosztów projektu, ale często są źle kosztorysowane:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wycena ryczałtowa (PLN/mkw, PLN/kW)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niekompletne przedmiary pomijają rurociągi</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Kolizje wykrywane podczas instalacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Koszty koordynacji niedoszacowane</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Testy i rozruch pominięte</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Złożoność integracji niewyceniona</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Wycena ryczałtowa (PLN/mkw, PLN/kW)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niekompletne przedmiary pomijają rurociągi</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Kolizje wykrywane podczas instalacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Koszty koordynacji niedoszacowane</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Testy i rozruch pominięte</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Złożoność integracji niewyceniona</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Instalacje mechaniczne, elektryczne i sanitarne stanowią 30-50% kosztów projek
 Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ilości bez kolizji** ze skoordynowanych modeli</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Każdy komponent zliczony** - złączki, mocowania, akcesoria</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Walidacja system po systemie** przez specjalistów MEP</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Koszty koordynacji i testów uwzględnione</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Wyceniona integracja sterowań i BMS</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Uwzględnione gwarancje wydajności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ilości bez kolizji** ze skoordynowanych modeli</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Każdy komponent zliczony** - złączki, mocowania, akcesoria</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Walidacja system po systemie** przez specjalistów MEP</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Koszty koordynacji i testów uwzględnione</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Wyceniona integracja sterowań i BMS</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Uwzględnione gwarancje wydajności</p>
 :::
 :::
 
@@ -84,7 +85,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-snow" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy HVAC
+### <i class="bi bi-snow" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Systemy HVAC
 
 **Ogrzewanie, Chłodzenie i Wentylacja**
 
@@ -100,7 +101,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Instalacje Elektryczne
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Instalacje Elektryczne
 
 **Zasilanie i Dystrybucja**
 
@@ -116,7 +117,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Instalacje Sanitarne
+### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Instalacje Sanitarne
 
 **Woda i Ścieki**
 
@@ -132,7 +133,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Ochrona Przeciwpożarowa
+### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Ochrona Przeciwpożarowa
 
 **Systemy Bezpieczeństwa Życia**
 
@@ -148,7 +149,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hdd-network-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Dane i Komunikacja
+### <i class="bi bi-hdd-network-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Dane i Komunikacja
 
 **Infrastruktura IT**
 
@@ -164,7 +165,7 @@ Skoordynowany odczyt danych z modelu 3D z pełną integracją systemów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Sterowanie Budynkiem
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Sterowanie Budynkiem
 
 **Integracja i Automatyka**
 
@@ -450,7 +451,7 @@ O: Dla głównego wyposażenia (agregaty, generatory, rozdzielnice, UPS) uzyskuj
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Zespół Specjalistów MEP
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Zespół Specjalistów MEP
 
 **Inżynierowie i konsultanci kosztowi**
 
@@ -458,7 +459,7 @@ Nasz zespół obejmuje wykwalifikowanych inżynierów M&E, którzy rozumieją pr
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-boxes" style="color: var(--bim-orange);"></i> Doświadczenie w Systemach Złożonych
+### <i class="bi bi-boxes" style="color: var(--bim-orange);" aria-hidden="true"></i> Doświadczenie w Systemach Złożonych
 
 **Od centrów danych do sal operacyjnych**
 
@@ -466,7 +467,7 @@ Kosztorysowaliśmy MEP dla najbardziej wymagających zastosowań: centra danych 
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-cpu-fill" style="color: var(--bim-orange);"></i> Podejście BIM-Native
+### <i class="bi bi-cpu-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Podejście BIM-Native
 
 **Odczyt z skoordynowanego modelu**
 
@@ -474,7 +475,7 @@ Pracujemy bezpośrednio ze sfederowanymi modelami MEP, uruchamiając detekcję k
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);"></i> Sprawdzona Dokładność
+### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Sprawdzona Dokładność
 
 **±3% na Złożonym MEP**
 
@@ -515,10 +516,10 @@ Nasze szacunki MEP osiągają dokładność ±3-5% przy pracy ze skoordynowanymi
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Wykwalifikowani inżynierowie M&E</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3% dokładność na skoordynowanych modelach</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Detekcja kolizji wliczona</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia ze złożonymi systemami</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Wykwalifikowani inżynierowie M&E</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3% dokładność na skoordynowanych modelach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Detekcja kolizji wliczona</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia ze złożonymi systemami</strong></p>
 :::
 :::
 :::

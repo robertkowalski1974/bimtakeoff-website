@@ -5,14 +5,15 @@ page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"
 categories: [Bezpieczeństwo Pożarowe, Przepisy Budowlane, Termomodernizacja, ETICS, Regulacje]
-image: "../../../images/EPS-polskie-warunki.png"
+image: "../../../images/EPS-polskie-warunki.jpg"
 lang: pl
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
-    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg" preload="none">
+    <source data-src="../../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -78,7 +79,7 @@ Jedną z najczęściej błędnie interpretowanych kwestii jest status pasów ogn
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> Zalecenia SITP WP-03:2018
+### <i class="bi bi-shield-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Zalecenia SITP WP-03:2018
 
 - Poziome bariery o minimalnej wysokości **20 cm** z materiału klasy A1 lub A2-s1,d0
 - Rozmieszczanie co 2 kondygnacje powyżej trzeciego piętra
@@ -87,7 +88,7 @@ Jedną z najczęściej błędnie interpretowanych kwestii jest status pasów ogn
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange);"></i> Stanowisko PSPS
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange);" aria-hidden="true"></i> Stanowisko PSPS
 
 Polskie Stowarzyszenie Producentów Styropianu kwestionuje zasadność wytycznych, powołując się na:
 
@@ -235,13 +236,13 @@ Unia Europejska stopniowo zaostrza wymagania dotyczące bezpieczeństwa pożarow
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange);"></i> Rozporządzenie CPR (EU) 2024/3110
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange);" aria-hidden="true"></i> Rozporządzenie CPR (EU) 2024/3110
 
 Obowiązujące od stycznia 2025 r. — utrzymuje bezpieczeństwo pożarowe jako jedno z podstawowych wymagań dla wyrobów budowlanych i zapowiada prace nad zharmonizowaną europejską metodą oceny właściwości pożarowych fasad.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-building" style="color: var(--bim-orange);"></i> Dyrektywa EPBD (2024/1275)
+### <i class="bi bi-building" style="color: var(--bim-orange);" aria-hidden="true"></i> Dyrektywa EPBD (2024/1275)
 
 Po raz pierwszy explicite wymienia bezpieczeństwo pożarowe jako kryterium, które państwa członkowskie muszą uwzględnić w odniesieniu do nowych budynków.
 :::
@@ -347,9 +348,9 @@ Kluczowe pozostaje stosowanie **kompletnych, certyfikowanych systemów ETICS** o
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Kosztorysowanie BIM 5D</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność szacowania ±3–5%</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Kosztorysowanie BIM 5D</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność szacowania ±3–5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

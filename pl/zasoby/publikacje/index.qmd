@@ -7,8 +7,9 @@ lang: pl
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
-    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg" preload="none">
+    <source data-src="../../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -36,12 +37,12 @@ Nasze badania i analizy pomagają profesjonalistom branży nawigować cyfrową t
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/construction-crisis-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/construction-crisis-cover.webp){width=1400 height=934 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Branża Budowlana</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Branża Budowlana</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Infrastruktura</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Transformacja Cyfrowa</span>
 :::
@@ -71,12 +72,12 @@ Kompleksowa analiza egzystencjalnych wyzwań branży budowlanej: luka infrastruk
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/EPS-polskie-warunki.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/EPS-polskie-warunki.webp){width=1400 height=716 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Bezpieczeństwo Pożarowe</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Bezpieczeństwo Pożarowe</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przepisy Budowlane</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Termomodernizacja</span>
 :::
@@ -105,12 +106,12 @@ Analiza porównawcza przepisów dotyczących stosowania styropianu na elewacjach
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/construction-failure-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/construction-failure-cover.webp){width=1400 height=724 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Zarządzanie Projektami</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Zarządzanie Projektami</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Megaprojekty</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Analiza Badawcza</span>
 :::
@@ -139,12 +140,12 @@ Analiza badawcza przyczyn systematycznych niepowodzeń projektów budowlanych. D
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/AI-Estimating.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/AI-Estimating.webp){width=1024 height=1024 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Technologie Budowlane</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Technologie Budowlane</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
 :::
@@ -173,12 +174,12 @@ Kompleksowa analiza dokładności oprogramowania do przedmiarów budowlanych opa
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/70Percent.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/70Percent.webp){width=1400 height=934 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Strategia Przetargowa</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Strategia Przetargowa</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">BIM</span>
 :::
@@ -207,12 +208,12 @@ Analiza oparta na danych obalająca mit „70% ceny" w zamówieniach budowlanych
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/ai-qs-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/ai-qs-cover.webp){width=1024 height=1024 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI & Automatyzacja</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI & Automatyzacja</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przyszłość Pracy</span>
 :::
@@ -241,12 +242,12 @@ Analiza wpływu AI na zawód kosztorysanta oparta na danych. Badania pokazują, 
 
 ::: {.publication-card style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;"}
 ::: {style="position: relative; overflow: hidden; height: 200px;"}
-![](../../../images/bim-adoption-cover.png){style="width: 100%; height: 100%; object-fit: cover;"}
+![](../../../images/bim-adoption-cover.webp){width=1400 height=934 style="width: 100%; height: 100%; object-fit: cover;"}
 :::
 
 ::: {style="padding: 24px;"}
 ::: {style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;"}
-<span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Adopcja BIM</span>
+<span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Adopcja BIM</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Rynek Polski</span>
 <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Porównanie UK</span>
 :::
@@ -287,9 +288,9 @@ Dogłębna analiza barier adopcji BIM podczas przetargów, porównanie sukcesu W
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analizy oparte na badaniach</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rynki brytyjski, australijski i polski</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Analizy oparte na badaniach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Rynki brytyjski, australijski i polski</strong></p>
 :::
 :::
 :::
@@ -301,19 +302,19 @@ Publikacje BIM Takeoff czerpią z 20-letniego międzynarodowego doświadczenia w
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;"}
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);"></i> Analiza rynku
+### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);" aria-hidden="true"></i> Analiza rynku
 
 Rzeczywiste dane z 2000+ projektów na wielu rynkach, śledzenie trendów adopcji, barier i czynników sukcesu.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-globe" style="color: var(--bim-orange);"></i> Perspektywa międzynarodowa
+### <i class="bi bi-globe" style="color: var(--bim-orange);" aria-hidden="true"></i> Perspektywa międzynarodowa
 
 Analiza porównawcza rynków budowlanych w UK, Australii i Polsce z lekcjami wyniesionymi z każdego z nich.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-tools" style="color: var(--bim-orange);"></i> Praktyczne wdrożenie
+### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> Praktyczne wdrożenie
 
 Praktyczne rekomendacje oparte na doświadczeniu praktycznym, a nie tylko analizie teoretycznej.
 :::
