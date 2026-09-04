@@ -377,9 +377,19 @@ description: "Polityka Prywatności BIM Takeoff - Zgodność z RODO i ochrona da
 
       <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.3 Zarządzanie Plikami Cookie</h3>
       <p>
-        Mogą Państwo kontrolować pliki cookie poprzez ustawienia przeglądarki. Należy pamiętać, że wyłączenie plików cookie 
-        może wpłynąć na funkcjonalność strony. Więcej informacji na stronie 
+        Mogą Państwo kontrolować pliki cookie poprzez ustawienia przeglądarki. Należy pamiętać, że wyłączenie plików cookie
+        może wpłynąć na funkcjonalność strony. Więcej informacji na stronie
         <a href="https://www.aboutcookies.org" style="color: #FF9900;" target="_blank" rel="noopener">www.aboutcookies.org</a>.
+      </p>
+
+      <h3 style="color: #2C2C2C; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600;">10.4 Wybory Zgody na Cookie</h3>
+      <p>
+        Przy pierwszej wizycie na naszej stronie wyświetlany jest baner zgody na pliki cookie, pozwalający
+        zaakceptować pliki cookie analityczne i marketingowe lub kontynuować korzystanie wyłącznie z plików
+        niezbędnych. Wykorzystujemy Google Analytics 4 (GA4) do pomiaru ruchu na stronie oraz, wyłącznie
+        po wyrażeniu zgody marketingowej, LinkedIn Insight Tag do pomiaru skuteczności kampanii LinkedIn.
+        Państwa wybór jest zapisywany w przeglądarce na 12 miesięcy i stosowany automatycznie podczas
+        kolejnej wizyty.
       </p>
 
       <h2 style="color: #2C2C2C; font-size: 1.8rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600;">11. Prywatność Dzieci</h2>
