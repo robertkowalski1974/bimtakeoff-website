@@ -1,6 +1,6 @@
 ---
-title: "Automated Quantity Take-off | Multi-Level Validation"
-description: "Automated quantity takeoff from BIM models with triple-level validation. 95% faster than manual measurement, ±5% accuracy, results in days not weeks."
+title: "Automated Quantity Take-off from BIM Models"
+description: "Automated quantity takeoff from BIM models, checked against the drawings by hand."
 page-layout: full
 ---
 
@@ -14,26 +14,26 @@ page-layout: full
 
 ::: {.container}
 ::: {.hero-title}
-# Automated Quantity Take-off with Multi-Level Validation
-### Precision Measurement at 10x the Speed
+# Automated Quantity Take-off from BIM Models
+### Precision Measurement, Checked by Hand
 :::
 
 ::: {.hero-subtitle}
-95% faster than manual take-offs.  
-Triple-validated for complete accuracy.
+Quantities extracted from the model with measurement software.
+Then checked against the drawings by hand.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>AI-Powered Extraction</strong> - Automated measurement from BIM models</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Triple Validation System</strong> - AI + Expert + Cross-Reference</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>99.5% Accuracy</strong> - Backed by 20 years experience</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Software-Assisted Extraction</strong> - Quantities extracted from BIM models with measurement software</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Checked By Hand</strong> - Every quantity checked against the drawings</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>20 Years' Experience</strong> - Backed by two decades measuring construction projects</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Free Sample](../contact.qmd){.cta-primary}
-[View Portfolio](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -42,7 +42,9 @@ Triple-validated for complete accuracy.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Automated quantity takeoff** uses BIM technology to extract material quantities directly from IFC model files produced by software such as Autodesk Revit, ArchiCAD, and Tekla Structures, eliminating manual measurement from 2D drawings. The process is 90-95% faster than traditional methods, with automated QA checks reducing human error to below 1%. BIM Takeoff's automated takeoff service applies a triple validation system -- AI extraction, expert quantity surveyor review, and cross-reference verification -- and has processed over 2,000 projects across 12 million square metres.
+**Automated quantity takeoff** uses BIM technology to extract material quantities directly from IFC model files produced by software such as Autodesk Revit, ArchiCAD, and Tekla Structures, reducing the need for manual measurement from 2D drawings. Quantities are extracted from the model with measurement software and then checked against the drawings by hand.
+
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 
 </div>
 
@@ -57,28 +59,23 @@ Traditional measurement methods are slow, error-prone, and expensive:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 4-6 weeks for complex projects</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Human error in measurements (5-15%)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Human error in manual measurement</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Missed quantities and elements</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Inconsistent measurement standards</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Design changes require complete re-measurement</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Difficult to verify and audit</p>
 :::
 
-::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### The Cost of Errors
-
-> "On a £10M project, even a 5% quantity error can result in £500,000 in unexpected costs or contractor claims. Manual take-offs simply cannot deliver the precision modern construction demands."
-:::
 :::
 
 ::: {style=""}
 ### Our Automated Solution
 
-Advanced AI-powered extraction with multi-level validation:
+Measurement software combined with manual checking:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2-3 days** for complete take-off</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **99.5% accuracy** with triple validation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Checked against the drawings** by hand</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Complete element capture (no missed items)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> ISO 19650 compliant measurement</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Instant updates for design changes</p>
@@ -88,22 +85,22 @@ Advanced AI-powered extraction with multi-level validation:
 
 :::
 
-## Our Triple Validation System: Unmatched Accuracy
+## How We Check Every Quantity
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### Why Three Validation Levels?
+### Software Extraction, Then Manual Checking
 
-Construction projects cannot afford measurement errors. Our proprietary triple validation system ensures every quantity is verified through multiple independent processes, catching errors that single-validation systems miss.
+Construction projects cannot afford measurement errors. Every quantity goes through more than one check before it reaches you.
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Level 1: AI Extraction
+#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Step 1: Software Extraction
 
 **Automated BIM Analysis**
 
-Our AI algorithms automatically extract quantities from your BIM model:
+Measurement software extracts quantities from the BIM model:
 
 - Pattern recognition for element identification
 - Automated measurement calculations
@@ -111,16 +108,15 @@ Our AI algorithms automatically extract quantities from your BIM model:
 - Duplicate element removal
 - Version control tracking
 
-**Accuracy:** 98%  
 **Duration:** 1-2 hours
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Level 2: Expert Review
+#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Step 2: Manual Review
 
 **Human Verification**
 
-Experienced Quantity Surveyors manually review AI outputs:
+We manually review the software output against the drawings:
 
 - Cross-check against 2D drawings
 - Validate measurement methodologies
@@ -128,31 +124,29 @@ Experienced Quantity Surveyors manually review AI outputs:
 - Apply construction knowledge
 - Verify unit conversions
 
-**Accuracy:** 99.2%  
 **Duration:** 4-8 hours
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Level 3: Cross-Reference
+#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Step 3: Cross-Reference Check
 
-**Independent Verification**
+**Final Check**
 
-Final validation against multiple sources:
+Final check against multiple sources:
 
 - Compare with historical project data
 - Benchmark against industry standards
 - Verify with specification documents
 - Check material relationships
-- Final QA sign-off
+- Final QA review
 
-**Final Accuracy:** 99.5%+  
 **Duration:** 2-4 hours
 :::
 
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-**Result:** Each quantity is verified three times by independent systems, ensuring you receive the most accurate Bill of Quantities in the industry.
+**Result:** Each quantity passes through software extraction, manual review, and a cross-reference check before it reaches you.
 :::
 
 :::
@@ -178,13 +172,13 @@ Final validation against multiple sources:
 :::
 
 ::: {.process-step}
-#### Step 2: Automated Extraction (Validation Level 1)
+#### Step 2: Automated Extraction
 
 **Duration:** 1-2 hours (automated)
 
 **What We Do:**
 
-- AI-powered quantity extraction from BIM model
+- Quantity extraction from BIM model using measurement software
 - Automated measurement calculations
 - Element classification and grouping
 - Clash detection and duplicate removal
@@ -194,7 +188,7 @@ Final validation against multiple sources:
 :::
 
 ::: {.process-step}
-#### Step 3: Expert Review (Validation Level 2)
+#### Step 3: Manual Review
 
 **Duration:** 4-8 hours
 
@@ -207,11 +201,11 @@ Final validation against multiple sources:
 - Validate measurement methodologies
 - Apply project-specific requirements
 
-**What You Receive:** Expert-reviewed BOQ with quality assurance notes
+**What You Receive:** Manually reviewed BOQ with quality assurance notes
 :::
 
 ::: {.process-step}
-#### Step 4: Cross-Reference & Final QA (Validation Level 3)
+#### Step 4: Cross-Reference & Final QA
 
 **Duration:** 2-4 hours
 
@@ -220,7 +214,7 @@ Final validation against multiple sources:
 - Compare with historical project data
 - Benchmark against industry standards
 - Final specification document verification
-- Senior QS sign-off
+- Checked against the drawings by hand
 - Generate comprehensive documentation
 - Prepare audit trail and commentary
 
@@ -246,7 +240,7 @@ Every automated take-off includes:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Detailed Bill of Quantities** (Excel format)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3D Visual Markup** showing measured elements</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Measurement Commentary** explaining methodologies</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Validation Reports** from all three levels</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Validation Reports** documenting each check performed</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Complete Audit Trail** for verification</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Element Schedule** with properties and attributes</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Assumption Log** documenting any assumptions</p>
@@ -260,7 +254,7 @@ Enhance your take-off with:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cost Estimation** - Apply rates to quantities</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Schedule Integration** - Link quantities to program</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Schedule Integration** - Link quantities to programme</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Tender Documentation** - Prepare BOQ for bidding</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value Engineering** - Identify cost savings</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Material Waste Analysis** - Calculate wastage factors</p>
@@ -277,13 +271,13 @@ Enhance your take-off with:
 ::: {.feature-card}
 ### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Commercial Buildings
 
-Office complexes, retail centers, mixed-use developments, hospitality projects
+Office complexes, retail centres, mixed-use developments, hospitality projects
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Healthcare Facilities
 
-Hospitals, medical centers, aged care facilities, specialist clinics
+Hospitals, medical centres, aged care facilities, specialist clinics
 :::
 
 ::: {.feature-card}
@@ -295,13 +289,13 @@ Multi-family housing, apartment complexes, townhouse developments
 ::: {.feature-card}
 ### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Industrial & Logistics
 
-Warehouses, distribution centers, manufacturing facilities, cold storage
+Warehouses, distribution centres, manufacturing facilities, cold storage
 :::
 
 ::: {.feature-card}
 ### <i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Education & Institutional
 
-Universities, schools, libraries, government buildings, civic centers
+Universities, schools, libraries, government buildings, civic centres
 :::
 
 ::: {.feature-card}
@@ -376,16 +370,16 @@ Transport hubs, utilities, public works, civil engineering projects
 **Q: What if my project doesn't have a BIM model?**
 :::
 ::: {.faq-answer}
-A: We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we'll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modeling services to convert your 2D drawings first.
+A: We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we'll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modelling services to convert your 2D drawings first.
 :::
 :::
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: How accurate is your triple validation system?**
+**Q: How accurate is your measurement process?**
 :::
 ::: {.faq-answer}
-A: Our triple validation system achieves 99.5%+ accuracy when the source BIM model is complete and accurate. Each quantity is independently verified three times (AI extraction, expert review, cross-reference), ensuring the highest level of precision in the industry. We provide complete audit trails for all measurements.
+A: Quantities are extracted from the model with measurement software and then checked against the drawings by hand. Where the model is incomplete or ambiguous, we log the assumption rather than guess. We provide complete audit trails for all measurements.
 :::
 :::
 
@@ -394,7 +388,7 @@ A: Our triple validation system achieves 99.5%+ accuracy when the source BIM mod
 **Q: What happens if the design changes during the project?**
 :::
 ::: {.faq-answer}
-A: That's the beauty of BIM-based take-offs! We can quickly update quantities based on the revised model - typically within 4-8 hours rather than weeks for manual re-measurement. We offer ongoing update services at discounted rates for active projects.
+A: BIM-based take-offs make this straightforward. We can update quantities based on the revised model, typically within 4-8 hours rather than weeks for manual re-measurement. We offer ongoing update services at discounted rates for active projects.
 :::
 :::
 
@@ -403,7 +397,7 @@ A: That's the beauty of BIM-based take-offs! We can quickly update quantities ba
 **Q: Do you comply with international measurement standards?**
 :::
 ::: {.faq-answer}
-A: Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standards, and can adapt to local standards including Polish KNR, Australian AIQS, or any other regional requirements. Our Quantity Surveyors are experienced with international projects.
+A: Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standards, and can adapt to local standards including Polish KNR, Australian AIQS, or any other regional requirements. We're experienced with international projects and international measurement standards.
 :::
 :::
 
@@ -412,7 +406,7 @@ A: Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standa
 **Q: Can you handle large, complex projects?**
 :::
 ::: {.faq-answer}
-A: Absolutely. We've successfully completed take-offs for projects ranging from small renovations to 100,000+ sqm developments. Our AI-powered system actually performs better on larger projects where manual take-offs would be prohibitively time-consuming. Complex projects may require 3-4 days instead of 2-3.
+A: Yes. We've completed take-offs for projects ranging from small renovations to large developments. Our measurement software performs well on larger projects, where manual take-offs would be prohibitively time-consuming. Complex projects may require 3-4 days instead of 2-3.
 :::
 :::
 
@@ -430,7 +424,7 @@ A: We can work with LOD 300 and above for most projects. LOD 350-400 is ideal fo
 **Q: Do you provide take-offs for specific trades or disciplines?**
 :::
 ::: {.faq-answer}
-A: Yes! We can extract quantities for any trade: structural (concrete, steel, masonry), architectural (finishes, doors, windows), MEP (mechanical, electrical, plumbing, fire protection), civil works, and specialized systems. We tailor the BOQ format to match your trade requirements.
+A: Yes! We can extract quantities for any trade: structural (concrete, steel, masonry), architectural (finishes, doors, windows), MEP (mechanical, electrical, plumbing, fire protection), civil works, and specialist systems. We tailor the BOQ format to match your trade requirements.
 :::
 :::
 
@@ -439,7 +433,7 @@ A: Yes! We can extract quantities for any trade: structural (concrete, steel, ma
 **Q: How do you handle model inconsistencies or errors?**
 :::
 ::: {.faq-answer}
-A: This is exactly why we use triple validation. Our Level 1 AI identifies clashes and duplicates automatically. Level 2 expert review catches model errors and cross-checks with 2D drawings. Level 3 verification ensures logical consistency. We document all assumptions and flag any areas of concern for your review.
+A: This is why we check in stages. The measurement software identifies clashes and duplicates automatically. Manual review catches model errors and cross-checks with the 2D drawings. A final cross-reference check confirms logical consistency. We document all assumptions and flag any areas of concern for your review.
 :::
 :::
 
@@ -448,7 +442,7 @@ A: This is exactly why we use triple validation. Our Level 1 AI identifies clash
 **Q: What's your pricing structure?**
 :::
 ::: {.faq-answer}
-A: Each project is assessed individually based on project size, complexity, level of detail required, and specific deliverables. Contact us with your project details for an accurate quote within 24 hours.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Each project is assessed individually based on project size, complexity, level of detail required, and specific deliverables. Contact us with your project details for a quote within 24 hours.
 :::
 :::
 :::
@@ -459,7 +453,7 @@ A: Each project is assessed individually based on project size, complexity, leve
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Stop Wasting Weeks on Manual Measurements</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Join 2000+ projects that chose speed and precision over traditional methods.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Contractors and subcontractors who chose measurement software and manual checking over traditional methods.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
@@ -468,25 +462,24 @@ A: Each project is assessed individually based on project size, complexity, leve
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See Our Portfolio</h3>
-<p style="color: var(--bim-white); margin: 0;">Review 2000+ successfully measured projects</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send Your Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Share your BIM model or drawings and we'll get started</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Instant Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Upload model details, receive quote in 2 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get a Quote</h3>
+<p style="color: var(--bim-white); margin: 0;">Upload your model details and receive a quote</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Free Sample](../contact.qmd){.cta-primary}
-[View Portfolio](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>99.5% Accuracy Guarantee</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Triple Validation System</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Checked Against the Drawings</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Software Extraction, Then Manual Check</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2-3 Day Turnaround</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
@@ -498,7 +491,7 @@ A: Each project is assessed individually based on project size, complexity, leve
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

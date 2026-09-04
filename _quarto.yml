@@ -40,62 +40,67 @@ website:
         href: index.qmd
       - text: "Services"
         menu:
-          - text: "Cost Estimation & Budget Planning"
-            href: services/cost-estimation-budget-planning.qmd
-          - text: "Trade-Specific Specialist Services"
-            href: services/trade-specific-specialist-services.qmd
-          - text: "Automated Quantity Takeoff"
+          # The five pillars, in the order they appear on the homepage table.
+          - text: "Quantity takeoff and bills of quantities"
             href: services/automated-quantity-takeoff.qmd
+          - text: "Tender pricing and bid support"
+            href: services/cost-estimation-budget-planning.qmd
+          - text: "Facade and cladding remediation"
+            href: industries/remediation.qmd
+          - text: "Specialist trade packages"
+            href: services/trade-specific-specialist-services.qmd
+          - text: "Poland: kosztorysy and PZP tenders"
+            href: /pl/
+          - text: "---"
+          - text: "More"
+          - text: "Traditional Quantity Takeoff"
+            href: services/traditional-quantity-takeoff.qmd
           - text: "Fast-Track Cost Control"
             href: services/fast-track-cost-control.qmd
-          - text: "BREEAM/ESG Cost Modeling"
-            href: services/breeam-esg-cost-modeling.qmd
+          - text: "Bid Writing & Bid Management"
+            href: services/bid-writing-management.qmd
           - text: "MEP Infrastructure Precision"
             href: services/mep-infrastructure-precision.qmd
           - text: "Multi-Scenario Analysis"
             href: services/multi-scenario-analysis.qmd
           - text: "Comprehensive Reporting"
             href: services/comprehensive-reporting.qmd
-          - text: "Bid Writing & Bid Management"
-            href: services/bid-writing-management.qmd
-          - text: "Traditional Quantity Takeoff"
-            href: services/traditional-quantity-takeoff.qmd
           - text: "Construction Data Management"
             href: services/construction-data-management.qmd
           - text: "Construction Logistics"
             href: services/construction-logistics.qmd
-      - text: "Industries"
+          - text: "BREEAM/ESG Cost Modelling"
+            href: services/breeam-esg-cost-modeling.qmd
+      - text: "Tender pricing"
+        href: tender-winning.qmd
+      - text: "Resources"
         menu:
-          - text: "Warehouses & Logistics"
-            href: industries/warehouses-logistics.qmd
-          - text: "Data Centers"
-            href: industries/data-centers.qmd
+          - text: "ROI Calculator"
+            href: resources/roi-calculator.qmd
+          - text: "Publications"
+            href: resources/publications/index.qmd
+          - text: "What is BIM 5D Cost Estimation?"
+            href: resources/what-is-bim-5d-cost-estimation.qmd
+          - text: "---"
           - text: "Residential Development"
             href: industries/residential-development.qmd
           - text: "Remediation"
             href: industries/remediation.qmd
-          - text: "Commercial Development"
-            href: industries/commercial-development.qmd
           - text: "Housing Associations"
             href: industries/housing-associations.qmd
+          - text: "---"
+          - text: "Warehouses & Logistics"
+            href: industries/warehouses-logistics.qmd
+          - text: "Data Centres"
+            href: industries/data-centers.qmd
+          - text: "Commercial Development"
+            href: industries/commercial-development.qmd
           - text: "Healthcare & Medical Facilities"
             href: industries/healthcare-medical.qmd
           - text: "Industrial & Manufacturing"
             href: industries/industrial-manufacturing.qmd
           - text: "Infrastructure & Civil Works"
             href: industries/infrastructure-civil.qmd
-      - text: "Tender Winning"
-        href: tender-winning.qmd
-      - text: "Resources"
-        menu:
-          - text: "ROI Calculator"
-            href: resources/roi-calculator.qmd
-          - text: "Case Studies"
-            href: coming-soon.qmd
-          - text: "Publications"
-            href: resources/publications/index.qmd
-          - text: "What is BIM 5D Cost Estimation?"
-            href: resources/what-is-bim-5d-cost-estimation.qmd
       - text: "Contact"
         href: contact.qmd
     right:
@@ -114,15 +119,20 @@ website:
     background: "#2C2C2C"
     foreground: "#FFFFFF"
     left: |
-      © 2026 BIM Takeoff. All rights reserved.<br>
-      Professional BIM 5D Cost Estimation Services
+      © 2026 BIM Takeoff. All rights reserved.
     center: |
-      **Quick Links**<br>
-      [Privacy Policy](/privacy-policy.html) | [Terms of Service](/terms-of-service.html)
+      **Services**<br>
+      [Quantity takeoff and bills of quantities](/services/automated-quantity-takeoff.html)<br>
+      [Tender pricing and bid support](/services/cost-estimation-budget-planning.html)<br>
+      [Facade and cladding remediation](/industries/remediation.html)<br>
+      [Specialist trade packages](/services/trade-specific-specialist-services.html)<br>
+      [Poland: kosztorysy and PZP tenders](/pl/)
     right: |
       **Contact**<br>
       [info@bimtakeoff.com](mailto:info@bimtakeoff.com)<br>
-      [+44 (0) 20 3239 9967](tel:+442032399967)
+      UK [+44 (0) 20 3239 9967](tel:+442032399967)<br>
+      PL [+48 508 209 313](tel:+48508209313)<br>
+      [Privacy policy](/privacy-policy.html) · [Terms of service](/terms-of-service.html)
 
 format:
   html:

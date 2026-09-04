@@ -1,6 +1,6 @@
 ---
 title: "MEP Infrastructure Precision | Cost Estimation"
-description: "MEP cost estimation for mechanical, electrical and plumbing infrastructure. Clash-free quantities from coordinated BIM models with ±3% accuracy."
+description: "MEP cost estimation for mechanical, electrical and plumbing infrastructure, with quantities extracted from coordinated BIM models and checked against the drawings."
 page-layout: full
 ---
 
@@ -19,21 +19,21 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Detailed MEP takeoffs from coordinated BIM models.  
-Clash-free quantities with ±3% accuracy.
+Detailed MEP takeoffs from coordinated BIM models.
+Clash-free quantities checked against the drawings.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Full M&E Coordination</strong> - Mechanical, Electrical, Plumbing, Fire</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Clash Detection Integrated</strong> - Pre-validated quantities</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Complex Systems Specialist</strong> - Data centers, industrial, healthcare</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Complex Systems Specialist</strong> - Data centres, industrial, healthcare</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request MEP Assessment](../contact.qmd){.cta-primary}
-[View MEP Projects](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -67,7 +67,7 @@ Mechanical, Electrical & Plumbing represent 30-50% of project costs but are ofte
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Hidden Costs
 
-> "On a data center project, MEP is 60% of total cost. A 10% MEP estimating error means 6% project overrun - potentially £6M on a £100M project. Precision matters."
+> "On a data centre project, MEP is 60% of total cost. A 10% MEP estimating error means 6% project overrun - potentially £6M on a £100M project. Precision matters."
 :::
 :::
 
@@ -82,7 +82,7 @@ Coordinated 3D model extraction with full system integration:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **System-by-system validation** by MEP specialists</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Coordination & testing costs included</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Controls & BMS integration priced</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Performance guarantees factored</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Manufacturer performance criteria factored</p>
 :::
 :::
 
@@ -120,7 +120,7 @@ Coordinated 3D model extraction with full system integration:
 - Lighting & controls
 - Emergency systems
 
-**Specialties:** Data centers (Tier III/IV), industrial loads
+**Specialties:** Data centres (Tier III/IV), industrial loads
 :::
 
 ::: {.feature-card}
@@ -168,7 +168,7 @@ Coordinated 3D model extraction with full system integration:
 - CCTV & access control
 - AV systems
 
-**Expertise:** Hyperscale data centers, mission-critical
+**Expertise:** Hyperscale data centres, mission-critical
 :::
 
 ::: {.feature-card}
@@ -218,7 +218,7 @@ Coordinated 3D model extraction with full system integration:
 - Extract quantities per system
 - Include all fittings & accessories
 - Account for coordination routes
-- Calculate labor allowances
+- Calculate labour allowances
 - Include testing & commissioning
 - Price controls integration
 - Add performance testing
@@ -309,7 +309,7 @@ Coordinated 3D model extraction with full system integration:
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 32px 0;"}
 
 ::: {style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border-left: 4px solid var(--bim-orange);"}
-#### Data Centers
+#### Data Centres
 
 **Mission-Critical Infrastructure**
 
@@ -385,7 +385,7 @@ Coordinated 3D model extraction with full system integration:
 **Q: What LOD (Level of Detail) do you need for accurate MEP costing?**
 :::
 ::: {.faq-answer}
-A: LOD 300 minimum for ±5% accuracy, LOD 350-400 for ±3% accuracy. At LOD 300, we work with schematic routing and equipment schedules. LOD 350+ provides fabrication-level detail including all fittings, supports, and accessories. If your model is LOD 200, we can supplement with specifications and schematic drawings but accuracy reduces to ±10%.
+A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. At LOD 300, we work with schematic routing and equipment schedules. LOD 350+ provides fabrication-level detail including all fittings, supports, and accessories. If your model is LOD 200, we can supplement with specifications and schematic drawings, and we note this as an assumption in the report.
 :::
 :::
 
@@ -430,7 +430,7 @@ A: BMS costs include: hardware (controllers, sensors, actuators), software licen
 **Q: Can you benchmark our MEP costs against industry standards?**
 :::
 ::: {.faq-answer}
-A: Yes, we benchmark against BCIS, Spon's, and our database of 2000+ projects. We provide £/sqm comparisons by building type, MEP proportion of total project cost, and system-by-system unit rates. This helps identify if your specification is over/under compared to market norms for similar buildings.
+A: Yes, we benchmark against BCIS, Spon's, and published market data. We provide £/sqm comparisons by building type, MEP proportion of total project cost, and system-by-system unit rates. This helps identify if your specification is over/under compared to market norms for similar buildings.
 :::
 :::
 
@@ -458,19 +458,19 @@ A: For major equipment (chillers, generators, switchgear, UPS), we obtain budget
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> MEP Specialist Team
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> MEP Specialist Knowledge
 
 **Engineers & Cost Consultants**
 
-Our team includes chartered M&E engineers who understand system design, not just cost data. We speak the same language as your MEP consultants and can validate design assumptions, identify missing systems, and flag over/under-specification. This engineering knowledge ensures our estimates reflect real-world installation complexity.
+We work with M&E engineers who understand system design, not just cost data. We speak the same language as your MEP consultants and can validate design assumptions, identify missing systems, and flag over/under-specification. This engineering knowledge ensures our estimates reflect real-world installation complexity.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
 ### <i class="bi bi-boxes" style="color: var(--bim-orange);" aria-hidden="true"></i> Complex Systems Experience
 
-**Data Centers to Operating Theatres**
+**Data Centres to Operating Theatres**
 
-We've costed MEP for the most demanding applications: Tier IV data centers with 2N+1 redundancy, hospital operating theatres with HTM 03-01 compliance, pharmaceutical clean rooms with ISO Class 5, and industrial facilities with hazardous area equipment. If it's technically complex, we've estimated it.
+We've costed MEP for demanding applications: Tier IV data centres with 2N+1 redundancy, hospital operating theatres with HTM 03-01 compliance, pharmaceutical clean rooms with ISO Class 5, and industrial facilities with hazardous area equipment.
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
@@ -482,11 +482,11 @@ We work directly with federated MEP models, running clash detection before quant
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Proven Accuracy
+### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> System-by-System Checking
 
-**±3% on Complex MEP**
+**Measured, Not Allowanced**
 
-Our MEP estimates achieve ±3-5% accuracy when working from LOD 350+ coordinated models. This is significantly better than industry standard ±10-15% for MEP work. This precision comes from complete system extraction, specialist engineering input, and comprehensive allowance for testing, commissioning, and integration.
+Our MEP estimates come from complete system extraction against coordinated models, not £/sqm allowances. Every system is checked individually — fittings, fixings, and accessories included — with specialist engineering input and allowance for testing, commissioning, and integration.
 :::
 
 :::
@@ -501,30 +501,24 @@ Our MEP estimates achieve ±3-5% accuracy when working from LOD 350+ coordinated
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free MEP Assessment</h3>
-<p style="color: var(--bim-white); margin: 0;">Model review and costing approach discussion</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send Us Your Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Share your coordinated MEP models or drawings and we'll scope the work</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Sample MEP Breakdown</h3>
-<p style="color: var(--bim-white); margin: 0;">See system-by-system cost analysis</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Custom Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Project-specific pricing within 24 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See a sample system-by-system cost breakdown before you commit</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Book Assessment](../contact.qmd){.cta-primary}
-[View MEP Sample](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Chartered M&E Engineers</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3% Accuracy on Coordinated Models</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>M&E Engineering Knowledge</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Priced Per Package, Quoted Before We Start</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Clash Detection Included</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years Complex Systems Experience</strong></p>
 :::
@@ -536,7 +530,7 @@ Our MEP estimates achieve ±3-5% accuracy when working from LOD 350+ coordinated
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

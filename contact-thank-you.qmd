@@ -1,0 +1,34 @@
+---
+title: "Thank you"
+description: "Your enquiry has reached BIM Takeoff. Robert will come back to you within one working day, Monday to Friday."
+page-layout: full
+include-in-header:
+  text: |
+    <meta name="robots" content="noindex, follow">
+---
+
+::: {.page-banner}
+::: {.container}
+# Thank you
+
+::: {.page-banner-lead}
+Your enquiry is with us.
+:::
+:::
+:::
+
+::: {.container}
+
+::: {.callout-box}
+Your drawings and details have arrived. You will hear from Robert within one working day, Monday to Friday.
+
+If your return date is inside 72 hours, ring [+44 (0) 20 3239 9967](tel:+442032399967) so we can start straight away.
+
+[Back to the homepage](index.qmd)
+:::
+
+:::
+
+```{=html}
+<script>window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'contact_form_submitted',lead_source:'contact_form',page_language:'en'});</script>
+```

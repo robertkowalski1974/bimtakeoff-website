@@ -15,7 +15,7 @@ page-layout: full
 ::: {.container}
 ::: {.hero-title}
 # Construction Logistics & Site Coordination
-### Optimize Site Operations Before Breaking Ground
+### Plan Site Operations Before Breaking Ground
 :::
 
 ::: {.hero-subtitle}
@@ -25,15 +25,15 @@ Eliminate conflicts before they cost time and money.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Site Logistics Plans</strong> - 2D/3D/4D visualization</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Site Logistics Plans</strong> - 2D/3D/4D visualisation</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Crane Planning</strong> - Coverage analysis and clash detection</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Sequencing Optimization</strong> - Maximum efficiency, minimum delays</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Sequencing Optimisation</strong> - Maximum efficiency, minimum delays</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Planning](../contact.qmd){.cta-primary}
-[View 4D Examples](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -42,7 +42,7 @@ Eliminate conflicts before they cost time and money.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Construction logistics planning** estimates and manages the site setup, temporary works, and material delivery requirements that support the main construction programme. Logistics costs -- including tower cranes, hoists, scaffolding, welfare facilities, site roads, and material storage -- typically represent 8-15% of project value but are frequently under-estimated in tenders. BIM Takeoff models logistics requirements from BIM data, capturing phased site setup, crane reach analysis, and material delivery scheduling.
+**Construction logistics planning** estimates and manages the site setup, temporary works, and material delivery requirements that support the main construction programme. Logistics costs -- including tower cranes, hoists, scaffolding, welfare facilities, site roads, and material storage -- are frequently under-estimated in tenders. BIM Takeoff models logistics requirements from BIM data, capturing phased site setup, crane reach analysis, and material delivery scheduling.
 
 </div>
 
@@ -67,22 +67,22 @@ Most sites plan logistics as they go:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Logistics Cost Multiplier
 
-> "On a £20M urban project, poor logistics adds 8-15% to programme duration. Each lost week costs £30K-80K in prelims. Proper planning saves multiples of its cost through avoided delays and optimized operations."
+Poor logistics planning adds to programme duration, and every lost week adds to prelim costs. Planning the site properly, before mobilisation, is cheaper than fixing conflicts once the crane is already on hire.
 :::
 :::
 
 ::: {style=""}
 ### Our Proactive Logistics Solution
 
-Virtual construction planning before mobilization:
+Virtual construction planning before mobilisation:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Crane conflicts** resolved in 3D before hire</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Delivery schedules** coordinated with space availability</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optimized layouts** maximize productivity</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **4D simulation** visualizes sequence conflicts</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optimised layouts** for better productivity</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **4D simulation** visualises sequence conflicts</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Single temporary works** design used throughout</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Client visualization** builds confidence and reduces surprises</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Client visualisation** builds confidence and reduces surprises</p>
 :::
 :::
 
@@ -132,9 +132,9 @@ Virtual construction planning before mobilization:
 **Time-Based Simulation**
 
 - Link 3D model to construction programme
-- Visualize build sequence over time
+- Visualise build sequence over time
 - Identify spatial conflicts
-- Optimize resource movements
+- Optimise resource movements
 - Generate animation for stakeholders
 - Support planning workshops
 
@@ -172,18 +172,18 @@ Virtual construction planning before mobilization:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Sequencing Optimization
+#### <i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Sequencing Optimisation
 
 **Efficiency Analysis**
 
 - Trade installation sequences
-- Critical path optimization
+- Critical path optimisation
 - Work front planning
 - Float analysis and protection
 - Parallel working opportunities
 - Milestone achievement planning
 
-**Deliverables:** Optimized construction programme
+**Deliverables:** Optimised construction programme
 :::
 
 :::
@@ -233,7 +233,7 @@ Virtual construction planning before mobilization:
 :::
 
 ::: {.process-step}
-#### Step 3: Detailed Design & 3D Modeling
+#### Step 3: Detailed Design & 3D Modelling
 
 **Duration:** 10-15 days
 
@@ -250,7 +250,7 @@ Virtual construction planning before mobilization:
 :::
 
 ::: {.process-step}
-#### Step 4: 4D Simulation & Optimization
+#### Step 4: 4D Simulation & Optimisation
 
 **Duration:** 5-10 days
 
@@ -259,11 +259,11 @@ Virtual construction planning before mobilization:
 - Link site model to construction programme
 - Create 4D construction sequence simulation
 - Identify spatial and temporal conflicts
-- Optimize phasing and work fronts
+- Optimise phasing and work fronts
 - Generate animations for stakeholder communication
 - Refine programme based on 4D insights
 
-**What You Receive:** 4D animations and optimized programme
+**What You Receive:** 4D animations and optimised programme
 :::
 
 ::: {.process-step}
@@ -277,8 +277,8 @@ Virtual construction planning before mobilization:
 - Support pre-construction planning meetings
 - Assist with temporary works submissions
 - Update plans for design/programme changes
-- Provide on-site support during mobilization
-- Monthly logistics review and optimization
+- Provide on-site support during mobilisation
+- Monthly logistics review and optimisation
 
 **What You Receive:** Continuous planning support
 :::
@@ -312,7 +312,7 @@ Earthworks sequencing, haul roads, muck-away, piling rigs, dewatering
 ::: {.feature-card}
 ### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Operational Facilities
 
-Hospitals, data centers, airports - working around live operations
+Hospitals, data centres, airports - working around live operations
 :::
 
 ::: {.feature-card}
@@ -342,13 +342,13 @@ Professional-grade software for logistics planning:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Synchro PRO** - Advanced 4D/5D construction planning</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Primavera P6** - Construction scheduling</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **AutoCAD/Revit** - 2D/3D site modeling</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **SketchUp** - Quick 3D visualization</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **SketchUp** - Quick 3D visualisation</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **GEOPAK** - Civil engineering and earthworks</p>
 :::
 :::
 
 ::: {style=""}
-### Specialized Analysis
+### Specialised Analysis
 
 Crane and logistics-specific tools:
 
@@ -389,7 +389,7 @@ Strengthen your logistics planning:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **4D Animations** - Time-based construction simulation</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **VR Walkthroughs** - Immersive site visualization</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **VR Walkthroughs** - Immersive site visualisation</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Traffic Management Plans** - Highways approvals</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Environmental Impact** - Noise, dust, vibration modeling</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **On-Site Support** - Weekly logistics coordination</p>
@@ -408,7 +408,7 @@ Strengthen your logistics planning:
 **Q: When should we engage logistics planning on a project?**
 :::
 ::: {.faq-answer}
-A: Ideally at RIBA Stage 3 (Spatial Coordination) or earlier for complex sites. This allows logistics constraints to inform design decisions. Absolute latest: 8-12 weeks before site mobilization. Urban projects with crane permits require earlier engagement (16-20 weeks before start) to allow for authority approvals.
+A: Ideally at RIBA Stage 3 (Spatial Coordination) or earlier for complex sites. This allows logistics constraints to inform design decisions. Absolute latest: 8-12 weeks before site mobilisation. Urban projects with crane permits require earlier engagement (16-20 weeks before start) to allow for authority approvals.
 :::
 :::
 
@@ -417,7 +417,7 @@ A: Ideally at RIBA Stage 3 (Spatial Coordination) or earlier for complex sites. 
 **Q: Can you help us win tenders by showing better logistics solutions than competitors?**
 :::
 ::: {.faq-answer}
-A: Absolutely! High-quality logistics planning in tender submissions demonstrates competence and de-risks the project for clients. We've helped contractors win multiple projects by presenting superior site planning, phasing strategies, and 4D animations that competitors couldn't match. Typical investment: £8K-15K, often the margin between winning and losing £10M+ contracts.
+A: High-quality logistics planning in a tender submission demonstrates competence and de-risks the project for the client - clear site planning, phasing strategies, and 4D animations set a submission apart. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
 :::
 :::
 
@@ -432,10 +432,10 @@ A: We coordinate temporary works requirements and prepare schedules, but detaile
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: Can you optimize our existing site layout to improve efficiency?**
+**Q: Can you optimise our existing site layout to improve efficiency?**
 :::
 ::: {.faq-answer}
-A: Yes! Mid-project optimization is common. We analyze current layouts, identify bottlenecks and inefficiencies, and propose improvements. Typical savings: 10-20% improvement in productivity through better material placement, optimized routes, and reduced double-handling. Most beneficial when implemented during natural break points (e.g., topping out, phase transitions).
+A: Yes. Mid-project optimisation is common. We analyse current layouts, identify bottlenecks and inefficiencies, and propose improvements to material placement, routes, and double-handling. It works best when implemented at a natural break point, such as topping out or a phase transition.
 :::
 :::
 
@@ -453,7 +453,7 @@ A: We can work from 2D drawings to create 3D site models for logistics planning.
 **Q: How accurate are your crane coverage analyses?**
 :::
 ::: {.faq-answer}
-A: Very accurate when based on manufacturer specifications. We use actual crane data from Liebherr, Potain, Wolff, etc. Analysis includes wind speed deratings, load charts, and boom configurations. We identify 100% of coverage gaps and over-sailing conflicts in 3D before crane selection. Typical outcome: optimal crane positioning saving £50K-200K vs "guessed" placement.
+A: Accuracy depends on the manufacturer data we base the analysis on - we use actual crane specifications from Liebherr, Potain, Wolff and others, including wind speed deratings, load charts, and boom configurations. Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. Modelling coverage in 3D before crane selection catches gaps and over-sailing conflicts that guesswork misses.
 :::
 :::
 
@@ -462,7 +462,7 @@ A: Very accurate when based on manufacturer specifications. We use actual crane 
 **Q: Can you create 4D animations for client presentations?**
 :::
 ::: {.faq-answer}
-A: Yes! 4D animations are excellent stakeholder communication tools. We create professional animations showing construction sequences, phasing, and logistics operations over time. These are invaluable for: client confidence, planning approvals, neighbor engagement, and internal team coordination. Typical cost: £5K-15K for 2-5 minute professional animation depending on complexity.
+A: Yes. 4D animations are useful stakeholder communication tools - showing construction sequences, phasing, and logistics operations over time. They help with client confidence, planning approvals, neighbour engagement, and internal team coordination. Cost depends on the length and complexity of the animation and is quoted before we start.
 :::
 :::
 
@@ -471,7 +471,7 @@ A: Yes! 4D animations are excellent stakeholder communication tools. We create p
 **Q: Do you provide on-site support during construction?**
 :::
 ::: {.faq-answer}
-A: Yes, we offer weekly or monthly site visits for logistics coordination support. Services include: reviewing actual vs planned layouts, updating plans for design changes, optimizing phasing based on progress, coordinating major lifts and deliveries, and attending planning meetings. Typical cost: £1,500-3,000 per visit or monthly retainer £4K-8K.
+A: Yes, weekly or monthly site visits for logistics coordination support are available. Services include: reviewing actual vs planned layouts, updating plans for design changes, optimising phasing based on progress, coordinating major lifts and deliveries, and attending planning meetings. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
 :::
 :::
 
@@ -480,12 +480,12 @@ A: Yes, we offer weekly or monthly site visits for logistics coordination suppor
 **Q: What's the typical ROI on logistics planning?**
 :::
 ::: {.faq-answer}
-A: Clients typically save 5-15x the planning cost through: avoided crane hire errors (£50K-200K), optimized programme (2-6 weeks saved = £60K-180K prelims), reduced rework and material damage (£20K-100K), and prevented regulatory delays (invaluable). On a £20M project, £25K logistics planning investment typically returns £200K-500K in savings and risk mitigation.
+A: The return comes from what planning avoids: crane hire errors, programme slippage, rework and material damage from a poorly sequenced site, and delays caused by missed regulatory approvals. We don't quote a multiple, because it depends entirely on the project - but the cost of fixing a logistics conflict on site is reliably higher than the cost of catching it in the model first.
 :::
 :::
 :::
 
-## Ready to Optimize Your Site Operations?
+## Ready to Optimise Your Site Operations?
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
@@ -495,32 +495,25 @@ A: Clients typically save 5-15x the planning cost through: avoided crane hire er
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Request Planning</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send us your drawings</h3>
 <p style="color: var(--bim-white); margin: 0;">Discuss your site challenges</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">View 4D Examples</h3>
-<p style="color: var(--bim-white); margin: 0;">See planning animations</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Receive estimate within 48 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free sample takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See planning quality before you commit</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Planning](../contact.qmd){.cta-primary}
-[View Examples](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3D/4D Planning Specialists</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Crane Planning Experts</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3D/4D Planning</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Crane Planning</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Urban Site Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
 :::
@@ -530,7 +523,7 @@ A: Clients typically save 5-15x the planning cost through: avoided crane hire er
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

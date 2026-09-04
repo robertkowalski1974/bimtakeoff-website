@@ -304,7 +304,7 @@ BIM Takeoff's publications draw on 20 years of international experience deliveri
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
 ### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);" aria-hidden="true"></i> Market Analysis
 
-Real data from 2000+ projects across multiple markets, tracking adoption trends, barriers, and success factors.
+Adoption trends, barriers and success factors across the UK, Australian and Polish markets.
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);"}

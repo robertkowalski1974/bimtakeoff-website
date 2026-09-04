@@ -27,13 +27,13 @@ Identify optimal value without compromising quality.
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Parallel Comparisons</strong> - Evaluate multiple options simultaneously</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Cost-Performance Matrix</strong> - Balance budget against functionality</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Save 10-20% on Project Costs</strong> - Without sacrificing quality</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Savings Identified</strong> - Without sacrificing quality</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Analysis](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -42,7 +42,7 @@ Identify optimal value without compromising quality.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Multi-scenario cost analysis** produces side-by-side cost comparisons for different design options, materials, construction methods, or specification levels, enabling evidence-based decision-making during value engineering. Rather than costing a single option and hoping it fits the budget, multi-scenario analysis models 3-5 alternatives simultaneously, showing cost, programme, and risk implications of each. BIM Takeoff uses parametric BIM models to generate scenario comparisons in days rather than weeks.
+**Multi-scenario cost analysis** produces side-by-side cost comparisons for different design options, materials, construction methods, or specification levels, enabling evidence-based decision-making during value engineering. Rather than costing a single option and hoping it fits the budget, multi-scenario analysis models several alternatives simultaneously, showing cost, programme, and risk implications of each. BIM Takeoff uses parametric BIM models to generate scenario comparisons in days rather than weeks.
 
 </div>
 
@@ -60,14 +60,14 @@ Most projects explore only one solution path:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> No cost-benefit comparison of alternatives</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Value engineering only when over budget</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Late-stage changes are expensive</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Missed opportunities for optimization</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Missed opportunities for optimisation</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Stakeholders lack decision-making data</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Cost of Limited Options
 
-> "A £15M project with no scenario analysis typically overspends by 15-25% compared to optimized alternatives. The best solution is rarely the first one conceived."
+> "A project with no scenario analysis has nothing to compare its costs against. The best solution is rarely the first one conceived."
 :::
 :::
 
@@ -79,9 +79,9 @@ Systematic evaluation of design alternatives with quantified impact:
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 scenarios** evaluated in parallel</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Quantified comparisons** of cost, time, performance</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Early-stage optimization** before detailed design</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Early-stage optimisation** before detailed design</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Data-driven decisions** with clear tradeoffs</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **10-20% cost savings** identified proactively</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cost savings** identified proactively</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Stakeholder consensus** through transparent analysis</p>
 :::
 :::
@@ -92,7 +92,7 @@ Systematic evaluation of design alternatives with quantified impact:
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-### We Evaluate Every Scenario Across 7 Key Metrics
+### We Evaluate Every Scenario Across 6 Key Metrics
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;"}
 
@@ -101,7 +101,7 @@ Systematic evaluation of design alternatives with quantified impact:
 
 - Initial construction cost
 - Material procurement
-- Labor and equipment
+- Labour and equipment
 - Preliminaries and contingencies
 :::
 
@@ -179,7 +179,7 @@ Systematic evaluation of design alternatives with quantified impact:
 :::
 
 ::: {.process-step}
-#### Step 2: Rapid Cost Modeling
+#### Step 2: Rapid Cost Modelling
 
 **Duration:** 3-5 days
 
@@ -201,7 +201,7 @@ Systematic evaluation of design alternatives with quantified impact:
 
 **What We Do:**
 
-- 30-year life cycle cost modeling
+- 30-year life cycle cost modelling
 - Energy performance simulation
 - Carbon footprint calculation
 - Maintenance cost forecasting
@@ -315,9 +315,9 @@ Every multi-scenario analysis includes:
 Strengthen your analysis with:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Carbon Impact Modeling** - Detailed embodied/operational CO2</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Carbon Impact Modelling** - Detailed embodied/operational CO2</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **BREEAM Credit Analysis** - Impact on certification</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Energy Simulation** - Detailed thermal modeling</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Energy Simulation** - Detailed thermal modelling</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Sensitivity Analysis** - Test assumptions & variables</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Market Testing** - Validate costs with suppliers</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Stakeholder Workshop** - Facilitated decision session</p>
@@ -353,7 +353,7 @@ A: We typically recommend 5-7 scenarios for most projects. This provides suffici
 **Q: What if we don't have BIM models for each scenario?**
 :::
 ::: {.faq-answer}
-A: We can work with conceptual sketches, single-line diagrams, or written descriptions for early-stage analysis. For higher-accuracy analysis, we recommend simple BIM models for each major scenario (LOD 200-300 is sufficient). We can also assist with rapid concept modeling if needed.
+A: We can work with conceptual sketches, single-line diagrams, or written descriptions for early-stage analysis. For higher-accuracy analysis, we recommend simple BIM models for each major scenario (LOD 200-300 is sufficient). We can also assist with rapid concept modelling if needed.
 :::
 :::
 
@@ -362,7 +362,7 @@ A: We can work with conceptual sketches, single-line diagrams, or written descri
 **Q: How accurate are the cost comparisons?**
 :::
 ::: {.faq-answer}
-A: At concept stage (RIBA 2), expect ±15-20% accuracy - sufficient for scenario comparison. At spatial coordination (RIBA 3), we achieve ±10-15%. The key is that all scenarios use consistent methodology, so relative comparisons remain valid even if absolute costs have margins.
+A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. At concept stage (RIBA 2), expect a wider margin than at spatial coordination (RIBA 3), where more information is fixed. The key is that all scenarios use consistent methodology, so relative comparisons remain valid even if absolute costs carry a margin of uncertainty.
 :::
 :::
 
@@ -380,7 +380,7 @@ A: Yes! If you have a target (e.g., "reduce capital cost by 15%"), we'll design 
 **Q: Do you consider sustainability in your analysis?**
 :::
 ::: {.faq-answer}
-A: Absolutely. Every scenario includes embodied carbon calculation and operational energy assessment as standard. We can also include detailed BREEAM credit analysis, circular economy potential, material provenance, and whole-life carbon modeling if sustainability is a key priority.
+A: Absolutely. Every scenario includes embodied carbon calculation and operational energy assessment as standard. We can also include detailed BREEAM credit analysis, circular economy potential, material provenance, and whole-life carbon modelling if sustainability is a key priority.
 :::
 :::
 
@@ -395,10 +395,10 @@ A: We provide a detailed implementation roadmap including specification notes, p
 
 ::: {.faq-item}
 ::: {.faq-question}
-**Q: Can you analyze non-construction scenarios like procurement routes?**
+**Q: Can you analyse non-construction scenarios like procurement routes?**
 :::
 ::: {.faq-answer}
-A: Yes! We frequently analyze procurement strategy options (traditional, design-build, management contracting, NEC vs JCT contracts), phasing strategies, temporary works solutions, and logistics alternatives. The same multi-criteria framework applies to any significant project decision.
+A: Yes! We frequently analyse procurement strategy options (traditional, design-build, management contracting, NEC vs JCT contracts), phasing strategies, temporary works solutions, and logistics alternatives. The same multi-criteria framework applies to any significant project decision.
 :::
 :::
 
@@ -407,12 +407,12 @@ A: Yes! We frequently analyze procurement strategy options (traditional, design-
 **Q: How do you handle subjective factors like aesthetics or stakeholder preferences?**
 :::
 ::: {.faq-answer}
-A: Our decision matrix includes weighted criteria set by your team. You can assign higher weights to factors like design quality, brand alignment, or user experience. This ensures the analysis respects both objective metrics (cost, time) and subjective priorities (aesthetics, stakeholder preferences).
+A: The decision matrix includes weighted criteria set by your stakeholders. You can assign higher weights to factors like design quality, brand alignment, or user experience. This ensures the analysis respects both objective metrics (cost, time) and subjective priorities (aesthetics, stakeholder preferences).
 :::
 :::
 :::
 
-## Ready to Optimize Your Design?
+## Ready to Optimise Your Design?
 
 ::: {style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;"}
 ::: {style="max-width: 800px; margin: 0 auto;"}
@@ -422,31 +422,25 @@ A: Our decision matrix includes weighted criteria set by your team. You can assi
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Request Analysis</h3>
-<p style="color: var(--bim-white); margin: 0;">Start with a free consultation</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Send Us Your Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Get a scenario analysis started</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See Case Studies</h3>
-<p style="color: var(--bim-white); margin: 0;">Review optimization examples</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Quick Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Receive estimate within 24 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See how we measure and present quantities</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Request Analysis](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>5-10 Scenarios Evaluated in Parallel</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>7-Metric Evaluation Framework</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>10-20% Cost Savings Identified</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>6-Metric Evaluation Framework</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Savings Opportunities Identified Early</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
@@ -457,7 +451,7 @@ A: Our decision matrix includes weighted criteria set by your team. You can assi
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

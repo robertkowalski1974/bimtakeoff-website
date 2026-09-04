@@ -1,6 +1,6 @@
 ---
 title: "Bid Writing & Bid Management | Win More Tenders"
-description: "Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team."
+description: "Bid writing and tender management: pricing strategy, technical narratives and compliant submissions."
 page-layout: full
 ---
 
@@ -19,7 +19,7 @@ page-layout: full
 :::
 
 ::: {.hero-subtitle}
-Boost win rates by 40% with expert bid preparation.  
+Compelling, compliant bid preparation.
 From pricing strategy to technical narratives.
 :::
 
@@ -32,8 +32,8 @@ From pricing strategy to technical narratives.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Discuss Tender](../contact.qmd){.cta-primary}
-[View Win Portfolio](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -42,7 +42,7 @@ From pricing strategy to technical narratives.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Construction bid writing and bid management** is the process of preparing and submitting competitive tender responses that maximise win probability. Research shows that 40-50% of tender evaluation is based on non-price criteria including methodology, programme, and risk management. BIM Takeoff provides end-to-end tender support from pricing documents and method statements to programme development and submission management, helping contractors improve win rates from the industry average of 15-25% to 35-45%.
+**Construction bid writing and bid management** is the process of preparing and submitting competitive tender responses that maximise win probability. Evaluation criteria typically weigh price alongside methodology, programme, and risk management. BIM Takeoff provides end-to-end tender support from pricing documents and method statements to programme development and submission management.
 
 </div>
 
@@ -64,11 +64,6 @@ Contractors lose winnable tenders through avoidable mistakes:
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> No competitive positioning or differentiation</p>
 :::
 
-::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
-#### The Cost of Poor Bids
-
-> "40-60% of tenders are eliminated at compliance stage before evaluation even begins. Among those that qualify, weak technical narratives score 30-40% lower than professional submissions, often losing despite competitive pricing."
-:::
 :::
 
 ::: {style=""}
@@ -117,11 +112,11 @@ Strategic, compliant submissions that win:
 **Commercial Excellence**
 
 - Bill of Quantities preparation
-- Material and labor rate verification
+- Material and labour rate verification
 - Subcontractor quotation management
-- Preliminaries cost modeling
+- Preliminaries cost modelling
 - Risk allowance calculation
-- Margin optimization analysis
+- Margin optimisation analysis
 
 **Output:** Complete pricing schedule with audit trail
 :::
@@ -258,10 +253,10 @@ Strategic, compliant submissions that win:
 
 - Prepare detailed Bill of Quantities
 - Obtain and evaluate subcontractor quotes
-- Verify material and labor rates
+- Verify material and labour rates
 - Calculate preliminaries and site overheads
 - Assess and price risks
-- Optimize margin and competitiveness
+- Optimise margin and competitiveness
 
 **What You Receive:** Detailed pricing schedule ready for review
 :::
@@ -278,7 +273,7 @@ Strategic, compliant submissions that win:
 - Evaluate against likely competitor approaches
 - Refine pricing and technical narrative
 - Strengthen weak areas identified in review
-- Final quality assurance by senior team
+- Final quality assurance before submission
 
 **What You Receive:** Enhanced bid ready for submission
 :::
@@ -400,7 +395,7 @@ A: Ideally 3-4 weeks for a comprehensive tender. However, we routinely handle ur
 **Q: Can you help us win competitive tenders where we're not the lowest price?**
 :::
 ::: {.faq-answer}
-A: Absolutely! Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Our technical writing ensures you score maximum points on quality criteria. On a 60/40 tender, a contractor 5-8% above lowest price can still win by scoring 90%+ on quality vs competitors' 60-70%. We focus on demonstrating value, not just lowest cost.
+A: Yes. Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Strong technical writing helps you score well on quality criteria, which can outweigh a higher price. We focus on demonstrating value, not just lowest cost.
 :::
 :::
 
@@ -418,7 +413,7 @@ A: Not necessarily. For pricing services, yes, we need full transparency to veri
 **Q: What's your success rate on tenders you've supported?**
 :::
 ::: {.faq-answer}
-A: Our clients average 35-45% win rates on competitive tenders we support (vs industry average of 15-25%). For negotiated or two-stage tenders where we're engaged early, success rates exceed 70%. Success depends on multiple factors including price competitiveness, client relationships, and competitive field.
+A: Win rates depend on price competitiveness, client relationships, and the competitive field. We focus on removing the avoidable causes of loss: non-compliance, weak technical narratives, and pricing errors.
 :::
 :::
 
@@ -454,7 +449,7 @@ A: Yes! Many clients engage us for post-contract services including detailed cos
 **Q: Can you help identify suitable tender opportunities?**
 :::
 ::: {.faq-answer}
-A: Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving your team hours of searching and allowing focus on high-probability opportunities.
+A: Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving hours of searching and freeing you to focus on high-probability opportunities.
 :::
 :::
 
@@ -463,7 +458,7 @@ A: Yes. We offer tender-watching services where we monitor contract notice platf
 **Q: How much do bid writing services cost?**
 :::
 ::: {.faq-answer}
-A: Fees depend on tender complexity, value, and services required. As a guide: Bid/No-Bid analysis £500-1,500; Pricing/BOQ £2,000-8,000; Technical writing £3,000-10,000; Full tender management £8,000-25,000. Framework applications £10,000-30,000. We provide fixed-price quotes within 24 hours of reviewing tender documents.
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees depend on tender complexity, value and the services required. We provide fixed-price quotes within 24 hours of reviewing tender documents.
 :::
 :::
 :::
@@ -483,25 +478,24 @@ A: Fees depend on tender complexity, value, and services required. As a guide: B
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">See Win Examples</h3>
-<p style="color: var(--bim-white); margin: 0;">Review successful submissions we've supported</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Sample Take-off</h3>
+<p style="color: var(--bim-white); margin: 0;">Submit your drawings for a free sample section</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Fixed Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Receive pricing within 24 hours</p>
+<p style="color: var(--bim-white); margin: 0;">Scope, fee and delivery date within one working day</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Discuss Tender](../contact.qmd){.cta-primary}
-[View Portfolio](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>35-45% Win Rate on Supported Tenders</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>100% Compliance Guaranteed</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Priced Per Package, Quoted Before We Start</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Full Compliance Checked Before Submission</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Public & Private Sector Experience</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
@@ -513,7 +507,7 @@ A: Fees depend on tender complexity, value, and services required. As a guide: B
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

@@ -27,7 +27,7 @@ Free, instant calculation - no registration required.
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Multi-currency support:</strong> PLN, GBP, EUR, USD, AUD</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Project-specific calculations</strong> for all building types</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Industry-validated</strong> based on 2,000+ completed projects</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Based on our own tender work</strong> in the UK, Australia and Poland</p>
 :::
 :::
 
@@ -213,13 +213,13 @@ Download Full ROI Report
 ::: {style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;"}
 
 ::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">2,000+</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Projects Completed</div>
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">20</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Years Measuring and Pricing</div>
 :::
 
 ::: {.trust-item}
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">±5%</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">Cost Accuracy</div>
+<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">3</div>
+<div style="color: var(--bim-medium-gray); margin-top: 4px;">Markets: UK, Australia, Poland</div>
 :::
 
 ::: {.trust-item}

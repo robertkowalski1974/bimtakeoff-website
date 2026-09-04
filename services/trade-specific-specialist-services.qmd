@@ -1,6 +1,6 @@
 ---
 title: "Trade Estimating: Drylining, Fire, Facades, Structural"
-description: "20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia."
+description: "Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia."
 keywords: "specialist estimating, drylining estimator, fire protection costing, facade estimating, structural steel estimator, trade-specific quantity surveyor, poland"
 page-layout: full
 ---
@@ -26,7 +26,7 @@ precision costing for the trades that matter most.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>2,000+ specialist projects</strong> estimated across EU, UK & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Specialist trade project experience</strong> across EU, UK & Australia</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Deep expertise</strong> in Drylining, Fire Protection, Facades & Structural</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Both supply-only</strong> and install packages covered</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Compliance</strong> with international standards</p>
@@ -34,8 +34,8 @@ precision costing for the trades that matter most.
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Specialist Quote](../coming-soon.qmd){.cta-primary}
-[Download Trade Guide](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -44,7 +44,7 @@ precision costing for the trades that matter most.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Trade-specific quantity surveying** provides specialist cost estimation for individual construction trades rather than generic whole-building estimates. By deploying quantity surveyors with hands-on trade knowledge -- drylining systems, structural concrete and steelwork, facade cladding, fire protection, and MEP infrastructure -- trade-specific estimation catches the specialist items, allowances, and waste factors that generalist QS firms routinely miss. BIM Takeoff's trade specialists have priced over 2,000 packages with +/-5% accuracy.
+**Trade-specific quantity surveying** provides specialist cost estimation for individual construction trades rather than generic whole-building estimates. Applying hands-on trade knowledge -- drylining systems, structural concrete and steelwork, facade cladding, fire protection, and MEP infrastructure -- trade-specific estimation catches the specialist items, allowances, and waste factors that generalist QS approaches routinely miss. BIM Takeoff prices these trades directly, checking quantities against the drawings and specification by hand.
 
 </div>
 
@@ -67,7 +67,7 @@ Generic estimators miss the complexity that specialist trades demand:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### Hidden Costs Add Up
 
-> "In specialist trades, what you don't see in the estimate costs you during construction. Fire testing alone can represent 3-5% of total package value."
+> "In specialist trades, what you don't see in the estimate costs you during construction. Fire testing alone can add meaningfully to total package value."
 :::
 :::
 
@@ -78,8 +78,8 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Hands-on experience** installing drylining, fire systems, facades</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2,000+ specialist packages** estimated across 3 continents</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Know the hidden costs: labor inefficiencies, material waste, rework risks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Specialist packages** estimated across EU, UK & Australia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Know the hidden costs: labour inefficiencies, material waste, rework risks</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Understand compliance: fire ratings, structural calculations, wind load testing</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Real-world estimating: not just BOQ—actual buildable costs</p>
 :::
@@ -102,27 +102,27 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 - Fire-rated partitions and compartmentation
 
 #### Our Experience
-- 200+ drylining projects estimated (offices, warehouses, residential)
+- Drylining projects estimated across offices, warehouses, and residential developments
 - Worked with Knauf, British Gypsum, CSR Gyprock specifications
-- Understand labor rates: crew sizing, productivity factors, site access constraints
-- Know material waste factors: 8-15% depending on ceiling heights and cutting requirements
+- Understand labour rates: crew sizing, productivity factors, site access constraints
+- Know material waste factors vary with ceiling heights and cutting requirements
 
 #### Typical Package Scope
 - Full BOQ with material specifications
-- Labor hours by system type (fire-rated = 1.3x standard productivity)
+- Labour hours by system type, with allowance for fire-rated specifications
 - Equipment/scaffolding requirements
 - Testing and certification costs (fire ratings, acoustic performance)
 - Warranty and defects liability
 
 #### Critical Knowledge
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
-- Acoustic sealant: often missed, adds 3-5% to material cost
-- Fire-rated systems: labor productivity drops by 30-50%
-- Height work: above 3.5m = 20% productivity decrease
-- Curved walls: material waste increases to 20-25%
+- Acoustic sealant is often missed from the material cost
+- Fire-rated systems slow installation
+- Height work reduces productivity
+- Curved walls increase material waste
 :::
 
-**Deliverable:** Detailed estimate with installation sequence, material schedule, labor allocation
+**Deliverable:** Detailed estimate with installation sequence, material schedule, labour allocation
 :::
 
 ::: {.specialist-card}
@@ -136,26 +136,26 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 - Structural fire protection (steel/concrete coatings)
 
 #### Our Experience
-- 150+ fire protection packages (warehouses, data centers, high-rise)
+- Fire protection packages estimated across warehouses, data centres, and high-rise
 - Compliance with AS 1530.4, BS 476, EN 13501, Polish regulations
 - Worked with Trafalgar, Hilti, Nullifire, FireMaster, Rockwool, Titan systems
 - Understand certification requirements: 3rd party testing, BCA/NCC compliance
-- Know labor complexity: confined spaces, sequential installation, coordination
+- Know labour complexity: confined spaces, sequential installation, coordination
 
 #### Typical Package Scope
 - Fire strategy review and compartmentation schedule
 - Material specifications with fire ratings (FRL 60/60/60, 90/90/90, etc.)
-- Installation labor with access/coordination factors
+- Installation labour with access/coordination factors
 - Testing and commissioning (smoke tests, pressure tests)
 - Authority approvals and certification documentation
 
 #### Critical Knowledge
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
 - Fire ratings ≠ installation costs
-- Penetration sealing: per penetration (not per square meter)
-- Intumescent coatings: surface prep = 40% of total cost
-- Testing & certification: can be 5-8% of package value
-- Coordination with other trades: critical for sequencing
+- Penetration sealing is priced per penetration, not per square metre
+- Intumescent coatings: surface preparation is a significant share of total cost
+- Testing and certification can add meaningfully to package value
+- Coordination with other trades is critical for sequencing
 :::
 
 **Deliverable:** Fire protection cost estimate with compliance roadmap
@@ -172,26 +172,26 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 - Weatherproofing and sealant systems
 
 #### Our Experience
-- 120+ facade projects (warehouses, offices, high-rise residential)
+- Facade projects estimated across warehouses, offices, and high-rise residential
 - Material systems: Kingspan, Trespa, Equitone, Alucobond, Cemintel
 - Understanding wind loading calculations and structural integration
 - Complex installation sequences: scaffolding, craneage, weather delays
-- Know material cost volatility: metal panels = 15-25% price fluctuation risk
+- Know that metal panel pricing carries real market volatility risk
 
 #### Typical Package Scope
 - Facade BOQ by elevation and system type
 - Substructure (rails, brackets, fixings) fully detailed
-- Labor by height zone
+- Labour by height zone
 - Access equipment (scaffolding, BMU hire, safety systems)
 - Testing (water penetration, air tightness, thermal performance)
 
 #### Critical Knowledge
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
-- Facade = 15-25% of building cost but 40% of tender risks
-- Installation speed: 8-15 sqm/day depending on system complexity
-- Weather delays: factor 10-20% contingency time
-- Sealant replacement: budget 2-5% total for remedial works
-- Access equipment: can be 15-20% of installation cost
+- Facades carry a disproportionate share of tender risk relative to their cost
+- Installation speed depends heavily on system complexity
+- Weather delays need a realistic contingency allowance
+- Sealant replacement should be budgeted for future remedial works
+- Access equipment is a meaningful part of installation cost
 :::
 
 **Deliverable:** Facade cost estimate with installation methodology
@@ -208,7 +208,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 - Structural connections and tolerances
 
 #### Our Experience
-- 180+ structural packages (warehouses, bridges, high-rise, houses)
+- Structural packages estimated across warehouses, bridges, high-rise, and houses
 - Steel: fabrication + erection + painting + fire protection
 - Concrete: formwork + reinforcement + pour + cure + finish
 - Complex calculations: load paths, connection detailing, construction sequences
@@ -223,11 +223,11 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 
 #### Critical Knowledge
 ::: {style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;"}
-- Structural steel: fabrication 40%, erection 35%, painting/fire 25%
-- Post-tensioned slabs: 15-20% more material cost but 30% faster construction
-- Connection complexity: simple = €50/connection, moment = €500+
-- Concrete pump hire: €1,500-2,500/day including operator
-- Reinforcement fixing: 8-12 hours per tonne average
+- Structural steel cost splits across fabrication, erection, and painting/fire protection
+- Post-tensioned slabs cost more in material but build faster
+- Connection complexity drives price: a simple connection costs far less than a moment connection
+- Concrete pump hire is a day-rate cost including operator
+- Reinforcement fixing labour is priced per tonne
 :::
 
 **Deliverable:** Structural cost estimate with construction methodology
@@ -250,7 +250,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 - Assess installation constraints (access, sequencing, coordination)
 - Define exact scope boundaries and interfaces with other trades
 
-**Your Investment:** Free initial review (1-2 hours)
+**Free sample takeoff:** send one floor, one elevation or one unit type and we measure it at no charge.
 
 **Key Output:** Scope clarification document with identified complexities
 :::
@@ -261,30 +261,26 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 **Duration:** 2-4 days
 
 **What We Do:**
-- Measure quantities with trade-specific accuracy
-- Include waste factors based on system type (drylining 10-15%, facades 8-12%)
+- Measure quantities with trade-specific care
+- Include waste factors appropriate to the system type
 - Identify long-lead items and procurement risks
 - Verify material compatibility and approval requirements
 
 **Deliverable:** Detailed BOQ with manufacturer specifications
-
-**Accuracy Level:** ±2% on quantities
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
-#### Step 3: Installation Labor Analysis
+#### Step 3: Installation Labour Analysis
 
 **Duration:** 2-3 days
 
 **What We Do:**
 - Calculate crew sizes and productivity rates
-- Factor in complexity multipliers (fire-rated = 1.3-1.5x, height = 1.2-2x)
+- Factor in complexity multipliers for fire-rated systems and height access
 - Include access equipment and temporary works
 - Account for weather delays and site constraints
 
-**Deliverable:** Labor schedule with resource allocation
-
-**Based On:** Real project data from 2,000+ installations
+**Deliverable:** Labour schedule with resource allocation
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
@@ -300,7 +296,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 
 **Deliverable:** Compliance cost schedule
 
-**Often Missed:** 3-8% of package value in testing/certification
+**Often Missed:** testing and certification costs, budgeted from the start
 :::
 
 ::: {.process-step style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);"}
@@ -311,18 +307,16 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 **What We Do:**
 - Identify material price volatility risks
 - Assess installation risks (weather, access, coordination)
-- Calculate appropriate contingency (5-15% depending on package complexity)
+- Calculate appropriate contingency depending on package complexity
 - Provide value engineering alternatives
 
 **Deliverable:** Complete specialist estimate with risk register
-
-**Risk Mitigation:** Identified savings opportunities typically 10-15%
 :::
 
 ::: {style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;"}
 **Total Timeline:** 8-13 working days | **Project Duration:** 2-3 weeks from start to finish
 
-**Fast-Track Available:** Urgent estimates in 5-7 working days (30% surcharge)
+**Fast-Track Available:** Urgent estimates in 5-7 working days, for an agreed surcharge
 :::
 :::
 
@@ -333,17 +327,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 ### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> 1. Accuracy That Matters
 
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;"}
-::: {style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;"}
-**Generic Estimators**  
-±15-20% variance
-:::
-::: {style="text-align: center; padding: 16px; background: #e8f5e9; border-radius: 8px;"}
-**Our Specialists**  
-±3-5% accuracy
-:::
-:::
-Based on 2,000 real projects tracked to completion
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
@@ -373,7 +357,7 @@ From day one, not discovered during construction:
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
 ### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> 4. Installation Reality
 
-Labor rates based on:
+Labour rates based on:
 - Actual crew productivity
 - Site access constraints
 - Weather impact factors
@@ -415,7 +399,7 @@ Every package includes:
 **Q: What makes specialist trade estimating different from general estimating?**
 :::
 ::: {.faq-answer}
-A: Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss, resulting in ±3-5% accuracy versus ±15-20% for general estimates.
+A: Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss.
 :::
 :::
 
@@ -433,7 +417,7 @@ A: No. We have experience with all major systems (Knauf, Gyproc, Siniat, Kingspa
 **Q: Can you estimate supply-only packages?**
 :::
 ::: {.faq-answer}
-A: Yes. We provide estimates for supply-only, install-only, or complete supply & install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only typically includes 5-8% waste, while install packages factor 10-15% waste depending on complexity.
+A: Yes. We provide estimates for supply-only, install-only, or complete supply & install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only and install packages carry different waste allowances depending on complexity.
 :::
 :::
 
@@ -442,7 +426,7 @@ A: Yes. We provide estimates for supply-only, install-only, or complete supply &
 **Q: How do you handle compliance requirements?**
 :::
 ::: {.faq-answer}
-A: We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs, often 3-8% of package value, are frequently missed in generic estimates.
+A: We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs are frequently missed in generic estimates.
 :::
 :::
 
@@ -460,7 +444,7 @@ A: Ideally: architectural drawings, specifications, material preferences, and an
 **Q: Do you provide value engineering alternatives?**
 :::
 ::: {.faq-answer}
-A: Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality. Typical savings opportunities range from 10-20% of package value.
+A: Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality.
 :::
 :::
 
@@ -469,7 +453,7 @@ A: Absolutely. Every specialist estimate includes value engineering recommendati
 **Q: What project sizes do you handle?**
 :::
 ::: {.faq-answer}
-A: We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. Minimum fee applies for projects under €500,000.
+A: We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. A minimum fee applies to smaller projects. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
 :::
 :::
 
@@ -487,7 +471,7 @@ A: Yes. We provide full tender support: quantity take-off, detailed cost breakdo
 **Q: How quickly can you provide an estimate?**
 :::
 ::: {.faq-answer}
-A: Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer fast-track service (5-7 working days) with a 30% surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies.
+A: Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer a fast-track service (5-7 working days) for an agreed surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies.
 :::
 :::
 
@@ -496,7 +480,7 @@ A: Standard timeline is 2-3 weeks for comprehensive specialist estimates. For ur
 **Q: Do you work internationally?**
 :::
 ::: {.faq-answer}
-A: Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We've completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labor and material costs.
+A: Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We've completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labour and material costs.
 :::
 :::
 
@@ -512,31 +496,25 @@ A: Yes. While based in Poland, we have extensive experience with EU, UK, and Aus
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Free Specialist Review</h3>
-<p style="color: var(--bim-white); margin: 0;">Send drawings, get complexity assessment within 24h</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Send Us Your Drawings</h3>
+<p style="color: var(--bim-white); margin: 0;">Send drawings and specification for a complexity assessment</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download" aria-hidden="true"></i> Download Trade Guides</h3>
-<p style="color: var(--bim-white); margin: 0;">"Specialist Trades Estimating: The 12 Costs Everyone Misses" (18-page PDF)</p>
-:::
-
-::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Get Specialist Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">3-minute form, quote within 48 hours</p>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Free Sample Takeoff</h3>
+<p style="color: var(--bim-white); margin: 0;">See how we measure and present a specialist trade package</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Free Specialist Review](../coming-soon.qmd){.cta-primary}
-[Download Trade Guides](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Specialist Projects</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Specialist Trade Experience</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years EU/UK/AU Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5% Accuracy</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Checked Against Drawings by Hand</strong></p>
 :::
 :::
 :::
@@ -558,21 +536,9 @@ Field Experience
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**Serving Whole World**  
-Global Projects
-:::
-
-::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**±3-5%**  
-Accuracy Rate
-:::
-
-::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
-**€2.5B**  
-Projects Valued
+<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>
+**EU, UK & Australia**
+International Projects
 :::
 
 :::
@@ -582,9 +548,9 @@ Projects Valued
 
 **Call:** [+44 (0) 20 3239 9967](tel:+442032399967) | **Email:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET | **Response Time:** Within 4 hours
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 
-**Emergency Estimates:** Available for urgent tenders (48-hour turnaround)
+If your return date is inside 72 hours, ring instead.
 :::
 
 :::

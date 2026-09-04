@@ -1,6 +1,6 @@
 ---
-title: "BREEAM & ESG Cost Modeling | Sustainable Budgeting"
-description: "BREEAM and ESG cost modeling for sustainable construction. Accurate cost estimation for green building certifications with ±5% precision."
+title: "BREEAM & ESG Cost Modelling | Sustainable Budgeting"
+description: "BREEAM and ESG cost modelling for sustainable construction, measured to the drawings and specification you send."
 page-layout: full
 ---
 
@@ -14,26 +14,26 @@ page-layout: full
 
 ::: {.container}
 ::: {.hero-title}
-# BREEAM & ESG Cost Modeling
+# BREEAM & ESG Cost Modelling
 ### Make Sustainability Profitable, Not Just Compliant
 :::
 
 ::: {.hero-subtitle}
-Accurate cost modeling for green building certifications.  
-Optimize sustainability investments with ±5% precision.
+Cost modelling for green building certifications.
+Optimise sustainability investments with clear cost data.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>BREEAM Excellent/Outstanding</strong> - Cost planning for all credit categories</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>ESG Compliance</strong> - Environmental, Social, Governance cost modeling</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>ESG Compliance</strong> - Environmental, Social, Governance cost modelling</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Whole Life Carbon Assessment</strong> - Embodied & operational carbon costing</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Sustainability Assessment](../contact.qmd){.cta-primary}
-[View Green Projects](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -43,6 +43,8 @@ Optimize sustainability investments with ±5% precision.
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
 **BREEAM and ESG cost modelling** quantifies the financial impact of sustainability measures in construction projects, helping teams optimise the balance between environmental targets and budget constraints. This includes modelling the cost of achieving specific BREEAM ratings (Pass through Outstanding), embodied carbon reduction strategies, energy efficiency measures, and ESG compliance requirements. BIM Takeoff integrates sustainability cost data directly into BIM 5D models, enabling side-by-side comparison of standard versus sustainable specification options.
+
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 
 </div>
 
@@ -67,14 +69,14 @@ Sustainability features are often seen as cost premiums without clear ROI:
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
 #### The Real Cost
 
-> "Without accurate sustainability cost modeling, projects either over-budget for basic compliance or under-deliver on ESG commitments. Both scenarios damage investor confidence and market competitiveness."
+> "Without accurate sustainability cost modelling, projects either over-budget for basic compliance or under-deliver on ESG commitments. Both scenarios damage investor confidence and market competitiveness."
 :::
 :::
 
 ::: {style=""}
 ### Our Evidence-Based Solution
 
-Detailed cost modeling that proves sustainability's ROI:
+Detailed cost modelling that proves sustainability's ROI:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Credit-by-credit costing** for BREEAM/LEED/WELL</p>
@@ -104,7 +106,7 @@ Detailed cost modeling that proves sustainability's ROI:
 - Water efficiency measures
 - Post-construction credits
 
-**Typical Premium:** 2-8% depending on target rating
+**Typical Premium:** Varies by target rating and baseline specification
 :::
 
 ::: {.feature-card}
@@ -118,7 +120,7 @@ Detailed cost modeling that proves sustainability's ROI:
 - Energy efficiency measures
 - Carbon offsetting costs
 - Future carbon taxation
-- Grid decarbonization scenarios
+- Grid decarbonisation scenarios
 
 **ROI Analysis:** Payback periods 5-15 years
 :::
@@ -162,7 +164,7 @@ Detailed cost modeling that proves sustainability's ROI:
 
 - WELL Building Standard
 - Indoor air quality systems
-- Natural lighting optimization
+- Natural lighting optimisation
 - Acoustic performance
 - Biophilic design elements
 - Active design features
@@ -188,7 +190,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 :::
 
-## Our Sustainability Cost Modeling Process
+## Our Sustainability Cost Modelling Process
 
 ::: {.process-steps}
 ::: {.process-step}
@@ -220,7 +222,7 @@ Detailed cost modeling that proves sustainability's ROI:
 - Assess renewable energy potential
 - Benchmark against Part L/RIBA 2030
 - Identify carbon hotspots
-- Develop decarbonization pathways
+- Develop decarbonisation pathways
 
 **Deliverable:** Carbon assessment report with cost implications
 :::
@@ -243,7 +245,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.process-step}
-#### Whole Life Cost Modeling
+#### Whole Life Cost Modelling
 
 **Duration:** 3-4 days
 
@@ -277,7 +279,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.process-step}
-#### Optimization & Value Engineering
+#### Optimisation & Value Engineering
 
 **Duration:** 2-3 days
 
@@ -290,7 +292,7 @@ Detailed cost modeling that proves sustainability's ROI:
 - Phasing strategies
 - Innovation credit opportunities
 
-**Deliverable:** Optimized sustainability strategy
+**Deliverable:** Optimised sustainability strategy
 :::
 :::
 
@@ -360,7 +362,7 @@ Detailed cost modeling that proves sustainability's ROI:
 **Q: What's the typical cost premium for BREEAM Excellent vs Good?**
 :::
 ::: {.faq-answer}
-A: Based on our experience, BREEAM Excellent adds 3-5% to construction costs vs BREEAM Good, while Outstanding adds 6-8%. However, this varies significantly by building type, scale, and baseline specification. Our modeling provides project-specific figures with credit-by-credit breakdown, helping you target the most cost-effective rating level.
+A: The premium varies significantly by building type, scale, and baseline specification. We model project-specific figures with a credit-by-credit breakdown, helping you target the most cost-effective rating level.
 :::
 :::
 
@@ -387,7 +389,7 @@ A: Yes, our 30-year life cycle cost models include: energy cost savings, carbon 
 **Q: Do you work with projects targeting multiple certifications?**
 :::
 ::: {.faq-answer}
-A: Absolutely. Many projects pursue BREEAM + WELL, or LEED + Net Zero Carbon. We identify credit overlaps to minimize cost duplication, prioritize certifications based on market value, and optimize the overall sustainability strategy for maximum certification achievement at lowest cost.
+A: Absolutely. Many projects pursue BREEAM + WELL, or LEED + Net Zero Carbon. We identify credit overlaps to minimise cost duplication, prioritise certifications based on market value, and optimise the overall sustainability strategy for maximum certification achievement at lowest cost.
 :::
 :::
 
@@ -414,7 +416,7 @@ A: Yes, we cost on-site ecological enhancements, off-site habitat creation, biod
 **Q: What if we need to value engineer without losing certification?**
 :::
 ::: {.faq-answer}
-A: Our value engineering approach prioritizes cost reductions that don't impact certification. We re-target credits (e.g., drop expensive credits, pursue cheaper ones), optimize system specifications, phase implementation, and leverage innovation credits. Our goal: achieve certification at lowest cost.
+A: Our value engineering approach prioritises cost reductions that don't impact certification. We re-target credits (e.g., drop expensive credits, pursue cheaper ones), optimise system specifications, phase implementation, and leverage innovation credits. Our goal: achieve certification at lowest cost.
 :::
 :::
 
@@ -428,49 +430,6 @@ A: ESG reporting costs include: data collection systems, monitoring equipment, t
 :::
 :::
 
-## Real-World Impact: Cost vs Value
-
-::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
-
-### Sustainability Pays Back
-
-::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### Investment Required
-
-**BREEAM Excellent Office (10,000 sqm)**
-
-- Additional capital cost: **£400K** (4% premium)
-- Enhanced M&E systems: £200K
-- Sustainable materials: £120K
-- Water/waste systems: £50K
-- Commissioning/monitoring: £30K
-
-**Total Investment:** £400K above baseline
-:::
-
-::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### Returns Achieved
-
-**30-Year Benefit Analysis**
-
-- Energy savings (30 years): **£1.2M**
-- Carbon tax avoidance: £340K
-- Enhanced rental value (3% premium): £2.1M
-- Reduced void periods: £180K
-- Lower insurance costs: £90K
-
-**Total 30-Year Value:** £3.9M (9.8x ROI)
-:::
-
-:::
-
-::: {style="text-align: center; padding: 24px; background: rgba(76, 175, 80, 0.1); border-radius: 8px; border-left: 4px solid #4CAF50; margin-top: 24px;"}
-**The Business Case is Clear:** Every £1 invested in BREEAM Excellent delivers £9.80 in value over 30 years. Our modeling proves sustainability is profitable, not just compliant.
-:::
-
-:::
 :::
 
 ## Ready to Build Sustainable & Profitable?
@@ -479,12 +438,12 @@ A: ESG reporting costs include: data collection systems, monitoring equipment, t
 ::: {style="max-width: 800px; margin: 0 auto;"}
 <h2 style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">Don't Let Sustainability Be a Guessing Game</h2>
 
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Get evidence-based cost modeling that proves sustainability's ROI to investors and stakeholders.</p>
+<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">Get evidence-based cost modelling that proves sustainability's ROI to investors and stakeholders.</p>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Free Sustainability Assessment</h3>
-<p style="color: var(--bim-white); margin: 0;">30-min consultation on your green building goals</p>
+<p style="color: var(--bim-white); margin: 0;">Share your green building goals and we'll assess the cost impact</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
@@ -494,18 +453,17 @@ A: ESG reporting costs include: data collection systems, monitoring equipment, t
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">Get Custom Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">Project-specific pricing within 24 hours</p>
+<p style="color: var(--bim-white); margin: 0;">Priced per package, quoted before we start</p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Book Assessment](../contact.qmd){.cta-primary}
-[Download Sample Report](../coming-soon.qmd){.cta-secondary}
-[Get Quote](../contact.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>BREEAM AP Qualified Team</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Credit-by-Credit Cost Analysis</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>30-Year Life Cycle Analysis</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Investor-Ready Business Cases</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
@@ -518,7 +476,7 @@ A: ESG reporting costs include: data collection systems, monitoring equipment, t
 
 **Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
 
-**Office Hours:** Monday-Friday, 9:00-17:00 CET
+**Office hours:** Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.
 :::
 
 :::

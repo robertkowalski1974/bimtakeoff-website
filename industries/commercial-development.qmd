@@ -1,7 +1,7 @@
 ---
 title: "Commercial Development Cost Estimation | Office & Retail"
 page-layout: full
-description: "Commercial development cost estimation for offices, retail and mixed-use schemes. 3-10 day turnaround, ±5% accuracy. Specialists in Grade A fit-outs."
+description: "Commercial development cost estimation for offices, retail and mixed-use schemes. 3-10 day turnaround. Specialists in Grade A fit-outs."
 ---
 
 ::: {.hero-section}
@@ -19,21 +19,21 @@ description: "Commercial development cost estimation for offices, retail and mix
 :::
 
 ::: {.hero-subtitle}
-From 1,000 sqm fit-outs to 50,000+ sqm commercial towers.  
-Delivered in 3-10 days with ±5% accuracy.
+From 1,000 sqm fit-outs to 50,000+ sqm commercial towers.
+Delivered in 3-10 days, measured to your drawings.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Fast-Track Expertise</strong> - 90% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Fast-Track Expertise</strong> - Faster than traditional methods</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Grade A Office Experience</strong> - Premium specifications</p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>International Track Record</strong> - UK, EU & Australia</p>
 :::
 :::
 
 ::: {style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Case Studies](../coming-soon.qmd){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 :::
 :::
@@ -67,13 +67,13 @@ Commercial developments face intense market pressures and investment scrutiny:
 ::: {style=""}
 ### Our Commercial Solution
 
-Specialized 5D BIM for commercial office and retail developments:
+Specialised 5D BIM for commercial office and retail developments:
 
 ::: {style="margin: 24px 0;"}
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-10 days** for complete estimate (vs 6-8 weeks traditional)</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Grade A expertise** - Premium office specifications</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **ESG cost modeling** - BREEAM, WELL, net-zero options</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Optimize without compromising quality</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **ESG cost modelling** - BREEAM, WELL, net-zero options</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Optimise without compromising quality</p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Fit-out planning** - Shell, CAT A, CAT B cost separation</p>
 :::
 
@@ -83,7 +83,6 @@ Specialized 5D BIM for commercial office and retail developments:
 - **Extensive commercial portfolio** across UK, EU, and Australia
 - **Grade A office projects** to 50,000+ sqm delivered
 - **Average 7 days** from BIM model to detailed estimate
-- **±5% accuracy** on 95% of projects
 :::
 :::
 
@@ -121,7 +120,7 @@ Detailed knowledge of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>ESG Cost Modeling
+### <i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>ESG Cost Modelling
 
 **Sustainability Standards**
 
@@ -139,7 +138,7 @@ Expert costing for:
 
 **Compare Design Options**
 
-Analyze impact of:
+Analyse impact of:
 - Façade system alternatives
 - MEP strategy choices
 - Fit-out specification levels
@@ -400,7 +399,7 @@ Full service including:
 - Present findings to development team
 - Explain key cost drivers
 - Review value engineering options
-- Discuss yield optimization
+- Discuss yield optimisation
 - Answer questions
 - Provide ongoing support
 
@@ -435,12 +434,12 @@ Full service including:
 - **3-10 days** typical turnaround
 - **Same-day** updates for changes
 - **4-5 days** express service
-- **90% faster** than traditional
+- **Faster** than traditional desktop take-off
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### Investment-Grade Accuracy
-- **±5% accuracy** guarantee
+Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
 - **Yield-focused** analysis
 - **Market benchmarking** included
 - **Defendable estimates** for investors
@@ -456,10 +455,10 @@ Full service including:
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
 ### ESG Expertise
-- **BREEAM** cost modeling
+- **BREEAM** cost modelling
 - **WELL Standard** experience
 - **Net-zero** pathways
-- **EPC A** optimization
+- **EPC A** optimisation
 :::
 
 ::: {style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);"}
@@ -516,7 +515,7 @@ A: Because we work with 5D BIM, we can quickly recalculate costs for specificati
 **Q: Do you include BREEAM/WELL certification costs?**
 :::
 ::: {.faq-answer}
-A: Yes, we include both the construction cost premium for achieving target ratings (e.g., BREEAM Excellent) and the professional fees for assessment and certification. We can model different rating scenarios to help optimize investment returns.
+A: Yes, we include both the construction cost premium for achieving target ratings (e.g., BREEAM Excellent) and the professional fees for assessment and certification. We can model different rating scenarios to help optimise investment returns.
 :::
 :::
 
@@ -543,7 +542,7 @@ A: We have extensive experience costing advanced MEP systems including VRV/VRF a
 **Q: What's your fee structure for commercial projects?**
 :::
 ::: {.faq-answer}
-A: Fees vary based on project size, complexity, and timeline. As a rough guide:
+A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. As a rough guide by project size:
 - Small office (1,000-5,000 sqm): £3,000-6,000
 - Medium office (5,000-15,000 sqm): £6,000-12,000
 - Large office (15,000-30,000 sqm): £12,000-20,000
@@ -571,28 +570,27 @@ Express service (4-5 days) carries a 25% premium. Contact us for a specific quot
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
-<p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
+<p style="color: var(--bim-white); margin: 0;">We respond within one working day, Monday to Friday, with a detailed proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
 <h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Book Consultation</h3>
-<p style="color: var(--bim-white); margin: 0;">Free 30-minute project review</p>
+<p style="color: var(--bim-white); margin: 0;">Book a project review</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
 :::
 :::
 
 ::: {style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;"}
-[Get Free Consultation](../contact.qmd){.cta-primary}
-[View Portfolio](../coming-soon.qmd){.cta-secondary}
-[Request Quote](mailto:info@bimtakeoff.com){.cta-secondary}
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Grade A Office Expertise</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Projects to 50,000+ sqm</strong></p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3-10 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5% Accuracy Guarantee</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Measured to Your Drawings</strong></p>
 :::
 :::
 :::
