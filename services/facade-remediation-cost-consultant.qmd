@@ -1,0 +1,155 @@
+---
+title: "Facade remediation cost consultant"
+description: "Facade remediation cost consultant for cladding tenders: scope from the FRAEW report, full and partial remediation priced side by side, access included."
+page-layout: full
+---
+
+::: {.page-banner}
+::: {.container}
+# Facade remediation cost consultant
+
+::: {.page-banner-lead}
+Pricing the remediation package for tender: rainscreen, render, brick slip, cavity barriers and access, measured from the FRAEW report and the survey drawings.
+:::
+:::
+:::
+
+::: {.container}
+
+## Who this is for
+
+Facade subcontractors and main contractors pricing a cladding remediation package. The building already has a report telling it what is wrong; the question in front of you is what the work costs and what you are prepared to stand behind at tender. That is a different job from assembling the cost evidence for the [BSR Gateway 2 application](bsr-gateway-2-cost-consultant.qmd), which comes later and answers to the regulator rather than to the tender return date.
+
+## Reading the FRAEW report first
+
+The FRAEW or PAS 9980 assessment is the source document. It tells you which wall build-ups were investigated, what was found behind them, which elevations the finding applies to, and what the assessor recommended. It rarely tells you the area.
+
+So the report is read against the elevations and the intrusive survey record, and each recommendation is turned into measured scope on a named elevation. Where the report identifies a defect that the drawings do not resolve, the assumption is written down against the quantity it affects, rather than priced quietly into a rate.
+
+## Two scopes, priced side by side
+
+Remediation tenders are usually decided between a full strip and a partial repair, and the two are rarely comparable unless someone prices them the same way. We price both against the same measured base:
+
+::: {.feature-grid}
+::: {.card-base}
+### Full remediation
+
+Complete removal of the existing system down to the substrate, new build-up throughout, all cavity barriers renewed, all window and balcony interfaces reworked. One access strategy over the whole envelope.
+:::
+
+::: {.card-base}
+### Partial remediation
+
+The elevations or wall build-ups the report identifies, with the retained areas listed by elevation so it is clear what is not being touched. Interfaces between new and retained work measured as their own items, because that is where partial schemes cost more than they look.
+:::
+:::
+
+Both come with the same access schedule, the same phasing and the same contingency line, so the difference between them is the work, not the assumptions.
+
+## What is measured
+
+- **Rainscreen systems** by elevation: substrate condition, brackets and rails, insulation, breather membrane, cassette or plank panels, and the flashing and closer detail at every edge.
+- **Render and EWI replacement**: strip, substrate repair, insulation, mesh coat, finish, beads and stop details, movement joints, and the reveal and soffit returns that the elevation area does not show.
+- **Brick slip systems**: carrier board or rail, slips, corner units, pointing, support angles and their fixing back to the structure.
+- **Cavity barriers and fire-stopping**: horizontal and vertical barriers, compartment line detail, window and door perimeter, balcony and soffit junctions, measured to the specified product.
+- **Windows and balconies where they are in scope**: replacement or refurbishment counts by type and elevation, balustrade and soffit work, decking and drainage. Left out and flagged where they are not, rather than assumed either way.
+- **Access**: a scaffold and access schedule face by face, with length, height to parapet, scaffold height, face area, ground and pavement conditions, loading bays, hoists and the temporary weather protection. Priced separately from the facade rates, because access is the item that moves most between scopes.
+
+## Phasing in occupied buildings
+
+The building is normally full of people. Phasing by elevation or by stair core, out-of-hours restrictions, protected routes and hoardings, resident liaison and the cost of returning to a completed face all sit as their own items. Where waking watch or decant is to be carried, it is carried on the duration you instruct and shown on its own line.
+
+## What you get
+
+A measured scope with the working shown, the access and scaffold schedule, both remediation options priced against the same base, a phasing allowance, a contingency stated separately with the reason next to it, and the assumption list. Delivered in Excel in your estimating layout, as a CITE/eBQ file, or in the bill format the main contractor issued. Measured to NRM2 or SMM7.
+
+## What to send
+
+The FRAEW or PAS 9980 report, the intrusive survey record, the as-built or survey elevations, the remediation specification or NBS output, the tender bill if one has been issued, the site constraints you already know about, and your return date. IFC or Revit if a model exists. We do not need one.
+
+## How it works
+
+::: {.process-steps}
+::: {.process-step}
+#### Send the pack
+The report, the elevations, the specification and your return date.
+:::
+
+::: {.process-step}
+#### We come back within one working day
+You get the scope we would measure, a fixed fee and a delivery date set against your return date.
+:::
+
+::: {.process-step}
+#### You get the priced package
+Both options, the access schedule, the phasing and the assumption list, in your format.
+:::
+:::
+
+## What it costs
+
+Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
+
+## Frequently asked questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: How is this different from your Gateway 2 work?**
+:::
+::: {.faq-answer}
+A: This page is about pricing the remediation package for a tender. The Gateway 2 work assembles the cost evidence that goes into the application to the Building Safety Regulator before work starts. The measurement behind them is the same; the document and the audience are not.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you price a scheme where the design is not finished?**
+:::
+::: {.faq-answer}
+A: Yes, on stated assumptions. Where the system, the fixing or the barrier product is not yet specified, we price a named build-up, say so on the item, and list what would change if the specification lands differently.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you include the scaffold?**
+:::
+::: {.faq-answer}
+A: As its own schedule: face by face, with length, height to parapet, face area and access constraints. It is kept separate from the facade rates so the access cost stays visible when the scope changes.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you compare two cladding systems?**
+:::
+::: {.faq-answer}
+A: Yes. Systems are priced against the same measured base and the same access schedule, with the interface and fixing differences measured rather than allowed for, so the comparison is between the systems and not between two sets of assumptions.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How accurate are the quantities?**
+:::
+::: {.faq-answer}
+A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
+:::
+:::
+:::
+
+Related: [facade and cladding remediation](../industries/remediation.qmd) for the wider service, [BSR Gateway 2 cost consultant](bsr-gateway-2-cost-consultant.qmd) for the submission itself, and [specialist trade packages](trade-specific-specialist-services.qmd) for the adjoining trades.
+
+## Send us the drawings for your remediation tender
+
+::: {.callout-box .text-center}
+Send the report and one elevation and see what comes back. If your return date is inside 72 hours, ring instead.
+
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+:::
+
+:::

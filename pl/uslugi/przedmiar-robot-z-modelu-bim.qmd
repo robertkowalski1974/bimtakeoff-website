@@ -1,0 +1,166 @@
+---
+title: "Przedmiar robót z modelu BIM i rysunków 2D"
+description: "Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi."
+page-layout: full
+---
+
+::: {.page-banner}
+::: {.container}
+# Przedmiar robót z modelu BIM i rysunków 2D
+
+::: {.page-banner-lead}
+Ilości z modelu IFC, plików DWG albo rysunków PDF, sprawdzone ręcznie z dokumentacją i ułożone w pozycje, na których da się kosztorysować.
+:::
+:::
+:::
+
+::: {.container}
+
+## Przedmiar czy obmiar
+
+Przedmiar robót to ilości wyliczone z dokumentacji projektowej przed rozpoczęciem robót; obmiar to ilości robót już wykonanych, mierzone na budowie. Ta strona dotyczy przedmiaru.
+
+## Dla kogo
+
+Wykonawcy i podwykonawcy przygotowujący ofertę, generalni wykonawcy sprawdzający przedmiar zamawiającego, zamawiający i inwestorzy, którzy mają projekt, a nie mają jeszcze ilości. Pracujemy zarówno na pełnym modelu BIM, jak i na komplecie rysunków w PDF — jedno i drugie da się zmierzyć rzetelnie, tylko innym nakładem pracy.
+
+## Z czego mierzymy
+
+::: {.feature-grid}
+::: {.card-base}
+### Model IFC
+
+Pliki IFC wyeksportowane z Revita, ArchiCAD-a i Tekli. Z modelu pobieramy ilości elementów: powierzchnie ścian i stropów, kubatury, długości, liczby sztuk, wraz z przypisaniem do kondygnacji i typu.
+:::
+
+::: {.card-base}
+### Pliki DWG
+
+Rzuty, przekroje i elewacje w DWG. Mierzymy z geometrii rysunku, a nie z podglądu, więc długości i powierzchnie wynikają z tego, co narysował projektant.
+:::
+
+::: {.card-base}
+### Rysunki PDF
+
+Skalowana dokumentacja w PDF. Wolniej niż z modelu, ale w polskich postępowaniach najczęściej to właśnie jest cała dostępna dokumentacja.
+:::
+:::
+
+## Co model daje, a czego nie da
+
+Model daje szybko i powtarzalnie to, co ktoś w nim wymodelował: powierzchnie i kubatury elementów konstrukcyjnych, ściany według typu, stropy, słupy, belki, liczby stolarki. Zestawienie z modelu można wygenerować w kilka godzin zamiast w kilka dni i przy zmianie projektu powtórzyć.
+
+Model nie daje wszystkiego, czego wymaga przedmiar do kosztorysu:
+
+- **Otwory i ich krawędzie** bywają odejmowane niekonsekwentnie albo wcale, zależnie od tego, jak ustawiono eksport
+- **Wykończenia** — posadzki, okładziny, malowanie, sufity podwieszane — często nie są osobnymi bryłami, tylko parametrem opisowym
+- **Roboty tymczasowe** — rusztowania, deskowania, zabezpieczenia, drogi technologiczne — z zasady nie istnieją w modelu i mierzy się je ręcznie
+- **Roboty ziemne i zagospodarowanie terenu** modelowane są rzadko i zwykle niekompletnie
+- **Roboty z pogranicza branż** nie należą w modelu do nikogo
+
+Dlatego ilości z modelu sprawdzamy ręcznie z rysunkami, a to, czego w modelu nie ma, mierzymy tak samo jak zawsze. Kosztorysowanie BIM 5D oznacza tylko tyle, że część ilości pobieramy z modelu — pozycje, podstawy nakładów i ceny powstają tak samo.
+
+## Co dostajesz
+
+- **Ilości według elementu, kondygnacji i budynku**, w układzie, w którym da się je porównać z projektem
+- **Pozycje z podstawą nakładów** — KNR lub KNNR, z kalkulacją własną tam, gdzie katalog nie ma pozycji, opisaną osobno
+- **Plik do programu kosztorysowego** — Norma PRO, Zuzia, plik wymiany ATH — albo formularz w Excelu i wersja PDF
+- **Wykaz założeń** przy każdej pozycji, której dokumentacja nie rozstrzyga
+- **Rejestr pytań do zamawiającego lub projektanta**, zebrany w jedno pismo
+
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
+
+## Wymóg BIM w zamówieniach publicznych
+
+Wymagania dotyczące stosowania metodyki BIM pojawiają się w polskich postępowaniach publicznych coraz częściej, na razie głównie przy większych inwestycjach kubaturowych i infrastrukturalnych, i zwykle jako element opisu przedmiotu zamówienia, a nie jako warunek udziału. Dla wykonawcy oznacza to w praktyce dwie rzeczy: model trzeba umieć odczytać, a wydany przedmiar musi dać się powiązać z elementami modelu. Obie robimy standardowo. Jeżeli dokumentacja postępowania stawia wymagania co do formatu wymiany albo poziomu szczegółowości modelu, prześlij ją razem z projektem — sprawdzimy je przed rozpoczęciem pomiaru.
+
+## Co nam przesłać
+
+Model IFC, jeśli istnieje, albo rysunki w DWG lub PDF, specyfikację techniczną wykonania i odbioru robót, przedmiar zamawiającego, jeśli został wydany, oraz termin. Przy modelu przydaje się informacja, z jakiego programu i w jakiej wersji IFC został wyeksportowany.
+
+## Jak pracujemy
+
+::: {.process-steps}
+::: {.process-step}
+#### Przesyłasz dokumentację
+Model lub rysunki, specyfikacja, przedmiar zamawiającego, jeśli jest, oraz termin.
+:::
+
+::: {.process-step}
+#### Odpowiadamy w ciągu jednego dnia roboczego
+Potwierdzamy zakres, stałą cenę i termin wydania, ustalony pod Twój termin.
+:::
+
+::: {.process-step}
+#### Otrzymujesz przedmiar
+Ilości według elementu i kondygnacji, pozycje z podstawą nakładów, plik w Twoim formacie i wykaz założeń.
+:::
+:::
+
+## Ile to kosztuje
+
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+
+## Najczęściej zadawane pytania
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy model jest potrzebny?**
+:::
+::: {.faq-answer}
+O: Nie. Większość dokumentacji, którą mierzymy, to rysunki 2D. Model przyspiesza pomiar elementów konstrukcyjnych i ułatwia powtórzenie przedmiaru po zmianie projektu, ale nie jest warunkiem.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Jakie formaty modelu odczytujecie?**
+:::
+::: {.faq-answer}
+O: IFC wyeksportowany z Revita, ArchiCAD-a i Tekli. Napisz, z jakiego programu i w jakiej wersji IFC pochodzi plik — od tego zależy, ile danych da się z niego wyciągnąć.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy ilości z modelu sprawdzacie ręcznie?**
+:::
+::: {.faq-answer}
+O: Tak, z rysunkami. Zestawienie z modelu jest punktem wyjścia, nie wynikiem. Elementy, których w modelu nie ma — wykończenia, roboty tymczasowe, roboty z pogranicza branż — mierzymy osobno.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Czy przedmiar da się wczytać do programu kosztorysowego?**
+:::
+::: {.faq-answer}
+O: Tak. Wydajemy plik do Normy PRO i Zuzi oraz plik wymiany ATH, a obok Excel i PDF. Pozycje mają podstawę nakładów KNR lub KNNR, więc wchodzą do kosztorysu bez przepisywania.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**P: Co, jeśli projekt zmieni się w trakcie?**
+:::
+::: {.faq-answer}
+O: Przeliczamy zmienione elementy i wydajemy zestawienie różnic wobec poprzedniej wersji, żeby było widać, co się zmieniło i o ile. Zakres i cenę takiej aktualizacji uzgadniamy przed rozpoczęciem pracy.
+:::
+:::
+:::
+
+Zobacz też: [przedmiar i obmiar robót](automatyczny-przedmiar-obmiar.qmd) oraz [przedmiary robót i kosztorysy dla wykonawców](../index.qmd).
+
+## Prześlij dokumentację lub model
+
+::: {.callout-box .text-center}
+Prześlij jedną kondygnację albo jeden typ lokalu i zobacz, co wraca. Jeśli termin wypada w ciągu 72 godzin, zadzwoń.
+
+[Prześlij dokumentację](../kontakt.qmd){.cta-primary}
+[Bezpłatny przedmiar próbny](../kontakt.qmd#probny){.cta-secondary}
+
+**Kontakt:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+48 508 209 313](tel:+48508209313)
+:::
+
+:::

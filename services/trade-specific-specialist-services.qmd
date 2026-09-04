@@ -123,6 +123,8 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 **Deliverable:** Detailed estimate with installation sequence, material schedule, labour allocation
+
+For how this package is measured by wall type and priced into the main contractor's bill, see [drylining takeoff and tender pricing for subcontractors](drylining-takeoff-tender-pricing.qmd).
 :::
 
 ::: {.specialist-card}

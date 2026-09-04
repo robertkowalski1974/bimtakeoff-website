@@ -32,13 +32,15 @@ website:
           - text: "Kosztorys ofertowy"
             href: uslugi/kosztorysowanie-i-planowanie-budzetu.qmd
           - text: "Kosztorys inwestorski"
-            href: https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski
+            href: uslugi/kosztorys-inwestorski-i-ofertowy.qmd
           - text: "Hale stalowe i konstrukcje prefabrykowane"
             href: uslugi/specjalistyczne-branzy-budowlane.qmd
           - text: "Pakiety branżowe (UK i Australia)"
             href: /
           - text: "---"
           - text: "Więcej"
+          - text: "Przedmiar robót z modelu BIM"
+            href: uslugi/przedmiar-robot-z-modelu-bim.qmd
           - text: "Tradycyjny przedmiar z rysunków 2D"
             href: uslugi/tradycyjny-przedmiar-ilosci.qmd
           - text: "Przygotowanie ofert przetargowych"
@@ -111,7 +113,7 @@ website:
       **Usługi**<br>
       [Przedmiar robót](https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html)<br>
       [Kosztorys ofertowy](https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html)<br>
-      [Kosztorys inwestorski](https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski)<br>
+      [Kosztorys inwestorski](https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html)<br>
       [Hale stalowe i konstrukcje prefabrykowane](https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html)<br>
       [Pakiety branżowe (UK i Australia)](https://www.bimtakeoff.com/)
     right: |

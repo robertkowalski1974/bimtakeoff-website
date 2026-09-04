@@ -168,6 +168,8 @@ Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie doku
 
 :::
 
+Jeżeli dysponujesz modelem, zobacz [przedmiar robót z modelu BIM i rysunków 2D](przedmiar-robot-z-modelu-bim.qmd) — opisujemy tam, co model daje, a czego nie da.
+
 ## Obmiar powykonawczy
 
 Obmiar sporządzamy do rozliczenia robót już wykonanych: z dokumentacji powykonawczej, wpisów w dzienniku budowy i pomiaru na miejscu. Ilości z obmiaru zestawiamy z przedmiarem ofertowym, tak aby różnice były widoczne pozycja po pozycji i dały się przypisać do konkretnej zmiany zakresu. Przedmiaru nie podstawiamy pod obmiar i nie robimy tego w drugą stronę.

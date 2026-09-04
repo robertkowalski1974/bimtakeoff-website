@@ -1,0 +1,163 @@
+---
+title: "Drylining takeoff and tender pricing for subcontractors"
+description: "Drylining takeoff and tender pricing: partitions, linings, MF ceilings and screed measured by wall type from the GA plans, in your own bill format."
+page-layout: full
+---
+
+::: {.page-banner}
+::: {.container}
+# Drylining takeoff and tender pricing for subcontractors
+
+::: {.page-banner-lead}
+Partitions, linings, ceilings and screed measured by wall type from the GA plans and the wall type schedule, priced in the bill form your main contractor issued.
+:::
+:::
+:::
+
+::: {.container}
+
+## Who this is for
+
+Drylining and screed subcontractors bidding to a main contractor. Sometimes the main contractor, checking what came back. The package is usually the same shape: a GA set, a wall type schedule, a room data sheet, a specification, and a return date that is closer than anyone would like.
+
+## How we measure it
+
+Measurement runs by wall type, not by a global area. The wall type schedule and the GA plans are read together, and every type is measured separately so the rate that goes against it is the right rate.
+
+::: {.feature-grid}
+::: {.card-base}
+### Partitions and linings
+
+Each stud and board type measured to its own line: stud size and centres, board layers and thickness, acoustic and fire rating, height band, and the head detail where the partition runs to slab or stops at ceiling. Deflection heads, movement joints and abutments picked up as separate items.
+:::
+
+::: {.card-base}
+### Ceilings
+
+MF and grid ceilings measured by type and by room, with bulkheads, drops, perimeter trim and access panels taken separately. Void depth and the services above it are recorded, because they drive the hanger and the labour, not the ceiling area.
+:::
+
+::: {.card-base}
+### Pattresses and secondary support
+
+Plywood and board pattresses for sanitaryware, TV brackets, handrails, kitchen units and door furniture, counted from the room data sheets and the M&E and joinery layouts rather than assumed as a percentage.
+:::
+
+::: {.card-base}
+### Screed by zone
+
+Screed measured by zone and by depth, with the specified type, the acoustic layer, edge insulation, movement joints and bay layout, and the areas under kitchen units or plant separated out where the specification treats them differently.
+:::
+:::
+
+## Boundary items, with the next trade flagged
+
+Most of the money lost on a drylining tender is lost at the edges of the package. Every item that could belong to another trade is measured, listed and marked with whose scope we believe it is:
+
+- SFS infill and its board line, where the facade package stops and the drylining starts
+- Firestopping at compartment lines, service penetrations and the head of partition
+- Decoration: whether the package ends at a taped and jointed finish or a painted one
+- Fire-rated riser and lift shaft linings, and who forms the access
+- Ceiling grid interfaces with sprinkler, lighting and AOV layouts
+- Making good after other trades, and the cost of returning to a completed floor
+
+These go into the tender query register with the specification clause or the drawing reference behind each one, so the queries go to the main contractor as one document before the deadline rather than as a defence after award.
+
+## What you get
+
+- **A measured takeoff or a priced bill**, by wall type, by floor and by block, with the working shown.
+- **The main contractor's bill re-cut to your package.** Where the contractor has issued a bill written for the whole job, we strip it to the drylining and screed scope, keep his item references so the two documents still reconcile, and price against them.
+- **Your format.** The contractor's SC3 or subcontract bill form, your own estimating layout in Excel, or a CITE/eBQ file for import.
+- **Measured to the standard your bill is written to** — NRM2 or SMM7.
+- **The assumption list and the tender query register**, issued with the takeoff, not after it.
+
+## What to send
+
+The GA plans as PDF or DWG, the wall type schedule, the room data sheets, the drylining and screed specification or the NBS output, the tender bill or pricing schedule if the contractor has issued one, and your return date. Ceiling and M&E layouts help with pattresses, bulkheads and void depths. IFC or Revit if you have a model. We do not need one.
+
+## How it works
+
+::: {.process-steps}
+::: {.process-step}
+#### Send the pack
+Drawings, the wall type schedule, the specification, the tender bill if there is one, and your return date.
+:::
+
+::: {.process-step}
+#### We come back within one working day
+You get the scope we would measure, a fixed fee and a delivery date set against your return date.
+:::
+
+::: {.process-step}
+#### You get the takeoff or priced bill
+In your format, with the assumptions listed and the queries written up.
+:::
+:::
+
+## What it costs
+
+Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.
+
+## Frequently asked questions
+
+::: {.faq-section}
+::: {.faq-item}
+::: {.faq-question}
+**Q: Can you price into the main contractor's bill rather than your own?**
+:::
+::: {.faq-answer}
+A: Yes, and that is usually the better answer. We re-cut his bill to your package, keep his item references so the two documents reconcile line for line, and price against them. Where his description does not match the drawings, the difference goes in the query register.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: Do you measure the screed as well as the drylining?**
+:::
+::: {.faq-answer}
+A: Yes. Screed is measured by zone and by depth, with the acoustic layer, edge insulation and bay layout taken separately. It is the same pack of drawings, so it is measured at the same time.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What happens at the boundary with SFS, firestopping and decoration?**
+:::
+::: {.faq-answer}
+A: Those items are measured and listed, and each one is flagged with the trade we believe it belongs to. You then decide whether to price it, exclude it or query it, rather than finding it after award.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: What if the wall type schedule and the GA plans disagree?**
+:::
+::: {.faq-answer}
+A: We measure to one of them, say which, and put the conflict in the tender query register with the drawing and clause reference so it can be resolved before the return date.
+:::
+:::
+
+::: {.faq-item}
+::: {.faq-question}
+**Q: How accurate are the quantities?**
+:::
+::: {.faq-answer}
+A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.
+:::
+:::
+:::
+
+Related: [specialist trade packages](trade-specific-specialist-services.qmd) for the other trades we measure, and [tender pricing and bid support](cost-estimation-budget-planning.qmd) for pricing, preliminaries and qualifications once the quantities are set.
+
+## Send us the drawings for your next drylining tender
+
+::: {.callout-box .text-center}
+Send one floor and see what comes back. If your return date is inside 72 hours, ring instead.
+
+[Send us your drawings](../contact.qmd){.cta-primary}
+[Free sample takeoff](../contact.qmd#sample){.cta-secondary}
+
+**Contact:** [info@bimtakeoff.com](mailto:info@bimtakeoff.com) | [+44 (0) 20 3239 9967](tel:+442032399967)
+:::
+
+:::
