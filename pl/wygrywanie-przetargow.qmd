@@ -1,6 +1,6 @@
 ---
-title: "Wygrywanie Przetargów | Kompleksowy System Wsparcia | BIM Takeoff"
-description: "Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Od analizy oferty przez dokumentację do rozliczenia końcowego. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych."
+title: "Wygrywanie Przetargów | Kompleksowy System Wsparcia"
+description: "Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych."
 page-layout: full
 lang: pl
 ---

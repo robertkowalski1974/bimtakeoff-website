@@ -1,5 +1,6 @@
 ---
-title: "Bid Writing & Bid Management | Win More Tenders | BIM Takeoff"
+title: "Bid Writing & Bid Management | Win More Tenders"
+description: "Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team."
 page-layout: full
 ---
 

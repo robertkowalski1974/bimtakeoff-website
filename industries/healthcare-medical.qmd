@@ -1,7 +1,7 @@
 ---
-title: "Healthcare & Medical Facilities Cost Estimation | Hospital BIM 5D | BIM Takeoff"
+title: "Healthcare & Medical Cost Estimation | Hospital BIM 5D"
 page-layout: full
-description: "Professional healthcare facility cost estimation. Hospitals, clinics, surgical centers, aged care. Complex MEP systems, infection control standards. 5-10 day turnaround with ±3-5% accuracy."
+description: "Healthcare facility cost estimation for hospitals, clinics and surgical centers. Complex MEP and infection control standards. 5-10 day turnaround."
 ---
 
 ::: {.hero-section}

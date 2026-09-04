@@ -138,7 +138,7 @@ description: "BIM Takeoff Terms of Service - Professional construction cost esti
       <p>
         We maintain strict confidentiality regarding all client projects and information. 
         Our data protection practices are detailed in our separate 
-        <a href="/privacy-policy" style="color: #FF9900; text-decoration: none;">Privacy Policy</a>, 
+        <a href="/privacy-policy.html" style="color: #FF9900; text-decoration: none;">Privacy Policy</a>, 
         which complies with GDPR (EU), UK GDPR, and applicable Australian privacy legislation.
       </p>
 
@@ -271,7 +271,7 @@ description: "BIM Takeoff Terms of Service - Professional construction cost esti
     <p style="color: #E0E0E0; font-size: 1.1rem; margin-bottom: 30px;">
       Our team is here to help clarify any aspects of our Terms of Service
     </p>
-    <a href="/contact" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+    <a href="/contact.html" class="btn btn-primary" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
       Contact Us
     </a>
   </div>

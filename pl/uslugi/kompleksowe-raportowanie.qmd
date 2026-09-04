@@ -1,5 +1,5 @@
 ---
-title: "Kompleksowe Raportowanie i Panele | Business Intelligence | BIM Takeoff"
+title: "Kompleksowe Raportowanie i Panele | Business Intelligence"
 page-layout: full
 ---
 

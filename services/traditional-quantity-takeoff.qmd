@@ -1,5 +1,6 @@
 ---
-title: "Traditional Quantity Takeoff | Manual Measurement Services | BIM Takeoff"
+title: "Traditional Quantity Takeoff | Manual Measurement Services"
+description: "Traditional quantity takeoff from 2D drawings, DWG and PDF files. Hand-measured quantities for projects where BIM models aren't available."
 page-layout: full
 ---
 

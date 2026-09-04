@@ -15,7 +15,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/construction-industry-40-trillion-crisis.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/construction-industry-40-trillion-crisis.html</id>
     <updated>2025-12-14T00:00:00Z</updated>
-    <summary>Comprehensive analysis of the construction industry's existential challenges: a $40 trillion infrastructure gap by 2040, workforce collapse with 41% retiring by 2031, productivity stagnation, and the urgent need for digital transformation.</summary>
+    <summary>Analysis of construction's existential challenges: a $40 trillion infrastructure gap by 2040, 41% workforce retiring by 2031, and stalled productivity.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -25,17 +25,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/construction-project-delivery-failure.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/construction-project-delivery-failure.html</id>
     <updated>2025-11-29T00:00:00Z</updated>
-    <summary>Research analysis of why construction projects consistently fail. Oxford University data reveals 91.5% exceed budgets or schedules, with mean cost overruns of 62%. Understanding the structural causes behind the iron law of megaprojects.</summary>
-    <author>
-      <name>Robert Kowalski</name>
-    </author>
-  </entry>
-  <entry>
-    <title>AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</title>
-    <link href="https://www.bimtakeoff.com/resources/publications/ai-przedmiary-rzeczywistosc.html"/>
-    <id>https://www.bimtakeoff.com/resources/publications/ai-przedmiary-rzeczywistosc.html</id>
-    <updated>2025-11-23T00:00:00Z</updated>
-    <summary>Kompleksowa analiza oprogramowania AI do przedmiarów ujawnia oszczędności czasu 40-60% wobec deklarowanych 80-90%, przy czym wszystkie deklaracje dokładności pochodzą od producentów. RICS wprowadza obowiązek nadzoru specjalistów—technologia wspomaga, nie zastępuje wiedzy rzeczoznawcy.</summary>
+    <summary>Why construction projects consistently fail. Oxford University data shows 91.5% exceed budget or schedule, with mean cost overruns of 62%.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -45,7 +35,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/ai-quantity-takeoff-reality.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/ai-quantity-takeoff-reality.html</id>
     <updated>2025-11-23T00:00:00Z</updated>
-    <summary>Comprehensive analysis of AI takeoff software reveals 40-60% time savings versus marketed 80-90%, with all accuracy claims vendor self-reported. RICS now mandates professional oversight—the technology augments rather than replaces quantity surveyor expertise.</summary>
+    <summary>AI takeoff software delivers 40-60% time savings versus marketed 80-90%, with accuracy claims vendor self-reported. RICS mandates professional oversight.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -55,7 +45,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/tender-winning-strategies.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/tender-winning-strategies.html</id>
     <updated>2025-11-22T00:00:00Z</updated>
-    <summary>Data-driven analysis debunking the '70% price' myth in construction procurement. Research reveals 40-50% of evaluation is non-price criteria where accurate cost estimation and BIM visualization deliver measurable win rate improvements.</summary>
+    <summary>Data-driven analysis debunking the '70% price' myth in construction procurement, where 40-50% of tender evaluation is non-price criteria.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -65,17 +55,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/modular-construction-failure.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/modular-construction-failure.html</id>
     <updated>2025-11-20T00:00:00Z</updated>
-    <summary>After 100 years of promises and £500 million in recent UK failures, why does modular construction still capture barely 5-8% of Western markets while Sweden quietly builds 84% of homes this way? A data-driven analysis of what works, what doesn't, and why.</summary>
-    <author>
-      <name>Robert Kowalski</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie</title>
-    <link href="https://www.bimtakeoff.com/resources/publications/ai-czy-zastapi-kosztorysantow.html"/>
-    <id>https://www.bimtakeoff.com/resources/publications/ai-czy-zastapi-kosztorysantow.html</id>
-    <updated>2025-11-16T00:00:00Z</updated>
-    <summary>Analiza wpływu sztucznej inteligencji na zawód kosztorysanta oparta na danych. Badania pokazują, że AI przekształci, ale nie zastąpi profesji - ale wykonawcy stoją przed pytaniem o 2,1 mln PLN dotyczącym automatyzacji.</summary>
+    <summary>After 100 years of promises and £500 million in UK failures, modular construction still captures barely 5-8% of Western markets. What works and why.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -85,7 +65,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/ai-replace-quantity-surveyors.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/ai-replace-quantity-surveyors.html</id>
     <updated>2025-11-16T00:00:00Z</updated>
-    <summary>Data-driven analysis of AI's impact on quantity surveying. Research shows AI will transform, not replace, the profession - but contractors face a £495,680 question about automation versus human expertise.</summary>
+    <summary>Data-driven analysis of AI's impact on quantity surveying. AI will transform, not replace, the profession - but contractors face a £495,680 question.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>
@@ -95,7 +75,7 @@
     <link href="https://www.bimtakeoff.com/resources/publications/bim-adoption-tender-stages.html"/>
     <id>https://www.bimtakeoff.com/resources/publications/bim-adoption-tender-stages.html</id>
     <updated>2025-10-05T00:00:00Z</updated>
-    <summary>Deep analysis of BIM adoption barriers during tendering, comparing UK success (73% adoption) with Poland's challenges (8.9% contractor adoption). Comprehensive policy recommendations for Poland's 2030 mandate.</summary>
+    <summary>Analysis of BIM adoption barriers at tender stage, comparing UK success (73%) with Poland's 8.9% contractor adoption. Policy recommendations for 2030.</summary>
     <author>
       <name>Robert Kowalski</name>
     </author>

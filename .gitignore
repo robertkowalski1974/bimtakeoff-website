@@ -1,6 +1,7 @@
 /.quarto/
 /_site/
 /.DS_Store
+.DS_Store
 *.log
 .Rproj.user
 .Rhistory

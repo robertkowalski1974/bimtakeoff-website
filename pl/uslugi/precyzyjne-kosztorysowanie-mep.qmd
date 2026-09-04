@@ -1,5 +1,5 @@
 ---
-title: "Precyzyjne Kosztorysowanie Instalacji MEP | Sanitarne Elektryczne Wentylacyjne | BIM Takeoff"
+title: "Precyzyjne Kosztorysowanie Instalacji MEP"
 page-layout: full
 ---
 

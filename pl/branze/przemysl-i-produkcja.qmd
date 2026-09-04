@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Przemysłu i Produkcji | Zakłady i Fabryki BIM 5D | BIM Takeoff"
+title: "Kosztorysowanie Przemysłu i Produkcji | BIM 5D"
 page-layout: full
-description: "Profesjonalne kosztorysowanie obiektów przemysłowych. Zakłady produkcyjne, obiekty przemysłowe, centra przetwórcze. Duże obciążenia MEP, integracja procesów. Realizacja 5-10 dni z dokładnością ±3-5%."
+description: "Kosztorysowanie obiektów przemysłowych: zakłady produkcyjne, centra przetwórcze. Duże obciążenia MEP. Realizacja 5-10 dni z dokładnością ±3-5%."
 ---
 
 ::: {.hero-section}

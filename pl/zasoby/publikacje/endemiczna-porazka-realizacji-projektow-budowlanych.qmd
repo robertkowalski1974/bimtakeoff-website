@@ -1,6 +1,6 @@
 ---
-title: "Endemiczna porażka realizacji projektów budowlanych: dlaczego 91,5% projektów kończy się niepowodzeniem | BIM Takeoff"
-description: "Analiza badawcza przyczyn systematycznych niepowodzeń projektów budowlanych. Dane Uniwersytetu Oksfordzkiego wskazują, że 91,5% projektów przekracza budżet lub harmonogram, ze średnim przekroczeniem kosztów wynoszącym 62%. Poznaj strukturalne przyczyny stojące za żelaznym prawem megaprojektów."
+title: "Endemiczna porażka realizacji projektów budowlanych: dlaczego 91,5% projektów kończy się niepowodzeniem"
+description: "Analiza przyczyn niepowodzeń projektów budowlanych. Dane Oksfordu: 91,5% projektów przekracza budżet lub harmonogram, ze średnim przekroczeniem 62%."
 page-layout: full
 date: "2025-11-29"
 author: "Robert Kowalski"

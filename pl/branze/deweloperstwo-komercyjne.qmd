@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Deweloperstwa Komercyjnego | Biura & Handel | BIM Takeoff"
+title: "Kosztorysowanie Deweloperstwa Komercyjnego | Biura & Handel"
 page-layout: full
-description: "Profesjonalne kosztorysowanie deweloperstwa komercyjnego. Budynki biurowe, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%. Specjaliści w zakresie biur klasy A i adaptacji komercyjnych."
+description: "Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%."
 ---
 
 ::: {.hero-section}

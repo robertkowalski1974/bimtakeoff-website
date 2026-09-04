@@ -1,5 +1,6 @@
 ---
-title: "Construction Logistics & Site Planning | 4D Simulation | BIM Takeoff"
+title: "Construction Logistics & Site Planning | 4D Simulation"
+description: "Construction logistics and site planning with 4D simulation. Visualise site operations and resolve conflicts before breaking ground."
 page-layout: full
 ---
 

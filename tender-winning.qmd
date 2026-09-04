@@ -1,6 +1,6 @@
 ---
-title: "Tender Winning Services | Win More Construction Contracts | BIM Takeoff"
-description: "Transform your tender success rate with our complete Tender Winning System. From opportunity selection to final payment - backed by 20 years of international experience and proven 35-45% win rates."
+title: "Tender Winning Services | Win More Construction Contracts"
+description: "Transform your tender success rate with our complete Tender Winning System - backed by 20 years' experience and proven 35-45% win rates."
 page-layout: full
 ---
 

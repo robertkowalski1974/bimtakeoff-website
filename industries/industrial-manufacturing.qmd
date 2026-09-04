@@ -1,7 +1,7 @@
 ---
-title: "Industrial & Manufacturing Cost Estimation | Factory & Plant BIM 5D | BIM Takeoff"
+title: "Industrial & Manufacturing Cost Estimation | BIM 5D"
 page-layout: full
-description: "Professional industrial facility cost estimation. Manufacturing plants, production facilities, processing centers. Heavy MEP, structural loads, process integration. 5-10 day turnaround with ±3-5% accuracy."
+description: "Industrial facility cost estimation for manufacturing plants and processing centers. Heavy MEP, structural loads, process integration. 5-10 day turnaround."
 ---
 
 ::: {.hero-section}

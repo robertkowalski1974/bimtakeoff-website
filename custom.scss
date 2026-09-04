@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+$primary: #FF9900;
+$secondary: #757575;
+$body-color: #2C2C2C;
+$body-bg: #FFFFFF;
+$link-color: #FF9900;
+$link-hover-color: #E68A00;
+$font-family-sans-serif: "Inter", "Segoe UI", Arial, sans-serif;
+$headings-font-weight: 700;
+$navbar-bg: #2C2C2C;
+$navbar-fg: #FFFFFF;
+$navbar-hl: #FF9900;
+$footer-bg: #2C2C2C;
+$footer-fg: #FFFFFF;
+$border-radius: 4px;
+
+/*-- scss:rules --*/
+
+.nav-footer a {
+  color: #FFFFFF;
+}
+
+.nav-footer a:hover {
+  color: #FF9900;
+  text-decoration: underline;
+}
+
+.navbar .nav-link.active {
+  border-bottom: 3px solid #FF9900;
+}

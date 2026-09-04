@@ -1,6 +1,6 @@
 ---
-title: "The 70% Price Myth: What Really Wins Construction Tenders | BIM Takeoff"
-description: "Data-driven analysis debunking the '70% price' myth in construction procurement. Research reveals 40-50% of evaluation is non-price criteria where accurate cost estimation and BIM visualization deliver measurable win rate improvements."
+title: "The 70% Price Myth: What Really Wins Construction Tenders"
+description: "Data-driven analysis debunking the '70% price' myth in construction procurement, where 40-50% of tender evaluation is non-price criteria."
 page-layout: full
 date: "2025-11-22"
 author: "Robert Kowalski"

@@ -1,7 +1,7 @@
 ---
-title: "Infrastructure & Civil Works Cost Estimation | Roads, Bridges, Utilities BIM 5D | BIM Takeoff"
+title: "Infrastructure & Civil Works Cost Estimation | BIM 5D"
 page-layout: full
-description: "Professional infrastructure cost estimation. Roads, bridges, tunnels, utilities, earthworks. Complex civil engineering, multi-discipline coordination. 7-12 day turnaround with ±5-8% accuracy."
+description: "Infrastructure cost estimation for roads, bridges, tunnels, utilities and earthworks. Complex civil engineering, 7-12 day turnaround, ±5-8% accuracy."
 ---
 
 ::: {.hero-section}

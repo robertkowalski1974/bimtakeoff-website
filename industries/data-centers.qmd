@@ -1,7 +1,7 @@
 ---
-title: "Data Center Cost Estimation | Mission-Critical BIM 5D Services | BIM Takeoff"
+title: "Data Center Cost Estimation | Mission-Critical BIM 5D"
 page-layout: full
-description: "Professional data center cost estimation for Tier I-IV facilities. Specialists in MEP complexity, power density, cooling systems. 5-10 day turnaround with ±3-5% accuracy."
+description: "Data center cost estimation for Tier I-IV facilities. Specialists in MEP complexity and power density. 5-10 day turnaround, ±3-5% accuracy."
 ---
 
 ::: {.hero-section}

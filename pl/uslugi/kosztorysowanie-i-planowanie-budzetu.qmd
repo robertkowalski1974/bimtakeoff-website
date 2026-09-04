@@ -1,5 +1,5 @@
 ---
-title: "Profesjonalne Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM | BIM Takeoff"
+title: "Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM"
 page-layout: full
 
 ---
@@ -41,7 +41,7 @@ Dokładność ±5%.
 
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
 
-**Kosztorysowanie BIM 5D** to proces pozyskiwania precyzyjnych danych ilosciowych z modeli BIM i laczenia ich z bazami kosztowymi oraz harmonogramami w celu opracowania kompleksowych budzetow budowlanych. W przeciwienstwie do tradycyjnych metod 2D, ktore zazwyczaj osiagaja dokladnosc +/-15-20% w ciagu 6-8 tygodni, kosztorysowanie BIM 5D zapewnia dokladnosc +/-5% w 3-5 dni dzieki automatycznemu pomiarowi ilosci z modelu 3D i polaczeniu ich z 4. wymiarem (czas) i 5. wymiarem (koszt). BIM Takeoff zrealizowal ponad 2000 kosztorysow BIM 5D w UK, Australii i Polsce.
+**Kosztorysowanie BIM 5D** to proces pozyskiwania precyzyjnych danych ilościowych z modeli BIM i łączenia ich z bazami kosztowymi oraz harmonogramami w celu opracowania kompleksowych budżetów budowlanych. W przeciwieństwie do tradycyjnych metod 2D, które zazwyczaj osiągają dokładność +/-15-20% w ciągu 6-8 tygodni, kosztorysowanie BIM 5D zapewnia dokładność +/-5% w 3-5 dni dzięki automatycznemu pomiarowi ilości z modelu 3D i połączeniu ich z 4. wymiarem (czas) i 5. wymiarem (koszt). BIM Takeoff zrealizował ponad 2000 kosztorysów BIM 5D w UK, Australii i Polsce.
 
 </div>
 

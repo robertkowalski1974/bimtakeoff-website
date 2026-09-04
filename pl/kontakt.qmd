@@ -1,5 +1,6 @@
 ---
 title: ""
+description: "Skontaktuj się z BIM Takeoff w sprawie kosztorysowania i wyceny BIM 5D. Odpowiadamy w 24 godziny na zapytania z Polski, UK i Australii."
 page-layout: full
 
 ---

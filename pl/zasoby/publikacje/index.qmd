@@ -1,6 +1,6 @@
 ---
-title: "Publikacje | Ekspertyzy na temat BIM i technologii budowlanych | BIM Takeoff"
-description: "Eksperckie analizy i przywództwo myślowe w zakresie adopcji BIM, technologii budowlanych i transformacji branży z 20-letniego międzynarodowego doświadczenia BIM Takeoff."
+title: "Publikacje | Ekspertyzy na temat BIM i technologii budowlanych"
+description: "Eksperckie analizy i przywództwo myślowe w zakresie adopcji BIM i transformacji branży budowlanej, z 20-letniego doświadczenia BIM Takeoff."
 page-layout: full
 lang: pl
 ---

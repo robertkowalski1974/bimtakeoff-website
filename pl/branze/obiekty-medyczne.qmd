@@ -1,7 +1,7 @@
 ---
-title: "Kosztorysowanie Obiektów Medycznych i Szpitali | BIM 5D | BIM Takeoff"
+title: "Kosztorysowanie Obiektów Medycznych i Szpitali | BIM 5D"
 page-layout: full
-description: "Profesjonalne kosztorysowanie obiektów zdrowotnych. Szpitale, przychodnie, centra chirurgiczne, opieka nad osobami starszymi. Złożone systemy MEP, normy kontroli zakażeń. Realizacja 5-10 dni z dokładnością ±3-5%."
+description: "Kosztorysowanie obiektów zdrowotnych: szpitale, przychodnie, centra chirurgiczne. Złożone systemy MEP. Realizacja 5-10 dni z dokładnością ±3-5%."
 ---
 
 ::: {.hero-section}

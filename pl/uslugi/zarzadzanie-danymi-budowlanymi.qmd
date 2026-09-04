@@ -1,5 +1,5 @@
 ---
-title: "Zarządzanie Danymi Budowlanymi | ISO 19650 | BIM Takeoff"
+title: "Zarządzanie Danymi Budowlanymi | ISO 19650"
 page-layout: full
 ---
 

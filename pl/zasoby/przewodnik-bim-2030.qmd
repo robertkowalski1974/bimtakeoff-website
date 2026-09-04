@@ -1,6 +1,6 @@
 ---
 title: "Przewodnik BIM 2030 dla Polski: Wymagania Prawne i Praktyczne Wdrożenie"
-description: "Kompleksowy przewodnik po wymaganiach BIM 2030, standardach ISO 19650 i praktycznym wdrożeniu dla firm budowlanych w Polsce. Dowiedz się, jak przygotować organizację na nadchodzące zmiany."
+description: "Kompleksowy przewodnik po wymaganiach BIM 2030 i ISO 19650 dla firm budowlanych w Polsce. Jak przygotować organizację na nadchodzące zmiany."
 lang: pl
 date: "2025-11-18"
 author: "BIM Takeoff"

@@ -1,5 +1,6 @@
 ---
-title: "MEP Infrastructure Precision | Mechanical Electrical Plumbing Cost Estimation | BIM Takeoff"
+title: "MEP Infrastructure Precision | Cost Estimation"
+description: "MEP cost estimation for mechanical, electrical and plumbing infrastructure. Clash-free quantities from coordinated BIM models with ±3% accuracy."
 page-layout: full
 ---
 
