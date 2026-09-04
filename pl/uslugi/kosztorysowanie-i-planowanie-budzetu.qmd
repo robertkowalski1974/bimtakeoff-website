@@ -194,9 +194,7 @@ Kosztorys inwestorski to dokument zamawiającego, nie wykonawcy. Służy do usta
 - Plik w Normie PRO lub Zuzi, plik ATH do wymiany danych oraz wersja PDF do akt postępowania
 :::
 
-:::
-
-Kosztorys inwestorski i kosztorys ofertowy sporządzamy dla różnych stron tego samego postępowania, więc nie wykonujemy obu w jednym przetargu. Jeśli pracujemy dla zamawiającego, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
+::: Jeśli pracujemy dla zamawiającego, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.
 
 ## Najczęściej zadawane pytania
 
