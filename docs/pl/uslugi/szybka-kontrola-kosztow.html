@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -78,6 +81,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -91,32 +102,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Kontrola Kosztów | Monitorowanie w Czasie Rzeczywistym" name="twitter:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" name="twitter:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -124,7 +131,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -173,14 +180,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -197,7 +198,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Kontrola Kosztów | Monitorowanie w Czasie Rzeczywistym" property="og:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" property="og:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -235,7 +236,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak obsługujecie wnioski o płatność wykonawcy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i dostarczanie certyfikowanych rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę."
+        "text": "O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i wydanie rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę."
       }
     },
     {
@@ -275,7 +276,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak naliczacie opłaty za usługi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Ceny różnią się w zależności od pakietu usług i wielkości projektu. Pakiet Podstawowy rozpoczyna się od 10 000 PLN/miesiąc, Profesjonalny od 20 000 PLN/miesiąc, a Premium od 40 000 PLN/miesiąc. Oferujemy również ustalenia opłat stałych na cały okres budowy ze zniżkami na dłuższe zaangażowania (12+ miesięcy). Skontaktuj się z nami, aby uzyskać niestandardową wycenę na podstawie specyfikacji projektu."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Stawka zależy od wybranego pakietu i częstotliwości raportowania; podajemy ją po przejrzeniu dokumentów kontraktowych."
       }
     }
   ]
@@ -297,7 +298,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia."
 }
 </script>
 <script type="application/ld+json">
@@ -347,7 +348,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -355,97 +356,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -453,16 +429,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -507,7 +525,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="bieżąca-kontrola-kosztów-i-monitorowanie-w-czasie-rzeczywistym">
@@ -517,23 +535,23 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </section>
 <div class="hero-subtitle">
-<p>Cotygodniowe raporty kosztowe w 24 godziny. System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.</p>
+<p>Cotygodniowe raporty kosztowe w 24 godziny od przesłania danych. Odchylenia widać w tygodniu, w którym powstały, a nie po zamknięciu miesiąca.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie kosztów w czasie rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie kosztów w czasie rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w ciągu 24 godzin</strong> - Szybka reakcja na zamówienia dodatkowe
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w ciągu 24 godzin</strong> - Szybka reakcja na zamówienia dodatkowe
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozowanie predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozowanie predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Zaplanuj Demo</a> <a class="cta-secondary" href="../../pl/coming-soon.html">Zobacz Studia Przypadków</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -546,64 +564,62 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p>Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po zakończeniu miesiąca to za wolno jak na współczesne budownictwo:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Opóźnienie 4-6 tygodni między problemem a jego wykryciem
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Opóźnienie 4-6 tygodni między problemem a jego wykryciem
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak systemu wczesnego ostrzegania przed przekroczeniami
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak systemu wczesnego ostrzegania przed przekroczeniami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zamówienia dodatkowe gromadzą się bez bieżącej analizy
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zamówienia dodatkowe gromadzą się bez bieżącej analizy
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Ograniczona widoczność trendów kosztowych
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Ograniczona widoczność trendów kosztowych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Reaktywne, a nie proaktywne zarządzanie
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Reaktywne, a nie proaktywne zarządzanie
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki po zakończeniu projektu
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki po zakończeniu projektu
 </p>
 </div>
 <section class="level4 callout-box" id="prawdziwy-koszt" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="prawdziwy-koszt">Prawdziwy Koszt</h4>
-<blockquote class="blockquote">
-<p>“W projekcie wartym 80 mln PLN wykrycie przekroczenia o 2 mln PLN po 6 tygodniach oznacza ograniczone opcje naprawy. Wczesne wykrycie dałoby czas na wprowadzenie optymalizacji wartości, podejście etapowe lub świadome podejmowanie decyzji, aby utrzymać projekt w budżecie.”</p>
-</blockquote>
+<h4 class="anchored" data-anchor-id="prawdziwy-koszt">Prawdziwy koszt</h4>
+<p>Przekroczenie wykryte po kilku tygodniach zostawia niewiele opcji naprawy. To samo przekroczenie widoczne w tygodniu, w którym powstało, daje czas na optymalizację wartości, etapowanie albo świadomą decyzję o zmianie zakresu.</p>
 </section>
 </section>
-<section class="level3" id="nasze-rozwiązanie-szybkiego-toru" style="">
-<h3 class="anchored" data-anchor-id="nasze-rozwiązanie-szybkiego-toru">Nasze Rozwiązanie Szybkiego Toru</h3>
-<p>Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym nadzorze:</p>
+<section class="level3" id="nasze-rozwiązanie-w-trybie-przyspieszonym" style="">
+<h3 class="anchored" data-anchor-id="nasze-rozwiązanie-w-trybie-przyspieszonym">Nasze rozwiązanie w trybie przyspieszonym</h3>
+<p>Dane kosztowe aktualizowane co tydzień, oparte na modelu 5D BIM i przeglądzie postępu:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cotygodniowe aktualizacje</strong> dostarczane w ciągu 24 godzin
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cotygodniowe aktualizacje</strong> dostarczane w ciągu 24 godzin
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> System <strong>wczesnego ostrzegania</strong> 4-6 tygodni
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> System <strong>wczesnego ostrzegania</strong> przy progach budżetowych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w dniu zgłoszenia</strong>
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w dniu zgłoszenia</strong>
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Proaktywne strategie optymalizacji kosztów
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Proaktywne strategie optymalizacji kosztów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Brak niespodzianek po zakończeniu projektu
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Brak niespodzianek po zakończeniu projektu
 </p>
 </div>
 </section>
 </div>
 </section>
-<section class="level2" id="co-czyni-naszą-kontrolę-kosztów-szybką">
-<h2 class="anchored" data-anchor-id="co-czyni-naszą-kontrolę-kosztów-szybką">Co Czyni Naszą Kontrolę Kosztów Szybką?</h2>
-<section class="level3" id="trzy-filary-szybkiej-inteligencji-kosztowej" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
-<h3 class="anchored" data-anchor-id="trzy-filary-szybkiej-inteligencji-kosztowej">Trzy Filary Szybkiej Inteligencji Kosztowej</h3>
+<section class="level2" id="co-przyspiesza-naszą-kontrolę-kosztów">
+<h2 class="anchored" data-anchor-id="co-przyspiesza-naszą-kontrolę-kosztów">Co przyspiesza naszą kontrolę kosztów</h2>
+<section class="level3" id="trzy-filary-szybkiego-raportowania-kosztów" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
+<h3 class="anchored" data-anchor-id="trzy-filary-szybkiego-raportowania-kosztów">Trzy filary szybkiego raportowania kosztów</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="szybkość" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="szybkość"><i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>1. Szybkość</h4>
+<h4 class="anchored" data-anchor-id="szybkość"><i aria-hidden="true" class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>1. Szybkość</h4>
 <p><strong>Cotygodniowy Cykl Raportowania</strong></p>
 <p>Tradycyjne miesięczne raporty to za mało. Zapewniamy:</p>
 <ul>
@@ -616,7 +632,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Rezultat:</strong> Reaguj na problemy kilka tygodni wcześniej niż przy tradycyjnym raportowaniu.</p>
 </section>
 <section class="level4" id="widoczność" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="widoczność"><i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>2. Widoczność</h4>
+<h4 class="anchored" data-anchor-id="widoczność"><i aria-hidden="true" class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>2. Widoczność</h4>
 <p><strong>Pełna Przejrzystość Kosztów</strong></p>
 <p>Kontroluj dokładnie, na co wydawane są środki:</p>
 <ul>
@@ -630,7 +646,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Rezultat:</strong> Pełna transparentność umożliwia świadome podejmowanie decyzji na każdym etapie.</p>
 </section>
 <section class="level4" id="przewidywanie" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="przewidywanie"><i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 12px;"></i>3. Przewidywanie</h4>
+<h4 class="anchored" data-anchor-id="przewidywanie"><i aria-hidden="true" class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 12px;"></i>3. Przewidywanie</h4>
 <p><strong>System Wczesnego Ostrzegania</strong></p>
 <p>Wykryj problemy, zanim staną się krytyczne:</p>
 <ul>
@@ -645,7 +661,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </div>
 <div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<p><strong>Przewaga Szybkiego Toru:</strong> Połącz wszystkie trzy filary, aby utrzymać kontrolę od pierwszego dnia budowy do rozliczenia końcowego.</p>
+<p><strong>Trzy filary razem:</strong> kontrola od pierwszego dnia budowy do rozliczenia końcowego.</p>
 </div>
 </section>
 </section>
@@ -753,25 +769,25 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p>Każdy cotygodniowy raport zawiera:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Podsumowanie Budżet vs Rzeczywiste</strong> - Aktualna pozycja na pierwszy rzut oka
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Podsumowanie Budżet vs Rzeczywiste</strong> - Aktualna pozycja na pierwszy rzut oka
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zestawienie Według Kodów Kosztowych</strong> - Szczegółowa analiza według branż
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zestawienie Według Kodów Kosztowych</strong> - Szczegółowa analiza według branż
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dziennik Zamówień Dodatkowych</strong> - Wszystkie zmiany śledzone i wycenione
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dziennik Zamówień Dodatkowych</strong> - Wszystkie zmiany śledzone i wycenione
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognoza do Zakończenia</strong> - Przewidywane koszty końcowe
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognoza do Zakończenia</strong> - Przewidywane koszty końcowe
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rejestr Ryzyka</strong> - Pozycje oznaczone Czerwony/Bursztynowy/Zielony
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rejestr Ryzyka</strong> - Pozycje oznaczone Czerwony/Bursztynowy/Zielony
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Trendów</strong> - Porównania tydzień do tygodnia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Trendów</strong> - Porównania tydzień do tygodnia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pozycje Działań</strong> - Zalecane kolejne kroki
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pozycje Działań</strong> - Zalecane kolejne kroki
 </p>
 </div>
 </section>
@@ -780,25 +796,25 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p>Dodatkowe spostrzeżenia dostępne:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Wartości Wypracowanej</strong> - Wskaźniki efektywności (CPI, SPI)
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Wartości Wypracowanej</strong> - Wskaźniki efektywności (CPI, SPI)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozy Przepływów Pieniężnych</strong> - Perspektywa 8-12 tygodni
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozy Przepływów Pieniężnych</strong> - Perspektywa 8-12 tygodni
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie Rezerw</strong> - Tempo wypalania i pozostały bufor
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie Rezerw</strong> - Tempo wypalania i pozostały bufor
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Możliwości Optymalizacji Wartości</strong> - Sugestie optymalizacji kosztów
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Możliwości Optymalizacji Wartości</strong> - Sugestie optymalizacji kosztów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wskaźniki Produktywności</strong> - Śledzenie efektywności pracy
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wskaźniki Produktywności</strong> - Śledzenie efektywności pracy
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane Benchmarkingowe</strong> - Porównanie z podobnymi projektami
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dane Benchmarkingowe</strong> - Porównanie z podobnymi projektami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Niestandardowe Panele</strong> - Dostosowane do potrzeb interesariuszy
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Niestandardowe Panele</strong> - Dostosowane do potrzeb interesariuszy
 </p>
 </div>
 </section>
@@ -811,28 +827,28 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p>Oprócz cotygodniowych raportów, dostęp do danych kosztowych projektu w dowolnym momencie przez nasz bezpieczny panel online.</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;">
 <section class="level4" id="interaktywne-wykresy" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<h4 class="anchored" data-anchor-id="interaktywne-wykresy"><i class="bi bi-speedometer2" style="color: var(--bim-orange);"></i> Interaktywne Wykresy</h4>
+<h4 class="anchored" data-anchor-id="interaktywne-wykresy"><i aria-hidden="true" class="bi bi-speedometer2" style="color: var(--bim-orange);"></i> Interaktywne Wykresy</h4>
 <p>Wizualizacja w czasie rzeczywistym: - Krzywe wydatków budżet vs rzeczywiste - Zestawienie kosztów według branż - Trendy wpływu zamówień dodatkowych - Trajektorie prognoz - Wszystko można filtrować według zakresu dat, kodu kosztowego lub fazy</p>
 </section>
 <section class="level4" id="inteligentne-alerty" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<h4 class="anchored" data-anchor-id="inteligentne-alerty"><i class="bi bi-bell-fill" style="color: var(--bim-orange);"></i> Inteligentne Alerty</h4>
+<h4 class="anchored" data-anchor-id="inteligentne-alerty"><i aria-hidden="true" class="bi bi-bell-fill" style="color: var(--bim-orange);"></i> Inteligentne Alerty</h4>
 <p>Automatyczne powiadomienia o: - Naruszeniach progów budżetowych - Nietypowych wzorcach kosztowych - Oczekujących zatwierdzeniach zmian - Zmiany prognozy &gt;2% - Wysyłane na e-mail/SMS</p>
 </section>
 <section class="level4" id="eksport-i-integracja" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<h4 class="anchored" data-anchor-id="eksport-i-integracja"><i class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange);"></i> Eksport i Integracja</h4>
+<h4 class="anchored" data-anchor-id="eksport-i-integracja"><i aria-hidden="true" class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange);"></i> Eksport i Integracja</h4>
 <p>Bezproblemowy dostęp do danych: - Eksport do Excel jednym kliknięciem - Generowanie raportów PDF - Dostępna integracja API - Kompatybilne z głównymi platformami zarządzania kosztami - Archiwum danych historycznych</p>
 </section>
 <section class="level4" id="panele-business-intelligence" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<h4 class="anchored" data-anchor-id="panele-business-intelligence"><i class="bi bi-graph-up" style="color: var(--bim-orange);"></i> Panele Business Intelligence</h4>
+<h4 class="anchored" data-anchor-id="panele-business-intelligence"><i aria-hidden="true" class="bi bi-graph-up" style="color: var(--bim-orange);"></i> Panele Business Intelligence</h4>
 <p>Kompleksowe rozwiązania BI: - <strong>Niestandardowe panele PowerBI</strong> dostosowane do KPI - <strong>Integracja z Tableau</strong> dla zaawansowanej analityki - <strong>Panele wykonawcze</strong> do raportowania zarządu - <strong>Widoki portfolio wieloprojektowego</strong> w całej organizacji - <strong>Automatyczne odświeżanie danych</strong> ze źródeł projektu - <strong>Zoptymalizowane na urządzenia mobilne</strong> dla dostępu w drodze</p>
 </section>
 <section class="level4" id="dostęp-dla-wielu-użytkowników" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<h4 class="anchored" data-anchor-id="dostęp-dla-wielu-użytkowników"><i class="bi bi-people-fill" style="color: var(--bim-orange);"></i> Dostęp Dla Wielu Użytkowników</h4>
+<h4 class="anchored" data-anchor-id="dostęp-dla-wielu-użytkowników"><i aria-hidden="true" class="bi bi-people-fill" style="color: var(--bim-orange);"></i> Dostęp Dla Wielu Użytkowników</h4>
 <p>Uprawnienia oparte na rolach: - Widok wykonawczy (podsumowanie wysokiego poziomu) - Kierownik projektu (szczegółowe dane) - Kosztorysant (pełny dostęp) - Wykonawca (ograniczony widok) - Bezpieczny dostęp w chmurze 24/7</p>
 </section>
 </div>
 <div style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;">
-<p><strong>Demo Dostępne:</strong> Zobacz panel w akcji z przykładowymi danymi projektu podczas konsultacji.</p>
+<p><strong>Pulpit uruchamiamy</strong> na przykładowych danych projektu, zanim wejdą do niego dane rzeczywiste.</p>
 </div>
 </section>
 <p>:::</p>
@@ -841,7 +857,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <h2 class="anchored" data-anchor-id="pakiety-usług-wybierz-swój-poziom-kontroli">Pakiety Usług: Wybierz Swój Poziom Kontroli</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="podstawowy">
-<h3 class="anchored" data-anchor-id="podstawowy"><i class="bi bi-speedometer" style="color: var(--bim-orange); margin-right: 12px;"></i>Podstawowy</h3>
+<h3 class="anchored" data-anchor-id="podstawowy"><i aria-hidden="true" class="bi bi-speedometer" style="color: var(--bim-orange); margin-right: 12px;"></i>Podstawowy</h3>
 <p><strong>Dla mniejszych projektów lub ograniczonych budżetów</strong></p>
 <ul>
 <li>Raporty kosztowe co dwa tygodnie</li>
@@ -853,7 +869,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Najlepsze dla:</strong> projekty &lt;20 mln PLN, stabilny zakres</p>
 </section>
 <section class="level3 feature-card" id="profesjonalny">
-<h3 class="anchored" data-anchor-id="profesjonalny"><i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Profesjonalny</h3>
+<h3 class="anchored" data-anchor-id="profesjonalny"><i aria-hidden="true" class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Profesjonalny</h3>
 <p><strong>Nasz najpopularniejszy pakiet</strong></p>
 <ul>
 <li>Cotygodniowe raporty kosztowe (czas realizacji: 24 godz.)</li>
@@ -866,7 +882,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Najlepsze dla:</strong> projekty 20-200 mln PLN, aktywna budowa</p>
 </section>
 <section class="level3 feature-card" id="premium">
-<h3 class="anchored" data-anchor-id="premium"><i class="bi bi-rocket-takeoff-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Premium</h3>
+<h3 class="anchored" data-anchor-id="premium"><i aria-hidden="true" class="bi bi-rocket-takeoff-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Premium</h3>
 <p><strong>Maksymalna kontrola dla złożonych projektów</strong></p>
 <ul>
 <li>Śledzenie kosztów w czasie rzeczywistym (codzienne aktualizacje)</li>
@@ -876,7 +892,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <li><strong>Niestandardowe panele BI (PowerBI/Tableau)</strong></li>
 <li>Zaawansowana analityka i benchmarking</li>
 <li>Wizyty na miejscu (miesięczne)</li>
-<li>Priorytetowe wsparcie (odpowiedź w ciągu 4 godz.)</li>
+<li>Priorytetowe wsparcie (odpowiedź w ciągu jednego dnia roboczego)</li>
 </ul>
 <p><strong>Najlepsze dla:</strong> projekty &gt;200 mln PLN, programy przyspieszone</p>
 </section>
@@ -914,7 +930,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jak obsługujecie wnioski o płatność wykonawcy?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i dostarczanie certyfikowanych rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.</p>
+<p>O: Przeglądamy i weryfikujemy wnioski o płatność wykonawcy względem rzeczywistego postępu. Nasza usługa obejmuje sprawdzanie zgłoszonych ilości, weryfikację stawek, zapewnienie prawidłowych wycen i wydanie rekomendacji płatności. Chroni to przed nadpłatą i zapewnia płacenie tylko za prawidłowo wykonaną pracę.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -954,7 +970,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jak naliczacie opłaty za usługi?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Ceny różnią się w zależności od pakietu usług i wielkości projektu. Pakiet Podstawowy rozpoczyna się od 10 000 PLN/miesiąc, Profesjonalny od 20 000 PLN/miesiąc, a Premium od 40 000 PLN/miesiąc. Oferujemy również ustalenia opłat stałych na cały okres budowy ze zniżkami na dłuższe zaangażowania (12+ miesięcy). Skontaktuj się z nami, aby uzyskać niestandardową wycenę na podstawie specyfikacji projektu.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Stawka zależy od wybranego pakietu i częstotliwości raportowania; podajemy ją po przejrzeniu dokumentów kontraktowych.</p>
 </div>
 </div>
 </div>
@@ -963,22 +979,22 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <h2 class="anchored" data-anchor-id="dlaczego-wybrać-bim-takeoff-do-kontroli-kosztów">Dlaczego Wybrać BIM Takeoff do Kontroli Kosztów?</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;">
 <section class="level3" id="doświadczenie" style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="doświadczenie"><i class="bi bi-award-fill" style="color: var(--bim-orange);"></i> Doświadczenie</h3>
-<p><strong>20 Lat Na 3 Kontynentach</strong></p>
-<p>Zarządzaliśmy kontrolą kosztów na 2000+ projektach obejmujących rynki UK, europejskie i australijskie. Rozumiemy różne ramy kontraktowe, wymagania regulacyjne i praktyki budowlane. Nasze międzynarodowe doświadczenie oznacza, że wnosimy najlepsze praktyki od globalnych liderów budowlanych do każdego projektu.</p>
+<h3 class="anchored" data-anchor-id="doświadczenie"><i aria-hidden="true" class="bi bi-award-fill" style="color: var(--bim-orange);"></i> Doświadczenie</h3>
+<p><strong>20 lat na trzech kontynentach</strong></p>
+<p>Prowadzimy kontrolę kosztów na rynku brytyjskim, europejskim i australijskim. Znamy różne ramy kontraktowe, wymagania regulacyjne i praktykę rozliczeń na budowie, więc raport dopasowujemy do konkretnej umowy, a nie do jednego uniwersalnego szablonu.</p>
 </section>
-<section class="level3" id="sprawdzona-szybkość" style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="sprawdzona-szybkość"><i class="bi bi-clock-history" style="color: var(--bim-orange);"></i> Sprawdzona Szybkość</h3>
-<p><strong>24-Godzinny Czas Realizacji Gwarantowany</strong></p>
-<p>Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24 godzin od otrzymania danych. Nasze analizy zmian są realizowane w 24-48 godzin, a nie tygodni. Ta szybkość wynika z zoptymalizowanych procesów, integracji 5D BIM i doświadczonego zespołu, który wie, co się liczy.</p>
+<section class="level3" id="tempo-pracy" style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="tempo-pracy"><i aria-hidden="true" class="bi bi-clock-history" style="color: var(--bim-orange);"></i> Tempo pracy</h3>
+<p><strong>24 godziny od przesłania danych</strong></p>
+<p>Cotygodniowy raport wydajemy w ciągu 24 godzin od otrzymania danych o postępie. Analizę zmiany wydajemy w 24–48 godzin. Tempo bierze się z ustalonego formatu danych i z połączenia kosztów z modelem 5D BIM, a nie z pośpiechu przy liczeniu.</p>
 </section>
 <section class="level3" id="dokładność" style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="dokładność"><i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> Dokładność</h3>
-<p><strong>Niezależni i Obiektywni</strong></p>
-<p>Jako niezależni konsultanci kosztowi nie mamy motywacji do zawyżania lub zaniżania kosztów. Zapewniamy obiektywną analizę w waszym interesie. Nasz dorobek pokazuje dokładność prognoz w granicach ±2-3% po zakończeniu projektu, umożliwiając pewne podejmowanie decyzji przez całą budowę.</p>
+<h3 class="anchored" data-anchor-id="dokładność"><i aria-hidden="true" class="bi bi-bullseye" style="color: var(--bim-orange);"></i> Dokładność</h3>
+<p><strong>Niezależnie i bez interesu w wyniku</strong></p>
+<p>Nie wykonujemy robót, które wyceniamy, więc nie mamy powodu, żeby zawyżać ani zaniżać kwoty. Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </section>
 <section class="level3" id="technologia" style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="technologia"><i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Technologia</h3>
+<h3 class="anchored" data-anchor-id="technologia"><i aria-hidden="true" class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Technologia</h3>
 <p><strong>Integracja 5D BIM</strong></p>
 <p>Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem budowy. Zapewnia to bezprecedensową widoczność: zobacz dokładnie które elementy kosztują więcej niż planowano, zrozum wpływ harmonogramu na koszty i podejmuj decyzje oparte na danych z pełnym kontekstem.</p>
 </section>
@@ -997,44 +1013,39 @@ Uzyskaj cotygodniową widoczność i wyprzedź problemy kosztowe zanim staną si
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Darmowa Ocena Projektu
+Prześlij dokumentację
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-30-minutowa konsultacja na temat potrzeb kontroli kosztów
+Budżet bazowy, umowa i struktura kodów kosztowych. Odpowiadamy w ciągu jednego dnia roboczego.
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Demo panelu w czasie rzeczywistym
+Bezpłatny przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Zobacz kontrolę kosztów w czasie rzeczywistym w akcji
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Niestandardowa Wycena
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Dostosowane ceny dla projektu w ciągu 24 godzin
+Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.
 </p>
 </div>
 </div>
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+</p>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Zaplanuj Ocenę</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Demo</a> <a class="cta-secondary" href="../kontakt.html">Otrzymaj Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>24-Godzinny Czas Realizacji Raportu</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Raport w 24 godziny od przesłania danych</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>System Wczesnego Ostrzegania</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Wczesne ostrzeganie przy progach budżetowych</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dostęp Do Panelu W Czasie Rzeczywistym</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dostęp do pulpitu z bieżącymi danymi</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong>
 </p>
 </div>
 </div>
@@ -1456,30 +1467,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

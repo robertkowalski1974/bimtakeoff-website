@@ -5,7 +5,7 @@
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
 <meta content="specialist estimating, drylining estimator, fire protection costing, facade estimating, structural steel estimator, trade-specific quantity surveyor, poland" name="keywords"/>
-<meta content="20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia." name="description"/>
+<meta content="Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia." name="description"/>
 <title>BIM Takeoff - Trade Estimating: Drylining, Fire, Facades, Structural</title>
 <style>
 code{white-space: pre-wrap;}
@@ -70,9 +70,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -81,6 +84,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="../css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -94,39 +105,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Trade Estimating: Drylining, Fire, Facades, Structural" name="twitter:title"/>
-<meta content="20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia." name="twitter:description"/>
+<meta content="Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -179,14 +186,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -248,7 +249,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </script>
 <link href="../css/styles.css" rel="stylesheet"/>
 <meta content="BIM Takeoff - Trade Estimating: Drylining, Fire, Facades, Structural" property="og:title"/>
-<meta content="20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia." property="og:description"/>
+<meta content="Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/services/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
@@ -262,7 +263,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What makes specialist trade estimating different from general estimating?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss, resulting in ±3-5% accuracy versus ±15-20% for general estimates."
+        "text": "Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss."
       }
     },
     {
@@ -278,7 +279,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Can you estimate supply-only packages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We provide estimates for supply-only, install-only, or complete supply & install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only typically includes 5-8% waste, while install packages factor 10-15% waste depending on complexity."
+        "text": "Yes. We provide estimates for supply-only, install-only, or complete supply & install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only and install packages carry different waste allowances depending on complexity."
       }
     },
     {
@@ -286,7 +287,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How do you handle compliance requirements?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs, often 3-8% of package value, are frequently missed in generic estimates."
+        "text": "We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs are frequently missed in generic estimates."
       }
     },
     {
@@ -302,7 +303,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Do you provide value engineering alternatives?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality. Typical savings opportunities range from 10-20% of package value."
+        "text": "Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality."
       }
     },
     {
@@ -310,7 +311,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What project sizes do you handle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. Minimum fee applies for projects under €500,000."
+        "text": "We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. A minimum fee applies to smaller projects. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree."
       }
     },
     {
@@ -326,7 +327,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How quickly can you provide an estimate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer fast-track service (5-7 working days) with a 30% surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies."
+        "text": "Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer a fast-track service (5-7 working days) for an agreed surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies."
       }
     },
     {
@@ -334,7 +335,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Do you work internationally?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We’ve completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labor and material costs."
+        "text": "Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We’ve completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labour and material costs."
       }
     }
   ]
@@ -356,7 +357,7 @@ if (!window.location.pathname.includes('/pl/')) {
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia."
+  "description": "Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia."
 }
 </script>
 <script type="application/ld+json">
@@ -414,24 +415,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="../pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="../services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
@@ -446,14 +473,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -461,21 +480,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="../services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="../tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="../industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -485,12 +517,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../industries/healthcare-medical.html">
@@ -503,33 +544,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="../industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -571,7 +585,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </div>
 <div>
 <div class="description">
-    20 years specialist trade experience. Drylining, fire protection, facades, structural steel. ±5% accuracy. 2,000+ projects EU/UK/Australia.
+    Specialist trade cost estimating for drylining, fire protection, facades and structural steel across the EU, UK and Australia.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -585,7 +599,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="specialist-trade-estimating-cost-management">
@@ -600,27 +614,27 @@ if (!window.location.pathname.includes('/pl/')) {
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ specialist projects</strong> estimated across EU, UK &amp; Australia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specialist trade project experience</strong> across EU, UK &amp; Australia
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Deep expertise</strong> in Drylining, Fire Protection, Facades &amp; Structural
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Deep expertise</strong> in Drylining, Fire Protection, Facades &amp; Structural
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Both supply-only</strong> and install packages covered
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Both supply-only</strong> and install packages covered
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance</strong> with international standards
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance</strong> with international standards
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../coming-soon.html">Get Specialist Quote</a> <a class="cta-secondary" href="../coming-soon.html">Download Trade Guide</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
 <div class="container">
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Trade-specific quantity surveying</strong> provides specialist cost estimation for individual construction trades rather than generic whole-building estimates. By deploying quantity surveyors with hands-on trade knowledge – drylining systems, structural concrete and steelwork, facade cladding, fire protection, and MEP infrastructure – trade-specific estimation catches the specialist items, allowances, and waste factors that generalist QS firms routinely miss. BIM Takeoff’s trade specialists have priced over 2,000 packages with +/-5% accuracy.</p>
+<p><strong>Trade-specific quantity surveying</strong> provides specialist cost estimation for individual construction trades rather than generic whole-building estimates. Applying hands-on trade knowledge – drylining systems, structural concrete and steelwork, facade cladding, fire protection, and MEP infrastructure – trade-specific estimation catches the specialist items, allowances, and waste factors that generalist QS approaches routinely miss. BIM Takeoff prices these trades directly, checking quantities against the drawings and specification by hand.</p>
 </div>
 <section class="level2" id="why-specialist-trades-need-specialist-estimators">
 <h2 class="anchored" data-anchor-id="why-specialist-trades-need-specialist-estimators">Why Specialist Trades Need Specialist Estimators</h2>
@@ -630,22 +644,22 @@ if (!window.location.pathname.includes('/pl/')) {
 <p>Generic estimators miss the complexity that specialist trades demand:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Drylining:</strong> Missing acoustic/fire rating multipliers, incorrect stud sizing
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Drylining:</strong> Missing acoustic/fire rating multipliers, incorrect stud sizing
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Fire Protection:</strong> Failing to account for certification costs, testing requirements
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Fire Protection:</strong> Failing to account for certification costs, testing requirements
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Facades:</strong> Overlooking installation sequences, weatherproofing complexity
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Facades:</strong> Overlooking installation sequences, weatherproofing complexity
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Structural:</strong> Underestimating reinforcement, connection details, tolerances
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Structural:</strong> Underestimating reinforcement, connection details, tolerances
 </p>
 </div>
 <section class="level4 callout-box" id="hidden-costs-add-up" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
 <h4 class="anchored" data-anchor-id="hidden-costs-add-up">Hidden Costs Add Up</h4>
 <blockquote class="blockquote">
-<p>“In specialist trades, what you don’t see in the estimate costs you during construction. Fire testing alone can represent 3-5% of total package value.”</p>
+<p>“In specialist trades, what you don’t see in the estimate costs you during construction. Fire testing alone can add meaningfully to total package value.”</p>
 </blockquote>
 </section>
 </section>
@@ -654,19 +668,19 @@ if (!window.location.pathname.includes('/pl/')) {
 <p>Specialists who’ve worked IN the trades, not just estimated FOR them:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Hands-on experience</strong> installing drylining, fire systems, facades
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Hands-on experience</strong> installing drylining, fire systems, facades
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ specialist packages</strong> estimated across 3 continents
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specialist packages</strong> estimated across EU, UK &amp; Australia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Know the hidden costs: labor inefficiencies, material waste, rework risks
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Know the hidden costs: labour inefficiencies, material waste, rework risks
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Understand compliance: fire ratings, structural calculations, wind load testing
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Understand compliance: fire ratings, structural calculations, wind load testing
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-world estimating: not just BOQ—actual buildable costs
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-world estimating: not just BOQ—actual buildable costs
 </p>
 </div>
 </section>
@@ -676,7 +690,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <h2 class="anchored" data-anchor-id="specialist-areas-of-expertise">4 Specialist Areas of Expertise</h2>
 <div class="specialist-areas" style="margin: 48px 0;">
 <section class="level3 specialist-card" id="drylining-partitions">
-<h3 class="anchored" data-anchor-id="drylining-partitions"><i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Drylining &amp; Partitions</h3>
+<h3 class="anchored" data-anchor-id="drylining-partitions"><i aria-hidden="true" class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Drylining &amp; Partitions</h3>
 <section class="level4" id="what-we-cover">
 <h4 class="anchored" data-anchor-id="what-we-cover">What We Cover</h4>
 <ul>
@@ -690,17 +704,17 @@ if (!window.location.pathname.includes('/pl/')) {
 <section class="level4" id="our-experience">
 <h4 class="anchored" data-anchor-id="our-experience">Our Experience</h4>
 <ul>
-<li>200+ drylining projects estimated (offices, warehouses, residential)</li>
+<li>Drylining projects estimated across offices, warehouses, and residential developments</li>
 <li>Worked with Knauf, British Gypsum, CSR Gyprock specifications</li>
-<li>Understand labor rates: crew sizing, productivity factors, site access constraints</li>
-<li>Know material waste factors: 8-15% depending on ceiling heights and cutting requirements</li>
+<li>Understand labour rates: crew sizing, productivity factors, site access constraints</li>
+<li>Know material waste factors vary with ceiling heights and cutting requirements</li>
 </ul>
 </section>
 <section class="level4" id="typical-package-scope">
 <h4 class="anchored" data-anchor-id="typical-package-scope">Typical Package Scope</h4>
 <ul>
 <li>Full BOQ with material specifications</li>
-<li>Labor hours by system type (fire-rated = 1.3x standard productivity)</li>
+<li>Labour hours by system type, with allowance for fire-rated specifications</li>
 <li>Equipment/scaffolding requirements</li>
 <li>Testing and certification costs (fire ratings, acoustic performance)</li>
 <li>Warranty and defects liability</li>
@@ -710,17 +724,18 @@ if (!window.location.pathname.includes('/pl/')) {
 <h4 class="anchored" data-anchor-id="critical-knowledge">Critical Knowledge</h4>
 <div style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;">
 <ul>
-<li>Acoustic sealant: often missed, adds 3-5% to material cost</li>
-<li>Fire-rated systems: labor productivity drops by 30-50%</li>
-<li>Height work: above 3.5m = 20% productivity decrease</li>
-<li>Curved walls: material waste increases to 20-25%</li>
+<li>Acoustic sealant is often missed from the material cost</li>
+<li>Fire-rated systems slow installation</li>
+<li>Height work reduces productivity</li>
+<li>Curved walls increase material waste</li>
 </ul>
 </div>
-<p><strong>Deliverable:</strong> Detailed estimate with installation sequence, material schedule, labor allocation</p>
+<p><strong>Deliverable:</strong> Detailed estimate with installation sequence, material schedule, labour allocation</p>
+<p>For how this package is measured by wall type and priced into the main contractor’s bill, see <a href="../services/drylining-takeoff-tender-pricing.html">drylining takeoff and tender pricing for subcontractors</a>.</p>
 </section>
 </section>
 <section class="level3 specialist-card" id="fire-protection-systems">
-<h3 class="anchored" data-anchor-id="fire-protection-systems"><i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Fire Protection Systems</h3>
+<h3 class="anchored" data-anchor-id="fire-protection-systems"><i aria-hidden="true" class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Fire Protection Systems</h3>
 <section class="level4" id="what-we-cover-1">
 <h4 class="anchored" data-anchor-id="what-we-cover-1">What We Cover</h4>
 <ul>
@@ -734,11 +749,11 @@ if (!window.location.pathname.includes('/pl/')) {
 <section class="level4" id="our-experience-1">
 <h4 class="anchored" data-anchor-id="our-experience-1">Our Experience</h4>
 <ul>
-<li>150+ fire protection packages (warehouses, data centers, high-rise)</li>
+<li>Fire protection packages estimated across warehouses, data centres, and high-rise</li>
 <li>Compliance with AS 1530.4, BS 476, EN 13501, Polish regulations</li>
 <li>Worked with Trafalgar, Hilti, Nullifire, FireMaster, Rockwool, Titan systems</li>
 <li>Understand certification requirements: 3rd party testing, BCA/NCC compliance</li>
-<li>Know labor complexity: confined spaces, sequential installation, coordination</li>
+<li>Know labour complexity: confined spaces, sequential installation, coordination</li>
 </ul>
 </section>
 <section class="level4" id="typical-package-scope-1">
@@ -746,7 +761,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <ul>
 <li>Fire strategy review and compartmentation schedule</li>
 <li>Material specifications with fire ratings (FRL 60/60/60, 90/90/90, etc.)</li>
-<li>Installation labor with access/coordination factors</li>
+<li>Installation labour with access/coordination factors</li>
 <li>Testing and commissioning (smoke tests, pressure tests)</li>
 <li>Authority approvals and certification documentation</li>
 </ul>
@@ -756,17 +771,17 @@ if (!window.location.pathname.includes('/pl/')) {
 <div style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;">
 <ul>
 <li>Fire ratings ≠ installation costs</li>
-<li>Penetration sealing: per penetration (not per square meter)</li>
-<li>Intumescent coatings: surface prep = 40% of total cost</li>
-<li>Testing &amp; certification: can be 5-8% of package value</li>
-<li>Coordination with other trades: critical for sequencing</li>
+<li>Penetration sealing is priced per penetration, not per square metre</li>
+<li>Intumescent coatings: surface preparation is a significant share of total cost</li>
+<li>Testing and certification can add meaningfully to package value</li>
+<li>Coordination with other trades is critical for sequencing</li>
 </ul>
 </div>
 <p><strong>Deliverable:</strong> Fire protection cost estimate with compliance roadmap</p>
 </section>
 </section>
 <section class="level3 specialist-card" id="facades-cladding">
-<h3 class="anchored" data-anchor-id="facades-cladding"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Facades &amp; Cladding</h3>
+<h3 class="anchored" data-anchor-id="facades-cladding"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Facades &amp; Cladding</h3>
 <section class="level4" id="what-we-cover-2">
 <h4 class="anchored" data-anchor-id="what-we-cover-2">What We Cover</h4>
 <ul>
@@ -780,11 +795,11 @@ if (!window.location.pathname.includes('/pl/')) {
 <section class="level4" id="our-experience-2">
 <h4 class="anchored" data-anchor-id="our-experience-2">Our Experience</h4>
 <ul>
-<li>120+ facade projects (warehouses, offices, high-rise residential)</li>
+<li>Facade projects estimated across warehouses, offices, and high-rise residential</li>
 <li>Material systems: Kingspan, Trespa, Equitone, Alucobond, Cemintel</li>
 <li>Understanding wind loading calculations and structural integration</li>
 <li>Complex installation sequences: scaffolding, craneage, weather delays</li>
-<li>Know material cost volatility: metal panels = 15-25% price fluctuation risk</li>
+<li>Know that metal panel pricing carries real market volatility risk</li>
 </ul>
 </section>
 <section class="level4" id="typical-package-scope-2">
@@ -792,7 +807,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <ul>
 <li>Facade BOQ by elevation and system type</li>
 <li>Substructure (rails, brackets, fixings) fully detailed</li>
-<li>Labor by height zone</li>
+<li>Labour by height zone</li>
 <li>Access equipment (scaffolding, BMU hire, safety systems)</li>
 <li>Testing (water penetration, air tightness, thermal performance)</li>
 </ul>
@@ -801,18 +816,18 @@ if (!window.location.pathname.includes('/pl/')) {
 <h4 class="anchored" data-anchor-id="critical-knowledge-2">Critical Knowledge</h4>
 <div style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;">
 <ul>
-<li>Facade = 15-25% of building cost but 40% of tender risks</li>
-<li>Installation speed: 8-15 sqm/day depending on system complexity</li>
-<li>Weather delays: factor 10-20% contingency time</li>
-<li>Sealant replacement: budget 2-5% total for remedial works</li>
-<li>Access equipment: can be 15-20% of installation cost</li>
+<li>Facades carry a disproportionate share of tender risk relative to their cost</li>
+<li>Installation speed depends heavily on system complexity</li>
+<li>Weather delays need a realistic contingency allowance</li>
+<li>Sealant replacement should be budgeted for future remedial works</li>
+<li>Access equipment is a meaningful part of installation cost</li>
 </ul>
 </div>
 <p><strong>Deliverable:</strong> Facade cost estimate with installation methodology</p>
 </section>
 </section>
 <section class="level3 specialist-card" id="structural-works">
-<h3 class="anchored" data-anchor-id="structural-works"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Structural Works</h3>
+<h3 class="anchored" data-anchor-id="structural-works"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Structural Works</h3>
 <section class="level4" id="what-we-cover-3">
 <h4 class="anchored" data-anchor-id="what-we-cover-3">What We Cover</h4>
 <ul>
@@ -826,7 +841,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <section class="level4" id="our-experience-3">
 <h4 class="anchored" data-anchor-id="our-experience-3">Our Experience</h4>
 <ul>
-<li>180+ structural packages (warehouses, bridges, high-rise, houses)</li>
+<li>Structural packages estimated across warehouses, bridges, high-rise, and houses</li>
 <li>Steel: fabrication + erection + painting + fire protection</li>
 <li>Concrete: formwork + reinforcement + pour + cure + finish</li>
 <li>Complex calculations: load paths, connection detailing, construction sequences</li>
@@ -847,11 +862,11 @@ if (!window.location.pathname.includes('/pl/')) {
 <h4 class="anchored" data-anchor-id="critical-knowledge-3">Critical Knowledge</h4>
 <div style="padding: 16px; background: #f8f9fa; border-left: 4px solid var(--bim-orange); margin: 16px 0;">
 <ul>
-<li>Structural steel: fabrication 40%, erection 35%, painting/fire 25%</li>
-<li>Post-tensioned slabs: 15-20% more material cost but 30% faster construction</li>
-<li>Connection complexity: simple = €50/connection, moment = €500+</li>
-<li>Concrete pump hire: €1,500-2,500/day including operator</li>
-<li>Reinforcement fixing: 8-12 hours per tonne average</li>
+<li>Structural steel cost splits across fabrication, erection, and painting/fire protection</li>
+<li>Post-tensioned slabs cost more in material but build faster</li>
+<li>Connection complexity drives price: a simple connection costs far less than a moment connection</li>
+<li>Concrete pump hire is a day-rate cost including operator</li>
+<li>Reinforcement fixing labour is priced per tonne</li>
 </ul>
 </div>
 <p><strong>Deliverable:</strong> Structural cost estimate with construction methodology</p>
@@ -866,40 +881,37 @@ if (!window.location.pathname.includes('/pl/')) {
 <h4 class="anchored" data-anchor-id="step-1-trade-specific-scope-definition">Step 1: Trade-Specific Scope Definition</h4>
 <p><strong>Duration:</strong> 2-3 days</p>
 <p><strong>What We Do:</strong> - Deep-dive review of drawings and specifications - Identify trade-specific complexities (fire ratings, acoustic requirements, wind loads) - Assess installation constraints (access, sequencing, coordination) - Define exact scope boundaries and interfaces with other trades</p>
-<p><strong>Your Investment:</strong> Free initial review (1-2 hours)</p>
+<p><strong>Free sample takeoff:</strong> send one floor, one elevation or one unit type and we measure it at no charge.</p>
 <p><strong>Key Output:</strong> Scope clarification document with identified complexities</p>
 </section>
 <section class="level4 process-step" id="step-2-specialist-material-takeoff" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
 <h4 class="anchored" data-anchor-id="step-2-specialist-material-takeoff">Step 2: Specialist Material Takeoff</h4>
 <p><strong>Duration:</strong> 2-4 days</p>
-<p><strong>What We Do:</strong> - Measure quantities with trade-specific accuracy - Include waste factors based on system type (drylining 10-15%, facades 8-12%) - Identify long-lead items and procurement risks - Verify material compatibility and approval requirements</p>
+<p><strong>What We Do:</strong> - Measure quantities with trade-specific care - Include waste factors appropriate to the system type - Identify long-lead items and procurement risks - Verify material compatibility and approval requirements</p>
 <p><strong>Deliverable:</strong> Detailed BOQ with manufacturer specifications</p>
-<p><strong>Accuracy Level:</strong> ±2% on quantities</p>
 </section>
-<section class="level4 process-step" id="step-3-installation-labor-analysis" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="step-3-installation-labor-analysis">Step 3: Installation Labor Analysis</h4>
+<section class="level4 process-step" id="step-3-installation-labour-analysis" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="step-3-installation-labour-analysis">Step 3: Installation Labour Analysis</h4>
 <p><strong>Duration:</strong> 2-3 days</p>
-<p><strong>What We Do:</strong> - Calculate crew sizes and productivity rates - Factor in complexity multipliers (fire-rated = 1.3-1.5x, height = 1.2-2x) - Include access equipment and temporary works - Account for weather delays and site constraints</p>
-<p><strong>Deliverable:</strong> Labor schedule with resource allocation</p>
-<p><strong>Based On:</strong> Real project data from 2,000+ installations</p>
+<p><strong>What We Do:</strong> - Calculate crew sizes and productivity rates - Factor in complexity multipliers for fire-rated systems and height access - Include access equipment and temporary works - Account for weather delays and site constraints</p>
+<p><strong>Deliverable:</strong> Labour schedule with resource allocation</p>
 </section>
 <section class="level4 process-step" id="step-4-compliance-testing-budget" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
 <h4 class="anchored" data-anchor-id="step-4-compliance-testing-budget">Step 4: Compliance &amp; Testing Budget</h4>
 <p><strong>Duration:</strong> 1-2 days</p>
 <p><strong>What We Do:</strong> - Identify testing requirements (fire ratings, structural load tests, facade testing) - Budget for certifications and authority approvals - Include quality control and commissioning - Factor in warranty and defects liability periods</p>
 <p><strong>Deliverable:</strong> Compliance cost schedule</p>
-<p><strong>Often Missed:</strong> 3-8% of package value in testing/certification</p>
+<p><strong>Often Missed:</strong> testing and certification costs, budgeted from the start</p>
 </section>
 <section class="level4 process-step" id="step-5-risk-assessment-contingency" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
 <h4 class="anchored" data-anchor-id="step-5-risk-assessment-contingency">Step 5: Risk Assessment &amp; Contingency</h4>
 <p><strong>Duration:</strong> 1 day</p>
-<p><strong>What We Do:</strong> - Identify material price volatility risks - Assess installation risks (weather, access, coordination) - Calculate appropriate contingency (5-15% depending on package complexity) - Provide value engineering alternatives</p>
+<p><strong>What We Do:</strong> - Identify material price volatility risks - Assess installation risks (weather, access, coordination) - Calculate appropriate contingency depending on package complexity - Provide value engineering alternatives</p>
 <p><strong>Deliverable:</strong> Complete specialist estimate with risk register</p>
-<p><strong>Risk Mitigation:</strong> Identified savings opportunities typically 10-15%</p>
 </section>
 <div style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;">
 <p><strong>Total Timeline:</strong> 8-13 working days | <strong>Project Duration:</strong> 2-3 weeks from start to finish</p>
-<p><strong>Fast-Track Available:</strong> Urgent estimates in 5-7 working days (30% surcharge)</p>
+<p><strong>Fast-Track Available:</strong> Urgent estimates in 5-7 working days, for an agreed surcharge</p>
 </div>
 </div>
 </section>
@@ -907,37 +919,27 @@ if (!window.location.pathname.includes('/pl/')) {
 <h2 class="anchored" data-anchor-id="key-benefits-of-specialist-estimating">6 Key Benefits of Specialist Estimating</h2>
 <div class="benefits-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; margin: 48px 0;">
 <section class="level3 benefit-card" id="accuracy-that-matters" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="accuracy-that-matters"><i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> 1. Accuracy That Matters</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
-<div style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;">
-<p><strong>Generic Estimators</strong><br/>
-±15-20% variance</p>
-</div>
-<div style="text-align: center; padding: 16px; background: #e8f5e9; border-radius: 8px;">
-<p><strong>Our Specialists</strong><br/>
-±3-5% accuracy</p>
-</div>
-</div>
-<p>Based on 2,000 real projects tracked to completion</p>
+<h3 class="anchored" data-anchor-id="accuracy-that-matters"><i aria-hidden="true" class="bi bi-bullseye" style="color: var(--bim-orange);"></i> 1. Accuracy That Matters</h3>
+<p>Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.</p>
 </section>
 <section class="level3 benefit-card" id="hidden-costs-revealed" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="hidden-costs-revealed"><i class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 2. Hidden Costs Revealed</h3>
+<h3 class="anchored" data-anchor-id="hidden-costs-revealed"><i aria-hidden="true" class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 2. Hidden Costs Revealed</h3>
 <p>We know what others miss: - Acoustic sealant requirements - Fire testing and certification - Facade access equipment costs - Structural temporary works - Coordination allowances - Weather contingencies</p>
 </section>
 <section class="level3 benefit-card" id="compliance-built-in" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="compliance-built-in"><i class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 3. Compliance Built-In</h3>
+<h3 class="anchored" data-anchor-id="compliance-built-in"><i aria-hidden="true" class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 3. Compliance Built-In</h3>
 <p>From day one, not discovered during construction: - Fire ratings (AS, BS, EN standards) - Structural calculations - Wind load testing - Acoustic performance tests - Authority approvals - Third-party certification</p>
 </section>
 <section class="level3 benefit-card" id="installation-reality" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="installation-reality"><i class="bi bi-tools" style="color: var(--bim-orange);"></i> 4. Installation Reality</h3>
-<p>Labor rates based on: - Actual crew productivity - Site access constraints - Weather impact factors - Coordination requirements - <strong>We’ve done the work</strong> - not theoretical textbook numbers</p>
+<h3 class="anchored" data-anchor-id="installation-reality"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange);"></i> 4. Installation Reality</h3>
+<p>Labour rates based on: - Actual crew productivity - Site access constraints - Weather impact factors - Coordination requirements - <strong>We’ve done the work</strong> - not theoretical textbook numbers</p>
 </section>
 <section class="level3 benefit-card" id="material-knowledge" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="material-knowledge"><i class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 5. Material Knowledge</h3>
+<h3 class="anchored" data-anchor-id="material-knowledge"><i aria-hidden="true" class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 5. Material Knowledge</h3>
 <p>Deep manufacturer expertise: - Know which systems work together - Understand lead times (4-16 weeks) - Track price volatility risks - Identify equivalent alternatives - Kingspan ≠ Metecno ≠ Ruukki in installed cost</p>
 </section>
 <section class="level3 benefit-card" id="risk-management" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="risk-management"><i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 6. Risk Management</h3>
+<h3 class="anchored" data-anchor-id="risk-management"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 6. Risk Management</h3>
 <p>Every package includes: - Comprehensive risk register - Probability assessments - Impact analysis - Mitigation strategies - Contingency recommendations - Value engineering options</p>
 </section>
 </div>
@@ -950,7 +952,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: What makes specialist trade estimating different from general estimating?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss, resulting in ±3-5% accuracy versus ±15-20% for general estimates.</p>
+<p>A: Specialist estimators have hands-on installation experience and understand the nuances that affect costs: fire-rated systems require specific installation sequences, facade work is weather-dependent, and structural connections have hidden complexity. We account for factors that generic estimators often miss.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -966,7 +968,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: Can you estimate supply-only packages?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes. We provide estimates for supply-only, install-only, or complete supply &amp; install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only typically includes 5-8% waste, while install packages factor 10-15% waste depending on complexity.</p>
+<p>A: Yes. We provide estimates for supply-only, install-only, or complete supply &amp; install packages. Each requires different considerations for waste factors, logistics, and risk allocation. Supply-only and install packages carry different waste allowances depending on complexity.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -974,7 +976,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: How do you handle compliance requirements?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs, often 3-8% of package value, are frequently missed in generic estimates.</p>
+<p>A: We budget for all testing, certification, and approval costs from the start. This includes fire ratings (AS 1530.4, BS 476, EN 13501), structural load testing, facade performance testing, and authority approvals. These costs are frequently missed in generic estimates.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -990,7 +992,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: Do you provide value engineering alternatives?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality. Typical savings opportunities range from 10-20% of package value.</p>
+<p>A: Absolutely. Every specialist estimate includes value engineering recommendations: alternative material systems, installation methods, and performance-equivalent substitutions that can reduce costs without compromising quality.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -998,7 +1000,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: What project sizes do you handle?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. Minimum fee applies for projects under €500,000.</p>
+<p>A: We work on projects from small fit-outs (500 sqm) to large-scale developments (50,000+ sqm). Specialist trade complexity matters more than overall project size—a high-rise facade is more complex than a large warehouse drylining package. A minimum fee applies to smaller projects. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1014,7 +1016,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: How quickly can you provide an estimate?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer fast-track service (5-7 working days) with a 30% surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies.</p>
+<p>A: Standard timeline is 2-3 weeks for comprehensive specialist estimates. For urgent requirements, we offer a fast-track service (5-7 working days) for an agreed surcharge. Initial budget estimates can be provided within 48 hours for feasibility studies.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1022,7 +1024,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <p><strong>Q: Do you work internationally?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We’ve completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labor and material costs.</p>
+<p>A: Yes. While based in Poland, we have extensive experience with EU, UK, and Australian standards. We’ve completed projects across Europe, Asia-Pacific, and the Middle East. Our estimates include location factors for labour and material costs.</p>
 </div>
 </div>
 </div>
@@ -1040,41 +1042,33 @@ Get estimates from specialists who’ve actually done the work.
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-clipboard-check"></i> Free Specialist Review
+<i aria-hidden="true" class="bi bi-clipboard-check"></i> Send Us Your Drawings
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Send drawings, get complexity assessment within 24h
+Send drawings and specification for a complexity assessment
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-download"></i> Download Trade Guides
+<i aria-hidden="true" class="bi bi-calculator"></i> Free Sample Takeoff
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-“Specialist Trades Estimating: The 12 Costs Everyone Misses” (18-page PDF)
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-calculator"></i> Get Specialist Quote
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-3-minute form, quote within 48 hours
+See how we measure and present a specialist trade package
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../coming-soon.html">Free Specialist Review</a> <a class="cta-secondary" href="../coming-soon.html">Download Trade Guides</a> <a class="cta-secondary" href="../coming-soon.html">Get Quote</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2,000+ Specialist Projects</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specialist Trade Experience</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years EU/UK/AU Experience</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years EU/UK/AU Experience</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Checked Against Drawings by Hand</strong>
 </p>
 </div>
 </div>
@@ -1084,36 +1078,24 @@ Send drawings, get complexity assessment within 24h
 <h2 class="anchored" data-anchor-id="our-specialist-credentials">Our Specialist Credentials</h2>
 <div class="credentials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 48px 0; text-align: center;">
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<p><i aria-hidden="true" class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
 <strong>Experienced Surveyor</strong><br/>
 Quantity Surveyor</p>
 </div>
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<p><i aria-hidden="true" class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
 <strong>20 Years</strong><br/>
 Field Experience</p>
 </div>
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>Serving Whole World</strong><br/>
-Global Projects</p>
-</div>
-<div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>±3-5%</strong><br/>
-Accuracy Rate</p>
-</div>
-<div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>€2.5B</strong><br/>
-Projects Valued</p>
+<p><i aria-hidden="true" class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i> <strong>EU, UK &amp; Australia</strong> International Projects</p>
 </div>
 </div>
 <section class="level3" id="need-immediate-help" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
 <h3 class="anchored" data-anchor-id="need-immediate-help">Need Immediate Help?</h3>
 <p><strong>Call:</strong> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a> | <strong>Email:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a></p>
-<p><strong>Office Hours:</strong> Monday-Friday, 9:00-17:00 CET | <strong>Response Time:</strong> Within 4 hours</p>
-<p><strong>Emergency Estimates:</strong> Available for urgent tenders (48-hour turnaround)</p>
+<p><strong>Office hours:</strong> Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.</p>
+<p>If your return date is inside 72 hours, ring instead.</p>
 </section>
 </section>
 </div>
@@ -1527,31 +1509,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="../services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="../services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="../industries/remediation.html">Facade and cladding remediation</a><br/> <a href="../services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="../pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="../privacy-policy.html">Privacy policy</a> · <a href="../terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="../js/scroll-effects.js"></script>
 <script src="../js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="../js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="../js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="../js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="../js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

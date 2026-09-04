@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -78,6 +81,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -91,32 +102,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Logistyka Budowlana i Planowanie Placu | Symulacja 4D" name="twitter:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" name="twitter:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -124,7 +131,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -173,14 +180,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -197,7 +198,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Logistyka Budowlana i Planowanie Placu | Symulacja 4D" property="og:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" property="og:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -219,7 +220,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy możecie pomóc nam wygrać przetargi poprzez lepsze rozwiązania logistyczne niż konkurencja?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Absolutnie! Wysokiej jakości planowanie logistyki w ofertach przetargowych demonstruje kompetencję i zmniejsza ryzyko projektu dla klientów. Pomogliśmy wykonawcom wygrać wiele projektów prezentując lepsze planowanie placu, strategie fazowania i animacje 4D, których konkurencja nie mogła dorównać. Typowa inwestycja: 32-60 tys. PLN, często marża między wygraną a przegraną kontraktów o wartości 40M+ PLN."
+        "text": "O: Dobrze opracowana logistyka w ofercie pokazuje zamawiającemu, że wykonawca rozumie plac i ograniczenia. Przygotowujemy plany zagospodarowania, strategie fazowania i animacje 4D jako załącznik do oferty. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy."
       }
     },
     {
@@ -235,7 +236,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy możecie zoptymalizować nasz istniejący układ placu dla poprawy wydajności?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak! Optymalizacja w trakcie projektu jest powszechna. Analizujemy obecne układy, identyfikujemy wąskie gardła i nieefektywności, oraz proponujemy ulepszenia. Typowe oszczędności: 10-20% poprawy wydajności poprzez lepsze rozmieszczenie materiałów, zoptymalizowane trasy i zmniejszone podwójne przeładunki. Najbardziej korzystne przy wdrożeniu w naturalnych punktach przerwowych (np. wykończenie struktury, przejścia faz)."
+        "text": "O: Tak. Optymalizacja w trakcie budowy jest częstym zleceniem. Analizujemy obecny układ, wskazujemy wąskie gardła i proponujemy zmiany: rozmieszczenie materiałów, trasy dojazdu, ograniczenie podwójnych przeładunków. Najłatwiej wdrożyć je w naturalnych punktach przerwy, na przykład po zakończeniu konstrukcji lub na przejściu między fazami."
       }
     },
     {
@@ -251,7 +252,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak dokładne są wasze analizy zasięgu żurawia?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Bardzo dokładne przy bazowaniu na specyfikacjach producenta. Używamy rzeczywistych danych żurawi od Liebherr, Potain, Wolff, itp. Analiza obejmuje obniżenie charakterystyk dla prędkości wiatru, wykresy obciążeń i konfiguracje wysięgników. Identyfikujemy 100% luk zasięgu i konfliktów przestrzeni powietrznej w 3D przed wyborem żurawia. Typowy rezultat: optymalne pozycjonowanie żurawia oszczędzające 200-800 tys. PLN vs “zgadnięte” umieszczenie."
+        "text": "O: Analizę opieramy na danych producenta – Liebherr, Potain, Wolff i innych. Obejmuje ona obniżenie charakterystyk dla prędkości wiatru, wykresy obciążeń i konfiguracje wysięgników. Luki zasięgu i konflikty przestrzeni powietrznej pokazujemy w 3D przed wyborem żurawia, a nie po podpisaniu umowy najmu."
       }
     },
     {
@@ -259,7 +260,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy możecie tworzyć animacje 4D do prezentacji dla klientów?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak! Animacje 4D są doskonałymi narzędziami komunikacji z interesariuszami. Tworzymy profesjonalne animacje pokazujące sekwencje budowy, fazowanie i operacje logistyczne w czasie. Są nieocenione dla: zaufania klienta, zatwierdzeń planistycznych, zaangażowania sąsiadów i wewnętrznej koordynacji zespołu. Typowy koszt: 20-60 tys. PLN za 2-5 minutową profesjonalną animację w zależności od złożoności."
+        "text": "O: Tak! Animacje 4D są doskonałymi narzędziami komunikacji z interesariuszami. Tworzymy profesjonalne animacje pokazujące sekwencje budowy, fazowanie i operacje logistyczne w czasie. Przydają się przy uzgodnieniach administracyjnych, rozmowach z sąsiadami i koordynacji wewnętrznej. Wycena zależy od długości animacji i złożoności modelu; podajemy ją przed rozpoczęciem pracy."
       }
     },
     {
@@ -267,15 +268,15 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy zapewniacie wsparcie na placu podczas budowy?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak, oferujemy tygodniowe lub miesięczne wizyty na placu dla wsparcia koordynacji logistyki. Usługi obejmują: przegląd rzeczywistych vs planowanych układów, aktualizację planów dla zmian projektowych, optymalizację fazowania według postępu, koordynację głównych podniesień i dostaw, oraz uczestnictwo w spotkaniach planistycznych. Typowy koszt: 6-12 tys. PLN za wizytę lub abonament miesięczny 16-32 tys. PLN."
+        "text": "O: Tak, oferujemy tygodniowe lub miesięczne wizyty na placu dla wsparcia koordynacji logistyki. Usługi obejmują: przegląd rzeczywistych vs planowanych układów, aktualizację planów dla zmian projektowych, optymalizację fazowania według postępu, koordynację głównych podniesień i dostaw oraz udział w spotkaniach planistycznych. Rozliczamy je jako pakiet wizyt uzgodniony z góry."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jaki jest typowy ROI planowania logistyki?",
+      "name": "P: Co konkretnie daje planowanie logistyki?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Klienci zazwyczaj oszczędzają 5-15x kosztu planowania poprzez: uniknięte błędy wynajmu żurawia (200-800 tys. PLN), zoptymalizowany harmonogram (2-6 tygodni oszczędności = 240-720 tys. PLN kosztów pośrednich), zmniejszone przeróbki i uszkodzenia materiałów (80-400 tys. PLN), oraz zapobieżone opóźnienia regulacyjne (bezcenne). W projekcie 80M PLN, inwestycja 100 tys. PLN w planowanie logistyki typowo zwraca 800 tys.-2M PLN w oszczędnościach i mitygacji ryzyka."
+        "text": "O: Trzy rzeczy, które można sprawdzić: właściwy żuraw dobrany przed podpisaniem umowy najmu, sekwencja robót bez kolizji przestrzennych między brygadami oraz harmonogram dostaw dopasowany do miejsca składowania. Każda z nich usuwa przestój, którego nie widać w kosztorysie, dopóki nie wystąpi na placu."
       }
     }
   ]
@@ -297,7 +298,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia."
 }
 </script>
 <script type="application/ld+json">
@@ -347,7 +348,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -355,97 +356,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -453,16 +429,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -507,7 +525,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="logistyka-budowlana-i-koordynacja-placu">
@@ -523,18 +541,18 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Logistyki Placu</strong> - Wizualizacja 2D/3D/4D
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Logistyki Placu</strong> - Wizualizacja 2D/3D/4D
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Żurawi</strong> - Analiza zasięgu i wykrywanie kolizji
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Żurawi</strong> - Analiza zasięgu i wykrywanie kolizji
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Sekwencji</strong> - Maksymalna wydajność, minimalne opóźnienia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Sekwencji</strong> - Maksymalna wydajność, minimalne opóźnienia
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Poproś o Planowanie</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Przykłady 4D</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -547,29 +565,27 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Większość placów budów planuje logistykę “w biegu”:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty żurawi wykryte w trakcie podnoszenia
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty żurawi wykryte w trakcie podnoszenia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dostawy materiałów blokują dostęp do placu
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Dostawy materiałów blokują dostęp do placu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niewystarczające miejsce składowania powoduje opóźnienia
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niewystarczające miejsce składowania powoduje opóźnienia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty w kolejności prac różnych brygad
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Konflikty w kolejności prac różnych brygad
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wielokrotne projektowanie tymczasowych zabezpieczeń
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Wielokrotne projektowanie tymczasowych zabezpieczeń
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki dla klienta dotyczące wpływu budowy
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki dla klienta dotyczące wpływu budowy
 </p>
 </div>
 <section class="level4 callout-box" id="mnożnik-kosztów-logistyki" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="mnożnik-kosztów-logistyki">Mnożnik Kosztów Logistyki</h4>
-<blockquote class="blockquote">
-<p>“W przypadku projektu miejskiego o wartości 80 mln PLN, słaba logistyka dodaje 8-15% do czasu realizacji. Każdy stracony tydzień kosztuje 120-320 tys. PLN kosztów pośrednich. Właściwe planowanie zwraca się wielokrotnie poprzez uniknięte opóźnienia i zoptymalizowane operacje.”</p>
-</blockquote>
+<h4 class="anchored" data-anchor-id="mnożnik-kosztów-logistyki">Mnożnik kosztów logistyki</h4>
+<p>Na placu miejskim każdy tydzień przestoju to koszty pośrednie, które biegną dalej: żuraw, zaplecze, nadzór, ochrona. Konflikt wykryty na rysunku kosztuje godziny pracy. Ten sam konflikt wykryty podczas podnoszenia kosztuje dni postoju.</p>
 </section>
 </section>
 <section class="level3" id="nasze-proaktywne-rozwiązanie-logistyczne" style="">
@@ -577,22 +593,22 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Wirtualne planowanie budowy przed mobilizacją:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konflikty żurawi</strong> rozwiązane w 3D przed wynajmem
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konflikty żurawi</strong> rozwiązane w 3D przed wynajmem
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Harmonogramy dostaw</strong> skoordynowane z dostępnością miejsca
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Harmonogramy dostaw</strong> skoordynowane z dostępnością miejsca
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zoptymalizowane układy</strong> maksymalizują wydajność
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zoptymalizowane układy</strong> maksymalizują wydajność
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Symulacja 4D</strong> wizualizuje konflikty sekwencji
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Symulacja 4D</strong> wizualizuje konflikty sekwencji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Jednolity projekt zabezpieczeń</strong> używany przez cały czas
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Jednolity projekt zabezpieczeń</strong> używany przez cały czas
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wizualizacja dla klienta</strong> buduje zaufanie i redukuje niespodzianki
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wizualizacja dla klienta</strong> buduje zaufanie i redukuje niespodzianki
 </p>
 </div>
 </section>
@@ -604,7 +620,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <h3 class="anchored" data-anchor-id="wirtualne-planowanie-budowy">Wirtualne Planowanie Budowy</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="plany-logistyki-placu" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="plany-logistyki-placu"><i class="bi bi-map" style="color: var(--bim-orange); margin-right: 12px;"></i>Plany Logistyki Placu</h4>
+<h4 class="anchored" data-anchor-id="plany-logistyki-placu"><i aria-hidden="true" class="bi bi-map" style="color: var(--bim-orange); margin-right: 12px;"></i>Plany Logistyki Placu</h4>
 <p><strong>Układy 2D/3D</strong></p>
 <ul>
 <li>Lokalizacja zabezpieczeń tymczasowych</li>
@@ -617,7 +633,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>Rezultaty:</strong> Rysunki CAD i modele 3D</p>
 </section>
 <section class="level4" id="planowanie-żurawi-i-dźwigów" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="planowanie-żurawi-i-dźwigów"><i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Żurawi i Dźwigów</h4>
+<h4 class="anchored" data-anchor-id="planowanie-żurawi-i-dźwigów"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Żurawi i Dźwigów</h4>
 <p><strong>Analiza Zasięgu</strong></p>
 <ul>
 <li>Wybór typu żurawia i jego pozycjonowanie</li>
@@ -630,7 +646,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>Rezultaty:</strong> Diagramy zasięgu i symulacje 3D</p>
 </section>
 <section class="level4" id="planowanie-4d" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="planowanie-4d"><i class="bi bi-film" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie 4D</h4>
+<h4 class="anchored" data-anchor-id="planowanie-4d"><i aria-hidden="true" class="bi bi-film" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie 4D</h4>
 <p><strong>Symulacja Czasowa</strong></p>
 <ul>
 <li>Powiązanie modelu 3D z harmonogramem budowy</li>
@@ -643,7 +659,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>Rezultaty:</strong> Animacje 4D i filmy przeglądowe</p>
 </section>
 <section class="level4" id="zarządzanie-dostawami" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="zarządzanie-dostawami"><i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Dostawami</h4>
+<h4 class="anchored" data-anchor-id="zarządzanie-dostawami"><i aria-hidden="true" class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Dostawami</h4>
 <p><strong>Harmonogramowanie Just-In-Time</strong></p>
 <ul>
 <li>Harmonogramy dostaw materiałów</li>
@@ -656,7 +672,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>Rezultaty:</strong> Szczegółowe harmonogramy dostaw</p>
 </section>
 <section class="level4" id="zabezpieczenia-tymczasowe" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="zabezpieczenia-tymczasowe"><i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Zabezpieczenia Tymczasowe</h4>
+<h4 class="anchored" data-anchor-id="zabezpieczenia-tymczasowe"><i aria-hidden="true" class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Zabezpieczenia Tymczasowe</h4>
 <p><strong>Koordynacja Projektowania</strong></p>
 <ul>
 <li>Strategie rusztowań i dostępu</li>
@@ -669,7 +685,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>Rezultaty:</strong> Harmonogramy i rysunki zabezpieczeń tymczasowych</p>
 </section>
 <section class="level4" id="optymalizacja-sekwencji" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="optymalizacja-sekwencji"><i class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Sekwencji</h4>
+<h4 class="anchored" data-anchor-id="optymalizacja-sekwencji"><i aria-hidden="true" class="bi bi-bar-chart-steps" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Sekwencji</h4>
 <p><strong>Analiza Wydajności</strong></p>
 <ul>
 <li>Sekwencje instalacji branżowych</li>
@@ -770,27 +786,27 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <h2 class="anchored" data-anchor-id="typy-projektów-które-planujemy">Typy Projektów, Które Planujemy</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="budownictwo-wysokościowe">
-<h3 class="anchored" data-anchor-id="budownictwo-wysokościowe"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Wysokościowe</h3>
+<h3 class="anchored" data-anchor-id="budownictwo-wysokościowe"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Wysokościowe</h3>
 <p>Żurawie wieżowe, wielokrotne dźwigi, logistyka pionowa, małe powierzchnie, ograniczenia miejskie</p>
 </section>
 <section class="level3 feature-card" id="złożone-remonty">
-<h3 class="anchored" data-anchor-id="złożone-remonty"><i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Złożone Remonty</h3>
+<h3 class="anchored" data-anchor-id="złożone-remonty"><i aria-hidden="true" class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Złożone Remonty</h3>
 <p>Budynki użytkowane, dostęp etapowy, zabezpieczenia, koordynacja z użytkownikami, ograniczona przestrzeń</p>
 </section>
 <section class="level3 feature-card" id="prace-ziemne-na-dużą-skalę">
-<h3 class="anchored" data-anchor-id="prace-ziemne-na-dużą-skalę"><i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Prace Ziemne Na Dużą Skalę</h3>
+<h3 class="anchored" data-anchor-id="prace-ziemne-na-dużą-skalę"><i aria-hidden="true" class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Prace Ziemne Na Dużą Skalę</h3>
 <p>Sekwencjonowanie robót ziemnych, drogi transportowe, wywóz ziemi, wiertnice palowe, odwodnienie</p>
 </section>
 <section class="level3 feature-card" id="obiekty-operacyjne">
-<h3 class="anchored" data-anchor-id="obiekty-operacyjne"><i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Operacyjne</h3>
+<h3 class="anchored" data-anchor-id="obiekty-operacyjne"><i aria-hidden="true" class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Operacyjne</h3>
 <p>Szpitale, centra danych, lotniska - praca wokół czynnych operacji</p>
 </section>
 <section class="level3 feature-card" id="projekty-infrastrukturalne">
-<h3 class="anchored" data-anchor-id="projekty-infrastrukturalne"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne</h3>
+<h3 class="anchored" data-anchor-id="projekty-infrastrukturalne"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne</h3>
 <p>Drogi, mosty, media - interfejs publiczny, zarządzanie ruchem, fazowanie</p>
 </section>
 <section class="level3 feature-card" id="budownictwo-modułowe">
-<h3 class="anchored" data-anchor-id="budownictwo-modułowe"><i class="bi bi-building-add" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Modułowe</h3>
+<h3 class="anchored" data-anchor-id="budownictwo-modułowe"><i aria-hidden="true" class="bi bi-building-add" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Modułowe</h3>
 <p>Logistyka fabryczna, planowanie transportu, dostawa just-in-time, sekwencjonowanie montażu</p>
 </section>
 </div>
@@ -803,22 +819,22 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Profesjonalne oprogramowanie do planowania logistyki:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Navisworks</strong> - Symulacja 4D i wykrywanie kolizji
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Navisworks</strong> - Symulacja 4D i wykrywanie kolizji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Synchro PRO</strong> - Zaawansowane planowanie 4D/5D budowy
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Synchro PRO</strong> - Zaawansowane planowanie 4D/5D budowy
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Primavera P6</strong> - Harmonogramowanie budowy
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Primavera P6</strong> - Harmonogramowanie budowy
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>AutoCAD/Revit</strong> - Modelowanie placu 2D/3D
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>AutoCAD/Revit</strong> - Modelowanie placu 2D/3D
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>SketchUp</strong> - Szybka wizualizacja 3D
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>SketchUp</strong> - Szybka wizualizacja 3D
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>GEOPAK</strong> - Inżynieria lądowa i roboty ziemne
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>GEOPAK</strong> - Inżynieria lądowa i roboty ziemne
 </p>
 </div>
 </section>
@@ -827,19 +843,19 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Narzędzia specyficzne dla żurawi i logistyki:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cranimax</strong> - Oprogramowanie do planowania żurawi wieżowych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cranimax</strong> - Oprogramowanie do planowania żurawi wieżowych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3D Lift Plan</strong> - Planowanie żurawi mobilnych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3D Lift Plan</strong> - Planowanie żurawi mobilnych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>AutoTURN</strong> - Analiza łuków skrętu pojazdów
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>AutoTURN</strong> - Analiza łuków skrętu pojazdów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Narzędzia producentów</strong> - Konfiguracja żurawi Liebherr, Potain
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Narzędzia producentów</strong> - Konfiguracja żurawi Liebherr, Potain
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>GPS/Geodezja</strong> - Topografia placu i stan faktyczny
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>GPS/Geodezja</strong> - Topografia placu i stan faktyczny
 </p>
 </div>
 </section>
@@ -853,22 +869,22 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Każde zlecenie planowania logistyki obejmuje:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Placu 2D</strong> (format AutoCAD)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Placu 2D</strong> (format AutoCAD)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Modele Placu 3D</strong> (Revit lub SketchUp)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Modele Placu 3D</strong> (Revit lub SketchUp)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Zasięgu Żurawia</strong> (strefy podnoszenia i promienie)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza Zasięgu Żurawia</strong> (strefy podnoszenia i promienie)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Fazowania</strong> (pokazują ewolucję w czasie)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Fazowania</strong> (pokazują ewolucję w czasie)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Harmonogramy Logistyki</strong> (dostawy, zabezpieczenia tymczasowe)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Harmonogramy Logistyki</strong> (dostawy, zabezpieczenia tymczasowe)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokumentacja Wspierająca</strong> (raporty i analizy)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokumentacja Wspierająca</strong> (raporty i analizy)
 </p>
 </div>
 </section>
@@ -877,25 +893,25 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p>Wzmocnij swoje planowanie logistyki:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Animacje 4D</strong> - Symulacja budowy w czasie
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Animacje 4D</strong> - Symulacja budowy w czasie
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Spacery VR</strong> - Immersyjna wizualizacja placu
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Spacery VR</strong> - Immersyjna wizualizacja placu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Zarządzania Ruchem</strong> - Zatwierdzenia drogowe
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Plany Zarządzania Ruchem</strong> - Zatwierdzenia drogowe
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ocena Oddziaływania Środowiskowego</strong> - Modelowanie hałasu, pyłu, wibracji
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ocena Oddziaływania Środowiskowego</strong> - Modelowanie hałasu, pyłu, wibracji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie Na Placu</strong> - Tygodniowa koordynacja logistyki
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie Na Placu</strong> - Tygodniowa koordynacja logistyki
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Lean Construction</strong> - Integracja z systemem Last Planner
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie Lean Construction</strong> - Integracja z systemem Last Planner
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Miesięczne Aktualizacje</strong> - Replanning dla rzeczywistego postępu
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Miesięczne Aktualizacje</strong> - Replanning dla rzeczywistego postępu
 </p>
 </div>
 </section>
@@ -917,7 +933,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>P: Czy możecie pomóc nam wygrać przetargi poprzez lepsze rozwiązania logistyczne niż konkurencja?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Absolutnie! Wysokiej jakości planowanie logistyki w ofertach przetargowych demonstruje kompetencję i zmniejsza ryzyko projektu dla klientów. Pomogliśmy wykonawcom wygrać wiele projektów prezentując lepsze planowanie placu, strategie fazowania i animacje 4D, których konkurencja nie mogła dorównać. Typowa inwestycja: 32-60 tys. PLN, często marża między wygraną a przegraną kontraktów o wartości 40M+ PLN.</p>
+<p>O: Dobrze opracowana logistyka w ofercie pokazuje zamawiającemu, że wykonawca rozumie plac i ograniczenia. Przygotowujemy plany zagospodarowania, strategie fazowania i animacje 4D jako załącznik do oferty. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -933,7 +949,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>P: Czy możecie zoptymalizować nasz istniejący układ placu dla poprawy wydajności?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak! Optymalizacja w trakcie projektu jest powszechna. Analizujemy obecne układy, identyfikujemy wąskie gardła i nieefektywności, oraz proponujemy ulepszenia. Typowe oszczędności: 10-20% poprawy wydajności poprzez lepsze rozmieszczenie materiałów, zoptymalizowane trasy i zmniejszone podwójne przeładunki. Najbardziej korzystne przy wdrożeniu w naturalnych punktach przerwowych (np. wykończenie struktury, przejścia faz).</p>
+<p>O: Tak. Optymalizacja w trakcie budowy jest częstym zleceniem. Analizujemy obecny układ, wskazujemy wąskie gardła i proponujemy zmiany: rozmieszczenie materiałów, trasy dojazdu, ograniczenie podwójnych przeładunków. Najłatwiej wdrożyć je w naturalnych punktach przerwy, na przykład po zakończeniu konstrukcji lub na przejściu między fazami.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -949,7 +965,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>P: Jak dokładne są wasze analizy zasięgu żurawia?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Bardzo dokładne przy bazowaniu na specyfikacjach producenta. Używamy rzeczywistych danych żurawi od Liebherr, Potain, Wolff, itp. Analiza obejmuje obniżenie charakterystyk dla prędkości wiatru, wykresy obciążeń i konfiguracje wysięgników. Identyfikujemy 100% luk zasięgu i konfliktów przestrzeni powietrznej w 3D przed wyborem żurawia. Typowy rezultat: optymalne pozycjonowanie żurawia oszczędzające 200-800 tys. PLN vs “zgadnięte” umieszczenie.</p>
+<p>O: Analizę opieramy na danych producenta – Liebherr, Potain, Wolff i innych. Obejmuje ona obniżenie charakterystyk dla prędkości wiatru, wykresy obciążeń i konfiguracje wysięgników. Luki zasięgu i konflikty przestrzeni powietrznej pokazujemy w 3D przed wyborem żurawia, a nie po podpisaniu umowy najmu.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -957,7 +973,7 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>P: Czy możecie tworzyć animacje 4D do prezentacji dla klientów?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak! Animacje 4D są doskonałymi narzędziami komunikacji z interesariuszami. Tworzymy profesjonalne animacje pokazujące sekwencje budowy, fazowanie i operacje logistyczne w czasie. Są nieocenione dla: zaufania klienta, zatwierdzeń planistycznych, zaangażowania sąsiadów i wewnętrznej koordynacji zespołu. Typowy koszt: 20-60 tys. PLN za 2-5 minutową profesjonalną animację w zależności od złożoności.</p>
+<p>O: Tak! Animacje 4D są doskonałymi narzędziami komunikacji z interesariuszami. Tworzymy profesjonalne animacje pokazujące sekwencje budowy, fazowanie i operacje logistyczne w czasie. Przydają się przy uzgodnieniach administracyjnych, rozmowach z sąsiadami i koordynacji wewnętrznej. Wycena zależy od długości animacji i złożoności modelu; podajemy ją przed rozpoczęciem pracy.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -965,15 +981,15 @@ Eliminuj konflikty zanim będą kosztować czas i pieniądze.</p>
 <p><strong>P: Czy zapewniacie wsparcie na placu podczas budowy?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak, oferujemy tygodniowe lub miesięczne wizyty na placu dla wsparcia koordynacji logistyki. Usługi obejmują: przegląd rzeczywistych vs planowanych układów, aktualizację planów dla zmian projektowych, optymalizację fazowania według postępu, koordynację głównych podniesień i dostaw, oraz uczestnictwo w spotkaniach planistycznych. Typowy koszt: 6-12 tys. PLN za wizytę lub abonament miesięczny 16-32 tys. PLN.</p>
+<p>O: Tak, oferujemy tygodniowe lub miesięczne wizyty na placu dla wsparcia koordynacji logistyki. Usługi obejmują: przegląd rzeczywistych vs planowanych układów, aktualizację planów dla zmian projektowych, optymalizację fazowania według postępu, koordynację głównych podniesień i dostaw oraz udział w spotkaniach planistycznych. Rozliczamy je jako pakiet wizyt uzgodniony z góry.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jaki jest typowy ROI planowania logistyki?</strong></p>
+<p><strong>P: Co konkretnie daje planowanie logistyki?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Klienci zazwyczaj oszczędzają 5-15x kosztu planowania poprzez: uniknięte błędy wynajmu żurawia (200-800 tys. PLN), zoptymalizowany harmonogram (2-6 tygodni oszczędności = 240-720 tys. PLN kosztów pośrednich), zmniejszone przeróbki i uszkodzenia materiałów (80-400 tys. PLN), oraz zapobieżone opóźnienia regulacyjne (bezcenne). W projekcie 80M PLN, inwestycja 100 tys. PLN w planowanie logistyki typowo zwraca 800 tys.-2M PLN w oszczędnościach i mitygacji ryzyka.</p>
+<p>O: Trzy rzeczy, które można sprawdzić: właściwy żuraw dobrany przed podpisaniem umowy najmu, sekwencja robót bez kolizji przestrzennych między brygadami oraz harmonogram dostaw dopasowany do miejsca składowania. Każda z nich usuwa przestój, którego nie widać w kosztorysie, dopóki nie wystąpi na placu.</p>
 </div>
 </div>
 </div>
@@ -991,44 +1007,39 @@ Profesjonalne planowanie logistyki identyfikuje konflikty zanim staną się opó
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Poproś o Planowanie
+Prześlij dokumentację
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów wyzwania swojego placu
+Rysunki placu, harmonogram i ograniczenia dojazdu. Odpowiadamy w ciągu jednego dnia roboczego.
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Zobacz Przykłady 4D
+Bezpłatny przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Zobacz animacje planistyczne
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Otrzymaj Wycenę
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Wycena w ciągu 48 godzin
+Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.
 </p>
 </div>
 </div>
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+</p>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Poproś o Planowanie</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Przykłady</a> <a class="cta-secondary" href="../kontakt.html">Otrzymaj Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Planowania 3D/4D</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Planowanie 3D i symulacja 4D</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Planowania Żurawi</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analiza zasięgu żurawia na danych producenta</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie Miejskie</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Place miejskie o ograniczonej powierzchni</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong>
 </p>
 </div>
 </div>
@@ -1450,30 +1461,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

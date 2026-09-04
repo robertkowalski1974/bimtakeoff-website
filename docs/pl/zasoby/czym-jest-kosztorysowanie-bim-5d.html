@@ -5,7 +5,7 @@
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
 <meta content="Robert Kowalski" name="author"/>
-<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie." name="description"/>
+<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, skracając przedmiar z tygodni do dni." name="description"/>
 <title>BIM Takeoff - Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik</title>
 <style>
 code{white-space: pre-wrap;}
@@ -68,9 +68,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,32 +104,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik" name="twitter:title"/>
-<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie." name="twitter:description"/>
+<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, skracając przedmiar z tygodni do dni." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -126,7 +133,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -175,14 +182,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -199,7 +200,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Czym jest kosztorysowanie BIM 5D? Kompletny przewodnik" property="og:title"/>
-<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie." property="og:description"/>
+<meta content="Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, skracając przedmiar z tygodni do dni." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -213,7 +214,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jaka jest dokładność kosztorysowania BIM 5D?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Kosztorysowanie BIM 5D typowo osiąga dokładność +/-5% na etapie projektu szczegółowego, w porównaniu z +/-15-20% dla tradycyjnych metod 2D na tym samym etapie. Dokładność zależy od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje najlepsze wyniki. Na wcześniejszych etapach projektowania (LOD 200) BIM 5D osiąga dokładność +/-10-15%, co wciąż przewyższa metody tradycyjne na tym samym etapie. Wszystkie kosztorysy są walidowane przez wykwalifikowanych kosztorysantów w odniesieniu do benchmarków BCIS i Sekocenbud."
+        "text": "O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Jakość wyniku zależy przede wszystkim od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje pozycje gotowe do wyceny, natomiast model LOD 200 na wczesnym etapie projektowania nadaje się do szacunku kosztowego, a nie do przedmiaru przetargowego. Każdy kosztorys porównujemy z benchmarkami BCIS i Sekocenbud."
       }
     },
     {
@@ -229,7 +230,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Ile czasu zajmuje kosztorysowanie BIM 5D?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m 2 ) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1-2 dni po ustaleniu szablonu kosztowego. Dla porównania, tradycyjny przedmiar 2D dla tych samych projektów wymaga typowo 6-8 tygodni."
+        "text": "O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m 2 ) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1–2 dni po ustaleniu szablonu kosztowego. Ręczny przedmiar 2D dla tych samych projektów zajmuje tygodnie."
       }
     },
     {
@@ -245,7 +246,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak kosztorysowanie BIM 5D wypada w porównaniu z tradycyjnym kosztorysowaniem?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe—plany kosztowe, przedmiary robót, szacunki budżetowe—ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (3-5 dni vs. 6-8 tygodni), dokładność (+/-5% vs. +/-15-20%), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu vs. ręczny ponowny pomiar). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą."
+        "text": "O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe—plany kosztowe, przedmiary robót, szacunki budżetowe—ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (dni zamiast tygodni), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu zamiast ręcznego ponownego pomiaru). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą."
       }
     },
     {
@@ -253,7 +254,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jaki jest koszt kosztorysowania BIM 5D?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Wynagrodzenie zależy od wielkości projektu, złożoności i zakresu wymaganych produktów. Kosztorysowanie BIM 5D jest zazwyczaj wyceniane jako stałe wynagrodzenie za projekt, na podstawie powierzchni użytkowej brutto (PUB) i liczby elementów budowlanych. W przypadku większości projektów wynagrodzenie za BIM 5D jest porównywalne lub niższe od wynagrodzenia za tradycyjne kosztorysowanie, ponieważ proces wymaga mniejszej liczby godzin pracy. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) są wyceniane osobno. Prosimy o kontakt z BIM Takeoff w celu uzyskania indywidualnej wyceny dostosowanej do wymagań Państwa projektu."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają wielkość projektu, jego złożoność oraz zakres wymaganych opracowań. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) wyceniamy osobno. Prosimy o przesłanie dokumentacji - odpowiadamy w ciągu jednego dnia roboczego."
       }
     }
   ]
@@ -306,7 +307,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -314,97 +315,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -412,16 +388,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -472,7 +490,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div>
 <div class="description">
-    Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, zapewniając dokładność +/-5% w dni, nie tygodnie.
+    Kosztorysowanie BIM 5D ekstrahuje ilości z modeli BIM i łączy je z bazami kosztowymi, skracając przedmiar z tygodni do dni.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -492,7 +510,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="czym-jest-kosztorysowanie-bim-5d">
@@ -508,7 +526,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="container">
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Kosztorysowanie BIM 5D</strong> to proces ekstrakcji dokładnych ilości materiałów z modelu BIM (Building Information Model) i łączenia ich z bazami kosztowymi oraz harmonogramami budowy w celu opracowania kompleksowych budżetów projektów. “5D” odnosi się do pięciu wymiarów BIM: trzech wymiarów przestrzennych (geometria 3D), czwartego wymiaru (czas/harmonogramowanie) i piątego wymiaru (koszt). Kosztorysowanie BIM 5D zapewnia typową dokładność +/-5% w ciągu 3-5 dni, w porównaniu z dokładnością +/-15-20% w ciągu 6-8 tygodni przy zastosowaniu tradycyjnych metod kosztorysowania na podstawie dokumentacji 2D.</p>
+<p><strong>Kosztorysowanie BIM 5D</strong> to proces ekstrakcji dokładnych ilości materiałów z modelu BIM (Building Information Model) i łączenia ich z bazami kosztowymi oraz harmonogramami budowy w celu opracowania kompleksowych budżetów projektów. „5D” odnosi się do pięciu wymiarów BIM: trzech wymiarów przestrzennych (geometria 3D), czwartego wymiaru (czas i harmonogramowanie) i piątego wymiaru (koszt). Ilości pochodzą wprost z modelu, więc przedmiar dla typowego projektu powstaje w ciągu 3–5 dni roboczych zamiast tygodni ręcznego pomiaru z dokumentacji 2D.</p>
 </div>
 <p>Kosztorysowanie BIM 5D stanowi fundamentalną zmianę w podejściu branży budowlanej do budżetowania i planowania kosztów. Zamiast mierzyć ilości z rysunków 2D—skalować powierzchnie, liczyć elementy i ręcznie stosować stawki—podejście 5D wyodrębnia ilości bezpośrednio z trójwymiarowego modelu, który zawiera już dane geometryczne, materiałowe i specyfikacyjne niezbędne do dokładnego pomiaru.</p>
 <p>Efektem jest kosztorys, który powstaje szybciej, jest dokładniejszy, w pełni audytowalny i automatycznie aktualizowany w przypadku zmian projektowych. Dla kosztorysantów i konsultantów ds. kosztów BIM 5D nie jest zamiennikiem profesjonalnego osądu—jest narzędziem eliminującym powtarzalną pracę pomiarową i pozwalającym specjalistom skupić się na inżynierii wartości, ocenie ryzyka i strategicznym doradztwie kosztowym.</p>
@@ -539,7 +557,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <section class="level2" id="proces-kosztorysowania-bim-5d">
 <h2 class="anchored" data-anchor-id="proces-kosztorysowania-bim-5d">Proces kosztorysowania BIM 5D</h2>
-<p>Proces kosztorysowania BIM 5D przebiega według ustrukturyzowanego schematu łączącego automatyczną ekstrakcję z nadzorem profesjonalnym. Poniżej przedstawiamy metodologię stosowaną przez BIM Takeoff, wypracowaną na ponad 2000 projektach w Wielkiej Brytanii, Australii i Polsce.</p>
+<p>Proces kosztorysowania BIM 5D przebiega według ustrukturyzowanego schematu łączącego automatyczną ekstrakcję z nadzorem profesjonalnym. Poniżej przedstawiamy metodykę stosowaną przez BIM Takeoff na rynku brytyjskim, australijskim i polskim.</p>
 <section class="level3" id="krok-1-odbiór-i-audyt-modelu-bim">
 <h3 class="anchored" data-anchor-id="krok-1-odbiór-i-audyt-modelu-bim">Krok 1: Odbiór i audyt modelu BIM</h3>
 <p>Proces rozpoczyna się od otrzymania modelu BIM od zespołu projektowego. Modele dostarczane są najczęściej jako pliki IFC (Industry Foundation Classes, ISO 16739)—otwarty standard wymiany danych BIM—lub jako pliki natywne z platform autorskich, takich jak Autodesk Revit (.rvt), Graphisoft ArchiCAD (.pln) czy Trimble Tekla Structures (.db1).</p>
@@ -577,12 +595,12 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <section class="level3" id="krok-4-przegląd-ekspercki-i-walidacja">
 <h3 class="anchored" data-anchor-id="krok-4-przegląd-ekspercki-i-walidacja">Krok 4: Przegląd ekspercki i walidacja</h3>
-<p>Automatyczna ekstrakcja jest wiarygodna jedynie w takim stopniu, w jakim wiarygodny jest model i zastosowane stawki. BIM Takeoff stosuje potrójną walidację:</p>
-<ol type="1">
+<p>Automatyczna ekstrakcja jest wiarygodna jedynie w takim stopniu, w jakim wiarygodny jest model i zastosowane stawki. Dlatego wynik oprogramowania przechodzi przez kolejne kontrole:</p>
+<ul>
 <li><strong>Kontrole algorytmiczne</strong>: Oprogramowanie sygnalizuje anomalie—ilości wykraczające poza oczekiwane zakresy, brakujące elementy, odstające stawki jednostkowe</li>
-<li><strong>Przegląd ekspercki</strong>: Wykwalifikowany kosztorysant weryfikuje każdy plan kosztowy, sprawdzając logikę pomiarów, adekwatność stawek i kompletność zakresu w odniesieniu do zamierzenia projektowego</li>
+<li><strong>Przegląd kosztorysanta</strong>: Sprawdzamy logikę pomiarów, adekwatność stawek i kompletność zakresu w odniesieniu do zamierzenia projektowego</li>
 <li><strong>Porównanie benchmarkowe</strong>: Kosztorys jest porównywany z benchmarkami BCIS, Sekocenbud lub benchmarkami specyficznymi dla projektu, uwzględniając typ budynku, wielkość i lokalizację</li>
-</ol>
+</ul>
 <p>Ta warstwa walidacyjna odróżnia profesjonalne kosztorysowanie BIM 5D od surowego wyniku oprogramowania. Technologia wykonuje pomiary; profesjonalista zapewnia osąd.</p>
 </section>
 <section class="level3" id="krok-5-raportowanie-i-integracja">
@@ -599,13 +617,13 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <section class="level2" id="korzyści-z-kosztorysowania-bim-5d">
 <h2 class="anchored" data-anchor-id="korzyści-z-kosztorysowania-bim-5d">Korzyści z kosztorysowania BIM 5D</h2>
-<section class="level3" id="szybkość-90-95-szybciej-niż-metody-tradycyjne">
-<h3 class="anchored" data-anchor-id="szybkość-90-95-szybciej-niż-metody-tradycyjne">Szybkość: 90-95% szybciej niż metody tradycyjne</h3>
-<p>Tradycyjny przedmiar 2D dla średniej wielkości budynku komercyjnego (5 000-10 000 m<sup>2</sup>) wymaga typowo 6-8 tygodni. Ekstrakcja BIM 5D dla tego samego projektu zajmuje 3-5 dni roboczych. Dla powtarzalnych typów budynków (hale magazynowe, bloki mieszkalne) proces może trwać zaledwie 1-2 dni po ustaleniu szablonu kosztowego.</p>
+<section class="level3" id="szybkość-dni-zamiast-tygodni">
+<h3 class="anchored" data-anchor-id="szybkość-dni-zamiast-tygodni">Szybkość: dni zamiast tygodni</h3>
+<p>Ręczny przedmiar 2D dla średniej wielkości budynku komercyjnego (5 000–10 000 m<sup>2</sup>) zajmuje tygodnie. Ekstrakcja BIM 5D dla tego samego projektu zajmuje 3–5 dni roboczych. Dla powtarzalnych typów budynków (hale magazynowe, bloki mieszkalne) proces może trwać 1–2 dni po ustaleniu szablonu kosztowego.</p>
 </section>
-<section class="level3" id="dokładność--5-na-etapie-projektu-szczegółowego">
-<h3 class="anchored" data-anchor-id="dokładność--5-na-etapie-projektu-szczegółowego">Dokładność: +/-5% na etapie projektu szczegółowego</h3>
-<p>Badania konsekwentnie wykazują, że kosztorysy oparte na BIM osiągają wyższą dokładność niż metody tradycyjne. Na etapie projektu technicznego kosztorysy BIM 5D typowo osiągają dokładność +/-5% w porównaniu z rozliczeniem końcowym, wobec +/-15-20% dla metod tradycyjnych na tym samym etapie. Redukcja tej wariancji bezpośrednio zmniejsza ryzyko przekroczeń budżetowych.</p>
+<section class="level3" id="ilości-wprost-z-modelu">
+<h3 class="anchored" data-anchor-id="ilości-wprost-z-modelu">Ilości wprost z modelu</h3>
+<p>Każda pozycja przedmiaru jest powiązana z konkretnym elementem modelu, więc nie ma miejsca na przeoczoną ścianę czy podwójnie policzoną powierzchnię. To, czego model nie zawiera, uzupełniamy z rysunków 2D i specyfikacji i opisujemy jako założenie, zamiast domykać kosztorys narzutem.</p>
 <p>Program badawczy Oxford Global Projects (Flyvbjerg, 2023) wykazał, że 62% projektów budowlanych na świecie doświadcza przekroczenia kosztów, ze średnim przekroczeniem na poziomie 40% pierwotnego budżetu. Poprawa dokładności kosztorysowania na etapie przygotowania inwestycji jest jedną z najskuteczniejszych interwencji przeciwdziałających temu systemowemu problemowi.</p>
 </section>
 <section class="level3" id="automatyczne-aktualizacje-przy-zmianach-projektowych">
@@ -654,7 +672,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <section class="level3" id="nadzór-profesjonalny-rics">
 <h3 class="anchored" data-anchor-id="nadzór-profesjonalny-rics">Nadzór profesjonalny RICS</h3>
-<p>Niezależnie od zastosowanej technologii, profesjonalne kosztorysy w Wielkiej Brytanii i na arenie międzynarodowej podlegają standardom zawodowym RICS. RICS wymaga, aby wyniki automatyczne i oparte na AI podlegały przeglądowi i zatwierdzeniu przez wykwalifikowanego kosztorysanta.</p>
+<p>Niezależnie od zastosowanej technologii, profesjonalne kosztorysy w Wielkiej Brytanii i na arenie międzynarodowej podlegają standardom zawodowym RICS. RICS wymaga, aby wyniki automatyczne podlegały przeglądowi i zatwierdzeniu przez wykwalifikowanego kosztorysanta.</p>
 </section>
 </section>
 <section class="level2" id="oprogramowanie-i-narzędzia">
@@ -722,7 +740,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jaka jest dokładność kosztorysowania BIM 5D?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Kosztorysowanie BIM 5D typowo osiąga dokładność +/-5% na etapie projektu szczegółowego, w porównaniu z +/-15-20% dla tradycyjnych metod 2D na tym samym etapie. Dokładność zależy od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje najlepsze wyniki. Na wcześniejszych etapach projektowania (LOD 200) BIM 5D osiąga dokładność +/-10-15%, co wciąż przewyższa metody tradycyjne na tym samym etapie. Wszystkie kosztorysy są walidowane przez wykwalifikowanych kosztorysantów w odniesieniu do benchmarków BCIS i Sekocenbud.</p>
+<p>O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Jakość wyniku zależy przede wszystkim od jakości modelu: dobrze opracowany model LOD 300-350 z prawidłowymi przypisaniami materiałów daje pozycje gotowe do wyceny, natomiast model LOD 200 na wczesnym etapie projektowania nadaje się do szacunku kosztowego, a nie do przedmiaru przetargowego. Każdy kosztorys porównujemy z benchmarkami BCIS i Sekocenbud.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -738,7 +756,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Ile czasu zajmuje kosztorysowanie BIM 5D?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m<sup>2</sup>) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1-2 dni po ustaleniu szablonu kosztowego. Dla porównania, tradycyjny przedmiar 2D dla tych samych projektów wymaga typowo 6-8 tygodni.</p>
+<p>O: Dla typowego projektu komercyjnego lub mieszkaniowego (3 000-15 000 m<sup>2</sup>) z dobrze opracowanym modelem BIM, proces trwa 3-5 dni roboczych od otrzymania modelu do dostarczenia gotowego planu kosztowego. Złożone projekty (szpitale, infrastruktura, zabudowa wielofunkcyjna) mogą wymagać 5-10 dni roboczych. Powtarzalne typy budynków (hale magazynowe, jednostki programów mieszkaniowych) mogą być realizowane w 1–2 dni po ustaleniu szablonu kosztowego. Ręczny przedmiar 2D dla tych samych projektów zajmuje tygodnie.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -754,7 +772,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jak kosztorysowanie BIM 5D wypada w porównaniu z tradycyjnym kosztorysowaniem?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe—plany kosztowe, przedmiary robót, szacunki budżetowe—ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (3-5 dni vs. 6-8 tygodni), dokładność (+/-5% vs. +/-15-20%), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu vs. ręczny ponowny pomiar). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą.</p>
+<p>O: BIM 5D i tradycyjne kosztorysowanie dają te same produkty końcowe—plany kosztowe, przedmiary robót, szacunki budżetowe—ale różnią się fundamentalnie metodą. Tradycyjne kosztorysowanie opiera się na ręcznym pomiarze z rysunków 2D: skalowaniu powierzchni, liczeniu elementów, obliczaniu objętości ręcznie lub za pomocą podstawowych narzędzi cyfrowych. BIM 5D wyodrębnia te ilości automatycznie z modelu 3D. Kluczowe różnice to szybkość (dni zamiast tygodni), audytowalność (każda ilość prowadzi do elementu modelu) oraz możliwość aktualizacji (automatyczne przeliczenie przy zmianie projektu zamiast ręcznego ponownego pomiaru). BIM 5D nie eliminuje potrzeby wykwalifikowanego kosztorysanta; zmienia rolę kosztorysanta z pomiarowej na walidacyjną, analityczną i doradczą.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -762,7 +780,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jaki jest koszt kosztorysowania BIM 5D?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Wynagrodzenie zależy od wielkości projektu, złożoności i zakresu wymaganych produktów. Kosztorysowanie BIM 5D jest zazwyczaj wyceniane jako stałe wynagrodzenie za projekt, na podstawie powierzchni użytkowej brutto (PUB) i liczby elementów budowlanych. W przypadku większości projektów wynagrodzenie za BIM 5D jest porównywalne lub niższe od wynagrodzenia za tradycyjne kosztorysowanie, ponieważ proces wymaga mniejszej liczby godzin pracy. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) są wyceniane osobno. Prosimy o kontakt z BIM Takeoff w celu uzyskania indywidualnej wyceny dostosowanej do wymagań Państwa projektu.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają wielkość projektu, jego złożoność oraz zakres wymaganych opracowań. Projekty obejmujące bieżące zarządzanie kosztami (śledzenie zmian projektowych, aktualizacje przepływów pieniężnych, wsparcie przetargowe) wyceniamy osobno. Prosimy o przesłanie dokumentacji - odpowiadamy w ciągu jednego dnia roboczego.</p>
 </div>
 </div>
 </div>
@@ -775,15 +793,15 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 Gotowi na przejście z tygodni do dni?
 </h2>
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-BIM Takeoff dostarczył ponad 2000 planów kosztowych BIM 5D w Wielkiej Brytanii, Australii i Polsce. Nasi kosztorysanci łączą 20 lat międzynarodowego doświadczenia z zaawansowaną technologią BIM, aby dostarczać kosztorysy dokładne, audytowalne i szybkie.
+BIM Takeoff mierzy przedmiary i wydaje kosztorysy dla wykonawców i podwykonawców w Wielkiej Brytanii, Australii i Polsce. Prześlij dokumentację, a odeślemy pozycje z ilościami, stawkami i wypisanymi założeniami.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Bezpłatna 30-minutowa konsultacja
+Przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów wymagania projektu i uzyskaj wstępny harmonogram
+Prześlij fragment dokumentacji, zmierzymy go bez opłaty
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
@@ -791,7 +809,7 @@ Omów wymagania projektu i uzyskaj wstępny harmonogram
 Poznaj nasze usługi
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Zapoznaj się z pełną ofertą usług kosztorysowania BIM 5D i quantity surveying
+Zapoznaj się z pełną ofertą kosztorysowania BIM 5D i przedmiarów robót
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
@@ -799,25 +817,25 @@ Zapoznaj się z pełną ofertą usług kosztorysowania BIM 5D i quantity surveyi
 Wycena projektu
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Indywidualne wyceny w ciągu 24 godzin, dostosowane do projektu
+Odpowiedź w ciągu jednego dnia roboczego
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Umów bezpłatną konsultację</a> <a class="cta-secondary" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">Poznaj usługi</a> <a class="cta-secondary" href="../kontakt.html">Uzyskaj wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Wykwalifikowani kosztorysanci</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Pomiar zgodny z NRM2 i KNR/KNNR</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zgodność z ISO 19650</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zgodność z ISO 19650</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rynki: Wielka Brytania, Australia, Polska</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ponad 2000 zrealizowanych projektów</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Widoczne ilości, stawki i założenia</strong>
 </p>
 </div>
 </div>
@@ -1239,30 +1257,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

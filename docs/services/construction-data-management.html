@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="../css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,26 +104,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -269,7 +270,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What’s the difference between a CDE and just using SharePoint or Dropbox?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customization. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management."
+        "text": "A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customisation. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management."
       }
     },
     {
@@ -285,7 +286,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Can you help with Building Safety Act compliance and Golden Thread?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! We specialize in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support. We’ve worked on multiple Gateway 2 and Gateway 3 submissions."
+        "text": "Yes. We specialise in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support, including Gateway 2 and Gateway 3 submissions."
       }
     },
     {
@@ -301,7 +302,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How much does information management cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Depends on project size and service scope. Setup (EIR, BEP, CDE config) for a £10M project: £15K-25K. Part-time Information Manager support: £3K-5K/month. Full-time dedicated resource: £6K-10K/month. Golden Thread services: £20K-50K depending on building complexity. Investment typically saves 2-5x through reduced rework and better project outcomes."
+        "text": "It depends on project size and the scope of service - setup (EIR, BEP, CDE configuration), ongoing information management support, and Golden Thread services are all sized to the project. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree."
       }
     },
     {
@@ -405,24 +406,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="../pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="../services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
@@ -437,14 +464,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -452,21 +471,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="../services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="../tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="../industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -476,12 +508,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../industries/healthcare-medical.html">
@@ -494,33 +535,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="../industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -570,13 +584,13 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="construction-data-management-iso-19650-compliance">
 <h1>Construction Data Management &amp; ISO 19650 Compliance</h1>
-<section class="level3" id="transform-information-chaos-into-strategic-asset">
-<h3 class="anchored" data-anchor-id="transform-information-chaos-into-strategic-asset">Transform Information Chaos Into Strategic Asset</h3>
+<section class="level3" id="structured-information-from-tender-through-handover">
+<h3 class="anchored" data-anchor-id="structured-information-from-tender-through-handover">Structured Information From Tender Through Handover</h3>
 </section>
 </section>
 <div class="hero-subtitle">
@@ -586,18 +600,18 @@ From tender through handover and beyond.</p>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 Compliance</strong> - UK BIM Framework adherence
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 Compliance</strong> - UK BIM Framework adherence
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Setup &amp; Management</strong> - Structured data environments
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Setup &amp; Management</strong> - Structured data environments
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Full lifecycle information management
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Full lifecycle information management
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Request Consultation</a> <a class="cta-secondary" href="../coming-soon.html">View CDE Solutions</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
@@ -613,22 +627,22 @@ From tender through handover and beyond.</p>
 <p>Poor data management creates expensive problems:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 5-15% project time wasted finding information
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Time wasted searching for the right document or version
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rework from using wrong document versions
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rework from using wrong document versions
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Compliance failures (Building Safety Act, Golden Thread)
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Compliance failures (Building Safety Act, Golden Thread)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Incomplete handover information
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Incomplete handover information
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> O&amp;M manuals missing critical data
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> O&amp;M manuals missing critical data
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Legal exposure from poor records
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Legal exposure from poor records
 </p>
 </div>
 <section class="level4 callout-box" id="regulatory-imperative" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
@@ -643,22 +657,22 @@ From tender through handover and beyond.</p>
 <p>ISO 19650 compliant, lifecycle-focused data management:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 compliance</strong> - UK BIM Framework adherence
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650 compliance</strong> - UK BIM Framework adherence
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Structured CDE</strong> - Everyone finds information instantly
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Structured CDE</strong> - Everyone finds information instantly
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Version control</strong> - No more wrong-drawing mistakes
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Version control</strong> - No more wrong-drawing mistakes
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread ready</strong> - Building Safety Act compliance
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread ready</strong> - Building Safety Act compliance
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Digital handover</strong> - Complete, structured O&amp;M data
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Digital handover</strong> - Complete, structured O&amp;M data
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit trail</strong> - Full lifecycle documentation
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit trail</strong> - Full lifecycle documentation
 </p>
 </div>
 </section>
@@ -670,7 +684,7 @@ From tender through handover and beyond.</p>
 <h3 class="anchored" data-anchor-id="end-to-end-information-management">End-to-End Information Management</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="bim-strategy-eir" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="bim-strategy-eir"><i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>BIM Strategy &amp; EIR</h4>
+<h4 class="anchored" data-anchor-id="bim-strategy-eir"><i aria-hidden="true" class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>BIM Strategy &amp; EIR</h4>
 <p><strong>Information Requirements</strong></p>
 <ul>
 <li>Employer’s Information Requirements (EIR)</li>
@@ -678,12 +692,12 @@ From tender through handover and beyond.</p>
 <li>Information delivery schedules</li>
 <li>Level of Information Need definitions</li>
 <li>Data drop specifications</li>
-<li>Task Team mobilization plans</li>
+<li>Task Team mobilisation plans</li>
 </ul>
 <p><strong>Deliverable:</strong> ISO 19650-compliant documentation suite</p>
 </section>
 <section class="level4" id="cde-implementation" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="cde-implementation"><i class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>CDE Implementation</h4>
+<h4 class="anchored" data-anchor-id="cde-implementation"><i aria-hidden="true" class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>CDE Implementation</h4>
 <p><strong>Common Data Environment</strong></p>
 <ul>
 <li>Platform selection (BIM 360, Asite, 4Projects)</li>
@@ -696,7 +710,7 @@ From tender through handover and beyond.</p>
 <p><strong>Deliverable:</strong> Fully operational CDE with trained users</p>
 </section>
 <section class="level4" id="data-coordination" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="data-coordination"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Coordination</h4>
+<h4 class="anchored" data-anchor-id="data-coordination"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Coordination</h4>
 <p><strong>Information Management</strong></p>
 <ul>
 <li>Model coordination (clash detection)</li>
@@ -709,7 +723,7 @@ From tender through handover and beyond.</p>
 <p><strong>Deliverable:</strong> Coordinated, clash-free information</p>
 </section>
 <section class="level4" id="quality-assurance" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="quality-assurance"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Quality Assurance</h4>
+<h4 class="anchored" data-anchor-id="quality-assurance"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Quality Assurance</h4>
 <p><strong>Information Validation</strong></p>
 <ul>
 <li>Model quality checks (LOD verification)</li>
@@ -722,7 +736,7 @@ From tender through handover and beyond.</p>
 <p><strong>Deliverable:</strong> Quality-assured information containers</p>
 </section>
 <section class="level4" id="digital-handover" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="digital-handover"><i class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Digital Handover</h4>
+<h4 class="anchored" data-anchor-id="digital-handover"><i aria-hidden="true" class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Digital Handover</h4>
 <p><strong>Asset Information Model</strong></p>
 <ul>
 <li>As-built model validation</li>
@@ -735,7 +749,7 @@ From tender through handover and beyond.</p>
 <p><strong>Deliverable:</strong> Complete digital Asset Information Model (AIM)</p>
 </section>
 <section class="level4" id="golden-thread" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="golden-thread"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread</h4>
+<h4 class="anchored" data-anchor-id="golden-thread"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread</h4>
 <p><strong>Building Safety Act Compliance</strong></p>
 <ul>
 <li>HRB (High-Risk Building) information</li>
@@ -776,12 +790,12 @@ From tender through handover and beyond.</p>
 <p><strong>Duration:</strong> 2-3 weeks</p>
 <p><strong>What We Do:</strong></p>
 <ul>
-<li>Mobilize Task Team responses to EIR</li>
+<li>Mobilise Task Team responses to EIR</li>
 <li>Develop pre-appointment BEP</li>
 <li>Coordinate Task Information Delivery Plans (TIDP)</li>
 <li>Establish information production methods</li>
 <li>Define quality assurance procedures</li>
-<li>Finalize post-appointment BEP</li>
+<li>Finalise post-appointment BEP</li>
 </ul>
 <p><strong>What You Receive:</strong> Agreed BIM Execution Plan (BEP)</p>
 </section>
@@ -854,25 +868,25 @@ From tender through handover and beyond.</p>
 <p>Full compliance with UK and international standards:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-1</strong> - Concepts and principles
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-1</strong> - Concepts and principles
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-2</strong> - Delivery phase
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-2</strong> - Delivery phase
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-3</strong> - Operational phase
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-3</strong> - Operational phase
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-5</strong> - Security-minded approach
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-5</strong> - Security-minded approach
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BS EN 17412-1</strong> - Level of Information Need
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BS EN 17412-1</strong> - Level of Information Need
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>UK BIM Framework</strong> - v3 guidance
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>UK BIM Framework</strong> - v3 guidance
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act 2022</strong> - Golden Thread
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act 2022</strong> - Golden Thread
 </p>
 </div>
 </section>
@@ -881,22 +895,22 @@ From tender through handover and beyond.</p>
 <p>We work with all major industry formats:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>IFC</strong> - Open BIM standard (IFC2x3, IFC4)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>IFC</strong> - Open BIM standard (IFC2x3, IFC4)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BCF</strong> - BIM Collaboration Format (issue tracking)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BCF</strong> - BIM Collaboration Format (issue tracking)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>COBie</strong> - Construction Operations Building information exchange
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>COBie</strong> - Construction Operations Building information exchange
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Native Formats</strong> - Revit, ArchiCAD, Tekla, Navisworks
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Native Formats</strong> - Revit, ArchiCAD, Tekla, Navisworks
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF/A</strong> - Long-term archival formats
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF/A</strong> - Long-term archival formats
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Excel/CSV</strong> - Data schedules and registers
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Excel/CSV</strong> - Data schedules and registers
 </p>
 </div>
 </section>
@@ -906,19 +920,19 @@ From tender through handover and beyond.</p>
 <h2 class="anchored" data-anchor-id="cde-platforms-we-support">CDE Platforms We Support</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="autodesk-platforms">
-<h3 class="anchored" data-anchor-id="autodesk-platforms"><i class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Autodesk Platforms</h3>
+<h3 class="anchored" data-anchor-id="autodesk-platforms"><i aria-hidden="true" class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Autodesk Platforms</h3>
 <p>BIM 360, Autodesk Construction Cloud (ACC), Collaboration for Revit</p>
 </section>
 <section class="level3 feature-card" id="uk-market-leaders">
-<h3 class="anchored" data-anchor-id="uk-market-leaders"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Market Leaders</h3>
+<h3 class="anchored" data-anchor-id="uk-market-leaders"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Market Leaders</h3>
 <p>Asite, 4Projects, Viewpoint, Causeway, BIW Technologies</p>
 </section>
 <section class="level3 feature-card" id="international-solutions">
-<h3 class="anchored" data-anchor-id="international-solutions"><i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Solutions</h3>
+<h3 class="anchored" data-anchor-id="international-solutions"><i aria-hidden="true" class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Solutions</h3>
 <p>Trimble Connect, Bentley ProjectWise, Oracle Aconex, Procore</p>
 </section>
 <section class="level3 feature-card" id="open-source-options">
-<h3 class="anchored" data-anchor-id="open-source-options"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Open-Source Options</h3>
+<h3 class="anchored" data-anchor-id="open-source-options"><i aria-hidden="true" class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Open-Source Options</h3>
 <p>SharePoint with custom workflows, Alfresco, self-hosted solutions</p>
 </section>
 </div>
@@ -931,22 +945,22 @@ From tender through handover and beyond.</p>
 <p>Every data management engagement includes:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Information Requirements</strong> (EIR, BEP, TIDP)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Information Requirements</strong> (EIR, BEP, TIDP)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Configuration</strong> (structure, workflows, permissions)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CDE Configuration</strong> (structure, workflows, permissions)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Naming Conventions</strong> (BS 1192, Uniclass 2015)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Naming Conventions</strong> (BS 1192, Uniclass 2015)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Quality Assurance</strong> (model checks, data validation)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Quality Assurance</strong> (model checks, data validation)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>User Training</strong> (team onboarding and support)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>User Training</strong> (team onboarding and support)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Documentation</strong> (procedures, standards, templates)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Documentation</strong> (procedures, standards, templates)
 </p>
 </div>
 </section>
@@ -955,25 +969,25 @@ From tender through handover and beyond.</p>
 <p>Extend your information management:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dedicated Information Manager</strong> - Full-time resource
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dedicated Information Manager</strong> - Full-time resource
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Model Coordination Services</strong> - Weekly clash detection
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Model Coordination Services</strong> - Weekly clash detection
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread Compliance</strong> - Building Safety Act support
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread Compliance</strong> - Building Safety Act support
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CAFM Integration</strong> - Link to FM systems (Maximo, Archibus)
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>CAFM Integration</strong> - Link to FM systems (Maximo, Archibus)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Data Migration</strong> - Legacy system transfers
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Data Migration</strong> - Legacy system transfers
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit Services</strong> - ISO 19650 compliance audits
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Audit Services</strong> - ISO 19650 compliance audits
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Occupancy Support</strong> - Ongoing FM data management
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Occupancy Support</strong> - Ongoing FM data management
 </p>
 </div>
 </section>
@@ -995,7 +1009,7 @@ From tender through handover and beyond.</p>
 <p><strong>Q: What’s the difference between a CDE and just using SharePoint or Dropbox?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customization. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.</p>
+<p>A: A proper CDE includes: structured workflows (WIP → Shared → Published → Archived), version control, audit trails, permissions management, collaboration tools, and integration with project software. SharePoint can be configured as a CDE but requires significant customisation. Generic file sharing (Dropbox, Google Drive) lacks the controls needed for compliant information management.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1011,7 +1025,7 @@ From tender through handover and beyond.</p>
 <p><strong>Q: Can you help with Building Safety Act compliance and Golden Thread?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes! We specialize in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support. We’ve worked on multiple Gateway 2 and Gateway 3 submissions.</p>
+<p>A: Yes. We specialise in Golden Thread implementation for high-risk buildings (HRBs). This includes: safety case documentation, change control procedures, digital record-keeping, resident engagement information, and Building Safety Regulator submission support, including Gateway 2 and Gateway 3 submissions.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1027,7 +1041,7 @@ From tender through handover and beyond.</p>
 <p><strong>Q: How much does information management cost?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Depends on project size and service scope. Setup (EIR, BEP, CDE config) for a £10M project: £15K-25K. Part-time Information Manager support: £3K-5K/month. Full-time dedicated resource: £6K-10K/month. Golden Thread services: £20K-50K depending on building complexity. Investment typically saves 2-5x through reduced rework and better project outcomes.</p>
+<p>A: It depends on project size and the scope of service - setup (EIR, BEP, CDE configuration), ongoing information management support, and Golden Thread services are all sized to the project. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1061,52 +1075,41 @@ From tender through handover and beyond.</p>
 <div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
 <div style="max-width: 800px; margin: 0 auto;">
 <h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Transform Data Chaos Into Strategic Advantage
+Put Your Information On a Proper Footing
 </h2>
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-ISO 19650 compliant information management from experts who understand construction.
+ISO 19650 aligned information management, structured from tender through to handover.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Request Consultation
+Send us your drawings
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Discuss your information needs
+Tell us about your information needs
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-See CDE Examples
+Free sample takeoff
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Review implementation case studies
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Get Quote
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Scoped proposal within 3 days
+See how we structure information before you commit
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Request Consultation</a> <a class="cta-secondary" href="../coming-soon.html">View Examples</a> <a class="cta-secondary" href="../contact.html">Get Quote</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Certified Specialists</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Information Management</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Compliant</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Aware</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>CDE Platform Agnostic</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>CDE Platform Agnostic</strong>
 </p>
 </div>
 </div>
@@ -1114,7 +1117,7 @@ Scoped proposal within 3 days
 <section class="level3" id="need-help-now" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
 <h3 class="anchored" data-anchor-id="need-help-now">Need Help Now?</h3>
 <p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-<p><strong>Office Hours:</strong> Monday-Friday, 9:00-17:00 CET</p>
+<p><strong>Office hours:</strong> Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.</p>
 </section>
 <p>:::</p>
 </section>
@@ -1528,31 +1531,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="../services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="../services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="../industries/remediation.html">Facade and cladding remediation</a><br/> <a href="../services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="../pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="../privacy-policy.html">Privacy policy</a> · <a href="../terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="../js/scroll-effects.js"></script>
 <script src="../js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="../js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="../js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="../js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="../js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

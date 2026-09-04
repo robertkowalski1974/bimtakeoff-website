@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="../css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,26 +104,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -261,7 +262,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How accurate is traditional measurement compared to BIM takeoff?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Traditional measurement by experienced QS typically achieves ±5-8% accuracy vs ±3-5% for BIM takeoff. The difference is acceptable for most projects under £5M. For larger, more complex projects where precision is critical, BIM takeoff is recommended. However, traditional measurement remains more cost-effective for smaller jobs."
+        "text": "Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. Traditional measurement generally carries a wider margin than BIM takeoff, since it works from 2D representations rather than a coordinated model. For larger, more complex projects where precision is critical, BIM takeoff is recommended. However, traditional measurement remains more cost-effective for smaller jobs."
       }
     },
     {
@@ -269,7 +270,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What if our drawings are incomplete or at early design stage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We work with concept and sketch designs regularly. We’ll make reasonable assumptions based on similar projects, document everything clearly, and provide ranges (e.g., ±15-20%) rather than false precision. We can also highlight information needed to improve accuracy as design develops."
+        "text": "We work with concept and sketch designs regularly. We’ll make reasonable assumptions based on similar projects, document everything clearly, and provide a range rather than false precision. We can also highlight information needed to improve accuracy as design develops."
       }
     },
     {
@@ -277,7 +278,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Can you measure from site photos or survey data?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For renovation/refurbishment projects, yes! We can prepare BOQs from measured surveys, photographic surveys, or site visit notes. This is common for projects where as-built drawings don’t exist. Accuracy depends on survey quality but typically achieves ±10-12%, which is acceptable for renovation budgeting."
+        "text": "For renovation/refurbishment projects, yes! We can prepare BOQs from measured surveys, photographic surveys, or site visit notes. This is common for projects where as-built drawings don’t exist. Accuracy depends on survey quality, and we flag where it falls short of what a full measured survey would give."
       }
     },
     {
@@ -285,7 +286,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Do you only measure buildings, or also civil works?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We measure both! Our team includes specialists in roads, drainage, earthworks, retaining structures, and utilities. We follow CESMM4 for civil engineering projects. Common projects include road construction, car parks, external works packages, and infrastructure projects."
+        "text": "We measure both! We cover roads, drainage, earthworks, retaining structures, and utilities. We follow CESMM4 for civil engineering projects. Common projects include road construction, car parks, external works packages, and infrastructure projects."
       }
     },
     {
@@ -293,7 +294,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What’s your minimum project size for traditional measurement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We work on projects from £50K upwards. For very small projects (£50K-150K), we offer streamlined takeoffs with ±10-15% accuracy at reduced rates. For projects £150K+, we provide full detailed measurement with ±5-8% accuracy. No job is too small if you need professional measurement."
+        "text": "We work on projects from £50K upwards. For very small projects (£50K-150K), we offer streamlined takeoffs at reduced rates. For projects £150K+, we provide full detailed measurement. No job is too small if you need professional measurement."
       }
     },
     {
@@ -317,7 +318,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Do you provide remeasurement after design changes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, and at discounted rates! If we’ve already measured your project, remeasurement for design changes is typically 40-60% of original cost (depending on extent of changes). We maintain your original measurement files making updates efficient. Clients often engage us for multiple design iterations."
+        "text": "Yes, and at discounted rates. If we’ve already measured your project, remeasurement for design changes costs less than the original measurement, since we work from your existing files rather than starting again. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Clients often engage us for multiple design iterations."
       }
     },
     {
@@ -405,24 +406,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="../pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="../services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
@@ -437,14 +464,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -452,21 +471,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="../services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="../tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="../industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -476,12 +508,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../industries/healthcare-medical.html">
@@ -494,33 +535,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="../industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -570,7 +584,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="traditional-quantity-takeoff-from-2d-drawings">
@@ -586,24 +600,24 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2D Drawing Measurement</strong> - PDF, DWG, or paper formats
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2D Drawing Measurement</strong> - PDF, DWG, or paper formats
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>±5-8% Accuracy</strong> - Expert quantity surveyors
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Measured By Hand</strong> - Checked against the drawings and specification
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 Working Days</strong> - Faster than typical QS firms
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 Working Days</strong> - Faster than typical QS firms
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Get Quote</a> <a class="cta-secondary" href="../contact.html">Submit Drawings</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
 <div class="container">
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Traditional quantity takeoff</strong> is the process of manually measuring and listing construction material quantities from 2D drawings (PDFs, DWGs, or paper plans) using industry-standard measurement rules such as NRM2. While BIM-based automated takeoff is faster, traditional methods remain essential for projects without BIM models, refurbishment works, or when only 2D information is available. BIM Takeoff applies the same rigorous quality standards to traditional takeoffs, with expert quantity surveyors measuring to NRM2 or project-specific rules.</p>
+<p><strong>Traditional quantity takeoff</strong> is the process of manually measuring and listing construction material quantities from 2D drawings (PDFs, DWGs, or paper plans) using industry-standard measurement rules such as NRM2. While BIM-based automated takeoff is faster, traditional methods remain essential for projects without BIM models, refurbishment works, or when only 2D information is available. BIM Takeoff applies the same quality standards to traditional takeoffs, measuring to NRM2 or project-specific rules.</p>
 </div>
 <section class="level2" id="when-traditional-measurement-is-the-right-choice">
 <h2 class="anchored" data-anchor-id="when-traditional-measurement-is-the-right-choice">When Traditional Measurement Is The Right Choice</h2>
@@ -613,22 +627,22 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>Many valuable projects still rely on 2D drawings:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Refurbishment and renovation projects
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Refurbishment and renovation projects
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Smaller residential and commercial developments
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Smaller residential and commercial developments
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Infrastructure and civil engineering projects
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Infrastructure and civil engineering projects
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Historic building works and conservation
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Historic building works and conservation
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Early-stage concept designs (RIBA Stage 2)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Early-stage concept designs (RIBA Stage 2)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projects where BIM modeling is uneconomical
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projects where BIM modelling is uneconomical
 </p>
 </div>
 <section class="level4 callout-box" id="when-manual-beats-automated" style="background: linear-gradient(135deg, #e8f4ff 0%, #d4e9ff 100%); border-left: 4px solid var(--bim-orange);">
@@ -643,22 +657,22 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>20 years of hands-on measurement across every building type:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experienced Quantity Surveyors</strong> - 20+ years professional experience
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experienced Quantity Surveyor</strong> - 20+ years professional experience
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>±5-8% accuracy</strong> - consistent measurement standards
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Consistent methodology</strong> - the same measurement standards every time
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Digital or scale measurement</strong> - PDF or CAD drawings
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Digital or scale measurement</strong> - PDF or CAD drawings
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International standards</strong> - NRM, SMM7, POMI, local codes
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International standards</strong> - NRM, SMM7, POMI, local codes
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 day turnaround</strong> - faster than local firms
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 day turnaround</strong> - faster than local firms
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete audit trail</strong> - showing all calculations
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete audit trail</strong> - showing all calculations
 </p>
 </div>
 </section>
@@ -670,7 +684,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <h3 class="anchored" data-anchor-id="professional-tools-for-accurate-measurement">Professional Tools for Accurate Measurement</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="pdf-on-screen-takeoff" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="pdf-on-screen-takeoff"><i class="bi bi-file-earmark-pdf" style="color: var(--bim-orange); margin-right: 12px;"></i>PDF On-Screen Takeoff</h4>
+<h4 class="anchored" data-anchor-id="pdf-on-screen-takeoff"><i aria-hidden="true" class="bi bi-file-earmark-pdf" style="color: var(--bim-orange); margin-right: 12px;"></i>PDF On-Screen Takeoff</h4>
 <p><strong>For:</strong> Digital PDF drawings with scale/dimensions</p>
 <p><strong>Process:</strong></p>
 <ul>
@@ -681,10 +695,10 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <li>Color-coded markup for verification</li>
 <li>Export to Excel Bill of Quantities</li>
 </ul>
-<p><strong>Accuracy:</strong> ±5-7% | <strong>Fastest Method</strong></p>
+<p><strong>Fastest Method</strong></p>
 </section>
 <section class="level4" id="caddwg-measurement" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="caddwg-measurement"><i class="bi bi-bounding-box" style="color: var(--bim-orange); margin-right: 12px;"></i>CAD/DWG Measurement</h4>
+<h4 class="anchored" data-anchor-id="caddwg-measurement"><i aria-hidden="true" class="bi bi-bounding-box" style="color: var(--bim-orange); margin-right: 12px;"></i>CAD/DWG Measurement</h4>
 <p><strong>For:</strong> AutoCAD, ArchiCAD, Vectorworks files</p>
 <p><strong>Process:</strong></p>
 <ul>
@@ -695,10 +709,10 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <li>Layer-by-layer quantity extraction</li>
 <li>Cross-check with specifications</li>
 </ul>
-<p><strong>Accuracy:</strong> ±4-6% | <strong>Most Accurate for 2D</strong></p>
+<p><strong>Most Accurate for 2D</strong></p>
 </section>
 <section class="level4" id="scale-rule-measurement" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="scale-rule-measurement"><i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Scale Rule Measurement</h4>
+<h4 class="anchored" data-anchor-id="scale-rule-measurement"><i aria-hidden="true" class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Scale Rule Measurement</h4>
 <p><strong>For:</strong> Paper drawings or unscaled PDFs</p>
 <p><strong>Process:</strong></p>
 <ul>
@@ -709,10 +723,10 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <li>Arithmetic verification</li>
 <li>Conservative allowances for uncertainty</li>
 </ul>
-<p><strong>Accuracy:</strong> ±8-12% | <strong>Lower cost option</strong></p>
+<p><strong>Lower cost option</strong></p>
 </section>
 <section class="level4" id="specification-analysis" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="specification-analysis"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Specification Analysis</h4>
+<h4 class="anchored" data-anchor-id="specification-analysis"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Specification Analysis</h4>
 <p><strong>For:</strong> Incomplete drawings + full specifications</p>
 <p><strong>Process:</strong></p>
 <ul>
@@ -723,7 +737,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <li>Risk-weighted allowances</li>
 <li>Client review of assumptions</li>
 </ul>
-<p><strong>Accuracy:</strong> ±10-15% | <strong>For early-stage estimates</strong></p>
+<p><strong>For early-stage estimates</strong></p>
 </section>
 </div>
 <div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
@@ -818,16 +832,16 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>Higher accuracy and faster turnaround:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF</strong> - With embedded scale or dimensions (ideal)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF</strong> - With embedded scale or dimensions (ideal)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>DWG/DXF</strong> - AutoCAD native files (most accurate)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>DWG/DXF</strong> - AutoCAD native files (most accurate)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>DGN</strong> - MicroStation drawings
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>DGN</strong> - MicroStation drawings
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Scanned PDFs</strong> - From paper originals (if legible)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Scanned PDFs</strong> - From paper originals (if legible)
 </p>
 </div>
 <p><strong>Best For:</strong> Projects £250K+ where precision matters</p>
@@ -837,16 +851,16 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>We can also work from:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Paper Drawings</strong> - Sent by courier/post
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Paper Drawings</strong> - Sent by courier/post
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Reproductions</strong> - Heliographic prints, plotted copies
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Reproductions</strong> - Heliographic prints, plotted copies
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Archive Drawings</strong> - Historic plans (we can digitize)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Archive Drawings</strong> - Historic plans (we can digitize)
 </p>
 </div>
-<p><strong>Note:</strong> Physical drawings require scanning and have lower accuracy (±10-12%)</p>
+<p><strong>Note:</strong> Physical drawings require scanning and carry lower accuracy than digital originals</p>
 </section>
 </div>
 </section>
@@ -854,19 +868,19 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <h2 class="anchored" data-anchor-id="measurement-standards-we-follow">Measurement Standards We Follow</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="uk-standards">
-<h3 class="anchored" data-anchor-id="uk-standards"><i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Standards</h3>
+<h3 class="anchored" data-anchor-id="uk-standards"><i aria-hidden="true" class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>UK Standards</h3>
 <p>RICS New Rules of Measurement (NRM1, NRM2, NRM3), Standard Method of Measurement (SMM7), CESMM4 (civil works)</p>
 </section>
 <section class="level3 feature-card" id="australian-standards">
-<h3 class="anchored" data-anchor-id="australian-standards"><i class="bi bi-globe-asia-australia" style="color: var(--bim-orange); margin-right: 12px;"></i>Australian Standards</h3>
+<h3 class="anchored" data-anchor-id="australian-standards"><i aria-hidden="true" class="bi bi-globe-asia-australia" style="color: var(--bim-orange); margin-right: 12px;"></i>Australian Standards</h3>
 <p>Australian Institute of Quantity Surveyors (AIQS) Practice Manual, AS 4000 contract standards</p>
 </section>
 <section class="level3 feature-card" id="polish-standards">
-<h3 class="anchored" data-anchor-id="polish-standards"><i class="bi bi-flag" style="color: var(--bim-orange); margin-right: 12px;"></i>Polish Standards</h3>
+<h3 class="anchored" data-anchor-id="polish-standards"><i aria-hidden="true" class="bi bi-flag" style="color: var(--bim-orange); margin-right: 12px;"></i>Polish Standards</h3>
 <p>KNR 2-02 (roboty budowlane), przedmiar robót, kosztorysowanie inwestorskie (optional)</p>
 </section>
 <section class="level3 feature-card" id="international">
-<h3 class="anchored" data-anchor-id="international"><i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>International</h3>
+<h3 class="anchored" data-anchor-id="international"><i aria-hidden="true" class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>International</h3>
 <p>POMI (Principles of Measurement International), FIDIC measurement principles, local standards as required</p>
 </section>
 </div>
@@ -879,22 +893,22 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>Every traditional measurement includes:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Detailed Bill of Quantities</strong> (Excel format)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Detailed Bill of Quantities</strong> (Excel format)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dimensional Worksheets</strong> (showing all calculations)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dimensional Worksheets</strong> (showing all calculations)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Marked-Up Drawings</strong> (PDF with measurement areas highlighted)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Marked-Up Drawings</strong> (PDF with measurement areas highlighted)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Measurement Commentary</strong> (explaining methodology)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Measurement Commentary</strong> (explaining methodology)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Assumption Log</strong> (documenting decisions made)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Assumption Log</strong> (documenting decisions made)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Risk &amp; Opportunity Register</strong> (items needing clarification)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Risk &amp; Opportunity Register</strong> (items needing clarification)
 </p>
 </div>
 </section>
@@ -903,25 +917,25 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p>Enhance your takeoff with:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cost Estimation</strong> - Apply rates to quantities
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cost Estimation</strong> - Apply rates to quantities
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Elemental Cost Plan</strong> - RIBA/OGC format
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Elemental Cost Plan</strong> - RIBA/OGC format
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Benchmarking</strong> - Compare to similar projects
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Benchmarking</strong> - Compare to similar projects
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value Engineering</strong> - Cost reduction opportunities
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value Engineering</strong> - Cost reduction opportunities
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Design Review</strong> - Constructability feedback
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Design Review</strong> - Constructability feedback
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Tender Documentation</strong> - Prepare for bidding
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Tender Documentation</strong> - Prepare for bidding
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>On-site Verification</strong> - Physical measurement visits
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>On-site Verification</strong> - Physical measurement visits
 </p>
 </div>
 </section>
@@ -935,7 +949,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: How accurate is traditional measurement compared to BIM takeoff?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Traditional measurement by experienced QS typically achieves ±5-8% accuracy vs ±3-5% for BIM takeoff. The difference is acceptable for most projects under £5M. For larger, more complex projects where precision is critical, BIM takeoff is recommended. However, traditional measurement remains more cost-effective for smaller jobs.</p>
+<p>A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it. Traditional measurement generally carries a wider margin than BIM takeoff, since it works from 2D representations rather than a coordinated model. For larger, more complex projects where precision is critical, BIM takeoff is recommended. However, traditional measurement remains more cost-effective for smaller jobs.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -943,7 +957,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: What if our drawings are incomplete or at early design stage?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We work with concept and sketch designs regularly. We’ll make reasonable assumptions based on similar projects, document everything clearly, and provide ranges (e.g., ±15-20%) rather than false precision. We can also highlight information needed to improve accuracy as design develops.</p>
+<p>A: We work with concept and sketch designs regularly. We’ll make reasonable assumptions based on similar projects, document everything clearly, and provide a range rather than false precision. We can also highlight information needed to improve accuracy as design develops.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -951,7 +965,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: Can you measure from site photos or survey data?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: For renovation/refurbishment projects, yes! We can prepare BOQs from measured surveys, photographic surveys, or site visit notes. This is common for projects where as-built drawings don’t exist. Accuracy depends on survey quality but typically achieves ±10-12%, which is acceptable for renovation budgeting.</p>
+<p>A: For renovation/refurbishment projects, yes! We can prepare BOQs from measured surveys, photographic surveys, or site visit notes. This is common for projects where as-built drawings don’t exist. Accuracy depends on survey quality, and we flag where it falls short of what a full measured survey would give.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -959,7 +973,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: Do you only measure buildings, or also civil works?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We measure both! Our team includes specialists in roads, drainage, earthworks, retaining structures, and utilities. We follow CESMM4 for civil engineering projects. Common projects include road construction, car parks, external works packages, and infrastructure projects.</p>
+<p>A: We measure both! We cover roads, drainage, earthworks, retaining structures, and utilities. We follow CESMM4 for civil engineering projects. Common projects include road construction, car parks, external works packages, and infrastructure projects.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -967,7 +981,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: What’s your minimum project size for traditional measurement?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We work on projects from £50K upwards. For very small projects (£50K-150K), we offer streamlined takeoffs with ±10-15% accuracy at reduced rates. For projects £150K+, we provide full detailed measurement with ±5-8% accuracy. No job is too small if you need professional measurement.</p>
+<p>A: We work on projects from £50K upwards. For very small projects (£50K-150K), we offer streamlined takeoffs at reduced rates. For projects £150K+, we provide full detailed measurement. No job is too small if you need professional measurement.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -991,7 +1005,7 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 <p><strong>Q: Do you provide remeasurement after design changes?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes, and at discounted rates! If we’ve already measured your project, remeasurement for design changes is typically 40-60% of original cost (depending on extent of changes). We maintain your original measurement files making updates efficient. Clients often engage us for multiple design iterations.</p>
+<p>A: Yes, and at discounted rates. If we’ve already measured your project, remeasurement for design changes costs less than the original measurement, since we work from your existing files rather than starting again. Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Clients often engage us for multiple design iterations.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1012,12 +1026,12 @@ PDF, DWG, or paper drawings - we measure them all.</p>
 BIM Not Available? No Problem.
 </h2>
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-Let experienced Quantity Surveyors deliver the accuracy you need from 2D drawings.
+Let an experienced Quantity Surveyor deliver the measurement you need from 2D drawings.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Submit Drawings
+Send Us Your Drawings
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
 Email or upload drawings for review
@@ -1025,36 +1039,28 @@ Email or upload drawings for review
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Get Samples
+Free Sample Takeoff
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
 See examples of our BOQs
 </p>
 </div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Receive Quote
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Fixed price within 24 hours
-</p>
-</div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Submit Drawings</a> <a class="cta-secondary" href="../coming-soon.html">View Samples</a> <a class="cta-secondary" href="../contact.html">Get Quote</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5-8% Measurement Accuracy</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Measured to the Drawings You Send</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Experienced Professional Surveyors</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Experienced Professional Surveyor</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>5-15 Day Turnaround</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>5-15 Day Turnaround</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
 </p>
 </div>
 </div>
@@ -1062,7 +1068,7 @@ Fixed price within 24 hours
 <section class="level3" id="need-help-now" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
 <h3 class="anchored" data-anchor-id="need-help-now">Need Help Now?</h3>
 <p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-<p><strong>Office Hours:</strong> Monday-Friday, 9:00-17:00 CET</p>
+<p><strong>Office hours:</strong> Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.</p>
 </section>
 <p>:::</p>
 </section>
@@ -1476,31 +1482,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="../services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="../services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="../industries/remediation.html">Facade and cladding remediation</a><br/> <a href="../services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="../pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="../privacy-policy.html">Privacy policy</a> · <a href="../terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="../js/scroll-effects.js"></script>
 <script src="../js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="../js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="../js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="../js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="../js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

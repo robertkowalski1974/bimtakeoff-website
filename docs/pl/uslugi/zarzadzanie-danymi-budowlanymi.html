@@ -66,9 +66,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -78,6 +81,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -91,32 +102,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Zarządzanie Danymi Budowlanymi | ISO 19650" name="twitter:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" name="twitter:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -124,7 +131,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -173,14 +180,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -197,7 +198,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Zarządzanie Danymi Budowlanymi | ISO 19650" property="og:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" property="og:description"/>
+<meta content="Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -240,7 +241,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     },
     {
       "@type": "Question",
-      "name": "P: Co jeśli nasz zespół projektowy już ma CDE? Czy nadal potrzebujemy Waszej pomocy?",
+      "name": "P: Mamy już wdrożone CDE. Czy nadal potrzebujemy waszej pomocy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "O: Nadal możemy dodać wartość poprzez: opracowanie EIR, koordynację informacji w zespołach zadaniowych, zapewnienie jakości, federację modeli, wykrywanie kolizji, przygotowanie przekazania i zapewnienie zgodności z ISO 19650. Wiele projektów ma wiele CDE (projektant, wykonawca, klient) wymagających koordynacji - my zarządzamy tymi interfejsami."
@@ -251,7 +252,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Ile kosztuje zarządzanie informacją?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Zależy od wielkości projektu i zakresu usług. Konfiguracja (EIR, BEP, konfiguracja CDE) dla projektu o wartości 40M PLN: 60K-100K PLN. Wsparcie Menedżera Informacji w niepełnym wymiarze: 12K-20K PLN/miesiąc. Dedykowany zasób pełnoetatowy: 24K-40K PLN/miesiąc. Usługi Golden Thread: 80K-200K PLN w zależności od złożoności budynku. Inwestycja zazwyczaj oszczędza 2-5x dzięki zmniejszeniu przeróbek i lepszym wynikom projektu."
+        "text": "O: Zależy od wielkości projektu i zakresu usług: inaczej wycenia się samą konfigurację (EIR, BEP, uruchomienie CDE), a inaczej bieżące prowadzenie informacji przez cały cykl życia projektu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy."
       }
     },
     {
@@ -297,7 +298,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Polska, Wielka Brytania i Australia."
 }
 </script>
 <script type="application/ld+json">
@@ -347,7 +348,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -355,97 +356,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -453,16 +429,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -507,7 +525,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="zarządzanie-danymi-budowlanymi-i-zgodność-z-iso-19650">
@@ -523,18 +541,18 @@ Od przetargu przez przekazanie i dalej.</p>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność z ISO 19650</strong> - Przestrzeganie UK BIM Framework
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność z ISO 19650</strong> - Przestrzeganie UK BIM Framework
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konfiguracja i Zarządzanie CDE</strong> - Ustrukturyzowane środowiska danych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konfiguracja i Zarządzanie CDE</strong> - Ustrukturyzowane środowiska danych
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Kompleksowe zarządzanie informacją w cyklu życia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Golden Thread</strong> - Kompleksowe zarządzanie informacją w cyklu życia
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Poproś o Konsultację</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Rozwiązania CDE</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -547,29 +565,27 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Słabe zarządzanie danymi tworzy kosztowne problemy:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 5-15% czasu projektu marnowanego na szukanie informacji
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Czas zespołu tracony na szukanie aktualnej wersji dokumentu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Przeróbki z powodu użycia niewłaściwych wersji dokumentów
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Przeróbki z powodu użycia niewłaściwych wersji dokumentów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niepowodzenia w zakresie zgodności z przepisami
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niepowodzenia w zakresie zgodności z przepisami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niekompletne informacje przy przekazaniu
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niekompletne informacje przy przekazaniu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Instrukcje eksploatacji i konserwacji z brakującymi danymi
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Instrukcje eksploatacji i konserwacji z brakującymi danymi
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Narażenie prawne z powodu złych zapisów
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Narażenie prawne z powodu złych zapisów
 </p>
 </div>
-<section class="level4 callout-box" id="wymóg-regulacyjny" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="wymóg-regulacyjny">Wymóg Regulacyjny</h4>
-<blockquote class="blockquote">
-<p>“W Polsce, choć nie ma jeszcze tak rygorystycznych przepisów jak Building Safety Act 2022 w UK, ustrukturyzowane zarządzanie informacją staje się standardem w dużych projektach deweloperskich i inwestycjach publicznych. Profesjonalne zarządzanie danymi to już nie tylko efektywność - to wymóg rynkowy.”</p>
-</blockquote>
+<section class="level4 callout-box" id="wymóg-rynkowy" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
+<h4 class="anchored" data-anchor-id="wymóg-rynkowy">Wymóg rynkowy</h4>
+<p>W Polsce nie obowiązują jeszcze przepisy tak rygorystyczne jak brytyjski Building Safety Act 2022, ale uporządkowane zarządzanie informacją staje się standardem w dużych inwestycjach deweloperskich i publicznych. Coraz częściej jest to warunek udziału, a nie kwestia wygody.</p>
 </section>
 </section>
 <section class="level3" id="nasze-rozwiązanie-zarządzania-informacją" style="">
@@ -577,22 +593,22 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Zarządzanie danymi zgodne z ISO 19650, skupione na całym cyklu życia:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność z ISO 19650</strong> - Przestrzeganie UK BIM Framework
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność z ISO 19650</strong> - Przestrzeganie UK BIM Framework
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ustrukturyzowane CDE</strong> - Wszyscy natychmiast znajdują informacje
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ustrukturyzowane CDE</strong> - Wszyscy natychmiast znajdują informacje
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kontrola wersji</strong> - Koniec z błędami niewłaściwych rysunków
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kontrola wersji</strong> - Koniec z błędami niewłaściwych rysunków
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Gotowość Golden Thread</strong> - Zgodność z najwyższymi standardami
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Gotowość Golden Thread</strong> - Zgodność z najwyższymi standardami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cyfrowe przekazanie</strong> - Kompletne, ustrukturyzowane dane eksploatacyjne
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cyfrowe przekazanie</strong> - Kompletne, ustrukturyzowane dane eksploatacyjne
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ścieżka audytu</strong> - Pełna dokumentacja cyklu życia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ścieżka audytu</strong> - Pełna dokumentacja cyklu życia
 </p>
 </div>
 </section>
@@ -604,7 +620,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <h3 class="anchored" data-anchor-id="kompleksowe-zarządzanie-informacją">Kompleksowe Zarządzanie Informacją</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="strategia-bim-i-eir" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="strategia-bim-i-eir"><i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia BIM i EIR</h4>
+<h4 class="anchored" data-anchor-id="strategia-bim-i-eir"><i aria-hidden="true" class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia BIM i EIR</h4>
 <p><strong>Wymagania Informacyjne</strong></p>
 <ul>
 <li>Wymagania Informacyjne Zamawiającego (EIR)</li>
@@ -617,7 +633,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>Rezultat:</strong> Pakiet dokumentacji zgodny z ISO 19650</p>
 </section>
 <section class="level4" id="wdrożenie-cde" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="wdrożenie-cde"><i class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>Wdrożenie CDE</h4>
+<h4 class="anchored" data-anchor-id="wdrożenie-cde"><i aria-hidden="true" class="bi bi-hdd-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>Wdrożenie CDE</h4>
 <p><strong>Wspólne Środowisko Danych</strong></p>
 <ul>
 <li>Wybór platformy (BIM 360, Asite, 4Projects)</li>
@@ -630,7 +646,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>Rezultat:</strong> W pełni operacyjne CDE z przeszkolonymi użytkownikami</p>
 </section>
 <section class="level4" id="koordynacja-danych" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="koordynacja-danych"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Koordynacja Danych</h4>
+<h4 class="anchored" data-anchor-id="koordynacja-danych"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Koordynacja Danych</h4>
 <p><strong>Zarządzanie Informacją</strong></p>
 <ul>
 <li>Koordynacja modeli (wykrywanie kolizji)</li>
@@ -643,7 +659,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>Rezultat:</strong> Skoordynowane informacje bez kolizji</p>
 </section>
 <section class="level4" id="zapewnienie-jakości" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="zapewnienie-jakości"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zapewnienie Jakości</h4>
+<h4 class="anchored" data-anchor-id="zapewnienie-jakości"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zapewnienie Jakości</h4>
 <p><strong>Walidacja Informacji</strong></p>
 <ul>
 <li>Kontrole jakości modelu (weryfikacja LOD)</li>
@@ -656,7 +672,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>Rezultat:</strong> Kontenery informacji z zapewnieniem jakości</p>
 </section>
 <section class="level4" id="cyfrowe-przekazanie" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="cyfrowe-przekazanie"><i class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Cyfrowe Przekazanie</h4>
+<h4 class="anchored" data-anchor-id="cyfrowe-przekazanie"><i aria-hidden="true" class="bi bi-box-arrow-up" style="color: var(--bim-orange); margin-right: 12px;"></i>Cyfrowe Przekazanie</h4>
 <p><strong>Model Informacji o Zasobach</strong></p>
 <ul>
 <li>Walidacja modelu as-built</li>
@@ -669,7 +685,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>Rezultat:</strong> Kompletny cyfrowy Model Informacji o Zasobach (AIM)</p>
 </section>
 <section class="level4" id="golden-thread" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="golden-thread"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread</h4>
+<h4 class="anchored" data-anchor-id="golden-thread"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Golden Thread</h4>
 <p><strong>Zgodność z Najwyższymi Standardami</strong></p>
 <ul>
 <li>Informacje o budynkach wysokiego ryzyka</li>
@@ -788,25 +804,25 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Pełna zgodność z normami brytyjskimi i międzynarodowymi:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-1</strong> - Koncepcje i zasady
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-1</strong> - Koncepcje i zasady
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-2</strong> - Faza realizacji
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-2</strong> - Faza realizacji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-3</strong> - Faza operacyjna
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-3</strong> - Faza operacyjna
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-5</strong> - Podejście zorientowane na bezpieczeństwo
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ISO 19650-5</strong> - Podejście zorientowane na bezpieczeństwo
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BS EN 17412-1</strong> - Poziom Potrzeby Informacyjnej
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BS EN 17412-1</strong> - Poziom Potrzeby Informacyjnej
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>UK BIM Framework</strong> - Wytyczne v3
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>UK BIM Framework</strong> - Wytyczne v3
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act 2022</strong> - Golden Thread
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act 2022</strong> - Golden Thread
 </p>
 </div>
 </section>
@@ -815,22 +831,22 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Pracujemy ze wszystkimi głównymi formatami branżowymi:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>IFC</strong> - Otwarty standard BIM (IFC2x3, IFC4)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>IFC</strong> - Otwarty standard BIM (IFC2x3, IFC4)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BCF</strong> - Format Współpracy BIM (śledzenie problemów)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BCF</strong> - Format Współpracy BIM (śledzenie problemów)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>COBie</strong> - Wymiana informacji o operacjach budowlanych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>COBie</strong> - Wymiana informacji o operacjach budowlanych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Formaty natywne</strong> - Revit, ArchiCAD, Tekla, Navisworks
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Formaty natywne</strong> - Revit, ArchiCAD, Tekla, Navisworks
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF/A</strong> - Formaty archiwizacji długoterminowej
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>PDF/A</strong> - Formaty archiwizacji długoterminowej
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Excel/CSV</strong> - Harmonogramy danych i rejestry
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Excel/CSV</strong> - Harmonogramy danych i rejestry
 </p>
 </div>
 </section>
@@ -840,19 +856,19 @@ Od przetargu przez przekazanie i dalej.</p>
 <h2 class="anchored" data-anchor-id="platformy-cde-które-obsługujemy">Platformy CDE, Które Obsługujemy</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="platformy-autodesk">
-<h3 class="anchored" data-anchor-id="platformy-autodesk"><i class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Platformy Autodesk</h3>
+<h3 class="anchored" data-anchor-id="platformy-autodesk"><i aria-hidden="true" class="bi bi-cloud-upload" style="color: var(--bim-orange); margin-right: 12px;"></i>Platformy Autodesk</h3>
 <p>BIM 360, Autodesk Construction Cloud (ACC), Collaboration for Revit</p>
 </section>
 <section class="level3 feature-card" id="liderzy-rynku-uk">
-<h3 class="anchored" data-anchor-id="liderzy-rynku-uk"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Liderzy Rynku UK</h3>
+<h3 class="anchored" data-anchor-id="liderzy-rynku-uk"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Liderzy Rynku UK</h3>
 <p>Asite, 4Projects, Viewpoint, Causeway, BIW Technologies</p>
 </section>
 <section class="level3 feature-card" id="rozwiązania-międzynarodowe">
-<h3 class="anchored" data-anchor-id="rozwiązania-międzynarodowe"><i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozwiązania Międzynarodowe</h3>
+<h3 class="anchored" data-anchor-id="rozwiązania-międzynarodowe"><i aria-hidden="true" class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozwiązania Międzynarodowe</h3>
 <p>Trimble Connect, Bentley ProjectWise, Oracle Aconex, Procore</p>
 </section>
 <section class="level3 feature-card" id="opcje-open-source">
-<h3 class="anchored" data-anchor-id="opcje-open-source"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Opcje Open-Source</h3>
+<h3 class="anchored" data-anchor-id="opcje-open-source"><i aria-hidden="true" class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Opcje Open-Source</h3>
 <p>SharePoint z niestandardowymi przepływami pracy, Alfresco, rozwiązania self-hosted</p>
 </section>
 </div>
@@ -865,22 +881,22 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Każde zlecenie zarządzania danymi obejmuje:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wymagania Informacyjne</strong> (EIR, BEP, TIDP)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wymagania Informacyjne</strong> (EIR, BEP, TIDP)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konfiguracja CDE</strong> (struktura, przepływy pracy, uprawnienia)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konfiguracja CDE</strong> (struktura, przepływy pracy, uprawnienia)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konwencje Nazewnictwa</strong> (BS 1192, Uniclass 2015)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konwencje Nazewnictwa</strong> (BS 1192, Uniclass 2015)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zapewnienie Jakości</strong> (kontrole modeli, walidacja danych)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zapewnienie Jakości</strong> (kontrole modeli, walidacja danych)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szkolenie Użytkowników</strong> (wdrożenie i wsparcie zespołu)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szkolenie Użytkowników</strong> (wdrożenie i wsparcie zespołu)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokumentacja</strong> (procedury, standardy, szablony)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokumentacja</strong> (procedury, standardy, szablony)
 </p>
 </div>
 </section>
@@ -889,25 +905,25 @@ Od przetargu przez przekazanie i dalej.</p>
 <p>Rozszerz swoje zarządzanie informacją:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dedykowany Menedżer Informacji</strong> - Zasób pełnoetatowy
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dedykowany Menedżer Informacji</strong> - Zasób pełnoetatowy
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Usługi Koordynacji Modeli</strong> - Tygodniowe wykrywanie kolizji
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Usługi Koordynacji Modeli</strong> - Tygodniowe wykrywanie kolizji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność Golden Thread</strong> - Wsparcie według najwyższych standardów
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność Golden Thread</strong> - Wsparcie według najwyższych standardów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Integracja CAFM</strong> - Połączenie z systemami FM (Maximo, Archibus)
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Integracja CAFM</strong> - Połączenie z systemami FM (Maximo, Archibus)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Migracja Danych</strong> - Transfery z systemów starszej generacji
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Migracja Danych</strong> - Transfery z systemów starszej generacji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Usługi Audytowe</strong> - Audyty zgodności z ISO 19650
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Usługi Audytowe</strong> - Audyty zgodności z ISO 19650
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie Po Oddaniu</strong> - Bieżące zarządzanie danymi FM
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie Po Oddaniu</strong> - Bieżące zarządzanie danymi FM
 </p>
 </div>
 </section>
@@ -950,7 +966,7 @@ Od przetargu przez przekazanie i dalej.</p>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Co jeśli nasz zespół projektowy już ma CDE? Czy nadal potrzebujemy Waszej pomocy?</strong></p>
+<p><strong>P: Mamy już wdrożone CDE. Czy nadal potrzebujemy waszej pomocy?</strong></p>
 </div>
 <div class="faq-answer">
 <p>O: Nadal możemy dodać wartość poprzez: opracowanie EIR, koordynację informacji w zespołach zadaniowych, zapewnienie jakości, federację modeli, wykrywanie kolizji, przygotowanie przekazania i zapewnienie zgodności z ISO 19650. Wiele projektów ma wiele CDE (projektant, wykonawca, klient) wymagających koordynacji - my zarządzamy tymi interfejsami.</p>
@@ -961,7 +977,7 @@ Od przetargu przez przekazanie i dalej.</p>
 <p><strong>P: Ile kosztuje zarządzanie informacją?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Zależy od wielkości projektu i zakresu usług. Konfiguracja (EIR, BEP, konfiguracja CDE) dla projektu o wartości 40M PLN: 60K-100K PLN. Wsparcie Menedżera Informacji w niepełnym wymiarze: 12K-20K PLN/miesiąc. Dedykowany zasób pełnoetatowy: 24K-40K PLN/miesiąc. Usługi Golden Thread: 80K-200K PLN w zależności od złożoności budynku. Inwestycja zazwyczaj oszczędza 2-5x dzięki zmniejszeniu przeróbek i lepszym wynikom projektu.</p>
+<p>O: Zależy od wielkości projektu i zakresu usług: inaczej wycenia się samą konfigurację (EIR, BEP, uruchomienie CDE), a inaczej bieżące prowadzenie informacji przez cały cykl życia projektu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1003,44 +1019,39 @@ Zarządzanie informacją zgodne z ISO 19650 od ekspertów rozumiejących budowni
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Poproś o Konsultację
+Prześlij dokumentację
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów swoje potrzeby informacyjne
+Zakres projektu, wymagania informacyjne i obecne CDE. Odpowiadamy w ciągu jednego dnia roboczego.
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Zobacz Przykłady CDE
+Bezpłatny przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Przejrzyj studia przypadków wdrożeń
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Uzyskaj Wycenę
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Propozycja w zakresie w 3 dni
+Mierzymy jeden element z Waszej dokumentacji, żeby pokazać format i sposób pracy.
 </p>
 </div>
 </div>
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+</p>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Poproś o Konsultację</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Przykłady</a> <a class="cta-secondary" href="../kontakt.html">Uzyskaj Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Certyfikowani Specjaliści ISO 19650</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Praca zgodna z ISO 19650</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zgodność z Najwyższymi Standardami</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Golden Thread prowadzony od przetargu do eksploatacji</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Niezależność Platformy CDE</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Niezależność od platformy CDE</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong>
 </p>
 </div>
 </div>
@@ -1462,30 +1473,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

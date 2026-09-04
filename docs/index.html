@@ -4,8 +4,8 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry packages. UK, Australia and Poland." name="description"/>
-<title>BIM Takeoff - Quantity Takeoff &amp; Cost Estimation Services</title>
+<meta content="Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland." name="description"/>
+<title>BIM Takeoff - Quantity Takeoffs and Priced Bills for Subcontractors</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="./css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,39 +104,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
-<meta content="BIM Takeoff - Quantity Takeoff &amp; Cost Estimation Services" name="twitter:title"/>
-<meta content="Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry packages. UK, Australia and Poland." name="twitter:description"/>
+<meta content="BIM Takeoff - Quantity Takeoffs and Priced Bills for Subcontractors" name="twitter:title"/>
+<meta content="Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -246,8 +247,8 @@ if (!window.location.pathname.includes('/pl/')) {
 }
 </script>
 <link href="css/styles.css" rel="stylesheet"/>
-<meta content="BIM Takeoff - Quantity Takeoff &amp; Cost Estimation Services" property="og:title"/>
-<meta content="Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry packages. UK, Australia and Poland." property="og:description"/>
+<meta content="BIM Takeoff - Quantity Takeoffs and Priced Bills for Subcontractors" property="og:title"/>
+<meta content="Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
@@ -258,50 +259,42 @@ if (!window.location.pathname.includes('/pl/')) {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Do you work with international pricing databases and standards?",
+      "name": "What do you need from me to start?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we work with local pricing databases across UK, EU, and Australia. We adapt to your market’s standards including RICS NRM, BCIS, and regional cost data to ensure accurate estimates."
+        "text": "Drawings as PDF or DWG, the specification or NBS output, the tender bill if there is one, and your return date. We read IFC from Revit, ArchiCAD and Tekla if you have a model, but we do not need one — most of what we measure comes off 2D drawings."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you handle fast-track design changes?",
+      "name": "Is my package too small?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Real-time updates. When changes occur in your BIM model, we can update costs within 24 hours."
+        "text": "No. Most of what we do is single trade packages."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you offer ongoing cost control during construction?",
+      "name": "What format does the takeoff or priced bill come back in?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. We provide weekly or monthly cost reports, comparing actual vs. estimated costs with early warning systems for overruns."
+        "text": "Yours. Excel in your estimating layout, a CITE/eBQ file for import, or the bill format your main contractor has issued. Tell us what your estimator works in and we deliver to it."
       }
     },
     {
       "@type": "Question",
-      "name": "What file formats do you accept?",
+      "name": "What does it cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "IFC (Industry Foundation Classes) from Revit, ArchiCAD, Tekla. We also handle 2D drawings when BIM models aren’t available."
+        "text": "Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree."
       }
     },
     {
       "@type": "Question",
-      "name": "Can you handle projects under 30,000 m²?",
+      "name": "How accurate are the quantities?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, while we specialize in larger projects, we accept projects of all sizes. Contact us to discuss your specific needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What makes you different from other quantity surveying firms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our international experience (20 years UK/Australia), advanced BIM technology, and specialist trade expertise in complex packages like drylining, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facades. We combine global best practices with local market knowledge and regulatory compliance."
+        "text": "Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it."
       }
     }
   ]
@@ -337,24 +330,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="./services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="./services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="./pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="./services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="./services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/mep-infrastructure-precision.html">
@@ -369,14 +388,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="./services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -384,21 +395,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="./services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="./services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="./tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="./industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="./resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="./resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="./resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="./industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -408,12 +432,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="./industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="./industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./industries/healthcare-medical.html">
@@ -426,33 +459,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="./industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="./tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="./resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -490,11 +496,11 @@ if (!window.location.pathname.includes('/pl/')) {
 <main class="content column-page" id="quarto-document-content">
 <header class="quarto-title-block default" id="title-block-header">
 <div class="quarto-title">
-<h1 class="title">Quantity Takeoff &amp; Cost Estimation Services</h1>
+<h1 class="title">Quantity Takeoffs and Priced Bills for Subcontractors</h1>
 </div>
 <div>
 <div class="description">
-    Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry packages. UK, Australia and Poland.
+    Quantity takeoffs, priced bills and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. UK, Australia and Poland.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -502,494 +508,286 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="images/header-background.jpg"> <source src="images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="images/header-background.jpg" preload="none"> <source data-src="images/hero-video.webm" type="video/webm"/> <source data-src="images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <div class="hero-title">
 <p><br/></p>
 <div class="hero-eyebrow">
-<p>Expert Quantity Surveying &amp; Cost Estimation for Construction Excellence</p>
+<p>Quantity surveying for subcontractors · UK · Australia · Poland</p>
 </div>
-<section class="level1" id="bim-takeoff-services">
-<h1>BIM Takeoff Services</h1>
+<section class="level1" id="quantity-takeoffs-and-priced-bills-for-specialist-subcontractors">
+<h1>Quantity takeoffs and priced bills for specialist subcontractors</h1>
 </section>
 </div>
 <div class="hero-subtitle">
-<p>Over 2,000 projects delivered across drylining, structural works, fire protection, and facade packages. From detailed takeoffs to complete tender packages - we deliver worldwide.</p>
+<p>Send us the drawings for your next drylining, facade, firestopping, screed or structural tender. You get a measured takeoff or a priced bill in your own format, ready to submit.</p>
 </div>
-<div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="./contact.html">GET IN TOUCH</a> <a class="cta-secondary" href="#our-services">VIEW SERVICES</a></p>
+<div class="hero-actions">
+<p><a class="cta-primary" href="./contact.html">Send us your drawings</a> <a class="cta-secondary" href="./contact.html#sample">Free sample takeoff</a></p>
+</div>
+</div>
+</div>
+<div class="proof-band">
+<div class="container">
+<div class="proof-band-head">
+<div class="proof-band-headline">
+<p>20 years measuring and pricing construction work in the UK, Australia and Poland.</p>
+</div>
+<div class="proof-band-sub">
+<p>Measured to NRM2, SMM7, AS 4000 or KNR/KNNR, whichever your bill is written to.</p>
+</div>
+</div>
+<div class="proof-cards">
+<div class="proof-card">
+<div class="proof-card-label">
+<p>Main contractor · full takeoff</p>
+</div>
+<div class="proof-card-title">
+<p>Residential block, London</p>
+</div>
+<div class="proof-card-text">
+<p>Complete measured takeoff for the main contractor’s tender: 32 trade bills from one drawing set, issued in the contractor’s estimating format with a query register.</p>
+</div>
+<div class="proof-card-foot">
+<p>Bills issued in two weeks.</p>
+</div>
+</div>
+<div class="proof-card">
+<div class="proof-card-label">
+<p>Facade remediation · Gateway 2</p>
+</div>
+<div class="proof-card-title">
+<p>£15m package, Birmingham</p>
+</div>
+<div class="proof-card-text">
+<p>Scope and cost from the FRAEW report and survey drawings, priced with access and phasing for the Gateway 2 submission.</p>
+</div>
+</div>
+<div class="proof-card">
+<div class="proof-card-label">
+<p>Drylining and screed</p>
+</div>
+<div class="proof-card-title">
+<p>£7m package, residential tower, central London</p>
+</div>
+<div class="proof-card-text">
+<p>Partitions, linings and MF ceilings measured by wall type from the GA plans; screed by zone. Bill in the subcontractor’s own format.</p>
+</div>
+</div>
+<div class="proof-card">
+<div class="proof-card-label">
+<p>Structural · Australia</p>
+</div>
+<div class="proof-card-title">
+<p>AUD 26m defence project, nine buildings</p>
+</div>
+<div class="proof-card-text">
+<p>Formwork, reinforcement and concrete by element from the structural set, priced in the contractor’s schedule format.</p>
+</div>
+</div>
+</div>
+<div class="proof-note">
+<p>Client names on request. Most of our work is subcontract tender support and stays confidential until award.</p>
 </div>
 </div>
 </div>
 <div class="container">
-<section class="level2" id="about-us">
-<h2 class="anchored" data-anchor-id="about-us">About Us</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 32px 0;">
-<div style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-award" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i></p>
-<div style="flex: 1;">
-<p><strong>Quantity Surveying Excellence</strong></p>
-<p>2,000+ Projects Estimated | UK, Australia &amp; Europe</p>
-</div>
-</div>
-<div style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-tools" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i></p>
-<div style="flex: 1;">
-<p><strong>Specialist Trade Knowledge</strong></p>
-<p>Drylining Systems | Fire Protection | Facades &amp; Cladding | Structural Works</p>
-</div>
-</div>
-<div style="display: flex; align-items: center; background: white; padding: 20px; border-left: 4px solid var(--bim-orange); box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-shield-check" style="font-size: 48px; color: var(--bim-orange); margin-right: 20px; flex-shrink: 0;"></i></p>
-<div style="flex: 1;">
-<p><strong>BSR/HRB Compliance Experts</strong></p>
-<p>Building Safety Act | High Risk Buildings | Fire Safety</p>
-</div>
-</div>
-</div>
+<section class="level2" id="what-we-measure-and-price">
+<h2 class="anchored" data-anchor-id="what-we-measure-and-price">What we measure and price</h2>
+<p>We measure and price single trade packages. Mostly for subcontractors bidding to a main contractor, sometimes for the main contractor checking what came back.</p>
+<table class="comparison-table">
+<thead>
+<tr>
+<th style="width: 28%;">
+Service
+</th>
+<th style="width: 46%;">
+What you get
+</th>
+<th>
+Measured to
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong><a href="services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a></strong>
+</td>
+<td>
+Measured quantities by element, floor and block from 2D drawings, DWG or IFC models. Delivered in your bill format, with the assumptions listed.
+</td>
+<td>
+NRM2 · SMM7 · CITE/eBQ
+</td>
+</tr>
+<tr>
+<td>
+<strong><a href="services/cost-estimation-budget-planning.html">Tender pricing and bid support</a></strong>
+</td>
+<td>
+Priced bill, preliminaries, qualifications and a tender query register. Checked against the specification before it goes out.
+</td>
+<td>
+Your rates or ours
+</td>
+</tr>
+<tr>
+<td>
+<strong><a href="industries/remediation.html">Facade and cladding remediation</a></strong>
+</td>
+<td>
+Scope and cost from the FRAEW or EWS report and survey drawings. Access, phasing and Gateway 2 submission costs included.
+</td>
+<td>
+BSR Gateway 2 · PAS 9980
+</td>
+</tr>
+<tr>
+<td>
+<strong><a href="services/trade-specific-specialist-services.html">Specialist trade packages</a></strong>
+</td>
+<td>
+Drylining and screed, firestopping, structural frame, masonry and tiling. Boundary items with the next trade flagged.
+</td>
+<td>
+NRM2 · AS 4000 · AS 3700
+</td>
+</tr>
+<tr>
+<td>
+<strong><a href="./pl/">Poland: kosztorysy and PZP tenders</a></strong>
+</td>
+<td>
+Przedmiar robót, kosztorys ofertowy and kosztorys inwestorski for public and private tenders. Steel halls and prefabricated structures.
+</td>
+<td>
+KNR/KNNR · Norma PRO · PZP
+</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section class="level2" id="specialist-quantity-surveying-for-complex-construction">
-<h2 class="anchored" data-anchor-id="specialist-quantity-surveying-for-complex-construction">Specialist Quantity Surveying for Complex Construction</h2>
-<p>Not all QS services are created equal. We specialize in high-value, high-complexity packages where accuracy matters most - drylining systems, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facade compliance.</p>
-<p>With 2,000+ projects estimated across UK, Australia, and Europe, we deliver the precision and speed contractors need to win profitable work.</p>
-<p>From detailed BIM takeoffs to BSR/HRB compliance cost assessments, our expertise helps you price with confidence and avoid costly surprises.</p>
-<div class="image-section" style="margin: 48px 0; text-align: center;">
-<div class="quarto-figure quarto-figure-center" style="max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;">
-<figure class="figure">
-<p><img class="img-fluid figure-img" src="images/bim-technology.png" width="900"/></p>
-<figcaption>BIM model with quantity takeoff overlay</figcaption>
-</figure>
-</div>
-</div>
-<div class="stats-section">
-<div class="stat">
-<div class="stat-number">
-<p>2000+</p>
-</div>
-<div class="stat-label">
-<p>Projects Delivered</p>
-</div>
-</div>
-<div class="stat">
-<div class="stat-number">
-<p>12M+</p>
-</div>
-<div class="stat-label">
-<p>Square Meters Estimated</p>
-</div>
-</div>
-<div class="stat">
-<div class="stat-number">
-<p>20+</p>
-</div>
-<div class="stat-label">
-<p>Years Experience</p>
-</div>
-</div>
-<div class="stat">
-<div class="stat-number">
-<p>90%</p>
-</div>
-<div class="stat-label">
-<p>Faster Delivery</p>
-</div>
-</div>
-</div>
-</section>
-<section class="level2" id="why-us">
-<h2 class="anchored" data-anchor-id="why-us">Why Us?</h2>
-<div class="feature-grid">
-<section class="level3 feature-card" id="precision-built-on-experience">
-<h3 class="anchored" data-anchor-id="precision-built-on-experience"><i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Precision Built on Experience</h3>
-<p><strong>2,000+ Projects Across Three Continents</strong></p>
-<p>Two decades of hands-on quantity surveying means we understand what matters. Our expertise spans drylining systems, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facade compliance - the high-value packages where accuracy is critical. We catch the details that generic QS firms miss, giving you reliable data for confident decision-making.</p>
-</section>
-<section class="level3 feature-card" id="fast-turnaround-without-compromise">
-<h3 class="anchored" data-anchor-id="fast-turnaround-without-compromise"><i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast Turnaround Without Compromise</h3>
-<p><strong>Days, Not Weeks</strong></p>
-<p>Modern construction moves fast, and so do we. We extract quantities from 2D drawings, 3D models, or federated BIM environments, delivering formatted outputs ready for your estimating software. Typical turnaround: 2-7 days, without sacrificing accuracy when tender deadlines are tight.</p>
-</section>
-<section class="level3 feature-card" id="smart-budgeting-that-protects-margins">
-<h3 class="anchored" data-anchor-id="smart-budgeting-that-protects-margins"><i class="bi bi-piggy-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Smart Budgeting That Protects Margins</h3>
-<p><strong>Value Engineering Recommendations</strong></p>
-<p>Accurate estimation prevents costly overruns and material wastage. Our value engineering analysis identifies savings without compromising quality or compliance. Whether tendering competitively or planning developments, our estimates help you price profitably and avoid financial surprises.</p>
-</section>
-<section class="level3 feature-card" id="audit-ready-deliverables">
-<h3 class="anchored" data-anchor-id="audit-ready-deliverables"><i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Audit-Ready Deliverables</h3>
-<p><strong>Structured for Your Workflow</strong></p>
-<p>Receive detailed breakdowns of quantities, materials, and costs formatted for your specific process. Our reports are clear, traceable, and ready to integrate into your workflow. Every takeoff includes quality assurance checks for added confidence.</p>
-</section>
-<section class="level3 feature-card" id="specialist-trade-knowledge">
-<h3 class="anchored" data-anchor-id="specialist-trade-knowledge"><i class="bi bi-person-badge" style="color: var(--bim-orange); margin-right: 12px;"></i>Specialist Trade Knowledge</h3>
-<p><strong>Not Just General QS - True Expertise</strong></p>
-<p>Our team brings hands-on trade expertise in complex construction packages. We specialize in drylining systems, fire protection, facade compliance, and structural works including FRP, suspended slabs, columns, and post-tension systems. Staying current with BSR/HRB regulations post-Grenfell. International standards meets modern BIM capability.</p>
-</section>
-<section class="level3 feature-card" id="building-safety-act-compliance">
-<h3 class="anchored" data-anchor-id="building-safety-act-compliance"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Building Safety Act Compliance</h3>
-<p><strong>Post-Grenfell Expertise</strong></p>
-<p>New regulations demand rigorous compliance budgeting. We specialize in fire safety systems, facade remediation, and Building Safety Regulator requirements. Accurate planning for High Risk Buildings helps you avoid regulatory cost surprises that can exceed budgets by 50-100%.</p>
-</section>
-</div>
-</section>
-<section class="level2" id="our-services">
-<h2 class="anchored" data-anchor-id="our-services">Our Services</h2>
-<div class="feature-grid">
-<section class="level3 feature-card" id="cost-estimation-budget-planning">
-<h3 class="anchored" data-anchor-id="cost-estimation-budget-planning"><i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Cost Estimation &amp; Budget Planning</h3>
-<p>Accurate pricing that wins work and protects margins. From preliminary estimates to detailed pre-tender packages with value engineering analysis and risk assessment.</p>
-<p><a href="./services/cost-estimation-budget-planning.html">Cost estimation and budget planning →</a></p>
-</section>
-<section class="level3 feature-card" id="trade-specific-specialist-services">
-<h3 class="anchored" data-anchor-id="trade-specific-specialist-services"><i class="bi bi-bricks" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade-Specific Specialist Services</h3>
-<p>Deep expertise in drylining &amp; partitions, fire protection systems, facades &amp; cladding, and structural works (FRP, suspended slabs, columns, post-tension). 20+ years hands-on knowledge in high-complexity packages.</p>
-<p><a href="./services/trade-specific-specialist-services.html">Trade-specific specialist services →</a></p>
-</section>
-<section class="level3 feature-card" id="automated-quantity-takeoff">
-<h3 class="anchored" data-anchor-id="automated-quantity-takeoff"><i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Automated Quantity Takeoff</h3>
-<p>IFC model ingestion from Revit, ArchiCAD, and Tekla. <strong>90-95% faster</strong> than manual 2D takeoffs with real-time updates on design changes.</p>
-<p><a href="./services/automated-quantity-takeoff.html">Automated quantity takeoff →</a></p>
-</section>
-<section class="level3 feature-card" id="fast-track-cost-control">
-<h3 class="anchored" data-anchor-id="fast-track-cost-control"><i class="bi bi-stopwatch" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Cost Control</h3>
-<p>Weekly reports for 4-6 month builds. Early warning system for budget overruns with value engineering recommendations.</p>
-<p><a href="./services/fast-track-cost-control.html">Fast-track cost control →</a></p>
-</section>
-<section class="level3 feature-card" id="breeamesg-cost-modeling">
-<h3 class="anchored" data-anchor-id="breeamesg-cost-modeling"><i class="bi bi-tree" style="color: var(--bim-orange); margin-right: 12px;"></i>BREEAM/ESG Cost Modeling</h3>
-<p>Carbon costing integrated with sustainable materials tracking and certification compliance verification.</p>
-<p><a href="./services/breeam-esg-cost-modeling.html">BREEAM/ESG cost modeling →</a></p>
-</section>
-<section class="level3 feature-card" id="mep-infrastructure-precision">
-<h3 class="anchored" data-anchor-id="mep-infrastructure-precision"><i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>MEP Infrastructure Precision</h3>
-<p>Specialized costing for cross-docking, cold storage, HVAC, electrical, and fire suppression systems.</p>
-<p><a href="./services/mep-infrastructure-precision.html">MEP infrastructure precision →</a></p>
-</section>
-<section class="level3 feature-card" id="multi-scenario-analysis">
-<h3 class="anchored" data-anchor-id="multi-scenario-analysis"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis</h3>
-<p>Compare design alternatives, materials, and construction methods. Make informed decisions backed by accurate cost data.</p>
-<p><a href="./services/multi-scenario-analysis.html">Multi-scenario analysis →</a></p>
-</section>
-<section class="level3 feature-card" id="comprehensive-reporting">
-<h3 class="anchored" data-anchor-id="comprehensive-reporting"><i class="bi bi-clipboard-data" style="color: var(--bim-orange); margin-right: 12px;"></i>Comprehensive Reporting</h3>
-<p>Detailed cost breakdowns, visual dashboards, and export-ready reports integrated with your workflow.</p>
-<p><a href="./services/comprehensive-reporting.html">Comprehensive reporting →</a></p>
-</section>
-<section class="level3 feature-card" id="bid-writing-bid-management">
-<h3 class="anchored" data-anchor-id="bid-writing-bid-management"><i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing &amp; Bid Management</h3>
-<p>Professional tender documentation and submission management. Complete bid coordination from pricing strategy to final submission, maximizing win rates.</p>
-<p><a href="./services/bid-writing-management.html">Bid writing and bid management →</a></p>
-</section>
-<section class="level3 feature-card" id="traditional-quantity-takeoff">
-<h3 class="anchored" data-anchor-id="traditional-quantity-takeoff"><i class="bi bi-rulers" style="color: var(--bim-orange); margin-right: 12px;"></i>Traditional Quantity Takeoff</h3>
-<p>Manual takeoff from 2D drawings and specifications. Detailed measurement and quantification when BIM models aren’t available, maintaining accuracy for traditional project delivery.</p>
-<p><a href="./services/traditional-quantity-takeoff.html">Traditional quantity takeoff →</a></p>
-</section>
-<section class="level3 feature-card" id="construction-data-management">
-<h3 class="anchored" data-anchor-id="construction-data-management"><i class="bi bi-database" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Data Management</h3>
-<p>Centralized project data coordination and BIM data structuring. Manage information flows, ensure data quality, and maintain digital twin accuracy throughout project lifecycle.</p>
-<p><a href="./services/construction-data-management.html">Construction data management →</a></p>
-</section>
-<section class="level3 feature-card" id="construction-logistics">
-<h3 class="anchored" data-anchor-id="construction-logistics"><i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Logistics</h3>
-<p>Site logistics planning, material delivery scheduling, and supply chain coordination. Optimize workflows, minimize delays, and ensure efficient resource allocation on-site.</p>
-<p><a href="./services/construction-logistics.html">Construction logistics →</a></p>
-</section>
-</div>
-<div class="image-section" style="margin: 64px 0; text-align: center;">
-<div class="quarto-figure quarto-figure-center" style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;">
-<figure class="figure">
-<p><img class="img-fluid figure-img" src="images/data-analysis.png"/></p>
-<figcaption>Cost analysis dashboard for a construction tender</figcaption>
-</figure>
-</div>
-</div>
-<div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
-<div style="max-width: 800px; margin: 0 auto;">
-<h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange);">
-Transform Your Estimation Process
-</h2>
-<p style="color: var(--bim-white); font-size: 16px;">
-Modern construction demands precision and speed. Our BIM-powered services deliver both, helping you win more profitable work while reducing risk.
-</p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin-top: 32px;">
-<div style="padding: 16px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">
-90-95%
-</h3>
-<p style="color: var(--bim-white); font-weight: 600;">
-Faster than manual takeoffs
-</p>
-</div>
-<div style="padding: 16px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">
-±5%
-</h3>
-<p style="color: var(--bim-white); font-weight: 600;">
-Final cost accuracy
-</p>
-</div>
-<div style="padding: 16px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 36px; margin-bottom: 8px;">
-24hrs
-</h3>
-<p style="color: var(--bim-white); font-weight: 600;">
-Design change updates
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="level2" id="specialized-industry-expertise">
-<h2 class="anchored" data-anchor-id="specialized-industry-expertise">Specialized Industry Expertise</h2>
-<p>We understand the unique requirements of different construction sectors:</p>
-<div class="feature-grid">
-<section class="level3 feature-card" id="warehouses-logistics">
-<h3 class="anchored" data-anchor-id="warehouses-logistics"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Warehouses &amp; Logistics</h3>
-<p><strong>Experience:</strong> Distribution centers, cold storage, fulfillment facilities <strong>Specialization:</strong> Fast-track delivery, cross-docking facilities, cold storage</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/warehouses-logistics.html">Explore Warehouse Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="data-centers">
-<h3 class="anchored" data-anchor-id="data-centers"><i class="bi bi-hdd-rack" style="color: var(--bim-orange); margin-right: 12px;"></i>Data Centers</h3>
-<p><strong>Experience:</strong> Tier III/IV facilities <strong>Specialization:</strong> Critical MEP systems, power redundancy, cooling infrastructure</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/data-centers.html">Explore Data Center Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="residential-development">
-<h3 class="anchored" data-anchor-id="residential-development"><i class="bi bi-houses" style="color: var(--bim-orange); margin-right: 12px;"></i>Residential Development</h3>
-<p><strong>Experience:</strong> Multi-family, mixed-use projects <strong>Specialization:</strong> Unit-level costing, prefab integration, energy efficiency</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/residential-development.html">Explore Development Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="remediation">
-<h3 class="anchored" data-anchor-id="remediation"><i class="bi bi-cone-striped" style="color: var(--bim-orange); margin-right: 12px;"></i>Remediation</h3>
-<p><strong>Experience:</strong> Building Safety Act compliance, facade upgrades <strong>Specialization:</strong> Fire safety systems, cladding remediation, BSR/HRB requirements</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/remediation.html">Explore Remediation Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="commercial-development">
-<h3 class="anchored" data-anchor-id="commercial-development"><i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Commercial Development</h3>
-<p><strong>Experience:</strong> Office buildings, retail centers, mixed-use complexes <strong>Specialization:</strong> Tenant fit-outs, phased delivery, value engineering</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/commercial-development.html">Explore Commercial Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="housing-associations">
-<h3 class="anchored" data-anchor-id="housing-associations"><i class="bi bi-house-heart" style="color: var(--bim-orange); margin-right: 12px;"></i>Housing Associations</h3>
-<p><strong>Experience:</strong> Social housing refurbishments, Decent Homes programmes <strong>Specialization:</strong> Grant funding support, value engineering, EPC compliance</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/housing-associations.html">Explore Housing Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="healthcare-medical-facilities">
-<h3 class="anchored" data-anchor-id="healthcare-medical-facilities"><i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Healthcare &amp; Medical Facilities</h3>
-<p><strong>Experience:</strong> Hospitals, medical centers, surgical facilities <strong>Specialization:</strong> Fire-rated compartmentation, medical gas systems, critical power redundancy</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/healthcare-medical.html">Explore Healthcare Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="industrial-manufacturing">
-<h3 class="anchored" data-anchor-id="industrial-manufacturing"><i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Industrial &amp; Manufacturing</h3>
-<p><strong>Experience:</strong> Production facilities, assembly plants, processing centers <strong>Specialization:</strong> Heavy structural loading, crane support systems, industrial MEP integration</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/industrial-manufacturing.html">Explore Industrial Solutions →</a></p>
-</div>
-</section>
-<section class="level3 feature-card" id="infrastructure-civil-works">
-<h3 class="anchored" data-anchor-id="infrastructure-civil-works"><i class="bi bi-sign-merge-left" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastructure &amp; Civil Works</h3>
-<p><strong>Experience:</strong> Bridges, tunnels, transport infrastructure <strong>Specialization:</strong> Post-tensioned structures, deep foundations, civil MEP systems</p>
-<div style="margin-top: 16px; display: flex; gap: 16px;">
-<p><a class="cta-primary" href="./industries/infrastructure-civil.html">Explore Infrastructure Solutions →</a></p>
-</div>
-</section>
-</div>
-</section>
-</div>
-<p>:::</p>
-<div class="trust-section">
-<section class="level2 container" id="why-international-developers-trust-us">
-<h2 class="anchored" data-anchor-id="why-international-developers-trust-us">Why International Developers Trust Us</h2>
-<div class="trust-badges">
-<section class="level4 trust-badge" id="experienced-quantity-surveyors">
-<h4 class="anchored" data-anchor-id="experienced-quantity-surveyors"><i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Experienced Quantity Surveyors</h4>
-<p>Expert QS Professionals</p>
-</section>
-<section class="level4 trust-badge" id="iso-19650">
-<h4 class="anchored" data-anchor-id="iso-19650"><i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>ISO 19650</h4>
-<p>BIM Level 2 Workflows</p>
-</section>
-<section class="level4 trust-badge" id="years-experience">
-<h4 class="anchored" data-anchor-id="years-experience"><i class="bi bi-patch-check" style="color: var(--bim-orange); margin-right: 8px;"></i>20 Years Experience</h4>
-<p>UK, EU &amp; Australia Markets</p>
-</section>
-</div>
-</section>
-</div>
-<div class="image-section" style="margin: 64px 0; text-align: center;">
-<div class="quarto-figure quarto-figure-center" style="max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: block; margin-left: auto; margin-right: auto;">
-<figure class="figure">
-<p><img class="img-fluid figure-img" src="images/bim-workflow.png"/></p>
-<figcaption>BIM 5D workflow from model to bill of quantities</figcaption>
-</figure>
-</div>
-</div>
-<div class="container">
-<section class="level2" id="our-process-from-bim-model-to-cost-estimate-in-3-5-days">
-<h2 class="anchored" data-anchor-id="our-process-from-bim-model-to-cost-estimate-in-3-5-days">Our Process: From BIM Model to Cost Estimate in 3-5 Days</h2>
+<section class="level2" id="how-it-works">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
 <div class="process-steps">
-<section class="level4 process-step" id="model-upload-kick-off">
-<h4 class="anchored" data-anchor-id="model-upload-kick-off">Model Upload + Kick-off</h4>
-<p>Upload your BIM model. 1-hour kick-off call to understand project requirements, scope, and specifications.</p>
+<section class="level4 process-step" id="send-the-pack">
+<h4 class="anchored" data-anchor-id="send-the-pack">Send the pack</h4>
+<p>Drawings, the specification, the tender bill if there is one, and your return date.</p>
 </section>
-<section class="level4 process-step" id="automated-takeoff-review">
-<h4 class="anchored" data-anchor-id="automated-takeoff-review">Automated Takeoff + Review</h4>
-<p>Our software extracts quantities automatically. Expert QS team reviews and validates all measurements for accuracy.</p>
+<section class="level4 process-step" id="we-come-back-within-one-working-day">
+<h4 class="anchored" data-anchor-id="we-come-back-within-one-working-day">We come back within one working day</h4>
+<p>You get the scope we would measure, a fixed fee and a delivery date.</p>
 </section>
-<section class="level4 process-step" id="cost-analysis">
-<h4 class="anchored" data-anchor-id="cost-analysis">Cost Analysis</h4>
-<p>Apply current market rates, local pricing databases, and custom specifications to create detailed cost breakdown.</p>
-</section>
-<section class="level4 process-step" id="detailed-report-delivery">
-<h4 class="anchored" data-anchor-id="detailed-report-delivery">Detailed Report Delivery</h4>
-<p>Comprehensive cost breakdown with visual dashboards, scenario comparisons, and export-ready formats.</p>
-</section>
-<section class="level4 process-step" id="presentation-qa">
-<h4 class="anchored" data-anchor-id="presentation-qa">Presentation + Q&amp;A</h4>
-<p>Walk through the report together, answer questions, and discuss value engineering opportunities.</p>
+<section class="level4 process-step" id="you-get-the-takeoff-or-priced-bill">
+<h4 class="anchored" data-anchor-id="you-get-the-takeoff-or-priced-bill">You get the takeoff or priced bill</h4>
+<p>In your format, with the assumptions listed.</p>
 </section>
 </div>
-<section class="level4 callout-box" id="start-with-a-pilot-project">
-<h4 class="anchored" data-anchor-id="start-with-a-pilot-project"><i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Start with a Pilot Project</h4>
-<p><strong>Limited Time Offer:</strong> First project 50% off. Experience the precision and speed of BIM 5D without long-term commitment.</p>
-<p><a class="cta-primary" href="./contact.html">Schedule Your Pilot Project →</a></p>
+<p>Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.</p>
 </section>
-<div style="margin: 64px 0; padding: 0; background: var(--bim-light-gray); border-radius: 8px; overflow: hidden;">
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0;">
-<div style="padding: 48px; display: flex; flex-direction: column; justify-content: center;">
-<h3 class="anchored" style="color: var(--bim-charcoal); margin-top: 0; margin-bottom: 16px;">
-Ready to See the Difference?
-</h3>
-<p style="color: var(--bim-charcoal); margin-bottom: 16px;">
-Experience the precision and speed of modern BIM estimation. From detailed takeoffs to complete tender packages, we deliver the accuracy you need to win profitable work.
-</p>
-<p style="color: var(--bim-charcoal); font-weight: 600; margin-bottom: 8px;">
-What you get:
-</p>
-<ul style="color: var(--bim-charcoal); margin-bottom: 24px;">
-<li>
-Detailed quantity takeoffs
-</li>
-<li>
-Professional cost estimates
-</li>
-<li>
-Value engineering analysis
-</li>
-<li>
-Audit-ready reports
-</li>
-</ul>
-<div style="margin-top: 24px;">
-<p><a class="cta-primary" href="./contact.html">Get Started →</a></p>
+<section class="level2" id="what-the-deliverable-looks-like">
+<h2 class="anchored" data-anchor-id="what-the-deliverable-looks-like">What the deliverable looks like</h2>
+<div class="deliverable-figure">
+<p><img alt="Trade bill of quantities for a drylining package, showing item reference, description and quantity in the contractor's report format" height="1397" src="images/deliverable-bill.webp" width="967"/></p>
+<div class="deliverable-caption">
+<p>A trade bill as it leaves us: item, description, quantity, in the contractor’s report format.</p>
 </div>
 </div>
-<div style="background: var(--bim-charcoal); padding: 48px; display: flex; flex-direction: column; justify-content: center;">
-<p style="color: var(--bim-white); font-weight: 600; margin-bottom: 8px;">
-Trusted by contractors across:
+<div class="deliverable-figure">
+<p><img alt="Scaffold face schedule for a facade remediation tender, listing length, height to parapet, scaffold height and face area for each elevation with ground and access notes" height="413" src="images/deliverable-summary.webp" width="1400"/></p>
+<div class="deliverable-caption">
+<p>Scaffold face schedule for a facade remediation tender: lengths, heights, areas and access notes per elevation.</p>
+</div>
+</div>
+</section>
+<section class="level2" id="who-does-the-work">
+<h2 class="anchored" data-anchor-id="who-does-the-work">Who does the work</h2>
+<p>Robert Kowalski. Twenty years measuring and pricing construction work in the UK, Australia and Poland. Facade and cladding remediation, drylining and screed, firestopping, structural and masonry packages.</p>
+<p>You deal with me directly. The person who measures your drawings is the person who answers the phone when your contracts manager queries a rate. I do not subcontract the measurement out, and I do not run more tenders at once than I can take proper care of. Where I use software to speed up measurement, I say so, and every quantity that leaves here has been checked against the drawings by hand.</p>
+<div class="split-panel">
+<div class="two-col">
+<div class="split-panel-text">
+<h2 class="anchored">
+What to send us
+</h2>
+<p>
+Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.
 </p>
-<div style="margin-top: 24px; line-height: 2;">
-<p style="color: var(--bim-white); margin: 0;">
-🇬🇧 United Kingdom
-</p>
-<p style="color: var(--bim-white); margin: 0;">
-🇦🇺 Australia
-</p>
-<p style="color: var(--bim-white); margin: 0;">
-🇪🇺 European Union
+<p>
+Attach up to 20 MB with the form. For a larger pack, email us and we send an upload link.
 </p>
 </div>
-<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--bim-medium-gray);">
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">
-2,000+ projects delivered
+<div class="split-panel-text">
+<h2 class="anchored">
+What happens next
+</h2>
+<p>
+We read the pack and come back within one working day with the scope we would measure, a fixed fee and a delivery date.
 </p>
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">
-12M+ sqm estimated
+<p>
+If it is not a package we can do well, we say so and tell you who does.
 </p>
-<p style="color: var(--bim-white); margin: 4px 0; font-weight: 600;">
-20+ years experience
-</p>
+<div class="card-actions">
+<p><a class="cta-primary" href="./contact.html">Send us your drawings</a></p>
 </div>
 </div>
 </div>
 </div>
 </section>
 <section class="level2" id="frequently-asked-questions">
-<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently asked questions</h2>
 <div class="faq-section">
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>Q: Do you work with international pricing databases and standards?</strong></p>
+<p><strong>Q: What do you need from me to start?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes, we work with local pricing databases across UK, EU, and Australia. We adapt to your market’s standards including RICS NRM, BCIS, and regional cost data to ensure accurate estimates.</p>
+<p>A: Drawings as PDF or DWG, the specification or NBS output, the tender bill if there is one, and your return date. We read IFC from Revit, ArchiCAD and Tekla if you have a model, but we do not need one — most of what we measure comes off 2D drawings.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>Q: How do you handle fast-track design changes?</strong></p>
+<p><strong>Q: Is my package too small?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Real-time updates. When changes occur in your BIM model, we can update costs within 24 hours.</p>
+<p>A: No. Most of what we do is single trade packages.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>Q: Do you offer ongoing cost control during construction?</strong></p>
+<p><strong>Q: What format does the takeoff or priced bill come back in?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Absolutely. We provide weekly or monthly cost reports, comparing actual vs. estimated costs with early warning systems for overruns.</p>
+<p>A: Yours. Excel in your estimating layout, a CITE/eBQ file for import, or the bill format your main contractor has issued. Tell us what your estimator works in and we deliver to it.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>Q: What file formats do you accept?</strong></p>
+<p><strong>Q: What does it cost?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: IFC (Industry Foundation Classes) from Revit, ArchiCAD, Tekla. We also handle 2D drawings when BIM models aren’t available.</p>
+<p>A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>Q: Can you handle projects under 30,000 m²?</strong></p>
+<p><strong>Q: How accurate are the quantities?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes, while we specialize in larger projects, we accept projects of all sizes. Contact us to discuss your specific needs.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: What makes you different from other quantity surveying firms?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Our international experience (20 years UK/Australia), advanced BIM technology, and specialist trade expertise in complex packages like drylining, structural works (FRP, suspended slabs, columns, post-tension), fire protection, and facades. We combine global best practices with local market knowledge and regulatory compliance.</p>
+<p>A: Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.</p>
 </div>
 </div>
 </div>
 </section>
-<section class="level2" id="ready-to-experience-precision-cost-estimation">
-<h2 class="anchored" data-anchor-id="ready-to-experience-precision-cost-estimation">Ready to Experience Precision Cost Estimation?</h2>
-<section class="level3 callout-box text-center" id="join-2000-projects-that-trusted-our-expertise">
-<h3 class="anchored" data-anchor-id="join-2000-projects-that-trusted-our-expertise">Join 2000+ Projects That Trusted Our Expertise</h3>
-<p>Schedule a free 30-minute consultation or start with a 50% off pilot project</p>
-<p><a class="cta-primary" href="./coming-soon.html">Schedule Consultation</a> <a class="cta-secondary" href="./resources/roi-calculator.html">Calculate Your Savings</a></p>
+<section class="level2" id="send-us-the-drawings-for-your-next-tender">
+<h2 class="anchored" data-anchor-id="send-us-the-drawings-for-your-next-tender">Send us the drawings for your next tender</h2>
+<div class="callout-box text-center">
+<p>Send one package and see what comes back. If your return date is inside 72 hours, ring instead.</p>
+<p><a class="cta-primary" href="./contact.html">Send us your drawings</a> <a class="cta-secondary" href="./contact.html#sample">Free sample takeoff</a></p>
 <p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-</section>
+</div>
 </section>
 </div>
 </main> <!-- /main -->
@@ -1402,31 +1200,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="./services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="./services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="./industries/remediation.html">Facade and cladding remediation</a><br/> <a href="./services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="./pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="./privacy-policy.html">Privacy policy</a> · <a href="./terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="./js/scroll-effects.js"></script>
 <script src="./js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="./js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="./js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="./js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="./js/consent-banner.js"></script>
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -4,8 +4,8 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/contact.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Contact BIM Takeoff for quantity surveying and BIM 5D cost estimation. 24-hour response for UK, Australia and Poland construction projects." name="description"/>
-<title>BIM Takeoff -</title>
+<meta content="Send BIM Takeoff the drawings for your next tender. Enquiries answered within one working day. UK, Australia and Poland quantity takeoffs and priced bills." name="description"/>
+<title>BIM Takeoff - Send Us Your Drawings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="./css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,39 +104,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
-<meta content="BIM Takeoff -" name="twitter:title"/>
-<meta content="Contact BIM Takeoff for quantity surveying and BIM 5D cost estimation. 24-hour response for UK, Australia and Poland construction projects." name="twitter:description"/>
+<meta content="BIM Takeoff - Send Us Your Drawings" name="twitter:title"/>
+<meta content="Send BIM Takeoff the drawings for your next tender. Enquiries answered within one working day. UK, Australia and Poland quantity takeoffs and priced bills." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -246,8 +247,8 @@ if (!window.location.pathname.includes('/pl/')) {
 }
 </script>
 <link href="css/styles.css" rel="stylesheet"/>
-<meta content="BIM Takeoff -" property="og:title"/>
-<meta content="Contact BIM Takeoff for quantity surveying and BIM 5D cost estimation. 24-hour response for UK, Australia and Poland construction projects." property="og:description"/>
+<meta content="BIM Takeoff - Send Us Your Drawings" property="og:title"/>
+<meta content="Send BIM Takeoff the drawings for your next tender. Enquiries answered within one working day. UK, Australia and Poland quantity takeoffs and priced bills." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
@@ -265,7 +266,7 @@ if (!window.location.pathname.includes('/pl/')) {
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Contact"
+      "name": "Send Us Your Drawings"
     }
   ]
 }
@@ -300,24 +301,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="./services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="./services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="./pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="./services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="./services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./services/mep-infrastructure-precision.html">
@@ -332,14 +359,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="./services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -347,21 +366,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="./services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="./services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="./tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="./industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="./resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="./resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="./resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="./industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -371,12 +403,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="./industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="./industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./industries/healthcare-medical.html">
@@ -389,33 +430,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="./industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="./tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="./resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -451,169 +465,67 @@ if (!window.location.pathname.includes('/pl/')) {
 <!-- margin-sidebar -->
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
-<!-- Contact Hero Section -->
-<section class="hero-section" style="background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%); padding: 60px 20px; margin-top: -20px;">
-<div class="container" style="max-width: 1200px; margin: 0 auto;">
-<div class="row align-items-center">
-<div class="col-lg-6">
-<h1 class="display-4 fw-bold mb-4" style="color: #FFFFFF;">Get in Touch</h1>
-<p class="lead mb-4" style="color: #E0E0E0; font-size: 1.25rem;">
-          Ready to transform your project with professional BIM 5D cost estimation? 
-          Let's discuss how we can help you achieve precise budget control and cost certainty.
-        </p>
-<div class="trust-indicators" style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 30px; justify-content: center;">
-<div>
-<div style="color: #FF9900; font-size: 2rem; font-weight: bold;">20+</div>
-<div style="color: #B0B0B0; font-size: 0.9rem;">Years Experience</div>
+<header class="quarto-title-block default" id="title-block-header">
+<div class="quarto-title">
+<h1 class="title">Send Us Your Drawings</h1>
 </div>
 <div>
-<div style="color: #FF9900; font-size: 2rem; font-weight: bold;">2000+</div>
-<div style="color: #B0B0B0; font-size: 0.9rem;">Projects Delivered</div>
+<div class="description">
+    Send BIM Takeoff the drawings for your next tender. Enquiries answered within one working day. UK, Australia and Poland quantity takeoffs and priced bills.
+  </div>
 </div>
-<div>
-<div style="color: #FF9900; font-size: 2rem; font-weight: bold;">24h</div>
-<div style="color: #B0B0B0; font-size: 0.9rem;">Response Time</div>
+<div class="quarto-title-meta column-page">
+</div>
+</header>
+<div class="page-banner">
+<section class="level1 container" id="send-us-your-drawings">
+<h1>Send us your drawings</h1>
+<div class="page-banner-lead">
+<p>Enquiries answered within one working day, Monday to Friday. If your return date is inside 72 hours, ring instead.</p>
+</div>
+</section>
+</div>
+<div class="container">
+<div class="contact-layout">
+<div class="contact-form-col" id="enquiry-form">
+<div id="pipedrive-form-container">
+<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6zn50nAGFqDMqCePDIwHF7k5vGVVyG206yALEygYrIPgUGFlmheoEO3qDFf8ZmXd7B">
+<script src="https://webforms.pipedrive.com/f/loader"></script>
 </div>
 </div>
+<div class="contact-note">
+<p>We use your details only to answer this enquiry. See our <a href="./privacy-policy.html">privacy policy</a>.</p>
 </div>
+</div>
+<div class="contact-aside">
+<section class="level2" id="what-to-send-us">
+<h2 class="anchored" data-anchor-id="what-to-send-us">What to send us</h2>
+<p>Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.</p>
+</section>
+<section class="level2" id="what-happens-next">
+<h2 class="anchored" data-anchor-id="what-happens-next">What happens next</h2>
+<p>We read the pack and come back within one working day with the scope we would measure, a fixed fee and a delivery date. If it is not a package we can do well, we say so and tell you who does.</p>
+<p>Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree.</p>
+</section>
+<section class="level2" id="prefer-to-talk">
+<h2 class="anchored" data-anchor-id="prefer-to-talk">Prefer to talk</h2>
+<p><strong>UK</strong> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Poland</strong> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Email</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a></p>
+<p>Monday to Friday, 08:00 to 18:00 UK time. Australian enquiries answered the next UK morning.</p>
+</section>
+</div>
+</div>
+<section class="level2" id="sample">
+<h2 class="anchored" data-anchor-id="sample">Free sample takeoff</h2>
+<div class="callout-box">
+<p>Send one floor, one elevation or one unit type. We measure it and send it back within two working days, in your bill format, at no charge. If it is right, we quote for the rest.</p>
+<div class="card-actions">
+<p><a class="cta-primary" href="#enquiry-form">Send us your drawings</a></p>
 </div>
 </div>
 </section>
-<!-- Contact Information Section -->
-<section style="padding: 80px 20px; background: #FFFFFF;">
-<div class="container" style="max-width: 1200px; margin: 0 auto;">
-<div class="row g-4">
-<!-- Contact Cards -->
-<div class="col-lg-4 col-md-6">
-<div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-<i class="bi bi-telephone-fill"></i>
 </div>
-<h3 class="anchored" style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Phone</h3>
-<p style="color: #666666; margin-bottom: 20px;">Speak directly with our cost estimation experts</p>
-<a href="tel:+442032399967" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none;">
-            +44 (0) 20 3239 9967
-          </a>
-<div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
-            Monday - Friday: 9:00 - 18:00 GMT
-          </div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-<i class="bi bi-envelope-fill"></i>
-</div>
-<h3 class="anchored" style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Email</h3>
-<p style="color: #666666; margin-bottom: 20px;">Send us your project details and requirements</p>
-<a href="mailto:info@bimtakeoff.com" style="color: #FF9900; font-size: 1.25rem; font-weight: 600; text-decoration: none; word-break: break-all;">
-            info@bimtakeoff.com
-          </a>
-<div style="margin-top: 10px; color: #999999; font-size: 0.9rem;">
-            We respond within 24 hours
-          </div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-<i class="bi bi-geo-alt-fill"></i>
-</div>
-<h3 class="anchored" style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Global Reach</h3>
-<p style="color: #666666; margin-bottom: 20px;">Serving clients across international markets</p>
-<div style="color: #2C2C2C; font-size: 1.1rem; line-height: 1.8;">
-<div>🇬🇧 United Kingdom</div>
-<div>🇵🇱 Poland</div>
-<div>🇦🇺 Australia</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Contact Us Section -->
-<section style="padding: 80px 20px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);">
-<div class="container" style="max-width: 1200px; margin: 0 auto;">
-<div class="text-center mb-5">
-<h2 class="fw-bold mb-3 anchored" style="color: #2C2C2C; font-size: 2.5rem;">Why Work With Us?</h2>
-<p style="color: #666666; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
-        Experience the difference of working with certified cost estimation professionals
-      </p>
-</div>
-<div class="row g-4">
-<div class="col-lg-3 col-md-6">
-<div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-<h4 class="anchored" style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Great People with Can Do Attitude</h4>
-<p style="color: #666666; font-size: 0.95rem;">Professional quantity surveying standards</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-<h4 class="anchored" style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">20+ Years Experience</h4>
-<p style="color: #666666; font-size: 0.95rem;">Proven track record in EU, UK &amp; Australia</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="benefit-card" style="background: #FFFFFF; padding: 30px; border-radius: 12px; text-align: center; height: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-<div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">✓</div>
-<h4 class="anchored" style="color: #2C2C2C; font-size: 1.2rem; margin-bottom: 15px; font-weight: 600;">Fast Response</h4>
-<p style="color: #666666; font-size: 0.95rem;">24-hour response guarantee</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section style="padding: 80px 20px; background: linear-gradient(135deg, #2C2C2C 0%, #1a1a1a 100%);">
-<div class="container text-center" style="max-width: 800px; margin: 0 auto;">
-<h2 class="fw-bold mb-4 anchored" style="color: #FFFFFF; font-size: 2.5rem;">Ready to Start Your Project?</h2>
-<p style="color: #E0E0E0; font-size: 1.2rem; margin-bottom: 40px;">
-      Get in touch today for a free consultation and discover how BIM 5D cost estimation 
-      can transform your project delivery
-    </p>
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-<a class="btn btn-primary" href="tel:+442032399967" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Call Us Now
-      </a>
-<a class="btn btn-outline-light" href="mailto:info@bimtakeoff.com" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Send Email
-      </a>
-</div>
-</div>
-</section>
-<style>
-.contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.benefit-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
-
-@media (max-width: 768px) {
-  .trust-indicators {
-    gap: 20px !important;
-  }
-  
-  .display-4 {
-    font-size: 2rem !important;
-  }
-  
-  .lead {
-    font-size: 1.1rem !important;
-  }
-}
-</style>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1024,31 +936,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="./privacy-policy.html">Privacy Policy</a> | <a href="./terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="./services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="./services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="./industries/remediation.html">Facade and cladding remediation</a><br/> <a href="./services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="./pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="./privacy-policy.html">Privacy policy</a> · <a href="./terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="./js/scroll-effects.js"></script>
 <script src="./js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="./js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="./js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="./js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="./js/consent-banner.js"></script>
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

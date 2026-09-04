@@ -4,7 +4,7 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/branze/infrastruktura-i-roboty-inzynieryjne.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Złożona koordynacja. Realizacja 7-12 dni, dokładność ±5-8%." name="description"/>
+<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Przedmiary i kosztorysy w 7–12 dni." name="description"/>
 <title>BIM Takeoff - Infrastruktura i Roboty Inżynieryjne | Drogi, Mosty, Media</title>
 <style>
 code{white-space: pre-wrap;}
@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,32 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Infrastruktura i Roboty Inżynieryjne | Drogi, Mosty, Media" name="twitter:title"/>
-<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Złożona koordynacja. Realizacja 7-12 dni, dokładność ±5-8%." name="twitter:description"/>
+<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Przedmiary i kosztorysy w 7–12 dni." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -198,7 +199,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Infrastruktura i Roboty Inżynieryjne | Drogi, Mosty, Media" property="og:title"/>
-<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Złożona koordynacja. Realizacja 7-12 dni, dokładność ±5-8%." property="og:description"/>
+<meta content="Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Przedmiary i kosztorysy w 7–12 dni." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -212,7 +213,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Dlaczego projekty infrastrukturalne mają większą niepewność niż budynki?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Projekty infrastrukturalne napotykają z natury niepewność wynikającą z warunków gruntowych (ujawnianych dopiero podczas budowy), kolizji mediów (ograniczenia inwentaryzacji), zmienności projektów liniowych (zmieniające się warunki na odległości) i ograniczeń środowiskowych (gatunki chronione, zanieczyszczenia). Rozwiązujemy to przez zakresy dokładności ±5-8% i wyraźne rezerwy ryzyka dla tych czynników."
+        "text": "O: Projekty infrastrukturalne napotykają z natury niepewność wynikającą z warunków gruntowych (ujawnianych dopiero podczas budowy), kolizji mediów (ograniczenia inwentaryzacji), zmienności projektów liniowych (zmieniające się warunki na odległości) i ograniczeń środowiskowych (gatunki chronione, zanieczyszczenia). Rozwiązujemy to przez wyraźne, wykazane osobno rezerwy ryzyka dla tych czynników."
       }
     },
     {
@@ -220,7 +221,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy można optymalizować roboty ziemne dla bilansu wykopu/nasypu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak, używamy analizy bilansu mas do optymalizacji bilansu wykopu/nasypu, minimalizując koszty przywozu/wywozu i wpływ środowiskowy. Nasze workflow BIM obliczają kubatury robót ziemnych wzdłuż całej trasy i modelują różne scenariusze wyrównania pionowego, aby znaleźć optymalny bilans. Możemy zaoszczędzić projektom 10-20% na kosztach robót ziemnych poprzez optymalizację."
+        "text": "O: Tak, używamy analizy bilansu mas do optymalizacji bilansu wykopu/nasypu, minimalizując koszty przywozu/wywozu i wpływ środowiskowy. Nasze workflow BIM obliczają kubatury robót ziemnych wzdłuż całej trasy i modelują różne scenariusze wyrównania pionowego, aby znaleźć optymalny bilans."
       }
     },
     {
@@ -265,10 +266,10 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     },
     {
       "@type": "Question",
-      "name": "P: Jaka jest Pana struktura opłat za projekty infrastrukturalne?",
+      "name": "P: Jaka jest wasza struktura opłat za projekty infrastrukturalne?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Każdy projekt infrastrukturalny wyceniamy indywidualnie w zależności od typu projektu, długości/skali i złożoności. Cena zależy od wielu czynników, w tym: - Typu i długości projektu (drogi lokalne, główne, autostrady) - Konstrukcji mostowych i ich złożoności - Złożoności geotechnicznej i robót ziemnych - Wymagań przełożeń mediów - Złożoności zarządzania ruchem - Terminu realizacji (standardowy lub ekspresowy) Tryb ekspresowy z 30% premium, gdzie dostępny. Skontaktuj się z nami, aby otrzymać szczegółową wycenę."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają: - Typ i długość projektu (drogi lokalne, główne, autostrady) - Konstrukcje mostowe i ich złożoność - Złożoność geotechniczna i robót ziemnych - Wymagania przełożeń mediów - Złożoność zarządzania ruchem - Termin realizacji (standardowy lub przyspieszony) Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego."
       }
     }
   ]
@@ -321,7 +322,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -329,97 +330,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -427,16 +403,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -478,7 +496,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div>
 <div class="description">
-    Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Złożona koordynacja. Realizacja 7-12 dni, dokładność ±5-8%.
+    Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, roboty ziemne. Przedmiary i kosztorysy w 7–12 dni.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -486,7 +504,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="infrastruktura-i-roboty-inżynieryjne">
@@ -497,23 +515,23 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <div class="hero-subtitle">
 <p>Od Dróg i Mostów po Główne Media i Roboty Ziemne.<br/>
-Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
+Gotowe w ciągu 7–12 dni.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza Inżynierii Lądowej</strong> - Drogi, mosty, media, roboty ziemne
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza Inżynierii Lądowej</strong> - Drogi, mosty, media, roboty ziemne
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Koordynacja Multidyscyplinarna</strong> - Geotechnika, konstrukcje, media
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Koordynacja Multidyscyplinarna</strong> - Geotechnika, konstrukcje, media
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE &amp; Australia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE &amp; Australia
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Case Studies</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -526,25 +544,25 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <p>Budownictwo infrastrukturalne napotyka unikatowe wyzwania skali i złożoności:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Warunki gruntowe</strong> - Niewiadome geotechniczne i badania terenu
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Warunki gruntowe</strong> - Niewiadome geotechniczne i badania terenu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Złożoność skali</strong> - Projekty liniowe ze zmiennymi warunkami
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Złożoność skali</strong> - Projekty liniowe ze zmiennymi warunkami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Koordynacja multidyscyplinarna</strong> - Lądowa, konstrukcyjna, media, krajobraz
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Koordynacja multidyscyplinarna</strong> - Lądowa, konstrukcyjna, media, krajobraz
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Zarządzanie ruchem</strong> - Prace w środowiskach operacyjnych
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Zarządzanie ruchem</strong> - Prace w środowiskach operacyjnych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ograniczenia środowiskowe</strong> - Zatwierdzenia ustawowe i mitygacje
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ograniczenia środowiskowe</strong> - Zatwierdzenia ustawowe i mitygacje
 </p>
 </div>
 <section class="level4 callout-box" id="ryzyko" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
 <h4 class="anchored" data-anchor-id="ryzyko">Ryzyko</h4>
 <blockquote class="blockquote">
-<p>“Projekty infrastrukturalne są z natury niepewne ze względu na warunki gruntowe, kolizje z mediami i ograniczenia środowiskowe. Tradycyjne szacowanie ma trudności ze złożonością projektów liniowych, prowadząc do 15-25% przekroczeń kosztów. Wczesne, dokładne modelowanie kosztów jest krytyczne dla zabezpieczenia finansowania publicznego i utrzymania rentowności projektu.”</p>
+<p>„Projekty infrastrukturalne są z natury niepewne ze względu na warunki gruntowe, kolizje z mediami i ograniczenia środowiskowe. Szacowanie ma trudności ze złożonością projektów liniowych, a różnica trafia do przekroczeń kosztów. Wczesne modelowanie kosztów jest krytyczne dla zabezpieczenia finansowania publicznego i utrzymania rentowności projektu.”</p>
 </blockquote>
 </section>
 </section>
@@ -553,28 +571,28 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <p>Specjalistyczne BIM 5D dla projektów inżynierii lądowej i infrastruktury:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>7-12 dni</strong> na kompletny kosztorys (vs 10-16 tygodni tradycyjnie)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>7–12 dni</strong> na kompletny kosztorys
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja robót ziemnych</strong> - Bilans wykopu/nasypu i analiza transportu
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja robót ziemnych</strong> - Bilans wykopu/nasypu i analiza transportu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza projektów liniowych</strong> - Drogi, media, sieci drenażowe
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza projektów liniowych</strong> - Drogi, media, sieci drenażowe
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kosztorysowanie mostów i konstrukcji</strong> - Szczegółowa analiza konstrukcji lądowych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kosztorysowanie mostów i konstrukcji</strong> - Szczegółowa analiza konstrukcji lądowych
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rezerwy na ryzyko</strong> - Warunki gruntowe, media, środowisko
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rezerwy na ryzyko</strong> - Warunki gruntowe, media, środowisko
 </p>
 </div>
-<section class="level4 callout-box" id="nasze-doświadczenie" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="nasze-doświadczenie">Nasze doświadczenie</h4>
+<section class="level4 callout-box" id="jak-pracujemy" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="jak-pracujemy">Jak pracujemy</h4>
 <ul>
-<li><strong>Szerokie doświadczenie infrastrukturalne</strong> w UK, UE, Australii</li>
-<li><strong>Duże projekty lądowe</strong> pomyślnie zrealizowane</li>
-<li><strong>Średnio 9 dni</strong> od modelu BIM do szczegółowego kosztorysu</li>
-<li><strong>Dokładność ±5-8%</strong> uwzględniająca niepewność robót lądowych</li>
+<li><strong>Mierzymy</strong> z projektów i specyfikacji, które otrzymujemy</li>
+<li><strong>Wydajemy przedmiar</strong> w układzie pozycji, gotowy do wyceny</li>
+<li><strong>Kosztorys z widocznymi</strong> ilościami, stawkami i założeniami</li>
+<li><strong>Rezerwy ryzyka</strong> wykazane osobno, nie ukryte w stawkach</li>
 </ul>
 </section>
 </section>
@@ -584,37 +602,37 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <h2 class="anchored" data-anchor-id="usługi-dedykowane-infrastrukturze">Usługi Dedykowane Infrastrukturze</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="drogi-i-autostrady">
-<h3 class="anchored" data-anchor-id="drogi-i-autostrady"><i class="bi bi-sign-turn-right" style="color: var(--bim-orange); margin-right: 12px;"></i>Drogi i Autostrady</h3>
+<h3 class="anchored" data-anchor-id="drogi-i-autostrady"><i aria-hidden="true" class="bi bi-sign-turn-right" style="color: var(--bim-orange); margin-right: 12px;"></i>Drogi i Autostrady</h3>
 <p><strong>Kosztorysowanie Infrastruktury Liniowej</strong></p>
 <p>Szczegółowa analiza: - Robót ziemnych (wykop/nasyp/bilans) - Konstrukcji nawierzchni - Drenażu i wód powierzchniowych - Oświetlenia ulicznego i oznakowania - Zarządzania ruchem</p>
 <p><a href="../uslugi/automatyczny-przedmiar-obmiar.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="mosty-i-konstrukcje">
-<h3 class="anchored" data-anchor-id="mosty-i-konstrukcje"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Mosty i Konstrukcje</h3>
+<h3 class="anchored" data-anchor-id="mosty-i-konstrukcje"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Mosty i Konstrukcje</h3>
 <p><strong>Ekspertyza Konstrukcji Lądowych</strong></p>
 <p>Kompletne kosztorysowanie: - Konstrukcji mostowych żelbetowych i stalowych - Przyczółków i fundamentów - Pomostu mostowego i barier - Ścian oporowych i skrzydełek - Przepustów i przejść podziemnych</p>
 <p><a href="../uslugi/automatyczny-przedmiar-obmiar.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="media-i-usługi">
-<h3 class="anchored" data-anchor-id="media-i-usługi"><i class="bi bi-droplet-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Media i Usługi</h3>
+<h3 class="anchored" data-anchor-id="media-i-usługi"><i aria-hidden="true" class="bi bi-droplet-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Media i Usługi</h3>
 <p><strong>Infrastruktura Podziemna</strong></p>
 <p>Analiza: - Wodociągów i dystrybucji - Sieci kanalizacyjnych i drenażowych - Usług gazowych i elektrycznych - Kanalizacji telekomunikacyjnej - Przełożenia i zabezpieczenia mediów</p>
 <p><a href="../uslugi/analiza-wieloscenariuszowa.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="optymalizacja-robót-ziemnych">
-<h3 class="anchored" data-anchor-id="optymalizacja-robót-ziemnych"><i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Robót Ziemnych</h3>
+<h3 class="anchored" data-anchor-id="optymalizacja-robót-ziemnych"><i aria-hidden="true" class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Robót Ziemnych</h3>
 <p><strong>Analiza Bilansu Mas</strong></p>
 <p>Strategiczne planowanie: - Kubatur robót ziemnych - Optymalizacji bilansu wykopu/nasypu - Planowania tras transportu - Wywożenia urobku i przywozu - Robót poprawy gruntu</p>
 <p><a href="../uslugi/szybka-kontrola-kosztow.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="systemy-drenażowe">
-<h3 class="anchored" data-anchor-id="systemy-drenażowe"><i class="bi bi-water" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Drenażowe</h3>
+<h3 class="anchored" data-anchor-id="systemy-drenażowe"><i aria-hidden="true" class="bi bi-water" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Drenażowe</h3>
 <p><strong>Sieci Wód Opadowych i Ściekowych</strong></p>
 <p>Kompleksowe kosztorysowanie: - Gospodarki wód deszczowych - Kanalizacji sanitarnej - Retencji i oczyszczania - SuDS (zrównoważony drenaż) - Przepompowni</p>
 <p><a href="../uslugi/logistyka-budowlana.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="zarządzanie-ruchem">
-<h3 class="anchored" data-anchor-id="zarządzanie-ruchem"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Ruchem</h3>
+<h3 class="anchored" data-anchor-id="zarządzanie-ruchem"><i aria-hidden="true" class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Ruchem</h3>
 <p><strong>Prace w Środowisku Operacyjnym</strong></p>
 <p>Planowanie i kosztorysowanie: - Tymczasowego zarządzania ruchem - Etapowych sekwencji budowy - Środków bezpieczeństwa publicznego - Tras objazdowych - Premii za prace nocne/weekendowe</p>
 <p><a href="../uslugi/logistyka-budowlana.html">Dowiedz się więcej →</a></p>
@@ -671,7 +689,7 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <p><strong>Dni 2-5</strong></p>
 <p><strong>Co robimy:</strong> - Kalkulacja kubatur robót ziemnych - Analiza bilansu wykopu/nasypu - Ocena wymagań transportu - Ocena potrzeb poprawy gruntu - Modelowanie optymalizacji bilansu mas</p>
 <p><strong>Technologia:</strong> - Ekstrakcja kubatur BIM 5D - Oprogramowanie optymalizacji wykopu/nasypu - Modelowanie tras transportu - Analiza obróbki gruntu</p>
-<p><strong>Rezultat:</strong> Obmiar robót ziemnych z optymalizacją</p>
+<p><strong>Rezultat:</strong> Przedmiar robót ziemnych z optymalizacją</p>
 </section>
 <section class="level4 process-step" id="kwantyfikacja-infrastruktury-liniowej">
 <h4 class="anchored" data-anchor-id="kwantyfikacja-infrastruktury-liniowej">Kwantyfikacja Infrastruktury Liniowej</h4>
@@ -697,26 +715,26 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <section class="level4 process-step" id="przegląd-jakości-i-prezentacja">
 <h4 class="anchored" data-anchor-id="przegląd-jakości-i-prezentacja">Przegląd Jakości i Prezentacja</h4>
 <p><strong>Dni 10-12</strong></p>
-<p><strong>Co robimy:</strong> - Przegląd peer review inżynierii lądowej - Ocena ryzyka geotechnicznego - Weryfikacja koordynacji mediów - Porównanie z benchmarkami - Warsztat ryzyka (opcjonalny)</p>
+<p><strong>Co robimy:</strong> - Weryfikacja techniczna rozwiązań inżynierii lądowej - Ocena ryzyka geotechnicznego - Weryfikacja koordynacji mediów - Porównanie z benchmarkami - Warsztat ryzyka (opcjonalny)</p>
 <p><strong>Materiały do dostarczenia:</strong> - Streszczenie wykonawcze (4-6 stron) - Rozbicie kosztów według elementów - Diagram bilansu mas robót ziemnych - Rejestr ryzyka z rezerwami - Scenariusze alternatywne - Analiza kosztów fazowania</p>
 <p><strong>Format:</strong> PDF + skoroszyty Excel</p>
 <p><strong>Wsparcie:</strong> 90 dni wsparcia po wdrożeniu wliczone w cenę</p>
 </section>
 </div>
 <div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
-<p><strong>Standardowy czas realizacji:</strong> 9-12 dni roboczych od otrzymania projektu do raportu końcowego<br/>
-<strong>Tryb ekspresowy:</strong> Ograniczona dostępność dla pilnych projektów (7-8 dni) z 30% premium</p>
+<p><strong>Standardowy czas realizacji:</strong> 9–12 dni roboczych od otrzymania projektu do raportu końcowego<br/>
+<strong>Tryb przyspieszony:</strong> Ograniczona dostępność dla pilnych projektów (7–8 dni)</p>
 </div>
 </section>
 <section class="level2" id="dlaczego-wybrać-bim-takeoff-do-infrastruktury">
 <h2 class="anchored" data-anchor-id="dlaczego-wybrać-bim-takeoff-do-infrastruktury">Dlaczego Wybrać BIM Takeoff do Infrastruktury?</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;">
 <section class="level3" id="ekspertyza-inżynierii-lądowej" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="ekspertyza-inżynierii-lądowej">Ekspertyza Inżynierii Lądowej</h3>
+<h3 class="anchored" data-anchor-id="ekspertyza-inżynierii-lądowej">Ekspertyza inżynierii lądowej</h3>
 <ul>
-<li><strong>Kompleksowe doświadczenie infrastrukturalne</strong></li>
-<li><strong>Duże projekty lądowe</strong> zrealizowane</li>
-<li><strong>Specjaliści projektów liniowych</strong></li>
+<li><strong>Doświadczenie infrastrukturalne</strong></li>
+<li><strong>Projekty liniowe</strong> i obiekty inżynierskie</li>
+<li><strong>Koordynacja branż</strong> w jednym przedmiarze</li>
 <li><strong>3 rynki</strong> (UK, UE, Australia)</li>
 </ul>
 </section>
@@ -729,22 +747,21 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <li><strong>Ekspertyza obróbki</strong> gruntu</li>
 </ul>
 </section>
-<section class="level3" id="dokładność-oparta-na-ryzyku" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="dokładność-oparta-na-ryzyku">Dokładność Oparta na Ryzyku</h3>
+<section class="level3" id="podstawa-ilości" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="podstawa-ilości">Podstawa ilości</h3>
+<p>Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 <ul>
-<li><strong>Dokładność ±5-8%</strong> z rezerwami ryzyka</li>
 <li><strong>Rezerwy warunków</strong> gruntowych</li>
 <li><strong>Rezerwy kolizji</strong> mediów</li>
 <li><strong>Modelowanie ryzyka</strong> środowiskowego</li>
 </ul>
 </section>
-<section class="level3" id="szybka-realizacja" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="szybka-realizacja">Szybka Realizacja</h3>
+<section class="level3" id="termin" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="termin">Termin</h3>
 <ul>
-<li><strong>9-12 dni</strong> typowa realizacja</li>
-<li><strong>7-8 dni</strong> tryb ekspresowy (ograniczony)</li>
-<li><strong>2-3 dni</strong> analiza zmian</li>
-<li><strong>70% szybciej</strong> niż tradycyjnie</li>
+<li><strong>9–12 dni</strong> typowa realizacja</li>
+<li><strong>7–8 dni</strong> tryb przyspieszony (ograniczony)</li>
+<li><strong>2–3 dni</strong> analiza zmian</li>
 </ul>
 </section>
 <section class="level3" id="multidyscyplinarna" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
@@ -757,9 +774,9 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 </ul>
 </section>
 <section class="level3" id="zapewnienie-jakości" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="zapewnienie-jakości">Zapewnienie Jakości</h3>
+<h3 class="anchored" data-anchor-id="zapewnienie-jakości">Zapewnienie jakości</h3>
 <ul>
-<li><strong>Przegląd inżynierii lądowej</strong> wliczony</li>
+<li><strong>Weryfikacja techniczna</strong> wliczona</li>
 <li><strong>Warsztat oceny</strong> ryzyka</li>
 <li><strong>Walidacja benchmarkowa</strong></li>
 <li><strong>Okres wsparcia</strong> 90 dni</li>
@@ -775,7 +792,7 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <p><strong>P: Dlaczego projekty infrastrukturalne mają większą niepewność niż budynki?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Projekty infrastrukturalne napotykają z natury niepewność wynikającą z warunków gruntowych (ujawnianych dopiero podczas budowy), kolizji mediów (ograniczenia inwentaryzacji), zmienności projektów liniowych (zmieniające się warunki na odległości) i ograniczeń środowiskowych (gatunki chronione, zanieczyszczenia). Rozwiązujemy to przez zakresy dokładności ±5-8% i wyraźne rezerwy ryzyka dla tych czynników.</p>
+<p>O: Projekty infrastrukturalne napotykają z natury niepewność wynikającą z warunków gruntowych (ujawnianych dopiero podczas budowy), kolizji mediów (ograniczenia inwentaryzacji), zmienności projektów liniowych (zmieniające się warunki na odległości) i ograniczeń środowiskowych (gatunki chronione, zanieczyszczenia). Rozwiązujemy to przez wyraźne, wykazane osobno rezerwy ryzyka dla tych czynników.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -783,7 +800,7 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 <p><strong>P: Czy można optymalizować roboty ziemne dla bilansu wykopu/nasypu?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak, używamy analizy bilansu mas do optymalizacji bilansu wykopu/nasypu, minimalizując koszty przywozu/wywozu i wpływ środowiskowy. Nasze workflow BIM obliczają kubatury robót ziemnych wzdłuż całej trasy i modelują różne scenariusze wyrównania pionowego, aby znaleźć optymalny bilans. Możemy zaoszczędzić projektom 10-20% na kosztach robót ziemnych poprzez optymalizację.</p>
+<p>O: Tak, używamy analizy bilansu mas do optymalizacji bilansu wykopu/nasypu, minimalizując koszty przywozu/wywozu i wpływ środowiskowy. Nasze workflow BIM obliczają kubatury robót ziemnych wzdłuż całej trasy i modelują różne scenariusze wyrównania pionowego, aby znaleźć optymalny bilans.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -828,11 +845,11 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jaka jest Pana struktura opłat za projekty infrastrukturalne?</strong></p>
+<p><strong>P: Jaka jest wasza struktura opłat za projekty infrastrukturalne?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Każdy projekt infrastrukturalny wyceniamy indywidualnie w zależności od typu projektu, długości/skali i złożoności. Cena zależy od wielu czynników, w tym: - Typu i długości projektu (drogi lokalne, główne, autostrady) - Konstrukcji mostowych i ich złożoności - Złożoności geotechnicznej i robót ziemnych - Wymagań przełożeń mediów - Złożoności zarządzania ruchem - Terminu realizacji (standardowy lub ekspresowy)</p>
-<p>Tryb ekspresowy z 30% premium, gdzie dostępny. Skontaktuj się z nami, aby otrzymać szczegółową wycenę.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają: - Typ i długość projektu (drogi lokalne, główne, autostrady) - Konstrukcje mostowe i ich złożoność - Złożoność geotechniczna i robót ziemnych - Wymagania przełożeń mediów - Złożoność zarządzania ruchem - Termin realizacji (standardowy lub przyspieszony)</p>
+<p>Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego.</p>
 </div>
 </div>
 </div>
@@ -845,15 +862,15 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.</p>
 Przestań Niedoceniać Złożoności Inżynierii Lądowej
 </h2>
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">
-Uzyskaj multidyscyplinarną koordynację i zarządzanie ryzykiem, których wymaga Twój projekt infrastrukturalny. Potwierdzona ekspertyza inżynierii lądowej w UK, UE i Australii.
+Mierzone przedmiary i wycenione kosztorysy dla dróg, mostów, mediów i robót ziemnych, z rezerwami ryzyka wykazanymi osobno.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
+<i aria-hidden="true" class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów wymagania projektu z naszymi specjalistami
+Omów wymagania projektu bezpośrednio z Robertem Kowalskim
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;">
 <strong>+44 (0) 20 3239 9967</strong>
@@ -861,10 +878,10 @@ Omów wymagania projektu z naszymi specjalistami
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę
+<i aria-hidden="true" class="bi bi-file-earmark-text-fill"></i> Otrzymaj wycenę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Odpowiedź w 24 godziny ze szczegółową propozycją
+Odpowiedź w ciągu jednego dnia roboczego
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
 <a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a>
@@ -872,31 +889,31 @@ Odpowiedź w 24 godziny ze szczegółową propozycją
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację
+<i aria-hidden="true" class="bi bi-calendar-check-fill"></i> Przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Bezpłatny 30-minutowy przegląd projektu infrastrukturalnego
+Prześlij fragment dokumentacji, zmierzymy go bez opłaty
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
-<a href="../kontakt.html" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a>
+<a href="../kontakt.html#probny" style="color: var(--bim-orange); text-decoration: underline;">Prześlij fragment →</a>
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../uslugi/automatyczny-przedmiar-obmiar.html">Zobacz Usługi</a> <a class="cta-secondary" href="mailto:info@bimtakeoff.com">Poproś o Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Inżynierii Lądowej</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Drogi, mosty, media i roboty ziemne</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Optymalizacji Robót Ziemnych</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bilans mas i optymalizacja wykopu/nasypu</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 9-12 Dni</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 9–12 dni</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±5-8% z Rezerwami Ryzyka</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rezerwy ryzyka wykazane osobno</strong>
 </p>
 </div>
 </div>
@@ -1313,30 +1330,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

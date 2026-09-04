@@ -4,7 +4,7 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/industries/housing-associations.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects." name="description"/>
+<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, grant-funded projects." name="description"/>
 <title>BIM Takeoff - Housing Association Cost Estimation | Social Housing</title>
 <style>
 code{white-space: pre-wrap;}
@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="../css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,39 +104,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Housing Association Cost Estimation | Social Housing" name="twitter:title"/>
-<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects." name="twitter:description"/>
+<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, grant-funded projects." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -247,7 +248,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </script>
 <link href="../css/styles.css" rel="stylesheet"/>
 <meta content="BIM Takeoff - Housing Association Cost Estimation | Social Housing" property="og:title"/>
-<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects." property="og:description"/>
+<meta content="Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, grant-funded projects." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/industries/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
@@ -285,7 +286,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What about estimating for occupied properties?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We specialize in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional)."
+        "text": "We specialise in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional)."
       }
     },
     {
@@ -293,7 +294,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How accurate are estimates for Decent Homes compliance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "With proper stock condition surveys, we achieve ±5-8% accuracy on Decent Homes refurbishment programmes. We include appropriate contingencies (5-10%) for properties where condition surveys reveal uncertainties."
+        "text": "Accuracy depends on the quality of the stock condition survey we are given. We include contingencies (5-10%) for properties where the survey reveals uncertainties, and we flag the assumption rather than absorb it."
       }
     },
     {
@@ -301,7 +302,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How do you approach value engineering for tight budgets?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We identify value engineering opportunities without compromising quality or compliance. This includes optimizing specifications, exploring alternative materials, value-analyzing phasing options, and maximizing volume discounts through strategic procurement."
+        "text": "We identify value engineering opportunities without compromising quality or compliance. This includes optimising specifications, exploring alternative materials, value-analysing phasing options, and maximising volume discounts through strategic procurement."
       }
     },
     {
@@ -309,7 +310,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What’s your fee structure for housing association projects?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fees vary based on programme size and complexity. As a rough guide: - Small programme (50-100 units): £3,000-6,000 - Medium programme (100-300 units): £6,000-12,000 - Large programme (300-500 units): £12,000-20,000 Express service (4-5 days) carries a 25% premium. Contact us for a specific quote."
+        "text": "Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees scale with programme size and complexity. Contact us for a specific quote."
       }
     }
   ]
@@ -370,24 +371,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="../pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="../services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
@@ -402,14 +429,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -417,21 +436,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="../services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="../tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="../industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -441,12 +473,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../industries/healthcare-medical.html">
@@ -459,33 +500,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="../industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -527,7 +541,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </div>
 <div>
 <div class="description">
-    Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, ±5% accuracy, grant-funded projects.
+    Housing association cost estimation for social housing, refurbishments and thermal modernisation. 3-10 day turnaround, grant-funded projects.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -535,7 +549,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="housing-association-cost-estimation">
@@ -545,23 +559,23 @@ if (!window.location.pathname.includes('/pl/')) {
 </section>
 </section>
 <div class="hero-subtitle">
-<p>From 50-unit refurbishments to 500+ unit new builds. Delivered in 3-10 days with ±5% accuracy.</p>
+<p>From 50-unit refurbishments to 500+ unit new builds. Delivered in 3-10 days from data receipt.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Social Housing Expertise</strong> - Decent Homes Standard compliance
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Social Housing Expertise</strong> - Decent Homes Standard compliance
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Grant Funding Support</strong> - Documentation for funding applications
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Grant Funding Support</strong> - Documentation for funding applications
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience</strong> - UK housing associations and ALMOs
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience</strong> - UK housing associations and ALMOs
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Get Free Consultation</a> <a class="cta-secondary" href="../coming-soon.html">View Case Studies</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
@@ -574,19 +588,19 @@ if (!window.location.pathname.includes('/pl/')) {
 <p>Housing associations and cooperatives face unique pressures with limited budgets:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Tight budgets</strong> - Every £100 per unit matters to viability
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Tight budgets</strong> - Every £100 per unit matters to viability
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Grant funding</strong> - Complex application requirements
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Grant funding</strong> - Complex application requirements
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Resident consultation</strong> - Tenant engagement obligations
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Resident consultation</strong> - Tenant engagement obligations
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Compliance standards</strong> - Decent Homes, EPC requirements
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Compliance standards</strong> - Decent Homes, EPC requirements
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Occupied works</strong> - Minimal disruption to residents
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Occupied works</strong> - Minimal disruption to residents
 </p>
 </div>
 <section class="level4 callout-box" id="the-risk" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
@@ -598,22 +612,22 @@ if (!window.location.pathname.includes('/pl/')) {
 </section>
 <section class="level3" id="our-housing-association-solution" style="">
 <h3 class="anchored" data-anchor-id="our-housing-association-solution">Our Housing Association Solution</h3>
-<p>Specialized 5D BIM for social housing and cooperative projects:</p>
+<p>Specialised 5D BIM for social housing and cooperative projects:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3-10 days</strong> for complete estimate (vs 6-8 weeks traditional)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3-10 days</strong> for complete estimate (vs 6-8 weeks traditional)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Grant funding expertise</strong> - Documentation for applications
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Grant funding expertise</strong> - Documentation for applications
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance knowledge</strong> - Decent Homes, EPC C by 2030
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance knowledge</strong> - Decent Homes, EPC C by 2030
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value engineering</strong> - Maximize impact per pound spent
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value engineering</strong> - Maximise impact per pound spent
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Resident-friendly</strong> - Phasing for occupied buildings
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Resident-friendly</strong> - Phasing for occupied buildings
 </p>
 </div>
 <section class="level4 callout-box" id="proven-results" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
@@ -622,8 +636,8 @@ if (!window.location.pathname.includes('/pl/')) {
 <li><strong>Extensive social housing experience</strong> across UK housing associations and ALMOs</li>
 <li><strong>Large-scale refurbishment programmes</strong> - Multi-million pound projects</li>
 <li><strong>Average 7 days</strong> from design to detailed estimate</li>
-<li><strong>±5% accuracy</strong> on 95% of projects</li>
 </ul>
+<p>Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.</p>
 </section>
 </section>
 </div>
@@ -632,37 +646,37 @@ if (!window.location.pathname.includes('/pl/')) {
 <h2 class="anchored" data-anchor-id="housing-association-specific-services">Housing Association-Specific Services</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="fast-track-estimation">
-<h3 class="anchored" data-anchor-id="fast-track-estimation"><i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation</h3>
+<h3 class="anchored" data-anchor-id="fast-track-estimation"><i aria-hidden="true" class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation</h3>
 <p><strong>3-10 Day Turnaround</strong></p>
 <p>Perfect for: - Grant funding applications - Resident consultation packs - Tender preparation - Feasibility studies</p>
 <p><a href="../services/fast-track-cost-control.html">Learn More →</a></p>
 </section>
 <section class="level3 feature-card" id="compliance-costing">
-<h3 class="anchored" data-anchor-id="compliance-costing"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Costing</h3>
+<h3 class="anchored" data-anchor-id="compliance-costing"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Costing</h3>
 <p><strong>Decent Homes &amp; EPC</strong></p>
 <p>Expert knowledge of: - Decent Homes Standard - EPC C by 2030 requirements - Building Safety Act (HRB) - Thermal performance upgrades</p>
 <p><a href="../services/trade-specific-specialist-services.html">Learn More →</a></p>
 </section>
 <section class="level3 feature-card" id="grant-funding-support">
-<h3 class="anchored" data-anchor-id="grant-funding-support"><i class="bi bi-cash-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>Grant Funding Support</h3>
+<h3 class="anchored" data-anchor-id="grant-funding-support"><i aria-hidden="true" class="bi bi-cash-stack" style="color: var(--bim-orange); margin-right: 12px;"></i>Grant Funding Support</h3>
 <p><strong>Application Documentation</strong></p>
 <p>Full support for: - Social Housing Decarbonisation Fund - Affordable Homes Programme - Local authority grants - Regional development funds</p>
 <p><a href="../services/bid-writing-management.html">Learn More →</a></p>
 </section>
 <section class="level3 feature-card" id="multi-scenario-analysis">
-<h3 class="anchored" data-anchor-id="multi-scenario-analysis"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis</h3>
+<h3 class="anchored" data-anchor-id="multi-scenario-analysis"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis</h3>
 <p><strong>Compare Upgrade Options</strong></p>
-<p>Analyze impact of: - Different insulation strategies - Heating system alternatives - Window replacement options - Solar PV configurations</p>
+<p>Analyse impact of: - Different insulation strategies - Heating system alternatives - Window replacement options - Solar PV configurations</p>
 <p><a href="../services/multi-scenario-analysis.html">Learn More →</a></p>
 </section>
 <section class="level3 feature-card" id="resident-consultation">
-<h3 class="anchored" data-anchor-id="resident-consultation"><i class="bi bi-people" style="color: var(--bim-orange); margin-right: 12px;"></i>Resident Consultation</h3>
+<h3 class="anchored" data-anchor-id="resident-consultation"><i aria-hidden="true" class="bi bi-people" style="color: var(--bim-orange); margin-right: 12px;"></i>Resident Consultation</h3>
 <p><strong>Engagement Support</strong></p>
 <p>Materials for: - Cost breakdown summaries - Visual presentations - Alternative option comparisons - Q&amp;A documentation</p>
 <p><a href="../services/comprehensive-reporting.html">Learn More →</a></p>
 </section>
 <section class="level3 feature-card" id="phasing-programming">
-<h3 class="anchored" data-anchor-id="phasing-programming"><i class="bi bi-calendar-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Phasing &amp; Programming</h3>
+<h3 class="anchored" data-anchor-id="phasing-programming"><i aria-hidden="true" class="bi bi-calendar-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Phasing &amp; Programming</h3>
 <p><strong>Occupied Building Works</strong></p>
 <p>Critical for: - Minimize resident disruption - Decanting strategies - Access coordination - Seasonal work planning</p>
 <p><a href="../services/construction-logistics.html">Learn More →</a></p>
@@ -788,7 +802,7 @@ Local labour and material rates
 <h4 class="anchored" data-anchor-id="scope-definition-quantification">Scope Definition &amp; Quantification</h4>
 <p><strong>Days 1-4</strong></p>
 <p><strong>What We Do:</strong> - Define upgrade specifications - Quantify per property archetype - Calculate volume discounts - Assess phasing requirements - Map resident impact</p>
-<p><strong>Technology:</strong> - BIM 5D extraction (if available) - Property archetype modeling - Volume quantity analysis</p>
+<p><strong>Technology:</strong> - BIM 5D extraction (if available) - Property archetype modelling - Volume quantity analysis</p>
 <p><strong>Output:</strong> Complete quantity take-off (BOQ)</p>
 </section>
 <section class="level4 process-step" id="cost-application-value-engineering">
@@ -815,7 +829,7 @@ Local labour and material rates
 </div>
 <div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
 <p><strong>Typical Total Duration:</strong> 7-10 working days from data receipt to final report<br/>
-<strong>Express Service:</strong> Available for urgent grant deadlines (4-5 days) at 25% premium</p>
+<strong>Express Service:</strong> Available for urgent grant deadlines (4-5 days) at a premium</p>
 </div>
 </section>
 <section class="level2" id="why-choose-bim-takeoff-for-housing-associations">
@@ -833,9 +847,9 @@ Local labour and material rates
 <section class="level3" id="value-for-money" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
 <h3 class="anchored" data-anchor-id="value-for-money">Value for Money</h3>
 <ul>
-<li><strong>±5% accuracy</strong> - minimize overruns</li>
+<li><strong>Careful measurement</strong> - reduce the risk of overruns</li>
 <li><strong>Value engineering</strong> - stretch budgets</li>
-<li><strong>Volume discounts</strong> - optimize procurement</li>
+<li><strong>Volume discounts</strong> - optimise procurement</li>
 <li><strong>Cost-per-unit focus</strong> - board reporting</li>
 </ul>
 </section>
@@ -844,7 +858,7 @@ Local labour and material rates
 <ul>
 <li><strong>Clear communication</strong> - consultation materials</li>
 <li><strong>Minimal disruption</strong> - phasing strategies</li>
-<li><strong>Occupied works</strong> - decanting minimized</li>
+<li><strong>Occupied works</strong> - decanting minimised</li>
 <li><strong>Alternative options</strong> - member choice</li>
 </ul>
 </section>
@@ -860,7 +874,7 @@ Local labour and material rates
 <section class="level3" id="technology-advantage" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
 <h3 class="anchored" data-anchor-id="technology-advantage">Technology Advantage</h3>
 <ul>
-<li><strong>5D BIM</strong> - rapid cost modeling</li>
+<li><strong>5D BIM</strong> - rapid cost modelling</li>
 <li><strong>Scenario analysis</strong> - compare options</li>
 <li><strong>Real-time updates</strong> - cost changes</li>
 <li><strong>Digital delivery</strong> - board presentations</li>
@@ -909,7 +923,7 @@ Local labour and material rates
 <p><strong>Q: What about estimating for occupied properties?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We specialize in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional).</p>
+<p>A: We specialise in occupied building works. Our estimates include phasing strategies, protection measures, decanting costs (where necessary), resident liaison time, and the cost premium for working around occupants (typically 10-15% additional).</p>
 </div>
 </div>
 <div class="faq-item">
@@ -917,7 +931,7 @@ Local labour and material rates
 <p><strong>Q: How accurate are estimates for Decent Homes compliance?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: With proper stock condition surveys, we achieve ±5-8% accuracy on Decent Homes refurbishment programmes. We include appropriate contingencies (5-10%) for properties where condition surveys reveal uncertainties.</p>
+<p>A: Accuracy depends on the quality of the stock condition survey we are given. We include contingencies (5-10%) for properties where the survey reveals uncertainties, and we flag the assumption rather than absorb it.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -925,7 +939,7 @@ Local labour and material rates
 <p><strong>Q: How do you approach value engineering for tight budgets?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: We identify value engineering opportunities without compromising quality or compliance. This includes optimizing specifications, exploring alternative materials, value-analyzing phasing options, and maximizing volume discounts through strategic procurement.</p>
+<p>A: We identify value engineering opportunities without compromising quality or compliance. This includes optimising specifications, exploring alternative materials, value-analysing phasing options, and maximising volume discounts through strategic procurement.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -933,8 +947,7 @@ Local labour and material rates
 <p><strong>Q: What’s your fee structure for housing association projects?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Fees vary based on programme size and complexity. As a rough guide: - Small programme (50-100 units): £3,000-6,000 - Medium programme (100-300 units): £6,000-12,000 - Large programme (300-500 units): £12,000-20,000</p>
-<p>Express service (4-5 days) carries a 25% premium. Contact us for a specific quote.</p>
+<p>A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees scale with programme size and complexity. Contact us for a specific quote.</p>
 </div>
 </div>
 </div>
@@ -944,7 +957,7 @@ Local labour and material rates
 <div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
 <div style="max-width: 900px; margin: 0 auto;">
 <h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Maximize Value from Every Pound Spent
+Maximise Value from Every Pound Spent
 </h2>
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">
 Get accurate cost estimates for grant applications, resident consultation, and board approvals. Specialist social housing expertise across the UK.
@@ -952,7 +965,7 @@ Get accurate cost estimates for grant applications, resident consultation, and b
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-telephone-fill"></i> Schedule Call
+<i aria-hidden="true" class="bi bi-telephone-fill"></i> Schedule Call
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
 Discuss your programme with housing specialists
@@ -963,10 +976,10 @@ Discuss your programme with housing specialists
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-file-earmark-text-fill"></i> Get Quote
+<i aria-hidden="true" class="bi bi-file-earmark-text-fill"></i> Get Quote
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-24-hour response with detailed proposal
+We respond within one working day, Monday to Friday
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
 <a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a>
@@ -974,31 +987,31 @@ Discuss your programme with housing specialists
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-calendar-check-fill"></i> Free Consultation
+<i aria-hidden="true" class="bi bi-file-earmark-check-fill"></i> Free Sample Takeoff
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-30-minute programme review
+See our measurement on one of your drawings before you commit
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
-<a href="../contact.html" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a>
+<a href="../contact.html#sample" style="color: var(--bim-orange); text-decoration: underline;">Request Sample →</a>
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
-<p><a class="cta-primary" href="../contact.html">Get Free Consultation</a> <a class="cta-secondary" href="../coming-soon.html">View Portfolio</a> <a class="cta-secondary" href="mailto:info@bimtakeoff.com">Request Quote</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 <div style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>UK Social Housing Specialists</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>UK Social Housing Specialists</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Grant Funding Application Support</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Grant Funding Application Support</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-10 Day Turnaround</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-10 Day Turnaround</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy - Value for Money</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Value for Money</strong>
 </p>
 </div>
 </div>
@@ -1415,31 +1428,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="../services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="../services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="../industries/remediation.html">Facade and cladding remediation</a><br/> <a href="../services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="../pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="../privacy-policy.html">Privacy policy</a> · <a href="../terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="../js/scroll-effects.js"></script>
 <script src="../js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="../js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="../js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="../js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="../js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

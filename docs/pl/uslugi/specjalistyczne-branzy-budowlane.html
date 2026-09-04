@@ -5,7 +5,7 @@
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
 <meta content="kosztorysowanie specjalistyczne, kosztorys sucha zabudowa, wycena ochrona ppoż, kosztorys elewacje, kosztorys konstrukcje stalowe, quantity surveyor polska" name="keywords"/>
-<meta content="20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU." name="description"/>
+<meta content="Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii." name="description"/>
 <title>BIM Takeoff - Kosztorysowanie Branż: Zabudowa, Ppoż., Elewacje, Konstrukcje</title>
 <style>
 code{white-space: pre-wrap;}
@@ -68,9 +68,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,32 +104,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Kosztorysowanie Branż: Zabudowa, Ppoż., Elewacje, Konstrukcje" name="twitter:title"/>
-<meta content="20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU." name="twitter:description"/>
+<meta content="Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -126,7 +133,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -175,14 +182,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -199,7 +200,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Kosztorysowanie Branż: Zabudowa, Ppoż., Elewacje, Konstrukcje" property="og:title"/>
-<meta content="20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU." property="og:description"/>
+<meta content="Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -213,7 +214,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czym różni się kosztorysowanie specjalistyczne od ogólnego?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Kosztorysanci specjalistyczni mają praktyczne doświadczenie w montażu i rozumieją niuanse wpływające na koszty: systemy ognioodporne wymagają określonych sekwencji montażu, prace elewacyjne są zależne od pogody, a połączenia konstrukcyjne mają ukrytą złożoność. Uwzględniamy czynniki, które ogólni kosztorysanci często pomijają, co skutkuje dokładnością ±3-5% versus ±15-20% dla ogólnych kosztorysów."
+        "text": "O: Chodzi o znajomość montażu, nie tylko cen. Systemy ognioodporne wymagają określonej sekwencji prac, elewacje są zależne od pogody i dostępu, a połączenia konstrukcyjne mają ukrytą pracochłonność. Wyceniamy te czynniki osobno, zamiast chować je w narzucie."
       }
     },
     {
@@ -253,7 +254,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Czy dostarczacie alternatywy optymalizacji wartości?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Absolutnie. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, metody montażu i substytucje równoważne wydajnościowo, które mogą obniżyć koszty bez kompromisu w jakości. Typowe możliwości oszczędności wahają się od 10-20% wartości pakietu."
+        "text": "O: Tak. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, inne metody montażu i zamienniki równoważne pod względem parametrów. Przy każdej opcji podajemy różnicę kosztu i warunek, który trzeba spełnić, żeby ją zastosować."
       }
     },
     {
@@ -261,7 +262,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jakie rozmiary projektów obsługujecie?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja wysokościowca jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Dla projektów poniżej 2 000 000 PLN obowiązuje minimalna opłata."
+        "text": "O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja budynku wysokiego jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy."
       }
     },
     {
@@ -277,7 +278,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak szybko możecie dostarczyć kosztorys?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Standardowy czas to 2-3 tygodnie dla kompleksowych kosztorysów specjalistycznych. Dla pilnych wymagań oferujemy usługę ekspresową (5-7 dni roboczych) z 30% dopłatą. Wstępne kosztorysy budżetowe mogą być dostarczone w ciągu 48 godzin dla studiów wykonalności."
+        "text": "O: Standardowy czas to 2–3 tygodnie dla pełnego kosztorysu specjalistycznego. Przy pilnych terminach pracujemy w trybie przyspieszonym: 5–7 dni roboczych. Wstępny kosztorys budżetowy do studium wykonalności wydajemy w ciągu 48 godzin."
       }
     },
     {
@@ -307,7 +308,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU."
+  "description": "Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii."
 }
 </script>
 <script type="application/ld+json">
@@ -357,7 +358,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -365,97 +366,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -463,16 +439,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -514,7 +532,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div>
 <div class="description">
-    20 lat doświadczenia branż specjalistycznych: sucha zabudowa, ppoż., elewacje, konstrukcje. Dokładność ±3%. 1500+ projektów EU/UK/AU.
+    Przedmiary i kosztorysy branż specjalistycznych: sucha zabudowa, ochrona ppoż., elewacje, konstrukcje. 20 lat doświadczenia w EU, UK i Australii.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -528,7 +546,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="specjalistyczne-kosztorysowanie-dla-branż-budowlanych">
@@ -543,21 +561,21 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ projektów specjalistycznych</strong> wycenionych w EU, UK i Australii
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pakiety branżowe</strong> wyceniane w EU, UK i Australii
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Głęboka ekspertyza:</strong> Sucha Zabudowa, Ochrona Ppoż., Elewacje, Konstrukcje
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Głęboka ekspertyza:</strong> Sucha Zabudowa, Ochrona Ppoż., Elewacje, Konstrukcje
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Przetargi</strong> jedno i dwustopniowe
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Przetargi</strong> jedno i dwustopniowe
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność</strong> z międzynarodowymi standardami (NRM, AS, BS, EN) + polskie przepisy
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność</strong> z międzynarodowymi standardami (NRM, AS, BS, EN) + polskie przepisy
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../coming-soon.html">Otrzymaj Wycenę Specjalistyczną</a> <a class="cta-secondary" href="../coming-soon.html">Pobierz Przewodnik Branżowy</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -570,43 +588,41 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p>Ogólni kosztorysanci nie rozumieją złożoności branż specjalistycznych:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Sucha zabudowa:</strong> Brak wyceny szczegółów
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Sucha zabudowa:</strong> Brak wyceny szczegółów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ochrona ppoż.:</strong> Pominięcie kosztów certyfikacji, testów
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ochrona ppoż.:</strong> Pominięcie kosztów certyfikacji, testów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Elewacje:</strong> Przeoczenie sekwencji montażu, złożoności uszczelnienia
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Elewacje:</strong> Przeoczenie sekwencji montażu, złożoności uszczelnienia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Konstrukcje:</strong> Niedoszacowanie zbrojenia, detali połączeń, tolerancji
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Konstrukcje:</strong> Niedoszacowanie zbrojenia, detali połączeń, tolerancji
 </p>
 </div>
 <section class="level4 callout-box" id="ukryte-koszty-się-sumują" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="ukryte-koszty-się-sumują">Ukryte Koszty Się Sumują</h4>
-<blockquote class="blockquote">
-<p>“W branżach specjalistycznych to, czego nie widać w kosztorysie, kosztuje podczas budowy. Same testy ppoż. mogą stanowić 3-5% wartości całego pakietu.”</p>
-</blockquote>
+<h4 class="anchored" data-anchor-id="ukryte-koszty-się-sumują">Ukryte koszty się sumują</h4>
+<p>W branżach specjalistycznych to, czego nie widać w kosztorysie, i tak kosztuje podczas budowy. Testy i certyfikacja ochrony ppoż. są tego najczęstszym przykładem: pozycja zwykle pomijana, a rozliczana na końcu.</p>
 </section>
 </section>
 <section class="level3" id="nasze-rozwiązanie" style="">
-<h3 class="anchored" data-anchor-id="nasze-rozwiązanie">Nasze Rozwiązanie</h3>
-<p>Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:</p>
+<h3 class="anchored" data-anchor-id="nasze-rozwiązanie">Nasze rozwiązanie</h3>
+<p>Kosztorysowanie prowadzone przez kogoś, kto pracował na tych pakietach, nie tylko je liczył:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Praktyczne doświadczenie</strong> w montażu suchej zabudowy, systemów ppoż., elewacji
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Praktyczne doświadczenie</strong> w montażu suchej zabudowy, systemów ppoż., elewacji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ pakietów specjalistycznych</strong> wycenionych na 3 kontynentach
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pakiety branżowe</strong> wyceniane na trzech kontynentach
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Znamy ukryte koszty: nieefektywność pracy, straty materiału, ryzyko poprawek
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Znamy ukryte koszty: nieefektywność pracy, straty materiału, ryzyko poprawek
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rozumiemy zgodność: klasy ppoż., obliczenia statyczne, testy obciążenia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rozumiemy zgodność: klasy ppoż., obliczenia statyczne, testy obciążenia
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rzeczywiste kosztorysowanie: nie tylko przedmiar — faktyczne koszty wykonania
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rzeczywiste kosztorysowanie: nie tylko przedmiar — faktyczne koszty wykonania
 </p>
 </div>
 </section>
@@ -616,7 +632,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <h2 class="anchored" data-anchor-id="obszary-specjalistyczne">4 Obszary Specjalistyczne</h2>
 <div class="specialist-areas" style="margin: 48px 0;">
 <section class="level3 specialist-card" id="sucha-zabudowa-i-przegrody">
-<h3 class="anchored" data-anchor-id="sucha-zabudowa-i-przegrody"><i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Sucha Zabudowa i Przegrody</h3>
+<h3 class="anchored" data-anchor-id="sucha-zabudowa-i-przegrody"><i aria-hidden="true" class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Sucha Zabudowa i Przegrody</h3>
 <section class="level4" id="co-obejmujemy">
 <h4 class="anchored" data-anchor-id="co-obejmujemy">Co Obejmujemy</h4>
 <ul>
@@ -630,7 +646,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <section class="level4" id="nasze-doświadczenie">
 <h4 class="anchored" data-anchor-id="nasze-doświadczenie">Nasze Doświadczenie</h4>
 <ul>
-<li>900+ projektów suchej zabudowy wycenionych (biura, magazyny, mieszkania)</li>
+<li>Sucha zabudowa wyceniana w biurach, magazynach i budynkach mieszkalnych</li>
 <li>Praca ze specyfikacjami Knauf, British Gypsum, CSR Gyprock, SAS, Armstrong, Rigips</li>
 <li>Rozumiemy stawki robocizny: dobór ekip, współczynniki wydajności, ograniczenia dostępu</li>
 <li>Znamy współczynniki strat materiałowych - realne, nie dobrze wyglądające na papierze</li>
@@ -659,7 +675,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </section>
 <section class="level3 specialist-card" id="systemy-ochrony-przeciwpożarowej">
-<h3 class="anchored" data-anchor-id="systemy-ochrony-przeciwpożarowej"><i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Ochrony Przeciwpożarowej</h3>
+<h3 class="anchored" data-anchor-id="systemy-ochrony-przeciwpożarowej"><i aria-hidden="true" class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Ochrony Przeciwpożarowej</h3>
 <section class="level4" id="co-obejmujemy-1">
 <h4 class="anchored" data-anchor-id="co-obejmujemy-1">Co Obejmujemy</h4>
 <ul>
@@ -673,7 +689,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <section class="level4" id="nasze-doświadczenie-1">
 <h4 class="anchored" data-anchor-id="nasze-doświadczenie-1">Nasze Doświadczenie</h4>
 <ul>
-<li>150+ pakietów ochrony ppoż. (magazyny, centra danych, wysokościowce)</li>
+<li>Pakiety ochrony ppoż. w magazynach, centrach danych i budynkach wysokich</li>
 <li>Zgodność z AS 1530.4, BS 476, EN 13501, polskie przepisy</li>
 <li>Praca z systemami Trafalgar, Hilti, Nullifire, FireMaster, Rockwool, Titan</li>
 <li>Rozumiemy wymogi certyfikacyjne: testy, zgodność BCA/NCC</li>
@@ -705,7 +721,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </section>
 <section class="level3 specialist-card" id="elewacje-i-okładziny">
-<h3 class="anchored" data-anchor-id="elewacje-i-okładziny"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Elewacje i Okładziny</h3>
+<h3 class="anchored" data-anchor-id="elewacje-i-okładziny"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Elewacje i Okładziny</h3>
 <section class="level4" id="co-obejmujemy-2">
 <h4 class="anchored" data-anchor-id="co-obejmujemy-2">Co Obejmujemy</h4>
 <ul>
@@ -718,7 +734,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <section class="level4" id="nasze-doświadczenie-2">
 <h4 class="anchored" data-anchor-id="nasze-doświadczenie-2">Nasze Doświadczenie</h4>
 <ul>
-<li>120+ projektów elewacji (magazyny, biura, wysokościowce mieszkalne)</li>
+<li>Elewacje magazynów, biur i wysokich budynków mieszkalnych</li>
 <li>Systemy materiałowe: Kingspan, Trespa, Equitone, Alucobond, Cemintel</li>
 <li>Uwzględnienie w wycenie obliczeń strukturalnych i koordynacji projektowej</li>
 <li>Złożone sekwencje montażu: rusztowania, dźwigi, opóźnienia pogodowe</li>
@@ -750,7 +766,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </section>
 <section class="level3 specialist-card" id="roboty-konstrukcyjne">
-<h3 class="anchored" data-anchor-id="roboty-konstrukcyjne"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Roboty Konstrukcyjne</h3>
+<h3 class="anchored" data-anchor-id="roboty-konstrukcyjne"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Roboty Konstrukcyjne</h3>
 <section class="level4" id="co-obejmujemy-3">
 <h4 class="anchored" data-anchor-id="co-obejmujemy-3">Co Obejmujemy</h4>
 <ul>
@@ -764,7 +780,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <section class="level4" id="nasze-doświadczenie-3">
 <h4 class="anchored" data-anchor-id="nasze-doświadczenie-3">Nasze Doświadczenie</h4>
 <ul>
-<li>180+ pakietów konstrukcyjnych (magazyny, mosty, wysokościowce)</li>
+<li>Pakiety konstrukcyjne magazynów, mostów i budynków wysokich</li>
 <li>Stal: prefabrykacja + montaż + malowanie + ochrona ppoż.</li>
 <li>Beton: szalunki + zbrojenie + wylanie + pielęgnacja + wykończenie</li>
 <li>Złożone obliczenia: ścieżki obciążeń, detale połączeń, sekwencje budowy</li>
@@ -787,7 +803,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul>
 <li>Stal konstrukcyjna: prefabrykacja 40%, montaż 35%, malowanie/ppoż. 25%</li>
 <li>Stropy sprężone: 15-20% więcej materiału ale 30% szybsza budowa</li>
-<li>Złożoność połączeń: proste = 200 PLN/połączenie, momentowe = 2000+ PLN</li>
+<li>Złożoność połączeń: połączenia momentowe kosztują wielokrotnie więcej niż przegubowe</li>
 <li>Wynajem pompy do betonu: 6000-10000 PLN/dzień z operatorem</li>
 <li>Wiązanie zbrojenia: średnio 8-12 godzin na tonę</li>
 </ul>
@@ -804,7 +820,6 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <h4 class="anchored" data-anchor-id="etap-1-definicja-zakresu-specjalistycznego">Etap 1: Definicja Zakresu Specjalistycznego</h4>
 <p><strong>Czas trwania:</strong> 2-3 dni</p>
 <p><strong>Co robimy:</strong> - Dogłębny przegląd rysunków i specyfikacji - Identyfikacja złożoności branżowych (klasy ppoż., wymagania akustyczne, obciążenia wiatrem) - Ocena ograniczeń montażowych (dostęp, sekwencjonowanie, koordynacja) - Określenie dokładnych granic zakresu i interfejsów z innymi branżami</p>
-<p><strong>Twoja Inwestycja:</strong> Darmowy wstępny przegląd (1-2 godziny)</p>
 <p><strong>Kluczowy Rezultat:</strong> Dokument wyjaśniający zakres ze zidentyfikowanymi złożonościami</p>
 </section>
 <section class="level4 process-step" id="etap-2-specjalistyczny-przedmiar-materiałowy" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
@@ -812,14 +827,14 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Czas trwania:</strong> 2-4 dni</p>
 <p><strong>Co robimy:</strong> - Pomiar ilości z dokładnością branżową - Uwzględnienie współczynników strat wg typu systemu (sucha zabudowa 10-15%, elewacje 8-12%) - Identyfikacja materiałów długoterminowych i ryzyk zakupowych - Weryfikacja kompatybilności materiałów i wymogów dopuszczeń</p>
 <p><strong>Rezultat:</strong> Szczegółowy przedmiar ze specyfikacjami producentów</p>
-<p><strong>Poziom dokładności:</strong> ±2% dla ilości</p>
+<p><strong>Podstawa pomiaru:</strong> Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </section>
 <section class="level4 process-step" id="etap-3-analiza-robocizny" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
 <h4 class="anchored" data-anchor-id="etap-3-analiza-robocizny">Etap 3: Analiza Robocizny</h4>
 <p><strong>Czas trwania:</strong> 2-3 dni</p>
 <p><strong>Co robimy:</strong> - Kalkulacja wielkości ekip i wskaźników wydajności - Uwzględnienie mnożników złożoności (ognioodporne = 1.3-1.5x, wysokość = 1.2-2x) - Sprzęt dostępowy i roboty tymczasowe - Opóźnienia pogodowe i ograniczenia placu budowy</p>
 <p><strong>Rezultat:</strong> Harmonogram pracy z alokacją zasobów</p>
-<p><strong>Na podstawie:</strong> Rzeczywistych danych z 2000+ instalacji</p>
+<p><strong>Na podstawie:</strong> Nakładów obserwowanych na montażu, nie tabel katalogowych</p>
 </section>
 <section class="level4 process-step" id="etap-4-budżet-zgodności-i-testów" style="margin-bottom: 32px; padding-left: 32px; border-left: 3px solid var(--bim-orange);">
 <h4 class="anchored" data-anchor-id="etap-4-budżet-zgodności-i-testów">Etap 4: Budżet Zgodności i Testów</h4>
@@ -833,49 +848,35 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>Czas trwania:</strong> 1 dzień</p>
 <p><strong>Co robimy:</strong> - Identyfikacja ryzyk zmienności cen materiałów - Ocena ryzyk montażowych (pogoda, dostęp, koordynacja) - Kalkulacja odpowiedniej rezerwy (5-15% w zależności od złożoności pakietu) - Alternatywy optymalizacji wartości</p>
 <p><strong>Rezultat:</strong> Kompletny kosztorys specjalistyczny z rejestrem ryzyk</p>
-<p><strong>Mitygacja ryzyka:</strong> Zidentyfikowane możliwości oszczędności zazwyczaj 10-15%</p>
+<p><strong>Optymalizacja wartości:</strong> Wskazane alternatywy materiałowe i montażowe</p>
 </section>
 <div style="text-align: center; margin-top: 32px; padding: 24px; background: var(--bim-charcoal); color: var(--bim-white); border-radius: 8px;">
-<p><strong>Całkowity Czas:</strong> 8-13 dni roboczych | <strong>Czas Projektu:</strong> 2-3 tygodnie od początku do końca</p>
-<p><strong>Tryb Ekspresowy:</strong> Pilne kosztorysy w 5-7 dni roboczych (dopłata 30%)</p>
+<p><strong>Całkowity czas:</strong> 8–13 dni roboczych | <strong>Czas projektu:</strong> 2–3 tygodnie od początku do końca</p>
+<p><strong>Tryb przyspieszony:</strong> pilne kosztorysy w 5–7 dni roboczych</p>
 </div>
 </div>
 </section>
 <section class="level2" id="kluczowych-korzyści-kosztorysowania-specjalistycznego">
-<h2 class="anchored" data-anchor-id="kluczowych-korzyści-kosztorysowania-specjalistycznego">6 Kluczowych Korzyści Kosztorysowania Specjalistycznego</h2>
+<h2 class="anchored" data-anchor-id="kluczowych-korzyści-kosztorysowania-specjalistycznego">5 kluczowych korzyści kosztorysowania specjalistycznego</h2>
 <div class="benefits-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; margin: 48px 0;">
-<section class="level3 benefit-card" id="dokładność-która-ma-znaczenie" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="dokładność-która-ma-znaczenie"><i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> 1. Dokładność Która Ma Znaczenie</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
-<div style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;">
-<p><strong>Ogólni Kosztorysanci</strong><br/>
-±15-20% wariancja</p>
-</div>
-<div style="text-align: center; padding: 16px; background: #e8f5e9; border-radius: 8px;">
-<p><strong>Nasi Specjaliści</strong><br/>
-±3-5% dokładność</p>
-</div>
-</div>
-<p>Na podstawie 2000 rzeczywistych projektów śledzonych do zakończenia</p>
-</section>
 <section class="level3 benefit-card" id="ukryte-koszty-ujawnione" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="ukryte-koszty-ujawnione"><i class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 2. Ukryte Koszty Ujawnione</h3>
+<h3 class="anchored" data-anchor-id="ukryte-koszty-ujawnione"><i aria-hidden="true" class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 1. Ukryte koszty ujawnione</h3>
 <p>Wiemy czego inni nie widzą: - Wymogi uszczelnień akustycznych - Testy ppoż. i certyfikacja - Koszty sprzętu dostępowego elewacji - Roboty tymczasowe konstrukcyjne - Narzuty koordynacyjne - Rezerwy pogodowe</p>
 </section>
 <section class="level3 benefit-card" id="zgodność-wbudowana" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="zgodność-wbudowana"><i class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 3. Zgodność Wbudowana</h3>
+<h3 class="anchored" data-anchor-id="zgodność-wbudowana"><i aria-hidden="true" class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 2. Zgodność wbudowana</h3>
 <p>Od pierwszego dnia, nie odkrywana podczas budowy: - Klasy ogniowe (standardy AS, BS, EN) - Obliczenia konstrukcyjne - Testy obciążenia wiatrem - Testy wydajności akustycznej - Zatwierdzenia urzędów - Certyfikacja zewnętrzna</p>
 </section>
 <section class="level3 benefit-card" id="rzeczywistość-montażu" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="rzeczywistość-montażu"><i class="bi bi-tools" style="color: var(--bim-orange);"></i> 4. Rzeczywistość Montażu</h3>
+<h3 class="anchored" data-anchor-id="rzeczywistość-montażu"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange);"></i> 3. Rzeczywistość montażu</h3>
 <p>Stawki robocizny oparte na: - Faktycznej wydajności ekip - Ograniczeniach dostępu do placu - Czynnikach wpływu pogody - Wymogach koordynacji - <strong>Wykonywaliśmy te prace</strong> - nie teoretyczne liczby z podręczników</p>
 </section>
 <section class="level3 benefit-card" id="wiedza-materiałowa" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="wiedza-materiałowa"><i class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 5. Wiedza Materiałowa</h3>
+<h3 class="anchored" data-anchor-id="wiedza-materiałowa"><i aria-hidden="true" class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 4. Wiedza materiałowa</h3>
 <p>Głęboka ekspertyza producentów: - Wiemy które systemy współpracują - Rozumiemy czasy dostaw (4-16 tygodni) - Śledzimy ryzyko zmienności cen - Identyfikujemy równoważne alternatywy - Kingspan ≠ Metecno ≠ Ruukki w kosztach montażu</p>
 </section>
 <section class="level3 benefit-card" id="zarządzanie-ryzykiem" style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 class="anchored" data-anchor-id="zarządzanie-ryzykiem"><i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 6. Zarządzanie Ryzykiem</h3>
+<h3 class="anchored" data-anchor-id="zarządzanie-ryzykiem"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 5. Zarządzanie ryzykiem</h3>
 <p>Każdy pakiet zawiera: - Kompleksowy rejestr ryzyk - Oceny prawdopodobieństwa - Analizę wpływu - Strategie mitygacji - Rekomendacje rezerw - Opcje optymalizacji wartości</p>
 </section>
 </div>
@@ -888,7 +889,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Czym różni się kosztorysowanie specjalistyczne od ogólnego?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Kosztorysanci specjalistyczni mają praktyczne doświadczenie w montażu i rozumieją niuanse wpływające na koszty: systemy ognioodporne wymagają określonych sekwencji montażu, prace elewacyjne są zależne od pogody, a połączenia konstrukcyjne mają ukrytą złożoność. Uwzględniamy czynniki, które ogólni kosztorysanci często pomijają, co skutkuje dokładnością ±3-5% versus ±15-20% dla ogólnych kosztorysów.</p>
+<p>O: Chodzi o znajomość montażu, nie tylko cen. Systemy ognioodporne wymagają określonej sekwencji prac, elewacje są zależne od pogody i dostępu, a połączenia konstrukcyjne mają ukrytą pracochłonność. Wyceniamy te czynniki osobno, zamiast chować je w narzucie.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -928,7 +929,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Czy dostarczacie alternatywy optymalizacji wartości?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Absolutnie. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, metody montażu i substytucje równoważne wydajnościowo, które mogą obniżyć koszty bez kompromisu w jakości. Typowe możliwości oszczędności wahają się od 10-20% wartości pakietu.</p>
+<p>O: Tak. Każdy kosztorys specjalistyczny zawiera rekomendacje optymalizacji wartości: alternatywne systemy materiałowe, inne metody montażu i zamienniki równoważne pod względem parametrów. Przy każdej opcji podajemy różnicę kosztu i warunek, który trzeba spełnić, żeby ją zastosować.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -936,7 +937,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jakie rozmiary projektów obsługujecie?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja wysokościowca jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Dla projektów poniżej 2 000 000 PLN obowiązuje minimalna opłata.</p>
+<p>O: Pracujemy nad projektami od małych zabudów (500 m²) po duże inwestycje (50 000+ m²). Złożoność branży specjalistycznej ma większe znaczenie niż całkowity rozmiar projektu — elewacja budynku wysokiego jest bardziej złożona niż pakiet suchej zabudowy dużego magazynu. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -952,7 +953,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <p><strong>P: Jak szybko możecie dostarczyć kosztorys?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Standardowy czas to 2-3 tygodnie dla kompleksowych kosztorysów specjalistycznych. Dla pilnych wymagań oferujemy usługę ekspresową (5-7 dni roboczych) z 30% dopłatą. Wstępne kosztorysy budżetowe mogą być dostarczone w ciągu 48 godzin dla studiów wykonalności.</p>
+<p>O: Standardowy czas to 2–3 tygodnie dla pełnego kosztorysu specjalistycznego. Przy pilnych terminach pracujemy w trybie przyspieszonym: 5–7 dni roboczych. Wstępny kosztorys budżetowy do studium wykonalności wydajemy w ciągu 48 godzin.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -978,80 +979,70 @@ Otrzymaj kosztorysy od specjalistów którzy faktycznie wykonywali te prace.
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-clipboard-check"></i> Pozostańmy w Kontakcie
+<i aria-hidden="true" class="bi bi-clipboard-check"></i> Prześlij dokumentację
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Napisz do nas, otrzymaj wycenę w 24h
+Rysunki, specyfikacja i zakres pakietu. Odpowiadamy w ciągu jednego dnia roboczego.
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-download"></i> Pobierz Przewodniki Branżowe
+<i aria-hidden="true" class="bi bi-calculator"></i> Bezpłatny przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-“Kosztorysowanie Branż Specjalistycznych: 12 Kosztów Które Wszyscy Pomijają” (18-str PDF)
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-<i class="bi bi-calculator"></i> Otrzymaj Wycenę Specjalistyczną
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-3-min formularz, wycena w 48h
+Mierzymy jeden element z Twojej dokumentacji, żebyś zobaczył format i sposób pracy.
 </p>
 </div>
 </div>
+<p style="color: var(--bim-white); font-size: 16px; margin-bottom: 32px;">
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.
+</p>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a href="../kontakt.html">Pozostańmy w Kontakcie</a>.cta-primary} <a class="cta-secondary" href="../coming-soon.html">Pobierz Przewodniki</a> <a class="cta-secondary" href="../kontakt.html">Otrzymaj Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2,000+ Projektów Specjalistycznych</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Sucha zabudowa, ppoż., elewacje, konstrukcje</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia EU/UK/AU</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia w EU, UK i Australii</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±5%</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Założenia i wyłączenia wypisane w kosztorysie</strong>
 </p>
 </div>
 </div>
 </div>
 </section>
-<section class="level2" id="nasze-referencje-specjalistyczne">
-<h2 class="anchored" data-anchor-id="nasze-referencje-specjalistyczne">Nasze Referencje Specjalistyczne</h2>
+<section class="level2" id="kto-prowadzi-kosztorysowanie">
+<h2 class="anchored" data-anchor-id="kto-prowadzi-kosztorysowanie">Kto prowadzi kosztorysowanie</h2>
 <div class="credentials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 48px 0; text-align: center;">
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>Doświadczony Surveyor</strong><br/>
-Quantity Surveyor</p>
+<p><i aria-hidden="true" class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<strong>Robert Kowalski</strong><br/>
+Kosztorysowanie i przedmiary</p>
 </div>
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<p><i aria-hidden="true" class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
 <strong>20 Lat</strong><br/>
 Doświadczenia</p>
 </div>
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<p><i aria-hidden="true" class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
 <strong>Obsługujemy cały świat</strong><br/>
 Projekty Globalne</p>
 </div>
 <div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>±3-5%</strong><br/>
-Dokładność</p>
-</div>
-<div style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p><i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
-<strong>10 mld PLN</strong><br/>
-Wycenionych Projektów</p>
+<p><i aria-hidden="true" class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i><br/>
+<strong>NRM2, AS 4000, KNR</strong><br/>
+Standardy pomiaru</p>
 </div>
 </div>
 <section class="level3" id="potrzebujesz-natychmiastowej-pomocy" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
 <h3 class="anchored" data-anchor-id="potrzebujesz-natychmiastowej-pomocy">Potrzebujesz Natychmiastowej Pomocy?</h3>
 <p><strong>Zadzwoń:</strong> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a> | <strong>Email:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a></p>
-<p><strong>Godziny Pracy:</strong> Poniedziałek-Piątek, 9:00-17:00 CET | <strong>Czas Reakcji:</strong> W ciągu 4 godzin</p>
-<p><strong>Kosztorysy Awaryjne:</strong> Dostępne dla pilnych przetargów (realizacja 48h)</p>
+<p><strong>Godziny pracy:</strong> poniedziałek–piątek, 9:00–17:00 CET | <strong>Czas reakcji:</strong> w ciągu jednego dnia roboczego</p>
+<p><strong>Tryb przyspieszony:</strong> dostępny dla pilnych przetargów (realizacja 48 h)</p>
 </section>
 </section>
 </div>
@@ -1465,30 +1456,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

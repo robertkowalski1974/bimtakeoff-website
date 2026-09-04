@@ -4,8 +4,8 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/wygrywanie-przetargow.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych." name="description"/>
-<title>BIM Takeoff - Wygrywanie Przetargów | Kompleksowy System Wsparcia</title>
+<meta content="Wycena przetargowa i wsparcie ofertowe dla wykonawców i podwykonawców. Kosztorys ofertowy, zastrzeżenia i rejestr pytań. Polska, Wielka Brytania, Australia." name="description"/>
+<title>BIM Takeoff - Wycena przetargowa i wsparcie ofertowe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,32 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
-<meta content="BIM Takeoff - Wygrywanie Przetargów | Kompleksowy System Wsparcia" name="twitter:title"/>
-<meta content="Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych." name="twitter:description"/>
+<meta content="BIM Takeoff - Wycena przetargowa i wsparcie ofertowe" name="twitter:title"/>
+<meta content="Wycena przetargowa i wsparcie ofertowe dla wykonawców i podwykonawców. Kosztorys ofertowy, zastrzeżenia i rejestr pytań. Polska, Wielka Brytania, Australia." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -197,8 +198,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   ]
 }
 </script>
-<meta content="BIM Takeoff - Wygrywanie Przetargów | Kompleksowy System Wsparcia" property="og:title"/>
-<meta content="Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych." property="og:description"/>
+<meta content="BIM Takeoff - Wycena przetargowa i wsparcie ofertowe" property="og:title"/>
+<meta content="Wycena przetargowa i wsparcie ofertowe dla wykonawców i podwykonawców. Kosztorys ofertowy, zastrzeżenia i rejestr pytań. Polska, Wielka Brytania, Australia." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/../images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -209,58 +210,50 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "P: Czym różni się Państwa oferta od tradycyjnych usług kosztorysowania?",
+      "name": "P: Czym to się różni od zwykłego przygotowania oferty?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Większość firm kosztorysowych koncentruje się wyłącznie na wycenie. Oferujemy kompleksowy system obejmujący: strategiczny wybór przetargów, precyzyjne kosztorysowanie zintegrowane z BIM, opracowanie metodologii, ochronę warunków kontraktowych oraz wsparcie w odzyskiwaniu należności za roboty dodatkowe. Nie tylko pomagamy złożyć ofertę – zwiększamy szanse na wygraną i optymalizujemy rentowność projektu."
+        "text": "O: Zaczynamy od ilości. Kosztorys ofertowy powstaje z przedmiaru, który da się sprawdzić z rysunkami, a nie z przepisania przedmiaru zamawiającego. Do tego dochodzą zastrzeżenia i pytania do SWZ, złożone w terminie, żeby zakres był rozstrzygnięty przed złożeniem oferty, a nie po podpisaniu umowy."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jakiej poprawy skuteczności można realistycznie oczekiwać?",
+      "name": "P: O ile wzrośnie moja skuteczność w przetargach?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Nasi klienci obserwują wzrost skuteczności z 5–15% do 35–45% w konkurencyjnych przetargach. Wyniki zależą od takich czynników jak: selekcja projektów, konkurencyjność cenowa oraz relacje z zamawiającymi. W przypadku przetargów negocjowanych lub dwuetapowych, gdzie angażujemy się na wczesnym etapie, skuteczność może przekroczyć 70%."
+        "text": "O: Nie podajemy takiej liczby. O rozstrzygnięciu przetargu decyduje Twoja cena, Twój harmonogram i kryteria przyjęte przez zamawiającego, a nie to, kto sporządził kosztorys. Możemy powiedzieć, co stąd wychodzi: kosztorys wyceniony zgodnie ze specyfikacją, z zastrzeżeniami i pytaniami zapisanymi, a nie przemilczanymi."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Czy pracują Państwo z mniejszymi wykonawcami i MŚP?",
+      "name": "P: Czy pracujecie z małymi firmami?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Absolutnie. Wielu małych i średnich wykonawców nie ma wewnętrznych zespołów ofertowych, ale potrzebuje profesjonalnych zgłoszeń, żeby konkurować. Skalujemy nasze usługi do potrzeb i budżetu. Mamy doświadczenie w prezentowaniu mniejszych firm tak profesjonalnie jak duzi wykonawcy."
+        "text": "O: Tak. Większość naszych zleceń to pojedyncze pakiety branżowe dla firm, które nie mają własnego działu ofertowego. Zakres dopasowujemy do wielkości postępowania."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jak szybko mogą Państwo przygotować przetarg?",
+      "name": "P: Zdążycie przed terminem składania ofert?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Idealnie 3–4 tygodnie na kompleksowy przetarg. Przy pilnych okazjach obsługujemy terminy 10–14 dni. Przy ekstremalnie krótkich terminach (7 dni lub mniej) zapewniamy ukierunkowane wsparcie na konkretnych elementach."
+        "text": "O: Termin podajemy razem z ceną, w ciągu jednego dnia roboczego od otrzymania dokumentacji, i dopiero wtedy zaczynamy. Podaj też termin wniesienia wadium, jeśli w postępowaniu obowiązuje — bywa wcześniejszy niż termin składania ofert i przesuwa datę, na którą kosztorys musi być gotowy. Jeśli do terminu zostało mniej niż 72 godziny, zadzwoń zamiast pisać."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jakie rynki obsługują Państwo?",
+      "name": "P: W jakich podstawach wyceniacie?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Pracujemy w Polsce, Wielkiej Brytanii, Australii, UE i na rynkach międzynarodowych. Nasz zespół rozumie lokalne standardy, ramy zamówień i oczekiwania rynkowe w każdym regionie. Dla wykonawców wchodzących na nowe rynki zapewniamy lokalną ekspertyzę."
+        "text": "O: W Polsce według KNR i KNNR, z cenami Twoimi lub z bazy Sekocenbud. W Wielkiej Brytanii według NRM2 lub SMM7, w Australii według AS 4000 i AS 3700. Powiedz, w jakiej podstawie napisany jest kosztorys, który masz wypełnić."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Czy pomagają Państwo z przetargami dla deweloperów międzynarodowych (Panattoni, 7R, Goodman)?",
+      "name": "P: Czy przygotowujecie kosztorys inwestorski dla zamawiającego?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak – ci deweloperzy mają wyjątkowo wysokie wymagania dotyczące zrównoważonego rozwoju, często przewyższające wymogi sektora publicznego. BREEAM Excellent to minimum. Nasze doświadczenie z Wielkiej Brytanii i Australii oznacza znajomość standardów i oczekiwań tych klientów."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "P: Dlaczego oferują Państwo różne modele cenowe? Co jest lepsze – stała opłata czy procent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O: Każdy wykonawca ma inną sytuację. Stała opłata (60–150 tys. PLN) daje przewidywalność kosztów i niższy całkowity koszt przy dużych projektach. Model procentowy (3–5% wartości) oznacza płatność tylko po wygranej – dzielimy ryzyko. Model hybrydowy łączy obie zalety. Dla stałego wsparcia abonament (15–25 tys. PLN miesięcznie) daje najniższy koszt jednostkowy. Każdy model gwarantuje ten sam poziom zaangażowania i jakości."
+        "text": "O: Tak, ale nie w tym samym postępowaniu, w którym wyceniamy ofertę wykonawcy. Zobacz kosztorys inwestorski →"
       }
     }
   ]
@@ -280,7 +273,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Wygrywanie Przetargów | Kompleksowy System Wsparcia"
+      "name": "Wycena przetargowa i wsparcie ofertowe"
     }
   ]
 }
@@ -307,7 +300,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="./index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -315,97 +308,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="./uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="./uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="./">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="./uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="./uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="./branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="./branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a aria-current="page" class="nav-link active" href="./wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -413,16 +381,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="./zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="./zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="./zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="./branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="./coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="./branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="./branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="./branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -460,11 +470,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <main class="content column-page" id="quarto-document-content">
 <header class="quarto-title-block default" id="title-block-header">
 <div class="quarto-title">
-<h1 class="title">Wygrywanie Przetargów | Kompleksowy System Wsparcia</h1>
+<h1 class="title">Wycena przetargowa i wsparcie ofertowe</h1>
 </div>
 <div>
 <div class="description">
-    Pierwszy w Polsce kompleksowy system wygrywania przetargów budowlanych. Ponad 2000 przetargów przygotowanych, ponad 800 wygranych.
+    Wycena przetargowa i wsparcie ofertowe dla wykonawców i podwykonawców. Kosztorys ofertowy, zastrzeżenia i rejestr pytań. Polska, Wielka Brytania, Australia.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -472,897 +482,358 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
-<section class="level1 hero-title" id="kompleksowy-system-wygrywania-przetargów">
-<h1>Kompleksowy System Wygrywania Przetargów</h1>
-<section class="level3" id="od-analizy-oferty-do-rozliczenia-końcowego">
-<h3 class="anchored" data-anchor-id="od-analizy-oferty-do-rozliczenia-końcowego">Od analizy oferty do rozliczenia końcowego</h3>
+<section class="level1 hero-title" id="wycena-przetargowa-i-wsparcie-ofertowe">
+<h1>Wycena przetargowa i wsparcie ofertowe</h1>
+<section class="level3" id="od-dokumentacji-przetargowej-do-złożonej-oferty">
+<h3 class="anchored" data-anchor-id="od-dokumentacji-przetargowej-do-złożonej-oferty">Od dokumentacji przetargowej do złożonej oferty</h3>
 </section>
 </section>
 <div class="hero-subtitle">
-<p>Skuteczna konkurencja wykracza poza najniższą cenę.<br/>
-Zwiększają Państwo liczbę wygranych kontraktów trzykrotnie przy zachowaniu wyższych marż.</p>
+<p>Kosztorys ofertowy, koszty pośrednie, zastrzeżenia do zakresu i rejestr pytań. Sprawdzone ze specyfikacją, zanim oferta wyjdzie.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Skuteczność 35–45%</strong> wobec polskiej średniej 5–15%
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wycena w Twoim formularzu</strong> — Twoje ceny albo nasze, w układzie, którego wymaga zamawiający
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ponad 2000 przetargów</strong> zrealizowanych w Wielkiej Brytanii, UE i Australii
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dwadzieścia lat wycen przetargowych</strong> — Polska, Wielka Brytania i Australia
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia BIM 5D</strong> jako przewaga konkurencyjna
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Założenia zapisane, a nie ukryte</strong> — każde zastrzeżenie na piśmie
 </p>
 </div>
 </div>
-<script>
-// ROI Calculator Script - VERSION 3 - FINAL FIX
-window.addEventListener('DOMContentLoaded', function() {
-    function calculateROI() {
-        const tendersPerYear = parseFloat(document.getElementById('tenders-per-year').value) || 20;
-        const currentWinRate = parseFloat(document.getElementById('current-win-rate').value) || 10;
-        const avgContractValue = parseFloat(document.getElementById('avg-contract-value').value) || 5000000;
-        const currentMargin = parseFloat(document.getElementById('avg-margin').value) || 8;
-        
-        // Calculate current situation
-        const currentWins = tendersPerYear * (currentWinRate / 100);
-        const currentAnnualProfit = currentWins * avgContractValue * (currentMargin / 100);
-        
-        // DYNAMIC improved win rate based on current performance
-        let improvedWinRate;
-        if (currentWinRate < 15) {
-            improvedWinRate = 35;  // Major improvement: 10% → 35%
-        } else if (currentWinRate < 25) {
-            improvedWinRate = 40;  // Good improvement: 20% → 40%
-        } else if (currentWinRate < 35) {
-            improvedWinRate = 45;  // Moderate improvement: 30% → 45%
-        } else {
-            improvedWinRate = Math.min(currentWinRate + 10, 55);  // Incremental: 40% → 50%
-        }
-        
-        // SMART tender selection strategy
-        // Low performers: reduce volume, increase quality (strategic selection)
-        // High performers: maintain volume, increase quality (volume maintenance)
-        let strategicTenders;
-        if (currentWinRate < 20) {
-            strategicTenders = Math.round(tendersPerYear * 0.75);  // Focus on fewer, better tenders
-        } else {
-            strategicTenders = tendersPerYear;  // Maintain volume for high performers
-        }
-        
-        const improvedWins = strategicTenders * (improvedWinRate / 100);
-        const additionalWins = Math.round(Math.max(0, improvedWins - currentWins));
-        
-        // Smart margin improvement
-        let improvedMargin;
-        if (currentMargin < 5) {
-            improvedMargin = 10;
-        } else if (currentMargin < 8) {
-            improvedMargin = 12;
-        } else if (currentMargin < 12) {
-            improvedMargin = 14;
-        } else {
-            improvedMargin = Math.min(currentMargin + 2, 16);
-        }
-        
-        const improvedAnnualProfit = improvedWins * avgContractValue * (improvedMargin / 100);
-        const additionalProfit = Math.max(0, improvedAnnualProfit - currentAnnualProfit);
-        
-        // Service fee (3% of additional won contracts)
-        const serviceFee = additionalWins > 0 ? additionalWins * avgContractValue * 0.03 : 0;
-        
-        // ROI calculation with safeguards
-        let roi, roiDisplay;
-        if (serviceFee === 0) {
-            roi = 0;  // No additional wins = no ROI to calculate
-            roiDisplay = 'N/A';
-        } else if (additionalProfit <= serviceFee) {
-            roi = 0;  // Not profitable
-            roiDisplay = 'N/A';
-        } else {
-            const netBenefit = additionalProfit - serviceFee;
-            roi = Math.round((netBenefit / serviceFee) * 100);
-            
-            // Display logic: show "1000%+" if capped
-            if (roi > 1000) {
-                roiDisplay = '1000%+';
-            } else if (roi > 0) {
-                roiDisplay = roi + '%';
-            } else {
-                roiDisplay = 'N/A';
-            }
-        }
-        
-        // Update display
-        document.querySelector('[data-metric="new-win-rate"]').textContent = improvedWinRate + '%';
-        document.querySelector('[data-metric="additional-wins"]').textContent = additionalWins > 0 ? '+' + additionalWins : '0';
-        document.querySelector('[data-metric="additional-profit"]').textContent = 
-            additionalProfit > 0 ? '+' + Math.round(additionalProfit).toLocaleString('pl-PL') + ' PLN' : '0 PLN';
-        document.querySelector('[data-metric="roi"]').textContent = roiDisplay;
-    }
-    
-    // Add event listeners
-    const inputs = ['tenders-per-year', 'current-win-rate', 'avg-contract-value', 'avg-margin'];
-    inputs.forEach(id => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.addEventListener('input', calculateROI);
-        }
-    });
-    
-    // Initial calculation
-    calculateROI();
-});
-</script>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="./kontakt.html">Bezpłatny Audyt Przetargu</a> <a class="cta-secondary" href="#nasze-podejscie">Zobacz Nasze Podejście</a></p>
-</div>
-</div>
-</div>
-<div style="background: linear-gradient(135deg, rgba(255, 153, 0, 0.95) 0%, rgba(255, 123, 0, 0.95) 100%); padding: 16px 0; margin: -20px 0 0 0; position: relative; z-index: 10;">
-<div class="container">
-<div style="display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;">
-<div style="text-align: center;">
-<div style="font-size: 36px; font-weight: 700; color: white; line-height: 1;">
-2000+
-</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.95); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;">
-Przygotowanych przetargów
-</div>
-</div>
-<div style="text-align: center;">
-<div style="font-size: 36px; font-weight: 700; color: white; line-height: 1;">
-800+
-</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.95); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;">
-Wygranych kontraktów
-</div>
-</div>
-<div style="text-align: center;">
-<div style="font-size: 36px; font-weight: 700; color: white; line-height: 1;">
-20 lat
-</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.95); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;">
-Doświadczenia UK/AU/EU
-</div>
-</div>
-<div style="text-align: center;">
-<div style="font-size: 36px; font-weight: 700; color: white; line-height: 1;">
-2,5 mld EUR
-</div>
-<div style="font-size: 12px; color: rgba(255,255,255,0.95); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px;">
-Wartość projektów
-</div>
-</div>
-</div>
-</div>
-</div>
-<div style="background: var(--bim-charcoal); padding: 24px 0;">
-<div class="container">
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center;">
-<div style="">
-<div style="font-size: 32px; font-weight: 700; color: var(--bim-orange);">
-35–45%
-</div>
-<div style="font-size: 14px; color: rgba(255,255,255,0.9); text-transform: uppercase; letter-spacing: 1px;">
-Skuteczność
-</div>
-</div>
-<div style="">
-<div style="font-size: 32px; font-weight: 700; color: var(--bim-orange);">
-+30%
-</div>
-<div style="font-size: 14px; color: rgba(255,255,255,0.9); text-transform: uppercase; letter-spacing: 1px;">
-Lepsze marże
-</div>
-</div>
-<div style="">
-<div style="font-size: 32px; font-weight: 700; color: var(--bim-orange);">
-95%
-</div>
-<div style="font-size: 14px; color: rgba(255,255,255,0.9); text-transform: uppercase; letter-spacing: 1px;">
-Zaakceptowane roboty dodatkowe
-</div>
-</div>
-<div style="">
-<div style="font-size: 32px; font-weight: 700; color: var(--bim-orange);">
-500%+
-</div>
-<div style="font-size: 14px; color: rgba(255,255,255,0.9); text-transform: uppercase; letter-spacing: 1px;">
-Typowy ROI
-</div>
-</div>
+<p><a class="cta-primary" href="./kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="./kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
 <div class="container">
-<section class="level2" id="przyczyny-niskiej-skuteczności-polskich-podwykonawców-w-przetargach">
-<h2 class="anchored" data-anchor-id="przyczyny-niskiej-skuteczności-polskich-podwykonawców-w-przetargach">Przyczyny niskiej skuteczności polskich podwykonawców w przetargach</h2>
+<section class="level2" id="gdzie-oferty-przegrywają-zanim-ktokolwiek-spojrzy-na-cenę">
+<h2 class="anchored" data-anchor-id="gdzie-oferty-przegrywają-zanim-ktokolwiek-spojrzy-na-cenę">Gdzie oferty przegrywają, zanim ktokolwiek spojrzy na cenę</h2>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
-<section class="level3" id="polska-rzeczywistość" style="">
-<h3 class="anchored" data-anchor-id="polska-rzeczywistość">Polska rzeczywistość</h3>
-<p>Skuteczność polskich podwykonawców w przetargach wynosi zaledwie <strong>5–15%</strong>, podczas gdy na dojrzałych rynkach zachodnich wskaźnik ten sięga 35–45%. Różnica nie wynika z braku kompetencji technicznych.</p>
-<p><strong>Źródło problemu jest inne:</strong></p>
-<div style="margin: 24px 0; padding: 24px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Konkurowanie wyłącznie ceną</strong> – bez eksponowania wartości dodanej
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Nieprofesjonalna dokumentacja</strong> – przegrywa z kompleksowymi pakietami ofertowymi
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Niekorzystne warunki umowne</strong> – utrata marży już na etapie negocjacji
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Brak dokumentacji robót dodatkowych</strong> – niewykorzystane możliwości finansowe
-</p>
-</div>
+<section class="level3" id="zanim-ktokolwiek-otworzy-cenę" style="">
+<h3 class="anchored" data-anchor-id="zanim-ktokolwiek-otworzy-cenę">Zanim ktokolwiek otworzy cenę</h3>
+<p>Ofertę można odrzucić, zanim dojdzie do porównania cen. Powody są prozaiczne: brak dokumentu wskazanego w SWZ, wadium wniesione po terminie lub w niewłaściwej formie, zastrzeżenie, które czyta się jako niezgodność z opisem przedmiotu zamówienia, cena podana w innym formularzu niż wymagany albo ilości, które nie zgadzają się z przedmiarem zamawiającego.</p>
+<p>Żadna z tych rzeczy nie dotyczy tego, jak ostre masz ceny. Dotyczy tego, czy oferta jest kompletna i wewnętrznie spójna w dniu, w którym trafia do zamawiającego.</p>
+<p>Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </section>
-<section class="level3" id="mit-dominacji-ceny" style="">
-<h3 class="anchored" data-anchor-id="mit-dominacji-ceny">Mit dominacji ceny</h3>
-<p>Powszechne jest przekonanie, że cena stanowi główne kryterium oceny ofert. Dane pokazują jednak zupełnie inny obraz.</p>
-<section class="level4 callout-box" id="fakty" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="fakty">Fakty</h4>
-<p>Polskie prawo zamówień publicznych <strong>ogranicza wagę kryterium ceny do 60%</strong>. Pozostałe 40% lub więcej stanowią kryteria jakościowe: metodologia realizacji, doświadczenie zespołu, zarządzanie ryzykiem.</p>
-<p>W przetargach prywatnych deweloperów (Panattoni, 7R, Goodman) kryteria techniczne i certyfikacja BREEAM często mają większe znaczenie niż cena.</p>
+<section class="level3" id="cena-to-nie-jedyne-kryterium" style="">
+<h3 class="anchored" data-anchor-id="cena-to-nie-jedyne-kryterium">Cena to nie jedyne kryterium</h3>
+<p>W postępowaniach prowadzonych zgodnie z ustawą Prawo zamówień publicznych zamawiający podaje kryteria oceny ofert i ich wagi w SWZ. Obok ceny punktowane bywają termin realizacji, okres gwarancji, doświadczenie osób skierowanych do realizacji i przyjęta metodologia. Podział punktów jest inny w każdym postępowaniu i warto go przeczytać, zanim zdecydujesz, gdzie włożyć pracę.</p>
+<section class="level4 callout-box" id="co-to-znaczy-dla-oferty">
+<h4 class="anchored" data-anchor-id="co-to-znaczy-dla-oferty">Co to znaczy dla oferty</h4>
+<p>Części oferty, które najłatwiej pominąć — opis metodologii, harmonogram, wykaz zastrzeżeń — bywają tymi, za które są punkty. Kosztorys wyceniony bez zastrzeżeń zostawia te punkty na stole i zostawia Cię z zakresem, na który nigdy się nie umawiałeś.</p>
 </section>
-<p><strong>Wniosek:</strong> Wykonawcy konkurujący wyłącznie ceną znacznie ograniczają swoje szanse na sukces.</p>
 </section>
 </div>
 </section>
-<section class="level2" id="pilna-potrzeba-działania-okno-możliwości-się-zamyka">
-<h2 class="anchored" data-anchor-id="pilna-potrzeba-działania-okno-możliwości-się-zamyka">🔥 Pilna potrzeba działania – okno możliwości się zamyka</h2>
-<div style="background: linear-gradient(135deg, #fff3cd 0%, #ffe8a1 100%); padding: 32px; border-radius: 12px; margin: 48px 0; border-left: 4px solid var(--bim-orange);">
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
-<section class="level3" id="wymóg-bim-2030-nadchodzi" style="">
-<h3 class="anchored" data-anchor-id="wymóg-bim-2030-nadchodzi"><i class="bi bi-calendar-x" style="color: var(--bim-orange);"></i> Wymóg BIM 2030 nadchodzi</h3>
-<p><strong>Od 2030 roku</strong> wszystkie duże projekty publiczne w Polsce będą wymagały stosowania BIM. Wykonawcy bez kompetencji BIM zostaną <strong>automatycznie wykluczeni</strong> z 40% rynku.</p>
-<div style="margin-top: 16px; padding: 12px; background: white; border-radius: 6px;">
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-<strong>Pozostało tylko 5 lat</strong> na przygotowanie
-</p>
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-Budowanie kompetencji wymaga 2–3 lat
-</p>
-<p style="color: #dc3545; margin: 4px 0; font-size: 14px; font-weight: 600;">
-Warto rozpocząć przygotowania już teraz
-</p>
-</div>
-</section>
-<section class="level3" id="fundusze-ue-20212027" style="">
-<h3 class="anchored" data-anchor-id="fundusze-ue-20212027"><i class="bi bi-currency-euro" style="color: var(--bim-orange);"></i> Fundusze UE 2021–2027</h3>
-<p><strong>135 miliardów EUR</strong> dla Polski – największy budżet w historii. Wymagania są jednak wyższe niż kiedykolwiek:</p>
-<div style="margin-top: 16px; padding: 12px; background: white; border-radius: 6px;">
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-✓ Obowiązkowe kryteria zrównoważonego rozwoju
-</p>
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-✓ Dokumentacja ESG/BREEAM
-</p>
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-✓ Cyfrowe zarządzanie projektami
-</p>
-<p style="color: var(--bim-charcoal); margin: 4px 0; font-size: 14px;">
-<strong>= Wymagana profesjonalna dokumentacja ofertowa</strong>
-</p>
-</div>
-</section>
-</div>
-<div style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;">
-<p style="color: var(--bim-charcoal); font-size: 18px; font-weight: 600; margin: 0;">
-🏆 <strong>Firmy, które przygotują się teraz, zdominują rynek przez następną dekadę</strong>
-</p>
-</div>
-</div>
-</section>
-<section class="level2" id="nasze-podejscie">
-<h2 class="anchored" data-anchor-id="nasze-podejscie">Kompleksowy system wygrywania przetargów</h2>
-<p>W przeciwieństwie do doraźnego wsparcia, oferujemy systemowe podejście obejmujące każdy etap procesu przetargowego – od analizy możliwości po końcowe rozliczenie projektu.</p>
+<section class="level2" id="zakres">
+<h2 class="anchored" data-anchor-id="zakres">Co obejmuje wycena przetargowa</h2>
 <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin: 32px 0;">
-<section class="level3" id="analiza" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="analiza"><i class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;"></i>Analiza</h3>
-<p><strong>Strategia przedofertowa</strong></p>
-<p>Skoncentrowanie zasobów na przetargach z realnymi szansami powodzenia. Nasza matryca decyzyjna GO/NO-GO pozwala wybrać 5 obiecujących przetargów zamiast rozpraszać siły na 20 projektach bez perspektyw.</p>
+<section class="level3" id="wybór-postępowań" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="wybór-postępowań"><i aria-hidden="true" class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;"></i>Wybór postępowań</h3>
+<p><strong>Decyzja przed pracą</strong></p>
+<p>Nie każde ogłoszenie warto wyceniać. Pomagamy odsiać postępowania, w których warunki udziału, termin lub wymagane zabezpieczenia z góry Cię wykluczają.</p>
 <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
-<strong>Zakres usługi:</strong>
+<strong>Obejmuje:</strong>
 <ul style="margin: 8px 0; padding-left: 20px; color: #666; font-size: 14px;">
 <li>
-Analiza szans powodzenia
+Analiza SWZ i warunków udziału
 </li>
 <li>
-Ocena konkurencji
+Sprawdzenie terminów, w tym terminu wniesienia wadium
 </li>
 <li>
-Punktacja prawdopodobieństwa wygranej
+Ocena zakresu wobec Twoich możliwości
 </li>
 <li>
-Strategiczny wybór ofert
+Decyzja: składamy czy odpuszczamy
 </li>
 </ul>
 </div>
 </section>
-<section class="level3" id="dokumentacja" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="dokumentacja"><i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Dokumentacja</h3>
-<p><strong>Profesjonalne pakiety ofertowe</strong></p>
-<p>Kompleksowe pakiety przetargowe wyróżniające się na tle standardowych zgłoszeń. Wdrażamy międzynarodowe standardy w każdej ofercie – precyzyjną metodologię, zarządzanie ryzykiem oraz przekonującą prezentację możliwości.</p>
+<section class="level3" id="dokumentacja-oferty" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="dokumentacja-oferty"><i aria-hidden="true" class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Dokumentacja oferty</h3>
+<p><strong>Kompletna oferta</strong></p>
+<p>Kosztorys ofertowy i dokumenty, które składa się razem z nim, przygotowane w formacie wskazanym w SWZ.</p>
 <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
-<strong>Zakres usługi:</strong>
+<strong>Obejmuje:</strong>
 <ul style="margin: 8px 0; padding-left: 20px; color: #666; font-size: 14px;">
 <li>
-Precyzyjne kosztorysy
+Przedmiar i kosztorys ofertowy
 </li>
 <li>
-Metodologia techniczna
+Opis metodologii i harmonogram
 </li>
 <li>
-Wizualizacje 4D/5D BIM
+Wizualizacje 4D i 5D, gdy są potrzebne
 </li>
 <li>
-Zarządzanie zgodnością
+Kontrola kompletności wobec SWZ
+</li>
+</ul>
+</div>
+<p><a href="./uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html" style="display: inline-block; margin-top: 12px; font-size: 14px; color: var(--bim-orange);">Pełne wsparcie ofertowe →</a></p>
+</section>
+<section class="level3" id="zabezpieczenie-zakresu" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="zabezpieczenie-zakresu"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Zabezpieczenie zakresu</h3>
+<p><strong>Zastrzeżenia na piśmie</strong></p>
+<p>Zakres, którego nie ma w cenie, musi być wypisany. Wskazujemy zapisy umowne, które przenoszą na wykonawcę ryzyko wycenione przez nikogo.</p>
+<div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
+<strong>Obejmuje:</strong>
+<ul style="margin: 8px 0; padding-left: 20px; color: #666; font-size: 14px;">
+<li>
+Przegląd projektu umowy
+</li>
+<li>
+Wskazanie zapisów obciążających wykonawcę
+</li>
+<li>
+Wykaz zastrzeżeń i wyłączeń
+</li>
+<li>
+Wsparcie w negocjacjach
 </li>
 </ul>
 </div>
 </section>
-<section class="level3" id="ochrona" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="ochrona"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Ochrona</h3>
-<p><strong>Zabezpieczenie kontraktu</strong></p>
-<p>Ochrona marży już na etapie negocjacji umowy. Identyfikujemy potencjalnie niebezpieczne klauzule, chronimy prawa do robót dodatkowych i dbamy o warunki wspierające rentowność projektu.</p>
+<section class="level3" id="rozliczenie" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="rozliczenie"><i aria-hidden="true" class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Rozliczenie</h3>
+<p><strong>Roboty dodatkowe i zamienne</strong></p>
+<p>Praca wykonana poza pierwotnym zakresem musi być udokumentowana wtedy, kiedy powstaje, a nie przy odbiorze końcowym.</p>
 <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
-<strong>Zakres usługi:</strong>
+<strong>Obejmuje:</strong>
 <ul style="margin: 8px 0; padding-left: 20px; color: #666; font-size: 14px;">
 <li>
-Przegląd umowy
+Wycena robót dodatkowych i zamiennych
 </li>
 <li>
-Identyfikacja klauzul ryzyka
+Obmiar powykonawczy
 </li>
 <li>
-Wsparcie negocjacji
+Kosztorys różnicowy wobec oferty
 </li>
 <li>
-Optymalizacja warunków
-</li>
-</ul>
-</div>
-</section>
-<section class="level3" id="odzyskiwanie" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="odzyskiwanie"><i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Odzyskiwanie</h3>
-<p><strong>Maksymalizacja wartości projektu</strong></p>
-<p>Zapewnienie pełnego wynagrodzenia za wykonane prace. Systematyczna dokumentacja robót dodatkowych i zarządzanie rozliczeniem końcowym typowo zwiększa przychody o 20–30%.</p>
-<div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
-<strong>Zakres usługi:</strong>
-<ul style="margin: 8px 0; padding-left: 20px; color: #666; font-size: 14px;">
-<li>
-Zarządzanie robotami dodatkowymi
-</li>
-<li>
-Przygotowanie roszczeń
-</li>
-<li>
-Wsparcie rozliczenia końcowego
-</li>
-<li>
-Rozwiązywanie sporów
+Materiał do rozliczenia końcowego
 </li>
 </ul>
 </div>
 </section>
 </div>
 <div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;">
-<p><strong>Kompleksowe wsparcie od identyfikacji szansy przez rozliczenie końcowe.</strong></p>
+<p><strong>Wsparcie od decyzji o starcie w przetargu do rozliczenia końcowego.</strong></p>
 </div>
 </div>
 </section>
-<section class="level2" id="przewaga-bim-w-wygrywaniu-przetargów">
-<h2 class="anchored" data-anchor-id="przewaga-bim-w-wygrywaniu-przetargów">Przewaga BIM w wygrywaniu przetargów</h2>
-<p>Badania potwierdzają bezpośredni wpływ kompetencji BIM na wyniki przetargów. Nasze podejście zintegrowane z BIM tworzy mierzalną przewagę konkurencyjną.</p>
-<div style="background: #f8f9fa; padding: 24px; border-radius: 8px; margin: 24px 0;">
-<div style="display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap;">
-<div style="text-align: center;">
-<div style="font-size: 14px; color: #666; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;">
-Standardy
-</div>
-<div style="display: flex; gap: 32px; align-items: center; justify-content: center; flex-wrap: wrap;">
-<p><span style="font-size: 16px; font-weight: 600; color: var(--bim-charcoal); padding: 8px 16px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">ISO 19650</span> <span style="font-size: 16px; font-weight: 600; color: var(--bim-charcoal); padding: 8px 16px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">BREEAM</span> <span style="font-size: 16px; font-weight: 600; color: var(--bim-charcoal); padding: 8px 16px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">BIM Level 2</span> <span style="font-size: 16px; font-weight: 600; color: var(--bim-charcoal); padding: 8px 16px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">PAS 1192</span> <span style="font-size: 16px; font-weight: 600; color: var(--bim-charcoal); padding: 8px 16px; background: white; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">ESG</span></p>
-</div>
-</div>
-</div>
-</div>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin: 48px 0;">
-<div style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); text-align: center;">
-<div style="font-size: 48px; color: var(--bim-orange); font-weight: 700; margin-bottom: 8px;">
-9,4%
-</div>
-<div style="font-size: 16px; color: var(--bim-charcoal); font-weight: 600;">
-Wyższe prawdopodobieństwo wygranej
-</div>
-<div style="font-size: 14px; color: #666; margin-top: 8px;">
-Dla projektów ocenianych jakościowo z wykorzystaniem strategii BIM
-</div>
-</div>
-<div style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); text-align: center;">
-<div style="font-size: 48px; color: var(--bim-orange); font-weight: 700; margin-bottom: 8px;">
-50%
-</div>
-<div style="font-size: 16px; color: var(--bim-charcoal); font-weight: 600;">
-Redukcja wzrostu kosztów
-</div>
-<div style="font-size: 14px; color: #666; margin-top: 8px;">
-3% vs 6% średnia krajowa przy zwiększonej dokładności kosztorysowania
-</div>
-</div>
-<div style="padding: 32px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); text-align: center;">
-<div style="font-size: 48px; color: var(--bim-orange); font-weight: 700; margin-bottom: 8px;">
-2×
-</div>
-<div style="font-size: 16px; color: var(--bim-charcoal); font-weight: 600;">
-Poprawa skuteczności
-</div>
-<div style="font-size: 14px; color: #666; margin-top: 8px;">
-Z 20–25% bazowej do 35–50% przy profesjonalnym przygotowaniu
-</div>
-</div>
-</div>
+<section class="level2" id="model-bim-tam-gdzie-jest">
+<h2 class="anchored" data-anchor-id="model-bim-tam-gdzie-jest">Model BIM tam, gdzie jest</h2>
+<p>Jeśli do postępowania dołączono model, pobieramy z niego ilości i sprawdzamy je z rysunkami. Jeśli modelu nie ma — a przy pakietach branżowych to wciąż reguła — mierzymy z dokumentacji 2D. Tak czy inaczej kosztorys wraca w Twoim formacie, z wykazem założeń.</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0;">
-<section class="level3" id="co-wnosimy-do-państwa-ofert" style="">
-<h3 class="anchored" data-anchor-id="co-wnosimy-do-państwa-ofert">Co wnosimy do Państwa ofert</h3>
-<p>Nasze pakiety ofertowe zawierają możliwości, których większość wykonawców nie jest w stanie dostarczyć wewnętrznie:</p>
+<section class="level3" id="co-możemy-dołożyć-do-oferty" style="">
+<h3 class="anchored" data-anchor-id="co-możemy-dołożyć-do-oferty">Co możemy dołożyć do oferty</h3>
+<p>Zależnie od tego, czego wymaga postępowanie i jaką dokumentację wydał zamawiający, oferta może zawierać:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;">
-<i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Modele kosztowe 5D</strong> – dokładne ilości powiązane z aktualnymi cenami rynkowymi
+<i aria-hidden="true" class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Model kosztowy 5D</strong> — ilości powiązane z cenami, którymi wyceniasz
 </p>
 <p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;">
-<i class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Sekwencje budowlane 4D</strong> – wizualna metodologia budująca zaufanie klienta
+<i aria-hidden="true" class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Kolejność robót 4D</strong> — metodologia pokazana na harmonogramie
 </p>
 <p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;">
-<i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Raporty wykrywania kolizji</strong> – proaktywna identyfikacja ryzyka
+<i aria-hidden="true" class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Raport kolizji</strong> — problemy koordynacyjne zgłoszone jako pytania do SWZ, nie przemilczane
 </p>
 <p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;">
-<i class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Plany realizacji BIM</strong> – zgodność z ISO 19650 i BIM 2030
+<i aria-hidden="true" class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Plan realizacji BIM</strong> — opracowania uporządkowane według ISO 19650
 </p>
 <p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;">
-<i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Integracja zrównoważonego rozwoju</strong> – certyfikaty BREEAM/ESG wymagane przez deweloperów
+<i aria-hidden="true" class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Pozycje BREEAM i ESG</strong> — tam, gdzie wymaga ich specyfikacja
 </p>
 </div>
 </section>
 <section class="level3" id="dlaczego-to-ma-znaczenie" style="">
 <h3 class="anchored" data-anchor-id="dlaczego-to-ma-znaczenie">Dlaczego to ma znaczenie</h3>
-<p>Gdy mniej niż 1/3 projektów zawiera BIM na etapie przetargu, mają Państwo okazję wyróżnić się kompetencjami zamiast ceną.</p>
-<section class="level4 callout-box" id="metodologia-2030-oceny" style="background: linear-gradient(135deg, #f0f7f0 0%, #e8f4e8 100%); border-left: 4px solid #28a745;">
-<h4 class="anchored" data-anchor-id="metodologia-2030-oceny">Metodologia = 20–30% oceny</h4>
-<p>Metodologia techniczna typowo otrzymuje 20–30% wagi w ocenie przetargu. Wizualne symulacje 4D dramatycznie poprawiają zrozumienie klienta w porównaniu z tradycyjną dokumentacją 2D.</p>
-<p>Klienci mogą zobaczyć Państwa podejście – sposób sekwencjonowania prac, zarządzania logistyką i terminowej realizacji.</p>
+<p>Większość pakietów branżowych nadal wychodzi jako dokumentacja 2D ze specyfikacją techniczną. Jeśli potrafisz pokazać zamawiającemu albo generalnemu wykonawcy, jak zamierzasz poprowadzić i skoordynować roboty, i wycenić je na ilościach zgodnych z wydaną rewizją rysunków, odpowiadasz na pytanie, które inne oferty zostawiają otwarte.</p>
+<section class="level4 callout-box" id="za-metodologię-bywają-punkty" style="background: linear-gradient(135deg, #f0f7f0 0%, #e8f4e8 100%); border-left: 4px solid #28a745;">
+<h4 class="anchored" data-anchor-id="za-metodologię-bywają-punkty">Za metodologię bywają punkty</h4>
+<p>Waga kryteriów pozacenowych jest podana w SWZ każdego postępowania i rzadko wynosi zero. Rysunek kolejności robót mówi o tym, jak poprowadzisz budowę, więcej niż akapit tekstu: jak podzielisz roboty na etapy, jak wprowadzisz materiał i gdzie potrzebujesz zakończonej roboty poprzedzającej branży.</p>
 </section>
 </section>
 </div>
 </section>
-<section class="level2" id="nasi-klienci">
-<h2 class="anchored" data-anchor-id="nasi-klienci">Nasi klienci</h2>
-<p>Nasze usługi wsparcia przetargowego służą wykonawcom w Polsce i na rynkach międzynarodowych.</p>
+<section class="level2" id="dla-kogo-pracujemy">
+<h2 class="anchored" data-anchor-id="dla-kogo-pracujemy">Dla kogo pracujemy</h2>
+<p>Wyceniamy oferty dla wykonawców i podwykonawców w Polsce, Wielkiej Brytanii i Australii.</p>
 <div class="feature-grid">
-<section class="level3 feature-card" id="średni-wykonawcy">
-<h3 class="anchored" data-anchor-id="średni-wykonawcy"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Średni wykonawcy</h3>
-<p>Przychody 10–100 mln PLN, poszukujący możliwości konkurowania z dużymi wykonawcami na podstawie merytorycznej zamiast tylko cenowej.</p>
+<section class="level3 feature-card" id="wykonawcy-średniej-wielkości">
+<h3 class="anchored" data-anchor-id="wykonawcy-średniej-wielkości"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Wykonawcy średniej wielkości</h3>
+<p>Firmy, które konkurują z dużymi wykonawcami rozwiązaniem technicznym, a nie wyłącznie ceną.</p>
 </section>
-<section class="level3 feature-card" id="specjalistyczni-podwykonawcy">
-<h3 class="anchored" data-anchor-id="specjalistyczni-podwykonawcy"><i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczni podwykonawcy</h3>
-<p>Sucha zabudowa, fasady, ochrona przeciwpożarowa, konstrukcje stalowe, MEP – branże gdzie metodologia i wiedza specjalistyczna mają znaczenie.</p>
+<section class="level3 feature-card" id="wykonawcy-branżowi">
+<h3 class="anchored" data-anchor-id="wykonawcy-branżowi"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Wykonawcy branżowi</h3>
+<p>Sucha zabudowa, elewacje, zabezpieczenia ogniowe, konstrukcje stalowe, instalacje — branże, w których liczy się metodologia i wiedza specjalistyczna.</p>
 </section>
-<section class="level3 feature-card" id="wykonawcy-międzynarodowi">
-<h3 class="anchored" data-anchor-id="wykonawcy-międzynarodowi"><i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Wykonawcy międzynarodowi</h3>
-<p>Wchodzący na polski rynek i potrzebujący lokalnej ekspertyzy, zgodności ze standardami i zrozumienia rynku.</p>
+<section class="level3 feature-card" id="firmy-wychodzące-za-granicę">
+<h3 class="anchored" data-anchor-id="firmy-wychodzące-za-granicę"><i aria-hidden="true" class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Firmy wychodzące za granicę</h3>
+<p>Polskie firmy składające oferty w Wielkiej Brytanii, Unii Europejskiej lub Australii, którym potrzebna jest znajomość tamtejszych podstaw wyceny.</p>
 </section>
-<section class="level3 feature-card" id="firmy-nastawione-na-wzrost">
-<h3 class="anchored" data-anchor-id="firmy-nastawione-na-wzrost"><i class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;"></i>Firmy nastawione na wzrost</h3>
-<p>Obecnie wygrywające mniej niż 15% ofert i poszukujące poprawy do 30–40% przez systematyczne doskonalenie.</p>
+<section class="level3 feature-card" id="firmy-bez-własnego-działu-ofertowego">
+<h3 class="anchored" data-anchor-id="firmy-bez-własnego-działu-ofertowego"><i aria-hidden="true" class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;"></i>Firmy bez własnego działu ofertowego</h3>
+<p>Wykonawcy, którzy prowadzą kilka postępowań naraz i nie mają kogo posadzić do przedmiaru.</p>
 </section>
-<section class="level3 feature-card" id="aspirujący-do-dużych-projektów">
-<h3 class="anchored" data-anchor-id="aspirujący-do-dużych-projektów"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Aspirujący do dużych projektów</h3>
-<p>Poszukujący pierwszego wejścia do projektów Tier 1, gdzie profesjonalne aplikacje są niezbędne do sukcesu.</p>
+<section class="level3 feature-card" id="startujący-w-zamówieniach-publicznych">
+<h3 class="anchored" data-anchor-id="startujący-w-zamówieniach-publicznych"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Startujący w zamówieniach publicznych</h3>
+<p>Firmy, które pierwszy raz składają ofertę w postępowaniu prowadzonym zgodnie z ustawą Prawo zamówień publicznych.</p>
 </section>
-<section class="level3 feature-card" id="specjaliści-sektora-prywatnego">
-<h3 class="anchored" data-anchor-id="specjaliści-sektora-prywatnego"><i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjaliści sektora prywatnego</h3>
-<p>Celujący w deweloperów logistycznych, operatorów centrów danych i klientów premium wymagających certyfikatów BREEAM.</p>
-</section>
-<section class="level3 feature-card" id="strategia-dawid-kontra-goliat" style="background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); color: white;">
-<h3 class="anchored" data-anchor-id="strategia-dawid-kontra-goliat"><i class="bi bi-trophy" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia „Dawid kontra Goliat”</h3>
-<p><span style="color: rgba(255,255,255,0.9);">Pomagamy mniejszym wykonawcom konkurować z dużymi graczami na równych warunkach. Osiągamy to przez lepszą strategię przetargową, a nie niższe ceny.</span></p>
+<section class="level3 feature-card" id="rynek-prywatny">
+<h3 class="anchored" data-anchor-id="rynek-prywatny"><i aria-hidden="true" class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Rynek prywatny</h3>
+<p>Wykonawcy pracujący dla deweloperów magazynowych, operatorów centrów danych i inwestorów wymagających certyfikacji.</p>
 </section>
 </div>
 </section>
-<section class="level2" id="modele-współpracy-i-inwestycji">
-<h2 class="anchored" data-anchor-id="modele-współpracy-i-inwestycji">Modele współpracy i inwestycji</h2>
-<div style="background: #f0f9ff; padding: 24px; border-radius: 8px; margin: 24px 0; border-left: 4px solid var(--bim-orange);">
-<h4 class="anchored" style="color: var(--bim-charcoal); margin-bottom: 12px;">
-<i class="bi bi-info-circle" style="color: var(--bim-orange);"></i> Różne modele cenowe – dlaczego?
-</h4>
-<p style="color: #666; margin: 8px 0;">
-Oferujemy <strong>elastyczne modele inwestycji</strong> dopasowane do Państwa sytuacji:
-</p>
-<ul style="color: #666; margin: 8px 0; padding-left: 24px;">
-<li>
-<strong>Stała opłata</strong> – dla firm preferujących przewidywalne koszty
-</li>
-<li>
-<strong>Procent od sukcesu</strong> – płatność tylko po wygranej (dzielenie ryzyka)
-</li>
-<li>
-<strong>Model hybrydowy</strong> – optymalna równowaga ryzyka i kosztu
-</li>
-<li>
-<strong>Abonament</strong> – dla stałego wsparcia z najniższym kosztem jednostkowym
-</li>
-</ul>
-<p style="color: #666; margin: 8px 0 0 0;">
-<strong>Każda złotówka zainwestowana zwraca się średnio 8–10 razy w dodatkowych zyskach.</strong>
-</p>
-</div>
-</section>
-<section class="level2" id="pakiety-usług">
-<h2 class="anchored" data-anchor-id="pakiety-usług">Pakiety usług</h2>
+<section class="level2" id="zakres-współpracy">
+<h2 class="anchored" data-anchor-id="zakres-współpracy">Zakres współpracy</h2>
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 48px 0;">
-<section class="level3" id="wsparcie-kryzysowe" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); border-top: 4px solid #aaa;">
-<h3 class="anchored" data-anchor-id="wsparcie-kryzysowe">Wsparcie Kryzysowe</h3>
-<p><strong>Dla krytycznych ofert</strong></p>
-<p>Gdy mają Państwo kluczowy przetarg wymagający profesjonalnego przeglądu i poprawy przed terminem.</p>
+<section class="level3" id="sprawdzenie-oferty" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); border-top: 4px solid #aaa;">
+<h3 class="anchored" data-anchor-id="sprawdzenie-oferty">Sprawdzenie oferty</h3>
+<p><strong>Gdy oferta jest już złożona w środku</strong></p>
+<p>Kiedy masz przygotowaną ofertę i chcesz, żeby ktoś przeszedł ją przed terminem składania.</p>
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Audyt zgodności w 48h
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Kontrola kompletności wobec SWZ
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Weryfikacja wyceny
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Sprawdzenie ilości i cen jednostkowych
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Poprawa metodologii
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Uzupełnienie zastrzeżeń
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Wzmocnienie dowodów
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Wykaz pytań do zamawiającego
 </p>
 </div>
-<p><strong>Inwestycja:</strong> w zależności od uzgodnionego zakresu <strong>Realizacja:</strong> 2–7 dni</p>
-<p><a class="cta-primary" href="./kontakt.html" style="width: 100%; text-align: center;">Zapytaj o szczegóły</a></p>
+<p><strong>Termin:</strong> ustalany przy zleceniu, zależnie od terminu składania ofert</p>
+<p><a class="cta-secondary" href="./kontakt.html" style="width: 100%; text-align: center;">Prześlij dokumentację</a></p>
 </section>
-<section class="level3" id="kompleksowa-obsługa-przetargu" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); border-top: 4px solid var(--bim-orange); transform: scale(1.02);">
-<h3 class="anchored" data-anchor-id="kompleksowa-obsługa-przetargu">Kompleksowa obsługa przetargu</h3>
-<p><strong>Pełne zarządzanie ofertą</strong></p>
-<p>Wsparcie od początku do końca – od otrzymania przetargu do złożenia oferty. Nasza najpopularniejsza usługa dla dużych projektów.</p>
+<section class="level3" id="pełna-wycena-oferty" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); border-top: 4px solid var(--bim-orange); transform: scale(1.02);">
+<h3 class="anchored" data-anchor-id="pełna-wycena-oferty">Pełna wycena oferty</h3>
+<p><strong>Od dokumentacji do złożenia</strong></p>
+<p>Przedmiar, kosztorys ofertowy i dokumenty towarzyszące — najczęściej zamawiany zakres.</p>
 <div style="margin: 24px 0; padding: 16px; background: rgba(255, 153, 0, 0.1); border-radius: 6px;">
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Analiza i strategia
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Analiza SWZ i zakresu
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Pełna dokumentacja
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Przedmiar robót z wykazem założeń
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Wycena zintegrowana z BIM
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Kosztorys ofertowy z narzutami i RMS
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Wizualizacje metodologii 4D
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Zastrzeżenia i rejestr pytań
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie negocjacji
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie w negocjacjach
 </p>
 </div>
-<strong>Model inwestycji:</strong>
-<div style="font-size: 13px; line-height: 1.6; margin: 12px 0;">
-<p><strong>Opcja A:</strong> Stała opłata zależna od uzgodnionego zakresu usług<br/> <strong>Opcja B:</strong> 3–5% wartości kontraktu (płatne po wygranej)<br/> <strong>Opcja C:</strong> Model hybrydowy (50% z góry + bonus za sukces)<br/></p>
-</div>
-<p><a class="cta-primary" href="./kontakt.html" style="width: 100%; text-align: center;">Rozpocznij przetarg</a></p>
+<p><strong>Cena:</strong> wycena za pakiet, uzgodniona przed rozpoczęciem pracy</p>
+<p><a class="cta-primary" href="./kontakt.html" style="width: 100%; text-align: center;">Prześlij dokumentację</a></p>
 </section>
-<section class="level3" id="partnerstwo-sukcesu" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); border-top: 4px solid #aaa;">
-<h3 class="anchored" data-anchor-id="partnerstwo-sukcesu">Partnerstwo sukcesu</h3>
-<p><strong>Stałe wsparcie</strong></p>
-<p>Dla wykonawców poszukujących spójnego wsparcia przetargowego przez cały rok.</p>
+<section class="level3" id="stała-współpraca" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); border-top: 4px solid #aaa;">
+<h3 class="anchored" data-anchor-id="stała-współpraca">Stała współpraca</h3>
+<p><strong>Kilka postępowań w roku</strong></p>
+<p>Dla wykonawców, którzy potrzebują wsparcia ofertowego regularnie, a nie przy jednym przetargu.</p>
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> 5 przetargów miesięcznie
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Uzgodniona z góry dostępność
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Priorytetowa reakcja
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Pierwszeństwo przy krótkich terminach
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Szkolenie zespołu w cenie
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Jednolity układ kosztorysów
 </p>
 <p style="margin: 8px 0; font-size: 14px;">
-<i class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie planowania strategicznego
+<i aria-hidden="true" class="bi bi-check" style="color: var(--bim-orange);"></i> Baza cen prowadzona między przetargami
 </p>
 </div>
-<p><strong>Inwestycja:</strong> 8 000–25 000 PLN miesięcznie <strong>Oszczędność:</strong> do 40% vs pojedyncze projekty</p>
-<p><a class="cta-primary" href="./kontakt.html" style="width: 100%; text-align: center;">Omów partnerstwo</a></p>
+<p><strong>Cena:</strong> uzgadniana za pakiet, przed rozpoczęciem pracy</p>
+<p><a class="cta-secondary" href="./kontakt.html#probny" style="width: 100%; text-align: center;">Bezpłatny przedmiar próbny</a></p>
 </section>
 </div>
 </section>
-<section class="level2" id="uzasadnienie-inwestycji">
-<h2 class="anchored" data-anchor-id="uzasadnienie-inwestycji">Uzasadnienie inwestycji</h2>
-<p>Profesjonalne wsparcie przetargowe zwraca się przy jednej dodatkowej wygranej.</p>
-<div style="background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); padding: 48px 32px; border-radius: 8px; margin: 48px 0;">
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; color: white;">
-<section class="level3" id="bez-profesjonalnego-wsparcia" style="color: white;">
-<h3 class="anchored" data-anchor-id="bez-profesjonalnego-wsparcia" style="color: white;">Bez profesjonalnego wsparcia</h3>
-<div style="margin: 24px 0;">
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 20 przetargów rocznie
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 5–15% skuteczność = 1–3 kontrakty
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Konkurencja tylko ceną
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Ciasne marże 3–5%
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Roboty dodatkowe nieodzyskane
-</p>
-</div>
-</section>
-<section class="level3" id="ze-wsparciem-bim-takeoff" style="color: white;">
-<h3 class="anchored" data-anchor-id="ze-wsparciem-bim-takeoff" style="color: white;">Ze wsparciem BIM Takeoff</h3>
-<div style="margin: 24px 0;">
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 15 wybranych przetargów (strategiczna selekcja)
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 35–45% skuteczność = 5–7 kontraktów
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Konkurowanie wartością, nie ceną
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Lepsze marże 10–15%
-</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;">
-<i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> +20–30% odzyskane na robotach dodatkowych
-</p>
-</div>
-</section>
-</div>
-<div style="margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.15); border-radius: 8px; border: 1px solid var(--bim-orange);">
-<h4 class="anchored" style="color: var(--bim-orange); margin: 0 0 16px 0; font-size: 18px;">
-<i class="bi bi-calculator" style="margin-right: 8px;"></i>Jak inwestycja się zwraca
-</h4>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-<div>
-<p style="color: white; margin: 8px 0; font-size: 15px;">
-<strong>Państwa inwestycja:</strong>
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 14px;">
-Projekt 8 mln PLN
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 13px;">
-Opłata stała: <strong>120 000 PLN</strong>
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 13px;">
-LUB procent od sukcesu: <strong>240 000 PLN</strong>
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 12px; opacity: 0.8;">
-(płatne tylko po wygranej)
-</p>
-</div>
-<div>
-<p style="color: white; margin: 8px 0; font-size: 15px;">
-<strong>Co dostarczamy:</strong>
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 14px;">
-✓ Zwiększenie szans z 10% na 40%
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 14px;">
-✓ 800 000 PLN zysku z projektu
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 14px;">
-✓ 1 600 000 PLN robót dodatkowych
-</p>
-<p style="color: white; margin: 4px 0 4px 16px; font-size: 14px;">
-✓ Ochrona przed błędami umownymi
-</p>
-</div>
-</div>
-<p style="color: var(--bim-orange); margin: 16px 0 0 0; font-size: 18px; font-weight: 700; text-align: center;">
-Każda złotówka zwróci się 10–20 razy
-</p>
-</div>
-<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.2); text-align: center;">
-<p style="color: white; font-size: 18px;">
-<strong>Wynik:</strong> 2–4 dodatkowe projekty wygrane rocznie, każdy wart znacznie więcej niż inwestycja w usługę.
-</p>
-</div>
-</div>
+<section class="level2" id="ile-to-kosztuje">
+<h2 class="anchored" data-anchor-id="ile-to-kosztuje">Ile to kosztuje</h2>
+<p>Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
+<p>Cena zależy od wielkości dokumentacji, liczby branż i od tego, jaką część wyceny mamy wziąć na siebie. Najpierw czytamy dokumentację, a stałą kwotę podajemy przed rozpoczęciem pracy, żebyś mógł ją zestawić z wartością przetargu, zanim się zdecydujesz.</p>
 </section>
 <section class="level2" id="najczęściej-zadawane-pytania">
 <h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej zadawane pytania</h2>
 <div class="faq-section">
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Czym różni się Państwa oferta od tradycyjnych usług kosztorysowania?</strong></p>
+<p><strong>P: Czym to się różni od zwykłego przygotowania oferty?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Większość firm kosztorysowych koncentruje się wyłącznie na wycenie. Oferujemy kompleksowy system obejmujący: strategiczny wybór przetargów, precyzyjne kosztorysowanie zintegrowane z BIM, opracowanie metodologii, ochronę warunków kontraktowych oraz wsparcie w odzyskiwaniu należności za roboty dodatkowe. Nie tylko pomagamy złożyć ofertę – zwiększamy szanse na wygraną i optymalizujemy rentowność projektu.</p>
+<p>O: Zaczynamy od ilości. Kosztorys ofertowy powstaje z przedmiaru, który da się sprawdzić z rysunkami, a nie z przepisania przedmiaru zamawiającego. Do tego dochodzą zastrzeżenia i pytania do SWZ, złożone w terminie, żeby zakres był rozstrzygnięty przed złożeniem oferty, a nie po podpisaniu umowy.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jakiej poprawy skuteczności można realistycznie oczekiwać?</strong></p>
+<p><strong>P: O ile wzrośnie moja skuteczność w przetargach?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Nasi klienci obserwują wzrost skuteczności z 5–15% do 35–45% w konkurencyjnych przetargach. Wyniki zależą od takich czynników jak: selekcja projektów, konkurencyjność cenowa oraz relacje z zamawiającymi. W przypadku przetargów negocjowanych lub dwuetapowych, gdzie angażujemy się na wczesnym etapie, skuteczność może przekroczyć 70%.</p>
+<p>O: Nie podajemy takiej liczby. O rozstrzygnięciu przetargu decyduje Twoja cena, Twój harmonogram i kryteria przyjęte przez zamawiającego, a nie to, kto sporządził kosztorys. Możemy powiedzieć, co stąd wychodzi: kosztorys wyceniony zgodnie ze specyfikacją, z zastrzeżeniami i pytaniami zapisanymi, a nie przemilczanymi.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Czy pracują Państwo z mniejszymi wykonawcami i MŚP?</strong></p>
+<p><strong>P: Czy pracujecie z małymi firmami?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Absolutnie. Wielu małych i średnich wykonawców nie ma wewnętrznych zespołów ofertowych, ale potrzebuje profesjonalnych zgłoszeń, żeby konkurować. Skalujemy nasze usługi do potrzeb i budżetu. Mamy doświadczenie w prezentowaniu mniejszych firm tak profesjonalnie jak duzi wykonawcy.</p>
+<p>O: Tak. Większość naszych zleceń to pojedyncze pakiety branżowe dla firm, które nie mają własnego działu ofertowego. Zakres dopasowujemy do wielkości postępowania.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jak szybko mogą Państwo przygotować przetarg?</strong></p>
+<p><strong>P: Zdążycie przed terminem składania ofert?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Idealnie 3–4 tygodnie na kompleksowy przetarg. Przy pilnych okazjach obsługujemy terminy 10–14 dni. Przy ekstremalnie krótkich terminach (7 dni lub mniej) zapewniamy ukierunkowane wsparcie na konkretnych elementach.</p>
+<p>O: Termin podajemy razem z ceną, w ciągu jednego dnia roboczego od otrzymania dokumentacji, i dopiero wtedy zaczynamy. Podaj też termin wniesienia wadium, jeśli w postępowaniu obowiązuje — bywa wcześniejszy niż termin składania ofert i przesuwa datę, na którą kosztorys musi być gotowy. Jeśli do terminu zostało mniej niż 72 godziny, zadzwoń zamiast pisać.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jakie rynki obsługują Państwo?</strong></p>
+<p><strong>P: W jakich podstawach wyceniacie?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Pracujemy w Polsce, Wielkiej Brytanii, Australii, UE i na rynkach międzynarodowych. Nasz zespół rozumie lokalne standardy, ramy zamówień i oczekiwania rynkowe w każdym regionie. Dla wykonawców wchodzących na nowe rynki zapewniamy lokalną ekspertyzę.</p>
+<p>O: W Polsce według KNR i KNNR, z cenami Twoimi lub z bazy Sekocenbud. W Wielkiej Brytanii według NRM2 lub SMM7, w Australii według AS 4000 i AS 3700. Powiedz, w jakiej podstawie napisany jest kosztorys, który masz wypełnić.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Czy pomagają Państwo z przetargami dla deweloperów międzynarodowych (Panattoni, 7R, Goodman)?</strong></p>
+<p><strong>P: Czy przygotowujecie kosztorys inwestorski dla zamawiającego?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak – ci deweloperzy mają wyjątkowo wysokie wymagania dotyczące zrównoważonego rozwoju, często przewyższające wymogi sektora publicznego. BREEAM Excellent to minimum. Nasze doświadczenie z Wielkiej Brytanii i Australii oznacza znajomość standardów i oczekiwań tych klientów.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>P: Dlaczego oferują Państwo różne modele cenowe? Co jest lepsze – stała opłata czy procent?</strong></p>
-</div>
-<div class="faq-answer">
-<p>O: Każdy wykonawca ma inną sytuację. Stała opłata (60–150 tys. PLN) daje przewidywalność kosztów i niższy całkowity koszt przy dużych projektach. Model procentowy (3–5% wartości) oznacza płatność tylko po wygranej – dzielimy ryzyko. Model hybrydowy łączy obie zalety. Dla stałego wsparcia abonament (15–25 tys. PLN miesięcznie) daje najniższy koszt jednostkowy. Każdy model gwarantuje ten sam poziom zaangażowania i jakości.</p>
+<p>O: Tak, ale nie w tym samym postępowaniu, w którym wyceniamy ofertę wykonawcy. <a href="./uslugi/kosztorysowanie-i-planowanie-budzetu.html#inwestorski">Zobacz kosztorys inwestorski →</a></p>
 </div>
 </div>
 </div>
 </section>
-<section class="level2" id="sprawdź-poziom-swoich-przetargów">
-<h2 class="anchored" data-anchor-id="sprawdź-poziom-swoich-przetargów">Sprawdź poziom swoich przetargów</h2>
-<div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
-<h3 class="anchored" style="text-align: center; color: var(--bim-charcoal); margin-bottom: 32px;">
-<i class="bi bi-clipboard-check" style="color: var(--bim-orange);"></i> Szybka samoocena: Jak profesjonalne są Państwa przetargi?
-</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-<div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Strategia i selekcja
-</h4>
-<div style="font-size: 14px; color: #666; line-height: 2;">
-<p><label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Stosują Państwo system GO/NO-GO do wyboru przetargów</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Analizują Państwo konkurencję przed złożeniem oferty</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Składają Państwo mniej niż 30% otrzymanych przetargów</label></p>
-</div>
-</div>
-<div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Dokumentacja i metodologia
-</h4>
-<div style="font-size: 14px; color: #666; line-height: 2;">
-<p><label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Zawsze dołączają Państwo szczegółową metodologię</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Używają Państwo wizualizacji/diagramów w ofertach</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Mają Państwo szablon profesjonalnej oferty</label></p>
-</div>
-</div>
-<div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Wycena i ryzyko
-</h4>
-<div style="font-size: 14px; color: #666; line-height: 2;">
-<p><label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Dokładność kosztorysów to ±5% lub lepsza</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Identyfikują i wyceniają Państwo wszystkie ryzyka</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Zawsze czytają Państwo całą umowę przed ofertą</label></p>
-</div>
-</div>
-<div style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Realizacja i rozliczenia
-</h4>
-<div style="font-size: 14px; color: #666; line-height: 2;">
-<p><label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Odzyskują Państwo &gt;80% robót dodatkowych</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Dokumentują Państwo wszystkie zmiany na bieżąco</label> <label style="display: block; cursor: pointer;"><input style="margin-right: 8px;" type="checkbox"/> Marże końcowe są zgodne z planowanymi</label></p>
-</div>
-</div>
-</div>
-<div style="margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; text-align: center;">
-<p style="color: var(--bim-charcoal); font-size: 16px; margin-bottom: 16px;">
-<strong>Jeśli zaznaczyli Państwo mniej niż 8 punktów:</strong> Tracą Państwo miliony złotych rocznie na niewygranych przetargach
-</p>
-<p><a class="cta-primary" href="./kontakt.html" style="display: inline-block;">Zamów bezpłatną analizę przetargową</a></p>
-</div>
-</div>
-</section>
-<section class="level2" id="kalkulator-roi-ile-mogą-państwo-zyskać">
-<h2 class="anchored" data-anchor-id="kalkulator-roi-ile-mogą-państwo-zyskać">Kalkulator ROI – Ile mogą Państwo zyskać?</h2>
-<div style="background: var(--bim-charcoal); padding: 48px 32px; border-radius: 12px; margin: 48px 0; color: white;">
-<h3 class="anchored" style="text-align: center; color: white; margin-bottom: 32px;">
-<i class="bi bi-calculator" style="color: var(--bim-orange);"></i> Oblicz potencjalny zwrot z inwestycji
-</h3>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
-<div style="">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Państwa dane:
-</h4>
-<div style="margin-bottom: 20px;">
-<p><label style="display: block; margin-bottom: 8px; font-size: 14px; color: rgba(255,255,255,0.9);">Liczba przetargów rocznie:</label> <input id="tenders-per-year" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ddd; color: var(--bim-charcoal);" type="number" value="20"/></p>
-</div>
-<div style="margin-bottom: 20px;">
-<p><label style="display: block; margin-bottom: 8px; font-size: 14px; color: rgba(255,255,255,0.9);">Obecna skuteczność (%):</label> <input id="current-win-rate" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ddd; color: var(--bim-charcoal);" type="number" value="10"/></p>
-</div>
-<div style="margin-bottom: 20px;">
-<p><label style="display: block; margin-bottom: 8px; font-size: 14px; color: rgba(255,255,255,0.9);">Średnia wartość kontraktu (PLN):</label> <input id="avg-contract-value" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ddd; color: var(--bim-charcoal);" type="number" value="5000000"/></p>
-</div>
-<div style="margin-bottom: 20px;">
-<p><label style="display: block; margin-bottom: 8px; font-size: 14px; color: rgba(255,255,255,0.9);">Średnia marża (%):</label> <input id="avg-margin" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ddd; color: var(--bim-charcoal);" type="number" value="8"/></p>
-</div>
-</div>
-<div style="">
-<h4 class="anchored" style="color: var(--bim-orange); margin-bottom: 16px;">
-Prognozowane wyniki:
-</h4>
-<div style="background: rgba(255, 255, 255, 0.1); padding: 24px; border-radius: 8px;">
-<div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
-<p style="margin: 4px 0; font-size: 14px; color: rgba(255,255,255,0.7);">
-Nowa skuteczność:
-</p>
-<p data-metric="new-win-rate" style="margin: 4px 0; font-size: 28px; font-weight: 700; color: var(--bim-orange);">
-35%
-</p>
-</div>
-<div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
-<p style="margin: 4px 0; font-size: 14px; color: rgba(255,255,255,0.7);">
-Dodatkowe wygrane przetargi:
-</p>
-<p data-metric="additional-wins" style="margin: 4px 0; font-size: 28px; font-weight: 700; color: white;">
-+5
-</p>
-</div>
-<div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
-<p style="margin: 4px 0; font-size: 14px; color: rgba(255,255,255,0.7);">
-Dodatkowy zysk roczny:
-</p>
-<p data-metric="additional-profit" style="margin: 4px 0; font-size: 28px; font-weight: 700; color: #28a745;">
-+2 000 000 PLN
-</p>
-</div>
-<div>
-<p style="margin: 4px 0; font-size: 14px; color: rgba(255,255,255,0.7);">
-ROI z usługi:
-</p>
-<p data-metric="roi" style="margin: 4px 0; font-size: 32px; font-weight: 700; color: var(--bim-orange);">
-833%
-</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-top: 32px; text-align: center;">
-<p style="color: rgba(255,255,255,0.9); font-size: 16px; margin-bottom: 24px;">
-<strong>Zwiększ swoją konkurencyjność w przetargach</strong>
-</p>
-<p><a class="cta-primary" href="./kontakt.html" style="display: inline-block;">Rozpocznij transformację przetargową</a></p>
-</div>
-</div>
-</section>
-<section class="level2" id="rozpocznij-wygrywanie-większej-liczby-przetargów">
-<h2 class="anchored" data-anchor-id="rozpocznij-wygrywanie-większej-liczby-przetargów">Rozpocznij wygrywanie większej liczby przetargów</h2>
+<section class="level2" id="prześlij-dokumentację-do-najbliższego-przetargu">
+<h2 class="anchored" data-anchor-id="prześlij-dokumentację-do-najbliższego-przetargu">Prześlij dokumentację do najbliższego przetargu</h2>
 <div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
 <div style="max-width: 800px; margin: 0 auto;">
 <h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Bezpłatny audyt przetargowy
+Prześlij dokumentację do najbliższego przetargu
 </h2>
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-Proszę przesłać dokumentację Państwa ostatniego przegranego przetargu. Zidentyfikujemy przyczyny niepowodzenia i przedstawimy rekomendacje poprawy – bez zobowiązań.
+Prześlij dokumentację i termin składania ofert. W ciągu jednego dnia roboczego potwierdzamy zakres, stałą cenę i termin.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
@@ -1370,45 +841,45 @@ Proszę przesłać dokumentację Państwa ostatniego przegranego przetargu. Zide
 Prześlij dokumentację
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Udostępnij ostatnią przegraną ofertę
+Rysunki, specyfikacja, przedmiar zamawiającego i termin składania ofert
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Otrzymaj analizę
+Zakres, cena i termin
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Szczegółowy raport z rekomendacjami
+Odpowiedź w ciągu jednego dnia roboczego, cena ustalona przed pracą
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Podejmij decyzję
+Kosztorys w Twoim formacie
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Bez presji, bez zobowiązań
+Z wykazem założeń, zastrzeżeń i pytań do zamawiającego
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="./kontakt.html">Zamów bezpłatny audyt</a> <a class="cta-secondary" href="tel:+48508209313">Zadzwoń +48 508 209 313</a></p>
+<p><a class="cta-primary" href="./kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="./kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ponad 2000 przygotowanych przetargów | Ponad 800 wygranych</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Kosztorys w formacie, którego wymaga zamawiający</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Średnia skuteczność 35–45%</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zastrzeżenia i pytania zapisane</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dwadzieścia lat pracy w Polsce, Wielkiej Brytanii i Australii</strong>
 </p>
 </div>
 </div>
 </div>
-<section class="level3" id="dlaczego-bim-takeoff" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
-<h3 class="anchored" data-anchor-id="dlaczego-bim-takeoff">Dlaczego BIM Takeoff?</h3>
-<p>Jako <strong>jedyna firma w Polsce</strong> łączymy 20 lat doświadczenia przetargowego z Wielkiej Brytanii i Australii z ekspertyzą BIM 5D. Nie jesteśmy kolejnym kosztorysantem – jesteśmy Państwa strategicznym partnerem do wygrywania kontraktów.</p>
+<section class="level3" id="potrzebujesz-wsparcia-przy-ofercie-teraz" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
+<h3 class="anchored" data-anchor-id="potrzebujesz-wsparcia-przy-ofercie-teraz">Potrzebujesz wsparcia przy ofercie teraz?</h3>
+<p>Zobacz pełny zakres wsparcia ofertowego: <a href="./uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">przygotowanie ofert przetargowych</a>.</p>
 <p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+48508209313">+48 508 209 313</a></p>
 </section>
 </section>
@@ -1823,30 +1294,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

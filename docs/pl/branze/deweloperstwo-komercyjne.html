@@ -4,7 +4,7 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/branze/deweloperstwo-komercyjne.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%." name="description"/>
+<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Przedmiary i kosztorysy w 3–10 dni." name="description"/>
 <title>BIM Takeoff - Kosztorysowanie Deweloperstwa Komercyjnego | Biura &amp; Handel</title>
 <style>
 code{white-space: pre-wrap;}
@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,32 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Kosztorysowanie Deweloperstwa Komercyjnego | Biura &amp; Handel" name="twitter:title"/>
-<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%." name="twitter:description"/>
+<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Przedmiary i kosztorysy w 3–10 dni." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -198,7 +199,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Kosztorysowanie Deweloperstwa Komercyjnego | Biura &amp; Handel" property="og:title"/>
-<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%." property="og:description"/>
+<meta content="Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Przedmiary i kosztorysy w 3–10 dni." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -209,10 +210,10 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "P: Jaki był wasz największy projekt komercyjny?",
+      "name": "P: Jak duże projekty komercyjne obsługujecie?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Pracowaliśmy nad budynkami biurowymi do 50 000 m² i projektami wielofunkcyjnymi przekraczającymi 100 000 m² całkowitej powierzchni. Nasz workflow BIM 5D skutecznie skaluje się dla dużych projektów komercyjnych, w tym wielowieżowych."
+        "text": "O: Mierzymy zarówno pojedyncze adaptacje wnętrz, jak i całe budynki biurowe oraz projekty wielofunkcyjne. Metoda jest ta sama niezależnie od skali: pozycje przedmiaru wynikają z rysunków i specyfikacji, a nie z założeń o typowym budynku. Nazw i danych projektów nie podajemy - obowiązuje nas poufność wobec klientów."
       }
     },
     {
@@ -225,7 +226,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     },
     {
       "@type": "Question",
-      "name": "P: Jak szybko może Pan dostarczyć wstępny kosztorys dla decyzji inwestycyjnych?",
+      "name": "P: Jak szybko dostarczacie wstępny kosztorys dla decyzji inwestycyjnych?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "O: Dla wczesnych kosztorysów wykonalności opartych na projektach koncepcyjnych możemy dostarczyć zakresy kosztów w ciągu 2-3 dni, używając benchmarków i kosztorysowania parametrycznego. Daje to inwestorom pewność do przejścia do szczegółowego projektu."
@@ -233,7 +234,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     },
     {
       "@type": "Question",
-      "name": "P: Co jeśli najemca zechce innej specyfikacji po Pana kosztorysie?",
+      "name": "P: Co jeśli najemca zechce innej specyfikacji po waszym kosztorysie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "O: Ponieważ pracujemy z BIM 5D, możemy szybko przeliczyć koszty dla zmian specyfikacji w ciągu godzin do jednego dnia. Jest to szczególnie cenne podczas negocjacji najmu, gdy najemcy żądają wariantów."
@@ -268,7 +269,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jaka jest wasza struktura opłat za projekty komercyjne?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Każdy projekt komercyjny wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od: - Powierzchni budynku i liczby kondygnacji - Poziomu złożoności technicznej (klasa A, B, projekty wielofunkcyjne) - Wymaganego poziomu szczegółowości kosztorysu - Terminu realizacji (standardowy lub ekspresowy) - Zakresu dodatkowych analiz (ESG, wieloscenariuszowe, value engineering) Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu. Zazwyczaj odpowiadamy w ciągu 24 godzin ze szczegółową propozycją."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają: - Powierzchnia budynku i liczba kondygnacji - Poziom złożoności technicznej (klasa A, B, projekty wielofunkcyjne) - Wymagany poziom szczegółowości kosztorysu - Termin realizacji (standardowy lub przyspieszony) - Zakres dodatkowych analiz (ESG, wieloscenariuszowe, value engineering) Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego."
       }
     }
   ]
@@ -321,7 +322,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -329,97 +330,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -427,16 +403,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -478,7 +496,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div>
 <div class="description">
-    Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Realizacja 3-10 dni, dokładność ±5%.
+    Kosztorysowanie deweloperstwa komercyjnego: biura, powierzchnie handlowe, projekty wielofunkcyjne. Przedmiary i kosztorysy w 3–10 dni.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -486,7 +504,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="kosztorysowanie-deweloperstwa-komercyjnego">
@@ -497,23 +515,23 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 <div class="hero-subtitle">
 <p>Od adaptacji 1 000 m² do wież komercyjnych 50 000+ m².<br/>
-Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
+Gotowe w ciągu 3–10 dni.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Przedmiar i kosztorys</strong> - Pozycje, ilości, stawki i założenia
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie w Biurach Klasy A</strong> - Specyfikacje premium
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie w Biurach Klasy A</strong> - Specyfikacje premium
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE &amp; Australia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE &amp; Australia
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Case Studies</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -526,25 +544,25 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <p>Projekty komercyjne napotykają intensywną presję rynkową i rygorystyczną kontrolę inwestycji:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Presja na rentowność</strong> - Każde 100 PLN/m² wpływa na zwrot z inwestycji
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Presja na rentowność</strong> - Każde 100 PLN/m² wpływa na zwrot z inwestycji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wymagania najemców</strong> - Najemcy wymagają pewności kosztów
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wymagania najemców</strong> - Najemcy wymagają pewności kosztów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Oczekiwania ESG</strong> - BREEAM, WELL, cele net-zero
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Oczekiwania ESG</strong> - BREEAM, WELL, cele net-zero
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wzrost standardów</strong> - Normy klasy A stale rosną
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wzrost standardów</strong> - Normy klasy A stale rosną
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ograniczenia czasowe</strong> - Okna deweloperskie szybko się zamykają
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Ograniczenia czasowe</strong> - Okna deweloperskie szybko się zamykają
 </p>
 </div>
 <section class="level4 callout-box" id="ryzyko" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
 <h4 class="anchored" data-anchor-id="ryzyko">Ryzyko</h4>
 <blockquote class="blockquote">
-<p>“5% przekroczenie kosztów w projekcie biurowym o wartości 120 mln PLN oznacza 6 mln PLN straty zysku i może sprawić, że projekt stanie się nieopłacalny. Tradycyjne kosztorysowanie trwające 6-8 tygodni opóźnia decyzje finansowe i negocjacje z najemcami, gdy warunki rynkowe wymagają szybkości.”</p>
+<p>„Przekroczenie kosztów w projekcie biurowym zjada zysk i potrafi przesądzić o opłacalności inwestycji. Kosztorys, który przychodzi za późno, opóźnia decyzje finansowe i negocjacje z najemcami.”</p>
 </blockquote>
 </section>
 </section>
@@ -553,28 +571,28 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <p>Specjalistyczne BIM 5D dla projektów biurowych i handlowych:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3-10 dni</strong> na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3–10 dni</strong> na kompletny kosztorys
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza klasy A</strong> - Specyfikacje biur premium
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza klasy A</strong> - Specyfikacje biur premium
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Modelowanie kosztów ESG</strong> - BREEAM, WELL, opcje net-zero
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Modelowanie kosztów ESG</strong> - BREEAM, WELL, opcje net-zero
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value engineering</strong> - Optymalizacja bez kompromisów
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value engineering</strong> - Optymalizacja bez kompromisów
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie adaptacji</strong> - Podział kosztów: surowy stan, CAT A, CAT B
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie adaptacji</strong> - Podział kosztów: surowy stan, CAT A, CAT B
 </p>
 </div>
-<section class="level4 callout-box" id="nasze-doświadczenie" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="nasze-doświadczenie">Nasze doświadczenie</h4>
+<section class="level4 callout-box" id="jak-pracujemy" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="jak-pracujemy">Jak pracujemy</h4>
 <ul>
-<li><strong>Szerokie portfolio projektów komercyjnych</strong> w UK, UE i Australii</li>
-<li><strong>Projekty biur klasy A</strong> do 50 000+ m² - zrealizowaliśmy je sprawnie</li>
-<li><strong>Średnio 7 dni</strong> od modelu BIM do szczegółowego kosztorysu</li>
-<li><strong>Dokładność ±5%</strong> w 95% projektów</li>
+<li><strong>Mierzymy</strong> z rysunków i specyfikacji, które otrzymujemy</li>
+<li><strong>Wydajemy przedmiar</strong> w układzie pozycji, gotowy do wyceny</li>
+<li><strong>Kosztorys z widocznymi</strong> ilościami, stawkami i założeniami</li>
+<li><strong>Rynki</strong> UK, UE i Polska</li>
 </ul>
 </section>
 </section>
@@ -584,39 +602,39 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <h2 class="anchored" data-anchor-id="usługi-dedykowane-deweloperstwa-komercyjnego">Usługi Dedykowane Deweloperstwa Komercyjnego</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="szybkie-kosztorysowanie">
-<h3 class="anchored" data-anchor-id="szybkie-kosztorysowanie"><i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie</h3>
+<h3 class="anchored" data-anchor-id="szybkie-kosztorysowanie"><i aria-hidden="true" class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie</h3>
 <p><strong>Gotowe w ciągu 3-10 dni</strong></p>
 <p>Idealne do: - Ocen inwestycyjnych - Negocjacji najmu - Analiz wykonalności - Przygotowania przetargów</p>
 <p><a href="../uslugi/szybka-kontrola-kosztow.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="ekspertyza-biur-klasy-a">
-<h3 class="anchored" data-anchor-id="ekspertyza-biur-klasy-a"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Ekspertyza Biur Klasy A</h3>
+<h3 class="anchored" data-anchor-id="ekspertyza-biur-klasy-a"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Ekspertyza Biur Klasy A</h3>
 <p><strong>Specyfikacje Premium</strong></p>
 <p>Szczegółowa wiedza: - Podłogi systemowe - Sufity podwieszone - Klimatyzacja VRV/VRF - Przeszklenia wysokiej jakości</p>
 <p><a href="../uslugi/specjalistyczne-branzy-budowlane.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="modelowanie-kosztów-esg">
-<h3 class="anchored" data-anchor-id="modelowanie-kosztów-esg"><i class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Modelowanie Kosztów ESG</h3>
+<h3 class="anchored" data-anchor-id="modelowanie-kosztów-esg"><i aria-hidden="true" class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Modelowanie Kosztów ESG</h3>
 <p><strong>Standardy Zrównoważoności</strong></p>
 <p>Eksperckie kosztorysowanie: - BREEAM Excellent/Outstanding - WELL Building Standard - Cele net-zero carbon - Ścieżki do certyfikatu energetycznego A</p>
 <p><a href="../uslugi/kosztorysowanie-breeam-esg.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="analiza-wieloscenariuszowa">
-<h3 class="anchored" data-anchor-id="analiza-wieloscenariuszowa"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa</h3>
+<h3 class="anchored" data-anchor-id="analiza-wieloscenariuszowa"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa</h3>
 <p><strong>Porównanie Opcji Projektowych</strong></p>
 <p>Analiza wpływu: - Alternatywne systemy elewacji - Wybór strategii MEP - Poziomy specyfikacji adaptacji - Opcje fazowania</p>
 <p><a href="../uslugi/analiza-wieloscenariuszowa.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="rozbicie-kosztów-adaptacji">
-<h3 class="anchored" data-anchor-id="rozbicie-kosztów-adaptacji"><i class="bi bi-scissors" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozbicie Kosztów Adaptacji</h3>
+<h3 class="anchored" data-anchor-id="rozbicie-kosztów-adaptacji"><i aria-hidden="true" class="bi bi-scissors" style="color: var(--bim-orange); margin-right: 12px;"></i>Rozbicie Kosztów Adaptacji</h3>
 <p><strong>Analiza od Surowego Stanu do CAT B</strong></p>
 <p>Osobne koszty dla: - Budynek w stanie surowym - CAT A (wykończenie wynajmującego) - CAT B (wykończenie najemcy) - Infrastruktura MEP</p>
 <p><a href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="pisanie-ofert-i-zarządzanie">
-<h3 class="anchored" data-anchor-id="pisanie-ofert-i-zarządzanie"><i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie</h3>
+<h3 class="anchored" data-anchor-id="pisanie-ofert-i-zarządzanie"><i aria-hidden="true" class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie</h3>
 <p><strong>Wsparcie Przetargów</strong></p>
-<p>Pełna obsługa: - Obmiary ilościowe - Szczegółowa wycena - Rozbicie kosztów przygotowawczych - Koordynacja przetargowa</p>
+<p>Pełna obsługa: - Przedmiary robót - Szczegółowa wycena - Rozbicie kosztów przygotowawczych - Koordynacja przetargowa</p>
 <p><a href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">Dowiedz się więcej →</a></p>
 </section>
 </div>
@@ -671,7 +689,7 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <p><strong>Dni 1-4</strong></p>
 <p><strong>Co robimy:</strong> - Ekstrakcja wszystkich elementów konstrukcyjnych - Obliczenie ilości elewacji i przeszkleń - Pomiar powierzchni wykończeń wewnętrznych - Kalkulacja wymagań MEP - Liczba armatury sanitarnej, wind itp.</p>
 <p><strong>Technologia:</strong> - Narzędzia ekstrakcji BIM 5D - Analiza powierzchni kondygnacji - Weryfikacja krzyżowa ze specyfikacjami</p>
-<p><strong>Rezultat:</strong> Kompletny obmiar ilościowy (przedmiar)</p>
+<p><strong>Rezultat:</strong> Kompletny przedmiar robót</p>
 </section>
 <section class="level4 process-step" id="zastosowanie-kosztów-i-analiza">
 <h4 class="anchored" data-anchor-id="zastosowanie-kosztów-i-analiza">Zastosowanie Kosztów i Analiza</h4>
@@ -696,8 +714,8 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 </section>
 </div>
 <div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
-<p><strong>Standardowy czas realizacji:</strong> 7-10 dni roboczych od otrzymania modelu BIM do raportu końcowego<br/>
-<strong>Tryb ekspresowy:</strong> Dostępny dla pilnych projektów (4-5 dni) z 25% premium</p>
+<p><strong>Standardowy czas realizacji:</strong> 7–10 dni roboczych od otrzymania modelu BIM do raportu końcowego<br/>
+<strong>Tryb przyspieszony:</strong> Dostępny dla pilnych projektów (4–5 dni)</p>
 </div>
 </section>
 <section class="level2" id="dlaczego-wybrać-bim-takeoff-do-projektów-komercyjnych">
@@ -712,23 +730,17 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <li><strong>Realizujemy projekty wielofunkcyjne</strong></li>
 </ul>
 </section>
-<section class="level3" id="potwierdzona-szybkość" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="potwierdzona-szybkość">Potwierdzona Szybkość</h3>
+<section class="level3" id="termin" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="termin">Termin</h3>
 <ul>
-<li><strong>3-10 dni</strong> typowa realizacja</li>
+<li><strong>3–10 dni</strong> typowa realizacja</li>
 <li><strong>W ciągu dnia</strong> aktualizacje zmian</li>
-<li><strong>4-5 dni</strong> usługa ekspresowa</li>
-<li><strong>90% szybciej</strong> niż tradycyjnie</li>
+<li><strong>4–5 dni</strong> tryb przyspieszony</li>
 </ul>
 </section>
-<section class="level3" id="dokładność-klasy-inwestycyjnej" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="dokładność-klasy-inwestycyjnej">Dokładność Klasy Inwestycyjnej</h3>
-<ul>
-<li><strong>Gwarancja ±5%</strong> dokładności</li>
-<li>Analiza <strong>zorientowana na rentowność</strong></li>
-<li><strong>Benchmarking rynkowy</strong> wliczony</li>
-<li><strong>Kosztorysy obronne</strong> dla inwestorów</li>
-</ul>
+<section class="level3" id="podstawa-ilości" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="podstawa-ilości">Podstawa ilości</h3>
+<p>Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </section>
 <section class="level3" id="przewaga-technologiczna" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
 <h3 class="anchored" data-anchor-id="przewaga-technologiczna">Przewaga Technologiczna</h3>
@@ -764,10 +776,10 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <div class="faq-section">
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jaki był wasz największy projekt komercyjny?</strong></p>
+<p><strong>P: Jak duże projekty komercyjne obsługujecie?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Pracowaliśmy nad budynkami biurowymi do 50 000 m² i projektami wielofunkcyjnymi przekraczającymi 100 000 m² całkowitej powierzchni. Nasz workflow BIM 5D skutecznie skaluje się dla dużych projektów komercyjnych, w tym wielowieżowych.</p>
+<p>O: Mierzymy zarówno pojedyncze adaptacje wnętrz, jak i całe budynki biurowe oraz projekty wielofunkcyjne. Metoda jest ta sama niezależnie od skali: pozycje przedmiaru wynikają z rysunków i specyfikacji, a nie z założeń o typowym budynku. Nazw i danych projektów nie podajemy - obowiązuje nas poufność wobec klientów.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -780,7 +792,7 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jak szybko może Pan dostarczyć wstępny kosztorys dla decyzji inwestycyjnych?</strong></p>
+<p><strong>P: Jak szybko dostarczacie wstępny kosztorys dla decyzji inwestycyjnych?</strong></p>
 </div>
 <div class="faq-answer">
 <p>O: Dla wczesnych kosztorysów wykonalności opartych na projektach koncepcyjnych możemy dostarczyć zakresy kosztów w ciągu 2-3 dni, używając benchmarków i kosztorysowania parametrycznego. Daje to inwestorom pewność do przejścia do szczegółowego projektu.</p>
@@ -788,7 +800,7 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Co jeśli najemca zechce innej specyfikacji po Pana kosztorysie?</strong></p>
+<p><strong>P: Co jeśli najemca zechce innej specyfikacji po waszym kosztorysie?</strong></p>
 </div>
 <div class="faq-answer">
 <p>O: Ponieważ pracujemy z BIM 5D, możemy szybko przeliczyć koszty dla zmian specyfikacji w ciągu godzin do jednego dnia. Jest to szczególnie cenne podczas negocjacji najmu, gdy najemcy żądają wariantów.</p>
@@ -823,8 +835,8 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <p><strong>P: Jaka jest wasza struktura opłat za projekty komercyjne?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Każdy projekt komercyjny wyceniamy indywidualnie, biorąc pod uwagę wielkość projektu, złożoność, specyfikację oraz harmonogram. Cena zależy od wielu czynników, w tym od: - Powierzchni budynku i liczby kondygnacji - Poziomu złożoności technicznej (klasa A, B, projekty wielofunkcyjne) - Wymaganego poziomu szczegółowości kosztorysu - Terminu realizacji (standardowy lub ekspresowy) - Zakresu dodatkowych analiz (ESG, wieloscenariuszowe, value engineering)</p>
-<p>Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego projektu. Zazwyczaj odpowiadamy w ciągu 24 godzin ze szczegółową propozycją.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Na wysokość wyceny wpływają: - Powierzchnia budynku i liczba kondygnacji - Poziom złożoności technicznej (klasa A, B, projekty wielofunkcyjne) - Wymagany poziom szczegółowości kosztorysu - Termin realizacji (standardowy lub przyspieszony) - Zakres dodatkowych analiz (ESG, wieloscenariuszowe, value engineering)</p>
+<p>Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego.</p>
 </div>
 </div>
 </div>
@@ -834,18 +846,18 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.</p>
 <div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
 <div style="max-width: 900px; margin: 0 auto;">
 <h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Przestań Czekać 6-8 Tygodni na Kosztorysy
+Prześlij dokumentację, odeślemy przedmiar
 </h2>
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">
-Uzyskaj precyzję i szybkość, których wymaga Twój projekt komercyjny. Ekspertyza biur klasy A w UK, UE i Australii.
+Mierzone przedmiary i wycenione kosztorysy dla projektów biurowych, handlowych i wielofunkcyjnych.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
+<i aria-hidden="true" class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów swój projekt z naszymi specjalistami komercyjnymi
+Omów swój projekt bezpośrednio z Robertem Kowalskim
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;">
 <strong>+44 (0) 20 3239 9967</strong>
@@ -853,10 +865,10 @@ Omów swój projekt z naszymi specjalistami komercyjnymi
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę
+<i aria-hidden="true" class="bi bi-file-earmark-text-fill"></i> Otrzymaj wycenę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Odpowiedź w 24 godziny ze szczegółową propozycją
+Odpowiedź w ciągu jednego dnia roboczego
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
 <a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a>
@@ -864,31 +876,31 @@ Odpowiedź w 24 godziny ze szczegółową propozycją
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację
+<i aria-hidden="true" class="bi bi-calendar-check-fill"></i> Przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Bezpłatny 30-minutowy przegląd projektu
+Prześlij fragment dokumentacji, zmierzymy go bez opłaty
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
-<a href="../kontakt.html" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a>
+<a href="../kontakt.html#probny" style="color: var(--bim-orange); text-decoration: underline;">Prześlij fragment →</a>
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../coming-soon.html">Zobacz Portfolio</a> <a class="cta-secondary" href="mailto:info@bimtakeoff.com">Poproś o Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ekspertyza Biur Klasy A</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specyfikacje biur klasy A</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Projekty do 50 000+ m²</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Przedmiar i kosztorys w jednym pakiecie</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-10 Dni</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3–10 dni</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Widoczne ilości, stawki i założenia</strong>
 </p>
 </div>
 </div>
@@ -1305,30 +1317,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

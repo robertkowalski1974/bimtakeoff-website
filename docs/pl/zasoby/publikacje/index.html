@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,26 +103,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -250,7 +251,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -258,97 +259,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -356,16 +332,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -415,7 +433,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../../images/header-background.jpg"> <source src="../../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../../images/header-background.jpg" preload="none"> <source data-src="../../../images/hero-video.webm" type="video/webm"/> <source data-src="../../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="publikacje">
@@ -437,11 +455,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <div class="publications-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 32px; margin: 48px 0;">
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/construction-crisis-cover.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="934" src="../../../images/construction-crisis-cover.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1400"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Branża Budowlana</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Infrastruktura</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Transformacja Cyfrowa</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Branża Budowlana</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Infrastruktura</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Transformacja Cyfrowa</span></p>
 </div>
 <section class="level3" id="kryzys-budownictwa-za-40-bilionów-dolarów-wyzwania-przekształcające-globalną-branżę">
 <h3 class="anchored" data-anchor-id="kryzys-budownictwa-za-40-bilionów-dolarów-wyzwania-przekształcające-globalną-branżę">Kryzys budownictwa za 40 bilionów dolarów: Wyzwania przekształcające globalną branżę</h3>
@@ -466,11 +484,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/EPS-polskie-warunki.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="716" src="../../../images/EPS-polskie-warunki.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1400"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Bezpieczeństwo Pożarowe</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przepisy Budowlane</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Termomodernizacja</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Bezpieczeństwo Pożarowe</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przepisy Budowlane</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Termomodernizacja</span></p>
 </div>
 <section class="level3" id="styropian-na-elewacji-wielorodzinnego-bloku-polskie-przepisy-kontra-brytyjski-rygoryzm">
 <h3 class="anchored" data-anchor-id="styropian-na-elewacji-wielorodzinnego-bloku-polskie-przepisy-kontra-brytyjski-rygoryzm">Styropian na elewacji wielorodzinnego bloku – polskie przepisy kontra brytyjski rygoryzm</h3>
@@ -489,11 +507,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/construction-failure-cover.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="724" src="../../../images/construction-failure-cover.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1400"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Zarządzanie Projektami</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Megaprojekty</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Analiza Badawcza</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Zarządzanie Projektami</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Megaprojekty</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Analiza Badawcza</span></p>
 </div>
 <section class="level3" id="endemiczna-porażka-realizacji-projektów-budowlanych-dlaczego-915-projektów-kończy-się-niepowodzeniem">
 <h3 class="anchored" data-anchor-id="endemiczna-porażka-realizacji-projektów-budowlanych-dlaczego-915-projektów-kończy-się-niepowodzeniem">Endemiczna porażka realizacji projektów budowlanych: dlaczego 91,5% projektów kończy się niepowodzeniem</h3>
@@ -512,11 +530,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/AI-Estimating.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="1024" src="../../../images/AI-Estimating.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1024"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Technologie Budowlane</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Technologie Budowlane</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span></p>
 </div>
 <section class="level3" id="ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością">
 <h3 class="anchored" data-anchor-id="ai-w-przedmiarach-budowlanych-między-deklaracjami-marketingowymi-a-rzeczywistością">AI w przedmiarach budowlanych: między deklaracjami marketingowymi a rzeczywistością</h3>
@@ -535,11 +553,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/70Percent.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="934" src="../../../images/70Percent.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1400"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Strategia Przetargowa</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">BIM</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Strategia Przetargowa</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">BIM</span></p>
 </div>
 <section class="level3" id="mit-70-ceny-co-naprawdę-wygrywa-przetargi-budowlane">
 <h3 class="anchored" data-anchor-id="mit-70-ceny-co-naprawdę-wygrywa-przetargi-budowlane">Mit 70% ceny: Co naprawdę wygrywa przetargi budowlane</h3>
@@ -558,11 +576,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/ai-qs-cover.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="1024" src="../../../images/ai-qs-cover.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1024"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI &amp; Automatyzacja</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przyszłość Pracy</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">AI &amp; Automatyzacja</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Kosztorysowanie</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Przyszłość Pracy</span></p>
 </div>
 <section class="level3" id="czy-ai-zastąpi-kosztorysantów-rzeczywistość-cyfrowej-rewolucji-w-budownictwie">
 <h3 class="anchored" data-anchor-id="czy-ai-zastąpi-kosztorysantów-rzeczywistość-cyfrowej-rewolucji-w-budownictwie">Czy AI zastąpi kosztorysantów? Rzeczywistość cyfrowej rewolucji w budownictwie</h3>
@@ -581,11 +599,11 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div class="publication-card" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;">
 <div style="position: relative; overflow: hidden; height: 200px;">
-<p><img class="img-fluid" src="../../../images/bim-adoption-cover.png" style="width: 100%; height: 100%; object-fit: cover;"/></p>
+<p><img height="934" src="../../../images/bim-adoption-cover.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1400"/></p>
 </div>
 <div style="padding: 24px;">
 <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
-<p><span style="background: var(--bim-orange); color: white; padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Adopcja BIM</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Rynek Polski</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Porównanie UK</span></p>
+<p><span style="background: var(--bim-orange); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Adopcja BIM</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Rynek Polski</span> <span style="background: var(--bim-light-gray); color: var(--bim-charcoal); padding: 4px 12px; border-radius: 4px; font-size: 14px; font-weight: 500;">Porównanie UK</span></p>
 </div>
 <section class="level3" id="adopcja-bim-na-etapie-przetargów-dlaczego-wykonawcy-stawiają-opór-i-czego-polska-może-nauczyć-się-od-wielkiej-brytanii">
 <h3 class="anchored" data-anchor-id="adopcja-bim-na-etapie-przetargów-dlaczego-wykonawcy-stawiają-opór-i-czego-polska-może-nauczyć-się-od-wielkiej-brytanii">Adopcja BIM na etapie przetargów: Dlaczego wykonawcy stawiają opór i czego Polska może nauczyć się od Wielkiej Brytanii</h3>
@@ -616,13 +634,13 @@ Subskrybuj, aby otrzymywać nasze najnowsze badania, analizy branżowe i praktyc
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analizy oparte na badaniach</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Analizy oparte na badaniach</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rynki brytyjski, australijski i polski</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rynki brytyjski, australijski i polski</strong>
 </p>
 </div>
 </div>
@@ -632,15 +650,15 @@ Subskrybuj, aby otrzymywać nasze najnowsze badania, analizy branżowe i praktyc
 <p>Publikacje BIM Takeoff czerpią z 20-letniego międzynarodowego doświadczenia w świadczeniu usług kosztorysowania BIM 5D na rynkach brytyjskim, australijskim i polskim. Nasze badania łączą:</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;">
 <section class="level3" id="analiza-rynku" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="analiza-rynku"><i class="bi bi-graph-up-arrow" style="color: var(--bim-orange);"></i> Analiza rynku</h3>
-<p>Rzeczywiste dane z 2000+ projektów na wielu rynkach, śledzenie trendów adopcji, barier i czynników sukcesu.</p>
+<h3 class="anchored" data-anchor-id="analiza-rynku"><i aria-hidden="true" class="bi bi-graph-up-arrow" style="color: var(--bim-orange);"></i> Analiza rynku</h3>
+<p>Dane z projektów na kilku rynkach: trendy adopcji, bariery i czynniki powodzenia.</p>
 </section>
 <section class="level3" id="perspektywa-międzynarodowa" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="perspektywa-międzynarodowa"><i class="bi bi-globe" style="color: var(--bim-orange);"></i> Perspektywa międzynarodowa</h3>
+<h3 class="anchored" data-anchor-id="perspektywa-międzynarodowa"><i aria-hidden="true" class="bi bi-globe" style="color: var(--bim-orange);"></i> Perspektywa międzynarodowa</h3>
 <p>Analiza porównawcza rynków budowlanych w UK, Australii i Polsce z lekcjami wyniesionymi z każdego z nich.</p>
 </section>
 <section class="level3" id="praktyczne-wdrożenie" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="praktyczne-wdrożenie"><i class="bi bi-tools" style="color: var(--bim-orange);"></i> Praktyczne wdrożenie</h3>
+<h3 class="anchored" data-anchor-id="praktyczne-wdrożenie"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange);"></i> Praktyczne wdrożenie</h3>
 <p>Praktyczne rekomendacje oparte na doświadczeniu praktycznym, a nie tylko analizie teoretycznej.</p>
 </section>
 </div>
@@ -1093,30 +1111,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

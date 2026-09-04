@@ -2,6 +2,14 @@
 // Version 2.1 - Multi-currency + Project Type Impact
 // Realistic calculations based on industry standards
 
+// LinkedIn conversion id for ROI Calculator lead submissions. The repo has
+// one LinkedIn conversion id on record (js/linkedin-tracking.js /
+// js/engagement-tracking.js, used for tel:/mailto: contact clicks) - reused
+// here since no separate "lead" conversion id exists. window.lintrk is only
+// present once marketing consent is granted (see js/consent-banner.js), so
+// every call site below guards on it.
+const LINKEDIN_LEAD_CONVERSION_ID = 24859401;
+
 // ============================================================================
 // CURRENCY CONFIGURATION
 // ============================================================================
@@ -142,6 +150,18 @@ let currencySelector;
 
 // Calculator state
 let calculatedResults = null;
+let calculatorStartTracked = false;
+
+function trackCalculatorStarted() {
+  if (calculatorStartTracked) return;
+  calculatorStartTracked = true;
+  if (typeof dataLayer !== 'undefined') {
+    dataLayer.push({
+      'event': 'roi_calculator_started',
+      'page_language': document.documentElement.lang
+    });
+  }
+}
 
 // ============================================================================
 // INITIALIZATION
@@ -194,28 +214,34 @@ function attachEventListeners() {
   
   // Slider sync with input
   projectValue.addEventListener('input', function() {
+    trackCalculatorStarted();
     const value = parseInt(this.value);
     projectValueInput.value = value;
     projectValueDisplay.textContent = formatCurrency(value);
   });
-  
+
   projectValueInput.addEventListener('input', function() {
+    trackCalculatorStarted();
     let value = parseInt(this.value);
     if (isNaN(value)) value = 500000;
     if (value < 500000) value = 500000;
     if (value > 50000000) value = 50000000;
-    
+
     projectValue.value = value;
     projectValueDisplay.textContent = formatCurrency(value);
   });
   
   // Variance slider
   costVariance.addEventListener('input', function() {
+    trackCalculatorStarted();
     varianceDisplay.textContent = this.value + '%';
   });
-  
+
   // Calculate button
-  calculateBtn.addEventListener('click', calculateROI);
+  calculateBtn.addEventListener('click', function() {
+    trackCalculatorStarted();
+    calculateROI();
+  });
   
   // Get report button
   const getReportBtn = document.getElementById('get-report-btn');
@@ -494,7 +520,7 @@ function displayResults() {
     return Math.round(val) + ' days';
   });
   
-  accuracyEl.textContent = `±${calculatedResults.accuracyFrom}% → ±${calculatedResults.accuracyTo}%`;
+  accuracyEl.textContent = `±${calculatedResults.accuracyFrom}%`;
   
   animateValue(roiEl, 0, calculatedResults.roi, 1500, (val) => {
     return Math.round(val) + '%';
@@ -559,8 +585,12 @@ function handleLeadSubmission(e) {
       'lead_source': 'roi_calculator',
       'project_value': calculatedResults.inputs.projectValue,
       'estimated_savings': Math.round(calculatedResults.totalSavings),
-      'currency': currentCurrency
+      'currency': currentCurrency,
+      'page_language': document.documentElement.lang
     });
+  }
+  if (window.lintrk && LINKEDIN_LEAD_CONVERSION_ID) {
+    window.lintrk('track', { conversion_id: LINKEDIN_LEAD_CONVERSION_ID });
   }
 
   // FIRST: Clear any old data to ensure clean slate
@@ -680,8 +710,8 @@ DETAILED BREAKDOWN
 ✓ Time Savings:           ${formatCurrency(results.breakdown.timeSavings, true)}
   (Reduced from ${results.inputs.timeline} to 7-day BIM delivery)
 
-✓ Accuracy Improvement:   ${formatCurrency(results.breakdown.accuracySavings, true)}
-  (Improved from ±${results.accuracyFrom}% to ±${results.accuracyTo}% variance)
+✓ Variance Assumption:    ${formatCurrency(results.breakdown.accuracySavings, true)}
+  (Based on your stated ±${results.accuracyFrom}% variance today)
 
 ✓ Rework Avoidance:       ${formatCurrency(results.breakdown.reworkSavings, true)}
   (Better estimates = less costly rework during construction)
@@ -1076,8 +1106,12 @@ document.addEventListener('DOMContentLoaded', function() {
             'project_value': calculatedResults.inputs.projectValue,
             'estimated_savings': Math.round(calculatedResults.totalSavings),
             'currency': currentCurrency,
-            'project_type': calculatedResults.inputs.projectType
+            'project_type': calculatedResults.inputs.projectType,
+            'page_language': document.documentElement.lang
           });
+        }
+        if (window.lintrk && LINKEDIN_LEAD_CONVERSION_ID) {
+          window.lintrk('track', { conversion_id: LINKEDIN_LEAD_CONVERSION_ID });
         }
 
         // REDIRECT to thank you page instead of showing modal
@@ -1406,9 +1440,9 @@ function generatePDFReport(leadData) {
   doc.setFont(undefined, 'normal');
   
   const benefits = [
-    ['Accuracy & Speed', [
-      '±5% accuracy (vs. ±15-20% traditional)',
-      '3-day turnaround (vs. 6-8 weeks)',
+    ['Measured Quantities', [
+      'Variance shown against the assumptions you enter',
+      '3-10 day turnaround (vs. 6-8 weeks)',
       'Automated clash detection',
       'Real-time cost updates'
     ]],
@@ -1418,8 +1452,8 @@ function generatePDFReport(leadData) {
       'Prevent material over-ordering',
       'Avoid costly variations'
     ]],
-    ['Competitive Advantage', [
-      'Win more tenders with accurate pricing',
+    ['Tender Support', [
+      'Documented assumptions where information is incomplete',
       'Faster response to tender invitations',
       'Professional documentation',
       'Value engineering opportunities'
@@ -1441,12 +1475,12 @@ function generatePDFReport(leadData) {
     yPos += 3;
   });
   
-  // Industry Benchmarks
+  // Your Assumptions
   yPos += 5;
   doc.setTextColor(...darkGray);
   doc.setFontSize(14);
   doc.setFont(undefined, 'bold');
-  doc.text('Industry Benchmarks', 20, yPos);
+  doc.text('Your Assumptions', 20, yPos);
   
   yPos += 10;
   doc.setFontSize(10);
@@ -1455,11 +1489,9 @@ function generatePDFReport(leadData) {
   
   doc.text(`Your Project Type: ${capitalizeProjectType(projectType)}`, 20, yPos);
   yPos += 7;
-  doc.text(`Industry Average Cost Overrun: 27%`, 20, yPos);
+  doc.text(`Your Stated Variance Today: ±${calculatedResults.accuracyFrom}%`, 20, yPos);
   yPos += 7;
-  doc.text(`With BIM Takeoff: <5%`, 20, yPos);
-  yPos += 7;
-  doc.text(`Typical ROI for Your Sector: 600-900%`, 20, yPos);
+  doc.text(`Figures below are illustrative, built from your inputs`, 20, yPos);
   yPos += 7;
   doc.setTextColor(...green);
   doc.setFont(undefined, 'bold');
@@ -1663,21 +1695,32 @@ document.getElementById('thankyou-modal').style.display = 'flex';
  * Manual PDF generation function - can be called from browser console
  * Usage: window.manuallyGeneratePDF()
  */
-window.manuallyGeneratePDF = function() {
+window.manuallyGeneratePDF = async function() {
   console.log('🚀 Manual PDF generation triggered');
-  
+
   if (!calculatedResults) {
     console.error('❌ No calculation results available. Please calculate ROI first.');
     alert('Please calculate your ROI first before downloading the report.');
     return;
   }
-  
+
+  // The calculator pages no longer ship jsPDF up front - it is ~360KB and is
+  // only needed if someone actually asks for the PDF. They expose
+  // window.loadJsPDF() to fetch it on demand; await it before going on.
+  if (typeof window.jspdf === 'undefined' && typeof window.loadJsPDF === 'function') {
+    try {
+      await window.loadJsPDF();
+    } catch (error) {
+      console.error('❌ jsPDF failed to load', error);
+    }
+  }
+
   if (typeof window.jspdf === 'undefined') {
     console.error('❌ jsPDF library not loaded');
     alert('PDF library not loaded. Please refresh the page and try again.');
     return;
   }
-  
+
   try {
     const leadData = {
       name: 'Manual Download',

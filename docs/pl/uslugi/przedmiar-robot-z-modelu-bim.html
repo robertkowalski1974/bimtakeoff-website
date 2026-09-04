@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL" xml:lang="pl-PL" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/uslugi/przedmiar-robot-z-modelu-bim.html" rel="canonical"/>
+<meta content="quarto-1.4.549" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<meta content="Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi." name="description"/>
+<title>BIM Takeoff - Przedmiar robót z modelu BIM i rysunków 2D</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta content="../" name="quarto:offset"/>
+<link href="../../images/favicon.ico" rel="icon"/>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet"/>
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" id="quarto-text-highlighting-styles" rel="stylesheet"/>
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/>
+<link data-mode="light" href="../site_libs/bootstrap/bootstrap.min.css" id="quarto-bootstrap" rel="stylesheet"/>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<!-- Atom Feed Autodiscovery (Polish) -->
+<link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
+<!-- Resource Hints for Performance -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
+<link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
+<!-- Preload Critical Assets -->
+<link as="image" href="https://www.bimtakeoff.com/images/header-background.jpg" media="(max-width: 480px)" rel="preload"/>
+<link as="style" href="https://www.bimtakeoff.com/css/styles.css" rel="preload"/>
+<link href="https://www.bimtakeoff.com/css/styles.css" rel="stylesheet"/>
+<!-- Bootstrap Icons (deferred for non-critical icons) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLB9BH8W');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) - GA4 -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1KYLVZ91F7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
+</script>
+<!-- End Google tag (gtag.js) -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
+<!-- Twitter Card metadata (Polish) -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@bimtakeoff" name="twitter:site"/>
+<meta content="@bimtakeoff" name="twitter:creator"/>
+<meta content="BIM Takeoff - Przedmiar robót z modelu BIM i rysunków 2D" name="twitter:title"/>
+<meta content="Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi." name="twitter:description"/>
+<!-- Organization Structured Data (Polish version) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BIM Takeoff",
+  "alternateName": "BIM Takeoff Polska",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
+  "url": "https://www.bimtakeoff.com/pl",
+  "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
+  "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
+  "telephone": "+48-508-209-313",
+  "email": "info@bimtakeoff.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "PL"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Robert Kowalski",
+    "jobTitle": "Kosztorysant i Specjalista BIM 5D",
+    "knowsAbout": ["Kosztorysowanie BIM 5D", "Przedmiary budowlane", "Zarządzanie kosztami budowy", "Automatyczne przedmiarowanie"]
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "Polska"
+    },
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "Australia"
+    }
+  ],
+  "knowsAbout": [
+    "Kosztorysowanie BIM 5D",
+    "Przedmiary budowlane",
+    "Automatyczne przedmiarowanie",
+    "Doradztwo kosztowe w budownictwie",
+    "Kosztorysowanie robót suchej zabudowy",
+    "Kosztorysowanie robót konstrukcyjnych",
+    "Kosztorysowanie elewacji i remediacji",
+    "Zgodność z przepisami BIM 2030"
+  ],
+  "serviceType": [
+    "Kosztorysowanie BIM 5D",
+    "Przedmiar budowlany",
+    "Obmiar budowlany",
+    "Automatyczne przedmiarowanie",
+    "Usługi kosztorysowe",
+    "Przygotowanie ofert przetargowych"
+  ],
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.linkedin.com/company/bimtakeoff"
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "Polski",
+      "alternateName": "pl"
+    },
+    {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    }
+  ]
+}
+</script>
+<meta content="BIM Takeoff - Przedmiar robót z modelu BIM i rysunków 2D" property="og:title"/>
+<meta content="Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi." property="og:description"/>
+<meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
+<meta content="BIM Takeoff" property="og:site_name"/>
+<meta content="pl_PL" property="og:locale"/>
+<link href="https://www.bimtakeoff.com/pl/uslugi/przedmiar-robot-z-modelu-bim.html" hreflang="pl" rel="alternate"/><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "P: Czy model jest potrzebny?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O: Nie. Większość dokumentacji, którą mierzymy, to rysunki 2D. Model przyspiesza pomiar elementów konstrukcyjnych i ułatwia powtórzenie przedmiaru po zmianie projektu, ale nie jest warunkiem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "P: Jakie formaty modelu odczytujecie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O: IFC wyeksportowany z Revita, ArchiCAD-a i Tekli. Napisz, z jakiego programu i w jakiej wersji IFC pochodzi plik — od tego zależy, ile danych da się z niego wyciągnąć."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "P: Czy ilości z modelu sprawdzacie ręcznie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O: Tak, z rysunkami. Zestawienie z modelu jest punktem wyjścia, nie wynikiem. Elementy, których w modelu nie ma — wykończenia, roboty tymczasowe, roboty z pogranicza branż — mierzymy osobno."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "P: Czy przedmiar da się wczytać do programu kosztorysowego?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O: Tak. Wydajemy plik do Normy PRO i Zuzi oraz plik wymiany ATH, a obok Excel i PDF. Pozycje mają podstawę nakładów KNR lub KNNR, więc wchodzą do kosztorysu bez przepisywania."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "P: Co, jeśli projekt zmieni się w trakcie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O: Przeliczamy zmienione elementy i wydajemy zestawienie różnic wobec poprzedniej wersji, żeby było widać, co się zmieniło i o ile. Zakres i cenę takiej aktualizacji uzgadniamy przed rozpoczęciem pracy."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Przedmiar robót z modelu BIM i rysunków 2D",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "BIM Takeoff",
+    "url": "https://www.bimtakeoff.com"
+  },
+  "areaServed": [
+    "United Kingdom",
+    "Australia",
+    "Poland"
+  ],
+  "serviceType": "Construction Cost Estimation",
+  "description": "Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Strona Glowna",
+      "item": "https://www.bimtakeoff.com/pl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Uslugi",
+      "item": "https://www.bimtakeoff.com/pl/uslugi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Przedmiar robót z modelu BIM i rysunków 2D"
+    }
+  ]
+}
+</script>
+</head>
+<body class="nav-fixed">
+<div id="quarto-search-results"></div>
+<header class="headroom fixed-top" id="quarto-header">
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+<div class="navbar-container container-fluid">
+<div class="navbar-brand-container mx-auto">
+<a class="navbar-brand navbar-brand-logo" href="../index.html">
+<img alt="Logo BIM Takeoff" class="navbar-logo" src="../../images/BIM TAKEOFF V2-2.jpg"/>
+</a>
+<a class="navbar-brand" href="../index.html">
+<span class="navbar-title">BIM Takeoff</span>
+</a>
+</div>
+<div class="" id="quarto-search" title="Szukaj"></div>
+<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Przełącz nawigację" class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+<a class="nav-link" href="../index.html">
+<span class="menu-text">Strona główna</span></a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
+<span class="menu-text">Usługi</span>
+</a>
+<ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
+<span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../wygrywanie-przetargow.html">
+<span class="menu-text">Przetargi</span></a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
+<span class="menu-text">Zasoby</span>
+</a>
+<ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
+<span class="dropdown-text">Przewodnik BIM 2030</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../kontakt.html">
+<span class="menu-text">Kontakt</span></a>
+</li>
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="https://client-portal.bimtakeoff.com"> <i class="bi bi-box-arrow-in-right" role="img">
+</i>
+<span class="menu-text">Strefa Klienta</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.bimtakeoff.com/pl/">
+<span class="menu-text">PL</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.bimtakeoff.com/">
+<span class="menu-text">EN</span></a>
+</li>
+</ul>
+</div> <!-- /navcollapse -->
+<div class="quarto-navbar-tools">
+</div>
+</div> <!-- /container-fluid -->
+</nav>
+</header>
+<!-- content -->
+<div class="quarto-container page-columns page-rows-contents page-layout-full page-navbar" id="quarto-content">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+<header class="quarto-title-block default" id="title-block-header">
+<div class="quarto-title">
+<h1 class="title">Przedmiar robót z modelu BIM i rysunków 2D</h1>
+</div>
+<div>
+<div class="description">
+    Przedmiar robót z modelu BIM (IFC), plików DWG i rysunków PDF: ilości według elementu i kondygnacji, pozycje KNR/KNNR, eksport do Normy PRO i Zuzi.
+  </div>
+</div>
+<div class="quarto-title-meta column-page">
+</div>
+</header>
+<div class="page-banner">
+<section class="level1 container" id="przedmiar-robót-z-modelu-bim-i-rysunków-2d">
+<h1>Przedmiar robót z modelu BIM i rysunków 2D</h1>
+<div class="page-banner-lead">
+<p>Ilości z modelu IFC, plików DWG albo rysunków PDF, sprawdzone ręcznie z dokumentacją i ułożone w pozycje, na których da się kosztorysować.</p>
+</div>
+</section>
+</div>
+<div class="container">
+<section class="level2" id="przedmiar-czy-obmiar">
+<h2 class="anchored" data-anchor-id="przedmiar-czy-obmiar">Przedmiar czy obmiar</h2>
+<p>Przedmiar robót to ilości wyliczone z dokumentacji projektowej przed rozpoczęciem robót; obmiar to ilości robót już wykonanych, mierzone na budowie. Ta strona dotyczy przedmiaru.</p>
+</section>
+<section class="level2" id="dla-kogo">
+<h2 class="anchored" data-anchor-id="dla-kogo">Dla kogo</h2>
+<p>Wykonawcy i podwykonawcy przygotowujący ofertę, generalni wykonawcy sprawdzający przedmiar zamawiającego, zamawiający i inwestorzy, którzy mają projekt, a nie mają jeszcze ilości. Pracujemy zarówno na pełnym modelu BIM, jak i na komplecie rysunków w PDF — jedno i drugie da się zmierzyć rzetelnie, tylko innym nakładem pracy.</p>
+</section>
+<section class="level2" id="z-czego-mierzymy">
+<h2 class="anchored" data-anchor-id="z-czego-mierzymy">Z czego mierzymy</h2>
+<div class="feature-grid">
+<section class="level3 card-base" id="model-ifc">
+<h3 class="anchored" data-anchor-id="model-ifc">Model IFC</h3>
+<p>Pliki IFC wyeksportowane z Revita, ArchiCAD-a i Tekli. Z modelu pobieramy ilości elementów: powierzchnie ścian i stropów, kubatury, długości, liczby sztuk, wraz z przypisaniem do kondygnacji i typu.</p>
+</section>
+<section class="level3 card-base" id="pliki-dwg">
+<h3 class="anchored" data-anchor-id="pliki-dwg">Pliki DWG</h3>
+<p>Rzuty, przekroje i elewacje w DWG. Mierzymy z geometrii rysunku, a nie z podglądu, więc długości i powierzchnie wynikają z tego, co narysował projektant.</p>
+</section>
+<section class="level3 card-base" id="rysunki-pdf">
+<h3 class="anchored" data-anchor-id="rysunki-pdf">Rysunki PDF</h3>
+<p>Skalowana dokumentacja w PDF. Wolniej niż z modelu, ale w polskich postępowaniach najczęściej to właśnie jest cała dostępna dokumentacja.</p>
+</section>
+</div>
+</section>
+<section class="level2" id="co-model-daje-a-czego-nie-da">
+<h2 class="anchored" data-anchor-id="co-model-daje-a-czego-nie-da">Co model daje, a czego nie da</h2>
+<p>Model daje szybko i powtarzalnie to, co ktoś w nim wymodelował: powierzchnie i kubatury elementów konstrukcyjnych, ściany według typu, stropy, słupy, belki, liczby stolarki. Zestawienie z modelu można wygenerować w kilka godzin zamiast w kilka dni i przy zmianie projektu powtórzyć.</p>
+<p>Model nie daje wszystkiego, czego wymaga przedmiar do kosztorysu:</p>
+<ul>
+<li><strong>Otwory i ich krawędzie</strong> bywają odejmowane niekonsekwentnie albo wcale, zależnie od tego, jak ustawiono eksport</li>
+<li><strong>Wykończenia</strong> — posadzki, okładziny, malowanie, sufity podwieszane — często nie są osobnymi bryłami, tylko parametrem opisowym</li>
+<li><strong>Roboty tymczasowe</strong> — rusztowania, deskowania, zabezpieczenia, drogi technologiczne — z zasady nie istnieją w modelu i mierzy się je ręcznie</li>
+<li><strong>Roboty ziemne i zagospodarowanie terenu</strong> modelowane są rzadko i zwykle niekompletnie</li>
+<li><strong>Roboty z pogranicza branż</strong> nie należą w modelu do nikogo</li>
+</ul>
+<p>Dlatego ilości z modelu sprawdzamy ręcznie z rysunkami, a to, czego w modelu nie ma, mierzymy tak samo jak zawsze. Kosztorysowanie BIM 5D oznacza tylko tyle, że część ilości pobieramy z modelu — pozycje, podstawy nakładów i ceny powstają tak samo.</p>
+</section>
+<section class="level2" id="co-dostajesz">
+<h2 class="anchored" data-anchor-id="co-dostajesz">Co dostajesz</h2>
+<ul>
+<li><strong>Ilości według elementu, kondygnacji i budynku</strong>, w układzie, w którym da się je porównać z projektem</li>
+<li><strong>Pozycje z podstawą nakładów</strong> — KNR lub KNNR, z kalkulacją własną tam, gdzie katalog nie ma pozycji, opisaną osobno</li>
+<li><strong>Plik do programu kosztorysowego</strong> — Norma PRO, Zuzia, plik wymiany ATH — albo formularz w Excelu i wersja PDF</li>
+<li><strong>Wykaz założeń</strong> przy każdej pozycji, której dokumentacja nie rozstrzyga</li>
+<li><strong>Rejestr pytań do zamawiającego lub projektanta</strong>, zebrany w jedno pismo</li>
+</ul>
+<p>Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
+</section>
+<section class="level2" id="wymóg-bim-w-zamówieniach-publicznych">
+<h2 class="anchored" data-anchor-id="wymóg-bim-w-zamówieniach-publicznych">Wymóg BIM w zamówieniach publicznych</h2>
+<p>Wymagania dotyczące stosowania metodyki BIM pojawiają się w polskich postępowaniach publicznych coraz częściej, na razie głównie przy większych inwestycjach kubaturowych i infrastrukturalnych, i zwykle jako element opisu przedmiotu zamówienia, a nie jako warunek udziału. Dla wykonawcy oznacza to w praktyce dwie rzeczy: model trzeba umieć odczytać, a wydany przedmiar musi dać się powiązać z elementami modelu. Obie robimy standardowo. Jeżeli dokumentacja postępowania stawia wymagania co do formatu wymiany albo poziomu szczegółowości modelu, prześlij ją razem z projektem — sprawdzimy je przed rozpoczęciem pomiaru.</p>
+</section>
+<section class="level2" id="co-nam-przesłać">
+<h2 class="anchored" data-anchor-id="co-nam-przesłać">Co nam przesłać</h2>
+<p>Model IFC, jeśli istnieje, albo rysunki w DWG lub PDF, specyfikację techniczną wykonania i odbioru robót, przedmiar zamawiającego, jeśli został wydany, oraz termin. Przy modelu przydaje się informacja, z jakiego programu i w jakiej wersji IFC został wyeksportowany.</p>
+</section>
+<section class="level2" id="jak-pracujemy">
+<h2 class="anchored" data-anchor-id="jak-pracujemy">Jak pracujemy</h2>
+<div class="process-steps">
+<section class="level4 process-step" id="przesyłasz-dokumentację">
+<h4 class="anchored" data-anchor-id="przesyłasz-dokumentację">Przesyłasz dokumentację</h4>
+<p>Model lub rysunki, specyfikacja, przedmiar zamawiającego, jeśli jest, oraz termin.</p>
+</section>
+<section class="level4 process-step" id="odpowiadamy-w-ciągu-jednego-dnia-roboczego">
+<h4 class="anchored" data-anchor-id="odpowiadamy-w-ciągu-jednego-dnia-roboczego">Odpowiadamy w ciągu jednego dnia roboczego</h4>
+<p>Potwierdzamy zakres, stałą cenę i termin wydania, ustalony pod Twój termin.</p>
+</section>
+<section class="level4 process-step" id="otrzymujesz-przedmiar">
+<h4 class="anchored" data-anchor-id="otrzymujesz-przedmiar">Otrzymujesz przedmiar</h4>
+<p>Ilości według elementu i kondygnacji, pozycje z podstawą nakładów, plik w Twoim formacie i wykaz założeń.</p>
+</section>
+</div>
+</section>
+<section class="level2" id="ile-to-kosztuje">
+<h2 class="anchored" data-anchor-id="ile-to-kosztuje">Ile to kosztuje</h2>
+<p>Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
+</section>
+<section class="level2" id="najczęściej-zadawane-pytania">
+<h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej zadawane pytania</h2>
+<div class="faq-section">
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy model jest potrzebny?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Nie. Większość dokumentacji, którą mierzymy, to rysunki 2D. Model przyspiesza pomiar elementów konstrukcyjnych i ułatwia powtórzenie przedmiaru po zmianie projektu, ale nie jest warunkiem.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Jakie formaty modelu odczytujecie?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: IFC wyeksportowany z Revita, ArchiCAD-a i Tekli. Napisz, z jakiego programu i w jakiej wersji IFC pochodzi plik — od tego zależy, ile danych da się z niego wyciągnąć.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy ilości z modelu sprawdzacie ręcznie?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak, z rysunkami. Zestawienie z modelu jest punktem wyjścia, nie wynikiem. Elementy, których w modelu nie ma — wykończenia, roboty tymczasowe, roboty z pogranicza branż — mierzymy osobno.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Czy przedmiar da się wczytać do programu kosztorysowego?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Tak. Wydajemy plik do Normy PRO i Zuzi oraz plik wymiany ATH, a obok Excel i PDF. Pozycje mają podstawę nakładów KNR lub KNNR, więc wchodzą do kosztorysu bez przepisywania.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+<p><strong>P: Co, jeśli projekt zmieni się w trakcie?</strong></p>
+</div>
+<div class="faq-answer">
+<p>O: Przeliczamy zmienione elementy i wydajemy zestawienie różnic wobec poprzedniej wersji, żeby było widać, co się zmieniło i o ile. Zakres i cenę takiej aktualizacji uzgadniamy przed rozpoczęciem pracy.</p>
+</div>
+</div>
+</div>
+<p>Zobacz też: <a href="../uslugi/automatyczny-przedmiar-obmiar.html">przedmiar i obmiar robót</a> oraz <a href="../index.html">przedmiary robót i kosztorysy dla wykonawców</a>.</p>
+</section>
+<section class="level2" id="prześlij-dokumentację-lub-model">
+<h2 class="anchored" data-anchor-id="prześlij-dokumentację-lub-model">Prześlij dokumentację lub model</h2>
+<div class="callout-box text-center">
+<p>Prześlij jedną kondygnację albo jeden typ lokalu i zobacz, co wraca. Jeśli termin wypada w ciągu 72 godzin, zadzwoń.</p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
+<p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+48508209313">+48 508 209 313</a></p>
+</div>
+</section>
+</div>
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Skopiowano!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Skopiowano!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.bimtakeoff\.com\/pl");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+<div class="nav-footer">
+<div class="nav-footer-left">
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
+</div>
+<div class="nav-footer-center">
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
+</div>
+<div class="nav-footer-right">
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
+</div>
+</div>
+</footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Scroll Effects & Animations -->
+<script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
+<script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
+<!-- Praevius Logo in Navbar -->
+<script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

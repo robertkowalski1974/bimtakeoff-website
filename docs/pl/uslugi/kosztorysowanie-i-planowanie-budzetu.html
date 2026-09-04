@@ -4,7 +4,8 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<title>BIM Takeoff - Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM</title>
+<meta content="Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy." name="description"/>
+<title>BIM Takeoff - Kosztorys ofertowy i planowanie budżetu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -78,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -91,32 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
-<meta content="BIM Takeoff - Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM" name="twitter:title"/>
-<meta content="Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030" name="twitter:description"/>
+<meta content="BIM Takeoff - Kosztorys ofertowy i planowanie budżetu" name="twitter:title"/>
+<meta content="Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -124,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -173,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -196,7 +198,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   ]
 }
 </script>
-<meta content="BIM Takeoff - Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM" property="og:title"/>
+<meta content="BIM Takeoff - Kosztorys ofertowy i planowanie budżetu" property="og:title"/>
+<meta content="Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -207,58 +210,42 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "P: Jakie informacje są potrzebne do przygotowania kosztorysu?",
+      "name": "P: Czego potrzebujecie, żeby sporządzić kosztorys?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Idealnie model BIM (plik IFC). Jeśli niedostępny, pracujemy z rysunkami 2D + specyfikacjami (terminy mogą wydłużyć się o 2-3 dni)."
+        "text": "O: Rysunków w PDF lub DWG i specyfikacji technicznej. Jeśli zamawiający wydał przedmiar, prześlij go razem z dokumentacją — sprawdzimy go z rysunkami. Model IFC z Revita, ArchiCAD-a lub Tekli przyspiesza pomiar, ale nie jest potrzebny."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jak dokładne są Wasze kosztorysy?",
+      "name": "P: Jak dokładne są ilości?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Nasze kosztorysy 5D BIM osiągają dokładność ±5% vs ±15-20% tradycyjnych metod. Potwierdzone 20-letnim doświadczeniem i 2000+ projektami."
+        "text": "O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Czy pracujecie z projektami już w budowie?",
+      "name": "P: W jakich programach kosztorysowych pracujecie?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak! Zapewniamy bieżącą kontrolę kosztów obejmującą cotygodniowe raporty, analizę zamówień dodatkowych i śledzenie budżetu."
+        "text": "O: Wydajemy pliki do Normy PRO i Zuzi, plik wymiany ATH, formularz cenowy w Excelu oraz PDF. Powiedz, w czym pracuje Twój kosztorysant, a w tym wydamy."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Czy można zintegrować z naszym istniejącym oprogramowaniem?",
+      "name": "P: Czy wyceniacie roboty już rozpoczęte?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Tak, eksportujemy do Excel, MS Project, Primavera P6 i większości platform zarządzania kosztami."
+        "text": "O: Tak. Do rozliczenia robót wykonanych sporządzamy obmiar, czyli ilości zmierzone na budowie, a nie przedmiar z dokumentacji. Te dwa dokumenty prowadzimy osobno."
       }
     },
     {
       "@type": "Question",
-      "name": "P: Jakie wielkości projektów obsługujecie?",
+      "name": "P: Ile to kosztuje?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Obsługujemy projekty różnej skali - od małych adaptacji po duże centra logistyczne i kompleksy mieszkaniowe. Każdy projekt traktujemy indywidualnie."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "P: Jak wypadają Wasze honoraria w porównaniu z konkurencją?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O: Konkurencyjne z tradycyjnymi firmami, ale znacznie szybsza realizacja (dni vs tygodnie) i lepsza dokładność (±5% vs ±15%)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "P: Czy przygotowujecie kosztorysy do przetargów?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Przedmiar → Kosztorys → Oferta → Negocjacje. Kompleksowe wsparcie na każdym etapie."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy."
       }
     }
   ]
@@ -268,7 +255,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM",
+  "name": "Kosztorys ofertowy i planowanie budżetu",
   "provider": {
     "@type": "ProfessionalService",
     "name": "BIM Takeoff",
@@ -280,7 +267,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Kosztorysowanie BIM 5D | Przedmiary i Obmiary | 20 Lat Doświadczenia EU/UK/Australia | Zgodność z BIM 2030"
+  "description": "Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy."
 }
 </script>
 <script type="application/ld+json">
@@ -303,7 +290,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM"
+      "name": "Kosztorys ofertowy i planowanie budżetu"
     }
   ]
 }
@@ -330,7 +317,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -338,97 +325,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -436,16 +398,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -483,332 +487,243 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <main class="content column-page" id="quarto-document-content">
 <header class="quarto-title-block default" id="title-block-header">
 <div class="quarto-title">
-<h1 class="title">Kosztorysowanie i Planowanie Budżetu | Usługi 5D BIM</h1>
+<h1 class="title">Kosztorys ofertowy i planowanie budżetu</h1>
+</div>
+<div>
+<div class="description">
+    Kosztorysy ofertowe i inwestorskie z przedmiaru, rysunków lub modelu BIM. KNR/KNNR, Norma PRO, Zuzia. Wycena za pakiet, uzgodniona przed rozpoczęciem pracy.
+  </div>
 </div>
 <div class="quarto-title-meta column-page">
 </div>
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
-<section class="level1 hero-title" id="profesjonalne-kosztorysowanie-i-planowanie-budżetu">
-<h1>Profesjonalne Kosztorysowanie i Planowanie Budżetu</h1>
-<section class="level3" id="lat-doświadczenia-z-uk-i-australii---teraz-w-polsce">
-<h3 class="anchored" data-anchor-id="lat-doświadczenia-z-uk-i-australii---teraz-w-polsce">20 lat doświadczenia z UK i Australii - teraz w Polsce</h3>
+<section class="level1 hero-title" id="kosztorys-ofertowy-i-planowanie-budżetu">
+<h1>Kosztorys ofertowy i planowanie budżetu</h1>
+<section class="level3" id="dwadzieścia-lat-kosztorysów-w-polsce-wielkiej-brytanii-i-australii">
+<h3 class="anchored" data-anchor-id="dwadzieścia-lat-kosztorysów-w-polsce-wielkiej-brytanii-i-australii">Dwadzieścia lat kosztorysów w Polsce, Wielkiej Brytanii i Australii</h3>
 </section>
 </section>
 <div class="hero-subtitle">
-<p>Zmień proces kosztorysowania z 6 tygodni na 3 dni.<br/>
-Dokładność ±5%.</p>
+<p>Kosztorys ofertowy z Twojego przedmiaru, rysunków lub modelu BIM, sprawdzony ręcznie ze specyfikacją przed złożeniem oferty.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kosztorys ofertowy</strong> z narzutami, zestawieniem RMS i tabelą elementów scalonych
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kosztorys inwestorski</strong> dla zamawiającego publicznego, zgodnie z rozporządzeniem
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Format, którego wymaga zamawiający</strong> — Norma PRO, Zuzia, ATH lub Excel
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Umów Darmową Konsultację</a> <a class="cta-secondary" href="../coming-soon.html">Sprawdź Ofertę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
 <div class="container">
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Kosztorysowanie BIM 5D</strong> to proces pozyskiwania precyzyjnych danych ilościowych z modeli BIM i łączenia ich z bazami kosztowymi oraz harmonogramami w celu opracowania kompleksowych budżetów budowlanych. W przeciwieństwie do tradycyjnych metod 2D, które zazwyczaj osiągają dokładność +/-15-20% w ciągu 6-8 tygodni, kosztorysowanie BIM 5D zapewnia dokładność +/-5% w 3-5 dni dzięki automatycznemu pomiarowi ilości z modelu 3D i połączeniu ich z 4. wymiarem (czas) i 5. wymiarem (koszt). BIM Takeoff zrealizował ponad 2000 kosztorysów BIM 5D w UK, Australii i Polsce.</p>
+<p><strong>Kosztorys</strong> to przedmiar robót pomnożony przez ceny: pozycje z podstawą nakładów (najczęściej KNR lub KNNR), ilości, ceny jednostkowe, narzuty i zestawienie robocizny, materiałów i sprzętu. <strong>Przedmiar</strong> to same ilości, wyliczone z dokumentacji projektowej przed rozpoczęciem robót; <strong>obmiar</strong> to ilości robót już wykonanych, mierzone na budowie. Kosztorysowanie BIM 5D oznacza tylko tyle, że ilości do przedmiaru pobieramy z modelu, zamiast mierzyć je wyłącznie z rysunków — pozycje, ceny i narzuty powstają tak samo.</p>
 </div>
-<section class="level2" id="koszt-przestarzałych-metod-kosztorysowania">
-<h2 class="anchored" data-anchor-id="koszt-przestarzałych-metod-kosztorysowania">Koszt Przestarzałych Metod Kosztorysowania</h2>
+<section class="level2" id="gdzie-kosztorysy-przestają-się-zgadzać">
+<h2 class="anchored" data-anchor-id="gdzie-kosztorysy-przestają-się-zgadzać">Gdzie kosztorysy przestają się zgadzać</h2>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
 <section class="level3" id="problem" style="">
 <h3 class="anchored" data-anchor-id="problem">Problem</h3>
-<p>Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 tygodni na szczegółowy kosztorys
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Przedmiar zamawiającego nie zgadza się z rysunkami, a pytania trzeba złożyć w terminie
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Margines błędu ±15-20%
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pozycje bez podstawy nakładów, których nie da się porównać z ofertą konkurencji
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy manualne i pominięte pozycje
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Roboty z pogranicza dwóch branż, których nie policzył nikt
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zmiana projektu na dwa dni przed terminem składania ofert
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rozproszone dane w wielu arkuszach
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Założenia przyjęte w cenach, których nikt nie zapisał
 </p>
 </div>
-<section class="level4 callout-box" id="rzeczywisty-wpływ" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="rzeczywisty-wpływ">Rzeczywisty Wpływ</h4>
+<section class="level4 callout-box" id="co-to-kosztuje" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
+<h4 class="anchored" data-anchor-id="co-to-kosztuje">Co to kosztuje</h4>
 <blockquote class="blockquote">
-<p>“Dla magazynu 50,000 mkw, przekroczenie kosztów o 15% oznacza <strong>różnicę między projektem zyskownym a przynoszącym straty</strong>.<br/>
-To może całkowicie zmienić opłacalność Twojego projektu.”</p>
+<p>Pozycja pominięta w kosztorysie ofertowym nie znika. Wraca jako robota do wykonania za cenę, której nikt nie przewidział w ofercie.</p>
 </blockquote>
 </section>
 </section>
-<section class="level3" id="nasze-rozwiązanie" style="">
-<h3 class="anchored" data-anchor-id="nasze-rozwiązanie">Nasze Rozwiązanie</h3>
-<p>Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i czasu:</p>
+<section class="level3" id="co-robimy" style="">
+<h3 class="anchored" data-anchor-id="co-robimy">Co robimy</h3>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3 dni</strong> na kompletny kosztorys
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Przedmiar sprawdzony z rysunkami i specyfikacją, z wykazem założeń
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Dokładność <strong>±5%</strong>
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Kosztorys z podstawą nakładów, narzutami i zestawieniem RMS
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automatyczne przedmiary z modelu BIM
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rejestr pytań do zamawiającego, złożony przed upływem terminu
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa wycena wpływu zmian projektowych
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Wycena wpływu zmiany projektowej na ofertę
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zintegrowane dane w jednym inteligentnym systemie
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Plik w formacie, w którym pracuje Twój dział ofertowy
 </p>
 </div>
 </section>
 </div>
 </section>
-<section class="level2" id="nasz-sprawdzony-5-etapowy-proces">
-<h2 class="anchored" data-anchor-id="nasz-sprawdzony-5-etapowy-proces">Nasz Sprawdzony 5-Etapowy Proces</h2>
+<section class="level2" id="jak-pracujemy">
+<h2 class="anchored" data-anchor-id="jak-pracujemy">Jak pracujemy</h2>
 <div class="process-steps">
-<section class="level4 process-step" id="wstępna-konsultacja-i-analiza-projektu">
-<h4 class="anchored" data-anchor-id="wstępna-konsultacja-i-analiza-projektu">Wstępna Konsultacja i Analiza Projektu</h4>
-<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<section class="level4 process-step" id="dokumentacja-i-zakres">
+<h4 class="anchored" data-anchor-id="dokumentacja-i-zakres">Dokumentacja i zakres</h4>
+<p><strong>Czas trwania:</strong> 1 dzień roboczy</p>
 <p><strong>Co robimy:</strong></p>
 <ul>
-<li>Przegląd dokumentacji projektowej</li>
-<li>Zrozumienie wymagań i ograniczeń</li>
-<li>Ocena złożoności projektu i ryzyk</li>
-<li>Określenie zakresu i rezultatów</li>
+<li>Czytamy projekt, specyfikację i przedmiar zamawiającego</li>
+<li>Ustalamy, co wchodzi w zakres, a co zostaje po stronie innych branż</li>
+<li>Wskazujemy braki w dokumentacji, które wpłyną na cenę</li>
 </ul>
-<p><strong>Twoja Inwestycja:</strong> Darmowa konsultacja (30-60 min)</p>
+<p><strong>Cena:</strong> Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 </section>
-<section class="level4 process-step" id="integracja-modelu-bim">
-<h4 class="anchored" data-anchor-id="integracja-modelu-bim">Integracja Modelu BIM</h4>
-<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<section class="level4 process-step" id="przedmiar">
+<h4 class="anchored" data-anchor-id="przedmiar">Przedmiar</h4>
+<p><strong>Czas trwania:</strong> zależnie od wielkości pakietu</p>
 <p><strong>Co robimy:</strong></p>
 <ul>
-<li>Wczytanie plików IFC z Revit, ArchiCAD lub Tekla</li>
-<li>Walidacja dokładności i kompletności modelu</li>
-<li>Konfiguracja środowiska 5D BIM</li>
-<li>Połączenie baz danych kosztowych</li>
+<li>Mierzymy ilości z rysunków 2D, plików DWG lub modelu IFC</li>
+<li>Sprawdzamy ilości z modelu ręcznie z rysunkami</li>
+<li>Zapisujemy założenia tam, gdzie dokumentacja jest niekompletna</li>
 </ul>
-<p><strong>Rezultat:</strong> Zwalidowany model 5D BIM</p>
+<p><strong>Rezultat:</strong> Przedmiar robót z wykazem założeń</p>
 </section>
-<section class="level4 process-step" id="automatyczny-przedmiar">
-<h4 class="anchored" data-anchor-id="automatyczny-przedmiar">Automatyczny Przedmiar</h4>
-<p><strong>Czas trwania:</strong> 1-2 dni</p>
+<section class="level4 process-step" id="wycena">
+<h4 class="anchored" data-anchor-id="wycena">Wycena</h4>
+<p><strong>Czas trwania:</strong> zależnie od wielkości pakietu</p>
 <p><strong>Co robimy:</strong></p>
 <ul>
-<li>Automatyczna ekstrakcja ilości z modelu BIM</li>
-<li>Weryfikacja krzyżowa z rysunkami 2D</li>
-<li>Identyfikacja rozbieżności lub brakujących elementów</li>
-<li>Generowanie szczegółowego przedmiaru robót</li>
+<li>Dobieramy podstawy nakładów (KNR, KNNR lub kalkulacja własna)</li>
+<li>Wprowadzamy ceny — Twoje lub z bazy Sekocenbud</li>
+<li>Uzgadniamy narzuty: koszty pośrednie, zysk, koszty zakupu</li>
 </ul>
-<p><strong>Rezultat:</strong> Kompleksowy przedmiar z obmiarami</p>
+<p><strong>Rezultat:</strong> Kosztorys ofertowy z zestawieniem RMS</p>
 </section>
-<section class="level4 process-step" id="kosztorysowanie-i-analiza">
-<h4 class="anchored" data-anchor-id="kosztorysowanie-i-analiza">Kosztorysowanie i Analiza</h4>
-<p><strong>Czas trwania:</strong> 2-3 dni</p>
+<section class="level4 process-step" id="sprawdzenie-i-wydanie">
+<h4 class="anchored" data-anchor-id="sprawdzenie-i-wydanie">Sprawdzenie i wydanie</h4>
+<p><strong>Czas trwania:</strong> 1 dzień roboczy</p>
 <p><strong>Co robimy:</strong></p>
 <ul>
-<li>Zastosowanie aktualnych stawek rynkowych</li>
-<li>Uwzględnienie ryzyk specyficznych dla projektu</li>
-<li>Analiza wielowariantowa kosztów</li>
-<li>Rekomendacje optymalizacji wartości</li>
+<li>Porównujemy kosztorys ze specyfikacją pozycja po pozycji</li>
+<li>Zestawiamy tabelę elementów scalonych</li>
+<li>Wydajemy plik w formacie, którego wymaga zamawiający, oraz w PDF</li>
 </ul>
-<p><strong>Rezultat:</strong> Szczegółowy kosztorys z rozbiciem</p>
-</section>
-<section class="level4 process-step" id="planowanie-budżetu-i-raportowanie">
-<h4 class="anchored" data-anchor-id="planowanie-budżetu-i-raportowanie">Planowanie Budżetu i Raportowanie</h4>
-<p><strong>Czas trwania:</strong> 1 dzień</p>
-<p><strong>Co robimy:</strong></p>
-<ul>
-<li>Opracowanie projekcji przepływów pieniężnych</li>
-<li>Utworzenie alokacji budżetu wg faz</li>
-<li>Przygotowanie kompleksowego raportu kosztowego</li>
-<li>Prezentacja wyników i rekomendacji</li>
-</ul>
-<p><strong>Rezultat:</strong> Streszczenie wykonawcze + szczegółowy raport</p>
+<p><strong>Rezultat:</strong> Kosztorys gotowy do złożenia wraz z wykazem założeń</p>
 </section>
 </div>
-<div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
-<p><strong>Całkowity Czas:</strong> 6-10 dni roboczych<br/>
-<strong>Całkowity Czas Projektu:</strong> Zazwyczaj 2-3 tygodnie od początku do końca</p>
-</div>
 </section>
-<section class="level2" id="kluczowych-korzyści-transformujących-twoje-projekty">
-<h2 class="anchored" data-anchor-id="kluczowych-korzyści-transformujących-twoje-projekty">6 Kluczowych Korzyści Transformujących Twoje Projekty</h2>
+<section class="level2" id="co-dostajesz">
+<h2 class="anchored" data-anchor-id="co-dostajesz">Co dostajesz</h2>
 <div class="feature-grid">
-<section class="level3 feature-card" id="szybkość-90-95-szybciej">
-<h3 class="anchored" data-anchor-id="szybkość-90-95-szybciej"><i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkość: 90-95% Szybciej</h3>
-<p><strong>Tradycyjna metoda:</strong> 6-8 tygodni<br/>
-<strong>Nasza metoda 5D BIM:</strong> 3-10 dni<br/>
-<strong>Aktualizacje w czasie rzeczywistym</strong> w ciągu godzin</p>
+<section class="level3 feature-card" id="kosztorys-z-podstawą-nakładów">
+<h3 class="anchored" data-anchor-id="kosztorys-z-podstawą-nakładów"><i aria-hidden="true" class="bi bi-list-ol" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorys z podstawą nakładów</h3>
+<p>Pozycje z KNR lub KNNR, kalkulacje własne tam, gdzie katalog nie ma pozycji. Każda kalkulacja własna opisana.</p>
 </section>
-<section class="level3 feature-card" id="dokładność-5">
-<h3 class="anchored" data-anchor-id="dokładność-5"><i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokładność: ±5%</h3>
-<p><strong>Tradycyjne marginesy:</strong> ±15-20%<br/>
-<strong>Nasza dokładność:</strong> ±5% lub lepsza<br/>
-<strong>Potwierdzone</strong> 20-letnim doświadczeniem</p>
+<section class="level3 feature-card" id="format-którego-wymaga-zamawiający">
+<h3 class="anchored" data-anchor-id="format-którego-wymaga-zamawiający"><i aria-hidden="true" class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange); margin-right: 12px;"></i>Format, którego wymaga zamawiający</h3>
+<p>Norma PRO, Zuzia, plik ATH, formularz cenowy w Excelu albo układ Twojego działu ofertowego.</p>
 </section>
-<section class="level3 feature-card" id="kompleksowość-nic-nie-pominięte">
-<h3 class="anchored" data-anchor-id="kompleksowość-nic-nie-pominięte"><i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowość: Nic Nie Pominięte</h3>
-<p>Automatyczna ekstrakcja z BIM<br/>
-Weryfikacja z rysunkami<br/>
-Wszystkie branże uwzględnione</p>
+<section class="level3 feature-card" id="wykaz-założeń">
+<h3 class="anchored" data-anchor-id="wykaz-założeń"><i aria-hidden="true" class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Wykaz założeń</h3>
+<p>Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </section>
-<section class="level3 feature-card" id="przejrzystość-pełna-alokacja-kosztów">
-<h3 class="anchored" data-anchor-id="przejrzystość-pełna-alokacja-kosztów"><i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Przejrzystość: Pełna Alokacja Kosztów</h3>
-<p>Interaktywny model kosztowy 3D<br/>
-Szczegóły każdego elementu<br/>
-Zobacz gdzie każda złotówka jest wydawana</p>
-</section>
-<section class="level3 feature-card" id="elastyczność-analiza-wielowariantowa">
-<h3 class="anchored" data-anchor-id="elastyczność-analiza-wielowariantowa"><i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Elastyczność: Analiza Wielowariantowa</h3>
-<p>Porównanie alternatyw projektowych<br/>
-Testowanie różnych materiałów<br/>
-Podejmowanie świadomych decyzji</p>
-</section>
-<section class="level3 feature-card" id="integracja-łączy-wszystko">
-<h3 class="anchored" data-anchor-id="integracja-łączy-wszystko"><i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integracja: Łączy Wszystko</h3>
-<p>Model 3D + koszty + harmonogram<br/>
-Wpływ zmian projektowych w czasie rzeczywistym<br/>
-Bieżące wsparcie</p>
+<section class="level3 feature-card" id="rejestr-pytań">
+<h3 class="anchored" data-anchor-id="rejestr-pytań"><i aria-hidden="true" class="bi bi-question-circle" style="color: var(--bim-orange); margin-right: 12px;"></i>Rejestr pytań</h3>
+<p>Rozbieżności między rysunkami, specyfikacją i przedmiarem zbieramy w jedno pismo do zamawiającego.</p>
 </section>
 </div>
+</section>
+<section class="level2" id="inwestorski">
+<h2 class="anchored" data-anchor-id="inwestorski">Kosztorys inwestorski</h2>
+<p>Kosztorys inwestorski to dokument zamawiającego, nie wykonawcy. Służy do ustalenia szacunkowej wartości zamówienia przed wszczęciem postępowania i sporządza się go zgodnie z rozporządzeniem w sprawie określenia metod i podstaw sporządzania kosztorysu inwestorskiego. Sporządzamy go razem z przedmiarem, założeniami wyjściowymi, tabelą elementów scalonych i zestawieniem RMS.</p>
+<p>Jeśli pracujemy dla zamawiającego przy danym postępowaniu, mówimy o tym wykonawcy, który zgłosi się później, i odwrotnie.</p>
+<p>Pełny opis obu dokumentów, podstaw cenowych i formatów: <a href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">kosztorys inwestorski i kosztorys ofertowy</a>.</p>
 </section>
 <section class="level2" id="najczęściej-zadawane-pytania">
-<h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej Zadawane Pytania</h2>
+<h2 class="anchored" data-anchor-id="najczęściej-zadawane-pytania">Najczęściej zadawane pytania</h2>
 <div class="faq-section">
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jakie informacje są potrzebne do przygotowania kosztorysu?</strong></p>
+<p><strong>P: Czego potrzebujecie, żeby sporządzić kosztorys?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Idealnie model BIM (plik IFC). Jeśli niedostępny, pracujemy z rysunkami 2D + specyfikacjami (terminy mogą wydłużyć się o 2-3 dni).</p>
+<p>O: Rysunków w PDF lub DWG i specyfikacji technicznej. Jeśli zamawiający wydał przedmiar, prześlij go razem z dokumentacją — sprawdzimy go z rysunkami. Model IFC z Revita, ArchiCAD-a lub Tekli przyspiesza pomiar, ale nie jest potrzebny.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jak dokładne są Wasze kosztorysy?</strong></p>
+<p><strong>P: Jak dokładne są ilości?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Nasze kosztorysy 5D BIM osiągają dokładność ±5% vs ±15-20% tradycyjnych metod. Potwierdzone 20-letnim doświadczeniem i 2000+ projektami.</p>
+<p>O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Czy pracujecie z projektami już w budowie?</strong></p>
+<p><strong>P: W jakich programach kosztorysowych pracujecie?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak! Zapewniamy bieżącą kontrolę kosztów obejmującą cotygodniowe raporty, analizę zamówień dodatkowych i śledzenie budżetu.</p>
+<p>O: Wydajemy pliki do Normy PRO i Zuzi, plik wymiany ATH, formularz cenowy w Excelu oraz PDF. Powiedz, w czym pracuje Twój kosztorysant, a w tym wydamy.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Czy można zintegrować z naszym istniejącym oprogramowaniem?</strong></p>
+<p><strong>P: Czy wyceniacie roboty już rozpoczęte?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Tak, eksportujemy do Excel, MS Project, Primavera P6 i większości platform zarządzania kosztami.</p>
+<p>O: Tak. Do rozliczenia robót wykonanych sporządzamy obmiar, czyli ilości zmierzone na budowie, a nie przedmiar z dokumentacji. Te dwa dokumenty prowadzimy osobno.</p>
 </div>
 </div>
 <div class="faq-item">
 <div class="faq-question">
-<p><strong>P: Jakie wielkości projektów obsługujecie?</strong></p>
+<p><strong>P: Ile to kosztuje?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Obsługujemy projekty różnej skali - od małych adaptacji po duże centra logistyczne i kompleksy mieszkaniowe. Każdy projekt traktujemy indywidualnie.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>P: Jak wypadają Wasze honoraria w porównaniu z konkurencją?</strong></p>
-</div>
-<div class="faq-answer">
-<p>O: Konkurencyjne z tradycyjnymi firmami, ale znacznie szybsza realizacja (dni vs tygodnie) i lepsza dokładność (±5% vs ±15%).</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>P: Czy przygotowujecie kosztorysy do przetargów?</strong></p>
-</div>
-<div class="faq-answer">
-<p>O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Przedmiar → Kosztorys → Oferta → Negocjacje. Kompleksowe wsparcie na każdym etapie.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
 </div>
 </div>
 </div>
 </section>
-<section class="level2" id="gotowy-na-transformację-kosztorysowania">
-<h2 class="anchored" data-anchor-id="gotowy-na-transformację-kosztorysowania">Gotowy na Transformację Kosztorysowania?</h2>
+<section class="level2" id="prześlij-dokumentację-do-najbliższego-przetargu">
+<h2 class="anchored" data-anchor-id="prześlij-dokumentację-do-najbliższego-przetargu">Prześlij dokumentację do najbliższego przetargu</h2>
 <div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
 <div style="max-width: 800px; margin: 0 auto;">
 <h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Nie Pozwól Przestarzałym Metodom Opóźniać Projektu
+Kosztorys w formacie, którego wymaga zamawiający
 </h2>
 <p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-Dołącz do 2000+ udanych projektów, które wybrały precyzję zamiast zgadywania.
+Prześlij jeden pakiet i zobacz, co wraca. W ciągu jednego dnia roboczego potwierdzamy zakres, stałą cenę i termin.
 </p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Darmowa 30-Min Konsultacja
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Omówienie wymagań, wstępny harmonogram
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Sprawdź Naszą Ofertę
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Szczegółowe informacje o naszych usługach i podejściu
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Otrzymaj Wycenę
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-2-min formularz, wycena w 24h
-</p>
-</div>
-</div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Zaplanuj Darmową Konsultację</a> <a class="cta-secondary" href="../coming-soon.html">Pobierz Przewodnik BIM</a> <a class="cta-secondary" href="../kontakt.html">Otrzymaj Wycenę</a></p>
-</div>
-<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Partnerzy Państwa Sukcesu</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bezproblemowy Zespół Ekspertów</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia</strong>
-</p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
-<section class="level3" id="potrzebujesz-pomocy-teraz" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
-<h3 class="anchored" data-anchor-id="potrzebujesz-pomocy-teraz">Potrzebujesz Pomocy Teraz?</h3>
-<p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-<p><strong>Godziny Pracy:</strong> Poniedziałek-Piątek, 9:00-17:00 CET</p>
+<section class="level3" id="potrzebujesz-odpowiedzi-dzisiaj" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
+<h3 class="anchored" data-anchor-id="potrzebujesz-odpowiedzi-dzisiaj">Potrzebujesz odpowiedzi dzisiaj?</h3>
+<p><strong>Kontakt:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Godziny pracy:</strong> poniedziałek–piątek, 9:00–19:00 czasu polskiego</p>
 </section>
 </section>
 </div>
@@ -1222,30 +1137,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

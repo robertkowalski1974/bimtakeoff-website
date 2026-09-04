@@ -4,7 +4,7 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/services/bid-writing-management.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team." name="description"/>
+<meta content="Bid writing and tender management: pricing strategy, technical narratives and compliant submissions." name="description"/>
 <title>BIM Takeoff - Bid Writing &amp; Bid Management | Win More Tenders</title>
 <style>
 code{white-space: pre-wrap;}
@@ -69,9 +69,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Google Search Console Verification -->
 <meta content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA" name="google-site-verification"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -80,6 +83,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="../css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,39 +104,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Bid Writing &amp; Bid Management | Win More Tenders" name="twitter:title"/>
-<meta content="Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team." name="twitter:description"/>
+<meta content="Bid writing and tender management: pricing strategy, technical narratives and compliant submissions." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
-  "description": "Professional BIM 5D Cost Estimation and Quantity Surveying Services. 20+ years international experience, 2,000+ projects delivered across UK, Australia, and Poland.",
+  "description": "Quantity takeoffs, bills of quantities and tender pricing for facade, drylining, firestopping, structural and masonry subcontractors. Twenty years of quantity surveying across the UK, Australia and Poland.",
   "url": "https://www.bimtakeoff.com",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -178,14 +185,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Building Remediation Cost Estimation"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ]
 }
 </script>
@@ -247,7 +248,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </script>
 <link href="../css/styles.css" rel="stylesheet"/>
 <meta content="BIM Takeoff - Bid Writing &amp; Bid Management | Win More Tenders" property="og:title"/>
-<meta content="Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team." property="og:description"/>
+<meta content="Bid writing and tender management: pricing strategy, technical narratives and compliant submissions." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/services/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
@@ -269,7 +270,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Can you help us win competitive tenders where we’re not the lowest price?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely! Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Our technical writing ensures you score maximum points on quality criteria. On a 60/40 tender, a contractor 5-8% above lowest price can still win by scoring 90%+ on quality vs competitors’ 60-70%. We focus on demonstrating value, not just lowest cost."
+        "text": "Yes. Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Strong technical writing helps you score well on quality criteria, which can outweigh a higher price. We focus on demonstrating value, not just lowest cost."
       }
     },
     {
@@ -285,7 +286,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "What’s your success rate on tenders you’ve supported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our clients average 35-45% win rates on competitive tenders we support (vs industry average of 15-25%). For negotiated or two-stage tenders where we’re engaged early, success rates exceed 70%. Success depends on multiple factors including price competitiveness, client relationships, and competitive field."
+        "text": "Win rates depend on price competitiveness, client relationships, and the competitive field. We focus on removing the avoidable causes of loss: non-compliance, weak technical narratives, and pricing errors."
       }
     },
     {
@@ -317,7 +318,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "Can you help identify suitable tender opportunities?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving your team hours of searching and allowing focus on high-probability opportunities."
+        "text": "Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving hours of searching and freeing you to focus on high-probability opportunities."
       }
     },
     {
@@ -325,7 +326,7 @@ if (!window.location.pathname.includes('/pl/')) {
       "name": "How much do bid writing services cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fees depend on tender complexity, value, and services required. As a guide: Bid/No-Bid analysis £500-1,500; Pricing/BOQ £2,000-8,000; Technical writing £3,000-10,000; Full tender management £8,000-25,000. Framework applications £10,000-30,000. We provide fixed-price quotes within 24 hours of reviewing tender documents."
+        "text": "Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees depend on tender complexity, value and the services required. We provide fixed-price quotes within 24 hours of reviewing tender documents."
       }
     }
   ]
@@ -347,7 +348,7 @@ if (!window.location.pathname.includes('/pl/')) {
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team."
+  "description": "Bid writing and tender management: pricing strategy, technical narratives and compliant submissions."
 }
 </script>
 <script type="application/ld+json">
@@ -405,24 +406,50 @@ if (!window.location.pathname.includes('/pl/')) {
 </a>
 <ul aria-labelledby="nav-menu-services" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
+<span class="dropdown-text">Quantity takeoff and bills of quantities</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../services/cost-estimation-budget-planning.html">
-<span class="dropdown-text">Cost Estimation &amp; Budget Planning</span></a>
+<span class="dropdown-text">Tender pricing and bid support</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/remediation.html">
+<span class="dropdown-text">Facade and cladding remediation</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/trade-specific-specialist-services.html">
-<span class="dropdown-text">Trade-Specific Specialist Services</span></a>
+<span class="dropdown-text">Specialist trade packages</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/automated-quantity-takeoff.html">
-<span class="dropdown-text">Automated Quantity Takeoff</span></a>
+<a class="dropdown-item" href="../pl/">
+<span class="dropdown-text">Poland: kosztorysy and PZP tenders</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">More</li>
+<li>
+<a class="dropdown-item" href="../services/bsr-gateway-2-cost-consultant.html">
+<span class="dropdown-text">BSR Gateway 2 cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/facade-remediation-cost-consultant.html">
+<span class="dropdown-text">Facade remediation cost consultant</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/drylining-takeoff-tender-pricing.html">
+<span class="dropdown-text">Drylining takeoff and tender pricing</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
+<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/fast-track-cost-control.html">
 <span class="dropdown-text">Fast-Track Cost Control</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
-<span class="dropdown-text">BREEAM/ESG Cost Modeling</span></a>
+<a class="dropdown-item" href="../services/bid-writing-management.html">
+<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../services/mep-infrastructure-precision.html">
@@ -437,14 +464,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Comprehensive Reporting</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../services/bid-writing-management.html">
-<span class="dropdown-text">Bid Writing &amp; Bid Management</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../services/traditional-quantity-takeoff.html">
-<span class="dropdown-text">Traditional Quantity Takeoff</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../services/construction-data-management.html">
 <span class="dropdown-text">Construction Data Management</span></a>
 </li>
@@ -452,21 +471,34 @@ if (!window.location.pathname.includes('/pl/')) {
 <a class="dropdown-item" href="../services/construction-logistics.html">
 <span class="dropdown-text">Construction Logistics</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../services/breeam-esg-cost-modeling.html">
+<span class="dropdown-text">BREEAM/ESG Cost Modelling</span></a>
+</li>
 </ul>
 </li>
+<li class="nav-item">
+<a class="nav-link" href="../tender-winning.html">
+<span class="menu-text">Tender pricing</span></a>
+</li>
 <li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-industries" role="button">
-<span class="menu-text">Industries</span>
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
+<span class="menu-text">Resources</span>
 </a>
-<ul aria-labelledby="nav-menu-industries" class="dropdown-menu">
+<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../industries/warehouses-logistics.html">
-<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+<a class="dropdown-item" href="../resources/roi-calculator.html">
+<span class="dropdown-text">ROI Calculator</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/data-centers.html">
-<span class="dropdown-text">Data Centers</span></a>
+<a class="dropdown-item" href="../resources/publications/index.html">
+<span class="dropdown-text">Publications</span></a>
 </li>
+<li>
+<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
+<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
 <li>
 <a class="dropdown-item" href="../industries/residential-development.html">
 <span class="dropdown-text">Residential Development</span></a>
@@ -476,12 +508,21 @@ if (!window.location.pathname.includes('/pl/')) {
 <span class="dropdown-text">Remediation</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../industries/commercial-development.html">
-<span class="dropdown-text">Commercial Development</span></a>
-</li>
-<li>
 <a class="dropdown-item" href="../industries/housing-associations.html">
 <span class="dropdown-text">Housing Associations</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../industries/warehouses-logistics.html">
+<span class="dropdown-text">Warehouses &amp; Logistics</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/data-centers.html">
+<span class="dropdown-text">Data Centres</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../industries/commercial-development.html">
+<span class="dropdown-text">Commercial Development</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../industries/healthcare-medical.html">
@@ -494,33 +535,6 @@ if (!window.location.pathname.includes('/pl/')) {
 <li>
 <a class="dropdown-item" href="../industries/infrastructure-civil.html">
 <span class="dropdown-text">Infrastructure &amp; Civil Works</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="../tender-winning.html">
-<span class="menu-text">Tender Winning</span></a>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-resources" role="button">
-<span class="menu-text">Resources</span>
-</a>
-<ul aria-labelledby="nav-menu-resources" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../resources/roi-calculator.html">
-<span class="dropdown-text">ROI Calculator</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Case Studies</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/publications/index.html">
-<span class="dropdown-text">Publications</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../resources/what-is-bim-5d-cost-estimation.html">
-<span class="dropdown-text">What is BIM 5D Cost Estimation?</span></a>
 </li>
 </ul>
 </li>
@@ -562,7 +576,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </div>
 <div>
 <div class="description">
-    Bid writing and tender management that boosts win rates by 40%. Pricing strategy, technical narratives and compliant submissions from a specialist QS team.
+    Bid writing and tender management: pricing strategy, technical narratives and compliant submissions.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -570,7 +584,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg"> <source src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="professional-bid-writing-tender-management">
@@ -580,30 +594,29 @@ if (!window.location.pathname.includes('/pl/')) {
 </section>
 </section>
 <div class="hero-subtitle">
-<p>Boost win rates by 40% with expert bid preparation.<br/>
-From pricing strategy to technical narratives.</p>
+<p>Compelling, compliant bid preparation. From pricing strategy to technical narratives.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Tender Packages</strong> - Technical &amp; commercial excellence
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Tender Packages</strong> - Technical &amp; commercial excellence
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Competitive Pricing</strong> - Balance margin with win probability
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Competitive Pricing</strong> - Balance margin with win probability
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rapid Turnaround</strong> - Meet tight submission deadlines
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Rapid Turnaround</strong> - Meet tight submission deadlines
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Discuss Tender</a> <a class="cta-secondary" href="../coming-soon.html">View Win Portfolio</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
 <div class="container">
 <div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Construction bid writing and bid management</strong> is the process of preparing and submitting competitive tender responses that maximise win probability. Research shows that 40-50% of tender evaluation is based on non-price criteria including methodology, programme, and risk management. BIM Takeoff provides end-to-end tender support from pricing documents and method statements to programme development and submission management, helping contractors improve win rates from the industry average of 15-25% to 35-45%.</p>
+<p><strong>Construction bid writing and bid management</strong> is the process of preparing and submitting competitive tender responses that maximise win probability. Evaluation criteria typically weigh price alongside methodology, programme, and risk management. BIM Takeoff provides end-to-end tender support from pricing documents and method statements to programme development and submission management.</p>
 </div>
 <section class="level2" id="why-most-tenders-lose-before-evaluation">
 <h2 class="anchored" data-anchor-id="why-most-tenders-lose-before-evaluation">Why Most Tenders Lose Before Evaluation</h2>
@@ -613,52 +626,46 @@ From pricing strategy to technical narratives.</p>
 <p>Contractors lose winnable tenders through avoidable mistakes:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Non-compliant submissions (auto-rejected)
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Non-compliant submissions (auto-rejected)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Generic responses copied from previous bids
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Generic responses copied from previous bids
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pricing errors and omissions
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pricing errors and omissions
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Weak technical narratives
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Weak technical narratives
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Last-minute rush compromises quality
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Last-minute rush compromises quality
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No competitive positioning or differentiation
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No competitive positioning or differentiation
 </p>
 </div>
-<section class="level4 callout-box" id="the-cost-of-poor-bids" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
-<h4 class="anchored" data-anchor-id="the-cost-of-poor-bids">The Cost of Poor Bids</h4>
-<blockquote class="blockquote">
-<p>“40-60% of tenders are eliminated at compliance stage before evaluation even begins. Among those that qualify, weak technical narratives score 30-40% lower than professional submissions, often losing despite competitive pricing.”</p>
-</blockquote>
-</section>
 </section>
 <section class="level3" id="our-professional-bid-solution" style="">
 <h3 class="anchored" data-anchor-id="our-professional-bid-solution">Our Professional Bid Solution</h3>
 <p>Strategic, compliant submissions that win:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>100% compliance</strong> - pass all mandatory checks
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>100% compliance</strong> - pass all mandatory checks
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Bespoke responses</strong> - tailored to evaluation criteria
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Bespoke responses</strong> - tailored to evaluation criteria
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Accurate pricing</strong> - verified quantities &amp; rates
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Accurate pricing</strong> - verified quantities &amp; rates
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compelling narratives</strong> - demonstrate capability
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compelling narratives</strong> - demonstrate capability
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Early preparation</strong> - quality over rush
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Early preparation</strong> - quality over rush
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Competitive strategy</strong> - position against rivals
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Competitive strategy</strong> - position against rivals
 </p>
 </div>
 </section>
@@ -670,7 +677,7 @@ From pricing strategy to technical narratives.</p>
 <h3 class="anchored" data-anchor-id="end-to-end-tender-support">End-to-End Tender Support</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
 <section class="level4" id="bidno-bid-analysis" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="bidno-bid-analysis"><i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid/No-Bid Analysis</h4>
+<h4 class="anchored" data-anchor-id="bidno-bid-analysis"><i aria-hidden="true" class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid/No-Bid Analysis</h4>
 <p><strong>Pre-Tender Decision Support</strong></p>
 <ul>
 <li>Project size and complexity fit</li>
@@ -683,20 +690,20 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Output:</strong> Go/No-Go recommendation with justification</p>
 </section>
 <section class="level4" id="pricing-strategy" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="pricing-strategy"><i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Pricing Strategy</h4>
+<h4 class="anchored" data-anchor-id="pricing-strategy"><i aria-hidden="true" class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Pricing Strategy</h4>
 <p><strong>Commercial Excellence</strong></p>
 <ul>
 <li>Bill of Quantities preparation</li>
-<li>Material and labor rate verification</li>
+<li>Material and labour rate verification</li>
 <li>Subcontractor quotation management</li>
-<li>Preliminaries cost modeling</li>
+<li>Preliminaries cost modelling</li>
 <li>Risk allowance calculation</li>
-<li>Margin optimization analysis</li>
+<li>Margin optimisation analysis</li>
 </ul>
 <p><strong>Output:</strong> Complete pricing schedule with audit trail</p>
 </section>
 <section class="level4" id="technical-writing" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="technical-writing"><i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Technical Writing</h4>
+<h4 class="anchored" data-anchor-id="technical-writing"><i aria-hidden="true" class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Technical Writing</h4>
 <p><strong>Compelling Narratives</strong></p>
 <ul>
 <li>Method statements and programmes</li>
@@ -709,7 +716,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Output:</strong> Professional technical submission</p>
 </section>
 <section class="level4" id="compliance-management" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="compliance-management"><i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Management</h4>
+<h4 class="anchored" data-anchor-id="compliance-management"><i aria-hidden="true" class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Management</h4>
 <p><strong>Zero-Defect Submissions</strong></p>
 <ul>
 <li>Mandatory requirement checklist</li>
@@ -722,7 +729,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Output:</strong> Fully compliant tender package</p>
 </section>
 <section class="level4" id="programme-planning" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="programme-planning"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Programme Planning</h4>
+<h4 class="anchored" data-anchor-id="programme-planning"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Programme Planning</h4>
 <p><strong>Realistic Schedules</strong></p>
 <ul>
 <li>Detailed construction programme</li>
@@ -735,7 +742,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Output:</strong> Professional MS Project/P6 programme</p>
 </section>
 <section class="level4" id="presentation-support" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="presentation-support"><i class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Presentation Support</h4>
+<h4 class="anchored" data-anchor-id="presentation-support"><i aria-hidden="true" class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Presentation Support</h4>
 <p><strong>Interview Excellence</strong></p>
 <ul>
 <li>Presentation deck preparation</li>
@@ -806,10 +813,10 @@ From pricing strategy to technical narratives.</p>
 <ul>
 <li>Prepare detailed Bill of Quantities</li>
 <li>Obtain and evaluate subcontractor quotes</li>
-<li>Verify material and labor rates</li>
+<li>Verify material and labour rates</li>
 <li>Calculate preliminaries and site overheads</li>
 <li>Assess and price risks</li>
-<li>Optimize margin and competitiveness</li>
+<li>Optimise margin and competitiveness</li>
 </ul>
 <p><strong>What You Receive:</strong> Detailed pricing schedule ready for review</p>
 </section>
@@ -823,7 +830,7 @@ From pricing strategy to technical narratives.</p>
 <li>Evaluate against likely competitor approaches</li>
 <li>Refine pricing and technical narrative</li>
 <li>Strengthen weak areas identified in review</li>
-<li>Final quality assurance by senior team</li>
+<li>Final quality assurance before submission</li>
 </ul>
 <p><strong>What You Receive:</strong> Enhanced bid ready for submission</p>
 </section>
@@ -850,27 +857,27 @@ From pricing strategy to technical narratives.</p>
 <h2 class="anchored" data-anchor-id="tender-types-we-support">Tender Types We Support</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="main-contractor-tenders">
-<h3 class="anchored" data-anchor-id="main-contractor-tenders"><i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Main Contractor Tenders</h3>
+<h3 class="anchored" data-anchor-id="main-contractor-tenders"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Main Contractor Tenders</h3>
 <p>Design-build, traditional, management contracting, construction management, two-stage tenders</p>
 </section>
 <section class="level3 feature-card" id="trade-package-tenders">
-<h3 class="anchored" data-anchor-id="trade-package-tenders"><i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade Package Tenders</h3>
+<h3 class="anchored" data-anchor-id="trade-package-tenders"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Trade Package Tenders</h3>
 <p>Mechanical, electrical, plumbing, structural steelwork, facades, civil works, specialist trades</p>
 </section>
 <section class="level3 feature-card" id="framework-applications">
-<h3 class="anchored" data-anchor-id="framework-applications"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Framework Applications</h3>
+<h3 class="anchored" data-anchor-id="framework-applications"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Framework Applications</h3>
 <p>Multi-year frameworks, call-off contracts, DPS (Dynamic Purchasing Systems), panel appointments</p>
 </section>
 <section class="level3 feature-card" id="public-sector-procurement">
-<h3 class="anchored" data-anchor-id="public-sector-procurement"><i class="bi bi-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Public Sector Procurement</h3>
+<h3 class="anchored" data-anchor-id="public-sector-procurement"><i aria-hidden="true" class="bi bi-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Public Sector Procurement</h3>
 <p>OJEU/Find a Tender, local authority tenders, NHS, MOD, universities, social housing</p>
 </section>
 <section class="level3 feature-card" id="international-tenders">
-<h3 class="anchored" data-anchor-id="international-tenders"><i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Tenders</h3>
+<h3 class="anchored" data-anchor-id="international-tenders"><i aria-hidden="true" class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Tenders</h3>
 <p>FIDIC contracts, World Bank procedures, development bank projects, international JVs</p>
 </section>
 <section class="level3 feature-card" id="private-sector-opportunities">
-<h3 class="anchored" data-anchor-id="private-sector-opportunities"><i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Private Sector Opportunities</h3>
+<h3 class="anchored" data-anchor-id="private-sector-opportunities"><i aria-hidden="true" class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Private Sector Opportunities</h3>
 <p>Blue-chip clients, developers, estate owners, PFI/PPP projects, negotiated contracts</p>
 </section>
 </div>
@@ -883,25 +890,25 @@ From pricing strategy to technical narratives.</p>
 <p>Comprehensive support from receipt to submission:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Bid/No-Bid Analysis</strong> and strategic advice
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Bid/No-Bid Analysis</strong> and strategic advice
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Detailed Bill of Quantities</strong> with audit trail
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Detailed Bill of Quantities</strong> with audit trail
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Technical Submission</strong> (all narratives)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Technical Submission</strong> (all narratives)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Construction Programme</strong> (MS Project/Primavera)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Construction Programme</strong> (MS Project/Primavera)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance Documentation</strong> (H&amp;S, Quality, Environmental)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance Documentation</strong> (H&amp;S, Quality, Environmental)
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Red Team Review</strong> and refinement
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Red Team Review</strong> and refinement
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Formatted Submission</strong> ready for upload/delivery
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Formatted Submission</strong> ready for upload/delivery
 </p>
 </div>
 </section>
@@ -910,25 +917,25 @@ From pricing strategy to technical narratives.</p>
 <p>Strengthen your tender with:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BIM Execution Plan</strong> - ISO 19650 compliant
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BIM Execution Plan</strong> - ISO 19650 compliant
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>4D Planning Animation</strong> - Visual programme
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>4D Planning Animation</strong> - Visual programme
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Site Logistics Plans</strong> - 2D/3D drawings
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Site Logistics Plans</strong> - 2D/3D drawings
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value Engineering Proposals</strong> - Cost savings identified
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value Engineering Proposals</strong> - Cost savings identified
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Presentation Materials</strong> - PowerPoint &amp; graphics
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Presentation Materials</strong> - PowerPoint &amp; graphics
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interview Coaching</strong> - Team preparation
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Interview Coaching</strong> - Team preparation
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Tender Negotiation</strong> - Support during clarifications
+<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Tender Negotiation</strong> - Support during clarifications
 </p>
 </div>
 </section>
@@ -950,7 +957,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Q: Can you help us win competitive tenders where we’re not the lowest price?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Absolutely! Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Our technical writing ensures you score maximum points on quality criteria. On a 60/40 tender, a contractor 5-8% above lowest price can still win by scoring 90%+ on quality vs competitors’ 60-70%. We focus on demonstrating value, not just lowest cost.</p>
+<p>A: Yes. Most modern tenders use quality/price splits (e.g., 60/40 or 70/30). Strong technical writing helps you score well on quality criteria, which can outweigh a higher price. We focus on demonstrating value, not just lowest cost.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -966,7 +973,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Q: What’s your success rate on tenders you’ve supported?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Our clients average 35-45% win rates on competitive tenders we support (vs industry average of 15-25%). For negotiated or two-stage tenders where we’re engaged early, success rates exceed 70%. Success depends on multiple factors including price competitiveness, client relationships, and competitive field.</p>
+<p>A: Win rates depend on price competitiveness, client relationships, and the competitive field. We focus on removing the avoidable causes of loss: non-compliance, weak technical narratives, and pricing errors.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -998,7 +1005,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Q: Can you help identify suitable tender opportunities?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving your team hours of searching and allowing focus on high-probability opportunities.</p>
+<p>A: Yes. We offer tender-watching services where we monitor contract notice platforms (Find a Tender, Contracts Finder, sector-specific portals) for opportunities matching your capabilities. We provide weekly summaries with bid/no-bid recommendations, saving hours of searching and freeing you to focus on high-probability opportunities.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -1006,7 +1013,7 @@ From pricing strategy to technical narratives.</p>
 <p><strong>Q: How much do bid writing services cost?</strong></p>
 </div>
 <div class="faq-answer">
-<p>A: Fees depend on tender complexity, value, and services required. As a guide: Bid/No-Bid analysis £500-1,500; Pricing/BOQ £2,000-8,000; Technical writing £3,000-10,000; Full tender management £8,000-25,000. Framework applications £10,000-30,000. We provide fixed-price quotes within 24 hours of reviewing tender documents.</p>
+<p>A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Fees depend on tender complexity, value and the services required. We provide fixed-price quotes within 24 hours of reviewing tender documents.</p>
 </div>
 </div>
 </div>
@@ -1032,10 +1039,10 @@ Share your tender for rapid assessment
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-See Win Examples
+Free Sample Take-off
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Review successful submissions we’ve supported
+Submit your drawings for a free sample section
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
@@ -1043,25 +1050,25 @@ Review successful submissions we’ve supported
 Get Fixed Quote
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Receive pricing within 24 hours
+Scope, fee and delivery date within one working day
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../contact.html">Discuss Tender</a> <a class="cta-secondary" href="../coming-soon.html">View Portfolio</a> <a class="cta-secondary" href="../contact.html">Get Quote</a></p>
+<p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 <div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% Win Rate on Supported Tenders</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Priced Per Package, Quoted Before We Start</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>100% Compliance Guaranteed</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Full Compliance Checked Before Submission</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Public &amp; Private Sector Experience</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Public &amp; Private Sector Experience</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
 </p>
 </div>
 </div>
@@ -1069,7 +1076,7 @@ Receive pricing within 24 hours
 <section class="level3" id="need-help-now" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
 <h3 class="anchored" data-anchor-id="need-help-now">Need Help Now?</h3>
 <p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-<p><strong>Office Hours:</strong> Monday-Friday, 9:00-17:00 CET</p>
+<p><strong>Office hours:</strong> Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.</p>
 </section>
 <p>:::</p>
 </section>
@@ -1483,31 +1490,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. All rights reserved.<br/> Professional BIM 5D Cost Estimation Services</p>
+<p>© 2026 BIM Takeoff. All rights reserved.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Quick Links</strong><br/> <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+<p><strong>Services</strong><br/> <a href="../services/automated-quantity-takeoff.html">Quantity takeoff and bills of quantities</a><br/> <a href="../services/cost-estimation-budget-planning.html">Tender pricing and bid support</a><br/> <a href="../industries/remediation.html">Facade and cladding remediation</a><br/> <a href="../services/trade-specific-specialist-services.html">Specialist trade packages</a><br/> <a href="../pl/">Poland: kosztorysy and PZP tenders</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
+<p><strong>Contact</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> <a href="../privacy-policy.html">Privacy policy</a> · <a href="../terms-of-service.html">Terms of service</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="../js/scroll-effects.js"></script>
 <script src="../js/language-switcher.js"></script>
 <!-- Polish Navbar Translation (activated only on /pl/ pages) -->
 <!-- Praevius Logo in Navbar -->
 <script src="../js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="../js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="../js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="../js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -4,7 +4,7 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/pl/branze/remediacja.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%." name="description"/>
+<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Przedmiary i wyceny w 3–8 dni." name="description"/>
 <title>BIM Takeoff - Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona</title>
 <style>
 code{white-space: pre-wrap;}
@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,32 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
 <meta content="BIM Takeoff - Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona" name="twitter:title"/>
-<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%." name="twitter:description"/>
+<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Przedmiary i wyceny w 3–8 dni." name="twitter:description"/>
 <!-- Organization Structured Data (Polish version) -->
 <script type="application/ld+json">
 {
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -198,7 +199,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 }
 </script>
 <meta content="BIM Takeoff - Kosztorysowanie Remediacji Budynków | Elewacje i Ogniochrona" property="og:title"/>
-<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%." property="og:description"/>
+<meta content="Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Przedmiary i wyceny w 3–8 dni." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/pl/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="pl_PL" property="og:locale"/>
@@ -244,7 +245,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jak dokładne są szacunki remediacyjne ze względu na niewiadome?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Przy odpowiednich badaniach inwazyjnych osiągamy dokładność ±5-8% w projektach remediacyjnych (vs. nasz standard ±5% dla nowej budowy). Dodatkowa wariancja uwzględnia nieoczekiwane usterki. Dostarczamy przejrzyste zestawienia rezerw dla przejrzystości."
+        "text": "O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Nieoczekiwane usterki pokrywają wykazane osobno rezerwy, a nie ukryty narzut w stawkach."
       }
     },
     {
@@ -260,7 +261,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: A co z azbestem lub innymi materiałami niebezpiecznymi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynku sugeruje prawdopodobną obecność. Współpracujemy ze specjalistycznymi geodetami azbestu w celu doprecyzowania kosztów usunięcia i uwzględniamy właściwą utylizację, monitoring powietrza i koszty powiadomienia."
+        "text": "O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynku sugeruje prawdopodobną obecność. Korzystamy z opinii rzeczoznawców do spraw azbestu w celu doprecyzowania kosztów usunięcia i uwzględniamy właściwą utylizację, monitoring powietrza i koszty powiadomienia."
       }
     },
     {
@@ -268,7 +269,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
       "name": "P: Jaka jest wasza struktura opłat za projekty remediacyjne?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O: Opłaty zależą od wielkości budynku, złożoności usterek i pilności. Wszystkie wyceny indywidualne - skontaktuj się z nami, aby otrzymać konkretną ofertę dla Twojego projektu. Tryb ekspresowy (3-4 dni) wiąże się z premią 25%."
+        "text": "O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy. Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego."
       }
     }
   ]
@@ -321,7 +322,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -329,97 +330,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -427,16 +403,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -478,7 +496,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </div>
 <div>
 <div class="description">
-    Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Wycena w 3-8 dni, dokładność ±5%.
+    Kosztorysowanie remediacji budynków: wymiana elewacji, ogniochrona, izolacja przeciwpożarowa. Przedmiary i wyceny w 3–8 dni.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
@@ -486,34 +504,34 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="kosztorysowanie-remediacji-budynków">
 <h1>Kosztorysowanie Remediacji Budynków</h1>
-<section class="level3" id="eksperci-w-kosztorysowaniu-wymiany-elewacji-ogniochrony-i-napraw-konstrukcyjnych">
-<h3 class="anchored" data-anchor-id="eksperci-w-kosztorysowaniu-wymiany-elewacji-ogniochrony-i-napraw-konstrukcyjnych">Eksperci w Kosztorysowaniu Wymiany Elewacji, Ogniochrony i Napraw Konstrukcyjnych</h3>
+<section class="level3" id="wymiana-elewacji-ogniochrona-i-naprawy-konstrukcyjne">
+<h3 class="anchored" data-anchor-id="wymiana-elewacji-ogniochrona-i-naprawy-konstrukcyjne">Wymiana elewacji, ogniochrona i naprawy konstrukcyjne</h3>
 </section>
 </section>
 <div class="hero-subtitle">
 <p>Od pojedynczych usterek po kompleksowe modernizacje budynków.<br/>
-Gotowe w ciągu 3-8 dni z dokładnością ±5%.</p>
+Gotowe w ciągu 3–8 dni.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjaliści od przepon ogniowych</strong> - kompleksowa ogniochrona budynków
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Przepony ogniowe i uszczelnienia</strong> - ogniochrona rozpisana pozycjami
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Eksperci remediacji elewacji</strong> - systemy ETICS, wentylowane, ceramiczne
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Remediacja elewacji</strong> - systemy ETICS, wentylowane, ceramiczne
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie międzynarodowe:</strong> Wielka Brytania, UE i Australia
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie międzynarodowe:</strong> Wielka Brytania, UE i Australia
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../coming-soon.html">Nasze Realizacje</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
@@ -526,25 +544,25 @@ Gotowe w ciągu 3-8 dni z dokładnością ±5%.</p>
 <p>Projekty remediacyjne wiążą się z unikalnymi wyzwaniami technicznymi i regulacyjnymi:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Presja regulacyjna</strong> - zgodność z przepisami ppoż., normami PN-EN
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Presja regulacyjna</strong> - zgodność z przepisami ppoż., normami PN-EN
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Niepewność kosztowa</strong> - ukryte usterki wykrywane podczas prac
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Niepewność kosztowa</strong> - ukryte usterki wykrywane podczas prac
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Budynki zamieszkałe</strong> - prace wokół mieszkańców, minimalizacja uciążliwości
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Budynki zamieszkałe</strong> - prace wokół mieszkańców, minimalizacja uciążliwości
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wyzwania finansowe</strong> - dotacje termomodernizacyjne, rozliczenia z mieszkańcami
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Wyzwania finansowe</strong> - dotacje termomodernizacyjne, rozliczenia z mieszkańcami
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Skomplikowane styki</strong> - wiele branż, wymagania fazowania prac
+<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> <strong>Skomplikowane styki</strong> - wiele branż, wymagania fazowania prac
 </p>
 </div>
 <section class="level4 callout-box" id="ryzyko" style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;">
 <h4 class="anchored" data-anchor-id="ryzyko">Ryzyko</h4>
 <blockquote class="blockquote">
-<p>“Nieprawidłowe oszacowanie kosztów remediacji spółdzielni mieszkaniowej może doprowadzić do konieczności powtórnego postępowania przetargowego, opóźnień i utraty zaufania mieszkańców. Precyzyjna wycena to fundament sukcesu projektu.”</p>
+<p>„Nieprawidłowe oszacowanie kosztów remediacji spółdzielni mieszkaniowej może doprowadzić do konieczności powtórnego postępowania przetargowego, opóźnień i utraty zaufania mieszkańców. Precyzyjna wycena to fundament sukcesu projektu.”</p>
 </blockquote>
 </section>
 </section>
@@ -553,28 +571,28 @@ Gotowe w ciągu 3-8 dni z dokładnością ±5%.</p>
 <p>Specjalistyczne kosztorysowanie BIM 5D dla remediacji i modernizacji budynków:</p>
 <div style="margin: 24px 0;">
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3-8 dni</strong> na kompletną wycenę (zamiast 6-8 tygodni tradycyjnych metod)
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3–8 dni</strong> na kompletną wycenę
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wiedza specjalistyczna</strong> - przepony ogniowe, uszczelnienia, systemy EI
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wiedza specjalistyczna</strong> - przepony ogniowe, uszczelnienia, systemy EI
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja fazowania</strong> - minimalizacja zakłóceń, utrzymanie zamieszkania
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja fazowania</strong> - minimalizacja zakłóceń, utrzymanie zamieszkania
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie rezerw</strong> - zabezpieczenia kosztowe na niewiadome
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Planowanie rezerw</strong> - zabezpieczenia kosztowe na niewiadome
 </p>
 <p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie dotacji</strong> - dokumentacja do NFOŚiGW, WFOŚiGW
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie dotacji</strong> - dokumentacja do NFOŚiGW, WFOŚiGW
 </p>
 </div>
-<section class="level4 callout-box" id="nasze-doświadczenie" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="nasze-doświadczenie">Nasze doświadczenie</h4>
+<section class="level4 callout-box" id="jak-pracujemy" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);">
+<h4 class="anchored" data-anchor-id="jak-pracujemy">Jak pracujemy</h4>
 <ul>
-<li><strong>Szerokie doświadczenie remediacyjne</strong> w UK, UE i Australii</li>
-<li><strong>Skomplikowane projekty zgodności</strong> realizowane precyzyjnie</li>
-<li><strong>Średnio 5 dni</strong> od danych inwentaryzacyjnych do szczegółowej wyceny</li>
-<li><strong>Dokładność ±5%</strong> w 95% projektów</li>
+<li><strong>Mierzymy</strong> z inwentaryzacji, rysunków i ekspertyz, które otrzymujemy</li>
+<li><strong>Wydajemy przedmiar</strong> w układzie pozycji, gotowy do wyceny</li>
+<li><strong>Wycena z widocznymi</strong> ilościami, stawkami i założeniami</li>
+<li><strong>Rezerwy ryzyka</strong> wykazane osobno, nie ukryte w stawkach</li>
 </ul>
 </section>
 </section>
@@ -584,37 +602,37 @@ Gotowe w ciągu 3-8 dni z dokładnością ±5%.</p>
 <h2 class="anchored" data-anchor-id="usługi-specjalistyczne-dla-remediacji">Usługi Specjalistyczne dla Remediacji</h2>
 <div class="feature-grid">
 <section class="level3 feature-card" id="szybka-wycena">
-<h3 class="anchored" data-anchor-id="szybka-wycena"><i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Wycena</h3>
+<h3 class="anchored" data-anchor-id="szybka-wycena"><i aria-hidden="true" class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybka Wycena</h3>
 <p><strong>Gotowe w ciągu 3-8 dni</strong></p>
 <p>Idealne dla: - Budżetów remediacji elewacji - Kosztów modernizacji ppoż. - Szacunków termomodernizacji - Wniosków o dofinansowanie</p>
 <p><a href="../uslugi/szybka-kontrola-kosztow.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="wycena-zgodności">
-<h3 class="anchored" data-anchor-id="wycena-zgodności"><i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Wycena Zgodności</h3>
+<h3 class="anchored" data-anchor-id="wycena-zgodności"><i aria-hidden="true" class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Wycena Zgodności</h3>
 <p><strong>Przepisy Przeciwpożarowe</strong></p>
 <p>Ekspertyza w zakresie: - Przepon ogniowych EI 60-240 - Systemów oddymiania - Uszczelnień przejść instalacyjnych - Drzwi i wrót przeciwpożarowych</p>
 <p><a href="../uslugi/specjalistyczne-branzy-budowlane.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="fazowanie-i-logistyka">
-<h3 class="anchored" data-anchor-id="fazowanie-i-logistyka"><i class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;"></i>Fazowanie i Logistyka</h3>
+<h3 class="anchored" data-anchor-id="fazowanie-i-logistyka"><i aria-hidden="true" class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;"></i>Fazowanie i Logistyka</h3>
 <p><strong>Prace w Budynkach Zamieszkałych</strong></p>
 <p>Kluczowe dla: - Planów przesiedleń lokatorów - Strategii dostępu - Koordynacji dostaw materiałów - Minimalizacji okresów uciążliwości</p>
 <p><a href="../uslugi/logistyka-budowlana.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="analiza-wielowariantowa">
-<h3 class="anchored" data-anchor-id="analiza-wielowariantowa"><i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wielowariantowa</h3>
+<h3 class="anchored" data-anchor-id="analiza-wielowariantowa"><i aria-hidden="true" class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wielowariantowa</h3>
 <p><strong>Porównanie Opcji Remediacji</strong></p>
 <p>Analiza wpływu: - Różnych systemów elewacyjnych - Wariantów fazowania - Wymagań robót tymczasowych - Opcji inżynierii wartości</p>
 <p><a href="../uslugi/analiza-wieloscenariuszowa.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="wsparcie-wniosków">
-<h3 class="anchored" data-anchor-id="wsparcie-wniosków"><i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Wsparcie Wniosków</h3>
+<h3 class="anchored" data-anchor-id="wsparcie-wniosków"><i aria-hidden="true" class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Wsparcie Wniosków</h3>
 <p><strong>Dokumentacja dla Dotacji</strong></p>
 <p>Kompleksowa obsługa: - Szczegółowe zestawienia kosztów - Pakiety konsultacyjne dla mieszkańców - Wnioski NFOŚiGW/WFOŚiGW - Raporty kosztowe interim</p>
 <p><a href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">Dowiedz się więcej →</a></p>
 </section>
 <section class="level3 feature-card" id="ryzyko-i-rezerwy">
-<h3 class="anchored" data-anchor-id="ryzyko-i-rezerwy"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Ryzyko i Rezerwy</h3>
+<h3 class="anchored" data-anchor-id="ryzyko-i-rezerwy"><i aria-hidden="true" class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Ryzyko i Rezerwy</h3>
 <p><strong>Zabezpieczenia na Niewiadome</strong></p>
 <p>Ekspercka ocena: - Prawdopodobieństwa ukrytych usterek - Ryzyk zanieczyszczeń - Niepewności konstrukcyjnych - Skomplikowanych styków</p>
 <p><a href="../uslugi/kompleksowe-raportowanie.html">Dowiedz się więcej →</a></p>
@@ -737,7 +755,7 @@ Wykrycia dodatkowych usterek podczas prac
 <p><strong>Dni 1-3</strong></p>
 <p><strong>Co Robimy:</strong> - Definiujemy zakres remediacji - Przedmiar powierzchni elewacji - Obliczamy wymagania przepon ogniowych - Oceniamy zakres napraw konstrukcyjnych - Identyfikujemy prace styków - Mapujemy strefy oddziaływania na mieszkańców</p>
 <p><strong>Technologia:</strong> - Ekstrakcja BIM 5D (jeśli dostępny BIM) - Przedmiar 2D z inwentaryzacji - Analiza elewacji budynku</p>
-<p><strong>Wynik:</strong> Kompletny przedmiar (STWiOR)</p>
+<p><strong>Wynik:</strong> Kompletny przedmiar robót</p>
 </section>
 <section class="level4 process-step" id="aplikacja-kosztów-i-analiza-ryzyka">
 <h4 class="anchored" data-anchor-id="aplikacja-kosztów-i-analiza-ryzyka">Aplikacja Kosztów i Analiza Ryzyka</h4>
@@ -749,8 +767,8 @@ Wykrycia dodatkowych usterek podczas prac
 <section class="level4 process-step" id="przegląd-jakości-i-raportowanie">
 <h4 class="anchored" data-anchor-id="przegląd-jakości-i-raportowanie">Przegląd Jakości i Raportowanie</h4>
 <p><strong>Dni 5-7</strong></p>
-<p><strong>Co Robimy:</strong> - Techniczny przegląd peer review - Sprawdzenie względem benchmarków - Weryfikacja zakresu zgodności - Przygotowanie dokumentacji dotacyjnej - Utworzenie podsumowania dla mieszkańców - Harmonogram prezentacji</p>
-<p><strong>Dostawy:</strong> - Streszczenie wykonawcze (2-3 strony) - Podział kosztów według pakietów robót - STWiOR z ilościami i stawkami - Pakiet wniosku o dofinansowanie - Rejestr ryzyk i rezerwy</p>
+<p><strong>Co Robimy:</strong> - Weryfikacja techniczna - Sprawdzenie względem benchmarków - Weryfikacja zakresu zgodności - Przygotowanie dokumentacji dotacyjnej - Utworzenie podsumowania dla mieszkańców - Harmonogram prezentacji</p>
+<p><strong>Dostawy:</strong> - Streszczenie wykonawcze (2-3 strony) - Podział kosztów według pakietów robót - Przedmiar z ilościami i stawkami - Pakiet wniosku o dofinansowanie - Rejestr ryzyk i rezerwy</p>
 <p><strong>Format:</strong> PDF + skoroszyty Excel</p>
 </section>
 <section class="level4 process-step" id="prezentacja-i-wsparcie-konsultacyjne">
@@ -762,29 +780,28 @@ Wykrycia dodatkowych usterek podczas prac
 </section>
 </div>
 <div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
-<p><strong>Standardowy czas realizacji:</strong> 5-8 dni roboczych od otrzymania danych inwentaryzacyjnych do raportu końcowego<br/>
-<strong>Tryb ekspresowy:</strong> Dostępny dla pilnych terminów (3-4 dni) z premią 25%</p>
+<p><strong>Standardowy czas realizacji:</strong> 5–8 dni roboczych od otrzymania danych inwentaryzacyjnych do raportu końcowego<br/>
+<strong>Tryb przyspieszony:</strong> Dostępny dla pilnych terminów (3–4 dni)</p>
 </div>
 </section>
 <section class="level2" id="dlaczego-wybrać-bim-takeoff-do-remediacji">
 <h2 class="anchored" data-anchor-id="dlaczego-wybrać-bim-takeoff-do-remediacji">Dlaczego Wybrać BIM Takeoff do Remediacji?</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 48px 0;">
 <section class="level3" id="wiedza-specjalistyczna" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="wiedza-specjalistyczna">Wiedza Specjalistyczna</h3>
+<h3 class="anchored" data-anchor-id="wiedza-specjalistyczna">Wiedza specjalistyczna</h3>
 <ul>
-<li>Specjaliści od <strong>przepon ogniowych</strong> i uszczelnień</li>
-<li>Eksperci <strong>remediacji elewacji</strong></li>
+<li><strong>Przepony ogniowe</strong> i uszczelnienia przejść</li>
+<li><strong>Remediacja elewacji</strong> - systemy i detale</li>
 <li>Znajomość <strong>przepisów polskich</strong> i norm PN-EN</li>
 <li>Systemy <strong>ogniochronne</strong> i materiały</li>
 </ul>
 </section>
-<section class="level3" id="sprawdzona-szybkość" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
-<h3 class="anchored" data-anchor-id="sprawdzona-szybkość">Sprawdzona Szybkość</h3>
+<section class="level3" id="termin" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
+<h3 class="anchored" data-anchor-id="termin">Termin</h3>
 <ul>
-<li><strong>3-8 dni</strong> typowa realizacja</li>
+<li><strong>3–8 dni</strong> typowa realizacja</li>
 <li><strong>Aktualizacje tego samego dnia</strong> dla zmian zakresu</li>
-<li><strong>Usługa ekspresowa</strong> dla pilnych terminów</li>
-<li><strong>O 90% szybciej</strong> niż tradycyjne metody</li>
+<li><strong>Tryb przyspieszony</strong> dla pilnych terminów</li>
 </ul>
 </section>
 <section class="level3" id="zarządzanie-ryzykiem" style="padding: 24px; background: var(--bim-light-gray); border-radius: 8px; border-top: 3px solid var(--bim-orange);">
@@ -865,7 +882,7 @@ Wykrycia dodatkowych usterek podczas prac
 <p><strong>P: Jak dokładne są szacunki remediacyjne ze względu na niewiadome?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Przy odpowiednich badaniach inwazyjnych osiągamy dokładność ±5-8% w projektach remediacyjnych (vs. nasz standard ±5% dla nowej budowy). Dodatkowa wariancja uwzględnia nieoczekiwane usterki. Dostarczamy przejrzyste zestawienia rezerw dla przejrzystości.</p>
+<p>O: Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać. Nieoczekiwane usterki pokrywają wykazane osobno rezerwy, a nie ukryty narzut w stawkach.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -881,7 +898,7 @@ Wykrycia dodatkowych usterek podczas prac
 <p><strong>P: A co z azbestem lub innymi materiałami niebezpiecznymi?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynku sugeruje prawdopodobną obecność. Współpracujemy ze specjalistycznymi geodetami azbestu w celu doprecyzowania kosztów usunięcia i uwzględniamy właściwą utylizację, monitoring powietrza i koszty powiadomienia.</p>
+<p>O: Uwzględniamy zabezpieczenia na badania azbestu i usunięcie, gdy wiek budynku sugeruje prawdopodobną obecność. Korzystamy z opinii rzeczoznawców do spraw azbestu w celu doprecyzowania kosztów usunięcia i uwzględniamy właściwą utylizację, monitoring powietrza i koszty powiadomienia.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -889,8 +906,8 @@ Wykrycia dodatkowych usterek podczas prac
 <p><strong>P: Jaka jest wasza struktura opłat za projekty remediacyjne?</strong></p>
 </div>
 <div class="faq-answer">
-<p>O: Opłaty zależą od wielkości budynku, złożoności usterek i pilności. Wszystkie wyceny indywidualne - skontaktuj się z nami, aby otrzymać konkretną ofertę dla Twojego projektu.</p>
-<p>Tryb ekspresowy (3-4 dni) wiąże się z premią 25%.</p>
+<p>O: Wycena za pakiet, uzgodniona przed rozpoczęciem pracy. Bez rozliczeń godzinowych i bez opłat za zakres, którego nie uzgodniliśmy.</p>
+<p>Prześlij dokumentację, a odpowiemy w ciągu jednego dnia roboczego.</p>
 </div>
 </div>
 </div>
@@ -903,26 +920,26 @@ Wykrycia dodatkowych usterek podczas prac
 Nie Daj Się Zaskoczyć Ukrytym Kosztom Remediacji
 </h2>
 <p style="color: var(--bim-white); font-size: 20px; margin-bottom: 32px;">
-Uzyskaj precyzyjne koszty remediacji dla termomodernizacji, konsultacji mieszkańców i planowania projektu. Ekspertyza w przeponach ogniowych i remediacji elewacji, której możesz zaufać.
+Mierzone przedmiary i wyceny remediacji na potrzeby termomodernizacji, konsultacji z mieszkańcami i planowania projektu.
 </p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
+<i aria-hidden="true" class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Omów swoje potrzeby remediacyjne
+Omów swoje potrzeby remediacyjne bezpośrednio z Robertem Kowalskim
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;">
-<strong>+48 123 456 789</strong>
+<strong>+48 508 209 313</strong>
 </p>
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę
+<i aria-hidden="true" class="bi bi-file-earmark-text-fill"></i> Otrzymaj wycenę
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Odpowiedź w ciągu 24 godzin z propozycją
+Odpowiedź w ciągu jednego dnia roboczego
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
 <a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a>
@@ -930,31 +947,31 @@ Odpowiedź w ciągu 24 godzin z propozycją
 </div>
 <div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
 <h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;">
-<i class="bi bi-calendar-check-fill"></i> Bezpłatna Konsultacja
+<i aria-hidden="true" class="bi bi-calendar-check-fill"></i> Przedmiar próbny
 </h3>
 <p style="color: var(--bim-white); margin: 0;">
-Wstępna konsultacja bez zobowiązań
+Prześlij fragment dokumentacji, zmierzymy go bez opłaty
 </p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;">
-<a href="../kontakt.html" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a>
+<a href="../kontakt.html#probny" style="color: var(--bim-orange); text-decoration: underline;">Prześlij fragment →</a>
 </p>
 </div>
 </div>
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 32px;">
-<p><a class="cta-primary" href="../kontakt.html">Bezpłatna Konsultacja</a> <a class="cta-secondary" href="../coming-soon.html">Nasze Portfolio</a> <a class="cta-secondary" href="mailto:info@bimtakeoff.com">Zapytaj o Wycenę</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 <div style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści od Przepon Ogniowych</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Przepony ogniowe i uszczelnienia</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Remediacji Elewacji</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Remediacja elewacji</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja w 3-8 Dni</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja w 3–8 dni</strong>
 </p>
 <p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rezerwy Oparte na Ryzyku</strong>
+<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rezerwy ryzyka wykazane osobno</strong>
 </p>
 </div>
 </div>
@@ -1371,30 +1388,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -67,9 +67,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- Atom Feed Autodiscovery (Polish) -->
 <link href="https://www.bimtakeoff.com/pl/feed.xml" rel="alternate" title="BIM Takeoff - Publikacje" type="application/atom+xml"/>
 <!-- Resource Hints for Performance -->
-<link crossorigin="" href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<!-- Brand font. Loaded here, not via @import in styles.css:
+     an @import blocks rendering of the stylesheet that contains it. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
 <link href="https://leadbooster-chat.pipedrive.com" rel="dns-prefetch"/>
 <!-- Preload Critical Assets -->
@@ -79,6 +82,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Bootstrap Icons (deferred for non-critical icons) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'" rel="stylesheet"/>
 <noscript><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/></noscript>
+<!-- Cookie Consent Banner styles -->
+<link href="https://www.bimtakeoff.com/css/consent-banner.css" rel="stylesheet"/>
+<!-- Google Consent Mode v2 defaults (denied until the visitor chooses) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', functionality_storage:'granted', security_storage:'granted', wait_for_update: 500});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,26 +103,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1KYLVZ91F7');
+  gtag('config', 'G-1KYLVZ91F7', {
+    page_language: document.documentElement.lang,
+    page_type: (function(){
+      var path = window.location.pathname;
+      if (path === '/' || path === '/pl/' || path === '/pl') return 'home';
+      if (path.indexOf('/services/') !== -1 || path.indexOf('/pl/uslugi/') !== -1) return 'service';
+      if (path.indexOf('/industries/') !== -1 || path.indexOf('/pl/branze/') !== -1) return 'industry';
+      if (path.indexOf('/resources/') !== -1 || path.indexOf('/pl/zasoby/') !== -1) return 'resource';
+      if (path.indexOf('/contact') !== -1 || path.indexOf('/pl/kontakt') !== -1) return 'contact';
+      return 'page';
+    })()
+  });
 </script>
 <!-- End Google tag (gtag.js) -->
-<!-- LinkedIn Insight Tag -->
-<script type="text/javascript">
-_linkedin_partner_id = "8743217";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-</script>
-<!-- End LinkedIn Insight Tag -->
+<!-- Bing Webmaster verification: pending code from Robert -->
+<!-- <meta name="msvalidate.01" content="BING_VERIFICATION_CODE"> -->
 <!-- Twitter Card metadata (Polish) -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
@@ -125,7 +132,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
   "@type": "ProfessionalService",
   "name": "BIM Takeoff",
   "alternateName": "BIM Takeoff Polska",
-  "description": "Profesjonalne usługi kosztorysowania BIM 5D i przedmiarów budowlanych. Ponad 20 lat doświadczenia międzynarodowego, 2000+ zrealizowanych projektów w UK, Australii i Polsce.",
+  "description": "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny przetargowe dla wykonawców. Dwadzieścia lat doświadczenia kosztorysowego w Polsce, Wielkiej Brytanii i Australii.",
   "url": "https://www.bimtakeoff.com/pl",
   "logo": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
   "image": "https://www.bimtakeoff.com/images/BIM TAKEOFF V2-2.jpg",
@@ -174,14 +181,8 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
     "Przygotowanie ofert przetargowych"
   ],
   "priceRange": "$$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "20"
-  },
   "sameAs": [
-    "https://www.linkedin.com/company/bimtakeoff",
-    "https://twitter.com/bimtakeoff"
+    "https://www.linkedin.com/company/bimtakeoff"
   ],
   "knowsLanguage": [
     {
@@ -249,7 +250,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item">
 <a class="nav-link" href="../index.html">
-<span class="menu-text">Strona Główna</span></a>
+<span class="menu-text">Strona główna</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-usługi" role="button">
@@ -257,97 +258,72 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-usługi" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
+<span class="dropdown-text">Przedmiar robót</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">
-<span class="dropdown-text">Kosztorysowanie i Planowanie Budżetu</span></a>
+<span class="dropdown-text">Kosztorys ofertowy</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kosztorys-inwestorski-i-ofertowy.html">
+<span class="dropdown-text">Kosztorys inwestorski</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/specjalistyczne-branzy-budowlane.html">
-<span class="dropdown-text">Specjalistyczne Usługi Branżowe</span></a>
+<span class="dropdown-text">Hale stalowe i konstrukcje prefabrykowane</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../uslugi/automatyczny-przedmiar-obmiar.html">
-<span class="dropdown-text">Automatyczny Przedmiar z Modeli BIM</span></a>
+<a class="dropdown-item" href="../">
+<span class="dropdown-text">Pakiety branżowe (UK i Australia)</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li class="dropdown-header">Więcej</li>
+<li>
+<a class="dropdown-item" href="../uslugi/przedmiar-robot-z-modelu-bim.html">
+<span class="dropdown-text">Przedmiar robót z modelu BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
+<span class="dropdown-text">Tradycyjny przedmiar z rysunków 2D</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
+<span class="dropdown-text">Przygotowanie ofert przetargowych</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/szybka-kontrola-kosztow.html">
-<span class="dropdown-text">Bieżąca Kontrola Kosztów</span></a>
+<span class="dropdown-text">Bieżąca kontrola kosztów</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
+<span class="dropdown-text">Kosztorysowanie instalacji MEP</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
+<span class="dropdown-text">Analiza wariantowa</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
+<span class="dropdown-text">Kompleksowe raportowanie</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
+<span class="dropdown-text">Zarządzanie danymi BIM</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
+<span class="dropdown-text">Logistyka budowlana</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../uslugi/kosztorysowanie-breeam-esg.html">
 <span class="dropdown-text">Kosztorysowanie BREEAM/ESG</span></a>
 </li>
-<li>
-<a class="dropdown-item" href="../uslugi/precyzyjne-kosztorysowanie-mep.html">
-<span class="dropdown-text">Kosztorysowanie Instalacji MEP</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/analiza-wieloscenariuszowa.html">
-<span class="dropdown-text">Analiza Wariantowa</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/kompleksowe-raportowanie.html">
-<span class="dropdown-text">Kompleksowe Raportowanie</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/pisanie-ofert-i-zarzadzanie-przetargami.html">
-<span class="dropdown-text">Przygotowanie Ofert Przetargowych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/tradycyjny-przedmiar-ilosci.html">
-<span class="dropdown-text">Tradycyjny Przedmiar z Rysunków 2D</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/zarzadzanie-danymi-budowlanymi.html">
-<span class="dropdown-text">Zarządzanie Danymi BIM</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../uslugi/logistyka-budowlana.html">
-<span class="dropdown-text">Logistyka Budowlana</span></a>
-</li>
-</ul>
-</li>
-<li class="nav-item dropdown">
-<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-branże" role="button">
-<span class="menu-text">Branże</span>
-</a>
-<ul aria-labelledby="nav-menu-branże" class="dropdown-menu">
-<li>
-<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
-<span class="dropdown-text">Magazyny i Logistyka</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/centra-danych.html">
-<span class="dropdown-text">Centra Danych</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
-<span class="dropdown-text">Deweloperstwo Mieszkaniowe</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/remediacja.html">
-<span class="dropdown-text">Remediacja i Modernizacja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
-<span class="dropdown-text">Deweloperstwo Komercyjne</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
-<span class="dropdown-text">Opieka Zdrowotna</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
-<span class="dropdown-text">Przemysł i Produkcja</span></a>
-</li>
-<li>
-<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
-<span class="dropdown-text">Infrastruktura</span></a>
-</li>
 </ul>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="../wygrywanie-przetargow.html">
-<span class="menu-text">Wygrywanie Przetargów</span></a>
+<span class="menu-text">Przetargi</span></a>
 </li>
 <li class="nav-item dropdown">
 <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="nav-menu-zasoby" role="button">
@@ -355,16 +331,58 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </a>
 <ul aria-labelledby="nav-menu-zasoby" class="dropdown-menu">
 <li>
+<a class="dropdown-item" href="../zasoby/czym-jest-kosztorysowanie-bim-5d.html">
+<span class="dropdown-text">Czym jest kosztorysowanie BIM 5D?</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../zasoby/publikacje/index.html">
+<span class="dropdown-text">Publikacje</span></a>
+</li>
+<li>
 <a class="dropdown-item" href="../zasoby/przewodnik-bim-2030.html">
 <span class="dropdown-text">Przewodnik BIM 2030</span></a>
 </li>
 <li>
 <a class="dropdown-item" href="../zasoby/kalkulator-roi.html">
-<span class="dropdown-text">Kalkulator Oszczędności</span></a>
+<span class="dropdown-text">Kalkulator oszczędności</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-mieszkaniowe.html">
+<span class="dropdown-text">Deweloperstwo mieszkaniowe</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="../coming-soon.html">
-<span class="dropdown-text">Studia Przypadków</span></a>
+<a class="dropdown-item" href="../branze/remediacja.html">
+<span class="dropdown-text">Remediacja i modernizacja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/spoldzielnie-mieszkaniowe.html">
+<span class="dropdown-text">Spółdzielnie mieszkaniowe</span></a>
+</li>
+<li><hr class="dropdown-divider"/></li>
+<li>
+<a class="dropdown-item" href="../branze/magazyny-logistyka.html">
+<span class="dropdown-text">Magazyny i logistyka</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/centra-danych.html">
+<span class="dropdown-text">Centra danych</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/deweloperstwo-komercyjne.html">
+<span class="dropdown-text">Deweloperstwo komercyjne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/obiekty-medyczne.html">
+<span class="dropdown-text">Obiekty medyczne</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/przemysl-i-produkcja.html">
+<span class="dropdown-text">Przemysł i produkcja</span></a>
+</li>
+<li>
+<a class="dropdown-item" href="../branze/infrastruktura-i-roboty-inzynieryjne.html">
+<span class="dropdown-text">Infrastruktura i roboty inżynieryjne</span></a>
 </li>
 </ul>
 </li>
@@ -414,7 +432,7 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </header>
 <div class="hero-section">
 <div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg"> <source src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
+<p><video autoplay="" loop="" muted="" playsinline="" poster="../../images/header-background.jpg" preload="none"> <source data-src="../../images/hero-video.webm" type="video/webm"/> <source data-src="../../images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
 <div class="container">
 <section class="level1 hero-title" id="kalkulator-roi-oblicz-swoje-oszczędności-bim-5d">
@@ -424,36 +442,35 @@ s.parentNode.insertBefore(b, s);})(window.lintrk);
 </section>
 </section>
 <div class="hero-subtitle">
-<p>Większość projektów budowlanych notuje oszczędności rzędu 30% przy jednoczesnej poprawie dokładności z ±15% do ±5%.<br/>
-Darmowe, natychmiastowe obliczenie - bez rejestracji.</p>
+<p>Oszacuj, ile Twój dział ofertowy oszczędza na przedmiarze wykonanym na zewnątrz. Poniższe liczby są ilustracją opartą na założeniach, które wpisujesz, a nie obietnicą. Zmień dowolne założenie, a wynik się zmieni.</p>
 </div>
 <div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 <div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie wielu walut:</strong> PLN, EUR, GBP, USD, AUD
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Wsparcie wielu walut:</strong> PLN, EUR, GBP, USD, AUD
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Obliczenia specyficzne dla projektu</strong> dla wszystkich typów budynków
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Obliczenia specyficzne dla projektu</strong> dla wszystkich typów budynków
 </p>
 <p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zweryfikowane w branży</strong> na podstawie ponad 2000 zrealizowanych projektów
+<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Oparte na naszej własnej pracy przetargowej</strong> w Wielkiej Brytanii, Australii i Polsce
 </p>
 </div>
 </div>
 <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-<p><a class="cta-primary" href="../kontakt.html">Skontaktuj się z Nami</a> <a class="cta-secondary" href="../uslugi/kosztorysowanie-i-planowanie-budzetu.html">Zobacz Usługi</a></p>
+<p><a class="cta-primary" href="../kontakt.html">Prześlij dokumentację</a> <a class="cta-secondary" href="../kontakt.html#probny">Bezpłatny przedmiar próbny</a></p>
 </div>
 </div>
 </div>
-<div class="container">
+<p>::: {.container}</p>
 <div class="roi-problem-statement" style="background: #FFF8F0; padding: 32px; border-left: 4px solid var(--bim-orange); margin: 40px 0; border-radius: 8px;">
 <section class="level3" id="wyzwanie">
 <h3 class="anchored" data-anchor-id="wyzwanie">Wyzwanie</h3>
-<p>Tradycyjne kosztorysowanie trwa 6-8 tygodni z dokładnością ±10-15%. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą miliony na możliwych do uniknięcia kosztach.</p>
+<p>Tradycyjne kosztorysowanie potrafi trwać 6-8 tygodni, a wycena często odbiega od kosztów rzeczywistych. Złe wyceny prowadzą do przekroczeń budżetu, opóźnień i kosztownych przeróbek. Spółdzielnie mieszkaniowe i deweloperzy tracą pieniądze na możliwych do uniknięcia kosztach.</p>
 </section>
-<section class="level3" id="nasze-rozwiązanie">
-<h3 class="anchored" data-anchor-id="nasze-rozwiązanie">Nasze Rozwiązanie</h3>
-<p>Kosztorysowanie BIM 5D dostarcza wyniki w 3-10 dni z dokładnością ±5%, redukując niepewność i eliminując koszty związane z naprawami. Oszczędzając nawet do 50% kosztów.</p>
+<section class="level3" id="nasze-podejście">
+<h3 class="anchored" data-anchor-id="nasze-podejście">Nasze podejście</h3>
+<p>Mierzony przedmiar BIM 5D dostarczamy w 3-10 dni, na podstawie rysunków i specyfikacji, które nam przesyłasz. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać — dzięki temu widzisz dokładnie, na czym oparte są poniższe liczby.</p>
 </section>
 </div>
 <div id="calculator-container">
@@ -463,7 +480,7 @@ Darmowe, natychmiastowe obliczenie - bez rejestracji.</p>
 <h2 class="anchored" data-anchor-id="szczegóły-twojego-projektu">Szczegóły Twojego Projektu</h2>
 <form id="roi-form">
 <div class="form-group" style="margin-bottom: 24px;">
-<p><label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);"> <i class="bi bi-currency-exchange"></i> Waluta </label> <select class="form-control" id="currency-selector" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;"> <option selected="" value="EUR">🇪🇺 Euro (EUR)</option> <option value="PLN">🇵🇱 Polski Złoty (PLN)</option> <option value="GBP">🇬🇧 Funt Brytyjski (GBP)</option> <option value="USD">🇺🇸 Dolar Amerykański (USD)</option> <option value="AUD">🇦🇺 Dolar Australijski (AUD)</option> </select></p>
+<p><label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);"> <i aria-hidden="true" class="bi bi-currency-exchange"></i> Waluta </label> <select class="form-control" id="currency-selector" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;"> <option selected="" value="EUR">🇪🇺 Euro (EUR)</option> <option value="PLN">🇵🇱 Polski Złoty (PLN)</option> <option value="GBP">🇬🇧 Funt Brytyjski (GBP)</option> <option value="USD">🇺🇸 Dolar Amerykański (USD)</option> <option value="AUD">🇦🇺 Dolar Australijski (AUD)</option> </select></p>
 </div>
 <div class="form-group" style="margin-bottom: 24px;">
 <p><label for="project-type" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);"> Typ Projektu </label> <select class="form-control" id="project-type" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;"> <option value="residential">Mieszkaniowy (Budownictwo wielorodzinne)</option> <option value="commercial">Komercyjny (Biura, Handel)</option> <option value="industrial">Przemysłowy (Magazyny, Logistyka)</option> <option value="thermal">Termomodernizacja</option> <option value="infrastructure">Infrastruktura</option> <option value="mixed">Zabudowa Mieszana</option> </select></p>
@@ -482,12 +499,15 @@ Darmowe, natychmiastowe obliczenie - bez rejestracji.</p>
 </div>
 </div>
 <div class="form-group" style="margin-bottom: 24px;">
-<label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color:--bim-charcoal);"> Obecna Dokładność Kosztorysu <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span> <i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="O ile zazwyczaj różnią się ostateczne koszty od wstępnych szacunków?"></i> </label> <input id="cost-variance" max="30" min="5" step="1" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;" type="range" value="15"/>
+<label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color:--bim-charcoal);"> Rozrzut, który widzisz dziś między wyceną a kosztem końcowym <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span> <i aria-hidden="true" class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="O ile zazwyczaj różnią się ostateczne koszty od wstępnych szacunków?"></i> </label> <input id="cost-variance" max="30" min="5" step="1" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;" type="range" value="15"/>
 <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
-<p><span>±5% (Doskonałe)</span> <span>±30% (Słabe)</span></p>
+<p><span>±5%</span> <span>±30%</span></p>
 </div>
+<p style="font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 8px; margin-bottom: 0;">
+Wybierz wartość zgodną z Twoimi własnymi danymi przetargowymi.
+</p>
 </div>
-<button id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;" type="button">
+<button id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;" type="button">
 Oblicz Moje Oszczędności
 </button>
 </form>
@@ -524,10 +544,10 @@ Oszczędność Czasu
 <span style="font-size: 1.5rem;">📊</span>
 <div>
 <div style="font-size: 0.85rem; color: var(--bim-medium-gray);">
-Poprawa Dokładności
+Twoje założenie rozrzutu
 </div>
 <div id="accuracy-improvement" style="font-size: 1.3rem; font-weight: 700; color: var(--bim-charcoal);">
-±15% → ±5%
+±15%
 </div>
 </div>
 </div>
@@ -564,7 +584,7 @@ Zobacz szczegółowe zestawienie zawierające:
 ✓ Wartość ograniczania ryzyka
 </li>
 </ul>
-<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
+<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
 Pobierz Pełny Raport ROI
 </button>
 </div>
@@ -577,37 +597,20 @@ Pobierz Pełny Raport ROI
 <div style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; max-width: 900px; margin: 0 auto;">
 <div class="trust-item">
 <div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">
-2,000+
-</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">
-Zrealizowanych Projektów
-</div>
-</div>
-<div class="trust-item">
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">
-±5%
-</div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">
-Dokładność Kosztowa
-</div>
-</div>
-<div class="trust-item">
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">
 3-10
 </div>
 <div style="color: var(--bim-medium-gray); margin-top: 4px;">
 Dni Realizacji
 </div>
 </div>
-<div class="trust-item">
-<div style="font-size: 2rem; font-weight: 700; color: var(--bim-orange);">
-750%
 </div>
-<div style="color: var(--bim-medium-gray); margin-top: 4px;">
-Średni ROI
-</div>
-</div>
-</div>
+<div style="max-width: 700px; margin: 24px auto 0; text-align: center; color: var(--bim-medium-gray);">
+<p style="margin: 4px 0;">
+Wycena za pakiet, uzgodniona przed rozpoczęciem pracy.
+</p>
+<p style="margin: 4px 0;">
+Ilości mierzymy z rysunków i specyfikacji, które otrzymujemy. Tam, gdzie dokumentacja jest niekompletna, wpisujemy założenie zamiast je ukrywać.
+</p>
 </div>
 </div>
 </div>
@@ -621,10 +624,10 @@ Dni Realizacji
     </p>
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
 <a class="btn btn-primary" href="../kontakt.html" style="background: #FF9900; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Bezpłatna Konsultacja
+        Prześlij dokumentację
       </a>
-<a class="btn btn-outline-light" href="tel:+48508209313" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
-        Zadzwoń +48 508 209 313
+<a class="btn btn-outline-light" href="../kontakt.html#probny" style="border: 2px solid #FFFFFF; padding: 15px 40px; font-size: 1.1rem; font-weight: 600; border-radius: 8px; text-decoration: none; color: #FFFFFF; display: inline-block;">
+        Bezpłatny przedmiar próbny
       </a>
 </div>
 <!-- Informacje Kontaktowe -->
@@ -632,21 +635,21 @@ Dni Realizacji
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left;">
 <div style="color: #E0E0E0;">
 <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-<i class="bi bi-telephone-fill"></i>
+<i aria-hidden="true" class="bi bi-telephone-fill"></i>
 </div>
 <div style="font-weight: 600; margin-bottom: 5px;">Telefon</div>
 <a href="tel:+48508209313" style="color: #FFFFFF; text-decoration: none;">+48 508 209 313</a>
 </div>
 <div style="color: #E0E0E0;">
 <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-<i class="bi bi-envelope-fill"></i>
+<i aria-hidden="true" class="bi bi-envelope-fill"></i>
 </div>
 <div style="font-weight: 600; margin-bottom: 5px;">Email</div>
 <a href="mailto:info@bimtakeoff.com" style="color: #FFFFFF; text-decoration: none;">info@bimtakeoff.com</a>
 </div>
 <div style="color: #E0E0E0;">
 <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-<i class="bi bi-globe"></i>
+<i aria-hidden="true" class="bi bi-globe"></i>
 </div>
 <div style="font-weight: 600; margin-bottom: 5px;">Zasięg Globalny</div>
 <div>🇬🇧 Wielka Brytania | 🇵🇱 Polska | 🇦🇺 Australia</div>
@@ -701,17 +704,32 @@ Twój raport ROI został wysłany na Twój adres email. Sprawdź swoją skrzynk�
 <p style="margin: 0 0 16px 0; font-weight: 600;">
 Gotowy, aby zacząć oszczędzać?
 </p>
-<p><a href="../kontakt.html" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: white; text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;"> Umów Bezpłatną Konsultację </a></p>
+<p><a href="../kontakt.html" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: var(--bim-charcoal); text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;"> Prześlij dokumentację </a></p>
 </div>
 <button id="close-thankyou" style="padding: 12px; background: transparent; color: var(--bim-medium-gray); border: 2px solid var(--bim-light-gray); border-radius: 4px; cursor: pointer; width: 100%;">
 Zamknij
 </button>
 </div>
 </div>
-<!-- jsPDF Library for PDF Report Generation -->
-<script src="../../js/jspdf.umd.min.js"></script>
+<!-- jsPDF Library - Loaded on demand when PDF is requested -->
+<script>
+// Defer jsPDF loading until user clicks "Download Full ROI Report"
+window.loadJsPDF = function() {
+  return new Promise((resolve, reject) => {
+    if (window.jspdf) {
+      resolve(window.jspdf);
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = '../../js/jspdf.umd.min.js';
+    script.onload = () => resolve(window.jspdf);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+};
+</script>
 <!-- Main Calculator Script -->
-<script src="../../js/roi-calculator.js"></script>
+<script defer="" src="../../js/roi-calculator.js"></script>
 <style>
 /* Responsywność Mobilna */
 @media (max-width: 768px) {
@@ -1251,30 +1269,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
 <div class="nav-footer">
 <div class="nav-footer-left">
-<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.<br/> Kosztorysowanie BIM 5D i przedmiary robót</p>
+<p>© 2026 BIM Takeoff. Wszelkie prawa zastrzeżone.</p>
 </div>
 <div class="nav-footer-center">
-<p><strong>Informacje</strong><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka Prywatności</a> | <a href="https://www.bimtakeoff.com/pl/regulamin.html">Warunki Współpracy</a></p>
+<p><strong>Usługi</strong><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html">Przedmiar robót</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorysowanie-i-planowanie-budzetu.html">Kosztorys ofertowy</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/kosztorys-inwestorski-i-ofertowy.html">Kosztorys inwestorski</a><br/> <a href="https://www.bimtakeoff.com/pl/uslugi/specjalistyczne-branzy-budowlane.html">Hale stalowe i konstrukcje prefabrykowane</a><br/> <a href="https://www.bimtakeoff.com/">Pakiety branżowe (UK i Australia)</a></p>
 </div>
 <div class="nav-footer-right">
-<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> <a href="tel:+48508209313">+48 508 209 313</a></p>
+<p><strong>Kontakt</strong><br/> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a><br/> PL <a href="tel:+48508209313">+48 508 209 313</a><br/> UK <a href="tel:+442032399967">+44 (0) 20 3239 9967</a><br/> <a href="https://www.bimtakeoff.com/pl/polityka-prywatnosci.html">Polityka prywatności</a> · <a href="https://www.bimtakeoff.com/pl/regulamin.html">Regulamin</a></p>
 </div>
 </div>
 </footer>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PLB9BH8W" style="display:none;visibility:hidden" width="0"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- LinkedIn Insight Tag (noscript) -->
-<noscript>
-<img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=8743217&amp;fmt=gif" style="display:none;" width="1"/>
-</noscript>
-<!-- End LinkedIn Insight Tag (noscript) -->
 <!-- Scroll Effects & Animations -->
 <script src="https://www.bimtakeoff.com/js/scroll-effects.js"></script>
 <script src="https://www.bimtakeoff.com/js/language-switcher.js"></script>
 <!-- Praevius Logo in Navbar -->
 <script src="https://www.bimtakeoff.com/js/praevius-navbar.js"></script>
-<!-- LinkedIn Conversion Tracking for Contact Links -->
-<script src="https://www.bimtakeoff.com/js/linkedin-tracking.js"></script>
+<!-- Engagement Tracking (contact_intent, cta_click, outbound_click, language_switch) -->
+<script src="https://www.bimtakeoff.com/js/engagement-tracking.js"></script>
+<!-- Cookie Consent Banner (Consent Mode v2 + LinkedIn Insight Tag loader) -->
+<script src="https://www.bimtakeoff.com/js/consent-banner.js"></script>
 <script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
