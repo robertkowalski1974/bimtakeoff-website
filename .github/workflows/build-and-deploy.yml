@@ -1,0 +1,99 @@
+name: Build and Deploy
+
+# Builds the Quarto site (root EN project + pl/ Polish project) and, on a
+# push to main, commits the rendered docs/ tree back so GitHub Pages
+# (source: main, path /docs) serves it. A pull_request run does the same
+# build for verification but never commits - it uploads docs/ as an
+# artifact instead so the PR can be reviewed before merge.
+#
+# Loop guard: the bot's own "Build site [skip ci]" commit only touches
+# docs/, which is excluded from the push trigger's paths, so it does not
+# re-trigger this workflow.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - '_archive/**'
+      - '**.md'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: pages-build
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+env:
+  PYTHON: python3
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.549
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Build summary"
+            echo ""
+            if [ -f docs/sitemap.xml ]; then
+              count=$(grep -c "<loc>" docs/sitemap.xml || true)
+              echo "- Sitemap URLs: ${count:-0}"
+            else
+              echo "- Sitemap URLs: docs/sitemap.xml not found"
+            fi
+            echo ""
+            echo "### scripts/check-links.py"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          "$PYTHON" scripts/check-links.py docs >> "$GITHUB_STEP_SUMMARY" 2>&1 || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload docs artifact (PR preview)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-site
+          path: docs/
+          retention-days: 7
+
+      - name: Commit and push built site
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          if [ -n "$(git status --porcelain docs)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs
+            git commit -m "Build site [skip ci]"
+            git push
+          else
+            echo "No changes to docs/ - nothing to commit."
+          fi
