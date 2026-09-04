@@ -6,8 +6,9 @@ description: "Kosztorysowanie deweloperstwa mieszkaniowego - od domów szeregowy
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Powtarzalnych Lokali</strong> - Automatyzacja standardowych układów</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie:</strong> Udokumentowane wyniki w UK, UE i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Ekspresowa Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Optymalizacja Powtarzalnych Lokali</strong> - Automatyzacja standardowych układów</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczenie:</strong> Udokumentowane wyniki w UK, UE i Australii</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Gotowe w ciągu 3-10 dni z dokładnością ±5%.
 Nowoczesne projekty mieszkaniowe napotykają wielorakie presje przy ciasnych marżach:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ograniczenia planistyczne** - Limity wysokości, gęstości, parkingu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożone przepisy** - Prawo budowlane, ochrona ppoż., dostępność</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ciasne marże** - Zysk wymaga precyzji kosztorysowania</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Wiele typów lokali** - Warianty 1, 2, 3-pokojowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Iteracje projektowe** - Równowaga między value engineering a jakością</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Ograniczenia planistyczne** - Limity wysokości, gęstości, parkingu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Złożone przepisy** - Prawo budowlane, ochrona ppoż., dostępność</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Ciasne marże** - Zysk wymaga precyzji kosztorysowania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Wiele typów lokali** - Warianty 1, 2, 3-pokojowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Iteracje projektowe** - Równowaga między value engineering a jakością</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Nowoczesne projekty mieszkaniowe napotykają wielorakie presje przy ciasnych mar
 Specjalistyczne BIM 5D dla zabudowy wielorodzinnej:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-10 dni** na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Biblioteki typów lokali** - Automatyzacja powtarzalnych układów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ekspertyza zgodności** - Prawo budowlane, standardy ppoż.</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Value engineering** - Optymalizacja kosztów bez kompromisów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-10 dni** na kompletny kosztorys (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Biblioteki typów lokali** - Automatyzacja powtarzalnych układów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ekspertyza zgodności** - Prawo budowlane, standardy ppoż.</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Value engineering** - Optymalizacja kosztów bez kompromisów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specjalistyczne BIM 5D dla zabudowy wielorodzinnej:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Szybkie Kosztorysowanie
 
 **Gotowe w ciągu 3-10 dni**
 
@@ -106,7 +107,7 @@ Idealne do:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Typów Lokali
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Optymalizacja Typów Lokali
 
 **Automatyczna Ekstrakcja**
 
@@ -120,7 +121,7 @@ Obsługa wielu:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zgodność i Przepisy
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zgodność i Przepisy
 
 **Standardy Budowlane**
 
@@ -134,7 +135,7 @@ Ekspercka wiedza:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza Wieloscenariuszowa
 
 **Porównanie Opcji Projektowych**
 
@@ -148,7 +149,7 @@ Analiza wpływu:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pisanie Ofert i Zarządzanie
 
 **Wsparcie Przetargów**
 
@@ -162,7 +163,7 @@ Pełna obsługa:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Tradycyjny Przedmiar
 
 **Wsparcie Rysunków 2D**
 
@@ -499,19 +500,19 @@ Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Zaplanuj Rozmowę</h3>
 <p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami mieszkaniowymi</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
 <p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
@@ -524,10 +525,10 @@ Skontaktuj się z nami, aby otrzymać dokładną wycenę dostosowaną do Twojego
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Rozległe Portfolio Mieszkaniowe</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Projekty od 10 do 200+ Lokali</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-10 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Rozległe Portfolio Mieszkaniowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Projekty od 10 do 200+ Lokali</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 3-10 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
 :::
 :::
 :::

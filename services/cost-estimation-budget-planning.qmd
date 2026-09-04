@@ -6,8 +6,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ With ±5% accuracy guaranteed.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Quantity Surveyors with international standards</strong></p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5D BIM Technology</strong> - 90-95% faster than traditional methods</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projects, 12M+ sqm delivered</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Quantity Surveyors with international standards</strong></p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>5D BIM Technology</strong> - 90-95% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Portfolio:</strong> 2000+ projects, 12M+ sqm delivered</p>
 :::
 :::
 
@@ -55,11 +56,11 @@ With ±5% accuracy guaranteed.
 Traditional cost estimation is slow, inaccurate, and risky:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 weeks for detailed estimates</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> ±15-20% accuracy margins</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Manual errors and missed items</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No real-time updates for design changes</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Fragmented data across multiple spreadsheets</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 6-8 weeks for detailed estimates</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> ±15-20% accuracy margins</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Manual errors and missed items</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> No real-time updates for design changes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Fragmented data across multiple spreadsheets</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -75,11 +76,11 @@ Traditional cost estimation is slow, inaccurate, and risky:
 Advanced 5D BIM Cost Estimation combines 3D modeling with cost and time data:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 days** for comprehensive estimates</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **±5% accuracy** guarantee</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automated quantity take-offs from BIM models</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-time cost impact of design changes</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Integrated data in one intelligent system</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3 days** for comprehensive estimates</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **±5% accuracy** guarantee</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Automated quantity take-offs from BIM models</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Real-time cost impact of design changes</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Integrated data in one intelligent system</p>
 :::
 :::
 
@@ -173,7 +174,7 @@ Advanced 5D BIM Cost Estimation combines 3D modeling with cost and time data:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Speed: 90-95% Faster
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Speed: 90-95% Faster
 
 **Traditional method:** 6-8 weeks  
 **Our 5D BIM method:** 3-10 days  
@@ -181,7 +182,7 @@ Advanced 5D BIM Cost Estimation combines 3D modeling with cost and time data:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Accuracy: ±5% Guarantee
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Accuracy: ±5% Guarantee
 
 **Traditional margins:** ±15-20%  
 **Our accuracy:** ±5% or better  
@@ -189,7 +190,7 @@ Advanced 5D BIM Cost Estimation combines 3D modeling with cost and time data:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Comprehensive: Nothing Missed
+### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Comprehensive: Nothing Missed
 
 Automated extraction from BIM  
 Cross-referenced with drawings  
@@ -197,7 +198,7 @@ All trades included
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Transparent: Full Visibility
+### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Transparent: Full Visibility
 
 Interactive 3D cost model  
 Drill-down to any element  
@@ -205,7 +206,7 @@ See where every dollar goes
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Flexible: Multi-Scenario Analysis
+### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Flexible: Multi-Scenario Analysis
 
 Compare design alternatives  
 Test different materials  
@@ -213,7 +214,7 @@ Make informed decisions
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integrated: Connects Everything
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Integrated: Connects Everything
 
 Links 3D model + costs + schedule  
 Real-time design change impact  
@@ -320,10 +321,10 @@ A: Absolutely. We offer full tendering support including: quantity take-off, det
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Experienced Surveyors</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Standards</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2000+ Projects Delivered</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Experienced Surveyors</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650 Standards</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2000+ Projects Delivered</strong></p>
 :::
 :::
 :::

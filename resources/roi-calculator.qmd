@@ -6,8 +6,9 @@ description: "Calculate potential savings from BIM 5D estimation. See how much t
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Free, instant calculation - no registration required.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Multi-currency support:</strong> PLN, GBP, EUR, USD, AUD</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Project-specific calculations</strong> for all building types</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Industry-validated</strong> based on 2,000+ completed projects</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Multi-currency support:</strong> PLN, GBP, EUR, USD, AUD</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Project-specific calculations</strong> for all building types</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Industry-validated</strong> based on 2,000+ completed projects</p>
 :::
 :::
 
@@ -62,7 +63,7 @@ BIM 5D estimation delivers in 3-10 days with ±5% accuracy, reducing change orde
 
 <div class="form-group" style="margin-bottom: 24px;">
 <label for="currency-selector" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
-<i class="bi bi-currency-exchange"></i> Currency
+<i class="bi bi-currency-exchange" aria-hidden="true"></i> Currency
 </label>
 <select id="currency-selector" class="form-control" style="width: 100%; padding: 12px; border: 2px solid var(--bim-light-gray); border-radius: 4px; font-size: 16px; background: white;">
 <option value="EUR">🇪🇺 Euro (EUR)</option>
@@ -124,7 +125,7 @@ Current Estimation Timeline
 <label for="cost-variance" style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--bim-charcoal);">
 Current Cost Variance
 <span id="variance-display" style="color: var(--bim-orange); float: right; font-weight: 700;">15%</span>
-<i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="How much do your final costs typically differ from initial estimates?"></i>
+<i class="bi bi-info-circle" style="color: var(--bim-medium-gray); font-size: 0.9rem; cursor: help;" title="How much do your final costs typically differ from initial estimates?" aria-hidden="true"></i>
 </label>
 <input type="range" id="cost-variance" min="5" max="30" step="1" value="15" style="width: 100%; height: 8px; border-radius: 4px; background: var(--bim-light-gray); outline: none; -webkit-appearance: none;">
 <div style="display: flex; justify-content: space-between; font-size: 0.85rem; color: var(--bim-medium-gray); margin-top: 4px;">
@@ -133,7 +134,7 @@ Current Cost Variance
 </div>
 </div>
 
-<button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
+<button type="button" id="calculate-btn" style="width: 100%; padding: 16px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; transition: all 0.3s; margin-top: 8px;">
 Calculate My Savings
 </button>
 
@@ -195,7 +196,7 @@ Calculate My Savings
 <li>✓ Project timeline optimization</li>
 <li>✓ Risk mitigation value</li>
 </ul>
-<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
+<button id="get-report-btn" style="width: 100%; padding: 14px; background: var(--bim-orange); color: var(--bim-charcoal); border: none; border-radius: 4px; font-size: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
 Download Full ROI Report
 </button>
 </div>
@@ -262,7 +263,7 @@ Download Full ROI Report
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left;">
         <div style="color: #E0E0E0;">
           <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
           </div>
           <div style="font-weight: 600; margin-bottom: 5px;">Phone</div>
           <a href="tel:+442032399967" style="color: #FFFFFF; text-decoration: none;">+44 (0) 20 3239 9967</a>
@@ -270,7 +271,7 @@ Download Full ROI Report
         
         <div style="color: #E0E0E0;">
           <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-            <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
           </div>
           <div style="font-weight: 600; margin-bottom: 5px;">Email</div>
           <a href="mailto:info@bimtakeoff.com" style="color: #FFFFFF; text-decoration: none;">info@bimtakeoff.com</a>
@@ -278,7 +279,7 @@ Download Full ROI Report
         
         <div style="color: #E0E0E0;">
           <div style="color: #FF9900; font-size: 1.5rem; margin-bottom: 10px;">
-            <i class="bi bi-globe"></i>
+            <i class="bi bi-globe" aria-hidden="true"></i>
           </div>
           <div style="font-weight: 600; margin-bottom: 5px;">Global Reach</div>
           <div>🇬🇧 UK | 🇵🇱 Poland | 🇦🇺 Australia</div>
@@ -334,7 +335,7 @@ Download Full ROI Report
 
 <div style="background: var(--bim-light-gray); padding: 20px; border-radius: 6px; margin-bottom: 24px;">
 <p style="margin: 0 0 16px 0; font-weight: 600;">Ready to start saving?</p>
-<a href="../contact.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: white; text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
+<a href="../contact.qmd" style="display: inline-block; padding: 14px 32px; background: var(--bim-orange); color: var(--bim-charcoal); text-decoration: none; border-radius: 4px; font-weight: 700; transition: all 0.3s;">
 Book Free Consultation
 </a>
 </div>

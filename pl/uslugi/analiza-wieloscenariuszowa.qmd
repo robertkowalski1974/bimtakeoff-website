@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Zidentyfikuj optymalną wartość bez kompromisu w jakości.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Porównania równoległe</strong> – oceń wiele opcji jednocześnie</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Matryca koszt-wydajność</strong> – równowaga między budżetem a funkcjonalnością</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Oszczędności 10-20%</strong> bez poświęcania jakości</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Porównania równoległe</strong> – oceń wiele opcji jednocześnie</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Matryca koszt-wydajność</strong> – równowaga między budżetem a funkcjonalnością</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Oszczędności 10-20%</strong> bez poświęcania jakości</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Zidentyfikuj optymalną wartość bez kompromisu w jakości.
 Większość projektów bada tylko jedno rozwiązanie:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pierwsze rozwiązanie projektanta staje się ostateczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak porównania kosztów i korzyści dla alternatywnych rozwiązań</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Optymalizacja wartości dopiero po przekroczeniu budżetu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Późne zmiany są kosztowne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Utracone możliwości optymalizacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Interesariusze pozbawieni danych do podejmowania decyzji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pierwsze rozwiązanie projektanta staje się ostateczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak porównania kosztów i korzyści dla alternatywnych rozwiązań</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Optymalizacja wartości dopiero po przekroczeniu budżetu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Późne zmiany są kosztowne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Utracone możliwości optymalizacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Interesariusze pozbawieni danych do podejmowania decyzji</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Większość projektów bada tylko jedno rozwiązanie:
 Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 scenariuszy** ocenianych równolegle</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wymierne porównania** kosztów, czasu i wydajności</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja we wczesnej fazie** przed projektem szczegółowym</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Decyzje oparte na danych** z przejrzystymi kompromisami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **10-20% oszczędności** zidentyfikowane proaktywnie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Konsensus interesariuszy** poprzez przejrzystą analizę</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 scenariuszy** ocenianych równolegle</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wymierne porównania** kosztów, czasu i wydajności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja we wczesnej fazie** przed projektem szczegółowym</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Decyzje oparte na danych** z przejrzystymi kompromisami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **10-20% oszczędności** zidentyfikowane proaktywnie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Konsensus interesariuszy** poprzez przejrzystą analizę</p>
 :::
 :::
 
@@ -89,7 +90,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-currency-exchange" style="color: var(--bim-orange); margin-right: 8px;"></i>Koszt Inwestycyjny
+#### <i class="bi bi-currency-exchange" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Koszt Inwestycyjny
 
 - Początkowy koszt budowy
 - Zakup materiałów
@@ -98,7 +99,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 :::
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-clock-history" style="color: var(--bim-orange); margin-right: 8px;"></i>Wpływ na Harmonogram
+#### <i class="bi bi-clock-history" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Wpływ na Harmonogram
 
 - Czas trwania budowy
 - Wpływ na ścieżkę krytyczną
@@ -107,7 +108,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 :::
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Koszty Cyklu Życia
+#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Koszty Cyklu Życia
 
 - 30-letnie koszty eksploatacji
 - Wymagania konserwacyjne
@@ -116,7 +117,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 :::
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Wydajność Techniczna
+#### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Wydajność Techniczna
 
 - Efektywność konstrukcyjna
 - Efektywność energetyczna
@@ -125,7 +126,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 :::
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 8px;"></i>Ocena Ryzyka
+#### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Ocena Ryzyka
 
 - Złożoność wykonawcza
 - Dostępność materiałów
@@ -134,7 +135,7 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 :::
 
 ::: {style="background: white; padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 8px;"></i>Zrównoważony Rozwój
+#### <i class="bi bi-tree-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Zrównoważony Rozwój
 
 - Emisja wbudowana
 - Emisja operacyjna
@@ -291,13 +292,13 @@ Systematyczna ocena wariantów projektowych z wymiernym wpływem:
 Każda analiza wieloscenariuszowa zawiera:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Matryca Porównawcza Kosztów** (wszystkie scenariusze)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Cyklu Życia** (horyzont 30 lat)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ocena Wpływu na Harmonogram**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Raporty Oceny Ryzyka**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Panel Matrycy Decyzyjnej**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Streszczenie Wykonawcze i Rekomendacje**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Materiały Prezentacyjne** dla interesariuszy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Matryca Porównawcza Kosztów** (wszystkie scenariusze)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Cyklu Życia** (horyzont 30 lat)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ocena Wpływu na Harmonogram**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Raporty Oceny Ryzyka**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Panel Matrycy Decyzyjnej**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Streszczenie Wykonawcze i Rekomendacje**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Materiały Prezentacyjne** dla interesariuszy</p>
 :::
 :::
 
@@ -307,13 +308,13 @@ Każda analiza wieloscenariuszowa zawiera:
 Wzmocnij swoją analizę dzięki:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie Wpływu Węglowego** - Szczegółowy CO2 wbudowany/operacyjny</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Punktów BREEAM** - Wpływ na certyfikację</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Symulacja Energetyczna** - Szczegółowe modelowanie termiczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Wrażliwości** - Testowanie założeń i zmiennych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja Rynkowa** - Walidacja kosztów z dostawcami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Warsztat Interesariuszy** - Facylitowana sesja decyzyjna</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Iteracje Dodatkowe** - Dodatkowe testowanie scenariuszy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Modelowanie Wpływu Węglowego** - Szczegółowy CO2 wbudowany/operacyjny</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Punktów BREEAM** - Wpływ na certyfikację</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Symulacja Energetyczna** - Szczegółowe modelowanie termiczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Wrażliwości** - Testowanie założeń i zmiennych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Weryfikacja Rynkowa** - Walidacja kosztów z dostawcami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Warsztat Interesariuszy** - Facylitowana sesja decyzyjna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Iteracje Dodatkowe** - Dodatkowe testowanie scenariuszy</p>
 :::
 :::
 
@@ -436,10 +437,10 @@ O: Nasza matryca decyzyjna obejmuje ważone kryteria ustalone przez Wasz zespó�
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>5-10 Scenariuszy Ocenianych Równolegle</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-Wskaźnikowy System Oceny</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>10-20% Zidentyfikowanych Oszczędności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>5-10 Scenariuszy Ocenianych Równolegle</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>7-Wskaźnikowy System Oceny</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>10-20% Zidentyfikowanych Oszczędności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia Międzynarodowego</strong></p>
 :::
 :::
 :::

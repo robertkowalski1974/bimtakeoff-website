@@ -6,8 +6,9 @@ description: "Warehouse and logistics facility cost estimation. 50,000+ sqm proj
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Delivered in 3-7 days with ±5% accuracy.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Fast-Track Expertise</strong> - 90% faster than traditional methods</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Repetitive Element Optimization</strong> - Columns, beams, cladding</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Fast-Track Expertise</strong> - 90% faster than traditional methods</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Repetitive Element Optimization</strong> - Columns, beams, cladding</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Delivered in 3-7 days with ±5% accuracy.
 Modern warehouses are time-critical, high-volume projects with zero margin for error:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Tight deadlines** - Clients need facilities operational ASAP</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Large scale** - 50,000+ sqm with thousands of repetitive elements</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost pressure** - £500-1,500/sqm margins are thin</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Complex logistics** - Material delivery timing is critical</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Design changes** - Last-minute tenant requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Tight deadlines** - Clients need facilities operational ASAP</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Large scale** - 50,000+ sqm with thousands of repetitive elements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Cost pressure** - £500-1,500/sqm margins are thin</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Complex logistics** - Material delivery timing is critical</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Design changes** - Last-minute tenant requirements</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Modern warehouses are time-critical, high-volume projects with zero margin for e
 Specialized 5D BIM for logistics and distribution facilities:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-7 days** for complete estimate (vs 6-8 weeks traditional)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Repetitive element library** - Columns, beams, cladding automated</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pre-engineered building expertise** - Butler, Kirby, Astron systems</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Logistics planning** - Material staging and delivery schedules</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Change management** - Real-time cost impact in hours</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-7 days** for complete estimate (vs 6-8 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Repetitive element library** - Columns, beams, cladding automated</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pre-engineered building expertise** - Butler, Kirby, Astron systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Logistics planning** - Material staging and delivery schedules</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Change management** - Real-time cost impact in hours</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specialized 5D BIM for logistics and distribution facilities:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Fast-Track Estimation
 
 **3-7 Day Turnaround**
 
@@ -106,7 +107,7 @@ Perfect for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Repetitive Element Optimization
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Repetitive Element Optimization
 
 **Automated Extraction**
 
@@ -120,7 +121,7 @@ Handles thousands of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Construction Logistics
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Construction Logistics
 
 **Material Delivery Planning**
 
@@ -134,7 +135,7 @@ Critical for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Multi-Scenario Analysis
 
 **Compare Design Options**
 
@@ -148,7 +149,7 @@ Analyze impact of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Bid Writing & Management
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Bid Writing & Management
 
 **Competitive Tender Support**
 
@@ -162,7 +163,7 @@ Full service including:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Traditional Takeoff
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Traditional Takeoff
 
 **2D Drawing Support**
 
@@ -552,19 +553,19 @@ Express service (3-4 days) carries a 25% premium. Contact us for a specific quot
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Schedule Call</h3>
 <p style="color: var(--bim-white); margin: 0;">Discuss your project with our warehouse specialists</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
 <p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Book Consultation</h3>
 <p style="color: var(--bim-white); margin: 0;">Free 30-minute project review</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
 :::
@@ -577,10 +578,10 @@ Express service (3-4 days) carries a 25% premium. Contact us for a specific quot
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Extensive Warehouse Portfolio</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Large-Scale Projects Delivered</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-7 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy Guarantee</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Extensive Warehouse Portfolio</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Large-Scale Projects Delivered</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3-7 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5% Accuracy Guarantee</strong></p>
 :::
 :::
 :::

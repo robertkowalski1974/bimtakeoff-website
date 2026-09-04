@@ -5,14 +5,15 @@ page-layout: full
 author: "Robert Kowalski"
 date: "2025-11-23"
 categories: [Technologie Budowlane, AI, Kosztorysowanie, Recenzja Oprogramowania]
-image: "../../../images/AI-Estimating.png"
+image: "../../../images/AI-Estimating.jpg"
 lang: pl
 ---
 
 <div class="hero-section">
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg">
-    <source src="../../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../../images/header-background.jpg" preload="none">
+    <source data-src="../../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -96,7 +97,7 @@ Dokładność AI silnie zależy od jakości dokumentów źródłowych i typu pro
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;"}
 ::: {style="padding: 20px; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #4caf50;"}
-### <i class="bi bi-check-circle-fill" style="color: #4caf50;"></i> AI działa dobrze
+### <i class="bi bi-check-circle-fill" style="color: #4caf50;" aria-hidden="true"></i> AI działa dobrze
 
 - Nowe budowy z czystymi modelami BIM
 - Powtarzalne projekty mieszkaniowe
@@ -106,7 +107,7 @@ Dokładność AI silnie zależy od jakości dokumentów źródłowych i typu pro
 :::
 
 ::: {style="padding: 20px; background: #ffebee; border-radius: 8px; border-left: 4px solid #f44336;"}
-### <i class="bi bi-x-circle-fill" style="color: #f44336;"></i> AI zwykle zawodzi
+### <i class="bi bi-x-circle-fill" style="color: #f44336;" aria-hidden="true"></i> AI zwykle zawodzi
 
 - Remonty z niejasnym stanem istniejącym
 - Złożone projekty niestandardowe
@@ -400,9 +401,9 @@ Najlepszy punkt, jak eksperci branżowi konsekwentnie zauważają, leży w syner
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Profesjonalna walidacja wszystkich wyników</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±3-5% z nadzorem specjalistów</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Profesjonalna walidacja wszystkich wyników</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność ±3-5% z nadzorem specjalistów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

@@ -6,8 +6,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="images/header-background.jpg">
-    <source src="images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="images/header-background.jpg" preload="none">
+    <source data-src="images/hero-video.webm" type="video/webm">
+    <source data-src="images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Win 3× more contracts with better margins.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>35-45% Win Rate</strong> - vs. industry average 15-25%</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ Tenders Prepared</strong> - Across UK, EU & Australia</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BIM-Integrated Approach</strong> - Technology advantage</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>35-45% Win Rate</strong> - vs. industry average 15-25%</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>2,000+ Tenders Prepared</strong> - Across UK, EU & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>BIM-Integrated Approach</strong> - Technology advantage</p>
 :::
 :::
 
@@ -113,7 +114,7 @@ Unlike ad-hoc bid support, we provide a systematic approach that addresses every
 ::: {style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;"></i>Intelligence
+### <i class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Intelligence
 
 **Pre-Bid Strategy**
 
@@ -131,7 +132,7 @@ Stop wasting time on unwinnable jobs. Our Go/No-Go framework helps you focus res
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Documentation
+### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Documentation
 
 **Winning Submissions**
 
@@ -151,7 +152,7 @@ Professional tender packages that stand out from generic submissions. We bring U
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Protection
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Protection
 
 **Contract Safeguards**
 
@@ -169,7 +170,7 @@ Don't sign away your profit. We identify onerous clauses, protect variation righ
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Recovery
+### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Recovery
 
 **Project Value**
 
@@ -228,11 +229,11 @@ Research proves that BIM capability directly impacts tender outcomes. Our BIM-in
 Our tender submissions include capabilities most contractors can't deliver in-house:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>5D Cost Models</strong> - Accurate quantities linked to current market rates</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>4D Construction Sequences</strong> - Visual methodology that builds client confidence</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Clash Detection Reports</strong> - Proactive risk identification</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>BIM Execution Plans</strong> - ISO 19650 compliant deliverables</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Sustainability Integration</strong> - BREEAM/ESG credentials that developers require</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>5D Cost Models</strong> - Accurate quantities linked to current market rates</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>4D Construction Sequences</strong> - Visual methodology that builds client confidence</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Clash Detection Reports</strong> - Proactive risk identification</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>BIM Execution Plans</strong> - ISO 19650 compliant deliverables</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Sustainability Integration</strong> - BREEAM/ESG credentials that developers require</p>
 :::
 :::
 
@@ -258,43 +259,43 @@ Our tender winning services support contractors across the UK, Australia, and in
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Mid-Tier Contractors
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Mid-Tier Contractors
 
 £5M-£100M turnover seeking to compete with major contractors on technical merit rather than just price.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Specialist Trade Contractors
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Specialist Trade Contractors
 
 Drylining, facades, fire protection, steelwork, MEP - trades where methodology and specialist knowledge matter.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>International Contractors
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>International Contractors
 
 Entering UK, EU, or Australian markets and needing local expertise, standards compliance, and market understanding.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;"></i>Growth-Focused Firms
+### <i class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Growth-Focused Firms
 
 Currently winning less than 20% of bids and seeking to improve to 30-40%+ through systematic improvement.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Framework Aspirants
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Framework Aspirants
 
 Seeking first entry to major frameworks where professional applications are essential for success.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Private Sector Specialists
+### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Private Sector Specialists
 
 Targeting logistics developers, data center operators, and blue-chip clients requiring BREEAM credentials.
 :::
 
 ::: {.feature-card style="background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); color: white;"}
-### <i class="bi bi-trophy" style="color: var(--bim-orange); margin-right: 12px;"></i>David vs Goliath Specialists
+### <i class="bi bi-trophy" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>David vs Goliath Specialists
 
 <span style="color: rgba(255,255,255,0.9);">Helping smaller contractors beat Tier 1 competitors through superior tender strategy, not lower prices.</span>
 :::
@@ -312,10 +313,10 @@ Targeting logistics developers, data center operators, and blue-chip clients req
 When you have a must-win tender that needs professional review and improvement before deadline.
 
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> 48-hour compliance audit</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Pricing verification</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Methodology improvement</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Evidence strengthening</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 48-hour compliance audit</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Pricing verification</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Methodology improvement</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Evidence strengthening</p>
 </div>
 
 **Turnaround:** 5-7 days
@@ -331,11 +332,11 @@ When you have a must-win tender that needs professional review and improvement b
 End-to-end support from tender receipt to submission - our most popular service for major opportunities.
 
 <div style="margin: 24px 0; padding: 16px; background: rgba(255, 153, 0, 0.1); border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Intelligence & strategy</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Full documentation</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> BIM-integrated pricing</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> 4D methodology visuals</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Negotiation support</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Intelligence & strategy</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Full documentation</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> BIM-integrated pricing</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 4D methodology visuals</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Negotiation support</p>
 </div>
 
 **Investment:** 3-5% of contract value
@@ -351,10 +352,10 @@ End-to-end support from tender receipt to submission - our most popular service 
 For contractors seeking consistent tender support across multiple opportunities throughout the year.
 
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> 5 tenders/month capacity</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Priority response</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Team training included</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Strategic planning support</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 5 tenders/month capacity</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Priority response</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Team training included</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Strategic planning support</p>
 </div>
 
 **Investment:** Monthly retainer
@@ -376,11 +377,11 @@ Professional tender support pays for itself with a single additional win.
 ### Without Professional Support
 
 ::: {style="margin: 24px 0;"}
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 20 tenders submitted per year</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 15-20% win rate = 3-4 contracts won</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Price-only competition</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Tight margins, poor contract terms</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Variations left unrecovered</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 20 tenders submitted per year</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 15-20% win rate = 3-4 contracts won</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Price-only competition</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Tight margins, poor contract terms</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Variations left unrecovered</p>
 :::
 :::
 
@@ -388,18 +389,18 @@ Professional tender support pays for itself with a single additional win.
 ### With BIM Takeoff Support
 
 ::: {style="margin: 24px 0;"}
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 15 targeted tenders (strategic selection)</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 35-45% win rate = 5-7 contracts won</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Win on value, not just price</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Better margins, protected terms</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> +20-30% recovered on variations</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> 15 targeted tenders (strategic selection)</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> 35-45% win rate = 5-7 contracts won</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Win on value, not just price</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Better margins, protected terms</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> +20-30% recovered on variations</p>
 :::
 :::
 
 :::  
 
 ::: {style="margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.15); border-radius: 8px; border: 1px solid var(--bim-orange);"}
-<h4 style="color: var(--bim-orange); margin: 0 0 16px 0; font-size: 18px;"><i class="bi bi-calculator" style="margin-right: 8px;"></i>One Additional Win Example</h4>
+<h4 style="color: var(--bim-orange); margin: 0 0 16px 0; font-size: 18px;"><i class="bi bi-calculator" style="margin-right: 8px;" aria-hidden="true"></i>One Additional Win Example</h4>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
 <div>
 <p style="color: rgba(255,255,255,0.9); margin: 8px 0; font-size: 15px;"><strong>Investment:</strong></p>
@@ -509,9 +510,9 @@ A: Yes - frameworks require different approaches, demonstrating consistent capab
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2,000+ Tenders Prepared | 800+ Wins</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% Average Win Rate</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Tenders Prepared | 800+ Wins</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>35-45% Average Win Rate</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
 :::

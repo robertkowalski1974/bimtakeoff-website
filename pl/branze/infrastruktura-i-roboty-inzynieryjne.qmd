@@ -6,8 +6,9 @@ description: "Kosztorysowanie infrastruktury: drogi, mosty, tunele, media, robot
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ekspertyza Inżynierii Lądowej</strong> - Drogi, mosty, media, roboty ziemne</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Koordynacja Multidyscyplinarna</strong> - Geotechnika, konstrukcje, media</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Ekspertyza Inżynierii Lądowej</strong> - Drogi, mosty, media, roboty ziemne</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Koordynacja Multidyscyplinarna</strong> - Geotechnika, konstrukcje, media</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Międzynarodowe Doświadczenie</strong> - UK, UE & Australia</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Gotowe w ciągu 7-12 dni z dokładnością ±5-8%.
 Budownictwo infrastrukturalne napotyka unikatowe wyzwania skali i złożoności:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Warunki gruntowe** - Niewiadome geotechniczne i badania terenu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożoność skali** - Projekty liniowe ze zmiennymi warunkami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Koordynacja multidyscyplinarna** - Lądowa, konstrukcyjna, media, krajobraz</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Zarządzanie ruchem** - Prace w środowiskach operacyjnych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ograniczenia środowiskowe** - Zatwierdzenia ustawowe i mitygacje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Warunki gruntowe** - Niewiadome geotechniczne i badania terenu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Złożoność skali** - Projekty liniowe ze zmiennymi warunkami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Koordynacja multidyscyplinarna** - Lądowa, konstrukcyjna, media, krajobraz</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Zarządzanie ruchem** - Prace w środowiskach operacyjnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Ograniczenia środowiskowe** - Zatwierdzenia ustawowe i mitygacje</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Budownictwo infrastrukturalne napotyka unikatowe wyzwania skali i złożoności:
 Specjalistyczne BIM 5D dla projektów inżynierii lądowej i infrastruktury:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **7-12 dni** na kompletny kosztorys (vs 10-16 tygodni tradycyjnie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja robót ziemnych** - Bilans wykopu/nasypu i analiza transportu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Ekspertyza projektów liniowych** - Drogi, media, sieci drenażowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kosztorysowanie mostów i konstrukcji** - Szczegółowa analiza konstrukcji lądowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rezerwy na ryzyko** - Warunki gruntowe, media, środowisko</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **7-12 dni** na kompletny kosztorys (vs 10-16 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja robót ziemnych** - Bilans wykopu/nasypu i analiza transportu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Ekspertyza projektów liniowych** - Drogi, media, sieci drenażowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie mostów i konstrukcji** - Szczegółowa analiza konstrukcji lądowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rezerwy na ryzyko** - Warunki gruntowe, media, środowisko</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specjalistyczne BIM 5D dla projektów inżynierii lądowej i infrastruktury:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-sign-turn-right" style="color: var(--bim-orange); margin-right: 12px;"></i>Drogi i Autostrady
+### <i class="bi bi-sign-turn-right" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Drogi i Autostrady
 
 **Kosztorysowanie Infrastruktury Liniowej**
 
@@ -107,7 +108,7 @@ Szczegółowa analiza:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Mosty i Konstrukcje
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Mosty i Konstrukcje
 
 **Ekspertyza Konstrukcji Lądowych**
 
@@ -122,7 +123,7 @@ Kompletne kosztorysowanie:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-droplet-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Media i Usługi
+### <i class="bi bi-droplet-half" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Media i Usługi
 
 **Infrastruktura Podziemna**
 
@@ -137,7 +138,7 @@ Analiza:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Robót Ziemnych
+### <i class="bi bi-gear-wide-connected" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Optymalizacja Robót Ziemnych
 
 **Analiza Bilansu Mas**
 
@@ -152,7 +153,7 @@ Strategiczne planowanie:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-water" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Drenażowe
+### <i class="bi bi-water" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Systemy Drenażowe
 
 **Sieci Wód Opadowych i Ściekowych**
 
@@ -167,7 +168,7 @@ Kompleksowe kosztorysowanie:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Ruchem
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zarządzanie Ruchem
 
 **Prace w Środowisku Operacyjnym**
 
@@ -536,19 +537,19 @@ Tryb ekspresowy z 30% premium, gdzie dostępny. Skontaktuj się z nami, aby otrz
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Zaplanuj Rozmowę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Zaplanuj Rozmowę</h3>
 <p style="color: var(--bim-white); margin: 0;">Omów wymagania projektu z naszymi specjalistami</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
 <p style="color: var(--bim-white); margin: 0;">Odpowiedź w 24 godziny ze szczegółową propozycją</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu infrastrukturalnego</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Zaplanuj Teraz →</a></p>
 :::
@@ -561,10 +562,10 @@ Tryb ekspresowy z 30% premium, gdzie dostępny. Skontaktuj się z nami, aby otrz
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Specjaliści Inżynierii Lądowej</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Eksperci Optymalizacji Robót Ziemnych</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 9-12 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±5-8% z Rezerwami Ryzyka</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Specjaliści Inżynierii Lądowej</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Eksperci Optymalizacji Robót Ziemnych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 9-12 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność ±5-8% z Rezerwami Ryzyka</strong></p>
 :::
 :::
 :::

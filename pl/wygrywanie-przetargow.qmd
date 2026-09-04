@@ -7,8 +7,9 @@ lang: pl
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -25,9 +26,9 @@ Zwiększają Państwo liczbę wygranych kontraktów trzykrotnie przy zachowaniu 
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Skuteczność 35–45%</strong> wobec polskiej średniej 5–15%</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ponad 2000 przetargów</strong> zrealizowanych w Wielkiej Brytanii, UE i Australii</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia BIM 5D</strong> jako przewaga konkurencyjna</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Skuteczność 35–45%</strong> wobec polskiej średniej 5–15%</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Ponad 2000 przetargów</strong> zrealizowanych w Wielkiej Brytanii, UE i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Technologia BIM 5D</strong> jako przewaga konkurencyjna</p>
 :::  
 :::
 
@@ -203,10 +204,10 @@ Skuteczność polskich podwykonawców w przetargach wynosi zaledwie **5–15%**,
 **Źródło problemu jest inne:**
 
 <div style="margin: 24px 0; padding: 24px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Konkurowanie wyłącznie ceną</strong> – bez eksponowania wartości dodanej</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Nieprofesjonalna dokumentacja</strong> – przegrywa z kompleksowymi pakietami ofertowymi</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Niekorzystne warunki umowne</strong> – utrata marży już na etapie negocjacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> <strong>Brak dokumentacji robót dodatkowych</strong> – niewykorzystane możliwości finansowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> <strong>Konkurowanie wyłącznie ceną</strong> – bez eksponowania wartości dodanej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> <strong>Nieprofesjonalna dokumentacja</strong> – przegrywa z kompleksowymi pakietami ofertowymi</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> <strong>Niekorzystne warunki umowne</strong> – utrata marży już na etapie negocjacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> <strong>Brak dokumentacji robót dodatkowych</strong> – niewykorzystane możliwości finansowe</p>
 </div>
 :::
 
@@ -235,7 +236,7 @@ W przetargach prywatnych deweloperów (Panattoni, 7R, Goodman) kryteria technicz
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;"}
 
 ::: {style=""}
-### <i class="bi bi-calendar-x" style="color: var(--bim-orange);"></i> Wymóg BIM 2030 nadchodzi
+### <i class="bi bi-calendar-x" style="color: var(--bim-orange);" aria-hidden="true"></i> Wymóg BIM 2030 nadchodzi
 
 **Od 2030 roku** wszystkie duże projekty publiczne w Polsce będą wymagały stosowania BIM. Wykonawcy bez kompetencji BIM zostaną **automatycznie wykluczeni** z 40% rynku.
 
@@ -247,7 +248,7 @@ W przetargach prywatnych deweloperów (Panattoni, 7R, Goodman) kryteria technicz
 :::
 
 ::: {style=""}
-### <i class="bi bi-currency-euro" style="color: var(--bim-orange);"></i> Fundusze UE 2021–2027
+### <i class="bi bi-currency-euro" style="color: var(--bim-orange);" aria-hidden="true"></i> Fundusze UE 2021–2027
 
 **135 miliardów EUR** dla Polski – największy budżet w historii. Wymagania są jednak wyższe niż kiedykolwiek:
 
@@ -276,7 +277,7 @@ W przeciwieństwie do doraźnego wsparcia, oferujemy systemowe podejście obejmu
 ::: {style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;"></i>Analiza
+### <i class="bi bi-search" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Analiza
 
 **Strategia przedofertowa**
 
@@ -294,7 +295,7 @@ Skoncentrowanie zasobów na przetargach z realnymi szansami powodzenia. Nasza ma
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Dokumentacja
+### <i class="bi bi-file-earmark-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Dokumentacja
 
 **Profesjonalne pakiety ofertowe**
 
@@ -312,7 +313,7 @@ Kompleksowe pakiety przetargowe wyróżniające się na tle standardowych zgłos
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;"></i>Ochrona
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Ochrona
 
 **Zabezpieczenie kontraktu**
 
@@ -330,7 +331,7 @@ Ochrona marży już na etapie negocjacji umowy. Identyfikujemy potencjalnie nieb
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;"></i>Odzyskiwanie
+### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i>Odzyskiwanie
 
 **Maksymalizacja wartości projektu**
 
@@ -404,11 +405,11 @@ Badania potwierdzają bezpośredni wpływ kompetencji BIM na wyniki przetargów.
 Nasze pakiety ofertowe zawierają możliwości, których większość wykonawców nie jest w stanie dostarczyć wewnętrznie:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Modele kosztowe 5D</strong> – dokładne ilości powiązane z aktualnymi cenami rynkowymi</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Sekwencje budowlane 4D</strong> – wizualna metodologia budująca zaufanie klienta</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Raporty wykrywania kolizji</strong> – proaktywna identyfikacja ryzyka</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Plany realizacji BIM</strong> – zgodność z ISO 19650 i BIM 2030</p>
-<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;"></i> <strong>Integracja zrównoważonego rozwoju</strong> – certyfikaty BREEAM/ESG wymagane przez deweloperów</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-box" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Modele kosztowe 5D</strong> – dokładne ilości powiązane z aktualnymi cenami rynkowymi</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-play-circle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Sekwencje budowlane 4D</strong> – wizualna metodologia budująca zaufanie klienta</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Raporty wykrywania kolizji</strong> – proaktywna identyfikacja ryzyka</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-file-earmark-code" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Plany realizacji BIM</strong> – zgodność z ISO 19650 i BIM 2030</p>
+<p style="color: var(--bim-charcoal); margin: 16px 0; font-size: 16px;"><i class="bi bi-leaf" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i> <strong>Integracja zrównoważonego rozwoju</strong> – certyfikaty BREEAM/ESG wymagane przez deweloperów</p>
 :::
 :::
 
@@ -434,43 +435,43 @@ Nasze usługi wsparcia przetargowego służą wykonawcom w Polsce i na rynkach m
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Średni wykonawcy
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Średni wykonawcy
 
 Przychody 10–100 mln PLN, poszukujący możliwości konkurowania z dużymi wykonawcami na podstawie merytorycznej zamiast tylko cenowej.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjalistyczni podwykonawcy
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Specjalistyczni podwykonawcy
 
 Sucha zabudowa, fasady, ochrona przeciwpożarowa, konstrukcje stalowe, MEP – branże gdzie metodologia i wiedza specjalistyczna mają znaczenie.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Wykonawcy międzynarodowi
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Wykonawcy międzynarodowi
 
 Wchodzący na polski rynek i potrzebujący lokalnej ekspertyzy, zgodności ze standardami i zrozumienia rynku.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;"></i>Firmy nastawione na wzrost
+### <i class="bi bi-bar-chart-line" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Firmy nastawione na wzrost
 
 Obecnie wygrywające mniej niż 15% ofert i poszukujące poprawy do 30–40% przez systematyczne doskonalenie.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Aspirujący do dużych projektów
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Aspirujący do dużych projektów
 
 Poszukujący pierwszego wejścia do projektów Tier 1, gdzie profesjonalne aplikacje są niezbędne do sukcesu.
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Specjaliści sektora prywatnego
+### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Specjaliści sektora prywatnego
 
 Celujący w deweloperów logistycznych, operatorów centrów danych i klientów premium wymagających certyfikatów BREEAM.
 :::
 
 ::: {.feature-card style="background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); color: white;"}
-### <i class="bi bi-trophy" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia „Dawid kontra Goliat"
+### <i class="bi bi-trophy" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Strategia „Dawid kontra Goliat"
 
 <span style="color: rgba(255,255,255,0.9);">Pomagamy mniejszym wykonawcom konkurować z dużymi graczami na równych warunkach. Osiągamy to przez lepszą strategię przetargową, a nie niższe ceny.</span>
 :::
@@ -479,7 +480,7 @@ Celujący w deweloperów logistycznych, operatorów centrów danych i klientów 
 ## Modele współpracy i inwestycji
 
 ::: {style="background: #f0f9ff; padding: 24px; border-radius: 8px; margin: 24px 0; border-left: 4px solid var(--bim-orange);"}
-<h4 style="color: var(--bim-charcoal); margin-bottom: 12px;"><i class="bi bi-info-circle" style="color: var(--bim-orange);"></i> Różne modele cenowe – dlaczego?</h4>
+<h4 style="color: var(--bim-charcoal); margin-bottom: 12px;"><i class="bi bi-info-circle" style="color: var(--bim-orange);" aria-hidden="true"></i> Różne modele cenowe – dlaczego?</h4>
 <p style="color: #666; margin: 8px 0;">Oferujemy <strong>elastyczne modele inwestycji</strong> dopasowane do Państwa sytuacji:</p>
 <ul style="color: #666; margin: 8px 0; padding-left: 24px;">
 <li><strong>Stała opłata</strong> – dla firm preferujących przewidywalne koszty</li>
@@ -502,10 +503,10 @@ Celujący w deweloperów logistycznych, operatorów centrów danych i klientów 
 Gdy mają Państwo kluczowy przetarg wymagający profesjonalnego przeglądu i poprawy przed terminem.
 
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Audyt zgodności w 48h</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Weryfikacja wyceny</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Poprawa metodologii</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wzmocnienie dowodów</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Audyt zgodności w 48h</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Weryfikacja wyceny</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Poprawa metodologii</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Wzmocnienie dowodów</p>
 </div>
 
 **Inwestycja:** w zależności od uzgodnionego zakresu
@@ -522,11 +523,11 @@ Gdy mają Państwo kluczowy przetarg wymagający profesjonalnego przeglądu i po
 Wsparcie od początku do końca – od otrzymania przetargu do złożenia oferty. Nasza najpopularniejsza usługa dla dużych projektów.
 
 <div style="margin: 24px 0; padding: 16px; background: rgba(255, 153, 0, 0.1); border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Analiza i strategia</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Pełna dokumentacja</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wycena zintegrowana z BIM</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wizualizacje metodologii 4D</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie negocjacji</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Analiza i strategia</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Pełna dokumentacja</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Wycena zintegrowana z BIM</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Wizualizacje metodologii 4D</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Wsparcie negocjacji</p>
 </div>
 
 **Model inwestycji:**
@@ -547,10 +548,10 @@ Wsparcie od początku do końca – od otrzymania przetargu do złożenia oferty
 Dla wykonawców poszukujących spójnego wsparcia przetargowego przez cały rok.
 
 <div style="margin: 24px 0; padding: 16px; background: #f8f9fa; border-radius: 6px;">
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> 5 przetargów miesięcznie</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Priorytetowa reakcja</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Szkolenie zespołu w cenie</p>
-<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);"></i> Wsparcie planowania strategicznego</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 5 przetargów miesięcznie</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Priorytetowa reakcja</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Szkolenie zespołu w cenie</p>
+<p style="margin: 8px 0; font-size: 14px;"><i class="bi bi-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Wsparcie planowania strategicznego</p>
 </div>
 
 **Inwestycja:** 8 000–25 000 PLN miesięcznie
@@ -573,11 +574,11 @@ Profesjonalne wsparcie przetargowe zwraca się przy jednej dodatkowej wygranej.
 ### Bez profesjonalnego wsparcia {style="color: white;"}
 
 ::: {style="margin: 24px 0;"}
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 20 przetargów rocznie</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> 5–15% skuteczność = 1–3 kontrakty</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Konkurencja tylko ceną</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Ciasne marże 3–5%</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;"></i> Roboty dodatkowe nieodzyskane</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 20 przetargów rocznie</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 5–15% skuteczność = 1–3 kontrakty</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Konkurencja tylko ceną</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Ciasne marże 3–5%</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-x-circle" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Roboty dodatkowe nieodzyskane</p>
 :::
 :::
 
@@ -585,18 +586,18 @@ Profesjonalne wsparcie przetargowe zwraca się przy jednej dodatkowej wygranej.
 ### Ze wsparciem BIM Takeoff {style="color: white;"}
 
 ::: {style="margin: 24px 0;"}
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 15 wybranych przetargów (strategiczna selekcja)</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> 35–45% skuteczność = 5–7 kontraktów</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Konkurowanie wartością, nie ceną</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> Lepsze marże 10–15%</p>
-<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;"></i> +20–30% odzyskane na robotach dodatkowych</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> 15 wybranych przetargów (strategiczna selekcja)</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> 35–45% skuteczność = 5–7 kontraktów</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Konkurowanie wartością, nie ceną</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Lepsze marże 10–15%</p>
+<p style="color: rgba(255,255,255,0.9); margin: 16px 0;"><i class="bi bi-check-circle" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> +20–30% odzyskane na robotach dodatkowych</p>
 :::
 :::
 
 :::
 
 ::: {style="margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.15); border-radius: 8px; border: 1px solid var(--bim-orange);"}
-<h4 style="color: var(--bim-orange); margin: 0 0 16px 0; font-size: 18px;"><i class="bi bi-calculator" style="margin-right: 8px;"></i>Jak inwestycja się zwraca</h4>
+<h4 style="color: var(--bim-orange); margin: 0 0 16px 0; font-size: 18px;"><i class="bi bi-calculator" style="margin-right: 8px;" aria-hidden="true"></i>Jak inwestycja się zwraca</h4>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
 <div>
 <p style="color: white; margin: 8px 0; font-size: 15px;"><strong>Państwa inwestycja:</strong></p>
@@ -693,7 +694,7 @@ O: Każdy wykonawca ma inną sytuację. Stała opłata (60–150 tys. PLN) daje 
 
 ::: {style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;"}
 
-<h3 style="text-align: center; color: var(--bim-charcoal); margin-bottom: 32px;"><i class="bi bi-clipboard-check" style="color: var(--bim-orange);"></i> Szybka samoocena: Jak profesjonalne są Państwa przetargi?</h3>
+<h3 style="text-align: center; color: var(--bim-charcoal); margin-bottom: 32px;"><i class="bi bi-clipboard-check" style="color: var(--bim-orange);" aria-hidden="true"></i> Szybka samoocena: Jak profesjonalne są Państwa przetargi?</h3>
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;"}
 
@@ -746,7 +747,7 @@ O: Każdy wykonawca ma inną sytuację. Stała opłata (60–150 tys. PLN) daje 
 
 ::: {style="background: var(--bim-charcoal); padding: 48px 32px; border-radius: 12px; margin: 48px 0; color: white;"}
 
-<h3 style="text-align: center; color: white; margin-bottom: 32px;"><i class="bi bi-calculator" style="color: var(--bim-orange);"></i> Oblicz potencjalny zwrot z inwestycji</h3>
+<h3 style="text-align: center; color: white; margin-bottom: 32px;"><i class="bi bi-calculator" style="color: var(--bim-orange);" aria-hidden="true"></i> Oblicz potencjalny zwrot z inwestycji</h3>
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;"}
 
@@ -832,9 +833,9 @@ O: Każdy wykonawca ma inną sytuację. Stała opłata (60–150 tys. PLN) daje 
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Ponad 2000 przygotowanych przetargów | Ponad 800 wygranych</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Średnia skuteczność 35–45%</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Ponad 2000 przygotowanych przetargów | Ponad 800 wygranych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Średnia skuteczność 35–45%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

@@ -5,13 +5,14 @@ page-layout: full
 date: "2025-10-05"
 author: "Robert Kowalski"
 categories: [BIM, Construction Technology, Poland, UK, Tender Management]
-image: "../../images/bim-adoption-cover.png"
+image: "../../images/bim-adoption-cover.jpg"
 ---
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -241,9 +242,9 @@ With the 2030 mandate approaching and current contractor adoption at 8.9%, the u
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650 Certified Processes</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>UK & Polish Market Expertise</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2000+ BIM Projects Delivered</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650 Certified Processes</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>UK & Polish Market Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2000+ BIM Projects Delivered</strong></p>
 :::
 :::
 :::

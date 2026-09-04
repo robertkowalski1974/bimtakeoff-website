@@ -149,9 +149,13 @@ format:
         <meta name="google-site-verification" content="uKCAy6U0rzgAeygUNJ_9rIigdfvB-upjfjNAoYhvnuA">
 
         <!-- Resource Hints for Performance -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+        <!-- Brand font. Loaded here, not via @import in styles.css:
+             an @import blocks rendering of the stylesheet that contains it. -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
         <link rel="dns-prefetch" href="https://www.googletagmanager.com">
         <link rel="dns-prefetch" href="https://leadbooster-chat.pipedrive.com">
 

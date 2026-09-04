@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Śledzenie kosztów w czasie rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Analiza zmian w ciągu 24 godzin</strong> - Szybka reakcja na zamówienia dodatkowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Prognozowanie predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Śledzenie kosztów w czasie rzeczywistym</strong> - Wiedz gdzie stoisz co tydzień</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Analiza zmian w ciągu 24 godzin</strong> - Szybka reakcja na zamówienia dodatkowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Prognozowanie predykcyjne</strong> - Wczesne ostrzeżenie o ryzykach budżetowych</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ System wczesnego ostrzegania wykrywa ryzyka budżetowe 4-6 tygodni wcześniej.
 Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po zakończeniu miesiąca to za wolno jak na współczesne budownictwo:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Opóźnienie 4-6 tygodni między problemem a jego wykryciem</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak systemu wczesnego ostrzegania przed przekroczeniami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Zamówienia dodatkowe gromadzą się bez bieżącej analizy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Ograniczona widoczność trendów kosztowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Reaktywne, a nie proaktywne zarządzanie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespodzianki po zakończeniu projektu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Opóźnienie 4-6 tygodni między problemem a jego wykryciem</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak systemu wczesnego ostrzegania przed przekroczeniami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Zamówienia dodatkowe gromadzą się bez bieżącej analizy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Ograniczona widoczność trendów kosztowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Reaktywne, a nie proaktywne zarządzanie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niespodzianki po zakończeniu projektu</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Miesięczne raporty kosztowe dostarczane 2-3 tygodnie po zakończeniu miesiąca 
 Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym nadzorze:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Cotygodniowe aktualizacje** dostarczane w ciągu 24 godzin</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> System **wczesnego ostrzegania** 4-6 tygodni</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza zmian w dniu zgłoszenia**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Proaktywne strategie optymalizacji kosztów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Brak niespodzianek po zakończeniu projektu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Cotygodniowe aktualizacje** dostarczane w ciągu 24 godzin</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> System **wczesnego ostrzegania** 4-6 tygodni</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza zmian w dniu zgłoszenia**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Śledzenie budżetu vs rzeczywiste w czasie rzeczywistym</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Proaktywne strategie optymalizacji kosztów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Brak niespodzianek po zakończeniu projektu</p>
 :::
 :::
 
@@ -89,7 +90,7 @@ Inteligencja kosztowa w czasie rzeczywistym oparta na 5D BIM i doświadczonym na
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>1. Szybkość
+#### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>1. Szybkość
 
 **Cotygodniowy Cykl Raportowania**
 
@@ -105,7 +106,7 @@ Tradycyjne miesięczne raporty to za mało. Zapewniamy:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>2. Widoczność
+#### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>2. Widoczność
 
 **Pełna Przejrzystość Kosztów**
 
@@ -122,7 +123,7 @@ Kontroluj dokładnie, na co wydawane są środki:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 12px;"></i>3. Przewidywanie
+#### <i class="bi bi-graph-up-arrow" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>3. Przewidywanie
 
 **System Wczesnego Ostrzegania**
 
@@ -269,13 +270,13 @@ Wykryj problemy, zanim staną się krytyczne:
 Każdy cotygodniowy raport zawiera:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Podsumowanie Budżet vs Rzeczywiste** - Aktualna pozycja na pierwszy rzut oka</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zestawienie Według Kodów Kosztowych** - Szczegółowa analiza według branż</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dziennik Zamówień Dodatkowych** - Wszystkie zmiany śledzone i wycenione</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Prognoza do Zakończenia** - Przewidywane koszty końcowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rejestr Ryzyka** - Pozycje oznaczone Czerwony/Bursztynowy/Zielony</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Trendów** - Porównania tydzień do tygodnia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pozycje Działań** - Zalecane kolejne kroki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Podsumowanie Budżet vs Rzeczywiste** - Aktualna pozycja na pierwszy rzut oka</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zestawienie Według Kodów Kosztowych** - Szczegółowa analiza według branż</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dziennik Zamówień Dodatkowych** - Wszystkie zmiany śledzone i wycenione</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Prognoza do Zakończenia** - Przewidywane koszty końcowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rejestr Ryzyka** - Pozycje oznaczone Czerwony/Bursztynowy/Zielony</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Trendów** - Porównania tydzień do tygodnia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pozycje Działań** - Zalecane kolejne kroki</p>
 :::
 :::
 
@@ -285,13 +286,13 @@ Każdy cotygodniowy raport zawiera:
 Dodatkowe spostrzeżenia dostępne:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Wartości Wypracowanej** - Wskaźniki efektywności (CPI, SPI)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Prognozy Przepływów Pieniężnych** - Perspektywa 8-12 tygodni</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Śledzenie Rezerw** - Tempo wypalania i pozostały bufor</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Możliwości Optymalizacji Wartości** - Sugestie optymalizacji kosztów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wskaźniki Produktywności** - Śledzenie efektywności pracy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dane Benchmarkingowe** - Porównanie z podobnymi projektami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niestandardowe Panele** - Dostosowane do potrzeb interesariuszy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Wartości Wypracowanej** - Wskaźniki efektywności (CPI, SPI)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Prognozy Przepływów Pieniężnych** - Perspektywa 8-12 tygodni</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Śledzenie Rezerw** - Tempo wypalania i pozostały bufor</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Możliwości Optymalizacji Wartości** - Sugestie optymalizacji kosztów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wskaźniki Produktywności** - Śledzenie efektywności pracy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dane Benchmarkingowe** - Porównanie z podobnymi projektami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Niestandardowe Panele** - Dostosowane do potrzeb interesariuszy</p>
 :::
 :::
 
@@ -308,7 +309,7 @@ Oprócz cotygodniowych raportów, dostęp do danych kosztowych projektu w dowoln
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 32px 0;"}
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-speedometer2" style="color: var(--bim-orange);"></i> Interaktywne Wykresy
+#### <i class="bi bi-speedometer2" style="color: var(--bim-orange);" aria-hidden="true"></i> Interaktywne Wykresy
 
 Wizualizacja w czasie rzeczywistym:
 - Krzywe wydatków budżet vs rzeczywiste
@@ -319,7 +320,7 @@ Wizualizacja w czasie rzeczywistym:
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-bell-fill" style="color: var(--bim-orange);"></i> Inteligentne Alerty
+#### <i class="bi bi-bell-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Inteligentne Alerty
 
 Automatyczne powiadomienia o:
 - Naruszeniach progów budżetowych
@@ -330,7 +331,7 @@ Automatyczne powiadomienia o:
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange);"></i> Eksport i Integracja
+#### <i class="bi bi-file-earmark-spreadsheet" style="color: var(--bim-orange);" aria-hidden="true"></i> Eksport i Integracja
 
 Bezproblemowy dostęp do danych:
 - Eksport do Excel jednym kliknięciem
@@ -341,7 +342,7 @@ Bezproblemowy dostęp do danych:
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-graph-up" style="color: var(--bim-orange);"></i> Panele Business Intelligence
+#### <i class="bi bi-graph-up" style="color: var(--bim-orange);" aria-hidden="true"></i> Panele Business Intelligence
 
 Kompleksowe rozwiązania BI:
 - **Niestandardowe panele PowerBI** dostosowane do KPI
@@ -353,7 +354,7 @@ Kompleksowe rozwiązania BI:
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"}
-#### <i class="bi bi-people-fill" style="color: var(--bim-orange);"></i> Dostęp Dla Wielu Użytkowników
+#### <i class="bi bi-people-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Dostęp Dla Wielu Użytkowników
 
 Uprawnienia oparte na rolach:
 - Widok wykonawczy (podsumowanie wysokiego poziomu)
@@ -376,7 +377,7 @@ Uprawnienia oparte na rolach:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-speedometer" style="color: var(--bim-orange); margin-right: 12px;"></i>Podstawowy
+### <i class="bi bi-speedometer" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Podstawowy
 
 **Dla mniejszych projektów lub ograniczonych budżetów**
 
@@ -390,7 +391,7 @@ Uprawnienia oparte na rolach:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Profesjonalny
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Profesjonalny
 
 **Nasz najpopularniejszy pakiet**
 
@@ -405,7 +406,7 @@ Uprawnienia oparte na rolach:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-rocket-takeoff-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Premium
+### <i class="bi bi-rocket-takeoff-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Premium
 
 **Maksymalna kontrola dla złożonych projektów**
 
@@ -512,7 +513,7 @@ O: Ceny różnią się w zależności od pakietu usług i wielkości projektu. P
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-award-fill" style="color: var(--bim-orange);"></i> Doświadczenie
+### <i class="bi bi-award-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Doświadczenie
 
 **20 Lat Na 3 Kontynentach**
 
@@ -520,7 +521,7 @@ Zarządzaliśmy kontrolą kosztów na 2000+ projektach obejmujących rynki UK, e
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-clock-history" style="color: var(--bim-orange);"></i> Sprawdzona Szybkość
+### <i class="bi bi-clock-history" style="color: var(--bim-orange);" aria-hidden="true"></i> Sprawdzona Szybkość
 
 **24-Godzinny Czas Realizacji Gwarantowany**
 
@@ -528,7 +529,7 @@ Podczas gdy inni zajmują tygodnie, dostarczamy cotygodniowe raporty w ciągu 24
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> Dokładność
+### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> Dokładność
 
 **Niezależni i Obiektywni**
 
@@ -536,7 +537,7 @@ Jako niezależni konsultanci kosztowi nie mamy motywacji do zawyżania lub zani�
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> Technologia
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Technologia
 
 **Integracja 5D BIM**
 
@@ -577,10 +578,10 @@ Nie tylko raportujemy liczby - łączymy koszty z modelem 3D i harmonogramem bud
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>24-Godzinny Czas Realizacji Raportu</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>System Wczesnego Ostrzegania</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dostęp Do Panelu W Czasie Rzeczywistym</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>24-Godzinny Czas Realizacji Raportu</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>System Wczesnego Ostrzegania</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dostęp Do Panelu W Czasie Rzeczywistym</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
 :::
 :::
 :::

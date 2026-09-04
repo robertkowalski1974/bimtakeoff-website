@@ -6,8 +6,9 @@ description: "Kosztorysowanie magazynów i obiektów logistycznych. Projekty 50 
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Gotowe w ciągu 3-7 dni z dokładnością ±5%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szybka Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Optymalizacja Elementów Powtarzalnych</strong> - Słupy, belki, elewacje</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie:</strong> Udokumentowana praktyka w UK, UE i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Szybka Realizacja</strong> - 90% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Optymalizacja Elementów Powtarzalnych</strong> - Słupy, belki, elewacje</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczenie:</strong> Udokumentowana praktyka w UK, UE i Australii</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Gotowe w ciągu 3-7 dni z dokładnością ±5%.
 Nowoczesne magazyny to projekty o krytycznych terminach realizacji i wysokich wymaganiach:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Napięte terminy** - Klienci potrzebują obiektów operacyjnych jak najszybciej</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Duża skala** - 50 000+ m² z tysiącami elementów powtarzalnych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Presja kosztowa** - Konkurencyjne marże budowlane</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożona logistyka** - Krytyczny timing dostaw materiałów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Zmiany projektowe** - Wymagania najemców w ostatniej chwili</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Napięte terminy** - Klienci potrzebują obiektów operacyjnych jak najszybciej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Duża skala** - 50 000+ m² z tysiącami elementów powtarzalnych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Presja kosztowa** - Konkurencyjne marże budowlane</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Złożona logistyka** - Krytyczny timing dostaw materiałów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Zmiany projektowe** - Wymagania najemców w ostatniej chwili</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Nowoczesne magazyny to projekty o krytycznych terminach realizacji i wysokich wy
 Specjalistyczne usługi BIM 5D dla obiektów logistycznych i dystrybucyjnych:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-7 dni** na kompletne kosztorysowanie (vs 6-8 tygodni tradycyjnie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Biblioteka elementów powtarzalnych** - Automatyzacja słupów, belek, elewacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Doświadczenie w budynkach prefabrykowanych** - Systemy Butler, Kirby, Astron</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Planowanie logistyki** - Harmonogramy składowania i dostaw materiałów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-7 dni** na kompletne kosztorysowanie (vs 6-8 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Biblioteka elementów powtarzalnych** - Automatyzacja słupów, belek, elewacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Doświadczenie w budynkach prefabrykowanych** - Systemy Butler, Kirby, Astron</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Planowanie logistyki** - Harmonogramy składowania i dostaw materiałów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zarządzanie zmianami** - Wpływ kosztowy w czasie rzeczywistym</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specjalistyczne usługi BIM 5D dla obiektów logistycznych i dystrybucyjnych:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkie Kosztorysowanie
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Szybkie Kosztorysowanie
 
 **Realizacja 3-7 Dni**
 
@@ -106,7 +107,7 @@ Idealne dla:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Optymalizacja Elementów Powtarzalnych
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Optymalizacja Elementów Powtarzalnych
 
 **Automatyczna Ekstrakcja**
 
@@ -120,7 +121,7 @@ Automatyczna ekstrakcja tysięcy elementów:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;"></i>Logistyka Budowlana
+### <i class="bi bi-truck" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Logistyka Budowlana
 
 **Planowanie Dostaw Materiałów**
 
@@ -134,7 +135,7 @@ Kluczowe dla:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Wieloscenariuszowa
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza Wieloscenariuszowa
 
 **Porównanie Opcji Projektowych**
 
@@ -148,7 +149,7 @@ Analiza wpływu:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Ofert i Zarządzanie Przetargami
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pisanie Ofert i Zarządzanie Przetargami
 
 **Kompleksowe Wsparcie Przetargowe**
 
@@ -162,7 +163,7 @@ Pełna obsługa:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Tradycyjny Przedmiar
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Tradycyjny Przedmiar
 
 **Wsparcie Rysunków 2D**
 
@@ -486,19 +487,19 @@ O: Opłaty różnią się w zależności od wielkości projektu, złożoności i
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Umów Rozmowę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Umów Rozmowę</h3>
 <p style="color: var(--bim-white); margin: 0;">Omów swój projekt z naszymi specjalistami magazynowymi</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
 <p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin ze szczegółową propozycją</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Zarezerwuj Konsultację</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Zarezerwuj Konsultację</h3>
 <p style="color: var(--bim-white); margin: 0;">Bezpłatny 30-minutowy przegląd projektu</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
 :::
@@ -511,10 +512,10 @@ O: Opłaty różnią się w zależności od wielkości projektu, złożoności i
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bogate Portfolio Magazynowe</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Zrealizowane Projekty Wielkoskalowe</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 3-7 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Bogate Portfolio Magazynowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Zrealizowane Projekty Wielkoskalowe</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 3-7 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Gwarancja Dokładności ±5%</strong></p>
 :::
 :::
 :::

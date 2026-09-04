@@ -6,8 +6,9 @@ description: "Kosztorysowanie centrów danych Tier I-IV. Specjaliści w złożon
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specjalizacja w instalacjach MEP</strong> - Złożone systemy chłodzenia, zasilania i redundancji</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Specyfikacje Tier I-IV</strong> - Wszystkie poziomy wymagań dostępności</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczenie Międzynarodowe:</strong> Standardy UK, UE i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Specjalizacja w instalacjach MEP</strong> - Złożone systemy chłodzenia, zasilania i redundancji</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Specyfikacje Tier I-IV</strong> - Wszystkie poziomy wymagań dostępności</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczenie Międzynarodowe:</strong> Standardy UK, UE i Australii</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Gotowe w ciągu 5-10 dni z dokładnością ±3-5%.
 Centra danych to najbardziej wymagające projekty budowlane bez marginesu na błąd:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Krytyczna dostępność** - Wymagania 99.99%+ uptime</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Dominacja MEP** - 60-70% całkowitego kosztu projektu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Gęstość mocy** - Wymagania 5-30+ kW na szafę</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Złożoność redundancji** - Konfiguracje N+1, 2N, 2N+1</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Intensywność kosztowa** - Wysokie koszty zależnie od poziomu Tier</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Krytyczna dostępność** - Wymagania 99.99%+ uptime</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Dominacja MEP** - 60-70% całkowitego kosztu projektu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Gęstość mocy** - Wymagania 5-30+ kW na szafę</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Złożoność redundancji** - Konfiguracje N+1, 2N, 2N+1</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Intensywność kosztowa** - Wysokie koszty zależnie od poziomu Tier</p>
 :::
 :::
 
@@ -63,11 +64,11 @@ Centra danych to najbardziej wymagające projekty budowlane bez marginesu na bł
 Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 dni** na kompletne kosztorysowanie (vs 8-12 tygodni tradycyjnie)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Specjalizacja w instalacjach MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja redundancji** - Sprawdzanie systemów N+1, 2N</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Zgodność ze standardami Tier** - Specyfikacje I, II, III, IV</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Modelowanie zasilania/chłodzenia** - Obliczenia mocy i obciążenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 dni** na kompletne kosztorysowanie (vs 8-12 tygodni tradycyjnie)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Specjalizacja w instalacjach MEP** - Szczegółowa analiza elektryczna, mechaniczna, hydrauliczna</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Weryfikacja redundancji** - Sprawdzanie systemów N+1, 2N</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Zgodność ze standardami Tier** - Specyfikacje I, II, III, IV</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Modelowanie zasilania/chłodzenia** - Obliczenia mocy i obciążenia</p>
 :::
 :::
 
@@ -77,7 +78,7 @@ Specjalistyczne usługi BIM 5D dla infrastruktury krytycznej:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Kosztorysowanie Systemów MEP
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kosztorysowanie Systemów MEP
 
 **Specjalizacja w instalacjach elektrycznych i mechanicznych**
 
@@ -92,7 +93,7 @@ Szczegółowa analiza:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Weryfikacja Redundancji
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Weryfikacja Redundancji
 
 **Zgodność N+1, 2N, 2N+1**
 
@@ -107,7 +108,7 @@ Zapewnienie prawidłowej:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Poziomu Tier
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza Poziomu Tier
 
 **Standardy I, II, III, IV**
 
@@ -122,7 +123,7 @@ Sprawdzanie zgodności:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-thermometer-half" style="color: var(--bim-orange); margin-right: 12px;"></i>Projektowanie Systemów Chłodzenia
+### <i class="bi bi-thermometer-half" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Projektowanie Systemów Chłodzenia
 
 **Zarządzanie Termiczne**
 
@@ -137,7 +138,7 @@ Analiza kosztowa:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Bezpieczeństwo i Dostęp
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Bezpieczeństwo i Dostęp
 
 **Systemy Bezpieczeństwa Fizycznego**
 
@@ -152,7 +153,7 @@ Kompleksowe kosztorysowanie:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Gęstości Mocy
+### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Planowanie Gęstości Mocy
 
 **Analiza kW na Szafę**
 
@@ -297,19 +298,19 @@ Planowanie pojemności:
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Umów Rozmowę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Umów Rozmowę</h3>
 <p style="color: var(--bim-white); margin: 0;">Omów wymagania Tier z naszymi specjalistami</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+48 508 209 313</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Otrzymaj Wycenę</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Otrzymaj Wycenę</h3>
 <p style="color: var(--bim-white); margin: 0;">Odpowiedź w ciągu 24 godzin</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Bezpłatna Konsultacja</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Bezpłatna Konsultacja</h3>
 <p style="color: var(--bim-white); margin: 0;">30-minutowy przegląd techniczny</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../kontakt.qmd" style="color: var(--bim-orange); text-decoration: underline;">Umów Teraz →</a></p>
 :::

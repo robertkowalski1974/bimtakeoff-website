@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Od strategii cenowej po narrację techniczną.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Kompletne pakiety przetargowe</strong> - Doskonałość techniczna i komercyjna</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Konkurencyjne ceny</strong> - Równowaga między marżą a prawdopodobieństwem wygranej</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Szybka realizacja</strong> - Dotrzymanie napiętych terminów składania ofert</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Kompletne pakiety przetargowe</strong> - Doskonałość techniczna i komercyjna</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Konkurencyjne ceny</strong> - Równowaga między marżą a prawdopodobieństwem wygranej</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Szybka realizacja</strong> - Dotrzymanie napiętych terminów składania ofert</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Od strategii cenowej po narrację techniczną.
 Wykonawcy tracą szansę na wygranie przetargów przez błędy, którym można zapobiec:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niezgodne oferty (automatycznie odrzucone)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Ogólne odpowiedzi skopiowane z poprzednich ofert</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy i braki w wycenie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Słabe narracje techniczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pośpiech w ostatniej chwili obniża jakość</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak pozycjonowania konkurencyjnego lub różnicowania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niezgodne oferty (automatycznie odrzucone)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Ogólne odpowiedzi skopiowane z poprzednich ofert</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Błędy i braki w wycenie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Słabe narracje techniczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pośpiech w ostatniej chwili obniża jakość</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak pozycjonowania konkurencyjnego lub różnicowania</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,12 +70,12 @@ Wykonawcy tracą szansę na wygranie przetargów przez błędy, którym można z
 Strategiczne, zgodne oferty, które wygrywają:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **100% zgodność** - przejście wszystkich obowiązkowych kontroli</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Odpowiedzi na zamówienie** - dostosowane do kryteriów oceny</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokładna wycena** - zweryfikowane ilości i stawki</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Przekonujące narracje** - demonstracja możliwości</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Wczesne przygotowanie** - jakość ponad pośpiech</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Strategia konkurencyjna** - pozycjonowanie wobec rywali</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **100% zgodność** - przejście wszystkich obowiązkowych kontroli</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Odpowiedzi na zamówienie** - dostosowane do kryteriów oceny</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokładna wycena** - zweryfikowane ilości i stawki</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Przekonujące narracje** - demonstracja możliwości</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Wczesne przygotowanie** - jakość ponad pośpiech</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Strategia konkurencyjna** - pozycjonowanie wobec rywali</p>
 :::
 :::
 
@@ -89,7 +90,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Opłacalności Udziału
+#### <i class="bi bi-clipboard-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza Opłacalności Udziału
 
 **Wsparcie Decyzji Przedprzetargowej**
 
@@ -104,7 +105,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Strategia Cenowa
+#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Strategia Cenowa
 
 **Kompleksowa Wycena**
 
@@ -119,7 +120,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Pisanie Techniczne
+#### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pisanie Techniczne
 
 **Przekonujące Narracje**
 
@@ -134,7 +135,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Zarządzanie Zgodnością
+#### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zarządzanie Zgodnością
 
 **Zapewnienie Zgodności**
 
@@ -149,7 +150,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Planowanie Harmonogramu
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Planowanie Harmonogramu
 
 **Realistyczne Harmonogramy**
 
@@ -164,7 +165,7 @@ Strategiczne, zgodne oferty, które wygrywają:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Wsparcie Prezentacji
+#### <i class="bi bi-people-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Wsparcie Prezentacji
 
 **Profesjonalna Prezentacja**
 
@@ -301,37 +302,37 @@ Strategiczne, zgodne oferty, które wygrywają:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Przetargi Generalnego Wykonawcy
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przetargi Generalnego Wykonawcy
 
 Projektuj i buduj, tradycyjne, kontrakty zarządzające, zarządzanie budową, przetargi dwuetapowe
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Przetargi na Pakiety Branżowe
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przetargi na Pakiety Branżowe
 
 Instalacje mechaniczne, elektryczne, sanitarne, konstrukcje stalowe, elewacje, roboty ziemne, branże specjalistyczne
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Aplikacje Ramowe
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Aplikacje Ramowe
 
 Wieloletnie umowy ramowe, kontrakty z możliwością zlecenia, DPS (Dynamiczne Systemy Zakupów), nominacje panelowe
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bank" style="color: var(--bim-orange); margin-right: 12px;"></i>Zamówienia Publiczne
+### <i class="bi bi-bank" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Zamówienia Publiczne
 
 OJEU/Find a Tender, przetargi samorządowe, NFZ, MON, uczelnie, budownictwo społeczne
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;"></i>Przetargi Międzynarodowe
+### <i class="bi bi-globe" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przetargi Międzynarodowe
 
 Kontrakty FIDIC, procedury Banku Światowego, projekty banków rozwoju, międzynarodowe JV
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;"></i>Możliwości Sektora Prywatnego
+### <i class="bi bi-briefcase" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Możliwości Sektora Prywatnego
 
 Klienci z największych firm, deweloperzy, właściciele nieruchomości, projekty PPP, kontrakty negocjowane
 :::
@@ -347,13 +348,13 @@ Klienci z największych firm, deweloperzy, właściciele nieruchomości, projekt
 Kompleksowe wsparcie od otrzymania do złożenia:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza opłacalności udziału** i doradztwo strategiczne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowy przedmiar robót** ze ścieżką audytu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompletne opracowanie techniczne** (wszystkie narracje)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogram budowy** (MS Project/Primavera)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja zgodności** (BHP, Jakość, Środowisko)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Niezależny audyt oferty** i dopracowanie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Sformatowana oferta** gotowa do przesłania/dostarczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza opłacalności udziału** i doradztwo strategiczne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowy przedmiar robót** ze ścieżką audytu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kompletne opracowanie techniczne** (wszystkie narracje)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Harmonogram budowy** (MS Project/Primavera)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokumentacja zgodności** (BHP, Jakość, Środowisko)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Niezależny audyt oferty** i dopracowanie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Sformatowana oferta** gotowa do przesłania/dostarczenia</p>
 :::
 :::
 
@@ -363,13 +364,13 @@ Kompleksowe wsparcie od otrzymania do złożenia:
 Wzmocnij swoją ofertę poprzez:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plan Wykonania BIM** - Zgodny z ISO 19650</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Animacja Planowania 4D** - Wizualny harmonogram</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Plany Logistyki Placu Budowy** - Rysunki 2D/3D</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Propozycje Inżynierii Wartości** - Zidentyfikowane oszczędności</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Materiały Prezentacyjne** - PowerPoint i grafika</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Coaching Wywiadów** - Przygotowanie zespołu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Negocjacje Poprozetargowe** - Wsparcie podczas wyjaśnień</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Plan Wykonania BIM** - Zgodny z ISO 19650</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Animacja Planowania 4D** - Wizualny harmonogram</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Plany Logistyki Placu Budowy** - Rysunki 2D/3D</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Propozycje Inżynierii Wartości** - Zidentyfikowane oszczędności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Materiały Prezentacyjne** - PowerPoint i grafika</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Coaching Wywiadów** - Przygotowanie zespołu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Negocjacje Poprozetargowe** - Wsparcie podczas wyjaśnień</p>
 :::
 :::
 
@@ -492,10 +493,10 @@ O: Opłaty zależą od złożoności przetargu, wartości i wymaganych usług. J
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>35-45% wskaźnik wygranych w wspieranych przetargach</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>100% gwarancja zgodności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczenie w sektorze publicznym i prywatnym</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>35-45% wskaźnik wygranych w wspieranych przetargach</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>100% gwarancja zgodności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Doświadczenie w sektorze publicznym i prywatnym</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat doświadczenia międzynarodowego</strong></p>
 :::
 :::
 :::

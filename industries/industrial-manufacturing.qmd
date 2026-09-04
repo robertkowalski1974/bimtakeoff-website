@@ -6,8 +6,9 @@ description: "Industrial facility cost estimation for manufacturing plants and p
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Delivered in 5-10 days with ±3-5% accuracy.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Industrial Expertise</strong> - Heavy loads, process integration, service demands</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Manufacturing Focus</strong> - Production flow, material handling, utilities</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>International Experience</strong> - UK, EU & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Industrial Expertise</strong> - Heavy loads, process integration, service demands</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Manufacturing Focus</strong> - Production flow, material handling, utilities</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>International Experience</strong> - UK, EU & Australia</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Delivered in 5-10 days with ±3-5% accuracy.
 Industrial construction faces unique structural and operational demands:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Heavy structural loads** - Machinery, cranes, storage systems</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Process integration** - Production flow & material handling</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Heavy MEP demands** - Power, compressed air, process utilities</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Environmental controls** - Temperature, humidity, clean rooms</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Operational constraints** - Phasing around production schedules</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Heavy structural loads** - Machinery, cranes, storage systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Process integration** - Production flow & material handling</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Heavy MEP demands** - Power, compressed air, process utilities</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Environmental controls** - Temperature, humidity, clean rooms</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Operational constraints** - Phasing around production schedules</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Industrial construction faces unique structural and operational demands:
 Specialized 5D BIM for manufacturing and production infrastructure:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Heavy load analysis** - Structural capacity for machinery</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Process utilities** - Compressed air, process water, waste systems</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Material handling** - Crane systems, conveyors, loading bays</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Production flow** - Layout optimization & operational efficiency</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **5-10 days** for complete estimate (vs 8-12 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Heavy load analysis** - Structural capacity for machinery</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Process utilities** - Compressed air, process water, waste systems</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Material handling** - Crane systems, conveyors, loading bays</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Production flow** - Layout optimization & operational efficiency</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specialized 5D BIM for manufacturing and production infrastructure:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Heavy Structure Design
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Heavy Structure Design
 
 **High-Load Capacity Analysis**
 
@@ -107,7 +108,7 @@ Expertise in:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-plugin" style="color: var(--bim-orange); margin-right: 12px;"></i>Process Utilities
+### <i class="bi bi-plugin" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Process Utilities
 
 **Production Support Systems**
 
@@ -122,7 +123,7 @@ Complete costing for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;"></i>Heavy Power Infrastructure
+### <i class="bi bi-lightning-charge" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Heavy Power Infrastructure
 
 **High-Demand Electrical Systems**
 
@@ -137,7 +138,7 @@ Analysis of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrows-move" style="color: var(--bim-orange); margin-right: 12px;"></i>Material Handling
+### <i class="bi bi-arrows-move" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Material Handling
 
 **Production Flow Systems**
 
@@ -152,7 +153,7 @@ Detailed costing for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-thermometer-snow" style="color: var(--bim-orange); margin-right: 12px;"></i>Environmental Control
+### <i class="bi bi-thermometer-snow" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Environmental Control
 
 **Process Climate Management**
 
@@ -167,7 +168,7 @@ Specialized systems including:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hammer" style="color: var(--bim-orange); margin-right: 12px;"></i>Production Integration
+### <i class="bi bi-hammer" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Production Integration
 
 **Operational Continuity Planning**
 
@@ -597,19 +598,19 @@ Express service carries a 25% premium. Contact us for a specific quote.
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Schedule Call</h3>
 <p style="color: var(--bim-white); margin: 0;">Discuss your production requirements with our specialists</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
 <p style="color: var(--bim-white); margin: 0;">24-hour response with detailed proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> Book Consultation</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> Book Consultation</h3>
 <p style="color: var(--bim-white); margin: 0;">Free 30-minute industrial project review</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
 :::
@@ -622,10 +623,10 @@ Express service carries a 25% premium. Contact us for a specific quote.
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Heavy Load Structural Expertise</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Process Integration Specialists</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>7-10 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3-5% Accuracy on Industrial Systems</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Heavy Load Structural Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Process Integration Specialists</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>7-10 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3-5% Accuracy on Industrial Systems</strong></p>
 :::
 :::
 :::

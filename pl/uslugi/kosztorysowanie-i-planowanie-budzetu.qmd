@@ -6,8 +6,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Dokładność ±5%.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Doświadczeni Kosztorysanci</strong> z międzynarodowymi standardami</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Technologia 5D BIM</strong> - 90-95% szybciej niż tradycyjne metody</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Portfolio:</strong> 2000+ projektów, 12M+ mkw zrealizowanych</p>
 :::
 :::
 
@@ -55,11 +56,11 @@ Dokładność ±5%.
 Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 6-8 tygodni na szczegółowy kosztorys</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Margines błędu ±15-20%</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy manualne i pominięte pozycje</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Rozproszone dane w wielu arkuszach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 6-8 tygodni na szczegółowy kosztorys</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Margines błędu ±15-20%</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Błędy manualne i pominięte pozycje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Brak aktualizacji w czasie rzeczywistym przy zmianach projektowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Rozproszone dane w wielu arkuszach</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -76,11 +77,11 @@ Tradycyjne kosztorysowanie jest wolne, niedokładne i ryzykowne:
 Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i czasu:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3 dni** na kompletny kosztorys</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Dokładność **±5%**</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Automatyczne przedmiary z modelu BIM</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa wycena wpływu zmian projektowych</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zintegrowane dane w jednym inteligentnym systemie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3 dni** na kompletny kosztorys</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Dokładność **±5%**</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Automatyczne przedmiary z modelu BIM</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Natychmiastowa wycena wpływu zmian projektowych</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zintegrowane dane w jednym inteligentnym systemie</p>
 :::
 :::
 
@@ -174,7 +175,7 @@ Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i c
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Szybkość: 90-95% Szybciej
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Szybkość: 90-95% Szybciej
 
 **Tradycyjna metoda:** 6-8 tygodni  
 **Nasza metoda 5D BIM:** 3-10 dni  
@@ -182,7 +183,7 @@ Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i c
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;"></i>Dokładność: ±5%
+### <i class="bi bi-bullseye" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Dokładność: ±5%
 
 **Tradycyjne marginesy:** ±15-20%  
 **Nasza dokładność:** ±5% lub lepsza  
@@ -190,7 +191,7 @@ Zaawansowane Kosztorysowanie 5D BIM łączy modelowanie 3D z danymi kosztów i c
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Kompleksowość: Nic Nie Pominięte
+### <i class="bi bi-list-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Kompleksowość: Nic Nie Pominięte
 
 Automatyczna ekstrakcja z BIM  
 Weryfikacja z rysunkami  
@@ -198,7 +199,7 @@ Wszystkie branże uwzględnione
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Przejrzystość: Pełna Alokacja Kosztów
+### <i class="bi bi-eye-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przejrzystość: Pełna Alokacja Kosztów
 
 Interaktywny model kosztowy 3D  
 Szczegóły każdego elementu  
@@ -206,7 +207,7 @@ Zobacz gdzie każda złotówka jest wydawana
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;"></i>Elastyczność: Analiza Wielowariantowa
+### <i class="bi bi-shuffle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Elastyczność: Analiza Wielowariantowa
 
 Porównanie alternatyw projektowych  
 Testowanie różnych materiałów  
@@ -214,7 +215,7 @@ Podejmowanie świadomych decyzji
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Integracja: Łączy Wszystko
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Integracja: Łączy Wszystko
 
 Model 3D + koszty + harmonogram  
 Wpływ zmian projektowych w czasie rzeczywistym  
@@ -327,10 +328,10 @@ O: Tak, oferujemy pełen pakiet usług przetargowych: Analiza projektów → Prz
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Partnerzy Państwa Sukcesu</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Bezproblemowy Zespół Ekspertów</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>ISO 19650</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Partnerzy Państwa Sukcesu</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Bezproblemowy Zespół Ekspertów</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>ISO 19650</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia</strong></p>
 :::
 :::
 :::

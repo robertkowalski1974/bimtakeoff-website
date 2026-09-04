@@ -275,49 +275,49 @@ description: "Polityka Prywatności BIM Takeoff - Zgodność z RODO i ochrona da
       
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-check-circle" style="color: #FF9900;"></i> Prawo Dostępu
+          <i class="bi bi-check-circle" style="color: #FF9900;" aria-hidden="true"></i> Prawo Dostępu
         </h4>
         <p style="margin-bottom: 0;">Żądanie kopii posiadanych przez nas danych osobowych</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-pencil" style="color: #FF9900;"></i> Prawo do Sprostowania
+          <i class="bi bi-pencil" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Sprostowania
         </h4>
         <p style="margin-bottom: 0;">Poprawianie nieprawidłowych lub niekompletnych danych</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-trash" style="color: #FF9900;"></i> Prawo do Usunięcia ("Prawo do Bycia Zapomnianym")
+          <i class="bi bi-trash" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Usunięcia ("Prawo do Bycia Zapomnianym")
         </h4>
         <p style="margin-bottom: 0;">Żądanie usunięcia danych (z zastrzeżeniem obowiązków prawnych)</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-pause-circle" style="color: #FF9900;"></i> Prawo do Ograniczenia
+          <i class="bi bi-pause-circle" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Ograniczenia
         </h4>
         <p style="margin-bottom: 0;">Ograniczenie sposobu wykorzystania danych w określonych okolicznościach</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-download" style="color: #FF9900;"></i> Prawo do Przenoszenia Danych
+          <i class="bi bi-download" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Przenoszenia Danych
         </h4>
         <p style="margin-bottom: 0;">Otrzymanie danych w ustrukturyzowanym, powszechnie używanym formacie</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-x-circle" style="color: #FF9900;"></i> Prawo do Sprzeciwu
+          <i class="bi bi-x-circle" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Sprzeciwu
         </h4>
         <p style="margin-bottom: 0;">Sprzeciw wobec przetwarzania opartego na uzasadnionym interesie lub w celach marketingowych</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-arrow-counterclockwise" style="color: #FF9900;"></i> Prawo do Wycofania Zgody
+          <i class="bi bi-arrow-counterclockwise" style="color: #FF9900;" aria-hidden="true"></i> Prawo do Wycofania Zgody
         </h4>
         <p style="margin-bottom: 0;">Wycofanie zgody na przetwarzanie w dowolnym momencie</p>
       </div>

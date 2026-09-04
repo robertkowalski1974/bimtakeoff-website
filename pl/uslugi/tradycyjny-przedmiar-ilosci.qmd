@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Rysunki PDF, DWG lub papierowe - mierzymy wszystko.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Pomiar z rysunków 2D</strong> – formaty PDF, DWG lub papierowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokładność ±5-8%</strong> – doświadczeni inżynierowie kosztorysanci (QS)</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>5-15 dni roboczych</strong> – szybciej niż standardowe firmy kosztorysowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Pomiar z rysunków 2D</strong> – formaty PDF, DWG lub papierowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Dokładność ±5-8%</strong> – doświadczeni inżynierowie kosztorysanci (QS)</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>5-15 dni roboczych</strong> – szybciej niż standardowe firmy kosztorysowe</p>
 :::
 :::
 
@@ -48,12 +49,12 @@ Rysunki PDF, DWG lub papierowe - mierzymy wszystko.
 Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projekty remontowe i renowacyjne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Mniejsze inwestycje mieszkaniowe i komercyjne</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projekty infrastrukturalne i inżynierii lądowej</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Prace przy budynkach zabytkowych i konserwacja</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Wczesne projekty koncepcyjne (etap RIBA Stage 2)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Projekty, w których modelowanie BIM jest nieopłacalne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Projekty remontowe i renowacyjne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Mniejsze inwestycje mieszkaniowe i komercyjne</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Projekty infrastrukturalne i inżynierii lądowej</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Prace przy budynkach zabytkowych i konserwacja</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Wczesne projekty koncepcyjne (etap RIBA Stage 2)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Projekty, w których modelowanie BIM jest nieopłacalne</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #e8f4ff 0%, #d4e9ff 100%); border-left: 4px solid var(--bim-orange);"}
@@ -69,12 +70,12 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 20 lat praktycznego pomiaru we wszystkich typach budynków:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Doświadczeni inżynierowie kosztorysanci** – ponad 20 lat praktycznego doświadczenia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokładność ±5-8%** – spójne standardy pomiaru</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pomiar cyfrowy lub skalowy** – rysunki PDF lub CAD</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Standardy międzynarodowe** – NRM, SMM7, POMI, KNR</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Realizacja 5-15 dni** – szybciej niż lokalne firmy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kompletny audyt** – pokazujący wszystkie obliczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Doświadczeni inżynierowie kosztorysanci** – ponad 20 lat praktycznego doświadczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokładność ±5-8%** – spójne standardy pomiaru</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pomiar cyfrowy lub skalowy** – rysunki PDF lub CAD</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Standardy międzynarodowe** – NRM, SMM7, POMI, KNR</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Realizacja 5-15 dni** – szybciej niż lokalne firmy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kompletny audyt** – pokazujący wszystkie obliczenia</p>
 :::
 :::
 
@@ -89,7 +90,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-file-earmark-pdf" style="color: var(--bim-orange); margin-right: 12px;"></i>Pomiar PDF na Ekranie
+#### <i class="bi bi-file-earmark-pdf" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pomiar PDF na Ekranie
 
 **Dla:** Cyfrowych rysunków PDF ze skalą/wymiarami
 
@@ -106,7 +107,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-bounding-box" style="color: var(--bim-orange); margin-right: 12px;"></i>Pomiar CAD/DWG
+#### <i class="bi bi-bounding-box" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pomiar CAD/DWG
 
 **Dla:** Plików AutoCAD, ArchiCAD, Vectorworks
 
@@ -123,7 +124,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;"></i>Pomiar Skalowy
+#### <i class="bi bi-calculator" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Pomiar Skalowy
 
 **Dla:** Rysunków papierowych lub PDF bez skali
 
@@ -140,7 +141,7 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Analiza Specyfikacji
+#### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Analiza Specyfikacji
 
 **Dla:** Niekompletnych rysunków + pełnych specyfikacji
 
@@ -268,10 +269,10 @@ Wiele wartościowych projektów wciąż opiera się na rysunkach 2D:
 Wyższa dokładność i szybszy termin realizacji:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **PDF** - Z wbudowaną skalą lub wymiarami (idealny)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **DWG/DXF** - Natywne pliki AutoCAD (najdokładniejsze)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **DGN** - Rysunki MicroStation</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Skanowane PDF** - Z papierowych oryginałów (jeśli czytelne)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **PDF** - Z wbudowaną skalą lub wymiarami (idealny)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **DWG/DXF** - Natywne pliki AutoCAD (najdokładniejsze)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **DGN** - Rysunki MicroStation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Skanowane PDF** - Z papierowych oryginałów (jeśli czytelne)</p>
 :::
 
 **Najlepsze dla:** Projektów 1 mln PLN+ gdzie precyzja ma znaczenie
@@ -283,9 +284,9 @@ Wyższa dokładność i szybszy termin realizacji:
 Możemy również pracować z:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rysunki Papierowe** - Wysłane kurierem/pocztą</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Reprodukcje** - Wydruki heliograficzne, plotowane kopie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rysunki Archiwalne** - Historyczne plany (możemy digitalizować)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rysunki Papierowe** - Wysłane kurierem/pocztą</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Reprodukcje** - Wydruki heliograficzne, plotowane kopie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rysunki Archiwalne** - Historyczne plany (możemy digitalizować)</p>
 :::
 
 **Uwaga:** Rysunki fizyczne wymagają skanowania i mają niższą dokładność (±10-12%)
@@ -297,25 +298,25 @@ Możemy również pracować z:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>Standardy UK
+### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Standardy UK
 
 RICS New Rules of Measurement (NRM1, NRM2, NRM3), Standard Method of Measurement (SMM7), CESMM4 (roboty inżynieryjne)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe-asia-australia" style="color: var(--bim-orange); margin-right: 12px;"></i>Standardy Australijskie
+### <i class="bi bi-globe-asia-australia" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Standardy Australijskie
 
 Australian Institute of Quantity Surveyors (AIQS) Practice Manual, standardy kontraktowe AS 4000
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-flag" style="color: var(--bim-orange); margin-right: 12px;"></i>Standardy Polskie
+### <i class="bi bi-flag" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Standardy Polskie
 
 KNR 2-02 (roboty budowlane), przedmiar robót, kosztorysowanie inwestorskie (opcjonalnie)
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;"></i>Międzynarodowe
+### <i class="bi bi-buildings" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Międzynarodowe
 
 POMI (Principles of Measurement International), zasady pomiaru FIDIC, lokalne standardy według wymagań
 :::
@@ -331,12 +332,12 @@ POMI (Principles of Measurement International), zasady pomiaru FIDIC, lokalne st
 Każdy tradycyjny pomiar zawiera:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowy przedmiar robót** – format Excel</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Arkusze wymiarowe** – pokazujące wszystkie obliczenia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Oznaczone rysunki** – PDF z podświetlonymi obszarami pomiaru</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Komentarz pomiarowy** – wyjaśniający metodologię</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rejestr założeń** – dokumentujący podjęte decyzje</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Rejestr ryzyka i możliwości** – pozycje wymagające wyjaśnień</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowy przedmiar robót** – format Excel</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Arkusze wymiarowe** – pokazujące wszystkie obliczenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Oznaczone rysunki** – PDF z podświetlonymi obszarami pomiaru</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Komentarz pomiarowy** – wyjaśniający metodologię</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rejestr założeń** – dokumentujący podjęte decyzje</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Rejestr ryzyka i możliwości** – pozycje wymagające wyjaśnień</p>
 :::
 :::
 
@@ -346,13 +347,13 @@ Każdy tradycyjny pomiar zawiera:
 Wzbogać swój przedmiar o:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kosztorysowanie** – zastosowanie cen do ilości</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kosztorys elementowy** – format RIBA/OGC</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Benchmarking** – porównanie z podobnymi projektami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja wartości** – możliwości redukcji kosztów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Przegląd projektu** – informacje zwrotne o wykonalności</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja przetargowa** – przygotowanie do ofertowania</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Weryfikacja na miejscu** – wizyty pomiarowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie** – zastosowanie cen do ilości</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorys elementowy** – format RIBA/OGC</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Benchmarking** – porównanie z podobnymi projektami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja wartości** – możliwości redukcji kosztów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Przegląd projektu** – informacje zwrotne o wykonalności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokumentacja przetargowa** – przygotowanie do ofertowania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Weryfikacja na miejscu** – wizyty pomiarowe</p>
 :::
 :::
 
@@ -475,10 +476,10 @@ O: Dostarczamy kompletny ślad audytu - arkusze wymiarowe pokazujące każde obl
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność pomiaru ±5-8%</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Doświadczeni inżynierowie kosztorysanci</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja 5-15 dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność pomiaru ±5-8%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Doświadczeni inżynierowie kosztorysanci</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja 5-15 dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 lat międzynarodowego doświadczenia</strong></p>
 :::
 :::
 :::

@@ -191,49 +191,49 @@ description: "BIM Takeoff Privacy Policy - GDPR and RODO compliant data protecti
       
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-check-circle" style="color: #FF9900;"></i> Right of Access
+          <i class="bi bi-check-circle" style="color: #FF9900;" aria-hidden="true"></i> Right of Access
         </h4>
         <p style="margin-bottom: 0;">Request a copy of your personal data we hold</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-pencil" style="color: #FF9900;"></i> Right to Rectification
+          <i class="bi bi-pencil" style="color: #FF9900;" aria-hidden="true"></i> Right to Rectification
         </h4>
         <p style="margin-bottom: 0;">Correct inaccurate or incomplete data</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-trash" style="color: #FF9900;"></i> Right to Erasure ("Right to be Forgotten")
+          <i class="bi bi-trash" style="color: #FF9900;" aria-hidden="true"></i> Right to Erasure ("Right to be Forgotten")
         </h4>
         <p style="margin-bottom: 0;">Request deletion of your data (subject to legal obligations)</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-pause-circle" style="color: #FF9900;"></i> Right to Restriction
+          <i class="bi bi-pause-circle" style="color: #FF9900;" aria-hidden="true"></i> Right to Restriction
         </h4>
         <p style="margin-bottom: 0;">Limit how we use your data in certain circumstances</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-download" style="color: #FF9900;"></i> Right to Data Portability
+          <i class="bi bi-download" style="color: #FF9900;" aria-hidden="true"></i> Right to Data Portability
         </h4>
         <p style="margin-bottom: 0;">Receive your data in a structured, machine-readable format</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-x-circle" style="color: #FF9900;"></i> Right to Object
+          <i class="bi bi-x-circle" style="color: #FF9900;" aria-hidden="true"></i> Right to Object
         </h4>
         <p style="margin-bottom: 0;">Object to processing based on legitimate interests or for marketing</p>
       </div>
 
       <div style="background: #F8F9FA; padding: 20px; border-radius: 8px; margin: 20px 0;">
         <h4 style="color: #2C2C2C; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">
-          <i class="bi bi-arrow-counterclockwise" style="color: #FF9900;"></i> Right to Withdraw Consent
+          <i class="bi bi-arrow-counterclockwise" style="color: #FF9900;" aria-hidden="true"></i> Right to Withdraw Consent
         </h4>
         <p style="margin-bottom: 0;">Withdraw consent for processing at any time</p>
       </div>

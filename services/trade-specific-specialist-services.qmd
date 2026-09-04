@@ -7,8 +7,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -25,10 +26,10 @@ precision costing for the trades that matter most.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ specialist projects</strong> estimated across EU, UK & Australia</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Deep expertise</strong> in Drylining, Fire Protection, Facades & Structural</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Both supply-only</strong> and install packages covered</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Compliance</strong> with international standards</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>2,000+ specialist projects</strong> estimated across EU, UK & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Deep expertise</strong> in Drylining, Fire Protection, Facades & Structural</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Both supply-only</strong> and install packages covered</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Compliance</strong> with international standards</p>
 :::
 :::
 
@@ -57,10 +58,10 @@ precision costing for the trades that matter most.
 Generic estimators miss the complexity that specialist trades demand:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Drylining:** Missing acoustic/fire rating multipliers, incorrect stud sizing</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Fire Protection:** Failing to account for certification costs, testing requirements</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Facades:** Overlooking installation sequences, weatherproofing complexity</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Structural:** Underestimating reinforcement, connection details, tolerances</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Drylining:** Missing acoustic/fire rating multipliers, incorrect stud sizing</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Fire Protection:** Failing to account for certification costs, testing requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Facades:** Overlooking installation sequences, weatherproofing complexity</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Structural:** Underestimating reinforcement, connection details, tolerances</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -76,11 +77,11 @@ Generic estimators miss the complexity that specialist trades demand:
 Specialists who've worked IN the trades, not just estimated FOR them:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Hands-on experience** installing drylining, fire systems, facades</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2,000+ specialist packages** estimated across 3 continents</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Know the hidden costs: labor inefficiencies, material waste, rework risks</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Understand compliance: fire ratings, structural calculations, wind load testing</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Real-world estimating: not just BOQ—actual buildable costs</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Hands-on experience** installing drylining, fire systems, facades</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2,000+ specialist packages** estimated across 3 continents</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Know the hidden costs: labor inefficiencies, material waste, rework risks</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Understand compliance: fire ratings, structural calculations, wind load testing</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Real-world estimating: not just BOQ—actual buildable costs</p>
 :::
 :::
 
@@ -91,7 +92,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 ::: {.specialist-areas style="margin: 48px 0;"}
 
 ::: {.specialist-card}
-### <i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Drylining & Partitions
+### <i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Drylining & Partitions
 
 #### What We Cover
 - Metal stud framing systems (Knauf, Gyproc, Siniat)
@@ -125,7 +126,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Fire Protection Systems
+### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Fire Protection Systems
 
 #### What We Cover
 - Passive fire protection (compartmentation, fire stopping, intumescent coatings)
@@ -161,7 +162,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Facades & Cladding
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Facades & Cladding
 
 #### What We Cover
 - Rainscreen cladding systems (terracotta, fiber cement, metal panels)
@@ -197,7 +198,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Structural Works
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Structural Works
 
 #### What We Cover
 - Structural steel (frames, trusses, bracing)
@@ -330,7 +331,7 @@ Specialists who've worked IN the trades, not just estimated FOR them:
 ::: {.benefits-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> 1. Accuracy That Matters
+### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> 1. Accuracy That Matters
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;"}
 ::: {style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;"}
@@ -346,7 +347,7 @@ Based on 2,000 real projects tracked to completion
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 2. Hidden Costs Revealed
+### <i class="bi bi-eye-slash" style="color: var(--bim-orange);" aria-hidden="true"></i> 2. Hidden Costs Revealed
 
 We know what others miss:
 - Acoustic sealant requirements
@@ -358,7 +359,7 @@ We know what others miss:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 3. Compliance Built-In
+### <i class="bi bi-check-circle" style="color: var(--bim-orange);" aria-hidden="true"></i> 3. Compliance Built-In
 
 From day one, not discovered during construction:
 - Fire ratings (AS, BS, EN standards)
@@ -370,7 +371,7 @@ From day one, not discovered during construction:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-tools" style="color: var(--bim-orange);"></i> 4. Installation Reality
+### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> 4. Installation Reality
 
 Labor rates based on:
 - Actual crew productivity
@@ -381,7 +382,7 @@ Labor rates based on:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 5. Material Knowledge
+### <i class="bi bi-box-seam" style="color: var(--bim-orange);" aria-hidden="true"></i> 5. Material Knowledge
 
 Deep manufacturer expertise:
 - Know which systems work together
@@ -392,7 +393,7 @@ Deep manufacturer expertise:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 6. Risk Management
+### <i class="bi bi-shield-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 6. Risk Management
 
 Every package includes:
 - Comprehensive risk register
@@ -511,17 +512,17 @@ A: Yes. While based in Poland, we have extensive experience with EU, UK, and Aus
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check"></i> Free Specialist Review</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Free Specialist Review</h3>
 <p style="color: var(--bim-white); margin: 0;">Send drawings, get complexity assessment within 24h</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download"></i> Download Trade Guides</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download" aria-hidden="true"></i> Download Trade Guides</h3>
 <p style="color: var(--bim-white); margin: 0;">"Specialist Trades Estimating: The 12 Costs Everyone Misses" (18-page PDF)</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator"></i> Get Specialist Quote</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Get Specialist Quote</h3>
 <p style="color: var(--bim-white); margin: 0;">3-minute form, quote within 48 hours</p>
 :::
 :::
@@ -533,9 +534,9 @@ A: Yes. While based in Poland, we have extensive experience with EU, UK, and Aus
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2,000+ Specialist Projects</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years EU/UK/AU Experience</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±5% Accuracy</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Specialist Projects</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years EU/UK/AU Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±5% Accuracy</strong></p>
 :::
 :::
 :::
@@ -545,31 +546,31 @@ A: Yes. While based in Poland, we have extensive experience with EU, UK, and Aus
 ::: {.credentials-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 48px 0; text-align: center;"}
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **Experienced Surveyor**  
 Quantity Surveyor
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **20 Years**  
 Field Experience
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **Serving Whole World**  
 Global Projects
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **±3-5%**  
 Accuracy Rate
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **€2.5B**  
 Projects Valued
 :::

@@ -43,7 +43,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Phone</h3>
           <p style="color: #666666; margin-bottom: 20px;">Speak directly with our cost estimation experts</p>
@@ -59,7 +59,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-envelope-fill"></i>
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Email</h3>
           <p style="color: #666666; margin-bottom: 20px;">Send us your project details and requirements</p>
@@ -75,7 +75,7 @@ page-layout: full
       <div class="col-lg-4 col-md-6">
         <div class="contact-card" style="background: #F8F9FA; padding: 40px 30px; border-radius: 12px; height: 100%; border-left: 4px solid #FF9900; transition: transform 0.3s ease, box-shadow 0.3s ease;">
           <div style="color: #FF9900; font-size: 2.5rem; margin-bottom: 20px;">
-            <i class="bi bi-geo-alt-fill"></i>
+            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
           </div>
           <h3 style="color: #2C2C2C; font-size: 1.5rem; margin-bottom: 15px; font-weight: 600;">Global Reach</h3>
           <p style="color: #666666; margin-bottom: 20px;">Serving clients across international markets</p>

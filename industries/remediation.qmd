@@ -6,8 +6,9 @@ description: "Building remediation cost estimation for cladding replacement and 
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Delivered in 3-8 days with ±5% accuracy.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Post-Grenfell Expertise</strong> - Cladding & fire safety compliance</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Building Safety Act Knowledge</strong> - BSR/HRB requirements</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Post-Grenfell Expertise</strong> - Cladding & fire safety compliance</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Building Safety Act Knowledge</strong> - BSR/HRB requirements</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Experience:</strong> Proven track record across UK, EU & Australia</p>
 :::
 :::
 
@@ -49,11 +50,11 @@ Delivered in 3-8 days with ±5% accuracy.
 Building remediation projects face unique complexities and regulatory pressures:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Regulatory pressure** - Building Safety Act, BSR compliance deadlines</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Cost uncertainty** - Hidden defects discovered during works</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Occupied buildings** - Works around residents, minimal disruption</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Funding challenges** - Grant applications, leaseholder charges</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Complex interfaces** - Multiple trades, phasing requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Regulatory pressure** - Building Safety Act, BSR compliance deadlines</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Cost uncertainty** - Hidden defects discovered during works</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Occupied buildings** - Works around residents, minimal disruption</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Funding challenges** - Grant applications, leaseholder charges</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Complex interfaces** - Multiple trades, phasing requirements</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -69,11 +70,11 @@ Building remediation projects face unique complexities and regulatory pressures:
 Specialized 5D BIM for building remediation and compliance upgrades:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **3-8 days** for complete estimate (vs 6-8 weeks traditional)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Compliance expertise** - Building Safety Act, BSR/HRB requirements</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Phasing optimization** - Minimize disruption, maintain occupancy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Contingency planning** - Risk-based allowances for unknowns</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Funding support** - Documentation for grant applications</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **3-8 days** for complete estimate (vs 6-8 weeks traditional)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Compliance expertise** - Building Safety Act, BSR/HRB requirements</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Phasing optimization** - Minimize disruption, maintain occupancy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Contingency planning** - Risk-based allowances for unknowns</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Funding support** - Documentation for grant applications</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 4px solid var(--bim-orange);"}
@@ -92,7 +93,7 @@ Specialized 5D BIM for building remediation and compliance upgrades:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;"></i>Fast-Track Estimation
+### <i class="bi bi-speedometer2" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Fast-Track Estimation
 
 **3-8 Day Turnaround**
 
@@ -106,7 +107,7 @@ Perfect for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;"></i>Compliance Costing
+### <i class="bi bi-shield-check" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Compliance Costing
 
 **Building Safety Act**
 
@@ -120,7 +121,7 @@ Expert knowledge of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;"></i>Phasing & Logistics
+### <i class="bi bi-layers" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Phasing & Logistics
 
 **Occupied Building Works**
 
@@ -134,7 +135,7 @@ Critical for:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Multi-Scenario Analysis
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Multi-Scenario Analysis
 
 **Compare Remediation Options**
 
@@ -148,7 +149,7 @@ Analyze impact of:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;"></i>Grant Application Support
+### <i class="bi bi-file-earmark-text" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Grant Application Support
 
 **Funding Documentation**
 
@@ -162,7 +163,7 @@ Full service including:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;"></i>Risk & Contingency
+### <i class="bi bi-exclamation-triangle" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Risk & Contingency
 
 **Unknown Defect Allowances**
 
@@ -260,12 +261,12 @@ We provide detailed cost breakdowns for BSR-related activities:
 <h4 style="color: var(--bim-white); margin-top: 0;">Key BSR Cost Drivers We Quantify:</h4>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;"}
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Enhanced documentation** requirements</p>
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Digital information management** (ISO 19650)</p>
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Competence verification** systems</p>
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Gateway submission** preparations</p>
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Golden thread** information requirements</p>
-<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Resident engagement** obligations</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Enhanced documentation** requirements</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Digital information management** (ISO 19650)</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Competence verification** systems</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Gateway submission** preparations</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Golden thread** information requirements</p>
+<p style="color: var(--bim-white); margin: 8px 0;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Resident engagement** obligations</p>
 :::
 :::
 
@@ -307,7 +308,7 @@ For existing HRBs requiring remediation, BSR compliance adds specific cost impli
 :::
 
 ::: {style="text-align: center; margin: 32px 0; padding: 24px; background: linear-gradient(135deg, #fff3cd 0%, #fff8dc 100%); border-radius: 8px; border: 2px solid #ffc107;"}
-<h4 style="margin-top: 0; color: var(--bim-charcoal);"><i class="bi bi-info-circle-fill" style="color: #ffc107; margin-right: 8px;"></i> Important BSR Deadline Context</h4>
+<h4 style="margin-top: 0; color: var(--bim-charcoal);"><i class="bi bi-info-circle-fill" style="color: #ffc107; margin-right: 8px;" aria-hidden="true"></i> Important BSR Deadline Context</h4>
 <p style="margin: 0; color: var(--bim-charcoal);">All existing HRBs must be registered with BSR. Accountable Persons face significant penalties for non-compliance. Our cost estimates help building owners budget for mandatory compliance upgrades alongside remediation works.</p>
 :::
 
@@ -697,19 +698,19 @@ Express service (3-4 days) carries a 25% premium. Contact us for a specific quot
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill"></i> Schedule Call</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Schedule Call</h3>
 <p style="color: var(--bim-white); margin: 0;">Discuss your remediation needs</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0; font-size: 18px;"><strong>+44 (0) 20 3239 9967</strong></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill"></i> Get Quote</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get Quote</h3>
 <p style="color: var(--bim-white); margin: 0;">24-hour response with proposal</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="mailto:info@bimtakeoff.com" style="color: var(--bim-orange); text-decoration: underline;">info@bimtakeoff.com</a></p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill"></i> BSR Support</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 12px;"><i class="bi bi-calendar-check-fill" aria-hidden="true"></i> BSR Support</h3>
 <p style="color: var(--bim-white); margin: 0;">Free initial consultation</p>
 <p style="color: var(--bim-white); margin: 12px 0 0 0;"><a href="../contact.qmd" style="color: var(--bim-orange); text-decoration: underline;">Schedule Now →</a></p>
 :::
@@ -722,10 +723,10 @@ Express service (3-4 days) carries a 25% premium. Contact us for a specific quot
 :::
 
 ::: {style="margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Post-Grenfell Cladding Expertise</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Building Safety Act Compliance</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>3-8 Day Turnaround</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Risk-Based Contingencies</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Post-Grenfell Cladding Expertise</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Building Safety Act Compliance</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>3-8 Day Turnaround</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Risk-Based Contingencies</strong></p>
 :::
 :::
 :::

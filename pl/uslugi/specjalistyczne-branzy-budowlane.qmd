@@ -7,8 +7,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -25,10 +26,10 @@ precyzyjne kosztorysowanie dla najważniejszych branż.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2,000+ projektów specjalistycznych</strong> wycenionych w EU, UK i Australii</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Głęboka ekspertyza:</strong> Sucha Zabudowa, Ochrona Ppoż., Elewacje, Konstrukcje</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Przetargi</strong> jedno i dwustopniowe</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Zgodność</strong> z międzynarodowymi standardami (NRM, AS, BS, EN) + polskie przepisy</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>2,000+ projektów specjalistycznych</strong> wycenionych w EU, UK i Australii</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Głęboka ekspertyza:</strong> Sucha Zabudowa, Ochrona Ppoż., Elewacje, Konstrukcje</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Przetargi</strong> jedno i dwustopniowe</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Zgodność</strong> z międzynarodowymi standardami (NRM, AS, BS, EN) + polskie przepisy</p>
 :::
 :::
 
@@ -51,10 +52,10 @@ precyzyjne kosztorysowanie dla najważniejszych branż.
 Ogólni kosztorysanci nie rozumieją złożoności branż specjalistycznych:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Sucha zabudowa:** Brak wyceny szczegółów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Ochrona ppoż.:** Pominięcie kosztów certyfikacji, testów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Elewacje:** Przeoczenie sekwencji montażu, złożoności uszczelnienia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> **Konstrukcje:** Niedoszacowanie zbrojenia, detali połączeń, tolerancji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Sucha zabudowa:** Brak wyceny szczegółów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Ochrona ppoż.:** Pominięcie kosztów certyfikacji, testów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Elewacje:** Przeoczenie sekwencji montażu, złożoności uszczelnienia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> **Konstrukcje:** Niedoszacowanie zbrojenia, detali połączeń, tolerancji</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -70,11 +71,11 @@ Ogólni kosztorysanci nie rozumieją złożoności branż specjalistycznych:
 Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Praktyczne doświadczenie** w montażu suchej zabudowy, systemów ppoż., elewacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2,000+ pakietów specjalistycznych** wycenionych na 3 kontynentach</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Znamy ukryte koszty: nieefektywność pracy, straty materiału, ryzyko poprawek</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rozumiemy zgodność: klasy ppoż., obliczenia statyczne, testy obciążenia</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Rzeczywiste kosztorysowanie: nie tylko przedmiar — faktyczne koszty wykonania</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Praktyczne doświadczenie** w montażu suchej zabudowy, systemów ppoż., elewacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2,000+ pakietów specjalistycznych** wycenionych na 3 kontynentach</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Znamy ukryte koszty: nieefektywność pracy, straty materiału, ryzyko poprawek</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Rozumiemy zgodność: klasy ppoż., obliczenia statyczne, testy obciążenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Rzeczywiste kosztorysowanie: nie tylko przedmiar — faktyczne koszty wykonania</p>
 :::
 :::
 
@@ -85,7 +86,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 ::: {.specialist-areas style="margin: 48px 0;"}
 
 ::: {.specialist-card}
-### <i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Sucha Zabudowa i Przegrody
+### <i class="bi bi-grid-3x3-gap-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Sucha Zabudowa i Przegrody
 
 #### Co Obejmujemy
 - Systemy suchej zabudowy (Knauf, Gyproc, Siniat, Rigips, Norgips)
@@ -118,7 +119,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Systemy Ochrony Przeciwpożarowej
+### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Systemy Ochrony Przeciwpożarowej
 
 #### Co Obejmujemy
 - Bierna ochrona przeciwpożarowa (przegrody ppoż., powłoki ogniodporne)
@@ -154,7 +155,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Elewacje i Okładziny
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Elewacje i Okładziny
 
 #### Co Obejmujemy
 - Systemy elewacji (terakota, płyty, panele metalowe)
@@ -189,7 +190,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 :::
 
 ::: {.specialist-card}
-### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;"></i>Roboty Konstrukcyjne
+### <i class="bi bi-diagram-3" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Roboty Konstrukcyjne
 
 #### Co Obejmujemy
 - Konstrukcje stalowe (ramy, kratownice, usztywnienia)
@@ -322,7 +323,7 @@ Specjaliści którzy PRACOWALI w branżach, nie tylko dla nich kosztorysowali:
 ::: {.benefits-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; margin: 48px 0;"}
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-bullseye" style="color: var(--bim-orange);"></i> 1. Dokładność Która Ma Znaczenie
+### <i class="bi bi-bullseye" style="color: var(--bim-orange);" aria-hidden="true"></i> 1. Dokładność Która Ma Znaczenie
 
 ::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;"}
 ::: {style="text-align: center; padding: 16px; background: #f8f9fa; border-radius: 8px;"}
@@ -338,7 +339,7 @@ Na podstawie 2000 rzeczywistych projektów śledzonych do zakończenia
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-eye-slash" style="color: var(--bim-orange);"></i> 2. Ukryte Koszty Ujawnione
+### <i class="bi bi-eye-slash" style="color: var(--bim-orange);" aria-hidden="true"></i> 2. Ukryte Koszty Ujawnione
 
 Wiemy czego inni nie widzą:
 - Wymogi uszczelnień akustycznych
@@ -350,7 +351,7 @@ Wiemy czego inni nie widzą:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-check-circle" style="color: var(--bim-orange);"></i> 3. Zgodność Wbudowana
+### <i class="bi bi-check-circle" style="color: var(--bim-orange);" aria-hidden="true"></i> 3. Zgodność Wbudowana
 
 Od pierwszego dnia, nie odkrywana podczas budowy:
 - Klasy ogniowe (standardy AS, BS, EN)
@@ -362,7 +363,7 @@ Od pierwszego dnia, nie odkrywana podczas budowy:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-tools" style="color: var(--bim-orange);"></i> 4. Rzeczywistość Montażu
+### <i class="bi bi-tools" style="color: var(--bim-orange);" aria-hidden="true"></i> 4. Rzeczywistość Montażu
 
 Stawki robocizny oparte na:
 - Faktycznej wydajności ekip
@@ -373,7 +374,7 @@ Stawki robocizny oparte na:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-box-seam" style="color: var(--bim-orange);"></i> 5. Wiedza Materiałowa
+### <i class="bi bi-box-seam" style="color: var(--bim-orange);" aria-hidden="true"></i> 5. Wiedza Materiałowa
 
 Głęboka ekspertyza producentów:
 - Wiemy które systemy współpracują
@@ -384,7 +385,7 @@ Głęboka ekspertyza producentów:
 :::
 
 ::: {.benefit-card style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-### <i class="bi bi-shield-check" style="color: var(--bim-orange);"></i> 6. Zarządzanie Ryzykiem
+### <i class="bi bi-shield-check" style="color: var(--bim-orange);" aria-hidden="true"></i> 6. Zarządzanie Ryzykiem
 
 Każdy pakiet zawiera:
 - Kompleksowy rejestr ryzyk
@@ -505,17 +506,17 @@ O: Tak. Choć mamy siedzibę w Polsce, posiadamy szerokie doświadczenie ze stan
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;"}
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check"></i> Pozostańmy w Kontakcie</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-clipboard-check" aria-hidden="true"></i> Pozostańmy w Kontakcie</h3>
 <p style="color: var(--bim-white); margin: 0;">Napisz do nas, otrzymaj wycenę w 24h</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download"></i> Pobierz Przewodniki Branżowe</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-download" aria-hidden="true"></i> Pobierz Przewodniki Branżowe</h3>
 <p style="color: var(--bim-white); margin: 0;">"Kosztorysowanie Branż Specjalistycznych: 12 Kosztów Które Wszyscy Pomijają" (18-str PDF)</p>
 :::
 
 ::: {style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;"}
-<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator"></i> Otrzymaj Wycenę Specjalistyczną</h3>
+<h3 style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;"><i class="bi bi-calculator" aria-hidden="true"></i> Otrzymaj Wycenę Specjalistyczną</h3>
 <p style="color: var(--bim-white); margin: 0;">3-min formularz, wycena w 48h</p>
 :::
 :::
@@ -527,9 +528,9 @@ O: Tak. Choć mamy siedzibę w Polsce, posiadamy szerokie doświadczenie ze stan
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2,000+ Projektów Specjalistycznych</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Doświadczenia EU/UK/AU</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Dokładność ±5%</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>2,000+ Projektów Specjalistycznych</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Doświadczenia EU/UK/AU</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Dokładność ±5%</strong></p>
 :::
 :::
 :::
@@ -539,31 +540,31 @@ O: Tak. Choć mamy siedzibę w Polsce, posiadamy szerokie doświadczenie ze stan
 ::: {.credentials-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 48px 0; text-align: center;"}
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-award-fill" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **Doświadczony Surveyor**  
 Quantity Surveyor
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-building" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **20 Lat**  
 Doświadczenia
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-globe" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **Obsługujemy cały świat**  
 Projekty Globalne
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-graph-up" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **±3-5%**  
 Dokładność
 :::
 
 ::: {style="padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
-<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);"></i>  
+<i class="bi bi-cash-stack" style="font-size: 48px; color: var(--bim-orange);" aria-hidden="true"></i>  
 **10 mld PLN**  
 Wycenionych Projektów
 :::

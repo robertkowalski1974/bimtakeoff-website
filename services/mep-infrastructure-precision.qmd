@@ -6,8 +6,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Clash-free quantities with ±3% accuracy.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Full M&E Coordination</strong> - Mechanical, Electrical, Plumbing, Fire</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Clash Detection Integrated</strong> - Pre-validated quantities</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complex Systems Specialist</strong> - Data centers, industrial, healthcare</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Full M&E Coordination</strong> - Mechanical, Electrical, Plumbing, Fire</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Clash Detection Integrated</strong> - Pre-validated quantities</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Complex Systems Specialist</strong> - Data centers, industrial, healthcare</p>
 :::
 :::
 
@@ -55,12 +56,12 @@ Clash-free quantities with ±3% accuracy.
 Mechanical, Electrical & Plumbing represent 30-50% of project costs but are often poorly estimated:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Allowance-based pricing (£/sqm, £/kW)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Incomplete takeoffs miss small-bore pipework</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Clashes discovered during installation</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Coordination costs underestimated</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Testing & commissioning overlooked</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Integration complexity not priced</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Allowance-based pricing (£/sqm, £/kW)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Incomplete takeoffs miss small-bore pipework</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Clashes discovered during installation</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Coordination costs underestimated</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Testing & commissioning overlooked</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Integration complexity not priced</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -76,12 +77,12 @@ Mechanical, Electrical & Plumbing represent 30-50% of project costs but are ofte
 Coordinated 3D model extraction with full system integration:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Clash-free quantities** from coordinated models</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Every component counted** - fittings, fixings, accessories</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **System-by-system validation** by MEP specialists</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Coordination & testing costs included</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Controls & BMS integration priced</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Performance guarantees factored</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Clash-free quantities** from coordinated models</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Every component counted** - fittings, fixings, accessories</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **System-by-system validation** by MEP specialists</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Coordination & testing costs included</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Controls & BMS integration priced</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Performance guarantees factored</p>
 :::
 :::
 
@@ -91,7 +92,7 @@ Coordinated 3D model extraction with full system integration:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-snow" style="color: var(--bim-orange); margin-right: 12px;"></i>HVAC Systems
+### <i class="bi bi-snow" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>HVAC Systems
 
 **Heating, Cooling & Ventilation**
 
@@ -107,7 +108,7 @@ Coordinated 3D model extraction with full system integration:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Electrical Systems
+### <i class="bi bi-lightning-charge-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Electrical Systems
 
 **Power & Distribution**
 
@@ -123,7 +124,7 @@ Coordinated 3D model extraction with full system integration:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Plumbing & Drainage
+### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Plumbing & Drainage
 
 **Water & Waste**
 
@@ -139,7 +140,7 @@ Coordinated 3D model extraction with full system integration:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;"></i>Fire Protection
+### <i class="bi bi-fire" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Fire Protection
 
 **Life Safety Systems**
 
@@ -155,7 +156,7 @@ Coordinated 3D model extraction with full system integration:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hdd-network-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Data & Comms
+### <i class="bi bi-hdd-network-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Data & Comms
 
 **IT Infrastructure**
 
@@ -171,7 +172,7 @@ Coordinated 3D model extraction with full system integration:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>Building Controls
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Building Controls
 
 **Integration & Automation**
 
@@ -457,7 +458,7 @@ A: For major equipment (chillers, generators, switchgear, UPS), we obtain budget
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; margin: 48px 0;"}
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);"></i> MEP Specialist Team
+### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> MEP Specialist Team
 
 **Engineers & Cost Consultants**
 
@@ -465,7 +466,7 @@ Our team includes chartered M&E engineers who understand system design, not just
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-boxes" style="color: var(--bim-orange);"></i> Complex Systems Experience
+### <i class="bi bi-boxes" style="color: var(--bim-orange);" aria-hidden="true"></i> Complex Systems Experience
 
 **Data Centers to Operating Theatres**
 
@@ -473,7 +474,7 @@ We've costed MEP for the most demanding applications: Tier IV data centers with 
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-cpu-fill" style="color: var(--bim-orange);"></i> BIM-Native Approach
+### <i class="bi bi-cpu-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> BIM-Native Approach
 
 **Coordinated Model Extraction**
 
@@ -481,7 +482,7 @@ We work directly with federated MEP models, running clash detection before quant
 :::
 
 ::: {style="background: var(--bim-light-gray); padding: 32px; border-radius: 8px; border-left: 4px solid var(--bim-orange);"}
-### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);"></i> Proven Accuracy
+### <i class="bi bi-bar-chart-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> Proven Accuracy
 
 **±3% on Complex MEP**
 
@@ -522,10 +523,10 @@ Our MEP estimates achieve ±3-5% accuracy when working from LOD 350+ coordinated
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Chartered M&E Engineers</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>±3% Accuracy on Coordinated Models</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Clash Detection Included</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years Complex Systems Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Chartered M&E Engineers</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>±3% Accuracy on Coordinated Models</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Clash Detection Included</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years Complex Systems Experience</strong></p>
 :::
 :::
 :::

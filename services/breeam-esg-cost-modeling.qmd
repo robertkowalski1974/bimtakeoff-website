@@ -6,8 +6,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../images/hero-video.webm" type="video/webm">
+    <source data-src="../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,9 +25,9 @@ Optimize sustainability investments with ±5% precision.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>BREEAM Excellent/Outstanding</strong> - Cost planning for all credit categories</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>ESG Compliance</strong> - Environmental, Social, Governance cost modeling</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Whole Life Carbon Assessment</strong> - Embodied & operational carbon costing</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>BREEAM Excellent/Outstanding</strong> - Cost planning for all credit categories</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>ESG Compliance</strong> - Environmental, Social, Governance cost modeling</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Whole Life Carbon Assessment</strong> - Embodied & operational carbon costing</p>
 :::
 :::
 
@@ -55,12 +56,12 @@ Optimize sustainability investments with ±5% precision.
 Sustainability features are often seen as cost premiums without clear ROI:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Generic "10-15% sustainability premium" assumptions</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> No differentiation between credit categories</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Operational savings ignored in business case</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Carbon costs treated as regulatory burden</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Life cycle costs not properly evaluated</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Value engineering removes sustainability features first</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Generic "10-15% sustainability premium" assumptions</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> No differentiation between credit categories</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Operational savings ignored in business case</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Carbon costs treated as regulatory burden</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Life cycle costs not properly evaluated</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Value engineering removes sustainability features first</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -76,12 +77,12 @@ Sustainability features are often seen as cost premiums without clear ROI:
 Detailed cost modeling that proves sustainability's ROI:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Credit-by-credit costing** for BREEAM/LEED/WELL</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **30-year life cycle analysis** including operational savings</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Embodied carbon costing** per tonne CO2e</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Carbon pricing scenarios (£50-£150/tonne)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> ESG reporting-ready cost breakdowns</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Value engineering that preserves sustainability targets</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Credit-by-credit costing** for BREEAM/LEED/WELL</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **30-year life cycle analysis** including operational savings</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Embodied carbon costing** per tonne CO2e</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Carbon pricing scenarios (£50-£150/tonne)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> ESG reporting-ready cost breakdowns</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Value engineering that preserves sustainability targets</p>
 :::
 :::
 
@@ -91,7 +92,7 @@ Detailed cost modeling that proves sustainability's ROI:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-award-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>BREEAM Certification
+### <i class="bi bi-award-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>BREEAM Certification
 
 **All Rating Levels Supported**
 
@@ -107,7 +108,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;"></i>Carbon & Energy
+### <i class="bi bi-globe-europe-africa" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Carbon & Energy
 
 **Net Zero Ready Buildings**
 
@@ -123,7 +124,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;"></i>ESG Reporting
+### <i class="bi bi-building-gear" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>ESG Reporting
 
 **Investor-Grade Analysis**
 
@@ -139,7 +140,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Resource Efficiency
+### <i class="bi bi-droplet-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Resource Efficiency
 
 **Sustainable Materials & Systems**
 
@@ -155,7 +156,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-heart-pulse-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Health & Wellbeing
+### <i class="bi bi-heart-pulse-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Health & Wellbeing
 
 **Occupant-Centric Design**
 
@@ -171,7 +172,7 @@ Detailed cost modeling that proves sustainability's ROI:
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;"></i>Circular Economy
+### <i class="bi bi-arrow-repeat" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Circular Economy
 
 **Future-Proofed Assets**
 
@@ -504,10 +505,10 @@ A: ESG reporting costs include: data collection systems, monitoring equipment, t
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>BREEAM AP Qualified Team</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>30-Year Life Cycle Analysis</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Investor-Ready Business Cases</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>BREEAM AP Qualified Team</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>30-Year Life Cycle Analysis</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Investor-Ready Business Cases</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Years International Experience</strong></p>
 :::
 :::
 :::

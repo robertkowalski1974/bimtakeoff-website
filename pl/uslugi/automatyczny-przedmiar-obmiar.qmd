@@ -5,8 +5,9 @@ page-layout: full
 
 ::: {.hero-section}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg">
-    <source src="../../images/hero-video.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+    <source data-src="../../images/hero-video.webm" type="video/webm">
+    <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -23,9 +24,9 @@ Potrójnie weryfikowane dla pełnej dokładności.
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}
 ::: {style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;"}
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Automatyczne odczytywanie przez AI</strong> - Automatyczne pomiary z modeli BIM</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Potrójny system walidacji (Triple Validation System)</strong> - AI + Ekspert + Weryfikacja krzyżowa</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Dokładność 99,5%</strong> - Potwierdzone 20-letnim doświadczeniem</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Automatyczne odczytywanie przez AI</strong> - Automatyczne pomiary z modeli BIM</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Potrójny system walidacji (Triple Validation System)</strong> - AI + Ekspert + Weryfikacja krzyżowa</p>
+<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> <strong>Dokładność 99,5%</strong> - Potwierdzone 20-letnim doświadczeniem</p>
 :::
 :::
 
@@ -54,12 +55,12 @@ Potrójnie weryfikowane dla pełnej dokładności.
 Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 tygodni na złożone projekty</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Błędy ludzkie w pomiarach (5-15%)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Pominięte ilości i elementy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Niespójne standardy pomiarowe</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Każda zmiana wymaga przeliczenia wszystkiego od nowa</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Trudne do zweryfikowania i audytu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> 4-6 tygodni na złożone projekty</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Błędy ludzkie w pomiarach (5-15%)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Pominięte ilości i elementy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Niespójne standardy pomiarowe</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Każda zmiana wymaga przeliczenia wszystkiego od nowa</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;" aria-hidden="true"></i> Trudne do zweryfikowania i audytu</p>
 :::
 
 ::: {.callout-box style="background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%); border-left: 4px solid #dc3545;"}
@@ -75,12 +76,12 @@ Tradycyjne metody obmiarów są wolne, podatne na błędy i kosztowne:
 Zaawansowana ekstrakcja AI z wielopoziomową walidacją:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **2-3 dni** na pełny przedmiar</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **99,5% dokładności** z potrójną walidacją</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Kompletne rozpoznanie wszystkich elementów (bez pominiętych pozycji)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Zgodność z ISO 19650 i KNR</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Natychmiastowa aktualizacja po każdej zmianie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Pełna ścieżka audytowa i dokumentacja</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **2-3 dni** na pełny przedmiar</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **99,5% dokładności** z potrójną walidacją</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Kompletne rozpoznanie wszystkich elementów (bez pominiętych pozycji)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Zgodność z ISO 19650 i KNR</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Natychmiastowa aktualizacja po każdej zmianie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> Pełna ścieżka audytowa i dokumentacja</p>
 :::
 :::
 
@@ -97,7 +98,7 @@ Projekty budowlane nie mogą sobie pozwolić na błędy pomiarowe. Nasz autorski
 ::: {style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;"}
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 1: Automatyczne odczytywanie przez AI
+#### <i class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 1: Automatyczne odczytywanie przez AI
 
 **Automatyczna analiza BIM**
 
@@ -114,7 +115,7 @@ Nasze algorytmy AI automatycznie wyodrębniają ilości z modelu BIM:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 2: Przegląd eksperta
+#### <i class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 2: Przegląd eksperta
 
 **Weryfikacja przez kosztorysanta**
 
@@ -131,7 +132,7 @@ Doświadczeni kosztorysanci ręcznie sprawdzają wyniki AI:
 :::
 
 ::: {style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);"}
-#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Poziom 3: Weryfikacja krzyżowa
+#### <i class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Poziom 3: Weryfikacja krzyżowa
 
 **Niezależna weryfikacja**
 
@@ -241,13 +242,13 @@ Końcowa walidacja względem wielu źródeł:
 Każdy automatyczny przedmiar zawiera:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Szczegółowy Przedmiar Robót** (format Excel)</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Znaczniki 3D** pokazujące zmierzone elementy</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Komentarz Pomiarowy** wyjaśniający metodologie</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Raporty Walidacji** ze wszystkich trzech poziomów</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Pełna Ścieżka Audytowa** do weryfikacji</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Harmonogram Elementów** z właściwościami i atrybutami</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Log Założeń** dokumentujący wszelkie założenia</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Szczegółowy Przedmiar Robót** (format Excel)</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Znaczniki 3D** pokazujące zmierzone elementy</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Komentarz Pomiarowy** wyjaśniający metodologie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Raporty Walidacji** ze wszystkich trzech poziomów</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Pełna Ścieżka Audytowa** do weryfikacji</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Harmonogram Elementów** z właściwościami i atrybutami</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Log Założeń** dokumentujący wszelkie założenia</p>
 :::
 :::
 
@@ -257,13 +258,13 @@ Każdy automatyczny przedmiar zawiera:
 Wzbogać swój przedmiar o:
 
 ::: {style="margin: 24px 0;"}
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Kosztorysowanie** - Zastosowanie stawek do ilości</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Integracja z Harmonogramem** - Powiązanie ilości z programem</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Dokumentacja Przetargowa** - Przygotowanie przedmiaru do przetargu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Optymalizacja Wartości** - Identyfikacja oszczędności</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Analiza Odpadów Materiałowych** - Kalkulacja współczynników strat</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Formatowanie Niestandardowe** - Dopasowanie do Państwa szablonu</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> **Bieżące Aktualizacje** - Śledzenie zmian projektowych w czasie</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Kosztorysowanie** - Zastosowanie stawek do ilości</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Integracja z Harmonogramem** - Powiązanie ilości z programem</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Dokumentacja Przetargowa** - Przygotowanie przedmiaru do przetargu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Optymalizacja Wartości** - Identyfikacja oszczędności</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Analiza Odpadów Materiałowych** - Kalkulacja współczynników strat</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Formatowanie Niestandardowe** - Dopasowanie do Państwa szablonu</p>
+<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;"><i class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;" aria-hidden="true"></i> **Bieżące Aktualizacje** - Śledzenie zmian projektowych w czasie</p>
 :::
 :::
 
@@ -273,37 +274,37 @@ Wzbogać swój przedmiar o:
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Budynki Komercyjne
+### <i class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budynki Komercyjne
 
 Kompleksy biurowe, centra handlowe, inwestycje wielofunkcyjne, projekty hotelarskie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Obiekty Służby Zdrowia
+### <i class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Obiekty Służby Zdrowia
 
 Szpitale, centra medyczne, domy opieki, przychodnie specjalistyczne
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Budownictwo Mieszkaniowe
+### <i class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Budownictwo Mieszkaniowe
 
 Budownictwo wielorodzinne, kompleksy apartamentowe, osiedla domów szeregowych
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Przemysł i Logistyka
+### <i class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Przemysł i Logistyka
 
 Magazyny, centra dystrybucyjne, zakłady produkcyjne, chłodnie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Edukacja i Instytucje
+### <i class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Edukacja i Instytucje
 
 Uniwersytety, szkoły, biblioteki, budynki rządowe, centra obywatelskie
 :::
 
 ::: {.feature-card}
-### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Projekty Infrastrukturalne
+### <i class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;" aria-hidden="true"></i>Projekty Infrastrukturalne
 
 Węzły transportowe, media, roboty publiczne, projekty inżynierii lądowej
 :::
@@ -483,10 +484,10 @@ O: Ceny zależą od wielkości projektu, złożoności i wymaganych elementów. 
 :::
 
 ::: {style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);"}
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Gwarancja 99,5% Dokładności</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Potrójny System Walidacji</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Realizacja w 2-3 Dni</strong></p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Gwarancja 99,5% Dokładności</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Potrójny System Walidacji</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>Realizacja w 2-3 Dni</strong></p>
+<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;"><i class="bi bi-patch-check-fill" style="color: var(--bim-orange);" aria-hidden="true"></i> <strong>20 Lat Międzynarodowego Doświadczenia</strong></p>
 :::
 :::
 :::
