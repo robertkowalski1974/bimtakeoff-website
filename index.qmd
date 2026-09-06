@@ -4,7 +4,7 @@ description: "Quantity takeoffs, priced bills and tender pricing for facade, dry
 page-layout: full
 ---
 
-::: {.hero-section}
+::: {.hero-section .hero-readable}
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="images/header-background.jpg" preload="none">
     <source data-src="images/hero-video.webm" type="video/webm">
@@ -24,7 +24,7 @@ Quantity surveying for subcontractors · UK · Australia · Poland
 :::
 
 ::: {.hero-subtitle}
-Send us the drawings for your next drylining, facade, firestopping, screed or structural tender. You get a measured takeoff or a priced bill in your own format, ready to submit.
+Send the PDF drawings, DWG files or IFC model for your next tender. You get a measured takeoff or priced bill in your own format, with the assumptions listed.
 :::
 
 ::: {.hero-actions}
@@ -200,7 +200,7 @@ You deal with me directly. The person who measures your drawings is the person w
 
 <p>Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.</p>
 
-<p>Attach up to 20 MB with the form. For a larger pack, email us and we send an upload link.</p>
+<p>Attach a file up to 20 MB with the form. For a larger pack, use the Document download link field or ask us for an upload link.</p>
 :::
 
 ::: {.split-panel-text}

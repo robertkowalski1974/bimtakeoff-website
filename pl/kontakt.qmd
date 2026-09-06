@@ -19,6 +19,10 @@ Odpowiadamy w ciągu jednego dnia roboczego, od poniedziałku do piątku. Jeśli
 ::: {.contact-layout}
 
 ::: {#formularz .contact-form-col}
+Wybierz **Wycena** lub **Bezpłatny przedmiar próbny**, a następnie podaj zakres i termin składania ofert.
+
+**Paczka powyżej 20 MB?** Użyj pola **Link do pobrania dokumentacji**. Jeśli potrzebujesz od nas linku do przesłania plików, poproś o niego w wiadomości.
+
 <div id="pipedrive-form-container">
 <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/72rWXUuSJYQND6JNZwOBOUK1N2AlXahsjQzmAk5XZObXpDbjacZyRDAb35Co9FRA8H"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
 </div>
@@ -33,7 +37,7 @@ Twoje dane wykorzystujemy wyłącznie po to, aby odpowiedzieć na to zapytanie. 
 
 Projekt (PDF lub DWG), specyfikację techniczną, przedmiar zamawiającego, jeśli jest, oraz termin składania ofert. Model IFC, jeśli istnieje; nie jest wymagany.
 
-Załącz do 20 MB przez formularz. Przy większej paczce napisz do nas, a wyślemy link do przesłania plików.
+Załącz plik do 20 MB przez formularz lub użyj pola z linkiem do pobrania dokumentacji.
 
 ## Co dzieje się dalej
 

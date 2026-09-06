@@ -436,65 +436,58 @@
   {
     "objectID": "services/automated-quantity-takeoff.html",
     "href": "services/automated-quantity-takeoff.html",
-    "title": "Automated Quantity Take-off from BIM Models",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
     "section": "",
-    "text": "Quantities extracted from the model with measurement software. Then checked against the drawings by hand.\n\n\n\n\n Software-Assisted Extraction - Quantities extracted from BIM models with measurement software\n\n\n Checked By Hand - Every quantity checked against the drawings\n\n\n 20 Years’ Experience - Backed by two decades measuring construction projects\n\n\n\n\nSend us your drawings Free sample takeoff"
+    "text": "Send the drawings and specification for your next tender. You get measured quantities in your bill format, with the assumptions listed. A BIM model is optional.\n\n\nSend us your drawings Free sample takeoff"
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#why-traditional-take-offs-cost-you-time-money",
-    "href": "services/automated-quantity-takeoff.html#why-traditional-take-offs-cost-you-time-money",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Why Traditional Take-offs Cost You Time & Money",
-    "text": "Why Traditional Take-offs Cost You Time & Money\n\n\nManual Take-off Problems\nTraditional measurement methods are slow, error-prone, and expensive:\n\n\n 4-6 weeks for complex projects\n\n\n Human error in manual measurement\n\n\n Missed quantities and elements\n\n\n Inconsistent measurement standards\n\n\n Design changes require complete re-measurement\n\n\n Difficult to verify and audit\n\n\n\n\nOur Automated Solution\nMeasurement software combined with manual checking:\n\n\n 2-3 days for complete take-off\n\n\n Checked against the drawings by hand\n\n\n Complete element capture (no missed items)\n\n\n ISO 19650 compliant measurement\n\n\n Instant updates for design changes\n\n\n Full audit trail and documentation"
+    "objectID": "services/automated-quantity-takeoff.html#what-you-get",
+    "href": "services/automated-quantity-takeoff.html#what-you-get",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "What you get",
+    "text": "What you get\nQuantities by element, floor and block, arranged for your estimator or the main contractor’s bill. We agree the measurement basis and output format before we start.\n\nA measured bill in Excel, your tender template or CITE/eBQ for import.\nItem descriptions and units matched to the agreed scope.\nA list of assumptions, exclusions and tender queries.\nReferences to the drawings and revisions used for measurement.\n\nNeed rates as well? Our tender pricing service adds pricing, preliminaries and qualifications to the agreed package."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#how-we-check-every-quantity",
-    "href": "services/automated-quantity-takeoff.html#how-we-check-every-quantity",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "How We Check Every Quantity",
-    "text": "How We Check Every Quantity\n\nSoftware Extraction, Then Manual Checking\nConstruction projects cannot afford measurement errors. Every quantity goes through more than one check before it reaches you.\n\n\nStep 1: Software Extraction\nAutomated BIM Analysis\nMeasurement software extracts quantities from the BIM model:\n\nPattern recognition for element identification\nAutomated measurement calculations\nClash detection and resolution\nDuplicate element removal\nVersion control tracking\n\nDuration: 1-2 hours\n\n\nStep 2: Manual Review\nHuman Verification\nWe manually review the software output against the drawings:\n\nCross-check against 2D drawings\nValidate measurement methodologies\nIdentify missing elements\nApply construction knowledge\nVerify unit conversions\n\nDuration: 4-8 hours\n\n\nStep 3: Cross-Reference Check\nFinal Check\nFinal check against multiple sources:\n\nCompare with historical project data\nBenchmark against industry standards\nVerify with specification documents\nCheck material relationships\nFinal QA review\n\nDuration: 2-4 hours\n\n\n\nResult: Each quantity passes through software extraction, manual review, and a cross-reference check before it reaches you."
+    "objectID": "services/automated-quantity-takeoff.html#drawings-or-models-we-work-with-the-pack-you-have",
+    "href": "services/automated-quantity-takeoff.html#drawings-or-models-we-work-with-the-pack-you-have",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "Drawings or models: we work with the pack you have",
+    "text": "Drawings or models: we work with the pack you have\n\n\nPDF drawings\nWe check the scale and revisions, then measure the package against the drawings and specification. Missing details go into the query register.\n\n\nDWG files\nWe measure the drawing geometry and check dimensions, units and scope. Quantities follow the bill structure you need.\n\n\nIFC models\nWe check model coverage before extracting quantities. We compare the output with the drawings and measure omitted items separately.\n\n\nIf you work in Revit, ArchiCAD or Tekla, send an IFC export with the drawing set. We confirm whether the model contains the information needed for your package."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#our-proven-4-step-process",
-    "href": "services/automated-quantity-takeoff.html#our-proven-4-step-process",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Our Proven 4-Step Process",
-    "text": "Our Proven 4-Step Process\n\n\nStep 1: Model Ingestion & Preparation\nDuration: 4-6 hours\nWhat We Do:\n\nReceive BIM model (IFC, Revit, ArchiCAD, Tekla)\nValidate model completeness and integrity\nCheck element classifications and properties\nIdentify any data gaps or inconsistencies\nConfigure measurement parameters\n\nWhat You Receive: Model validation report with any issues flagged\n\n\nStep 2: Automated Extraction\nDuration: 1-2 hours (automated)\nWhat We Do:\n\nQuantity extraction from BIM model using measurement software\nAutomated measurement calculations\nElement classification and grouping\nClash detection and duplicate removal\nGenerate preliminary Bill of Quantities\n\nWhat You Receive: Preliminary BOQ with automated measurements\n\n\nStep 3: Manual Review\nDuration: 4-8 hours\nWhat We Do:\n\nQuantity Surveyor manual verification\nCross-check with 2D drawings\nApply construction industry standards\nIdentify and add missing elements\nValidate measurement methodologies\nApply project-specific requirements\n\nWhat You Receive: Manually reviewed BOQ with quality assurance notes\n\n\nStep 4: Cross-Reference & Final QA\nDuration: 2-4 hours\nWhat We Do:\n\nCompare with historical project data\nBenchmark against industry standards\nFinal specification document verification\nChecked against the drawings by hand\nGenerate comprehensive documentation\nPrepare audit trail and commentary\n\nWhat You Receive: Final validated BOQ with complete documentation and audit trail\n\n\n\nTotal Timeline: 12-20 working hours\nTotal Project Duration: 2-3 days from model receipt to final delivery"
+    "objectID": "services/automated-quantity-takeoff.html#packages-we-measure",
+    "href": "services/automated-quantity-takeoff.html#packages-we-measure",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "Packages we measure",
+    "text": "Packages we measure\nDrylining and screed, facades and cladding, firestopping, structural concrete, masonry and tiling. We also prepare multi-trade bills for main contractors.\nWe flag boundaries between trades so you can see which items need agreement before tender return."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#whats-included-in-your-bill-of-quantities",
-    "href": "services/automated-quantity-takeoff.html#whats-included-in-your-bill-of-quantities",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "What’s Included in Your Bill of Quantities",
-    "text": "What’s Included in Your Bill of Quantities\n\n\nStandard Deliverables\nEvery automated take-off includes:\n\n\n Detailed Bill of Quantities (Excel format)\n\n\n 3D Visual Markup showing measured elements\n\n\n Measurement Commentary explaining methodologies\n\n\n Validation Reports documenting each check performed\n\n\n Complete Audit Trail for verification\n\n\n Element Schedule with properties and attributes\n\n\n Assumption Log documenting any assumptions\n\n\n\n\nOptional Add-ons\nEnhance your take-off with:\n\n\n Cost Estimation - Apply rates to quantities\n\n\n Schedule Integration - Link quantities to programme\n\n\n Tender Documentation - Prepare BOQ for bidding\n\n\n Value Engineering - Identify cost savings\n\n\n Material Waste Analysis - Calculate wastage factors\n\n\n Custom Formatting - Match your template requirements\n\n\n Ongoing Updates - Track design changes over time"
+    "objectID": "services/automated-quantity-takeoff.html#how-it-works",
+    "href": "services/automated-quantity-takeoff.html#how-it-works",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "How it works",
+    "text": "How it works\n\n\nSend the pack\nDrawings, specification, tender bill if available, and your return date. Include the output format your estimator uses.\n\n\nAgree the scope and fee\nWe reply within one working day with the scope, a fixed fee and a delivery date. Timing depends on the package and the information supplied.\n\n\nReceive the checked bill\nWe check quantities against the drawings and specification before issue. You receive the bill with assumptions and queries listed."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#industries-project-types-we-serve",
-    "href": "services/automated-quantity-takeoff.html#industries-project-types-we-serve",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Industries & Project Types We Serve",
-    "text": "Industries & Project Types We Serve\n\n\nCommercial Buildings\nOffice complexes, retail centres, mixed-use developments, hospitality projects\n\n\nHealthcare Facilities\nHospitals, medical centres, aged care facilities, specialist clinics\n\n\nResidential Developments\nMulti-family housing, apartment complexes, townhouse developments\n\n\nIndustrial & Logistics\nWarehouses, distribution centres, manufacturing facilities, cold storage\n\n\nEducation & Institutional\nUniversities, schools, libraries, government buildings, civic centres\n\n\nInfrastructure Projects\nTransport hubs, utilities, public works, civil engineering projects"
+    "objectID": "services/automated-quantity-takeoff.html#see-the-output",
+    "href": "services/automated-quantity-takeoff.html#see-the-output",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "See the output",
+    "text": "See the output\n\n\n\nA drylining trade bill in the contractor’s report format. Select the image to view the detail."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#supported-file-formats-software",
-    "href": "services/automated-quantity-takeoff.html#supported-file-formats-software",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Supported File Formats & Software",
-    "text": "Supported File Formats & Software\n\nWe Work With Your Existing Workflow\n\n\nBIM Software\n\nAutodesk Revit\nArchiCAD\nTekla Structures\nBentley MicroStation\nVectorworks\n\n\n\nFile Formats\n\nIFC 2x3 / IFC 4\nRevit (RVT)\nDWG / DXF\nPDF (with dimensions)\nPoint Clouds (if needed)\n\n\n\nExport Formats\n\nExcel (XLSX)\nCSV\nPDF Reports\nBCF (for markups)\nNative BIM formats\n\n\n\nIntegration\n\nMS Project\nPrimavera P6\nCostX / Vico\nProcore / BIM 360\nCustom APIs\n\n\n\n\nDon’t see your software? We work with virtually any BIM or CAD platform. Contact us to discuss your specific requirements.\n\n\n:::"
+    "objectID": "services/automated-quantity-takeoff.html#common-questions",
+    "href": "services/automated-quantity-takeoff.html#common-questions",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "Common questions",
+    "text": "Common questions\n\nDo I need a BIM model?\nNo. We measure from PDF drawings and DWG files. An IFC model is another input, where available.\n\n\nCan you use our bill format?\nYes. Send the template with the drawings. We confirm the format as part of the quote.\n\n\nWhat if the drawings are incomplete?\nWe identify the gaps and list the assumptions. If a missing drawing prevents measurement, we flag it before committing to that scope.\n\n\nCan you update the bill after a revision?\nYes. Send the revised information and we confirm the affected scope, fee and delivery date before the update.\n\n\nCan I try a sample first?\nSend one floor, one elevation or one unit type. We return a free sample within two working days, in your bill format."
   },
   {
-    "objectID": "services/automated-quantity-takeoff.html#frequently-asked-questions",
-    "href": "services/automated-quantity-takeoff.html#frequently-asked-questions",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Frequently Asked Questions",
-    "text": "Frequently Asked Questions\n\n\n\nQ: What if my project doesn’t have a BIM model?\n\n\nA: We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we’ll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modelling services to convert your 2D drawings first.\n\n\n\n\nQ: How accurate is your measurement process?\n\n\nA: Quantities are extracted from the model with measurement software and then checked against the drawings by hand. Where the model is incomplete or ambiguous, we log the assumption rather than guess. We provide complete audit trails for all measurements.\n\n\n\n\nQ: What happens if the design changes during the project?\n\n\nA: BIM-based take-offs make this straightforward. We can update quantities based on the revised model, typically within 4-8 hours rather than weeks for manual re-measurement. We offer ongoing update services at discounted rates for active projects.\n\n\n\n\nQ: Do you comply with international measurement standards?\n\n\nA: Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standards, and can adapt to local standards including Polish KNR, Australian AIQS, or any other regional requirements. We’re experienced with international projects and international measurement standards.\n\n\n\n\nQ: Can you handle large, complex projects?\n\n\nA: Yes. We’ve completed take-offs for projects ranging from small renovations to large developments. Our measurement software performs well on larger projects, where manual take-offs would be prohibitively time-consuming. Complex projects may require 3-4 days instead of 2-3.\n\n\n\n\nQ: What level of detail (LOD) do you need in the BIM model?\n\n\nA: We can work with LOD 300 and above for most projects. LOD 350-400 is ideal for detailed trade-specific take-offs. If your model is at LOD 200, we can still extract useful quantities but may need to supplement with 2D drawings for detailed measurements.\n\n\n\n\nQ: Do you provide take-offs for specific trades or disciplines?\n\n\nA: Yes! We can extract quantities for any trade: structural (concrete, steel, masonry), architectural (finishes, doors, windows), MEP (mechanical, electrical, plumbing, fire protection), civil works, and specialist systems. We tailor the BOQ format to match your trade requirements.\n\n\n\n\nQ: How do you handle model inconsistencies or errors?\n\n\nA: This is why we check in stages. The measurement software identifies clashes and duplicates automatically. Manual review catches model errors and cross-checks with the 2D drawings. A final cross-reference check confirms logical consistency. We document all assumptions and flag any areas of concern for your review.\n\n\n\n\nQ: What’s your pricing structure?\n\n\nA: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Each project is assessed individually based on project size, complexity, level of detail required, and specific deliverables. Contact us with your project details for a quote within 24 hours."
-  },
-  {
-    "objectID": "services/automated-quantity-takeoff.html#ready-for-fast-accurate-quantity-take-offs",
-    "href": "services/automated-quantity-takeoff.html#ready-for-fast-accurate-quantity-take-offs",
-    "title": "Automated Quantity Take-off from BIM Models",
-    "section": "Ready for Fast, Accurate Quantity Take-offs?",
-    "text": "Ready for Fast, Accurate Quantity Take-offs?\n\n\n\nStop Wasting Weeks on Manual Measurements\n\n\nContractors and subcontractors who chose measurement software and manual checking over traditional methods.\n\n\n\n\nFree Sample Take-off\n\n\nSubmit your model, get a sample section extracted free\n\n\n\n\nSend Your Drawings\n\n\nShare your BIM model or drawings and we’ll get started\n\n\n\n\nGet a Quote\n\n\nUpload your model details and receive a quote\n\n\n\n\nSend us your drawings Free sample takeoff\n\n\n\n Checked Against the Drawings\n\n\n Software Extraction, Then Manual Check\n\n\n 2-3 Day Turnaround\n\n\n 20 Years International Experience\n\n\n\n\n\nNeed Help Now?\nContact: info@bimtakeoff.com | +44 (0) 20 3239 9967\nOffice hours: Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.\n\n:::"
+    "objectID": "services/automated-quantity-takeoff.html#send-the-drawings-for-your-next-tender",
+    "href": "services/automated-quantity-takeoff.html#send-the-drawings-for-your-next-tender",
+    "title": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
+    "section": "Send the drawings for your next tender",
+    "text": "Send the drawings for your next tender\nAttach a file up to 20 MB or use the Document download link field. If your return date is inside 72 hours, ring instead.\n\nSend us your drawings Free sample takeoff"
   },
   {
     "objectID": "resources/roi-report.html",
@@ -1180,7 +1173,7 @@
     "href": "contact.html#what-to-send-us",
     "title": "Send Us Your Drawings",
     "section": "What to send us",
-    "text": "What to send us\nDrawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one."
+    "text": "What to send us\nDrawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.\nAttach a file up to 20 MB, or use the document download link field."
   },
   {
     "objectID": "contact.html#what-happens-next",
@@ -1222,7 +1215,7 @@
     "href": "index.html",
     "title": "Quantity Takeoffs and Priced Bills for Subcontractors",
     "section": "",
-    "text": "Quantity surveying for subcontractors · UK · Australia · Poland\n\n\n\n\n\n\nSend us the drawings for your next drylining, facade, firestopping, screed or structural tender. You get a measured takeoff or a priced bill in your own format, ready to submit.\n\n\nSend us your drawings Free sample takeoff"
+    "text": "Quantity surveying for subcontractors · UK · Australia · Poland\n\n\n\n\n\n\nSend the PDF drawings, DWG files or IFC model for your next tender. You get a measured takeoff or priced bill in your own format, with the assumptions listed.\n\n\nSend us your drawings Free sample takeoff"
   },
   {
     "objectID": "index.html#what-we-measure-and-price",
@@ -1250,7 +1243,7 @@
     "href": "index.html#who-does-the-work",
     "title": "Quantity Takeoffs and Priced Bills for Subcontractors",
     "section": "Who does the work",
-    "text": "Who does the work\nRobert Kowalski. Twenty years measuring and pricing construction work in the UK, Australia and Poland. Facade and cladding remediation, drylining and screed, firestopping, structural and masonry packages.\nYou deal with me directly. The person who measures your drawings is the person who answers the phone when your contracts manager queries a rate. I do not subcontract the measurement out, and I do not run more tenders at once than I can take proper care of. Where I use software to speed up measurement, I say so, and every quantity that leaves here has been checked against the drawings by hand.\n\n\n\n\nWhat to send us\n\n\nDrawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.\n\n\nAttach up to 20 MB with the form. For a larger pack, email us and we send an upload link.\n\n\n\n\nWhat happens next\n\n\nWe read the pack and come back within one working day with the scope we would measure, a fixed fee and a delivery date.\n\n\nIf it is not a package we can do well, we say so and tell you who does.\n\n\nSend us your drawings"
+    "text": "Who does the work\nRobert Kowalski. Twenty years measuring and pricing construction work in the UK, Australia and Poland. Facade and cladding remediation, drylining and screed, firestopping, structural and masonry packages.\nYou deal with me directly. The person who measures your drawings is the person who answers the phone when your contracts manager queries a rate. I do not subcontract the measurement out, and I do not run more tenders at once than I can take proper care of. Where I use software to speed up measurement, I say so, and every quantity that leaves here has been checked against the drawings by hand.\n\n\n\n\nWhat to send us\n\n\nDrawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.\n\n\nAttach a file up to 20 MB with the form. For a larger pack, use the Document download link field or ask us for an upload link.\n\n\n\n\nWhat happens next\n\n\nWe read the pack and come back within one working day with the scope we would measure, a fixed fee and a delivery date.\n\n\nIf it is not a package we can do well, we say so and tell you who does.\n\n\nSend us your drawings"
   },
   {
     "objectID": "index.html#frequently-asked-questions",

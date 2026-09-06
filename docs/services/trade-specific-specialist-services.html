@@ -193,7 +193,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script>
 // Load chat widget based on language
-if (!window.location.pathname.includes('/pl/')) {
+if (!window.location.pathname.includes('/pl/') && !/\/contact(?:-thank-you)?\.html$/.test(window.location.pathname)) {
     // English pages: Load Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -219,7 +219,7 @@ if (!window.location.pathname.includes('/pl/')) {
     script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
     script.async = true;
     document.head.appendChild(script);
-} else {
+} else if (window.location.pathname.includes('/pl/') && !/\/kontakt(?:-dziekujemy)?\.html$/.test(window.location.pathname)) {
     // Polish pages: Load Polish Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',

@@ -192,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script>
 // Load chat widget based on language
-if (!window.location.pathname.includes('/pl/')) {
+if (!window.location.pathname.includes('/pl/') && !/\/contact(?:-thank-you)?\.html$/.test(window.location.pathname)) {
     // English pages: Load Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -218,7 +218,7 @@ if (!window.location.pathname.includes('/pl/')) {
     script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
     script.async = true;
     document.head.appendChild(script);
-} else {
+} else if (window.location.pathname.includes('/pl/') && !/\/kontakt(?:-dziekujemy)?\.html$/.test(window.location.pathname)) {
     // Polish pages: Load Polish Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -506,7 +506,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <div class="quarto-title-meta column-page">
 </div>
 </header>
-<div class="hero-section">
+<div class="hero-section hero-readable">
 <div class="hero-video-bg">
 <p><video autoplay="" loop="" muted="" playsinline="" poster="images/header-background.jpg" preload="none"> <source data-src="images/hero-video.webm" type="video/webm"/> <source data-src="images/hero-video.mp4" type="video/mp4"/> </video></p>
 </div>
@@ -521,7 +521,7 @@ if (!window.location.pathname.includes('/pl/')) {
 </section>
 </div>
 <div class="hero-subtitle">
-<p>Send us the drawings for your next drylining, facade, firestopping, screed or structural tender. You get a measured takeoff or a priced bill in your own format, ready to submit.</p>
+<p>Send the PDF drawings, DWG files or IFC model for your next tender. You get a measured takeoff or priced bill in your own format, with the assumptions listed.</p>
 </div>
 <div class="hero-actions">
 <p><a class="cta-primary" href="./contact.html">Send us your drawings</a> <a class="cta-secondary" href="./contact.html#sample">Free sample takeoff</a></p>
@@ -716,7 +716,7 @@ What to send us
 Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.
 </p>
 <p>
-Attach up to 20 MB with the form. For a larger pack, email us and we send an upload link.
+Attach a file up to 20 MB with the form. For a larger pack, use the Document download link field or ask us for an upload link.
 </p>
 </div>
 <div class="split-panel-text">

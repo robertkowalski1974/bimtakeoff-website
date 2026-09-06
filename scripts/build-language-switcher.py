@@ -34,9 +34,8 @@ TEMPLATE = """/**
  * Regenerate with: python3 scripts/build-language-switcher.py
  *
  * On DOMContentLoaded, finds the navbar links whose text is exactly "PL"
- * or "EN" and, if the current page has a mapped counterpart, rewrites the
- * link's href to point at it. Pages with no mapped counterpart keep the
- * default href (site root "/" or "/pl/") already in the markup.
+ * or "EN". Each link targets its own language; the current language stays
+ * on the current page. Unmapped pages use the other language's homepage.
  */
 (function () {
   "use strict";
@@ -79,18 +78,23 @@ TEMPLATE = """/**
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    var counterpart = findCounterpart(window.location.pathname);
-    if (!counterpart) {
-      // No mapped twin for this page - leave the default nav hrefs
-      // ("/" and "/pl/") exactly as rendered.
-      return;
-    }
+    var currentPath = normalizePath(window.location.pathname);
+    var currentLanguage = currentPath.indexOf("/pl/") === 0 ? "PL" : "EN";
+    var counterpart = findCounterpart(currentPath);
 
-    var links = document.querySelectorAll("a");
+    var links = document.querySelectorAll(".navbar a");
     for (var i = 0; i < links.length; i++) {
       var link = links[i];
       if (isLangLink(link)) {
-        link.setAttribute("href", counterpart);
+        var language = link.textContent.trim();
+        var isCurrent = language === currentLanguage;
+        link.setAttribute("href", isCurrent ? currentPath : (counterpart || (language === "PL" ? "/pl/" : "/")));
+        link.setAttribute("hreflang", language === "PL" ? "pl" : "en");
+        if (isCurrent) {
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
       }
     }
   });

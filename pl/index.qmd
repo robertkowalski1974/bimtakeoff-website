@@ -4,7 +4,7 @@ description: "Przedmiary robót, kosztorysy ofertowe i inwestorskie oraz wyceny 
 page-layout: full
 ---
 
-::: {.hero-section}
+::: {.hero-section .hero-readable}
 <div class="hero-video-bg">
   <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
     <source data-src="../images/hero-video.webm" type="video/webm">
@@ -24,7 +24,7 @@ Kosztorysowanie dla wykonawców · Polska · Wielka Brytania · Australia
 :::
 
 ::: {.hero-subtitle}
-Prześlij dokumentację przetargową. Otrzymasz przedmiar robót lub kosztorys ofertowy w formacie, którego wymaga zamawiający, gotowy do złożenia przed terminem.
+Prześlij rysunki PDF, pliki DWG lub model IFC do przetargu. Otrzymasz przedmiar robót lub kosztorys ofertowy w wymaganym formacie, z wykazem założeń.
 :::
 
 ::: {.hero-actions}
@@ -200,7 +200,7 @@ Kontaktujesz się bezpośrednio ze mną. Osoba, która mierzy Twoje rysunki, odb
 
 <p>Projekt (PDF lub DWG), specyfikację techniczną, przedmiar zamawiającego, jeśli jest, oraz termin składania ofert. Model IFC, jeśli istnieje; nie jest wymagany.</p>
 
-<p>Załącz do 20 MB przez formularz. Przy większej paczce napisz do nas, a wyślemy link do przesłania plików.</p>
+<p>Załącz plik do 20 MB przez formularz. Przy większej paczce użyj pola Link do pobrania dokumentacji lub poproś nas o link do przesłania plików.</p>
 :::
 
 ::: {.split-panel-text}

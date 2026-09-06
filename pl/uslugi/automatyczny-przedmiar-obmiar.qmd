@@ -1,12 +1,12 @@
 ---
-title: "Przedmiar robót z modelu BIM i rysunków 2D"
+title: "Przedmiar robót z rysunków PDF, DWG i modeli IFC"
 description: "Przedmiary robót z modeli IFC, plików DWG i rysunków 2D. Eksport do Normy PRO i Zuzi, plik ATH lub Excel. Obmiary powykonawcze do rozliczeń."
 page-layout: full
 ---
 
-::: {.hero-section}
+::: {.hero-section .hero-readable}
 <div class="hero-video-bg">
-  <video autoplay muted loop playsinline poster="../images/header-background.jpg" preload="none">
+  <video autoplay muted loop playsinline poster="../../images/header-background.jpg" preload="none">
     <source data-src="../../images/hero-video.webm" type="video/webm">
     <source data-src="../../images/hero-video.mp4" type="video/mp4">
   </video>
@@ -14,12 +14,12 @@ page-layout: full
 
 ::: {.container}
 ::: {.hero-title}
-# Przedmiar robót z modelu BIM i rysunków 2D
+# Przedmiar robót z rysunków PDF, DWG i modeli IFC
 ### Ilości, które da się sprawdzić pozycja po pozycji
 :::
 
 ::: {.hero-subtitle}
-Ilości pobrane z modelu IFC lub zmierzone z rysunków, sprawdzone ręcznie i wydane w formacie Twojego programu kosztorysowego.
+Prześlij rysunki PDF, pliki DWG lub model IFC. Otrzymasz sprawdzone ilości w formacie Twojego programu kosztorysowego, z wykazem założeń. Model BIM nie jest wymagany.
 :::
 
 ::: {style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;"}

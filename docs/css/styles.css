@@ -390,6 +390,20 @@ h3 {
   z-index: 1;
 }
 
+/* Keep white text readable even over the brightest video/poster frame. */
+.hero-section.hero-readable {
+  background-image: linear-gradient(rgba(44, 44, 44, .82), rgba(44, 44, 44, .82)), url('../images/header-background.jpg');
+}
+
+.hero-readable .hero-video-bg::after {
+  background: rgba(44, 44, 44, .82);
+}
+
+.hero-readable .hero-subtitle {
+  max-width: 850px;
+  margin-inline: auto;
+}
+
 /* Video disabled state (mobile / reduced data / no-JS) - poster stays */
 .hero-video-bg.video-disabled video {
   display: none;

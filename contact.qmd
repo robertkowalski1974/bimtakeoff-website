@@ -19,6 +19,10 @@ Enquiries answered within one working day, Monday to Friday. If your return date
 ::: {.contact-layout}
 
 ::: {#enquiry-form .contact-form-col}
+Choose **Quote** or **Free sample takeoff**, then describe the package and your return date.
+
+**Pack over 20 MB?** Use the **Document download link** field. If you need an upload link from us, ask in your message.
+
 <div id="pipedrive-form-container">
 <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6zn50nAGFqDMqCePDIwHF7k5vGVVyG206yALEygYrIPgUGFlmheoEO3qDFf8ZmXd7B"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
 </div>
@@ -32,6 +36,8 @@ We use your details only to answer this enquiry. See our [privacy policy](privac
 ## What to send us
 
 Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.
+
+Attach a file up to 20 MB, or use the document download link field.
 
 ## What happens next
 

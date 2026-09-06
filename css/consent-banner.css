@@ -89,9 +89,20 @@
 }
 
 @media (max-width: 600px) {
+  #bimtakeoff-consent-banner {
+    bottom: 88px;
+    max-height: calc(100dvh - 104px);
+    overflow-y: auto;
+    padding: 16px;
+  }
+
   .bimtakeoff-consent-inner {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .bimtakeoff-consent-text {
+    flex: 0 1 auto;
   }
 
   .bimtakeoff-consent-actions {
@@ -100,5 +111,6 @@
 
   .bimtakeoff-consent-btn {
     width: 100%;
+    white-space: normal;
   }
 }

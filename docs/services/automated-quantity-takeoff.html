@@ -4,8 +4,8 @@
 <meta charset="utf-8"/><link href="https://www.bimtakeoff.com/services/automated-quantity-takeoff.html" rel="canonical"/>
 <meta content="quarto-1.4.549" name="generator"/>
 <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
-<meta content="Automated quantity takeoff from BIM models, checked against the drawings by hand." name="description"/>
-<title>BIM Takeoff - Automated Quantity Take-off from BIM Models</title>
+<meta content="Measured quantity takeoffs from PDF drawings, DWG files and IFC models. Bills in your estimating format, with assumptions and tender queries listed." name="description"/>
+<title>BIM Takeoff - Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -124,8 +124,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@bimtakeoff" name="twitter:site"/>
 <meta content="@bimtakeoff" name="twitter:creator"/>
-<meta content="BIM Takeoff - Automated Quantity Take-off from BIM Models" name="twitter:title"/>
-<meta content="Automated quantity takeoff from BIM models, checked against the drawings by hand." name="twitter:description"/>
+<meta content="BIM Takeoff - Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC" name="twitter:title"/>
+<meta content="Measured quantity takeoffs from PDF drawings, DWG files and IFC models. Bills in your estimating format, with assumptions and tender queries listed." name="twitter:description"/>
 <!-- Organization Structured Data (Global) -->
 <script type="application/ld+json">
 {
@@ -192,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script>
 // Load chat widget based on language
-if (!window.location.pathname.includes('/pl/')) {
+if (!window.location.pathname.includes('/pl/') && !/\/contact(?:-thank-you)?\.html$/.test(window.location.pathname)) {
     // English pages: Load Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -218,7 +218,7 @@ if (!window.location.pathname.includes('/pl/')) {
     script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
     script.async = true;
     document.head.appendChild(script);
-} else {
+} else if (window.location.pathname.includes('/pl/') && !/\/kontakt(?:-dziekujemy)?\.html$/.test(window.location.pathname)) {
     // Polish pages: Load Polish Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -247,96 +247,16 @@ if (!window.location.pathname.includes('/pl/')) {
 }
 </script>
 <link href="../css/styles.css" rel="stylesheet"/>
-<meta content="BIM Takeoff - Automated Quantity Take-off from BIM Models" property="og:title"/>
-<meta content="Automated quantity takeoff from BIM models, checked against the drawings by hand." property="og:description"/>
+<meta content="BIM Takeoff - Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC" property="og:title"/>
+<meta content="Measured quantity takeoffs from PDF drawings, DWG files and IFC models. Bills in your estimating format, with assumptions and tender queries listed." property="og:description"/>
 <meta content="https://www.bimtakeoff.com/services/images/BIM TAKEOFF V2-2.jpg" property="og:image"/>
 <meta content="BIM Takeoff" property="og:site_name"/>
 <meta content="en_GB" property="og:locale"/>
 <link href="https://www.bimtakeoff.com/services/automated-quantity-takeoff.html" hreflang="en-GB" rel="alternate"/><link href="https://www.bimtakeoff.com/pl/uslugi/automatyczny-przedmiar-obmiar.html" hreflang="pl" rel="alternate"/><link href="https://www.bimtakeoff.com/services/automated-quantity-takeoff.html" hreflang="x-default" rel="alternate"/><script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What if my project doesn’t have a BIM model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we’ll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modelling services to convert your 2D drawings first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate is your measurement process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quantities are extracted from the model with measurement software and then checked against the drawings by hand. Where the model is incomplete or ambiguous, we log the assumption rather than guess. We provide complete audit trails for all measurements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if the design changes during the project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "BIM-based take-offs make this straightforward. We can update quantities based on the revised model, typically within 4-8 hours rather than weeks for manual re-measurement. We offer ongoing update services at discounted rates for active projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you comply with international measurement standards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standards, and can adapt to local standards including Polish KNR, Australian AIQS, or any other regional requirements. We’re experienced with international projects and international measurement standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you handle large, complex projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We’ve completed take-offs for projects ranging from small renovations to large developments. Our measurement software performs well on larger projects, where manual take-offs would be prohibitively time-consuming. Complex projects may require 3-4 days instead of 2-3."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What level of detail (LOD) do you need in the BIM model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We can work with LOD 300 and above for most projects. LOD 350-400 is ideal for detailed trade-specific take-offs. If your model is at LOD 200, we can still extract useful quantities but may need to supplement with 2D drawings for detailed measurements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide take-offs for specific trades or disciplines?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We can extract quantities for any trade: structural (concrete, steel, masonry), architectural (finishes, doors, windows), MEP (mechanical, electrical, plumbing, fire protection), civil works, and specialist systems. We tailor the BOQ format to match your trade requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you handle model inconsistencies or errors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This is why we check in stages. The measurement software identifies clashes and duplicates automatically. Manual review catches model errors and cross-checks with the 2D drawings. A final cross-reference check confirms logical consistency. We document all assumptions and flag any areas of concern for your review."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What’s your pricing structure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Each project is assessed individually based on project size, complexity, level of detail required, and specific deliverables. Contact us with your project details for a quote within 24 hours."
-      }
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Automated Quantity Take-off from BIM Models",
+  "name": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC",
   "provider": {
     "@type": "ProfessionalService",
     "name": "BIM Takeoff",
@@ -348,7 +268,7 @@ if (!window.location.pathname.includes('/pl/')) {
     "Poland"
   ],
   "serviceType": "Construction Cost Estimation",
-  "description": "Automated quantity takeoff from BIM models, checked against the drawings by hand."
+  "description": "Measured quantity takeoffs from PDF drawings, DWG files and IFC models. Bills in your estimating format, with assumptions and tender queries listed."
 }
 </script>
 <script type="application/ld+json">
@@ -371,7 +291,7 @@ if (!window.location.pathname.includes('/pl/')) {
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Automated Quantity Take-off from BIM Models"
+      "name": "Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC"
     }
   ]
 }
@@ -572,500 +492,121 @@ if (!window.location.pathname.includes('/pl/')) {
 <main class="content column-page" id="quarto-document-content">
 <header class="quarto-title-block default" id="title-block-header">
 <div class="quarto-title">
-<h1 class="title">Automated Quantity Take-off from BIM Models</h1>
+<h1 class="title">Quantity Takeoffs and Bills of Quantities from PDF, DWG and IFC</h1>
 </div>
 <div>
 <div class="description">
-    Automated quantity takeoff from BIM models, checked against the drawings by hand.
+    Measured quantity takeoffs from PDF drawings, DWG files and IFC models. Bills in your estimating format, with assumptions and tender queries listed.
   </div>
 </div>
 <div class="quarto-title-meta column-page">
 </div>
 </header>
-<div class="hero-section">
-<div class="hero-video-bg">
-<p><video autoplay="" loop="" muted="" playsinline="" poster="../images/header-background.jpg" preload="none"> <source data-src="../images/hero-video.webm" type="video/webm"/> <source data-src="../images/hero-video.mp4" type="video/mp4"/> </video></p>
-</div>
+<div class="hero-section hero-readable">
 <div class="container">
-<section class="level1 hero-title" id="automated-quantity-take-off-from-bim-models">
-<h1>Automated Quantity Take-off from BIM Models</h1>
-<section class="level3" id="precision-measurement-checked-by-hand">
-<h3 class="anchored" data-anchor-id="precision-measurement-checked-by-hand">Precision Measurement, Checked by Hand</h3>
-</section>
+<section class="level1 hero-title" id="quantity-takeoffs-from-pdf-drawings-dwg-and-ifc">
+<h1>Quantity takeoffs from PDF drawings, DWG and IFC</h1>
 </section>
 <div class="hero-subtitle">
-<p>Quantities extracted from the model with measurement software. Then checked against the drawings by hand.</p>
+<p>Send the drawings and specification for your next tender. You get measured quantities in your bill format, with the assumptions listed. A BIM model is optional.</p>
 </div>
-<div style="margin: 32px 0 24px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
-<div style="display: grid; grid-template-columns: 1fr; gap: 12px; text-align: left;">
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Software-Assisted Extraction</strong> - Quantities extracted from BIM models with measurement software
-</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Checked By Hand</strong> - Every quantity checked against the drawings
-</p>
-<p style="color: var(--bim-white); font-size: 18px; margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>20 Years’ Experience</strong> - Backed by two decades measuring construction projects
-</p>
-</div>
-</div>
-<div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<div class="hero-actions">
 <p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
 </div>
 </div>
 <div class="container">
-<div class="definition-block" style="background: #f8f9fa; border-left: 4px solid #FF9900; padding: 24px 32px; margin: 32px 0 48px 0; border-radius: 0 8px 8px 0;">
-<p><strong>Automated quantity takeoff</strong> uses BIM technology to extract material quantities directly from IFC model files produced by software such as Autodesk Revit, ArchiCAD, and Tekla Structures, reducing the need for manual measurement from 2D drawings. Quantities are extracted from the model with measurement software and then checked against the drawings by hand.</p>
-<p>Quantities are measured to the drawings and the specification you send. Where the information is incomplete we list the assumption rather than absorb it.</p>
-</div>
-<section class="level2" id="why-traditional-take-offs-cost-you-time-money">
-<h2 class="anchored" data-anchor-id="why-traditional-take-offs-cost-you-time-money">Why Traditional Take-offs Cost You Time &amp; Money</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 48px 0; align-items: start;">
-<section class="level3" id="manual-take-off-problems" style="">
-<h3 class="anchored" data-anchor-id="manual-take-off-problems">Manual Take-off Problems</h3>
-<p>Traditional measurement methods are slow, error-prone, and expensive:</p>
-<div style="margin: 24px 0;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> 4-6 weeks for complex projects
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Human error in manual measurement
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Missed quantities and elements
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Inconsistent measurement standards
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Design changes require complete re-measurement
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-x-circle-fill" style="color: #dc3545; margin-right: 8px;"></i> Difficult to verify and audit
-</p>
-</div>
-</section>
-<section class="level3" id="our-automated-solution" style="">
-<h3 class="anchored" data-anchor-id="our-automated-solution">Our Automated Solution</h3>
-<p>Measurement software combined with manual checking:</p>
-<div style="margin: 24px 0;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>2-3 days</strong> for complete take-off
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Checked against the drawings</strong> by hand
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Complete element capture (no missed items)
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> ISO 19650 compliant measurement
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Instant updates for design changes
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> Full audit trail and documentation
-</p>
-</div>
-</section>
-</div>
-</section>
-<section class="level2" id="how-we-check-every-quantity">
-<h2 class="anchored" data-anchor-id="how-we-check-every-quantity">How We Check Every Quantity</h2>
-<section class="level3" id="software-extraction-then-manual-checking" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
-<h3 class="anchored" data-anchor-id="software-extraction-then-manual-checking">Software Extraction, Then Manual Checking</h3>
-<p>Construction projects cannot afford measurement errors. Every quantity goes through more than one check before it reaches you.</p>
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin: 32px 0;">
-<section class="level4" id="step-1-software-extraction" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="step-1-software-extraction"><i aria-hidden="true" class="bi bi-cpu-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 1: Software Extraction</h4>
-<p><strong>Automated BIM Analysis</strong></p>
-<p>Measurement software extracts quantities from the BIM model:</p>
+<section class="level2" id="what-you-get">
+<h2 class="anchored" data-anchor-id="what-you-get">What you get</h2>
+<p>Quantities by element, floor and block, arranged for your estimator or the main contractor’s bill. We agree the measurement basis and output format before we start.</p>
 <ul>
-<li>Pattern recognition for element identification</li>
-<li>Automated measurement calculations</li>
-<li>Clash detection and resolution</li>
-<li>Duplicate element removal</li>
-<li>Version control tracking</li>
+<li>A measured bill in Excel, your tender template or CITE/eBQ for import.</li>
+<li>Item descriptions and units matched to the agreed scope.</li>
+<li>A list of assumptions, exclusions and tender queries.</li>
+<li>References to the drawings and revisions used for measurement.</li>
 </ul>
-<p><strong>Duration:</strong> 1-2 hours</p>
+<p>Need rates as well? Our <a href="../services/cost-estimation-budget-planning.html">tender pricing service</a> adds pricing, preliminaries and qualifications to the agreed package.</p>
 </section>
-<section class="level4" id="step-2-manual-review" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="step-2-manual-review"><i aria-hidden="true" class="bi bi-person-check-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 2: Manual Review</h4>
-<p><strong>Human Verification</strong></p>
-<p>We manually review the software output against the drawings:</p>
-<ul>
-<li>Cross-check against 2D drawings</li>
-<li>Validate measurement methodologies</li>
-<li>Identify missing elements</li>
-<li>Apply construction knowledge</li>
-<li>Verify unit conversions</li>
-</ul>
-<p><strong>Duration:</strong> 4-8 hours</p>
-</section>
-<section class="level4" id="step-3-cross-reference-check" style="background: white; padding: 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-top: 4px solid var(--bim-orange);">
-<h4 class="anchored" data-anchor-id="step-3-cross-reference-check"><i aria-hidden="true" class="bi bi-diagram-3-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Step 3: Cross-Reference Check</h4>
-<p><strong>Final Check</strong></p>
-<p>Final check against multiple sources:</p>
-<ul>
-<li>Compare with historical project data</li>
-<li>Benchmark against industry standards</li>
-<li>Verify with specification documents</li>
-<li>Check material relationships</li>
-<li>Final QA review</li>
-</ul>
-<p><strong>Duration:</strong> 2-4 hours</p>
-</section>
-</div>
-<div style="text-align: center; margin-top: 32px; padding: 24px; background: rgba(255, 153, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--bim-orange);">
-<p><strong>Result:</strong> Each quantity passes through software extraction, manual review, and a cross-reference check before it reaches you.</p>
-</div>
-</section>
-</section>
-</div>
-<section class="level2" id="our-proven-4-step-process">
-<h2 class="anchored" data-anchor-id="our-proven-4-step-process">Our Proven 4-Step Process</h2>
-<div class="process-steps">
-<section class="level4 process-step" id="step-1-model-ingestion-preparation">
-<h4 class="anchored" data-anchor-id="step-1-model-ingestion-preparation">Step 1: Model Ingestion &amp; Preparation</h4>
-<p><strong>Duration:</strong> 4-6 hours</p>
-<p><strong>What We Do:</strong></p>
-<ul>
-<li>Receive BIM model (IFC, Revit, ArchiCAD, Tekla)</li>
-<li>Validate model completeness and integrity</li>
-<li>Check element classifications and properties</li>
-<li>Identify any data gaps or inconsistencies</li>
-<li>Configure measurement parameters</li>
-</ul>
-<p><strong>What You Receive:</strong> Model validation report with any issues flagged</p>
-</section>
-<section class="level4 process-step" id="step-2-automated-extraction">
-<h4 class="anchored" data-anchor-id="step-2-automated-extraction">Step 2: Automated Extraction</h4>
-<p><strong>Duration:</strong> 1-2 hours (automated)</p>
-<p><strong>What We Do:</strong></p>
-<ul>
-<li>Quantity extraction from BIM model using measurement software</li>
-<li>Automated measurement calculations</li>
-<li>Element classification and grouping</li>
-<li>Clash detection and duplicate removal</li>
-<li>Generate preliminary Bill of Quantities</li>
-</ul>
-<p><strong>What You Receive:</strong> Preliminary BOQ with automated measurements</p>
-</section>
-<section class="level4 process-step" id="step-3-manual-review">
-<h4 class="anchored" data-anchor-id="step-3-manual-review">Step 3: Manual Review</h4>
-<p><strong>Duration:</strong> 4-8 hours</p>
-<p><strong>What We Do:</strong></p>
-<ul>
-<li>Quantity Surveyor manual verification</li>
-<li>Cross-check with 2D drawings</li>
-<li>Apply construction industry standards</li>
-<li>Identify and add missing elements</li>
-<li>Validate measurement methodologies</li>
-<li>Apply project-specific requirements</li>
-</ul>
-<p><strong>What You Receive:</strong> Manually reviewed BOQ with quality assurance notes</p>
-</section>
-<section class="level4 process-step" id="step-4-cross-reference-final-qa">
-<h4 class="anchored" data-anchor-id="step-4-cross-reference-final-qa">Step 4: Cross-Reference &amp; Final QA</h4>
-<p><strong>Duration:</strong> 2-4 hours</p>
-<p><strong>What We Do:</strong></p>
-<ul>
-<li>Compare with historical project data</li>
-<li>Benchmark against industry standards</li>
-<li>Final specification document verification</li>
-<li>Checked against the drawings by hand</li>
-<li>Generate comprehensive documentation</li>
-<li>Prepare audit trail and commentary</li>
-</ul>
-<p><strong>What You Receive:</strong> Final validated BOQ with complete documentation and audit trail</p>
-</section>
-</div>
-<div style="text-align: center; margin: 32px 0; padding: 24px; background: var(--bim-light-gray); border-radius: 8px;">
-<p><strong>Total Timeline:</strong> 12-20 working hours<br/>
-<strong>Total Project Duration:</strong> 2-3 days from model receipt to final delivery</p>
-</div>
-</section>
-<section class="level2" id="whats-included-in-your-bill-of-quantities">
-<h2 class="anchored" data-anchor-id="whats-included-in-your-bill-of-quantities">What’s Included in Your Bill of Quantities</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 48px 0;">
-<section class="level3" id="standard-deliverables" style="">
-<h3 class="anchored" data-anchor-id="standard-deliverables">Standard Deliverables</h3>
-<p>Every automated take-off includes:</p>
-<div style="margin: 24px 0;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Detailed Bill of Quantities</strong> (Excel format)
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>3D Visual Markup</strong> showing measured elements
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Measurement Commentary</strong> explaining methodologies
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Validation Reports</strong> documenting each check performed
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Complete Audit Trail</strong> for verification
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Element Schedule</strong> with properties and attributes
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-check-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Assumption Log</strong> documenting any assumptions
-</p>
-</div>
-</section>
-<section class="level3" id="optional-add-ons" style="">
-<h3 class="anchored" data-anchor-id="optional-add-ons">Optional Add-ons</h3>
-<p>Enhance your take-off with:</p>
-<div style="margin: 24px 0;">
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Cost Estimation</strong> - Apply rates to quantities
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Schedule Integration</strong> - Link quantities to programme
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Tender Documentation</strong> - Prepare BOQ for bidding
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Value Engineering</strong> - Identify cost savings
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Material Waste Analysis</strong> - Calculate wastage factors
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Custom Formatting</strong> - Match your template requirements
-</p>
-<p style="color: var(--bim-charcoal); margin: 12px 0; font-size: 16px;">
-<i aria-hidden="true" class="bi bi-plus-circle-fill" style="color: var(--bim-orange); margin-right: 8px;"></i> <strong>Ongoing Updates</strong> - Track design changes over time
-</p>
-</div>
-</section>
-</div>
-</section>
-<section class="level2" id="industries-project-types-we-serve">
-<h2 class="anchored" data-anchor-id="industries-project-types-we-serve">Industries &amp; Project Types We Serve</h2>
+<section class="level2" id="drawings-or-models-we-work-with-the-pack-you-have">
+<h2 class="anchored" data-anchor-id="drawings-or-models-we-work-with-the-pack-you-have">Drawings or models: we work with the pack you have</h2>
 <div class="feature-grid">
-<section class="level3 feature-card" id="commercial-buildings">
-<h3 class="anchored" data-anchor-id="commercial-buildings"><i aria-hidden="true" class="bi bi-building" style="color: var(--bim-orange); margin-right: 12px;"></i>Commercial Buildings</h3>
-<p>Office complexes, retail centres, mixed-use developments, hospitality projects</p>
+<section class="level3 feature-card" id="pdf-drawings">
+<h3 class="anchored" data-anchor-id="pdf-drawings">PDF drawings</h3>
+<p>We check the scale and revisions, then measure the package against the drawings and specification. Missing details go into the query register.</p>
 </section>
-<section class="level3 feature-card" id="healthcare-facilities">
-<h3 class="anchored" data-anchor-id="healthcare-facilities"><i aria-hidden="true" class="bi bi-hospital" style="color: var(--bim-orange); margin-right: 12px;"></i>Healthcare Facilities</h3>
-<p>Hospitals, medical centres, aged care facilities, specialist clinics</p>
+<section class="level3 feature-card" id="dwg-files">
+<h3 class="anchored" data-anchor-id="dwg-files">DWG files</h3>
+<p>We measure the drawing geometry and check dimensions, units and scope. Quantities follow the bill structure you need.</p>
 </section>
-<section class="level3 feature-card" id="residential-developments">
-<h3 class="anchored" data-anchor-id="residential-developments"><i aria-hidden="true" class="bi bi-houses-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Residential Developments</h3>
-<p>Multi-family housing, apartment complexes, townhouse developments</p>
-</section>
-<section class="level3 feature-card" id="industrial-logistics">
-<h3 class="anchored" data-anchor-id="industrial-logistics"><i aria-hidden="true" class="bi bi-boxes" style="color: var(--bim-orange); margin-right: 12px;"></i>Industrial &amp; Logistics</h3>
-<p>Warehouses, distribution centres, manufacturing facilities, cold storage</p>
-</section>
-<section class="level3 feature-card" id="education-institutional">
-<h3 class="anchored" data-anchor-id="education-institutional"><i aria-hidden="true" class="bi bi-mortarboard-fill" style="color: var(--bim-orange); margin-right: 12px;"></i>Education &amp; Institutional</h3>
-<p>Universities, schools, libraries, government buildings, civic centres</p>
-</section>
-<section class="level3 feature-card" id="infrastructure-projects">
-<h3 class="anchored" data-anchor-id="infrastructure-projects"><i aria-hidden="true" class="bi bi-tools" style="color: var(--bim-orange); margin-right: 12px;"></i>Infrastructure Projects</h3>
-<p>Transport hubs, utilities, public works, civil engineering projects</p>
+<section class="level3 feature-card" id="ifc-models">
+<h3 class="anchored" data-anchor-id="ifc-models">IFC models</h3>
+<p>We check model coverage before extracting quantities. We compare the output with the drawings and measure omitted items separately.</p>
 </section>
 </div>
+<p>If you work in Revit, ArchiCAD or Tekla, send an IFC export with the drawing set. We confirm whether the model contains the information needed for your package.</p>
 </section>
-<section class="level2" id="supported-file-formats-software">
-<h2 class="anchored" data-anchor-id="supported-file-formats-software">Supported File Formats &amp; Software</h2>
-<section class="level3" id="we-work-with-your-existing-workflow" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 48px 32px; border-radius: 12px; margin: 48px 0;">
-<h3 class="anchored" data-anchor-id="we-work-with-your-existing-workflow">We Work With Your Existing Workflow</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; margin: 32px 0;">
-<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<p><strong>BIM Software</strong></p>
-<ul>
-<li>Autodesk Revit</li>
-<li>ArchiCAD</li>
-<li>Tekla Structures</li>
-<li>Bentley MicroStation</li>
-<li>Vectorworks</li>
-</ul>
-</div>
-<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<p><strong>File Formats</strong></p>
-<ul>
-<li>IFC 2x3 / IFC 4</li>
-<li>Revit (RVT)</li>
-<li>DWG / DXF</li>
-<li>PDF (with dimensions)</li>
-<li>Point Clouds (if needed)</li>
-</ul>
-</div>
-<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<p><strong>Export Formats</strong></p>
-<ul>
-<li>Excel (XLSX)</li>
-<li>CSV</li>
-<li>PDF Reports</li>
-<li>BCF (for markups)</li>
-<li>Native BIM formats</li>
-</ul>
-</div>
-<div style="text-align: center; padding: 24px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-<p><strong>Integration</strong></p>
-<ul>
-<li>MS Project</li>
-<li>Primavera P6</li>
-<li>CostX / Vico</li>
-<li>Procore / BIM 360</li>
-<li>Custom APIs</li>
-</ul>
-</div>
-</div>
-<div style="text-align: center; margin-top: 24px; padding: 20px; background: rgba(255, 153, 0, 0.1); border-radius: 8px;">
-<p><strong>Don’t see your software?</strong> We work with virtually any BIM or CAD platform. Contact us to discuss your specific requirements.</p>
+<section class="level2" id="packages-we-measure">
+<h2 class="anchored" data-anchor-id="packages-we-measure">Packages we measure</h2>
+<p>Drylining and screed, facades and cladding, firestopping, structural concrete, masonry and tiling. We also prepare multi-trade bills for main contractors.</p>
+<p>We flag boundaries between trades so you can see which items need agreement before tender return.</p>
+</section>
+<section class="level2" id="how-it-works">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<div class="process-steps">
+<section class="level3 process-step" id="send-the-pack">
+<h3 class="anchored" data-anchor-id="send-the-pack">Send the pack</h3>
+<p>Drawings, specification, tender bill if available, and your return date. Include the output format your estimator uses.</p>
+</section>
+<section class="level3 process-step" id="agree-the-scope-and-fee">
+<h3 class="anchored" data-anchor-id="agree-the-scope-and-fee">Agree the scope and fee</h3>
+<p>We reply within one working day with the scope, a fixed fee and a delivery date. Timing depends on the package and the information supplied.</p>
+</section>
+<section class="level3 process-step" id="receive-the-checked-bill">
+<h3 class="anchored" data-anchor-id="receive-the-checked-bill">Receive the checked bill</h3>
+<p>We check quantities against the drawings and specification before issue. You receive the bill with assumptions and queries listed.</p>
+</section>
 </div>
 </section>
-<p>:::</p>
-</section>
-<section class="level2" id="frequently-asked-questions">
-<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
-<div class="faq-section">
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: What if my project doesn’t have a BIM model?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: We can work with 2D drawings (DWG, PDF) but timelines will be significantly longer as we’ll need to extract quantities manually. For best results and fastest turnaround, we recommend using BIM models or consider our BIM modelling services to convert your 2D drawings first.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: How accurate is your measurement process?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Quantities are extracted from the model with measurement software and then checked against the drawings by hand. Where the model is incomplete or ambiguous, we log the assumption rather than guess. We provide complete audit trails for all measurements.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: What happens if the design changes during the project?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: BIM-based take-offs make this straightforward. We can update quantities based on the revised model, typically within 4-8 hours rather than weeks for manual re-measurement. We offer ongoing update services at discounted rates for active projects.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: Do you comply with international measurement standards?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Yes, we comply with RICS New Rules of Measurement (NRM), ISO 19650 BIM standards, and can adapt to local standards including Polish KNR, Australian AIQS, or any other regional requirements. We’re experienced with international projects and international measurement standards.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: Can you handle large, complex projects?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Yes. We’ve completed take-offs for projects ranging from small renovations to large developments. Our measurement software performs well on larger projects, where manual take-offs would be prohibitively time-consuming. Complex projects may require 3-4 days instead of 2-3.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: What level of detail (LOD) do you need in the BIM model?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: We can work with LOD 300 and above for most projects. LOD 350-400 is ideal for detailed trade-specific take-offs. If your model is at LOD 200, we can still extract useful quantities but may need to supplement with 2D drawings for detailed measurements.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: Do you provide take-offs for specific trades or disciplines?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Yes! We can extract quantities for any trade: structural (concrete, steel, masonry), architectural (finishes, doors, windows), MEP (mechanical, electrical, plumbing, fire protection), civil works, and specialist systems. We tailor the BOQ format to match your trade requirements.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: How do you handle model inconsistencies or errors?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: This is why we check in stages. The measurement software identifies clashes and duplicates automatically. Manual review catches model errors and cross-checks with the 2D drawings. A final cross-reference check confirms logical consistency. We document all assumptions and flag any areas of concern for your review.</p>
-</div>
-</div>
-<div class="faq-item">
-<div class="faq-question">
-<p><strong>Q: What’s your pricing structure?</strong></p>
-</div>
-<div class="faq-answer">
-<p>A: Priced per package, quoted before we start. No hourly billing and no fee for scope we did not agree. Each project is assessed individually based on project size, complexity, level of detail required, and specific deliverables. Contact us with your project details for a quote within 24 hours.</p>
-</div>
+<section class="level2" id="see-the-output">
+<h2 class="anchored" data-anchor-id="see-the-output">See the output</h2>
+<div class="deliverable-figure">
+<p><a href="../images/deliverable-bill.webp"><img alt="Drylining bill extract showing item references, descriptions and measured quantities" height="1397" src="../images/deliverable-bill.webp" width="967"/></a></p>
+<div class="deliverable-caption">
+<p>A drylining trade bill in the contractor’s report format. Select the image to view the detail.</p>
 </div>
 </div>
 </section>
-<section class="level2" id="ready-for-fast-accurate-quantity-take-offs">
-<h2 class="anchored" data-anchor-id="ready-for-fast-accurate-quantity-take-offs">Ready for Fast, Accurate Quantity Take-offs?</h2>
-<div style="margin: 64px 0; padding: 48px 32px; background: linear-gradient(135deg, var(--bim-charcoal) 0%, #3a3a3a 100%); border-radius: 8px; text-align: center;">
-<div style="max-width: 800px; margin: 0 auto;">
-<h2 class="anchored" style="color: var(--bim-white); border-bottom: 3px solid var(--bim-orange); padding-bottom: 16px; margin-bottom: 24px;">
-Stop Wasting Weeks on Manual Measurements
-</h2>
-<p style="color: var(--bim-white); font-size: 18px; margin-bottom: 32px;">
-Contractors and subcontractors who chose measurement software and manual checking over traditional methods.
-</p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 32px; margin-bottom: 32px;">
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Free Sample Take-off
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Submit your model, get a sample section extracted free
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Send Your Drawings
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Share your BIM model or drawings and we’ll get started
-</p>
-</div>
-<div style="padding: 24px; background: rgba(255, 255, 255, 0.1); border-radius: 8px;">
-<h3 class="anchored" style="color: var(--bim-orange); font-size: 20px; margin-bottom: 8px;">
-Get a Quote
-</h3>
-<p style="color: var(--bim-white); margin: 0;">
-Upload your model details and receive a quote
-</p>
-</div>
-</div>
-<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+<section class="level2" id="common-questions">
+<h2 class="anchored" data-anchor-id="common-questions">Common questions</h2>
+<section class="level3" id="do-i-need-a-bim-model">
+<h3 class="anchored" data-anchor-id="do-i-need-a-bim-model">Do I need a BIM model?</h3>
+<p>No. We measure from PDF drawings and DWG files. An IFC model is another input, where available.</p>
+</section>
+<section class="level3" id="can-you-use-our-bill-format">
+<h3 class="anchored" data-anchor-id="can-you-use-our-bill-format">Can you use our bill format?</h3>
+<p>Yes. Send the template with the drawings. We confirm the format as part of the quote.</p>
+</section>
+<section class="level3" id="what-if-the-drawings-are-incomplete">
+<h3 class="anchored" data-anchor-id="what-if-the-drawings-are-incomplete">What if the drawings are incomplete?</h3>
+<p>We identify the gaps and list the assumptions. If a missing drawing prevents measurement, we flag it before committing to that scope.</p>
+</section>
+<section class="level3" id="can-you-update-the-bill-after-a-revision">
+<h3 class="anchored" data-anchor-id="can-you-update-the-bill-after-a-revision">Can you update the bill after a revision?</h3>
+<p>Yes. Send the revised information and we confirm the affected scope, fee and delivery date before the update.</p>
+</section>
+<section class="level3" id="can-i-try-a-sample-first">
+<h3 class="anchored" data-anchor-id="can-i-try-a-sample-first">Can I try a sample first?</h3>
+<p>Send one floor, one elevation or one unit type. We return a free sample within two working days, in your bill format.</p>
+</section>
+</section>
+<section class="level2 cta-banner" id="send-the-drawings-for-your-next-tender">
+<h2 class="anchored" data-anchor-id="send-the-drawings-for-your-next-tender">Send the drawings for your next tender</h2>
+<p>Attach a file up to 20 MB or use the Document download link field. If your return date is inside 72 hours, ring instead.</p>
+<div class="hero-actions">
 <p><a class="cta-primary" href="../contact.html">Send us your drawings</a> <a class="cta-secondary" href="../contact.html#sample">Free sample takeoff</a></p>
 </div>
-<div style="margin-top: 32px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Checked Against the Drawings</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>Software Extraction, Then Manual Check</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>2-3 Day Turnaround</strong>
-</p>
-<p style="color: var(--bim-white); font-size: 16px; margin: 8px 0;">
-<i aria-hidden="true" class="bi bi-patch-check-fill" style="color: var(--bim-orange);"></i> <strong>20 Years International Experience</strong>
-</p>
-</div>
-</div>
-</div>
-<section class="level3" id="need-help-now" style="margin: 48px 0; padding: 32px; background: var(--bim-light-gray); border-radius: 8px; text-align: center;">
-<h3 class="anchored" data-anchor-id="need-help-now">Need Help Now?</h3>
-<p><strong>Contact:</strong> <a href="mailto:info@bimtakeoff.com">info@bimtakeoff.com</a> | <a href="tel:+442032399967">+44 (0) 20 3239 9967</a></p>
-<p><strong>Office hours:</strong> Monday to Friday, 08:00 to 18:00 UK time. Enquiries answered within one working day.</p>
 </section>
-<p>:::</p>
-</section>
+</div>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

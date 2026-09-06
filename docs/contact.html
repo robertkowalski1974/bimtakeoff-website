@@ -192,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script>
 // Load chat widget based on language
-if (!window.location.pathname.includes('/pl/')) {
+if (!window.location.pathname.includes('/pl/') && !/\/contact(?:-thank-you)?\.html$/.test(window.location.pathname)) {
     // English pages: Load Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -218,7 +218,7 @@ if (!window.location.pathname.includes('/pl/')) {
     script.src = 'https://leadbooster-chat.pipedrive.com/assets/loader.js';
     script.async = true;
     document.head.appendChild(script);
-} else {
+} else if (window.location.pathname.includes('/pl/') && !/\/kontakt(?:-dziekujemy)?\.html$/.test(window.location.pathname)) {
     // Polish pages: Load Polish Pipedrive chat
     window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
@@ -488,6 +488,8 @@ if (!window.location.pathname.includes('/pl/')) {
 <div class="container">
 <div class="contact-layout">
 <div class="contact-form-col" id="enquiry-form">
+<p>Choose <strong>Quote</strong> or <strong>Free sample takeoff</strong>, then describe the package and your return date.</p>
+<p><strong>Pack over 20 MB?</strong> Use the <strong>Document download link</strong> field. If you need an upload link from us, ask in your message.</p>
 <div id="pipedrive-form-container">
 <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6zn50nAGFqDMqCePDIwHF7k5vGVVyG206yALEygYrIPgUGFlmheoEO3qDFf8ZmXd7B">
 <script src="https://webforms.pipedrive.com/f/loader"></script>
@@ -501,6 +503,7 @@ if (!window.location.pathname.includes('/pl/')) {
 <section class="level2" id="what-to-send-us">
 <h2 class="anchored" data-anchor-id="what-to-send-us">What to send us</h2>
 <p>Drawings (PDF or DWG), the specification or NBS output, the tender bill if there is one, and your return date. IFC or Revit if you have a model. We do not need one.</p>
+<p>Attach a file up to 20 MB, or use the document download link field.</p>
 </section>
 <section class="level2" id="what-happens-next">
 <h2 class="anchored" data-anchor-id="what-happens-next">What happens next</h2>
